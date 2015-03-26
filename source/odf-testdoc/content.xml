@@ -1,180 +1,1013 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2">
-  <office:scripts/>
-  <office:font-face-decls>
-    <style:font-face style:name="Mangal1" svg:font-family="Mangal"/>
-    <style:font-face style:name="Liberation Serif" svg:font-family="'Liberation Serif'" style:font-family-generic="roman" style:font-pitch="variable"/>
-    <style:font-face style:name="Thorndale" svg:font-family="Thorndale" style:font-family-generic="roman" style:font-pitch="variable"/>
-    <style:font-face style:name="Liberation Sans" svg:font-family="'Liberation Sans'" style:font-family-generic="swiss" style:font-pitch="variable"/>
-    <style:font-face style:name="Mangal" svg:font-family="Mangal" style:font-family-generic="system" style:font-pitch="variable"/>
-    <style:font-face style:name="Microsoft YaHei" svg:font-family="'Microsoft YaHei'" style:font-family-generic="system" style:font-pitch="variable"/>
-    <style:font-face style:name="SimSun" svg:font-family="SimSun" style:font-family-generic="system" style:font-pitch="variable"/>
-  </office:font-face-decls>
-  <office:automatic-styles>
-    <style:style style:name="TestingTable" style:family="table">
-      <style:table-properties style:width="6.6931in" table:align="margins"/>
-    </style:style>
-    <style:style style:name="TestingTable.A" style:family="table-column">
-      <style:table-column-properties style:column-width="2.2313in" style:rel-column-width="21845*"/>
-    </style:style>
-    <style:style style:name="TestingTable.A1" style:family="table-cell" style:data-style-name="N10100">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#0099ff" fo:padding="0in" fo:border-left="none" fo:border-right="none" fo:border-top="2.5pt solid #000080" fo:border-bottom="0.05pt solid #000080" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.A2" style:family="table-cell" style:data-style-name="N10100">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff" fo:padding="0in" fo:border="none" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.B2" style:family="table-cell">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff" fo:padding="0in" fo:border="none" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.C2" style:family="table-cell">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff" fo:padding="0in" fo:border="none" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.B3" style:family="table-cell">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff" fo:padding="0in" fo:border="none" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.C3" style:family="table-cell">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff" fo:padding="0in" fo:border="none" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.A4" style:family="table-cell" style:data-style-name="N10100">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#ffffff" fo:padding="0in" fo:border-left="none" fo:border-right="none" fo:border-top="0.05pt solid #000080" fo:border-bottom="2.5pt solid #000080" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.B4" style:family="table-cell">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#ffffff" fo:padding="0in" fo:border-left="none" fo:border-right="none" fo:border-top="0.05pt solid #000080" fo:border-bottom="2.5pt solid #000080" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="TestingTable.C4" style:family="table-cell">
-      <style:table-cell-properties style:vertical-align="" fo:background-color="#ffffff" fo:padding="0in" fo:border-left="none" fo:border-right="none" fo:border-top="0.05pt solid #000080" fo:border-bottom="2.5pt solid #000080" style:writing-mode="page">
-        <style:background-image/>
-      </style:table-cell-properties>
-    </style:style>
-    <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Text_20_body">
-      <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
-    </style:style>
-    <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Table_20_Heading">
-      <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
-      <style:text-properties fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Thorndale" fo:font-size="12pt" fo:font-style="italic" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="bold" style:text-overline-style="none" style:text-overline-color="font-color"/>
-    </style:style>
-    <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Title">
-      <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
-    </style:style>
-    <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-      <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
-      <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Thorndale" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-overline-style="none" style:text-overline-color="font-color"/>
-    </style:style>
-    <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Subtitle">
-      <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
-    </style:style>
-    <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
-      <style:text-properties officeooo:rsid="000f845c" officeooo:paragraph-rsid="000f845c"/>
-    </style:style>
-    <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Heading_20_1">
-      <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
-    </style:style>
-    <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Heading_20_2">
-      <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
-    </style:style>
-    <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Heading_20_3">
-      <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
-    </style:style>
-    <style:style style:name="T1" style:family="text">
-      <style:text-properties officeooo:rsid="000f1b3a"/>
-    </style:style>
-    <number:text-style style:name="N10100" number:language="en" number:country="US">
-      <number:text-content/>
-    </number:text-style>
-  </office:automatic-styles>
-  <office:body>
-    <office:text text:use-soft-page-breaks="true">
-      <text:sequence-decls>
-        <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
-        <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
-        <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
-        <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
-      </text:sequence-decls>
-      <text:p text:style-name="P3">This is the title</text:p>
-      <text:p text:style-name="P5">This is the subtitle</text:p>
-      <text:h text:style-name="P7" text:outline-level="1">This is a lvl 1 heading</text:h>
-      <text:p text:style-name="P1">This is a regular paragraph. This is a text-reference (Hanssen, 2015) containing just an author and the published year. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. This is a text-reference by Hanssen (2015) containing just the published year with the author mentioned before the paranthesis. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words.</text:p>
-      <text:h text:style-name="P8" text:outline-level="2">This is a lvl 2 heading</text:h>
-      <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentencs with some words. This is another text-reference (Eikebrokk, Kessel &amp; Dahl, 2014) containing multiple authors and the published year. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words.</text:p>
-      <text:h text:style-name="P9" text:outline-level="3">This is a lvl 3 heading</text:h>
-      <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words.</text:p>
-      <text:h text:style-name="Heading_20_4" text:outline-level="4">This is a lvl 4 heading</text:h>
-      <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words.</text:p>
-      <text:h text:style-name="Heading_20_2" text:outline-level="2">This is another lvl 2 heading</text:h>
-      <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentencs with some words. This is another text-reference (Eikebrokk, Kessel &amp; Dahl, 2010, 2014, 2015) containing multiple authors and multiple published years. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. Here is a text-reference with one author and multiple years <text:soft-page-break/>(Hanssen, 2010, 2011, 2012).</text:p>
-      <text:h text:style-name="Heading_20_5" text:outline-level="5">This is a lvl 5 heading</text:h>
-      <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. Here is a <text:span text:style-name="T1">reference with multiple authors and multiple years</text:span> (Eikebrokk, Kessel &amp; Dahl, 2010, 2014, 2015; Hanssen, 2015; Kay, <text:span text:style-name="T1">2001, </text:span>2007)</text:p>
-      <text:h text:style-name="Heading_20_6" text:outline-level="6">This is a lvl 6 heading</text:h>
-      <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words. It contains a few sentencs with some words.</text:p>
-      <table:table table:name="TestingTable" table:style-name="TestingTable">
-        <table:table-column table:style-name="TestingTable.A" table:number-columns-repeated="3"/>
-        <table:table-header-rows>
-          <table:table-row>
-            <table:table-cell table:style-name="TestingTable.A1" office:value-type="float" office:value="0">
-              <text:p text:style-name="P2">Col1 Heading</text:p>
-            </table:table-cell>
-            <table:table-cell table:style-name="TestingTable.A1" office:value-type="float" office:value="0">
-              <text:p text:style-name="P2">Col2 Heading</text:p>
-            </table:table-cell>
-            <table:table-cell table:style-name="TestingTable.A1" office:value-type="float" office:value="0">
-              <text:p text:style-name="P2">Col3 Heading</text:p>
-            </table:table-cell>
-          </table:table-row>
-        </table:table-header-rows>
-        <table:table-row>
-          <table:table-cell table:style-name="TestingTable.A2" office:value-type="float" office:value="0">
-            <text:p text:style-name="P4">Cell 1-1</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="TestingTable.B2" office:value-type="string">
-            <text:p text:style-name="P4">Cell 1-2</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="TestingTable.C2" office:value-type="string">
-            <text:p text:style-name="P4">Cell 1-3</text:p>
-          </table:table-cell>
-        </table:table-row>
-        <table:table-row>
-          <table:table-cell table:style-name="TestingTable.A2" office:value-type="float" office:value="0">
-            <text:p text:style-name="P4">Cell 2-1</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="TestingTable.B3" office:value-type="string">
-            <text:p text:style-name="P4">Cell 2-2</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="TestingTable.C3" office:value-type="string">
-            <text:p text:style-name="P4">Cell 2-3</text:p>
-          </table:table-cell>
-        </table:table-row>
-        <table:table-row>
-          <table:table-cell table:style-name="TestingTable.A4" office:value-type="float" office:value="0">
-            <text:p text:style-name="P4">Cell 3-1</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="TestingTable.B4" office:value-type="string">
-            <text:p text:style-name="P4">Cell 3-2</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="TestingTable.C4" office:value-type="string">
-            <text:p text:style-name="P4">Cell 3-3</text:p>
-          </table:table-cell>
-        </table:table-row>
-      </table:table>
-      <text:p text:style-name="P6">Two empty paragraphs folow to see if they will be deleted!</text:p>
-      <text:p text:style-name="P6"/>
-      <text:p text:style-name="P6"/>
-      <text:p text:style-name="P6">Two empty paragraphs before this one.</text:p>
-    </office:text>
-  </office:body>
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+    xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+    xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+    xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+    xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+    xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+    xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+    xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+    xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+    xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+    xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer"
+    xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events"
+    xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:rpt="http://openoffice.org/2005/report"
+    xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+    xmlns:officeooo="http://openoffice.org/2009/office"
+    xmlns:tableooo="http://openoffice.org/2009/table"
+    xmlns:drawooo="http://openoffice.org/2010/draw"
+    xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0"
+    xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+    xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+    xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+    xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2">
+    <office:scripts/>
+    <office:font-face-decls>
+        <style:font-face style:name="OpenSymbol" svg:font-family="OpenSymbol"
+            style:font-charset="x-symbol"/>
+        <style:font-face style:name="Mangal1" svg:font-family="Mangal"/>
+        <style:font-face style:name="Liberation Mono" svg:font-family="&apos;Liberation Mono&apos;"
+            style:font-family-generic="modern" style:font-pitch="fixed"/>
+        <style:font-face style:name="NSimSun" svg:font-family="NSimSun"
+            style:font-family-generic="modern" style:font-pitch="fixed"/>
+        <style:font-face style:name="Liberation Serif"
+            svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman"
+            style:font-pitch="variable"/>
+        <style:font-face style:name="Thorndale" svg:font-family="Thorndale"
+            style:font-family-generic="roman" style:font-pitch="variable"/>
+        <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;"
+            style:font-family-generic="swiss" style:font-pitch="variable"/>
+        <style:font-face style:name="Mangal" svg:font-family="Mangal"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="Microsoft YaHei" svg:font-family="&apos;Microsoft YaHei&apos;"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+        <style:font-face style:name="SimSun" svg:font-family="SimSun"
+            style:font-family-generic="system" style:font-pitch="variable"/>
+    </office:font-face-decls>
+    <office:automatic-styles>
+        <style:style style:name="TestingTable" style:family="table">
+            <style:table-properties style:width="6.6931in" table:align="margins"/>
+        </style:style>
+        <style:style style:name="TestingTable.A" style:family="table-column">
+            <style:table-column-properties style:column-width="2.2313in"
+                style:rel-column-width="21845*"/>
+        </style:style>
+        <style:style style:name="TestingTable.A1" style:family="table-cell"
+            style:data-style-name="N10100">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#0099ff"
+                fo:padding="0in" fo:border-left="none" fo:border-right="none"
+                fo:border-top="2.5pt solid #000080" fo:border-bottom="0.05pt solid #000080"
+                style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.A2" style:family="table-cell"
+            style:data-style-name="N10100">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff"
+                fo:padding="0in" fo:border="none" style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.B2" style:family="table-cell">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff"
+                fo:padding="0in" fo:border="none" style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.C2" style:family="table-cell">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff"
+                fo:padding="0in" fo:border="none" style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.B3" style:family="table-cell">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff"
+                fo:padding="0in" fo:border="none" style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.C3" style:family="table-cell">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#99ccff"
+                fo:padding="0in" fo:border="none" style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.A4" style:family="table-cell"
+            style:data-style-name="N10100">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#ffffff"
+                fo:padding="0in" fo:border-left="none" fo:border-right="none"
+                fo:border-top="0.05pt solid #000080" fo:border-bottom="2.5pt solid #000080"
+                style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.B4" style:family="table-cell">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#ffffff"
+                fo:padding="0in" fo:border-left="none" fo:border-right="none"
+                fo:border-top="0.05pt solid #000080" fo:border-bottom="2.5pt solid #000080"
+                style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="TestingTable.C4" style:family="table-cell">
+            <style:table-cell-properties style:vertical-align="" fo:background-color="#ffffff"
+                fo:padding="0in" fo:border-left="none" fo:border-right="none"
+                fo:border-top="0.05pt solid #000080" fo:border-bottom="2.5pt solid #000080"
+                style:writing-mode="page">
+                <style:background-image/>
+            </style:table-cell-properties>
+        </style:style>
+        <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Text_20_body">
+            <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
+        </style:style>
+        <style:style style:name="P2" style:family="paragraph"
+            style:parent-style-name="Table_20_Heading">
+            <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+            <style:text-properties fo:color="#ffffff" style:text-outline="false"
+                style:text-line-through-style="none" style:text-line-through-type="none"
+                style:font-name="Thorndale" fo:font-size="12pt" fo:font-style="italic"
+                fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold"
+                officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"
+                style:font-size-asian="12pt" style:font-style-asian="italic"
+                style:font-weight-asian="bold" style:font-size-complex="12pt"
+                style:font-style-complex="italic" style:font-weight-complex="bold"
+                style:text-overline-style="none" style:text-overline-color="font-color"/>
+        </style:style>
+        <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Title">
+            <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
+        </style:style>
+        <style:style style:name="P4" style:family="paragraph"
+            style:parent-style-name="Table_20_Contents">
+            <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+            <style:text-properties fo:color="#000000" style:text-outline="false"
+                style:text-line-through-style="none" style:text-line-through-type="none"
+                style:font-name="Thorndale" fo:font-size="12pt" fo:font-style="normal"
+                fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal"
+                officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"
+                style:font-size-asian="12pt" style:font-style-asian="normal"
+                style:font-weight-asian="normal" style:font-size-complex="12pt"
+                style:font-style-complex="normal" style:font-weight-complex="normal"
+                style:text-overline-style="none" style:text-overline-color="font-color"/>
+        </style:style>
+        <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Subtitle">
+            <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
+        </style:style>
+        <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+            <style:text-properties officeooo:rsid="000f845c" officeooo:paragraph-rsid="000f845c"/>
+        </style:style>
+        <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
+            <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
+        </style:style>
+        <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
+            <style:text-properties officeooo:rsid="00107786" officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
+            <style:text-properties officeooo:rsid="0016a522" officeooo:paragraph-rsid="0016a522"/>
+        </style:style>
+        <style:style style:name="P10" style:family="paragraph"
+            style:parent-style-name="Heading_20_1">
+            <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
+        </style:style>
+        <style:style style:name="P11" style:family="paragraph"
+            style:parent-style-name="Heading_20_2">
+            <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
+        </style:style>
+        <style:style style:name="P12" style:family="paragraph"
+            style:parent-style-name="Heading_20_3">
+            <style:text-properties officeooo:rsid="000eea65" officeooo:paragraph-rsid="000eea65"/>
+        </style:style>
+        <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Endnote">
+            <style:text-properties officeooo:rsid="0014e4ab" officeooo:paragraph-rsid="0014e4ab"/>
+        </style:style>
+        <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Endnote">
+            <style:text-properties officeooo:rsid="00164f12" officeooo:paragraph-rsid="00164f12"/>
+        </style:style>
+        <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Footnote">
+            <style:text-properties officeooo:rsid="0014e4ab" officeooo:paragraph-rsid="0014e4ab"/>
+        </style:style>
+        <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Header">
+            <style:text-properties officeooo:rsid="00107786" officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Footer">
+            <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+            <style:text-properties officeooo:rsid="00107786" officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="P18" style:family="paragraph"
+            style:parent-style-name="List_20_Contents" style:list-style-name="L1"/>
+        <style:style style:name="P19" style:family="paragraph"
+            style:parent-style-name="List_20_Contents" style:list-style-name="L1">
+            <style:text-properties officeooo:rsid="00107786" officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="P20" style:family="paragraph"
+            style:parent-style-name="List_20_Contents" style:list-style-name="L6">
+            <style:text-properties officeooo:rsid="00107786" officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="P21" style:family="paragraph"
+            style:parent-style-name="List_20_Contents" style:list-style-name="L6">
+            <style:text-properties officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="P22" style:family="paragraph"
+            style:parent-style-name="List_20_Contents" style:list-style-name="L1">
+            <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in"
+                fo:text-indent="0in" style:auto-text-indent="false"/>
+            <style:text-properties officeooo:rsid="00107786" officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="P23" style:family="paragraph"
+            style:parent-style-name="Preformatted_20_Text">
+            <style:text-properties officeooo:rsid="00107786" officeooo:paragraph-rsid="00107786"/>
+        </style:style>
+        <style:style style:name="T1" style:family="text">
+            <style:text-properties officeooo:rsid="000f1b3a"/>
+        </style:style>
+        <style:style style:name="T2" style:family="text">
+            <style:text-properties officeooo:rsid="00107786"/>
+        </style:style>
+        <style:style style:name="T3" style:family="text">
+            <style:text-properties officeooo:rsid="00129c99"/>
+        </style:style>
+        <style:style style:name="T4" style:family="text">
+            <style:text-properties officeooo:rsid="00144c15"/>
+        </style:style>
+        <text:list-style style:name="L1">
+            <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in"
+                        fo:margin-left="0.5in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in"
+                        fo:margin-left="0.75in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1in" fo:text-indent="-0.25in"
+                        fo:margin-left="1in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.25in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.5in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.75in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2in" fo:text-indent="-0.25in"
+                        fo:margin-left="2in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.25in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.5in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.75in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+        </text:list-style>
+        <text:list-style style:name="L2">
+            <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="0.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="0.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="3.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="3.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <text:list-style style:name="L3">
+            <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="0.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="0.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="3.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="3.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <text:list-style style:name="L4">
+            <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="0.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="0.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="3.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="3.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+        </text:list-style>
+        <text:list-style style:name="L5">
+            <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="0.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="0.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+            <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols"
+                style:num-suffix="." style:num-format="1">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="3.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="3.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-number>
+        </text:list-style>
+        <text:list-style style:name="L6">
+            <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="0.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="0.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="1.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="1.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.3937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.3937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="◦">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.6437in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.6437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="▪">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="2.8937in" fo:text-indent="-0.25in"
+                        fo:margin-left="2.8937in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+            <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols"
+                text:bullet-char="•">
+                <style:list-level-properties
+                    text:list-level-position-and-space-mode="label-alignment">
+                    <style:list-level-label-alignment text:label-followed-by="listtab"
+                        text:list-tab-stop-position="3.1437in" fo:text-indent="-0.25in"
+                        fo:margin-left="3.1437in"/>
+                </style:list-level-properties>
+            </text:list-level-style-bullet>
+        </text:list-style>
+        <number:text-style style:name="N10100" number:language="en" number:country="US">
+            <number:text-content/>
+        </number:text-style>
+    </office:automatic-styles>
+    <office:body>
+        <office:text text:use-soft-page-breaks="true">
+            <text:sequence-decls>
+                <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+                <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+                <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+                <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+            </text:sequence-decls>
+            <text:p text:style-name="P3">This is the title</text:p>
+            <text:p text:style-name="P5">This is the subtitle</text:p>
+            <text:h text:style-name="P10" text:outline-level="1">This is a lvl 1 heading</text:h>
+            <text:p text:style-name="P9">This is a sample document to test converting an ODF text
+                document to JATS using odf2jats.</text:p>
+            <text:p text:style-name="P1">This is a regular paragraph. This is a text-reference
+                (Hanssen, 2015) containing just an author and the published year. It contains a few
+                sentences with some words. It contains a few sentences with some words. It contains
+                a few sentences with some words. It contains a few sentences with some words. It
+                contains a few sentences with some words. This is a text-reference by Hanssen (2015)
+                containing just the published year with the author mentioned before the paranthesis.
+                It contains a few sentences with some words.<text:note text:id="ftn0"
+                    text:note-class="endnote">
+                    <text:note-citation>i</text:note-citation>
+                    <text:note-body>
+                        <text:p text:style-name="P13">This is the first endnote. Just some random
+                            rambling to test footnotes and endnotes in Libre Office.</text:p>
+                    </text:note-body>
+                </text:note> It contains a few sentences with some words. It contains a few
+                sentences with some words.</text:p>
+            <text:h text:style-name="P11" text:outline-level="2">This is a lvl 2 heading</text:h>
+            <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentences
+                with some words. This is another text-reference (Eikebrokk, Kessel &amp; Dahl, 2014)
+                containing multiple authors and the published year. It contains a few sentences with
+                some words. It contains a few sentences with some words. It contains a few sentences
+                with some words. It contains a few sentences with some words. It contains a few
+                sentences with some words. It contains a few sentences with some words. It contains
+                a few sentences with some words.</text:p>
+            <text:p text:style-name="List_20_Heading">This is a list heading, here follows an
+                unordered list:</text:p>
+            <text:list xml:id="list1883317566316388012" text:style-name="L6">
+                <text:list-item>
+                    <text:p text:style-name="P20">First item</text:p>
+                </text:list-item>
+                <text:list-item>
+                    <text:p text:style-name="P20">Second item</text:p>
+                </text:list-item>
+                <text:list-item>
+                    <text:p text:style-name="P21"><text:span text:style-name="T2">Third
+                            item</text:span></text:p>
+                </text:list-item>
+                <text:list-item>
+                    <text:p text:style-name="P20">Fourth item</text:p>
+                </text:list-item>
+            </text:list>
+            <text:h text:style-name="P12" text:outline-level="3">This is a lvl 3 heading</text:h>
+            <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentences
+                with some words. It contains a few sentences with some words. It contains a few
+                sentences with some words. It contains a few sentences with some words. It contains
+                a few sentences with some words. It contains a few sentences with some words. It
+                contains a few sentences with some words. It contains a few sentences with some
+                words.</text:p>
+            <text:p text:style-name="P8">Here follows some code listing (preformatted
+                text):</text:p>
+            <text:p text:style-name="P23">body#home {margin: 0 auto; max-width: 80em;}</text:p>
+            <text:h text:style-name="Heading_20_4" text:outline-level="4"
+                ><text:soft-page-break/>This is a lvl 4 heading</text:h>
+            <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentences
+                with some words. It contains a few sentences with some words. It contains a few
+                sentences with some words. It contains a few sentences with some words. It contains
+                a few sentences with some words. It contains a few sentences with some words. It
+                contains a few sentences with some words. It contains a few sentences with some
+                words.</text:p>
+            <text:h text:style-name="Heading_20_2" text:outline-level="2">This is another lvl 2
+                heading</text:h>
+            <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentences
+                with some words. This is another text-reference (Eikebrokk, Kessel &amp; Dahl, 2010,
+                2014, 2015) containing multiple authors and multiple published years. It contains a
+                few sentences with some words. It contains a few sentenc<text:span
+                    text:style-name="T4">e</text:span>s with some words. It contains a few sentences
+                with some words. It contains a few sentences with some words. It contains a few
+                sentences with some words. It contains a few sentences with some words. It contains
+                a few sentences with some words. Here is a text-reference with one author and
+                multiple years (Hanssen, 2010, 2011, 2012).</text:p>
+            <text:h text:style-name="Heading_20_5" text:outline-level="5">This is a lvl 5
+                heading</text:h>
+            <text:p text:style-name="P1">This is a regular paragraph.<text:note text:id="ftn2"
+                    text:note-class="footnote">
+                    <text:note-citation>1</text:note-citation>
+                    <text:note-body>
+                        <text:p text:style-name="P15">Here is the fist footnote. I hope it is nice
+                            to behold!</text:p>
+                    </text:note-body>
+                </text:note> It contains a few sentences with some words. It contains a few
+                sentences with some words. It contains a few sentences with some words. It contains
+                a few sentences with some words. It contains a few sentences with some words. It
+                contains a few sentences with some words. It contains a few sentences with some
+                words. It contains a few sentences with some words. Here is a <text:span
+                    text:style-name="T1">reference with multiple authors and multiple
+                    years</text:span> (Eikebrokk, Kessel &amp; Dahl, 2010, 2014, 2015; Hanssen,
+                2015; Kay, <text:span text:style-name="T1">2001, </text:span>2007)</text:p>
+            <text:p text:style-name="List_20_Heading"><text:span text:style-name="T2">This is the
+                    list heading, h</text:span>ere follow an ordered list:</text:p>
+            <text:list xml:id="list8168070080805113881" text:style-name="L1">
+                <text:list-item>
+                    <text:p text:style-name="P18">This is the first list item</text:p>
+                </text:list-item>
+                <text:list-item>
+                    <text:p text:style-name="P18">This is the second list item</text:p>
+                </text:list-item>
+                <text:list-item>
+                    <text:p text:style-name="P18">This is the third list item</text:p>
+                </text:list-item>
+                <text:list-item>
+                    <text:p text:style-name="P18">This is the fourth list item</text:p>
+                </text:list-item>
+                <text:list-item>
+                    <text:p text:style-name="P19">And this is the fifth list item</text:p>
+                    <text:p text:style-name="P22"/>
+                </text:list-item>
+            </text:list>
+            <text:h text:style-name="Heading_20_6" text:outline-level="6">This is a lvl 6
+                heading</text:h>
+            <text:p text:style-name="P1">This is a regular paragraph. It contains a few sentences
+                with some words. It contains a few sentences with some words.<text:note
+                    text:id="ftn1" text:note-class="endnote">
+                    <text:note-citation>ii</text:note-citation>
+                    <text:note-body>
+                        <text:p text:style-name="P13">This is the second endnote. Just some more
+                            random rambling to test footnotes and endnotes in Libre Office.</text:p>
+                    </text:note-body>
+                </text:note> It contains a few sentences with some words. It contains a few
+                sentences with some words. It contains a few sentences with some words. It contains
+                a few sentences with some words. It contains a few sentences with some
+                    words.<text:note text:id="ftn3" text:note-class="footnote">
+                    <text:note-citation>2</text:note-citation>
+                    <text:note-body>
+                        <text:p text:style-name="P15">And here is the second footnote. I hope it is
+                            just as nice as the other one.</text:p>
+                    </text:note-body>
+                </text:note> It contains a few sentences with some words.</text:p>
+            <table:table table:name="TestingTable" table:style-name="TestingTable">
+                <table:table-column table:style-name="TestingTable.A"
+                    table:number-columns-repeated="3"/>
+                <table:table-header-rows>
+                    <table:table-row>
+                        <table:table-cell table:style-name="TestingTable.A1"
+                            office:value-type="float" office:value="0">
+                            <text:p text:style-name="P2">Col1 Heading</text:p>
+                        </table:table-cell>
+                        <table:table-cell table:style-name="TestingTable.A1"
+                            office:value-type="float" office:value="0">
+                            <text:p text:style-name="P2">Col2 Heading</text:p>
+                        </table:table-cell>
+                        <table:table-cell table:style-name="TestingTable.A1"
+                            office:value-type="float" office:value="0">
+                            <text:p text:style-name="P2">Col3 Heading</text:p>
+                        </table:table-cell>
+                    </table:table-row>
+                </table:table-header-rows>
+                <table:table-row>
+                    <table:table-cell table:style-name="TestingTable.A2" office:value-type="float"
+                        office:value="0">
+                        <text:p text:style-name="P4">Cell 1-1</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="TestingTable.B2" office:value-type="string">
+                        <text:p text:style-name="P4">Cell 1-2</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="TestingTable.C2" office:value-type="string">
+                        <text:p text:style-name="P4">Cell 1-3</text:p>
+                    </table:table-cell>
+                </table:table-row>
+                <text:soft-page-break/>
+                <table:table-row>
+                    <table:table-cell table:style-name="TestingTable.A2" office:value-type="float"
+                        office:value="0">
+                        <text:p text:style-name="P4">Cell 2-1</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="TestingTable.B3" office:value-type="string">
+                        <text:p text:style-name="P4">Cell 2-2</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="TestingTable.C3" office:value-type="string">
+                        <text:p text:style-name="P4">Cell 2-3</text:p>
+                    </table:table-cell>
+                </table:table-row>
+                <table:table-row>
+                    <table:table-cell table:style-name="TestingTable.A4" office:value-type="float"
+                        office:value="0">
+                        <text:p text:style-name="P4">Cell 3-1</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="TestingTable.B4" office:value-type="string">
+                        <text:p text:style-name="P4">Cell 3-2</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="TestingTable.C4" office:value-type="string">
+                        <text:p text:style-name="P4">Cell 3-3</text:p>
+                    </table:table-cell>
+                </table:table-row>
+            </table:table>
+            <text:p text:style-name="Table">Table<text:span text:style-name="T3">1</text:span>
+                caption</text:p>
+            <text:p text:style-name="P6">Two empty paragraphs folow to see if they will be
+                    deleted!<text:note text:id="ftn4" text:note-class="footnote">
+                    <text:note-citation>3</text:note-citation>
+                    <text:note-body>
+                        <text:p text:style-name="P15">And here is a third footnote! May it be the
+                            last one.</text:p>
+                    </text:note-body>
+                </text:note></text:p>
+            <text:p text:style-name="P6"/>
+            <text:p text:style-name="P6"/>
+            <text:p text:style-name="P6">Two empty paragraphs before this one.<text:note
+                    text:id="ftn5" text:note-class="endnote">
+                    <text:note-citation>iii</text:note-citation>
+                    <text:note-body>
+                        <text:p text:style-name="P14">And this is the third endnote. May it rule
+                            them all.</text:p>
+                    </text:note-body>
+                </text:note></text:p>
+        </office:text>
+    </office:body>
 </office:document-content>
