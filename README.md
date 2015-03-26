@@ -35,6 +35,14 @@ The same goes for the text in the manuscript, it should be formatted using parag
 Then a style-mapping can be tailored to the specific family of manuscripts. 
 This style-mapping will be used in generating the structure and semantics needed to mark up the manuscript using the JATS tagset.
 
+## Related projects
+The JATS XML file that this project aims to autogenerate is to be used with the jats2epub tool.
+I am also working on a solution for automatically tagging Office Open XML documents.
+
+- https://github.com/eirikhanssen/ooxml2jats - automatic tagging using Office Open XML format as a base
+- https://github.com/eirikhanssen/jats2epub - generation of HTML fulltext, .epub and optionally .mobi formats from JATS XML source
+
+
 ## How to contribute
 
 If you're interested in this project you can
