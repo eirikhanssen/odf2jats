@@ -80,7 +80,14 @@
                             <xsl:text>bullet</xsl:text>
                         </xsl:when>
                         <xsl:when test="$current_list_style/text:list-level-style-number">
-                            <xsl:text>order</xsl:text>
+                            <xsl:variable name="num-format" select="$current_list_style/text:list-level-style-number[1]/@style:num-format"/>
+                            <xsl:choose>
+                                <xsl:when test="$num-format = 'a'">alpha-lower</xsl:when>
+                                <xsl:when test="$num-format = 'A'">alpha-upper</xsl:when>
+                                <xsl:when test="$num-format = 'i'">roman-lower</xsl:when>
+                                <xsl:when test="$num-format = 'I'">roman-upper</xsl:when>
+                                <xsl:otherwise>order</xsl:otherwise>
+                            </xsl:choose>
                         </xsl:when>
                     </xsl:choose>
                 </xsl:when>
