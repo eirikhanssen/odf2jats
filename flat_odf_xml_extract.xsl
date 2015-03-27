@@ -106,6 +106,27 @@
         </xsl:element>
     </xsl:template>
 
+    <!--
+        footnotes and endnotes are mapped to xref and fn elements used in JATS
+        in the place where the footnote/endnote is located in odf.
+        Later in the pipeline all the fn elements (that are not part of a table's footnote group)
+        should be put in the back/fn-group section, leaving just the xref elements referring to the
+        footnotes in place.
+    -->
+    <xsl:template match="text:note">
+        <sup>
+            <xsl:element name="xref">
+                <xsl:attribute name="ref-type" select="'fn'"/>
+                <xsl:attribute name="rid" select="@text:id"/>
+                <xsl:apply-templates select="text:note-citation"/>
+            </xsl:element>
+        </sup>
+        <xsl:element name="fn">
+            <xsl:attribute name="id" select="@text:id"/>
+            <xsl:apply-templates select="text:note-body"/>
+        </xsl:element>
+    </xsl:template>
+
     <xsl:template match="text:h">
         <!-- store the outline_level in a variable, default to 1 -->
         <xsl:variable name="outline_level" select="if (current()/@text:outline-level) then (current()/@text:outline-level) else ('1')" as="xs:string"/>
@@ -164,6 +185,8 @@
         <sm:style>
             <sm:name>Standard</sm:name>
             <sm:name>Text_20_body</sm:name>
+            <sm:name>Footnote</sm:name>
+            <sm:name>Endnote</sm:name>
             <sm:transformTo>p</sm:transformTo>
         </sm:style>
         <sm:style>
