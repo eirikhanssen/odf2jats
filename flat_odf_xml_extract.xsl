@@ -71,8 +71,19 @@
         <!--
             Figure out the type of list, and set the optional @list-type=
             "order|bullet|alpha-lower|alpha-upper|roman-lower|roman-upper|simple"
+ 
+            The style name compared here must be the style name of the topmost list, 
+            because that's where the styles for all nested lists are contained! 
+            
+            So we must use the list-level here and count starting from the text:list in focus
+            up all ancestor text list to the top text:list, that means $list-level times up,
+            and that's the point where we will be able to find the correct list style information.
         -->
-        <xsl:variable name="style-name" select="if (@text:style-name) then (@text:style-name) else ('')" as="xs:string"/>
+
+        <xsl:variable name="style-name" select="
+            if (current()/ancestor-or-self::text:list[$list-level]/@text:style-name)
+            then (current()/ancestor-or-self::text:list[$list-level]/@text:style-name)
+            else ('')" as="xs:string"/>
         <xsl:variable name="list-type" as="xs:string">
             <xsl:choose>
                 <xsl:when test="$style-name != '' and /office:document-content/office:automatic-styles/text:list-style[@style:name = $style-name]">
@@ -99,7 +110,6 @@
             </xsl:choose>
         </xsl:variable>
         <xsl:element name="list">
-            <xsl:attribute name="lvl" select="$list-level"/>
             <xsl:if test="$list-type != 'undefined'">
                 <xsl:attribute name="list-type">
                     <xsl:value-of select="$list-type"/>

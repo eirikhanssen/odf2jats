@@ -8,7 +8,7 @@
 <p>We aim at providing an overview of key components in the quality debate within health care. By presenting an analysis and discussion of the development of approaches to and definitions of quality of care we hope to create a better basis for discussions of the relationship between physician professionalism and quality.</p>
 <h1>FauxHeading1WithoutOutline</h1>
 <p>Order list</p>
-<list lvl="1" list-type="order">
+<list list-type="order">
    <list-item>
       <p>order list</p>
    </list-item>
@@ -23,7 +23,7 @@
    </list-item>
 </list>
 <p>Alpha lower list</p>
-<list lvl="1" list-type="alpha-lower">
+<list list-type="alpha-lower">
    <list-item>
       <p>alpha-lower list</p>
    </list-item>
@@ -35,7 +35,7 @@
    </list-item>
 </list>
 <p>Alpha upper list</p>
-<list lvl="1" list-type="alpha-upper">
+<list list-type="alpha-upper">
    <list-item>
       <p>alpha-upper list</p>
    </list-item>
@@ -51,7 +51,7 @@
 <p>simple list item</p>
 <p>simple list item</p>
 <p>A roman lower list</p>
-<list lvl="1" list-type="roman-lower">
+<list list-type="roman-lower">
    <list-item>
       <p>roman-lower list</p>
    </list-item>
@@ -62,8 +62,8 @@
       <p>roman-lower list</p>
    </list-item>
 </list>
-<p>A nested list</p>
-<list lvl="1" list-type="roman-upper">
+<p>A nested list: roman-upper &gt; order list &gt; bullet list</p>
+<list list-type="roman-upper">
    <list-item>
       <p>roman-upper list</p>
    </list-item>
@@ -72,7 +72,7 @@
    </list-item>
    <list-item>
       <p>roman-upper list</p>
-      <list lvl="2">
+      <list list-type="order">
          <list-item>
             <p>order list lvl 2</p>
          </list-item>
@@ -83,33 +83,29 @@
    </list-item>
    <list-item>
       <p>roman-upper list</p>
-      <list lvl="2">
+      <list list-type="order">
          <list-item>
             <p>order list lvl 2</p>
          </list-item>
          <list-item>
             <p>order list lvl 2</p>
-         </list-item>
-      </list>
-   </list-item>
-</list>
-<list lvl="1" list-type="bullet">
-   <list-item>
-      <list lvl="2">
-         <list-item>
-            <p>Bullet nested list item lvl 3</p>
-         </list-item>
-         <list-item>
-            <p>Bullet nested list item lvl 3</p>
-         </list-item>
-         <list-item>
-            <p>Bullet nested list item lvl 3</p>
+            <list list-type="bullet">
+               <list-item>
+                  <p>bullet list lvl 3</p>
+               </list-item>
+               <list-item>
+                  <p>bullet list lvl 3</p>
+               </list-item>
+               <list-item>
+                  <p>bullet list lvl 3</p>
+               </list-item>
+            </list>
          </list-item>
       </list>
    </list-item>
 </list>
 <p>A bullet list</p>
-<list lvl="1" list-type="bullet">
+<list list-type="bullet">
    <list-item>
       <p>Bullet list item</p>
    </list-item>
@@ -121,7 +117,7 @@
    </list-item>
 </list>
 <p>A roman upper list</p>
-<list lvl="1" list-type="roman-upper">
+<list list-type="roman-upper">
    <list-item>
       <p>roman-upper list</p>
    </list-item>
@@ -199,7 +195,7 @@
 <p>Health-care quality and quality indicators are complex topics, with a range of different conceptual approaches, operationalizations and measurement techniques (Arah, Westert, Hurst, &amp; Klazinga, 2006; Legido-Quigley, McKee, Nolte, &amp; Glinos, 2008; Lohr, 1990a; Smith, 2009). Furthermore, the distinction between quality and performance is often unclear, and the level of measurement varies from the concrete practice level to the health-care system level (Adair et al., 2006; McIntyre, Rogers, &amp; Heier, 2001). The fact that patients, clinicians, leaders and other stakeholders might have different perspectives on health-care quality makes it even harder to standardize and harmonize different conceptual models of quality.</p>
 <h2>Perspectives on health-care quality</h2>
 <p>It should be noted that the different levels of quality of care are not the same as different perspectives on health-care quality. Various perspectives can be applied within each level of care. These perspectives are strongly related to roles and stakeholders, with the three main perspectives being defined as:</p>
-<list lvl="1" list-type="bullet">
+<list list-type="bullet">
    <list-item>
       <p>Politicians, health-care managers and others with responsibility for groups, communities and national systems;</p>
    </list-item>
@@ -260,7 +256,7 @@
 <p>Deciding on a more specific health-care definition of quality, the patient perspective has an important but more limited role. The patient perspective is included in most conceptual health-care models of quality as a separate quality dimension, and patients are also included in the evaluation of quality. For example, through concepts like patient satisfaction and experiences of care, the IOM approach includes the patient perspective in the term “outcomes,” which also has patient centeredness as one of six dimensions of quality (Institute of Medicine, 2001; Lohr, 1990b). The patient centeredness component is usually measured by systematic surveys of patient-reported experiences, at least in large-scale settings.</p>
 <h2>The quality triade</h2>
 <p>In the mid-1960s, Avedis Donabedian (1919 – 2000) raised the question of how the quality of health care can best be assessed (Donabedian, 2005), and introduced what has later become known as the quality triade, namely, structure, process and outcome:</p>
-<list lvl="1" list-type="bullet">
+<list list-type="bullet">
    <list-item>
       <p>Common indicators of structure are economy, buildings, number of hospital beds, population to be served;</p>
    </list-item>
@@ -276,7 +272,7 @@
 <h2>Dimensions of health care quality</h2>
 <p>A variety of definitions for health-care quality have been proposed (Arah et al., 2006; Donabedian, 1988; Donabedian &amp; Bashshur, 2003; Institute of Medicine, 2001; Legido-Quigley et al., 2008; Lohr, 1990a; Smith, 2009) (see Table page 4), and most of them relate health-care services to health outcomes. A frequently referenced definition from the Institute of Medicine states that, “quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes and are consistent with current professional knowledge” (Lohr, 1990a). The IOM definition is health-care-specific and was based on a review of approximately 100 health-care quality definitions (Lohr, 1990b), relating quality to the final goals of the health-care system. Moreover, health outcomes are not specified in detail, opening up the possibility of different perspectives on what are the most important outcomes (Legido-Quigley et al., 2008). The definition includes both the patient and population perspective, thus also including the health promotion part of the health-care system.</p>
 <p>However, some common features exist. These can often be traced back to the work of Avedis Donabedian (1919-2000), creator of The Donabedian Model of Care, and who is seen as the founder of the study of quality in health care (Donabedian, 1988, 2005; Donabedian &amp; Bashshur, 2003). Donabedian conceptualized quality as the product of the science and technology of health care and the application of that science and technology, thereby resulting in the following dimensions (Donabedian &amp; Bashshur, 2003):</p>
-<list lvl="1" list-type="bullet">
+<list list-type="bullet">
    <list-item>
       <p>Efficacy, the ability of the science and technology of health care to bring about improvements in health when used under the most favorable circumstances;</p>
    </list-item>
@@ -313,7 +309,7 @@
 <p>Measurement is a necessary condition if the health-care system is to be held accountable for its action and use of money. Policymakers who provide the funding of the health services need a tool to ensure that the money is well spent and that the quality of care is good, with the purpose of the indicators being accountability, in addition to ensuring public legitimacy and control. The providers of health care (institutions and organizations) need information to guide strategic decision making, and quality indicators may identify areas of care that need extra attention or resources. With regard to clinic quality, indicators are useful tools to guide quality improvement processes. As a basis for hospital choice or as a tool for trust building, indicators may also be used to communicate with the customers/patient. The transparency of the quality of care is important from the patient perspective, and will influence the expectation they have towards the health-care system.</p>
 <p>Patient experiences is an important outcome variable in itself, and is also associated with patient safety and clinical effectiveness (Doyle, Lennox, &amp; Bell, 2013). The evaluation of health-care quality should include the patient perspective, and patients can be included in evaluation of all core components of quality in the OECD quality indicator framework, including patient experiences, effectiveness and patient safety. International surveys of patient experiences with health services show that patients report several improvement areas (Schoen et al., 2011), thereby indicating the need for quality improvement. Examples of relevant resources include the CAHPS Improvement Guide (2014) literature on the effectiveness of patient-centered approaches to health care, and clinical guidelines and standards on the improvement of patient experiences (NICE, 2012).</p>
 <p>In Norway, the Directorate of Health is responsible for a national quality indicator system for both primary and secondary care (Helsedirektoratet, 2013). The purposes of the national quality indicator system are to:</p>
-<list lvl="1" list-type="bullet">
+<list list-type="bullet">
    <list-item>
       <p>Provide a basis and incentive for health providers to continuously improve the quality and safety of their services;</p>
    </list-item>
@@ -333,7 +329,7 @@
 <h1>Improving quality of care</h1>
 <p>Even though selection mechanisms related to the public reporting of performance measures may cause improvements, the usual and most promising path from reports to improvement is some type of organizational change (Contandriopoulos, Champagne, &amp; Denis, 2014). Since the publication of Crossing the quality chasm in 2001 (Institute of Medicine, 2001), the improvement science regarding quality and patient safety has been increasing in volume, and there are now several scientific journals dedicated to quality and quality improvement (e.g. BMJ Quality and Safety, the International Journal of Quality in Health Care).</p>
 <p>Over the past three decades, there has been a shift from just ensuring quality to working with continuous quality improvement. During the last 10-15 years, three main approaches to quality improvement work are visible:</p>
-<list lvl="1" list-type="bullet">
+<list list-type="bullet">
    <list-item>
       <p>Systems for ensuring quality of the services (certification, systems of internal control, national quality indicators);</p>
    </list-item>
@@ -358,7 +354,7 @@
 <h2>Concluding remarks</h2>
 <p>A systematic review of improvement frameworks in health, education and social services identified seven conceptual approaches based on the Institute of Medicine’s recommendations, 32 based on Kaplan and Norton’s balanced scorecard, and ten based on Donabedian’s structure-process-outcome approach (Klassen et al., 2010). The review identified 16 quality concepts applicable across many settings, sectors and levels of application, concepts being equivalent to what we have termed dimensions in this manuscript. Consequently, there is a need to further standardize the quality approach in local, national and international health-care quality and quality assessment work.</p>
 <p>We argue that the standardization work should use a health-care-specific approach to quality, for the following reasons:</p>
-<list lvl="1" list-type="bullet">
+<list list-type="bullet">
    <list-item>
       <p>Health-care services are special, as health care differs from other commodities in many respects. Health-care services include a variety of elements from brief consultations to long-term treatment plans. Emotional factors related to illness and disease play an important role in decision making that frequently must be done under uncertain conditions. There is a large asymmetry between “providers” and “customers” in terms of knowledge and experience than in most other “markets” in society. A quality concept tailor suited for health care is therefore needed. Insight into the complex nature of quality, understanding the aspects, dimensions and perspectives involved and the shared responsibility between organizations and individuals for quality improvement, as well as access to relevant and robust quality indicators, are all prerequisites for developing a better health-care system.</p>
    </list-item>
