@@ -14,6 +14,42 @@
    </bold>, as well as text that is <bold>
       <italic>italic and bold</italic>
    </bold>. Now, isn't that nice for just one paragraph!</p>
+<p>This is another paragraph containing text in <sub>subscript</sub> and text in <sup>superscript</sup>.</p>
+<p>This is another paragraph containing text in <sub>
+      <bold>bold subscript</bold>
+   </sub> and text in <sup>
+      <bold>bold superscript</bold>
+   </sup>.</p>
+<p>This is another paragraph containing text in <sub>
+      <bold>
+         <italic>bold italic subscript</italic>
+      </bold>
+   </sub> and text in <sup>
+      <bold>
+         <italic>bold italic superscript</italic>
+      </bold>
+   </sup>.</p>
+<p>This is another paragraph containing text in <sub>
+      <italic>italic subscript</italic>
+   </sub> and text in <sup>
+      <italic>italic superscript</italic>
+   </sup>.</p>
+<p>This is a paragrapgh with <sub>subscript containing both </sub>
+   <sub>
+      <bold>bold text</bold>
+   </sub>
+   <sub> and </sub>
+   <sub>
+      <italic>italic text</italic>
+   </sub>.</p>
+<p>This is a paragraph with <sup>superscript containing both </sup>
+   <sup>
+      <bold>bold</bold>
+   </sup>
+   <sup> and </sup>
+   <sup>
+      <italic>italic text</italic>
+   </sup>.</p>
 <p>Order list</p>
 <list list-type="order">
    <list-item>

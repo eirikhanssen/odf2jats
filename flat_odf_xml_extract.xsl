@@ -205,16 +205,41 @@
         <xsl:variable name="mapped-style-def" select="$automatic-styles[@style:name = current()/@text:style-name]/style:text-properties" as="element(style:text-properties)"/>
         <xsl:variable name="isBold" select="$mapped-style-def/@fo:font-weight='bold'" as="xs:boolean"/>
         <xsl:variable name="isItalic" select="$mapped-style-def/@fo:font-style='italic'" as="xs:boolean"/>
-
+        <xsl:variable name="isSubScript" select="matches($mapped-style-def/@style:text-position, '^sub')" as="xs:boolean"/>
+        <xsl:variable name="isSuperScript" select="matches($mapped-style-def/@style:text-position, '^super')" as="xs:boolean"/>
         <xsl:choose>
+            <xsl:when test="$isBold eq true() and $isItalic eq true() and $isSubScript">
+                <sub><bold><italic><xsl:apply-templates/></italic></bold></sub>
+            </xsl:when>
+            <xsl:when test="$isBold eq true() and $isItalic eq true() and $isSuperScript">
+                <sup><bold><italic><xsl:apply-templates/></italic></bold></sup>
+            </xsl:when>
             <xsl:when test="$isBold eq true() and $isItalic eq true()">
                 <bold><italic><xsl:apply-templates/></italic></bold>
+            </xsl:when>
+            <xsl:when test="$isBold eq true() and $isSubScript">
+                <sub><bold><xsl:apply-templates/></bold></sub>
+            </xsl:when>
+            <xsl:when test="$isBold eq true() and $isSuperScript">
+                <sup><bold><xsl:apply-templates/></bold></sup>
             </xsl:when>
             <xsl:when test="$isBold eq true()">
                 <bold><xsl:apply-templates/></bold>
             </xsl:when>
+            <xsl:when test="$isItalic eq true() and $isSubScript">
+                <sub><italic><xsl:apply-templates/></italic></sub>
+            </xsl:when>
+            <xsl:when test="$isItalic eq true() and $isSuperScript">
+                <sup><italic><xsl:apply-templates/></italic></sup>
+            </xsl:when>
             <xsl:when test="$isItalic eq true()">
                 <italic><xsl:apply-templates/></italic>
+            </xsl:when>
+            <xsl:when test="$isSubScript eq true()">
+                <sub><xsl:apply-templates/></sub>
+            </xsl:when>
+            <xsl:when test="$isSuperScript eq true()">
+                <sup><xsl:apply-templates/></sup>
             </xsl:when>
             <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
         </xsl:choose>
