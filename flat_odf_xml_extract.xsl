@@ -12,26 +12,24 @@
 
     <xsl:output method="xml" indent="yes"/>
 
-    <xsl:variable name="styles" select="doc('')/xsl:stylesheet/sm:styles/sm:style"
-        as="element(sm:style)+"/>
+    <xsl:variable name="styles"
+        select="doc('')/xsl:stylesheet/sm:styles/sm:style" as="element(sm:style)+"/>
 
-    <xsl:template match="/">
-        <xsl:apply-templates/>
-    </xsl:template>
-
-    <xsl:template match="office:document-content">
-        <xsl:apply-templates/>
-    </xsl:template>
-
-    <xsl:template match="office:body">
-            <xsl:apply-templates/>
-    </xsl:template>
+    <xsl:variable name="automatic-styles"
+        select="/office:document-content/office:automatic-styles/style:style"
+        as="element(style:style)+"/>
 
     <xsl:template match="text:p">
     <!-- Use the style mapping lookup to define the styles -->
-        <xsl:variable name="current_style_index_name" select="current()/@text:style-name"
+        <xsl:variable
+            name="current_style_index_name"
+            select="current()/@text:style-name"
             as="xs:string"/>
-        <xsl:variable name="current_automatic_style"  select="/office:document-content/office:automatic-styles/style:style[@style:name=$current_style_index_name]" as="element(style:style)?"/>
+
+        <xsl:variable name="current_automatic_style"
+            select="/office:document-content/office:automatic-styles/style:style[@style:name=$current_style_index_name]" 
+            as="element(style:style)?"/>
+
         <xsl:variable name="current_stylename" select="
             if (matches(current()/@text:style-name, '^P\d'))
             then ($current_automatic_style/@style:parent-style-name)
@@ -190,6 +188,11 @@
     <xsl:template match="table:table-cell/text:p"> </xsl:template>
 
     <xsl:template match="table:table-cell/text:p" mode="table-cell">
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <!-- Preserve italic and bold text -->
+    <xsl:template match="text:span">
         <xsl:apply-templates/>
     </xsl:template>
 
