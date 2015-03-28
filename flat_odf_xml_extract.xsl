@@ -106,6 +106,10 @@
         </xsl:element>
     </xsl:template>
 
+    <xsl:template match="text:list-item">
+        <list-item><xsl:apply-templates/></list-item>
+    </xsl:template>
+    
     <!--
         footnotes and endnotes are mapped to xref and fn elements used in JATS
         in the place where the footnote/endnote is located in odf.
@@ -185,13 +189,10 @@
         <sm:style>
             <sm:name>Standard</sm:name>
             <sm:name>Text_20_body</sm:name>
+            <sm:name>List_20_Contents</sm:name>
             <sm:name>Footnote</sm:name>
             <sm:name>Endnote</sm:name>
             <sm:transformTo>p</sm:transformTo>
-        </sm:style>
-        <sm:style>
-            <sm:name>List_20_Contents</sm:name>
-            <sm:transformTo>list-item</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Heading_20_1</sm:name>
