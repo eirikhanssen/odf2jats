@@ -1,4 +1,5 @@
 - Flat extract
+    - JATS list model is: list > list-item > p | def-list | list (text can't be put directly inside list-item)
     - bold text
     - italic text
     - figures
