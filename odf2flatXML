@@ -1,0 +1,10 @@
+#!/bin/sh
+# Running this command will:
+# 1) Perform initial flat xml extraction from content.xml in a sample odf document
+# (unzipped from nylenna.odt - an actual article with some extra content types to test extraction),
+# 2) store in nylenna-output.xml and
+# 3) display with pygmentized (colorized) output in less (pager)
+# Later, when all content have been extracted this way,
+# the flat xml output will be manipulated in an XProc pipeline to massage the xml into JATS xml conformance
+# This also includes performing RegEx pattern matching to auto-tag text citations and items in the reference list
+saxon source/odf-nylenna/content.xml flat_odf_xml_extract.xsl | tee nylenna-output.xml | pygmentize -l xml | less -R
