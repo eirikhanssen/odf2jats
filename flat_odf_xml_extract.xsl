@@ -20,6 +20,12 @@
         select="/office:document-content/office:automatic-styles/style:style"
         as="element(style:style)+"/>
 
+    <xsl:template match="/">
+        <article>
+            <xsl:apply-templates/>
+        </article>
+    </xsl:template>
+
     <xsl:template match="text:p">
     <!-- Use the style mapping lookup to define the styles -->
         <xsl:variable
