@@ -245,6 +245,11 @@
         </xsl:choose>
     </xsl:template>
 
+    <!-- mark up links -->
+    <xsl:template match="text:a[@xlink:href]">
+        <uri><xsl:value-of select="@xlink:href"/></uri>
+    </xsl:template>
+
     <!--<xsl:template match="*">
         <xsl:message>undefined element: <xsl:value-of select="local-name(.)"/>"</xsl:message>
     </xsl:template>-->

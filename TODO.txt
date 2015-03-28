@@ -1,7 +1,7 @@
 - Flat extract
     - figures
     - table captions
-    - doi-uri in the header on page1 should be extracted to self uri and doi
+    - doi-uri in the header on page1 should be extracted to self uri and doi (specific to PP)
 
 - Grouping/sectioning
     - all empty p-elements, and p-elements with only whitespace should be deleted
