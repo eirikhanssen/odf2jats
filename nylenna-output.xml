@@ -36,12 +36,28 @@
    <list-item>roman-lower list</list-item>
    <list-item>roman-lower list</list-item>
 </list>
+<p>A nested list</p>
+<list list-type="roman-upper">
+   <list-item>roman-upper list</list-item>
+   <list-item>roman-upper list</list-item>
+   <list-item>roman-upper list</list-item>
+   <list>
+      <list-item>order list lvl 2</list-item>
+      <list-item>order list lvl 2</list-item>
+   </list>
+   <list-item>roman-upper list</list-item>
+   <list>
+      <list-item>order list lvl 2</list-item>
+      <list-item>order list lvl 2</list-item>
+   </list>
+</list>
 <p>Faux paragraph.</p>
 <list list-type="roman-upper">
    <list-item>roman-upper list</list-item>
    <list-item>roman-upper list</list-item>
    <list-item>roman-upper list</list-item>
 </list>
+<list-item/>
 <table>
    <thead>
       <tr>
@@ -147,16 +163,16 @@
       </tbody>
    </table>In general, the ISO definition of quality implies a rather relative view of quality by relating it directly to requirements. This opens up the possibility of varying quality perceptions between individuals and between different stakeholders confronted with the same services. The IOM definition relates quality to the goals of the health-care system, as well as to the current level of professional knowledge.</p>
 <p>One possible use of the ISO definition is to ask patients what constitutes the most important outcome to them and apply this as the requirement part of the quality definition. A special Euro Barometer population survey on safety and the quality of health care in all European countries conducted in 2009 asked respondents to prioritize different quality criteria (European Commission, 2010). The results of the survey showed that effective treatment and a competent medical staff were considered the most important quality criteria for Europe as a whole. Furthermore, a fair agreement was found on at least the two most important quality criteria across the European countries, but also a lot of between-country variation and some variation between different socio-demographic groups. A Norwegian study showed that it is possible to identify ten core patient experience items across nine patient groups in specialized health care based on patient priorities, including items on safety, effectiveness and responsiveness. This study also showed that certain aspects varied between the groups (Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011). Consequently, the European and Norwegian studies show that there is no universal definition of quality criteria, even from the patient or population perspective. Other stakeholders with other perspectives, such as managers and professionals, may have other expectations and requirements (Jung, Wensing, Olesen, &amp; Grol, 2002; Levine et al., 2012).<sup>
-      <xref ref-type="fn" rid="ftn0">1</xref>
+      <xref ref-type="fn" rid="ftn1">1</xref>
    </sup>
-   <fn id="ftn0">
+   <fn id="ftn1">
       <p>The wonderful first footnote.</p>
    </fn>
 </p>
 <p>A study comparing physician and patient perceptions of quality found both similarities and differences regarding the quality concept in ambulatory care (Levine et al., 2012), as both groups highly valued clinical skills, rapport and health-related communication, but varied in sub-categories within these topics and on other major topics. The bottom line is that quality is a relative concept according to the ISO definition, and that health-care service quality cannot be judged without linking it to the requirements of patients or other stakeholders.<sup>
-      <xref ref-type="fn" rid="ftn1">i</xref>
+      <xref ref-type="fn" rid="ftn2">i</xref>
    </sup>
-   <fn id="ftn1">
+   <fn id="ftn2">
       <p>The first endnote.</p>
    </fn>
 </p>
