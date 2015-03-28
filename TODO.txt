@@ -1,12 +1,7 @@
 - Flat extract
-    - JATS list model is: list > list-item > p | def-list | list (text can't be put directly inside list-item)
-        - Now nested lists is supported, but nested lists don't get the proper list type yet
-            - Find out what level the list is (count ancestor lists?)
-            - Use the list type corresponding to the level
     - bold text
     - italic text
     - figures
-    - nested lists
     - table captions
     - doi-uri in the header on page1 should be extracted to self uri and doi
 
