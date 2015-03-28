@@ -6,9 +6,10 @@
     xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
     xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
     xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+    xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
     xmlns:j2e="https://github.com/eirikhanssen/jats2epub"
     xmlns:sm="https://github.com/eirikhanssen/odf2jats/stylemap"
-    exclude-result-prefixes="xs xlink j2e sm style office text table">
+    exclude-result-prefixes="xs xlink j2e sm style office text table fo">
 
     <xsl:output method="xml" indent="yes"/>
 
@@ -193,7 +194,24 @@
 
     <!-- Preserve italic and bold text -->
     <xsl:template match="text:span">
-        <xsl:apply-templates/>
+        <xsl:variable name="mapped-style-def" select="$automatic-styles[@style:name = current()/@text:style-name]/style:text-properties" as="element(style:text-properties)"/>
+        <xsl:variable name="currentTextStyle">
+            <xsl:choose>
+                <!-- Can a style definition be both bold and italic? If that's the case, then these tests are too naiive. -->
+                <xsl:when test="$mapped-style-def/@fo:font-weight='bold'"><xsl:text>bold</xsl:text></xsl:when>
+                <xsl:when test="$mapped-style-def/@fo:font-style='italic'"><xsl:text>italic</xsl:text></xsl:when>
+                <xsl:otherwise><xsl:text>''</xsl:text></xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:choose>
+            <xsl:when test="$currentTextStyle = 'bold'">
+                <bold><xsl:apply-templates/></bold>
+            </xsl:when>
+            <xsl:when test="$currentTextStyle = 'italic'">
+                <italic><xsl:apply-templates/></italic>
+            </xsl:when>
+            <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!--<xsl:template match="*">
