@@ -2,12 +2,17 @@
     - figures
     - table captions
     - doi-uri in the header on page1 should be extracted to self uri and doi
+    - subscript
+    - superscript
 
 - Grouping/sectioning
+    - all empty p-elements, and p-elements with only whitespace should be deleted
     - change all p after h1 References to ref elements
     - if fn present in body that do not belong to table, move them to fn-group in back section
     - properly group into sec/title based on heading levels of h1-h6 elements
-    - can table be a child of p in JATS? need to resolve this if it is an issue.
+    - JATS allows: 
+        p/table-wrap/(caption/title/p), table
+        p/table-wrap/(label,caption/p), table
     - place article title, abstract, keywords, authors in the right place.
 
 Check out this information about ODF and JATS:
