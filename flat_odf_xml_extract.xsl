@@ -66,8 +66,10 @@
     </xsl:template>
 
     <xsl:template match="text:list">
+        <!-- First, figure out the level of the list -->
+        <xsl:variable name="list-level" select="count(./ancestor-or-self::text:list)"/>
         <!--
-            Try and figure out the type of list, and set the optional @list-type=
+            Figure out the type of list, and set the optional @list-type=
             "order|bullet|alpha-lower|alpha-upper|roman-lower|roman-upper|simple"
         -->
         <xsl:variable name="style-name" select="if (@text:style-name) then (@text:style-name) else ('')" as="xs:string"/>
@@ -76,11 +78,11 @@
                 <xsl:when test="$style-name != '' and /office:document-content/office:automatic-styles/text:list-style[@style:name = $style-name]">
                     <xsl:variable name="current_list_style" select="/office:document-content/office:automatic-styles/text:list-style[@style:name = $style-name]" as="element(text:list-style)"/>
                     <xsl:choose>
-                        <xsl:when test="$current_list_style/text:list-level-style-bullet">
+                        <xsl:when test="$current_list_style/element()[$list-level][local-name(.) = 'list-level-style-bullet']">
                             <xsl:text>bullet</xsl:text>
                         </xsl:when>
-                        <xsl:when test="$current_list_style/text:list-level-style-number">
-                            <xsl:variable name="num-format" select="$current_list_style/text:list-level-style-number[1]/@style:num-format"/>
+                        <xsl:when test="$current_list_style/element()[$list-level][local-name(.) = 'list-level-style-number']">
+                            <xsl:variable name="num-format" select="$current_list_style/element()[$list-level]/@style:num-format"/>
                             <xsl:choose>
                                 <xsl:when test="$num-format = 'a'">alpha-lower</xsl:when>
                                 <xsl:when test="$num-format = 'A'">alpha-upper</xsl:when>
@@ -97,6 +99,7 @@
             </xsl:choose>
         </xsl:variable>
         <xsl:element name="list">
+            <xsl:attribute name="lvl" select="$list-level"/>
             <xsl:if test="$list-type != 'undefined'">
                 <xsl:attribute name="list-type">
                     <xsl:value-of select="$list-type"/>
