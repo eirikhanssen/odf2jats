@@ -195,19 +195,17 @@
     <!-- Preserve italic and bold text -->
     <xsl:template match="text:span">
         <xsl:variable name="mapped-style-def" select="$automatic-styles[@style:name = current()/@text:style-name]/style:text-properties" as="element(style:text-properties)"/>
-        <xsl:variable name="currentTextStyle">
-            <xsl:choose>
-                <!-- Can a style definition be both bold and italic? If that's the case, then these tests are too naiive. -->
-                <xsl:when test="$mapped-style-def/@fo:font-weight='bold'"><xsl:text>bold</xsl:text></xsl:when>
-                <xsl:when test="$mapped-style-def/@fo:font-style='italic'"><xsl:text>italic</xsl:text></xsl:when>
-                <xsl:otherwise><xsl:text>''</xsl:text></xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
+        <xsl:variable name="isBold" select="$mapped-style-def/@fo:font-weight='bold'" as="xs:boolean"/>
+        <xsl:variable name="isItalic" select="$mapped-style-def/@fo:font-style='italic'" as="xs:boolean"/>
+
         <xsl:choose>
-            <xsl:when test="$currentTextStyle = 'bold'">
+            <xsl:when test="$isBold eq true() and $isItalic eq true()">
+                <bold><italic><xsl:apply-templates/></italic></bold>
+            </xsl:when>
+            <xsl:when test="$isBold eq true()">
                 <bold><xsl:apply-templates/></bold>
             </xsl:when>
-            <xsl:when test="$currentTextStyle = 'italic'">
+            <xsl:when test="$isItalic eq true()">
                 <italic><xsl:apply-templates/></italic>
             </xsl:when>
             <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>

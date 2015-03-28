@@ -1,6 +1,4 @@
 - Flat extract
-    - bold text
-    - italic text
     - figures
     - table captions
     - doi-uri in the header on page1 should be extracted to self uri and doi

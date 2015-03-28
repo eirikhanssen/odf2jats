@@ -9,6 +9,11 @@
 <p>The different perspectives of politicians, physicians, and patients may lead to different judgments of quality. Over time, the patient perspective has got more attention. This, as well as a shift from individual responsibility to systems thinking in quality improvement, has consequences for conceptual models of the relationship between physician professionalism and the quality of care.</p>
 <p>We aim at providing an overview of key components in the quality debate within health care. By presenting an analysis and discussion of the development of approaches to and definitions of quality of care we hope to create a better basis for discussions of the relationship between physician professionalism and quality.</p>
 <h1>FauxHeading1WithoutOutline</h1>
+<p>This paragraph has some text that is just <bold>bold</bold>, some text that is <italic>italic</italic> and some text that is both <bold>
+      <italic>bold and italic</italic>
+   </bold>, as well as text that is <bold>
+      <italic>italic and bold</italic>
+   </bold>. Now, isn't that nice for just one paragraph!</p>
 <p>Order list</p>
 <list list-type="order">
    <list-item>
@@ -375,7 +380,7 @@
 <p>Arah, O. A., Westert, G. P., Hurst, J., &amp; Klazinga, N. S. (2006). A conceptual framework for the OECD Health Care Quality Indicators Project. <italic>International Journal for Quality in Health Care, 18 Suppl 1</italic>, 5-13. http://dx.doi.org/10.1093/intqhc/mzl024</p>
 <p>Batalden, P. B., Godfrey, M. M., &amp; Nelson, E. C. (2007). <italic>Quality by design: a clinical microsystems approach</italic>. San Francisco: Jossey-Bass.</p>
 <p>Birkmeyer, J. D., Finks, J. F., O'Reilly, A., Oerline, M., Carlin, A. M., Nunn, A. R., . . . Birkmeyer, N. J. (2013). Surgical skill and complication rates after bariatric surgery. <italic>New England Journal of Medicine, 369</italic>(15), 1434-1442. http://dx.doi.org/10.1056/NEJMsa1300625</p>
-<p>Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., &amp; Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality &amp; Safety, 22</italic>(7), 532-540. http://dx.doi.org/10.1136/bmjqs-2012-001691</p>
+<p>Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., &amp; Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality &amp; Safety</italic>,<italic> 22</italic>(7), 532-540. http://dx.doi.org/10.1136/bmjqs-2012-001691</p>
 <p>Bjertnaes, O., Skudal, K. E., Iversen, H. H., &amp; Lindahl, A. K. (2013). The Patient-Reported Incident in Hospital Instrument (PRIH-I): assessments of data quality, test-retest reliability and hospital-level reliability. <italic>BMJ Quality &amp; Safety, 22</italic>(9), 743-751. http://dx.doi.org/10.1136/bmjqs-2012-001756</p>
 <p>The CAHPS Improvement Guide. Retrieved 28. april 2014, from https://cahps.ahrq.gov/quality-improvement/improvement-guide/improvement-guide.html</p>
 <p>Contandriopoulos, D., Champagne, F., &amp; Denis, J. L. (2014). The multiple causal pathways between performance measures' use and effects. <italic>Medical Care Research and Review, 71</italic>(1), 3-20. http://dx.doi.org/10.1177/1077558713496320</p>
