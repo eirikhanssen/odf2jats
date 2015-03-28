@@ -1,0 +1,2 @@
+#!/bin/bash
+calabash odf2jats.xpl | tee odf2jats.output.xml | pygmentize -l xml | less -R
