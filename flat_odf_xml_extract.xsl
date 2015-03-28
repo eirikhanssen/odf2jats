@@ -153,13 +153,21 @@
     </xsl:template>
 
     <xsl:template match="table:table">
-        <table>
-            <xsl:apply-templates select="table:table-header-rows"/>
-            <tbody>
-                <xsl:apply-templates select="table:table-row[not(parent::table:table-header-rows)]"
-                />
-            </tbody>
-        </table>
+        <!-- Determine what number table this is in the document order, and use this number when generating table id -->
+        <xsl:variable name="table_total_count" select="count(//table:table)" as="xs:integer"/>
+        <xsl:variable name="table_after_count" select="count(following::table:table|descendant::table:table)" as="xs:integer"/>
+        <xsl:variable name="table_num" select="$table_total_count - $table_after_count" as="xs:integer"/>
+        <xsl:variable name="table-id" select="concat('tbl' , string($table_num))" as="xs:string"/>
+        <table-wrap id="{$table-id}">
+            <label>____</label><xsl:comment> optional label and caption </xsl:comment>
+            <caption><p>____</p></caption>
+            <table>
+                <xsl:apply-templates select="table:table-header-rows"/>
+                <tbody>
+                    <xsl:apply-templates select="table:table-row[not(parent::table:table-header-rows)]"/>
+                </tbody>
+            </table>
+        </table-wrap>
     </xsl:template>
 
     <xsl:template match="table:table-header-rows">
