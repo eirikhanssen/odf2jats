@@ -50,6 +50,9 @@
         </p:input>
     </p:xslt>
 
+    <!-- Delete fn elements in the body, but not if they belong to a table-wrap element -->
+    <p:delete match="fn[ancestor::body][not(ancestor::table-wrap)]"/>
+
     <p:identity/>
 
 </p:declare-step>
