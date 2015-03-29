@@ -14,6 +14,10 @@
             <front>
                 <xsl:apply-templates select="$journal-meta-common"/>
                 <article-meta>
+                    <xsl:element name="article-id">
+                        <xsl:attribute name="pub-id-type">doi</xsl:attribute>
+                        <xsl:text>____</xsl:text>
+                    </xsl:element>
                     <xsl:apply-templates select="$article-meta-common/article-categories"/>
                     <title-group>
                         <article-title>
@@ -106,6 +110,7 @@
         </xsl:copy>
     </xsl:template>
     
+    <!-- These should not be applied to the body as they will be put in front or back -->
     <xsl:template match="abstract|keywords|authors|article-title" mode="body"/>
     
 </xsl:stylesheet>
