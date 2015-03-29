@@ -60,6 +60,14 @@
                 <xsl:apply-templates mode="body"/>
             </body>
             <back>
+                <!-- fn-group if there is atleast one footnote -->
+                <!-- table-wrap can have it's own footnote-group that should not be here?
+                     WIP: check JATS -->
+                <xsl:if test="count(//fn) gt 0">
+                    <fn-group>
+                        <xsl:apply-templates select="//fn"/>
+                    </fn-group>
+                </xsl:if>
                 <ref-list>
                     <xsl:apply-templates select="ref"/>                    
                 </ref-list>
@@ -68,34 +76,41 @@
     </xsl:template>
 
     <xsl:template match="authors">
-        <contrib-group>
-            <xsl:for-each select="tokenize(., ',')">
-            <contrib contrib-type="author">
-                <name>
-                    <xsl:analyze-string select="normalize-space(.)" regex="\c+$">
-                        <xsl:matching-substring>
-                            <surname><xsl:value-of select="normalize-space(.)"/></surname>
-                        </xsl:matching-substring>
-                        <xsl:non-matching-substring>
-                            <given-names><xsl:value-of select="normalize-space(.)"/></given-names>
-                        </xsl:non-matching-substring>
-                    </xsl:analyze-string>
-                </name>
-                <xsl:variable name="aff_rid" select="concat(replace(normalize-space(.) , '^(.).+' , '$1') , '_' , replace( . , '.+\s' , ''))"/>
-                <xsl:element name="xref">
-                    <xsl:attribute name="ref-type">aff</xsl:attribute>
-                    <xsl:attribute name="rid"><xsl:value-of select="$aff_rid"/></xsl:attribute>
-                </xsl:element>
-            </contrib>    
-        </xsl:for-each>
-        </contrib-group>
-        <!-- One for each author, count commas in authors?: <aff id="____">____</aff> -->
-    </xsl:template>
+        <xsl:variable name="author-group" as="element(contrib-group)">
+            <contrib-group>
+                <xsl:for-each select="tokenize(., ',')">
+                    <contrib contrib-type="author">
+                        <name>
+                            <xsl:analyze-string select="normalize-space(.)" regex="\c+$">
+                                <xsl:matching-substring>
+                                    <surname><xsl:value-of select="normalize-space(.)"/></surname>
+                                </xsl:matching-substring>
+                                <xsl:non-matching-substring>
+                                    <given-names><xsl:value-of select="normalize-space(.)"/></given-names>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </name>
+                        <xsl:variable name="aff_rid" select="concat(replace(normalize-space(.) , '^(.).+' , '$1') , '_' , replace( . , '.+\s' , ''))"/>
+                        <xsl:element name="xref">
+                            <xsl:attribute name="ref-type">aff</xsl:attribute>
+                            <xsl:attribute name="rid"><xsl:value-of select="$aff_rid"/></xsl:attribute>
+                        </xsl:element>
+                    </contrib>    
+                </xsl:for-each>
+            </contrib-group>
+        </xsl:variable>
 
-    <xsl:template match="ref">
-        <ref>
-            <xsl:apply-templates/>
-        </ref>
+        <xsl:variable name="affs">
+            <xsl:for-each select="$author-group/contrib/xref[@ref-type='aff']">
+                <xsl:element name="aff">
+                    <xsl:attribute name="id" select="@rid"/>
+                    <xsl:text>____</xsl:text>
+                </xsl:element>
+            </xsl:for-each>
+        </xsl:variable>
+
+        <xsl:sequence select="$author-group, $affs"/>
+
     </xsl:template>
 
     <xsl:template match="node()|@*">
@@ -104,13 +119,15 @@
         </xsl:copy>
     </xsl:template>
     
+    <!-- These should not be applied to the body as they will be put in front or back -->
+    <!-- since fn is listed here, it should not appear in the body, yet it does! -->
+    <!-- If I can't prevent it from appearing in the body, I suppose I have to delete it with XProc -->
+    <xsl:template match="fn|abstract|keywords|authors|article-title|ref" mode="body"/>
+
     <xsl:template match="node()|@*" mode="body">
         <xsl:copy>
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
-    
-    <!-- These should not be applied to the body as they will be put in front or back -->
-    <xsl:template match="abstract|keywords|authors|article-title" mode="body"/>
     
 </xsl:stylesheet>

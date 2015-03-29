@@ -11,6 +11,7 @@
          </publisher>
       </journal-meta>
       <article-meta>
+         <article-id pub-id-type="doi">____</article-id>
          <article-categories>
             <subj-group subj-group-type="article-type">
                <subject>Article</subject>
@@ -57,6 +58,10 @@
                <xref ref-type="aff" rid="A_Lindahl"/>
             </contrib>
          </contrib-group>
+         <aff id="M_Nylenna">____</aff>
+         <aff id="Ø_Bjertnaes">____</aff>
+         <aff id="I_Saunes">____</aff>
+         <aff id="A_Lindahl">____</aff>
          <pub-date pub-type="pub">
             <day>____</day>
             <month>____</month>
@@ -526,78 +531,16 @@
       <p>The more technical components of quality can be measured by a range of methods and indicators (Smith, 2009) but also by the patient perspective through patient-reported outcome measures (Fitzpatrick, Davey, Buxton, &amp; Jones, 1998) and patient-reported safety measures (Bjertnaes, Skudal, Iversen, &amp; Lindahl, 2013; McEachan et al., 2013). However, as Donabedian has stressed, the collected information about structures, processes and outcomes are not attributes of quality, but can be used to infer whether quality is good or not (Donabedian &amp; Bashshur, 2003).</p>
       <p>While quality evaluation have some elements of subjectivity and relativity, we stress that health care quality can be rather accurately defined, operationalized and measured. This can be achieved by combining the quality concept approach described above with state of the art quality measurement methods. The latter includes using more objective patient-reported experience instruments when including patients in quality evaluation, rather than subjective patient satisfaction questions, and the application of robust case-mix models to adjust for socio-demographic and other individual level variables. Furthermore, conjoint analysis can be applied to account for variation in attribute preferences, or alternatively completely patient defined instruments where patients themselves can define and prioritize attributes and then rate health care services on these.</p>
       <p>Studies on the relationship between physicians’ working conditions and the quality of care should be based on an updated and comprehensive quality concept and scientifically robust quality indicators.</p>
-      <ref>Adair, C. E., Simpson, E., Casebeer, A. L., Birdsell, J. M., Hayden, K. A., &amp; Lewis, S. (2006). Performance measurement in healthcare part II: state of the science findings by stage of the performance measurement process. <italic>Health Policy, 2</italic>(1), 56-78. </ref>
-      <ref>Arah, O. A., Westert, G. P., Hurst, J., &amp; Klazinga, N. S. (2006). A conceptual framework for the OECD Health Care Quality Indicators Project. <italic>International Journal for Quality in Health Care, 18 Suppl 1</italic>, 5-13. <uri>http://dx.doi.org/10.1093/intqhc/mzl024</uri>
-      </ref>
-      <ref>Batalden, P. B., Godfrey, M. M., &amp; Nelson, E. C. (2007). <italic>Quality by design: a clinical microsystems approach</italic>. San Francisco: Jossey-Bass.</ref>
-      <ref>Birkmeyer, J. D., Finks, J. F., O'Reilly, A., Oerline, M., Carlin, A. M., Nunn, A. R., . . . Birkmeyer, N. J. (2013). Surgical skill and complication rates after bariatric surgery. <italic>New England Journal of Medicine, 369</italic>(15), 1434-1442. <uri>http://dx.doi.org/10.1056/NEJMsa1300625</uri>
-      </ref>
-      <ref>Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., &amp; Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality &amp; Safety</italic>,<italic> 22</italic>(7), 532-540. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001691</uri>
-      </ref>
-      <ref>Bjertnaes, O., Skudal, K. E., Iversen, H. H., &amp; Lindahl, A. K. (2013). The Patient-Reported Incident in Hospital Instrument (PRIH-I): assessments of data quality, test-retest reliability and hospital-level reliability. <italic>BMJ Quality &amp; Safety, 22</italic>(9), 743-751. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001756</uri>
-      </ref>
-      <ref>The CAHPS Improvement Guide. Retrieved 28. april 2014, from https://cahps.ahrq.gov/quality-improvement/improvement-guide/improvement-guide.html</ref>
-      <ref>Contandriopoulos, D., Champagne, F., &amp; Denis, J. L. (2014). The multiple causal pathways between performance measures' use and effects. <italic>Medical Care Research and Review, 71</italic>(1), 3-20. <uri>http://dx.doi.org/10.1177/1077558713496320</uri>
-      </ref>
-      <ref>The development and implementation of quality improvement systems (QIS) in health care: recommendation No. R (97) 17 and explanatory memorandum. (1998).</ref>
-      <ref>Donabedian, A. (1980). The definition of quality and approaches to its assessment <italic>Explorations in quality assessment and monitoring Vol. 1</italic>. Ann Arbor, MI: Health Administration Press.</ref>
-      <ref>Donabedian, A. (1988). The quality of care: how can it be assessed? <italic>JAMA, 260</italic>(12), 1743-1748. <uri>http://dx.doi.org/10.1001/jama.1988.03410120089033</uri>
-      </ref>
-      <ref>Donabedian, A. (2005). Evaluating the quality of medical care. 1966. <italic>Milbank Quarterly, 83</italic>(4), 691-729. <uri>http://dx.doi.org/10.1111/j.1468-0009.2005.00397.x</uri>
-      </ref>
-      <ref>Donabedian, A., &amp; Bashshur, R. (2003). <italic>An introduction to quality assurance in health care</italic>. Oxford: Oxford University Press.</ref>
-      <ref>Doyle, C., Lennox, L., &amp; Bell, D. (2013). A systematic review of evidence on the links between patient experience and clinical safety and effectiveness. <italic>BMJ Open, 3</italic>(1), e001570. <uri>http://dx.doi.org/10.1136/bmjopen-2012-001570</uri>
-      </ref>
-      <ref>European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, &amp; European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion &amp; Social.</ref>
-      <ref>Fitzpatrick, R., Davey, C., Buxton, M. J., &amp; Jones, D. R. (1998). Evaluating patient-based outcome measures for use in clinical trials. <italic>Health Technology Assessment, 2</italic>, 1-74.</ref>
-      <ref>Gerteis, M., Edgman-Levitan, S., Daley, J., &amp; Delbanco, T. L. (1993). <italic>Through the patient's eyes: understanding and promoting patient-centered care</italic>. San Francisco: Jossey-Bass</ref>
-      <ref>Goodard, M., &amp; Jacobs, R. (2009). Using composite indicators to measure performance in health care. In P. Smith (Ed.), <italic>Performance measurement for health system improvement </italic>(pp. 339-368). Cambridge; New York: Cambridge University Press.</ref>
-      <ref>Hayes, C. W., Batalden, P. B., &amp; Goldmann, D. (2015). A 'work smarter, not harder' approach to improving healthcare quality. <italic>BMJ </italic>
-         <italic>Quality &amp; Safety</italic>
-         <italic>, 24</italic>(2), 100-102. <uri>http://dx.doi.org/10.1136/bmjqs-2014-003673</uri>
-      </ref>
-      <ref>Helsedirektoratet. (28. mai 2013). Hvorfor kvalitetsindikatorer? Retrieved 28. april 2014, from <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>
-         <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>
-      </ref>
-      <ref>Institute of Medicine. (2001). Crossing the quality chasm: a new health system for the 21st century. Washington, D.C.: National Academy Press.</ref>
-      <ref>Irvine, L., Elliott, L., Wallace, H., &amp; Crombie, I. K. (2006). A review of major influences on current public health policy in developed countries in the second half of the 20th century. <italic>The journal of the Royal Society for the Promotion of Health, 126</italic>(2), 73-78. <uri>http://dx.doi.org/10.1177/1466424006063182</uri>
-      </ref>
-      <ref>ISO. (2005). Quality management systems: Fundamentals and vocabulary (ISO 9000:2005) (Vol. TC 176//SC). Geneva: International Organization for Standardization.</ref>
-      <ref>Jung, H. P., Wensing, M., Olesen, F., &amp; Grol, R. (2002). Comparison of patients' and general practitioners' evaluations of general practice care. <italic>Quality &amp; Safety in Health Care, 11</italic>, 315-319. <uri>http://dx.doi.org/10.1136/qhc.11.4.315</uri>
-      </ref>
-      <ref>Kahneman, D. (2011). <italic>Thinking, fast and slow</italic>. New York: Farrar, Strauss and Giroux.</ref>
-      <ref>Kelly, E., &amp; Hurst, J. (2006). Health care quality indicators project: conceptual framework paper <italic>OECD Health Working Papers no. 23</italic>. Paris: OECD.</ref>
-      <ref>Klassen, A., Miller, A., Anderson, N., Shen, J., Schiariti, V., &amp; O'Donnell, M. (2010). Performance measurement and improvement frameworks in health, education and social services systems: a systematic review. <italic>International Journal for Quality in Health Care, 22</italic>(1), 44-69. <uri>http://dx.doi.org/10.1093/intqhc/mzp057</uri>
-      </ref>
-      <ref>Lalonde, M., &amp; Department of National Health and Welfare. (1974). A new perspective on the health of Canadians: a working document (pp. 77). Ottawa: Government of Canada</ref>
-      <ref>Legido-Quigley, H., McKee, M., Nolte, E., &amp; Glinos, I. (2008). Assuring the quality of health care in the European Union: A case for action <italic>Observatory Service Series No. 12</italic>. Copenhagen: WHO Regional Office for Europe.</ref>
-      <ref>Levine, R., Shore, K., Lubalin, J., Garfinkel, S., Hurtado, M., &amp; Carman, K. (2012). Comparing physician and patient perceptions of quality in ambulatory care. <italic>International Journal for Quality in Health Care, 24</italic>, 348-356. doi: 10.1093/intqhc/mzs023</ref>
-      <ref>Light, D. (2003). Towards a new professionalism in medicine: quality, value and trust. <italic>Tidsskrift for den Norske Legeforening 123</italic>(13-14).</ref>
-      <ref>Lohr, K. N. (1990a). Medicare: a strategy for quality assurance: volume I. Washington, D.C.: National Academy Press.</ref>
-      <ref>Lohr, K. N. (1990b). Medicare: a strategy for quality assurance: volume II Strategies and methods. Washington, D.C.: National Academy Press.</ref>
-      <ref>Lohr, K. N., &amp; Schroeder, S. A. (1990). A strategy for quality assurance in Medicare. <italic>New England Journal of Medicine, 322</italic>(10), 707-712. doi: <uri>http://dx.doi.org/10.1056/NEJM199003083221031</uri>
-      </ref>
-      <ref>McEachan, R. R., Lawton, R. J., O'Hara, J. K., Armitage, G., Giles, S., Parveen, S., . . . Wright, J. (2013). Developing a reliable and valid patient measure of safety in hospitals (PMOS): a validation study. <italic>BMJ Quality &amp; Safety, 23</italic>(7), 565-573.</ref>
-      <ref>McIntyre, D., Rogers, L., &amp; Heier, E. (2001). Overview, history, and objectives of performance measurement. <italic>Health Care Financing Review, 22</italic>(3), 7-21.</ref>
-      <ref>NICE. (2012). Patient experience in adult NHS services: improving the experience of care for people using adult NHS services <italic>NICE Clinical Guideline 138</italic>. London: National Clinical Guideline Centre.</ref>
-      <ref>Quality (2014). <italic>In Merrian-Webster.com.</italic> Retrieved 28. april 2014, from <uri>http://www.merriam-webster.com/dictionary/quality</uri>
-      </ref>
-      <ref>Reeves, D., Campbell, S. M., Adams, J., Shekelle, P. G., Kontopantelis, E., &amp; Roland, M. O. (2007). Combining multiple indicators of clinical quality: an evaluation of different analytic approaches. <italic>Medical Care, 45</italic>(6), 489-496. <uri>http://dx.doi.org/10.1097/MLR.0b013e31803bb479</uri>
-      </ref>
-      <ref>Rygh, L. H., Helgeland, J., Braut, G. S., Bukholm, G., Fredheim, N., Frich, J. C., . . . Nguyen, K. N. (2010). Forslag til rammeverk for et nasjonalt kvalitetsindikatorsystem for helsetjenesten <italic>Rapport fra Kunnskapssenteret nr 16-2010</italic>. Oslo: Nasjonalt kunnskapssenter for helsetjenesten.</ref>
-      <ref>Schoen, C., Osborn, R., Squires, D., Doty, M., Pierson, R., &amp; Applebaum, S. (2011). New 2011 survey of patients with complex care needs in eleven countries finds that care is often poorly coordinated. <italic>Health Affairs, 30</italic>, 2437-2448. <uri>http://dx.doi.org/10.1377/hlthaff.2011.0923</uri>
-      </ref>
-      <ref>Sjetne, I. S., Bjertnaes, O. A., Olsen, R. V., Iversen, H. H., &amp; Bukholm, G. (2011). The Generic Short Patient Experiences Questionnaire (GS-PEQ): identification of core items from a survey in Norway. <italic>BMC Health Services Research, 11</italic>(88). <uri>http://dx.doi.org/10.1186/1472-6963-11-88</uri>
-      </ref>
-      <ref>Smith, P. (2009). <italic>Performance measurement for health system improvement: experiences, challenges and prospects</italic>. Cambridge: Cambridge University Press.</ref>
-      <ref>Sosial- og helsedirektoratet. (2005). -og bedre skal det bli!: nasjonal strategi for kvalitetsforbedring i Sosial- og helsetjenesten (2005-2015): til deg som leder og utøver <italic>IS-1162</italic>. Oslo: Sosial- og helsedirektoratet.</ref>
-      <ref>Wachter, R. M. (2012). <italic>Understanding patient safety</italic> (2nd ed. ed.). New York: McGraw-Hill Medical.</ref>
-      <ref>WHO. (2000). The world health report 2000 : health systems: improving performance. Geneva: World Health Organization</ref>
-      <ref>WHO. (2006). Quality of care: a process for making strategic choices in health systems. Geneva: World Health Organization.</ref>
-      <ref>Wilson, R. (2000). Screening for breast and cervical cancer as a common cause for litigation: a false negative result may be one of an irreducible minimum of errors. <italic>BMJ, 320</italic>(7246), 1352-1353. <uri>http://dx.doi.org/10.1136/bmj.320.7246.1352</uri>
-      </ref>
    </body>
    <back>
+      <fn-group>
+         <fn id="ftn1">
+            <p>The wonderful first footnote.</p>
+         </fn>
+         <fn id="ftn2">
+            <p>The first endnote.</p>
+         </fn>
+      </fn-group>
       <ref-list>
          <ref>Adair, C. E., Simpson, E., Casebeer, A. L., Birdsell, J. M., Hayden, K. A., &amp; Lewis, S. (2006). Performance measurement in healthcare part II: state of the science findings by stage of the performance measurement process. <italic>Health Policy, 2</italic>(1), 56-78. </ref>
          <ref>Arah, O. A., Westert, G. P., Hurst, J., &amp; Klazinga, N. S. (2006). A conceptual framework for the OECD Health Care Quality Indicators Project. <italic>International Journal for Quality in Health Care, 18 Suppl 1</italic>, 5-13. <uri>http://dx.doi.org/10.1093/intqhc/mzl024</uri>
