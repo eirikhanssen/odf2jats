@@ -23,6 +23,23 @@
         </p:input>
     </p:xslt>
     
+    <p:rename match="p[preceding-sibling::h1='References']" new-name="ref"/>
+    
+    <p:delete match="h1[.='References']"/>
+    
+    <!-- delete empty p-elements -->
+    <p:delete match="p[.='']"/>
+    
+    <p:xslt name="fix_keywords_and_abstract_first_stage" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="kwd_abstract.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <p:identity/>
     
 </p:declare-step>
