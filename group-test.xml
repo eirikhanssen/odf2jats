@@ -1,86 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doc>
-    <p>para 0.1</p>
-    <p>para 0.2</p>
-    <p>para 0.3</p>
+<article>
+    <body>
+        <p>para 0.1</p>
+        <p>para 0.2</p>
+        <p>para 0.3</p>
 
-    <h1>1</h1>
-    <p>para 1.1</p>
-    <p>para 1.2</p>
-    <p>para 1.3</p>
+        <h1>1</h1>
+        <p>para 1.1</p>
+        <p>para 1.2</p>
+        <p>para 1.3</p>
 
-    <h1>2</h1>
-    <p>para 2.1</p>
-    <p>para 2.1</p>
-    <p>para 2.3</p>
+        <h1>2</h1>
+        <p>para 2.1</p>
+        <p>para 2.1</p>
+        <p>para 2.3</p>
 
-    <h1>3</h1>
-    <p>para 3.1</p>
-    <p>para 3.2</p>
-    <p>para 3.3</p>
+        <h1>3</h1>
+        <p>para 3.1</p>
+        <p>para 3.2</p>
+        <p>para 3.3</p>
 
-    <h2>3-1</h2>
-    <p>para 4.1</p>
-    <p>para 4.2</p>
-    <p>para 4.3</p>
+        <h2>3-1</h2>
+        <p>para 4.1</p>
+        <p>para 4.2</p>
+        <p>para 4.3</p>
 
-    <h1>4</h1>
-    <p>para 5.1</p>
-    <p>para 5.2</p>
-    <p>para 5.3</p>
+        <h1>4</h1>
+        <p>para 5.1</p>
+        <p>para 5.2</p>
+        <p>para 5.3</p>
 
-    <h2>4-1</h2>
-    <p>para 6.1</p>
-    <p>para 6.2</p>
-    <p>para 6.3</p>
+        <h2>4-1</h2>
+        <p>para 6.1</p>
+        <p>para 6.2</p>
+        <p>para 6.3</p>
 
-    <h3>4-1-1</h3>
-    <p>para 7.1</p>
-    <p>para 7.2</p>
-    <p>para 7.3</p>
+        <h3>4-1-1</h3>
+        <p>para 7.1</p>
+        <p>para 7.2</p>
+        <p>para 7.3</p>
 
-    <h4>4-1-1-1</h4>
-    <p>para 8.1</p>
-    <p>para 8.2</p>
-    <p>para 8.3</p>
+        <h4>4-1-1-1</h4>
+        <p>para 8.1</p>
+        <p>para 8.2</p>
+        <p>para 8.3</p>
 
-    <h5>4-1-1-1-1</h5>
-    <p>para 9.1</p>
-    <p>para 9.2</p>
-    <p>para 9.3</p>
+        <h5>4-1-1-1-1</h5>
+        <p>para 9.1</p>
+        <p>para 9.2</p>
+        <p>para 9.3</p>
 
-    <h6>4-1-1-1-1-1</h6>
-    <p>para 10.1</p>
-    <p>para 10.2</p>
-    <p>para 10.3</p>
+        <h6>4-1-1-1-1-1</h6>
+        <p>para 10.1</p>
+        <p>para 10.2</p>
+        <p>para 10.3</p>
 
-    <h6>4-1-1-1-1-2</h6>
-    <p>para 11.1</p>
-    <p>para 11.2</p>
-    <p>para 11.3</p>
+        <h6>4-1-1-1-1-2</h6>
+        <p>para 11.1</p>
+        <p>para 11.2</p>
+        <p>para 11.3</p>
 
-    <h5>4-1-1-1-2</h5>
-    <p>para 12.1</p>
-    <p>para 12.2</p>
-    <p>para 12.3</p>
+        <h5>4-1-1-1-2</h5>
+        <p>para 12.1</p>
+        <p>para 12.2</p>
+        <p>para 12.3</p>
 
-    <h4>4-1-1-2</h4>
-    <p>para 13.1</p>
-    <p>para 13.2</p>
-    <p>para 13.3</p>
+        <h4>4-1-1-2</h4>
+        <p>para 13.1</p>
+        <p>para 13.2</p>
+        <p>para 13.3</p>
 
-    <h3>4-1-2</h3>
-    <p>para 14.1</p>
-    <p>para 14.2</p>
-    <p>para 14.3</p>
+        <h3>4-1-2</h3>
+        <p>para 14.1</p>
+        <p>para 14.2</p>
+        <p>para 14.3</p>
 
-    <h3>4-1-3</h3>
-    <p>para 15.1</p>
-    <p>para 15.2</p>
-    <p>para 15.3</p>
+        <h3>4-1-3</h3>
+        <p>para 15.1</p>
+        <p>para 15.2</p>
+        <p>para 15.3</p>
 
-    <h1>5</h1>
-    <p>para 16.1</p>
-    <p>para 16.2</p>
-    <p>para 16.3</p>
-</doc>
+        <h1>5</h1>
+        <p>para 16.1</p>
+        <p>para 16.2</p>
+        <p>para 16.3</p>
+    </body>
+</article>
