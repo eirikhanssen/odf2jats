@@ -1,0 +1,2 @@
+#!/bin/sh
+saxon group-test.xml grouping.xsl | tee output-grouping.xml | pygmentize -l xml | less -RS
