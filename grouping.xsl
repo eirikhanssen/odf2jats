@@ -11,15 +11,15 @@
             <xsl:for-each-group select="*" group-starting-with="h1">
                 <xsl:choose>
                     <xsl:when test="current-group()[self::h1]">
-                        <section lvl="1">
+                        <xsl:comment> sec lvl 1 begin </xsl:comment><section lvl="1">
                                 <xsl:for-each-group select="current-group()" group-starting-with="h2">
                                     <xsl:choose>
                                         <xsl:when test="current-group()[self::h2]">
-                                            <section lvl="2">
+                                            <xsl:comment> sec lvl 2 begin </xsl:comment><section lvl="2">
                                                 <xsl:for-each select="current-group()">
                                                     <xsl:copy-of select="."/>
                                                 </xsl:for-each>
-                                            </section>
+                                            </section><xsl:comment> sec lvl 2 end </xsl:comment>
                                         </xsl:when>
                                         <xsl:otherwise>
                                             <xsl:for-each select="current-group()">
@@ -28,7 +28,7 @@
                                         </xsl:otherwise>
                                     </xsl:choose>
                                 </xsl:for-each-group>
-                        </section>
+                        </section><xsl:comment> sec lvl 1 end </xsl:comment>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:for-each select="current-group()">
