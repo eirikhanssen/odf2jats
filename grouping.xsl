@@ -24,9 +24,22 @@
                                                                         <xsl:choose>
                                                                             <xsl:when test="current-group()[self::h4]">
                                                                                 <xsl:comment> sec lvl 4 begin </xsl:comment><section lvl="4">
-                                                                                    <xsl:for-each select="current-group()">
-                                                                                        <xsl:copy-of select="."/>
-                                                                                    </xsl:for-each>
+                                                                                    <xsl:for-each-group select="current-group()" group-starting-with="h5">
+                                                                                        <xsl:choose>
+                                                                                            <xsl:when test="current-group()[self::h5]">
+                                                                                                <xsl:comment> sec lvl 5 begin </xsl:comment><section lvl="5">
+                                                                                                    <xsl:for-each select="current-group()">
+                                                                                                        <xsl:copy-of select="."/>
+                                                                                                    </xsl:for-each>
+                                                                                                </section><xsl:comment> sec lvl 5 end </xsl:comment>
+                                                                                            </xsl:when>
+                                                                                            <xsl:otherwise>
+                                                                                                <xsl:for-each select="current-group()">
+                                                                                                    <xsl:copy-of select="."/>
+                                                                                                </xsl:for-each>
+                                                                                            </xsl:otherwise>
+                                                                                        </xsl:choose>
+                                                                                    </xsl:for-each-group>
                                                                                 </section><xsl:comment> sec lvl 4 end </xsl:comment>
                                                                             </xsl:when>
                                                                             <xsl:otherwise>
