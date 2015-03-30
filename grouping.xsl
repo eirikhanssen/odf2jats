@@ -16,9 +16,22 @@
                                     <xsl:choose>
                                         <xsl:when test="current-group()[self::h2]">
                                             <xsl:comment> sec lvl 2 begin </xsl:comment><section lvl="2">
-                                                <xsl:for-each select="current-group()">
-                                                    <xsl:copy-of select="."/>
-                                                </xsl:for-each>
+                                                    <xsl:for-each-group select="current-group()" group-starting-with="h3">
+                                                        <xsl:choose>
+                                                            <xsl:when test="current-group()[self::h3]">
+                                                                <xsl:comment> sec lvl 3 begin </xsl:comment><section lvl="3">
+                                                                    <xsl:for-each select="current-group()">
+                                                                        <xsl:copy-of select="."/>
+                                                                    </xsl:for-each>
+                                                                </section><xsl:comment> sec lvl 3 end </xsl:comment>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <xsl:for-each select="current-group()">
+                                                                    <xsl:copy-of select="."/>
+                                                                </xsl:for-each>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
+                                                    </xsl:for-each-group>
                                             </section><xsl:comment> sec lvl 2 end </xsl:comment>
                                         </xsl:when>
                                         <xsl:otherwise>
