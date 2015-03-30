@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <article>
+    <front>
+        <abstract>The abstract</abstract>
+        <keywords keyword-type="author-generated">
+            <kwd>first keyword</kwd>
+            <kwd>second keyword</kwd>
+            <kwd>third keyword</kwd>
+        </keywords>
+    </front>
     <body>
         <p>para 0.1</p>
         <p>para 0.2</p>
@@ -85,4 +93,11 @@
         <p>para 16.2</p>
         <p>para 16.3</p>
     </body>
+    <back>
+        <ref-list>
+            <ref id="ref01">first reference</ref>
+            <ref id="ref01">second reference</ref>
+            <ref id="ref03">third reference</ref>
+        </ref-list>
+    </back>
 </article>
