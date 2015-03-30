@@ -53,6 +53,15 @@
     <!-- Delete fn elements in the body, but not if they belong to a table-wrap element -->
     <p:delete match="fn[ancestor::body][not(ancestor::table-wrap)]"/>
 
+    <p:xslt name="group_sections_in_body" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="group_sections_in_body.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
     <p:identity/>
 
 </p:declare-step>
