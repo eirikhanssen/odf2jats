@@ -65,14 +65,22 @@
                   <p>para 9.1</p>
                   <p>para 9.2</p>
                   <p>para 9.3</p>
-                  <h6>4-1-1-1-1-1</h6>
-                  <p>para 10.1</p>
-                  <p>para 10.2</p>
-                  <p>para 10.3</p>
-                  <h6>4-1-1-1-1-2</h6>
-                  <p>para 11.1</p>
-                  <p>para 11.2</p>
-                  <p>para 11.3</p>
+                  <!-- sec lvl 6 begin -->
+                  <section lvl="6">
+                     <h6>4-1-1-1-1-1</h6>
+                     <p>para 10.1</p>
+                     <p>para 10.2</p>
+                     <p>para 10.3</p>
+                  </section>
+                  <!-- sec lvl 6 end -->
+                  <!-- sec lvl 6 begin -->
+                  <section lvl="6">
+                     <h6>4-1-1-1-1-2</h6>
+                     <p>para 11.1</p>
+                     <p>para 11.2</p>
+                     <p>para 11.3</p>
+                  </section>
+                  <!-- sec lvl 6 end -->
                </section>
                <!-- sec lvl 5 end -->
                <!-- sec lvl 5 begin -->
