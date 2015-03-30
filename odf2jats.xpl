@@ -64,4 +64,8 @@
     </p:xslt>
     <p:identity/>
 
+    <p:rename match="h1|h2|h3|h4|h5|h6" new-name="title"/>
+
+    <p:delete match="sec/@lvl"/>
+
 </p:declare-step>
