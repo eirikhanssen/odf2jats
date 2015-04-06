@@ -1,19 +1,42 @@
-- Flat extract
+Flat extract
     - figures
     - table captions
     - doi-uri in the header on page1 should be extracted to self uri and doi (specific to PP)
 
-- Grouping/sectioning
-    - all empty p-elements, and p-elements with only whitespace should be deleted
-    - change all p after h1 References to ref elements
-    - if fn present in body that do not belong to table, move them to fn-group in back section
-    - properly group into sec/title based on heading levels of h1-h6 elements
-    - JATS allows: 
-        p/table-wrap/(caption/title/p), table
-        p/table-wrap/(label,caption/p), table
-    - place article title, abstract, keywords, authors in the right place.
+Grouping/sectioning
+    - p-elements with only whitespace should be deleted
+    - if tables are after h1 references, they should be in article/back/sec along with table labels and captions.
+        - need to give paragraph styles to table label and caption to make sure they can be identified
+        - see article by Angerer
 
-Check out this information about ODF and JATS:
-http://dita.xml.org/wiki/research-document-structure-in-odf
-http://books.evc-cit.info/odbook/ch03.html
-http://jats.nlm.nih.gov/publishing/tag-library/1.1d2/element/pub-elem-sec-intro.html
+Reference list parsing/autotagging
+
+References in text parsing/autotagging
+    - create unit tests with different text samples containing different types of text references
+    - when developing reftext-parser, run against tests to see if they pass or fail.
+    - Different types of citations in text:
+        - Only year (single)
+            - authors are listed in the last sentence before the parens
+        - One author One year
+
+Notes about JATS tables, the following is allowed: 
+    p/table-wrap/(caption/title, caption/p), table
+    p/table-wrap/(label,caption/p), table
+    table-wrap/caption
+    table-wrap/table/(thead, tbody)
+    table-wrap/table-wrap-foot
+    table-wrap/table-wrap-foot/fn-group/fn+
+
+    Tables can occur inside p elements, and can also occur directly within the body element or sec elements:
+    app, app-group, bio, body, boxed-text, disp-quote, fig, floats-group, glossary, license-p, named-content, notes, 
+    p, ref-list, sec, styled-content, supplementary-material, table-wrap-group.
+  
+    Of most interest to us are:
+    body, fig, disp-quote, floats-group, glossary, p, sec, supplementary-material, table-wrap-group
+
+
+Reading
+    Check out this information about ODF and JATS:
+    http://dita.xml.org/wiki/research-document-structure-in-odf
+    http://books.evc-cit.info/odbook/ch03.html
+    http://jats.nlm.nih.gov/publishing/tag-library/1.1d2/element/pub-elem-sec-intro.html
