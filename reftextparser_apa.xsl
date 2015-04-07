@@ -27,22 +27,57 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
+
+    <!-- see page 88 -->
+    <xsl:variable name="parsedRefs">
+        <xsl:apply-templates mode="reftextparser"/>
+    </xsl:variable>
     
-    <xsl:template match="test">
-        <!-- test against unit test to see if generated result is same as target -->
-        <xsl:sequence select="sample, target"/>
-        <result><xsl:apply-templates select="sample" mode="reftextparser"/></result>
+    <xsl:result-document>
+        <xsl:apply-templates select="$parsedRefs" mode="verify"/>
+    </xsl:result-document>
+    
+    
+    <xsl:template match="test" mode="reftextparser">
+       <test>
+           <xsl:attribute name="tID"><xsl:number/></xsl:attribute>
+           <!-- test against unit test to see if generated result is same as target -->
+           <xsl:sequence select="sample, target"/>
+           <result><xsl:apply-templates select="sample" mode="reftextparser"/></result>
+       </test>
     </xsl:template>
     
     <xsl:template match="sample" mode="reftextparser">
-        <xsl:analyze-string select="." regex="\([^()]+\)">
+        <xsl:analyze-string select="." regex="\(([^()]+)\)">
             <xsl:matching-substring>
-                <!-- process references -->
+                <xsl:choose>
+                    <xsl:when test="o2j:isAssumedToBeReference(regex-group(1)) eq true()">
+                        <!-- process the citation -->
+                        <xsl:text>(</xsl:text><refs><xsl:value-of select="."/></refs><xsl:text>)</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <!-- the parens is not identified as a citation, just copy over unchanged -->
+                        <xsl:copy/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:matching-substring>
             <xsl:non-matching-substring>
                 <xsl:copy/>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
+    </xsl:template>
+    
+    <xsl:template match="samples" mode="reftextparser">
+            <samples>
+                <xsl:apply-templates mode="reftextparser"/>
+            </samples>
+    </xsl:template>
+    
+    <xsl:template match="test" mode="verify">
+        <xsl:variable name="testResult" select="if (target eq result) then ('pass') else ('fail')"/>
+        <xsl:element name="{$testResult}">
+            <xsl:copy-of select="@*"/>
+        </xsl:element>
     </xsl:template>
     
 </xsl:stylesheet>
