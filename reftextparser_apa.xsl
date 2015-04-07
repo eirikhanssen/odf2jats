@@ -49,7 +49,11 @@
                     <xsl:when test="o2j:isAssumedToBeReference(regex-group(1)) eq true()">
                         <!-- process the citation -->
                         <xsl:variable name="parensWithRefs"><xsl:text>(</xsl:text><refs><xsl:value-of select="regex-group(1)"/></refs><xsl:text>)</xsl:text></xsl:variable>
-                        <xsl:sequence select="$parensWithRefs"/>
+<!--                        <xsl:sequence select="$parensWithRefs"/>-->
+                        <xsl:variable name="parensWithRefsGrouped">
+                            <xsl:apply-templates select="$parensWithRefs" mode="groupRefsInParensByAuthors"/>
+                        </xsl:variable>
+                        <xsl:sequence select="$parensWithRefsGrouped"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <!-- the parens is not identified as a citation, just copy over unchanged -->
@@ -62,7 +66,15 @@
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
-    
+
+    <xsl:template match="refs" mode="groupRefsInParensByAuthors">
+        <xsl:for-each select="tokenize( . , ';')">
+            <refsBySameAuthors>
+                <xsl:value-of select="normalize-space(.)"/>
+            </refsBySameAuthors>
+        </xsl:for-each>
+    </xsl:template>
+
     <xsl:template match="samples">
             <samples>
                 <xsl:apply-templates mode="reftextparser"/>

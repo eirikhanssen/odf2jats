@@ -1,0 +1,2 @@
+#!/bin/sh
+saxon unit-tests/textrefs.unit.xml reftextparser_apa.xsl | tee unit-tests/reftextparser_apa.output.xml | pygmentize -l xml | less -R

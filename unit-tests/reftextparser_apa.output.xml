@@ -1,139 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <samples>
-   <test>
+   <test tID="1">
       <sample>(And there were three musketeers too!)</sample>
       <target>(And there were three musketeers too!)</target>
+      <result>(And there were three musketeers too!)</result>
    </test>
-   <test>
+   <test tID="2">
       <sample>(1900-93)</sample>
       <target>(1900-93)</target>
+      <result>(1900-93)</result>
    </test>
-   <test>
+   <test tID="3">
       <sample>(1919 – 2000)</sample>
       <target>(1919 – 2000)</target>
+      <result>(1919 – 2000)</result>
    </test>
-   <test>
+   <test tID="4">
       <sample>(2005)</sample>
       <target>(<xref ref-type="bibr" rid="    2005">2005</xref>)</target>
+      <result>(<refsBySameAuthors>2005</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="5">
       <sample>(1903a)</sample>
       <target>(<xref ref-type="bibr" rid="    1903a">1903a</xref>)</target>
+      <result>(<refsBySameAuthors>1903a</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="6">
       <sample>(Quality, 2014)</sample>
       <target>(<xref ref-type="bibr" rid="Q2014">Quality, 2014</xref>)</target>
+      <result>(<refsBySameAuthors>Quality, 2014</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="7">
       <sample>(Lohr, 1990a)</sample>
       <target>(<xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>)</target>
+      <result>(<refsBySameAuthors>Lohr, 1990a</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="8">
       <sample>(ISO, 2005)</sample>
       <target>(<xref ref-type="bibr" rid="ISO2005">ISO, 2005</xref>)</target>
+      <result>(<refsBySameAuthors>ISO, 2005</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="9">
       <sample>(WHO, 2000)</sample>
       <target>(<xref ref-type="bibr" rid="WHO2000">2000</xref>)</target>
+      <result>(<refsBySameAuthors>WHO, 2000</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="10">
       <sample>(European Commission, 2010)</sample>
       <target>(<xref ref-type="bibr" rid="EC2010">European Commission, 2010</xref>)</target>
+      <result>(<refsBySameAuthors>European Commission, 2010</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="11">
       <sample>(Levine et al., 2012)</sample>
       <target>(<xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>)</target>
+      <result>(<refsBySameAuthors>Levine et al., 2012</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="12">
       <sample>(Legido-Quigley et al., 2008)</sample>
       <target>(<xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>)</target>
+      <result>(<refsBySameAuthors>Legido-Quigley et al., 2008</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="13">
       <sample>(Hanssen, 2014, 2015, 2016)</sample>
       <target>(<xref ref-type="bibr" rid="H2014">Hanssen, 2014</xref>, <xref ref-type="bibr" rid="H2015">2015</xref>, <xref ref-type="bibr" rid="H2016">2016</xref>)</target>
+      <result>(<refsBySameAuthors>Hanssen, 2014, 2015, 2016</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="14">
       <sample>(Lohr &amp; Schroeder, 1990)</sample>
       <target>(<xref ref-type="bibr" rid="LS1990">Lohr &amp; Schroeder, 1990</xref>)</target>
+      <result>(<refsBySameAuthors>Lohr &amp; Schroeder, 1990</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="15">
       <sample>(Donabedian &amp; Bashshur, 2003)</sample>
       <target>(<xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>)</target>
+      <result>(<refsBySameAuthors>Donabedian &amp; Bashshur, 2003</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="16">
       <sample>(Hanssen &amp; Vo, 2014, 2015, 2016; Hanssen, 2004, 2005)</sample>
       <target>(<xref ref-type="bibr" rid="HV2014">Hanssen &amp; Vo, 2014</xref>, <xref ref-type="bibr" rid="HV2015">2015</xref>, <xref ref-type="bibr" rid="HV2016">2016</xref>)</target>
+      <result>(<refsBySameAuthors>Hanssen &amp; Vo, 2014, 2015, 2016</refsBySameAuthors>
+         <refsBySameAuthors>Hanssen, 2004, 2005</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="17">
       <sample>(Hao, Hanssen &amp; Vo, 2014, 2015, 2016)</sample>
       <target>(<xref ref-type="bibr" rid="HHV2014">Hao, Hanssen &amp; Vo, 2014</xref>, <xref ref-type="bibr" rid="HHV2015">2015</xref>, <xref ref-type="bibr" rid="HHV2016">2016</xref>)</target>
+      <result>(<refsBySameAuthors>Hao, Hanssen &amp; Vo, 2014, 2015, 2016</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="18">
       <sample>(Arah, Westert, Hurst, &amp; Klazinga, 2006; Legido-Quigley, McKee, Nolte, &amp; Glinos, 2008; Lohr, 1990a; Smith, 2009)</sample>
       <target>(<xref ref-type="bibr" rid="AWHK2006">Arah, Westert, Hurst, &amp; Klazinga, 2006</xref>; <xref ref-type="bibr" rid="LQMKNG2008">Legido-Quigley, McKee, Nolte, &amp; Glinos, 2008</xref>; <xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>)</target>
+      <result>(<refsBySameAuthors>Arah, Westert, Hurst, &amp; Klazinga, 2006</refsBySameAuthors>
+         <refsBySameAuthors>Legido-Quigley, McKee, Nolte, &amp; Glinos, 2008</refsBySameAuthors>
+         <refsBySameAuthors>Lohr, 1990a</refsBySameAuthors>
+         <refsBySameAuthors>Smith, 2009</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="19">
       <sample>(Adair et al., 2006; McIntyre, Rogers, &amp; Heier, 2001)</sample>
       <target>(<xref ref-type="bibr" rid="A    2006">Adair et al., 2006</xref>; <xref ref-type="bibr" rid="MIRH2001">McIntyre, Rogers, &amp; Heier, 2001</xref>)</target>
+      <result>(<refsBySameAuthors>Adair et al., 2006</refsBySameAuthors>
+         <refsBySameAuthors>McIntyre, Rogers, &amp; Heier, 2001</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="20">
       <sample>(Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011)</sample>
       <target>(<xref ref-type="bibr" rid="SBOIB2011">Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011</xref>)</target>
+      <result>(<refsBySameAuthors>Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="21">
       <sample>(Jung, Wensing, Olesen, &amp; Grol, 2002; Levine et al., 2012)</sample>
       <target>(<xref ref-type="bibr" rid="JWOG2002">Jung, Wensing, Olesen, &amp; Grol, 2002</xref>; <xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>)</target>
+      <result>(<refsBySameAuthors>Jung, Wensing, Olesen, &amp; Grol, 2002</refsBySameAuthors>
+         <refsBySameAuthors>Levine et al., 2012</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="22">
       <sample>(Levine et al., 2012)</sample>
       <target>(<xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>)</target>
+      <result>(<refsBySameAuthors>Levine et al., 2012</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="23">
       <sample>(Institute of Medicine, 2001; Lohr, 1990b)</sample>
       <target>(<xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="L1990b">Lohr, 1990b</xref>)</target>
+      <result>(<refsBySameAuthors>Institute of Medicine, 2001</refsBySameAuthors>
+         <refsBySameAuthors>Lohr, 1990b</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="24">
       <sample>(Arah et al., 2006; Donabedian, 1988; Gerteis, Edgman-Levitan, Daley, &amp; Delbanco, 1993; Legido-Quigley et al., 2008; Smith, 2009)</sample>
       <target>(<xref ref-type="A    2006">Arah et al., 2006</xref>; <xref ref-type="D1988">Donabedian, 1988</xref>; <xref ref-type="bibr" rid="GELDD1993">Gerteis, Edgman-Levitan, Daley, &amp; Delbanco, 1993</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="S2009">Smith, 2009</xref>)</target>
+      <result>(<refsBySameAuthors>Arah et al., 2006</refsBySameAuthors>
+         <refsBySameAuthors>Donabedian, 1988</refsBySameAuthors>
+         <refsBySameAuthors>Gerteis, Edgman-Levitan, Daley, &amp; Delbanco, 1993</refsBySameAuthors>
+         <refsBySameAuthors>Legido-Quigley et al., 2008</refsBySameAuthors>
+         <refsBySameAuthors>Smith, 2009</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="25">
       <sample>(Arah et al., 2006; Donabedian, 1988; Donabedian &amp; Bashshur, 2003; Institute of Medicine, 2001; Legido-Quigley et al., 2008; Lohr, 1990a; Smith, 2009)</sample>
       <target>(<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>; <xref ref-type="DB2003">Donabedian &amp; Bashshur, 2003</xref>; <xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>)</target>
+      <result>(<refsBySameAuthors>Arah et al., 2006</refsBySameAuthors>
+         <refsBySameAuthors>Donabedian, 1988</refsBySameAuthors>
+         <refsBySameAuthors>Donabedian &amp; Bashshur, 2003</refsBySameAuthors>
+         <refsBySameAuthors>Institute of Medicine, 2001</refsBySameAuthors>
+         <refsBySameAuthors>Legido-Quigley et al., 2008</refsBySameAuthors>
+         <refsBySameAuthors>Lohr, 1990a</refsBySameAuthors>
+         <refsBySameAuthors>Smith, 2009</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="26">
       <sample>(Legido-Quigley et al., 2008)</sample>
       <target>(<xref ref-type="LQ    2008">Legido-Quigley et al., 2008</xref>)</target>
+      <result>(<refsBySameAuthors>Legido-Quigley et al., 2008</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="27">
       <sample>(Donabedian, 1988, 2005; Donabedian &amp; Bashshur, 2003)</sample>
       <target>(<xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>, <xref ref-type="bibr" rid="D2005">2005</xref>; <xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>)</target>
+      <result>(<refsBySameAuthors>Donabedian, 1988, 2005</refsBySameAuthors>
+         <refsBySameAuthors>Donabedian &amp; Bashshur, 2003</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="28">
       <sample>(Lalonde &amp; Department of National Health and Welfare, 1974)</sample>
       <target>(<xref ref-type="bibr" rid="LDNHW1974">Lalonde &amp; Department of National Health and Welfare, 1974</xref>)</target>
+      <result>(<refsBySameAuthors>Lalonde &amp; Department of National Health and Welfare, 1974</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="29">
       <sample>(Irvine, Elliott, Wallace, &amp; Crombie, 2006)</sample>
       <target>(<xref ref-type="bibr" rid="IEWC2006">Irvine, Elliott, Wallace, &amp; Crombie, 2006</xref>)</target>
+      <result>(<refsBySameAuthors>Irvine, Elliott, Wallace, &amp; Crombie, 2006</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="30">
       <sample>(Doyle, Lennox, &amp; Bell, 2013)</sample>
       <target>(<xref ref-type="bibr" rid="DLB2013">Doyle, Lennox, &amp; Bell, 2013</xref>)</target>
+      <result>(<refsBySameAuthors>Doyle, Lennox, &amp; Bell, 2013</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="31">
       <sample>(NICE, 2012)</sample>
       <target>(<xref ref-type="bibr" rid="NICE2012">NICE, 2012</xref>)</target>
+      <result>(<refsBySameAuthors>NICE, 2012</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="32">
       <sample>(Bismark, Spittal, Gurrin, Ward, &amp; Studdert, 2013; Light, 2003)</sample>
       <target>(<xref ref-type="bibr" rid="BSGWS2013">Bismark, Spittal, Gurrin, Ward, &amp; Studdert, 2013</xref>; <xref ref-type="L2003">Light, 2003</xref>)</target>
+      <result>(<refsBySameAuthors>Bismark, Spittal, Gurrin, Ward, &amp; Studdert, 2013</refsBySameAuthors>
+         <refsBySameAuthors>Light, 2003</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="33">
       <sample>(Arah et al., 2006; Institute of Medicine, 2001; Rygh et al., 2010; Sosial- og helsedirektoratet, 2005)</sample>
       <target>(<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="R    2010">Rygh et al., 2010</xref>; <xref ref-type="bibr" rid="S2005">Sosial- og helsedirektoratet, 2005</xref>)</target>
+      <result>(<refsBySameAuthors>Arah et al., 2006</refsBySameAuthors>
+         <refsBySameAuthors>Institute of Medicine, 2001</refsBySameAuthors>
+         <refsBySameAuthors>Rygh et al., 2010</refsBySameAuthors>
+         <refsBySameAuthors>Sosial- og helsedirektoratet, 2005</refsBySameAuthors>)</result>
    </test>
-   <test>
+   <test tID="34">
       <sample>(Bjertnaes, Skudal, Iversen, &amp; Lindahl, 2013; McEachan et al., 2013)</sample>
       <target>(<xref ref-type="bibr" rid="BSIL2013">Bjertnaes, Skudal, Iversen, &amp; Lindahl, 2013</xref>; <xref ref-type="bibr" rid="ME    2013">McEachan et al., 2013</xref>)</target>
+      <result>(<refsBySameAuthors>Bjertnaes, Skudal, Iversen, &amp; Lindahl, 2013</refsBySameAuthors>
+         <refsBySameAuthors>McEachan et al., 2013</refsBySameAuthors>)</result>
    </test>
 </samples>
