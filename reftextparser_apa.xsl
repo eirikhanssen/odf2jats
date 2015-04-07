@@ -17,7 +17,7 @@
                 <!-- All in-text references have 4 digits in a row to refer to a year -->
                 <xsl:value-of select="false()"/>
             </xsl:when>
-            <xsl:when test="$hasLetters eq false() and $hasDigitRange eq true()">
+            <xsl:when test="$hasDigitRange eq true()">
                 <!-- a digit-range in parens should not be considered a reference -->
                 <xsl:value-of select="false()"/>
             </xsl:when>
@@ -32,11 +32,6 @@
     <xsl:variable name="parsedRefs">
         <xsl:apply-templates mode="reftextparser"/>
     </xsl:variable>
-    
-    <xsl:result-document>
-        <xsl:apply-templates select="$parsedRefs" mode="verify"/>
-    </xsl:result-document>
-    
     
     <xsl:template match="test" mode="reftextparser">
        <test>
@@ -53,7 +48,8 @@
                 <xsl:choose>
                     <xsl:when test="o2j:isAssumedToBeReference(regex-group(1)) eq true()">
                         <!-- process the citation -->
-                        <xsl:text>(</xsl:text><refs><xsl:value-of select="."/></refs><xsl:text>)</xsl:text>
+                        <xsl:variable name="parensWithRefs"><xsl:text>(</xsl:text><refs><xsl:value-of select="regex-group(1)"/></refs><xsl:text>)</xsl:text></xsl:variable>
+                        <xsl:sequence select="$parensWithRefs"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <!-- the parens is not identified as a citation, just copy over unchanged -->
@@ -67,7 +63,7 @@
         </xsl:analyze-string>
     </xsl:template>
     
-    <xsl:template match="samples" mode="reftextparser">
+    <xsl:template match="samples">
             <samples>
                 <xsl:apply-templates mode="reftextparser"/>
             </samples>
