@@ -119,15 +119,12 @@
   </xsl:function>
 
   <xsl:function name="j2e:getChapterTitle" as="xs:string">
-    <!-- Return string with chapter title. Needs node with raw reference as param. 
-      Will use the text content in <italic> elements and do some regex checking to see if it is the title. -->
+    <!-- 
+      Return string with chapter title. Needs node with raw reference as param. 
+      Grabs the text between "({year}) " and ". In {Initial}" -->
     <xsl:param name="originalRef" as="node()"/>
-    <!--
-      WIP what if there is more then one italic element? Now all italic children are output together.
-      This is OK for book-chapter type references.
-    -->
-    <!-- WIP when translation follows <italic>...</italic> in [Brackets], how should it be marked up? -->
-    <xsl:value-of select="$originalRef/italic"/>
+    <xsl:variable name="chapterTitle" select="replace($originalRef, '.*?\(\d{4}\)\.?\s*(.+?)\.?\sIn\s\p{Lu}\..*', '$1')"/>
+    <xsl:value-of select="$chapterTitle"/>
   </xsl:function>
 
   <xsl:function name="j2e:getSourceTitle" as="xs:string">
@@ -135,13 +132,10 @@
       Will use the text content in <italic> elements and do some regex checking to see if it is the title. -->
     <xsl:param name="originalRef" as="node()"/>
 
-    <!--
-      WIP what if there is more then one italic element? Now all italic children are output together.
-      This is OK for book type references.
-    -->
+    <!-- WIP needs more testing -->
 
-    <!-- WIP when translation follows <italic>...</italic> in [Brackets], how should it be marked up? -->
-    <xsl:value-of select="$originalRef/italic"/>
+    <!-- WIP when translation follows <italic>...</italic> in [Brackets] it should be marked up as trans source. -->
+    <xsl:value-of select="normalize-space($originalRef/italic[1])"/>
 
   </xsl:function>
 
@@ -408,6 +402,9 @@
                       <xsl:value-of select="j2e:getChapterTitle($textcontent)"/>
                     </chapter-title>
                     <xsl:apply-templates select="$taggedEditors"/>
+                    <source>
+                      <xsl:value-of select="j2e:getSourceTitle($textcontent)"/>
+                    </source>
                   </xsl:when>
                   <xsl:otherwise>
                     <source>
