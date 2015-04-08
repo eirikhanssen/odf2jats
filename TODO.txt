@@ -1,6 +1,6 @@
 Flat extract
-    - figures
-    - table captions
+    - figure odf extract not implemented
+    - table captions not implemented, using placeholders
     - doi-uri in the header on page1 should be extracted to self uri and doi (specific to PP)
 
 Grouping/sectioning
@@ -10,14 +10,19 @@ Grouping/sectioning
         - see article by Angerer
 
 Reference list parsing/autotagging
+    - Book/Book-chapter type references
+        - reflistparser_apa can't handle uri at the end
+        - translated source and chapter-title not implemented yet
 
-References in text parsing/autotagging
-    - create unit tests with different text samples containing different types of text references
-    - when developing reftext-parser, run against tests to see if they pass or fail.
-    - Different types of citations in text:
-        - Only year (single)
-            - authors are listed in the last sentence before the parens
-        - One author One year
+    - Journal articles
+        - Not implemented yet
+
+    - Dissertations - should they also be marked up using element-citation?
+
+Citations in text parsing/autotagging
+    - Done, but can be improved a little.
+        - if only year is in parens, inspect the immediately preceding text node to extract
+          capital letters to use in rid autogeneration for xref-elements
 
 Notes about JATS tables, the following is allowed: 
     p/table-wrap/(caption/title, caption/p), table
