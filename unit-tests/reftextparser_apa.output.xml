@@ -20,7 +20,7 @@
       <target>(<xref ref-type="bibr" rid="    2005">2005</xref>)</target>
       <result>(<refs>
             <refsBySameAuthors>
-               <xref ref-type="bibr">2005</xref>
+               <xref ref-type="bibr" rid="    2005">2005</xref>
             </refsBySameAuthors>
          </refs>)</result>
    </test>
@@ -29,7 +29,7 @@
       <target>(<xref ref-type="bibr" rid="    1903a">1903a</xref>)</target>
       <result>(<refs>
             <refsBySameAuthors>
-               <xref ref-type="bibr">1903a</xref>
+               <xref ref-type="bibr" rid="    1903a">1903a</xref>
             </refsBySameAuthors>
          </refs>)</result>
    </test>
@@ -102,8 +102,8 @@
       <result>(<refs>
             <refsBySameAuthors>
                <xref ref-type="bibr" rid="H2014">Hanssen, 2014</xref>
-               <xref ref-type="bibr">2015</xref>
-               <xref ref-type="bibr">2016</xref>
+               <xref ref-type="bibr" rid="H2015">2015</xref>
+               <xref ref-type="bibr" rid="H2016">2016</xref>
             </refsBySameAuthors>
          </refs>)</result>
    </test>
@@ -131,12 +131,12 @@
       <result>(<refs>
             <refsBySameAuthors>
                <xref ref-type="bibr" rid="HV2014">Hanssen &amp; Vo, 2014</xref>
-               <xref ref-type="bibr">2015</xref>
-               <xref ref-type="bibr">2016</xref>
+               <xref ref-type="bibr" rid="HV2015">2015</xref>
+               <xref ref-type="bibr" rid="HV2016">2016</xref>
             </refsBySameAuthors>
             <refsBySameAuthors>
                <xref ref-type="bibr" rid="H2004">Hanssen, 2004</xref>
-               <xref ref-type="bibr">2005</xref>
+               <xref ref-type="bibr" rid="H2005">2005</xref>
             </refsBySameAuthors>
          </refs>)</result>
    </test>
@@ -146,8 +146,8 @@
       <result>(<refs>
             <refsBySameAuthors>
                <xref ref-type="bibr" rid="HHV2014">Hao, Hanssen &amp; Vo, 2014</xref>
-               <xref ref-type="bibr">2015</xref>
-               <xref ref-type="bibr">2016</xref>
+               <xref ref-type="bibr" rid="HHV2015">2015</xref>
+               <xref ref-type="bibr" rid="HHV2016">2016</xref>
             </refsBySameAuthors>
          </refs>)</result>
    </test>
@@ -286,7 +286,7 @@
       <result>(<refs>
             <refsBySameAuthors>
                <xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>
-               <xref ref-type="bibr">2005</xref>
+               <xref ref-type="bibr" rid="D2005">2005</xref>
             </refsBySameAuthors>
             <refsBySameAuthors>
                <xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>

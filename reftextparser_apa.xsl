@@ -72,11 +72,21 @@
                             <xsl:apply-templates select="$refsBySameAuthorsTokenized"
                                 mode="genIdIfAuthorsAndYear"/>
                         </xsl:variable>
+                        
+                        <xsl:variable name="xrefsWithRidIfWhenLettersNotPresent">
+                            <xsl:apply-templates select="$xrefsWithRidIfLettersPresent"
+                                mode="genIdWhenCapsLetterNotPresent"/>
+                        </xsl:variable>
+                        
+                        <xsl:variable name="xrefsInAuthorsGroupCleanup">
+                            <xsl:apply-templates select="$xrefsWithRidIfLettersPresent"
+                                mode="cleanupXrefsInAuthorsGroup"/>
+                        </xsl:variable>
 
                         <!-- <xsl:sequence select="$parensWithRefs"/> -->
                         <!--                         <xsl:sequence select="$parensWithRefsGrouped"/> -->
-                        <xsl:sequence select="$xrefsWithRidIfLettersPresent"/>
-
+<!--                        <xsl:sequence select="$xrefsInAuthorsGroupCleanup"/>-->
+                        <xsl:sequence select="$xrefsWithRidIfWhenLettersNotPresent"></xsl:sequence>
                     </xsl:when>
                     <xsl:otherwise>
                         <!-- the parens is not identified as a citation, just copy over unchanged -->
@@ -88,6 +98,51 @@
                 <xsl:copy/>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
+    </xsl:template>
+    
+    <xsl:template match="refs" mode="cleanupXrefsInAuthorsGroup">
+        <xsl:apply-templates mode="cleanupXrefsInAuthorsGroup"/>
+    </xsl:template>
+    
+    <xsl:template match="refsBySameAuthors" mode="cleanupXrefsInAuthorsGroup">
+        <xsl:apply-templates mode="cleanupXrefsInAuthorsGroup"/>
+        <xsl:if test="position() &lt; last()"><xsl:text>; </xsl:text></xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="refsBySameAuthors/xref" mode="cleanupXrefsInAuthorsGroup">
+        <xsl:copy-of select="*|@*"></xsl:copy-of>
+        <xsl:if test="position() &lt; last()"><xsl:text>, </xsl:text></xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="refs" mode="genIdWhenCapsLetterNotPresent">
+        <refs>
+            <xsl:apply-templates mode="genIdWhenCapsLetterNotPresent"/>
+        </refs>
+    </xsl:template>
+    
+    <xsl:template match="refsBySameAuthors" mode="genIdWhenCapsLetterNotPresent">
+        <refsBySameAuthors>
+            <xsl:apply-templates mode="genIdWhenCapsLetterNotPresent"/>
+        </refsBySameAuthors>
+    </xsl:template>
+    
+    <xsl:template match="refsBySameAuthors/xref" mode="genIdWhenCapsLetterNotPresent">
+        <xref ref-type="bibr">
+            <xsl:variable name="caps" select="replace(preceding-sibling::xref[@rid]/@rid , '\P{Lu}' ,'')"/>
+            <xsl:variable name="year" select="replace( . , '.*(\d{4}\c*)', '$1')"/>
+            <xsl:choose>
+                <xsl:when test="not(@rid) and $caps =''">
+                    <xsl:attribute name="rid" select="concat('    ' , $year)"/>
+                </xsl:when>
+                <xsl:when test="not(@rid)">
+                    <xsl:attribute name="rid" select="concat($caps, $year)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:copy-of select="@rid"/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:apply-templates mode="genIdIfAuthorsAndYear"/>
+        </xref>
     </xsl:template>
 
     <xsl:template match="refs" mode="genIdIfAuthorsAndYear">
