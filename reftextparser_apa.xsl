@@ -79,14 +79,14 @@
                         </xsl:variable>
                         
                         <xsl:variable name="xrefsInAuthorsGroupCleanup">
-                            <xsl:apply-templates select="$xrefsWithRidIfLettersPresent"
+                            <xsl:apply-templates select="$xrefsWithRidIfWhenLettersNotPresent"
                                 mode="cleanupXrefsInAuthorsGroup"/>
                         </xsl:variable>
 
                         <!-- <xsl:sequence select="$parensWithRefs"/> -->
-                        <!--                         <xsl:sequence select="$parensWithRefsGrouped"/> -->
-<!--                        <xsl:sequence select="$xrefsInAuthorsGroupCleanup"/>-->
-                        <xsl:sequence select="$xrefsWithRidIfWhenLettersNotPresent"></xsl:sequence>
+                        <!-- <xsl:sequence select="$parensWithRefsGrouped"/> -->
+                        <!-- <xsl:sequence select="$xrefsWithRidIfWhenLettersNotPresent"></xsl:sequence> -->
+                        <xsl:sequence select="$xrefsInAuthorsGroupCleanup"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <!-- the parens is not identified as a citation, just copy over unchanged -->
@@ -110,7 +110,10 @@
     </xsl:template>
     
     <xsl:template match="refsBySameAuthors/xref" mode="cleanupXrefsInAuthorsGroup">
-        <xsl:copy-of select="*|@*"></xsl:copy-of>
+        <xsl:element name="xref">
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates mode="cleanupXrefsInAuthorsGroup"/>
+        </xsl:element>
         <xsl:if test="position() &lt; last()"><xsl:text>, </xsl:text></xsl:if>
     </xsl:template>
     

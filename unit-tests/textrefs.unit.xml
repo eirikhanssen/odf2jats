@@ -62,7 +62,7 @@
    </test>
    <test>
       <sample>(Hanssen &amp; Vo, 2014, 2015, 2016; Hanssen, 2004, 2005)</sample>
-      <target>(<xref ref-type="bibr" rid="HV2014">Hanssen &amp; Vo, 2014</xref>, <xref ref-type="bibr" rid="HV2015">2015</xref>, <xref ref-type="bibr" rid="HV2016">2016</xref>)</target>
+      <target>(<xref ref-type="bibr" rid="HV2014">Hanssen &amp; Vo, 2014</xref>, <xref ref-type="bibr" rid="HV2015">2015</xref>, <xref ref-type="bibr" rid="HV2016">2016</xref>; <xref ref-type="bibr" rid="H2004">Hanssen, 2004</xref>, <xref ref-type="bibr" rid="H2005">2005</xref>)</target>
    </test>
    <test>
       <sample>(Hao, Hanssen &amp; Vo, 2014, 2015, 2016)</sample>
@@ -94,11 +94,11 @@
    </test>
    <test>
       <sample>(Arah et al., 2006; Donabedian, 1988; Gerteis, Edgman-Levitan, Daley, &amp; Delbanco, 1993; Legido-Quigley et al., 2008; Smith, 2009)</sample>
-      <target>(<xref ref-type="A    2006">Arah et al., 2006</xref>; <xref ref-type="D1988">Donabedian, 1988</xref>; <xref ref-type="bibr" rid="GELDD1993">Gerteis, Edgman-Levitan, Daley, &amp; Delbanco, 1993</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="S2009">Smith, 2009</xref>)</target>
+      <target>(<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>; <xref ref-type="bibr" rid="GELDD1993">Gerteis, Edgman-Levitan, Daley, &amp; Delbanco, 1993</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>)</target>
    </test>
    <test>
       <sample>(Arah et al., 2006; Donabedian, 1988; Donabedian &amp; Bashshur, 2003; Institute of Medicine, 2001; Legido-Quigley et al., 2008; Lohr, 1990a; Smith, 2009)</sample>
-      <target>(<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>; <xref ref-type="DB2003">Donabedian &amp; Bashshur, 2003</xref>; <xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>)</target>
+      <target>(<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>; <xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>; <xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>)</target>
    </test>
    <test>
       <sample>(Legido-Quigley et al., 2008)</sample>
@@ -126,7 +126,7 @@
    </test>
    <test>
       <sample>(Bismark, Spittal, Gurrin, Ward, &amp; Studdert, 2013; Light, 2003)</sample>
-      <target>(<xref ref-type="bibr" rid="BSGWS2013">Bismark, Spittal, Gurrin, Ward, &amp; Studdert, 2013</xref>; <xref ref-type="L2003">Light, 2003</xref>)</target>
+      <target>(<xref ref-type="bibr" rid="BSGWS2013">Bismark, Spittal, Gurrin, Ward, &amp; Studdert, 2013</xref>; <xref ref-type="bibr" rid="L2003">Light, 2003</xref>)</target>
    </test>
    <test>
       <sample>(Arah et al., 2006; Institute of Medicine, 2001; Rygh et al., 2010; Sosial- og helsedirektoratet, 2005)</sample>
