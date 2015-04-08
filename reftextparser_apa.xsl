@@ -26,7 +26,6 @@
         </xsl:choose>
     </xsl:function>
 
-    <!-- see page 88 -->
     <xsl:variable name="parsedRefs">
         <xsl:apply-templates mode="reftextparser"/>
     </xsl:variable>
@@ -44,7 +43,20 @@
         </test>
     </xsl:template>
 
-    <xsl:template match="sample" mode="reftextparser">
+    <!--
+        This template is a micro-pipeline, where parens that are identified to contain citation(s)
+        are processed in several passes/phases using different modes.
+
+        Each pass is stored as a temporary document in a variable that is used in the next pass/phase.
+
+        The passes introduce temporary markup to be able to dissect the citation(s) within the parens
+        and autogenerate or semi-autogenerate the rid of xref elements.
+
+        Finally, the temporary markup is removed and cleaned up, ensuring that the xref-tagged citations 
+        within parens are properly separated with commas, space and semicolons.
+    -->
+
+    <xsl:template match="element()[not(ancestor::ref-list)]/text()" mode="reftextparser">
         <xsl:analyze-string select="." regex="\(([^()]+)\)">
             <xsl:matching-substring>
                 <xsl:choose>
@@ -205,14 +217,18 @@
         </refs>
     </xsl:template>
 
-
-
-
-    <xsl:template match="samples">
-        <samples>
+    <xsl:template match="/element()[1]">
+        <xsl:element name="{name(.)}">
+            <xsl:copy-of select="@*"/>
             <xsl:apply-templates mode="reftextparser"/>
-        </samples>
+        </xsl:element>
     </xsl:template>
 
-
+    <!-- Default template for all modes-  do an identity transform and copy over the node unchanged -->
+    <xsl:template match="*">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template>
 </xsl:stylesheet>
