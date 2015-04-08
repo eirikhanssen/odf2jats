@@ -237,6 +237,14 @@
       <xsl:value-of select="matches($textcontent, '((Re|E)ds?\.)')"/>
     </xsl:variable>
 
+    <xsl:variable name="hasSinglePageCountStringInParens" as="xs:boolean">
+      <xsl:value-of select="matches ($textcontent , '\(.*?p?p\.\s*\d+.*?\)') and not(matches($textcontent, '\(.*?pp\.\s*\d+\s*-\s*\d+.*?\)'))"/>
+    </xsl:variable>
+
+    <xsl:variable name="hasMultiplePageCountStringInParens" as="xs:boolean">
+      <xsl:value-of select="matches($textcontent, '\(.*?pp\.\s*\d+\s*-\s*\d+.*?\)')"/>
+    </xsl:variable>
+
     <xsl:variable name="editorString">
       <xsl:if test="$isBookChapter eq true()">
         <xsl:value-of select="normalize-space(j2e:getEditorString($textcontent))"/>
@@ -417,6 +425,16 @@
             <year>
               <xsl:value-of select="$year"/>
             </year>
+            <xsl:choose>
+              <xsl:when test="$hasMultiplePageCountStringInParens eq true()">
+                <fpage><xsl:value-of select="replace($textcontent, '.*?\(.*?pp\.\s*(\d+)\s*-\s*\d+.*?\).*' , '$1')"/></fpage>
+                <lpage><xsl:value-of select="replace($textcontent, '.*?\(.*?pp\.\s*\d+\s*-\s*(\d+).*?\).*' , '$1')"/></lpage>
+              </xsl:when>
+              <xsl:when test="$hasSinglePageCountStringInParens eq true()">
+                <fpage><xsl:value-of select="replace($textcontent, '.*?\(.*?p?p\.\s*(\d+).*?\).*' , '$1')"/></fpage>
+              </xsl:when>
+
+            </xsl:choose>
             <xsl:if test="$isBook eq true()">
               <publisher-loc>
                 <xsl:value-of select="$publisher/publisher-loc"/>
