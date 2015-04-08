@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
     xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
     xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
     xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
     xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
-    xmlns:j2e="https://github.com/eirikhanssen/jats2epub"
     xmlns:sm="https://github.com/eirikhanssen/odf2jats/stylemap"
-    exclude-result-prefixes="xs xlink j2e sm style office text table fo">
+    exclude-result-prefixes="xs sm style office text table fo">
 
     <xsl:output method="xml" indent="yes"/>
 
@@ -21,7 +22,7 @@
         as="element(style:style)+"/>
 
     <xsl:template match="/">
-        <article>
+        <article article-type="research-article">
             <xsl:apply-templates/>
         </article>
     </xsl:template>

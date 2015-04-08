@@ -2,6 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
     exclude-result-prefixes="xs"
     version="2.0">
 
@@ -10,7 +12,7 @@
     <xsl:param name="article-meta-common" select="doc('article-meta-common-PP.xml')/article-meta" as="element(article-meta)"/>
 
     <xsl:template match="article">
-        <article>
+        <article article-type="research-article">
             <front>
                 <xsl:apply-templates select="$journal-meta-common"/>
                 <article-meta>

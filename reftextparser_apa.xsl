@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xmlns:o2j="https://github.com/eirikhanssen/odf2jats" exclude-result-prefixes="xs xlink o2j">
+<xsl:stylesheet version="2.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:o2j="https://github.com/eirikhanssen/odf2jats"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    exclude-result-prefixes="xs o2j">
 
     <xsl:output method="xml" indent="yes"/>
 
@@ -26,23 +31,6 @@
         </xsl:choose>
     </xsl:function>
 
-    <xsl:variable name="parsedRefs">
-        <xsl:apply-templates mode="reftextparser"/>
-    </xsl:variable>
-
-    <xsl:template match="test" mode="reftextparser">
-        <test>
-            <xsl:attribute name="tID">
-                <xsl:number/>
-            </xsl:attribute>
-            <!-- test against unit test to see if generated result is same as target -->
-            <xsl:sequence select="sample, target"/>
-            <result>
-                <xsl:apply-templates select="sample" mode="reftextparser"/>
-            </result>
-        </test>
-    </xsl:template>
-
     <!--
         This template is a micro-pipeline, where parens that are identified to contain citation(s)
         are processed in several passes/phases using different modes.
@@ -56,19 +44,15 @@
         within parens are properly separated with commas, space and semicolons.
     -->
 
-    <xsl:template match="element()[not(ancestor::ref-list)]/text()" mode="reftextparser">
+    <xsl:template match="element()[not(ancestor::ref-list)]/text()">
         <xsl:analyze-string select="." regex="\(([^()]+)\)">
             <xsl:matching-substring>
                 <xsl:choose>
                     <xsl:when test="o2j:isAssumedToBeReference(regex-group(1)) eq true()">
+
                         <!-- process the citation -->
                         <xsl:variable name="parensWithRefs">
-                            <xsl:text>(</xsl:text>
-                            <refs>
-                                <xsl:value-of select="regex-group(1)"/>
-                            </refs>
-                            <xsl:text>)</xsl:text>
-                        </xsl:variable>
+                            <xsl:text>(</xsl:text><refs><xsl:value-of select="regex-group(1)"/></refs><xsl:text>)</xsl:text></xsl:variable>
 
                         <xsl:variable name="parensWithRefsGrouped">
                             <xsl:apply-templates select="$parensWithRefs"
@@ -95,20 +79,18 @@
                                 mode="cleanupXrefsInAuthorsGroup"/>
                         </xsl:variable>
 
-                        <!-- <xsl:sequence select="$parensWithRefs"/> -->
-                        <!-- <xsl:sequence select="$parensWithRefsGrouped"/> -->
-                        <!-- <xsl:sequence select="$xrefsWithRidIfWhenLettersNotPresent"></xsl:sequence> -->
                         <xsl:sequence select="$xrefsInAuthorsGroupCleanup"/>
                     </xsl:when>
-                    <xsl:otherwise>
-                        <!-- the parens is not identified as a citation, just copy over unchanged -->
-                        <xsl:copy/>
-                    </xsl:otherwise>
+                    <!-- 
+                        When the parens is not identified as a citation, just copy it over unchanged. 
+                        
+                        Strangely the empty <xsl:text/> are needed here to prevent insertion of extra space
+                        around parens that are identified as not containing text-refs.
+                    -->
+                    <xsl:otherwise><xsl:text/><xsl:copy/><xsl:text/></xsl:otherwise>
                 </xsl:choose>
             </xsl:matching-substring>
-            <xsl:non-matching-substring>
-                <xsl:copy/>
-            </xsl:non-matching-substring>
+            <xsl:non-matching-substring><xsl:text/><xsl:copy/><xsl:text/></xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
     
@@ -217,18 +199,20 @@
         </refs>
     </xsl:template>
 
-    <xsl:template match="/element()[1]">
+    <xsl:template match="/element()">
         <xsl:element name="{name(.)}">
             <xsl:copy-of select="@*"/>
-            <xsl:apply-templates mode="reftextparser"/>
+            <xsl:copy-of select="document('')/*/namespace::*[name()='xlink']"/>
+            <xsl:copy-of select="document('')/*/namespace::*[name()='xsi']"/>
+            <xsl:copy-of select="document('')/*/namespace::*[name()='mml']"/>
+            <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
 
     <!-- Default template for all modes-  do an identity transform and copy over the node unchanged -->
-    <xsl:template match="*">
+    <xsl:template match="node()|@*">
         <xsl:copy>
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>

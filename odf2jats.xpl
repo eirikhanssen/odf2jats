@@ -3,7 +3,10 @@
     name="odf2jats"
     xmlns:p="http://www.w3.org/ns/xproc"
     xmlns:c="http://www.w3.org/ns/xproc-step"
-    exclude-inline-prefixes="c">
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    exclude-inline-prefixes="c p">
 
     <p:input port="source">
         <p:document href="source/odf-nylenna/content.xml"/>
@@ -62,10 +65,23 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    <p:identity/>
 
     <p:rename match="h1|h2|h3|h4|h5|h6" new-name="title"/>
 
+    <!-- Delete unneeded lvl attribute from sec elements -->
     <p:delete match="sec/@lvl"/>
+
+    <!-- Attempt to auto-tag citations in the running text -->
+    <p:xslt name="textRefParsing" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="reftextparser_apa.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
+    <p:identity/>
 
 </p:declare-step>
