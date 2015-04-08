@@ -68,9 +68,14 @@
                                 mode="tokenizeRefsBySameAuthors"/>
                         </xsl:variable>
 
+                        <xsl:variable name="xrefsWithRidIfLettersPresent">
+                            <xsl:apply-templates select="$refsBySameAuthorsTokenized"
+                                mode="genIdIfAuthorsAndYear"/>
+                        </xsl:variable>
+
                         <!-- <xsl:sequence select="$parensWithRefs"/> -->
-<!--                         <xsl:sequence select="$parensWithRefsGrouped"/> -->
-                        <xsl:sequence select="$refsBySameAuthorsTokenized"/>
+                        <!--                         <xsl:sequence select="$parensWithRefsGrouped"/> -->
+                        <xsl:sequence select="$xrefsWithRidIfLettersPresent"/>
 
                     </xsl:when>
                     <xsl:otherwise>
@@ -85,6 +90,34 @@
         </xsl:analyze-string>
     </xsl:template>
 
+    <xsl:template match="refs" mode="genIdIfAuthorsAndYear">
+        <refs>
+            <xsl:apply-templates mode="genIdIfAuthorsAndYear"/>
+        </refs>
+    </xsl:template>
+
+    <xsl:template match="refsBySameAuthors" mode="genIdIfAuthorsAndYear">
+        <refsBySameAuthors>
+            <xsl:apply-templates mode="genIdIfAuthorsAndYear"/>
+        </refsBySameAuthors>
+    </xsl:template>
+
+    <xsl:template match="xref" mode="genIdIfAuthorsAndYear">
+        <xref ref-type="bibr">
+            <xsl:variable name="caps" select="replace( . , '\P{Lu}' , '')"/>
+            <xsl:variable name="year" select="replace( . , '.*(\d{4}\c*)', '$1')"/>
+            <xsl:choose>
+                <xsl:when test="matches( . ,'\p{Lu}') and matches( . , 'et al\.')">
+                    <xsl:attribute name="rid" select="concat($caps , '    ' , $year)"/>
+                </xsl:when>
+                <xsl:when test="matches( . ,'\p{Lu}')">
+                    <xsl:attribute name="rid" select="concat($caps, $year)"/>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:apply-templates mode="genIdIfAuthorsAndYear"/>
+        </xref>
+    </xsl:template>
+
     <xsl:template match="refs" mode="tokenizeRefsBySameAuthors">
         <refs>
             <xsl:apply-templates mode="tokenizeRefsBySameAuthors"/>
@@ -93,10 +126,14 @@
 
     <xsl:template match="refsBySameAuthors" mode="tokenizeRefsBySameAuthors">
         <refsBySameAuthors>
-            <xsl:variable name="sameAuthorsRefStringTokenized"><xsl:value-of select="replace(. , '(\d{4}\c*\s*),' , '$1|')"/></xsl:variable>
-                    <xsl:for-each select="tokenize($sameAuthorsRefStringTokenized , '[|]')">
-                        <xref><xsl:value-of select="normalize-space(.)"></xsl:value-of></xref>
-                    </xsl:for-each>
+            <xsl:variable name="sameAuthorsRefStringTokenized">
+                <xsl:value-of select="replace(. , '(\d{4}\c*\s*),' , '$1|')"/>
+            </xsl:variable>
+            <xsl:for-each select="tokenize($sameAuthorsRefStringTokenized , '[|]')">
+                <xref>
+                    <xsl:value-of select="normalize-space(.)"/>
+                </xref>
+            </xsl:for-each>
         </refsBySameAuthors>
     </xsl:template>
 
@@ -109,8 +146,8 @@
             </xsl:for-each>
         </refs>
     </xsl:template>
-    
-    
+
+
 
 
     <xsl:template match="samples">
