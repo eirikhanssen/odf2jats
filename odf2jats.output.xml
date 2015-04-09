@@ -594,6 +594,45 @@
             <mixed-citation publication-format="print">Arah, O. A., Westert, G. P., Hurst, J., &amp; Klazinga, N. S. (2006). A conceptual framework for the OECD Health Care Quality Indicators Project. <italic>International Journal for Quality in Health Care, 18 Suppl 1</italic>, 5-13. <uri>http://dx.doi.org/10.1093/intqhc/mzl024</uri>
             </mixed-citation>
          </ref>
+         <ref id="B2007"><!--Bastesen, P. (2007). <italic>Ka sku vi gjort uten havet?</italic> [What should we do without the ocean?] Oslo: Høgskolen i Oslo og Akershus.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bastesen</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <source>Ka sku vi gjort uten havet?</source>
+               <year>2007</year>
+               <publisher-loc>Oslo</publisher-loc>
+               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="B2008"><!--Bastesen, P. (2008). Det er flere fisker i sjøen [There are more fish in the sea] In E. Hanssen & D. Buck (Eds.), <italic>Bærekraftig havdrift</italic> [Sustainable sea exploitation] Oslo: Høgskolen i Oslo og Akershus.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Bastesen</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <chapter-title>Det er flere fisker i sjøen [There are more fish in the sea]</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Hanssen</surname>
+                     <given-names>E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Buck</surname>
+                     <given-names>D.</given-names>
+                  </name>
+               </person-group>
+               <source>Bærekraftig havdrift</source>
+               <year>2008</year>
+               <publisher-loc>Oslo</publisher-loc>
+               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
+            </element-citation>
+         </ref>
          <ref id="BGN2007"><!--Batalden, P. B., Godfrey, M. M., & Nelson, E. C. (2007). <italic>Quality by design: a clinical microsystems approach</italic>. San Francisco: Jossey-Bass.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
