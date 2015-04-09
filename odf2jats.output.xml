@@ -602,7 +602,8 @@
                      <given-names>P.</given-names>
                   </name>
                </person-group>
-               <source>Ka sku vi gjort uten havet?</source>
+               <source xml:lang="__">Ka sku vi gjort uten havet?</source>
+               <trans-source xml:lang="__">What should we do without the ocean?</trans-source>
                <year>2007</year>
                <publisher-loc>Oslo</publisher-loc>
                <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
@@ -616,7 +617,8 @@
                      <given-names>P.</given-names>
                   </name>
                </person-group>
-               <chapter-title>Det er flere fisker i sjøen [There are more fish in the sea]</chapter-title>
+               <chapter-title xml:lang="__">Det er flere fisker i sjøen</chapter-title>
+               <trans-title xml:lang="__">There are more fish in the sea</trans-title>
                <person-group person-group-type="editor">
                   <name>
                      <surname>Hanssen</surname>
@@ -627,7 +629,8 @@
                      <given-names>D.</given-names>
                   </name>
                </person-group>
-               <source>Bærekraftig havdrift</source>
+               <source xml:lang="__">Bærekraftig havdrift</source>
+               <trans-source xml:lang="__">Sustainable sea exploitation</trans-source>
                <year>2008</year>
                <publisher-loc>Oslo</publisher-loc>
                <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>

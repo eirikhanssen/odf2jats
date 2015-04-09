@@ -236,6 +236,20 @@
     <xsl:variable name="isBookChapter" as="xs:boolean">
       <xsl:value-of select="matches($textcontent, '((Re|E)ds?\.)')"/>
     </xsl:variable>
+    
+    <xsl:variable name="hasTranslatedBookTitle" select="matches($textcontent/italic[1]/following-sibling::text()[1] , '^.*?\[(.+?)\].*$')" as="xs:boolean"/>
+    
+    <xsl:variable name="translatedBookTitle" as="xs:string">
+      <xsl:choose>
+        <xsl:when test="$hasTranslatedBookTitle eq true()">
+          <xsl:value-of select="replace($textcontent/italic[1]/following-sibling::text()[1] , '^.*?\[(.+?)\].*$' , '$1')"></xsl:value-of>
+        </xsl:when>
+        <xsl:otherwise><xsl:if test="$isBook eq false()">NotIdentifiedAsBook</xsl:if><xsl:text>TranslatedSourceNotFound</xsl:text></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:variable name="hasTranslatedBookChapterTitle" select="matches(j2e:getChapterTitle($textcontent) , '\[[^\]]+?\]')" as="xs:boolean"/>
+
 
     <xsl:variable name="hasSinglePageCountStringInParens" as="xs:boolean">
       <xsl:value-of select="matches ($textcontent , '\(.*?p?p\.\s*\d+.*?\)') and not(matches($textcontent, '\(.*?pp\.\s*\d+\s*-\s*\d+.*?\)'))"/>
@@ -407,17 +421,52 @@
                 <xsl:choose>
                   <xsl:when test="$isBookChapter eq true()">
                     <chapter-title>
-                      <xsl:value-of select="j2e:getChapterTitle($textcontent)"/>
+                      <xsl:choose>
+                        <xsl:when test="$hasTranslatedBookChapterTitle eq true()">
+                          <xsl:attribute name="xml:lang">__</xsl:attribute>
+                          <!-- remove translation in angle brackets -->
+                          <xsl:value-of select="replace(j2e:getChapterTitle($textcontent), '\s*\[[^\]]+?\]', '')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="j2e:getChapterTitle($textcontent)"/>  
+                        </xsl:otherwise>
+                      </xsl:choose>
                     </chapter-title>
+                    <xsl:if test="$hasTranslatedBookChapterTitle eq true()">
+                      <trans-title>
+                        <xsl:attribute name="xml:lang">__</xsl:attribute>
+                        <!-- extract only the translation in angle brackets -->
+                        <xsl:value-of select="replace(j2e:getChapterTitle($textcontent) , '^.*?\[(.+?)\].*$' , '$1')"/>
+                      </trans-title>
+                    </xsl:if>
                     <xsl:apply-templates select="$taggedEditors"/>
                     <source>
+                      <xsl:if test="$hasTranslatedBookTitle eq true()">
+                        <xsl:attribute name="xml:lang">__</xsl:attribute>
+                      </xsl:if>
                       <xsl:value-of select="j2e:getSourceTitle($textcontent)"/>
                     </source>
+                    <xsl:if test="$hasTranslatedBookTitle eq true()">
+                      <trans-source>
+                        <xsl:attribute name="xml:lang">__</xsl:attribute>
+                        <xsl:value-of select="replace($textcontent/italic[1]/following-sibling::text()[1] , '^.*?\[(.+?)\].*$' , '$1')"/>
+                      </trans-source>
+                    </xsl:if>
                   </xsl:when>
                   <xsl:otherwise>
                     <source>
+                      <xsl:if test="$hasTranslatedBookTitle eq true()">
+                        <xsl:attribute name="xml:lang">__</xsl:attribute>
+                      </xsl:if>
                       <xsl:value-of select="j2e:getSourceTitle($textcontent)"/>
                     </source>
+                    <xsl:if test="$hasTranslatedBookTitle eq true()">
+                      <trans-source>
+                        <xsl:attribute name="xml:lang">__</xsl:attribute>
+                        <!-- extract only the translation in angle brackets -->
+                        <xsl:value-of select="replace($textcontent/italic[1]/following-sibling::text()[1] , '^.*?\[(.+?)\].*$' , '$1')"/>
+                      </trans-source>
+                    </xsl:if>
                   </xsl:otherwise>
                 </xsl:choose>
               </xsl:when>

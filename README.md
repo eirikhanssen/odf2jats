@@ -54,6 +54,19 @@ This style-mapping will be used in generating the structure and semantics needed
     - article authors (if styled with person paragraph style in the odt document).
     - abstract
     - keywords
+- book type references
+    - authors
+    - source
+    - trans-source (if present)
+    - fpage
+    - lpage
+    - publisher-loc
+    - publisher-name
+
+- book-chapter type references
+    - same as book type references
+    - chapter-title
+    - trans-title (if present)
 
 ### Grouping, sectioning and parsing
 - the body contents of the document is properly sectioned using sec/title elements based on the outline level on the headings
@@ -65,12 +78,9 @@ This style-mapping will be used in generating the structure and semantics needed
 
 - Book type references auto-tag almost satisfactory
     - can't handle uri at the end
-    - can't handle translated source yet
     - edition should be placed in a ```<comment>2nd ed.</comment>```
 - Book-chapter type references auto-tag almost satisfactory
     - can't handle uri at the end
-    - can't handle translated chapter-title
-    - can't handle translated source
 
 ## Todo
 
@@ -85,6 +95,7 @@ This style-mapping will be used in generating the structure and semantics needed
 - table labels/titles/captions are not automatically handled yet
     - this can be done automatically if they are styled with a special paragraph style do identify the content as being table label, table title or table caption
 - citations in the text that only have year within the parens, have **rid** attributes that misses capital letters from author's surname. This could be extracted from the text node directly before the xref-element, or like now, just let the person doing the conversion manually fix those **rid** attributes.
+- clean up reflistparser_apa.xsl to make it more readable and follow Clean Code principles
 
 ### Writing and styling aids for editors and authors
 
