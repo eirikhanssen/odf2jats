@@ -66,6 +66,7 @@ This style-mapping will be used in generating the structure and semantics needed
 - Book type references auto-tag almost satisfactory
     - can't handle uri at the end
     - can't handle translated source yet
+    - edition should be placed in a ```<comment>2nd ed.</comment>```
 - Book-chapter type references auto-tag almost satisfactory
     - can't handle uri at the end
     - can't handle translated chapter-title
