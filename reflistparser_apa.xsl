@@ -127,6 +127,11 @@
     <xsl:value-of select="$chapterTitle"/>
   </xsl:function>
 
+  <xsl:function name="o2j:stripTranslationFromTitle" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="replace($originalString, '\s*\[[^\]]+\]$', '')"/>
+  </xsl:function>
+
   <xsl:function name="o2j:getSourceTitle" as="xs:string">
     <!-- Return string with chapter title. Needs node with raw reference as param.
       Will use the text content in <italic> elements and do some regex checking to see if it is the title. -->
@@ -226,8 +231,9 @@
       <xsl:value-of select="o2j:tokenizeAuthors($authors)"/>
     </xsl:variable>
 
-    <xsl:variable name="isBook" as="xs:boolean">
-      <!-- Check if the end of the reference to see if it ends with a typical book type reference to a publisher -->
+    <xsl:variable name="hasPublisherLocAndNameString" as="xs:boolean">
+      <!-- It is important to make sure that uri elements in the end are not interpreted as publisher-name: publisher-loc (they have colons) -->
+      <!-- Check if the end of the reference to see if it ends with a typical reference to a publisher-loc: publisher-name pair -->
       <!-- Allow some flexibility in publisher-name and publisher-loc such as spaces, slash, hyphen -->
       <!-- Example publisher strings that should match:
           [(...) Malmö: Liber.] 
@@ -235,28 +241,76 @@
           [(...) Stockholm/Stehag: Symposion.]
           [(...) Stockholm: Sveriges Kommuner och Landsting.]
       -->
+      <!--
+        This test is very important in deciding book and journal type reference 
+        and currently gets confused by un-tagged uris in the end of the ref because of colon
+      -->
       <xsl:value-of select="matches($textcontent, '[-\c/]{2,}:\s+[-\c\s/]{2,}.?$')"/>
     </xsl:variable>
 
-    <xsl:variable name="hasEdition" select="matches($textcontent, '\(\s*\d+?\s*(nd|rd|th)\s*ed\.?.*?\)')" as="xs:boolean"/>
-
-    <xsl:variable name="isBookChapter" as="xs:boolean">
-      <xsl:value-of select="matches($textcontent, '((Re|E)ds?\.)')"/>
+    <xsl:variable name="isBook" as="xs:boolean">
+      <!-- all book type references have a publisher-loc: publisher-name pair in the end, optionally followed by an uri -->
+      <xsl:value-of select="$hasPublisherLocAndNameString"/>
     </xsl:variable>
-    
+
     <xsl:variable name="hasTranslatedBookTitle" select="matches($textcontent/italic[1]/following-sibling::text()[1] , '^.*?\[(.+?)\].*$')" as="xs:boolean"/>
-    
+
     <xsl:variable name="translatedBookTitle" as="xs:string">
       <xsl:choose>
         <xsl:when test="$hasTranslatedBookTitle eq true()">
           <xsl:value-of select="replace($textcontent/italic[1]/following-sibling::text()[1] , '^.*?\[(.+?)\].*$' , '$1')"></xsl:value-of>
         </xsl:when>
-        <xsl:otherwise><xsl:if test="$isBook eq false()">NotIdentifiedAsBook</xsl:if><xsl:text>TranslatedSourceNotFound</xsl:text></xsl:otherwise>
+        <xsl:otherwise><xsl:text>TranslatedSourceNotFound</xsl:text></xsl:otherwise>
       </xsl:choose>
+    </xsl:variable>
+
+    <xsl:variable name="isBookChapter" as="xs:boolean">
+      <xsl:value-of select="matches($textcontent, '((Re|E)ds?\.)')"/>
     </xsl:variable>
 
     <xsl:variable name="hasTranslatedBookChapterTitle" select="matches(o2j:getChapterTitle($textcontent) , '\[[^\]]+?\]')" as="xs:boolean"/>
 
+    <xsl:variable name="translatedBookChapterTitle" as="xs:string">
+      <xsl:choose>
+        <xsl:when test="$hasTranslatedBookChapterTitle eq true()">
+          <xsl:value-of select="replace(o2j:getChapterTitle($textcontent) , '^.*?\[(.+?)\].*$' , '$1')"/>
+        </xsl:when>
+        <xsl:otherwise><xsl:text>TranslatedBookChapterTitleNotFound</xsl:text></xsl:otherwise>
+      </xsl:choose>  
+    </xsl:variable>
+
+    <xsl:variable name="hasEdition" select="matches($textcontent, '\(\s*\d+?\s*(nd|rd|th)\s*ed\.?.*?\)')" as="xs:boolean"/>
+
+    <xsl:variable name="hasSourceInItalics" as="xs:boolean" select="matches($textcontent/italic[1], '\c+')"/>
+
+    <xsl:variable name="stringBetweenYearInParensAndSourceInItalics" 
+      select="replace($textcontent/italic[1]/preceding-sibling::text()[1], '^\D+?\(\s*\d{4}\s*\)(.*?)$' , '$1')" 
+      as="xs:string"/>
+
+    <xsl:variable name="hasTitleBeforeSourceInItalics" as="xs:boolean" 
+      select="matches($stringBetweenYearInParensAndSourceInItalics , '\c+')"/>
+
+    <xsl:variable name="titleBeforeSourceInItalics" as="xs:string">
+      <xsl:choose>
+        <xsl:when test="$hasTitleBeforeSourceInItalics eq true()">
+          <xsl:value-of select="$stringBetweenYearInParensAndSourceInItalics"/>
+        </xsl:when>
+        <xsl:otherwise><xsl:text>titleBeforeSourceInItalicsNotFound</xsl:text></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:variable name="isJournalArticle" as="xs:boolean">
+      <!-- 
+        A journal article ref has: 
+        parsable authorstring in the beginning followed by year in parens
+        article-title between year in parens after author string and source in italics (name of journal)
+        name of journal in italics
+
+        A journal article does not have:
+        publisher-loc: publisher-name in the end
+      -->
+      <xsl:value-of select="$hasTitleBeforeSourceInItalics eq true() and $hasSourceInItalics eq true() and $isBook eq false()"/>
+    </xsl:variable>
 
     <xsl:variable name="hasSinglePageCountStringInParens" as="xs:boolean">
       <xsl:value-of select="matches ($textcontent , '\(.*?p?p\.\s*\d+.*?\)') and not(matches($textcontent, '\(.*?pp\.\s*\d+\s*-\s*\d+.*?\)'))"/>
@@ -283,14 +337,11 @@
           o2j:normalizeEditorString($editorString) ,
             '((\c.\s)+([-\c]{2,}(,|\s)?)+)'
         )"/>
-      <!-- WIP placeholder for matches() -->
     </xsl:variable>
 
     <!-- WIP placeholder hasParsablePublisherString  -->
 
     <!-- WIP placeholder isParsablePublisherString -->
-
-    <!-- WIP placeholder isParsableEditorString -->
 
     <xsl:variable name="hasYearInParanthesis" as="xs:boolean">
       <xsl:value-of select='matches($textcontent, ".*\([0-9]{4}\).*")'/>
@@ -329,7 +380,6 @@
     <xsl:variable name="taggedEditors">
       <xsl:choose>
         <xsl:when test="$isParsableEditorString eq true()">
-          <!-- WIP placeholder process $editors -->
           <person-group person-group-type="editor">
             <xsl:for-each select="tokenize($tokenizedEditors, '\|')">
               <xsl:variable name="editor" select="normalize-space(.)"/>
@@ -365,15 +415,22 @@
     <xsl:variable name="publication-info">
       <attributes>
         <!-- publication-type: book-chapter|book|journal -->
-        <xsl:if test="$isBook eq true()">
+        <xsl:if test="$isBook eq true() or $isBookChapter eq true() or $isJournalArticle eq true()">
           <xsl:attribute name="publication-type">
             <xsl:choose>
-              <xsl:when test="$isBookChapter eq true()">
-                <xsl:text>book-chapter</xsl:text>
+              <xsl:when test="$isBook eq true()">
+                  <xsl:choose>
+                    <xsl:when test="$isBookChapter eq true()">
+                      <xsl:text>book-chapter</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:text>book</xsl:text>
+                    </xsl:otherwise>
+                  </xsl:choose>
               </xsl:when>
-              <xsl:otherwise>
-                <xsl:text>book</xsl:text>
-              </xsl:otherwise>
+              <xsl:when test="$isJournalArticle">
+                <xsl:text>journal</xsl:text>
+              </xsl:when>
             </xsl:choose>
           </xsl:attribute>
         </xsl:if>
@@ -432,7 +489,7 @@
                         <xsl:when test="$hasTranslatedBookChapterTitle eq true()">
                           <xsl:attribute name="xml:lang">__</xsl:attribute>
                           <!-- remove translation in angle brackets -->
-                          <xsl:value-of select="replace(o2j:getChapterTitle($textcontent), '\s*\[[^\]]+?\]', '')"/>
+                          <xsl:value-of select="o2j:stripTranslationFromTitle(o2j:getChapterTitle($textcontent))"/>
                         </xsl:when>
                         <xsl:otherwise>
                           <xsl:value-of select="o2j:getChapterTitle($textcontent)"/>  
@@ -443,7 +500,7 @@
                       <trans-title>
                         <xsl:attribute name="xml:lang">__</xsl:attribute>
                         <!-- extract only the translation in angle brackets -->
-                        <xsl:value-of select="replace(o2j:getChapterTitle($textcontent) , '^.*?\[(.+?)\].*$' , '$1')"/>
+                        <xsl:value-of select="$translatedBookChapterTitle"/>
                       </trans-title>
                     </xsl:if>
                     <xsl:apply-templates select="$taggedEditors"/>
