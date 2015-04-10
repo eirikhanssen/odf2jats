@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <p> This is a paragraph containing a <uri pretagged="yes">ftp://eirikhanssen.com/dl/files.zip</uri> that has
+        already been tagged as well as a doi uri: doi: 10.1093/intqhc/mzs023 that should be tagged
+        as a uri element. As well as a loose hyperlink that should also be tagged as a uri, namely
+        http://www.eirikhanssen.com/xsltworkbench</p>
+
+    <p> Several links here: https://www.journals.hioa.no/index.php?var1=value1&amp;var2=value2, ftp://loke.hig.no; http://www.hioa.no.</p>
+</doc>
