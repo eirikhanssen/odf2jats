@@ -621,4 +621,10 @@
     <xsl:text>&lt;/italic></xsl:text>
   </xsl:template>
 
+  <xsl:template match="uri" mode="comment">
+    <xsl:text>&lt;uri></xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>&lt;/uri></xsl:text>
+  </xsl:template>
+
 </xsl:stylesheet>

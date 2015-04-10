@@ -31,6 +31,7 @@
         <xsl:sequence select="$fix_trailing_punctiation_output"/>
     </xsl:template>
 
+    <!-- If there is trailing punctuation in the end inside <uri> elements, take out and put after <uri> element -->
     <xsl:template match="uri" mode="fix_trailing_punctuation">
             <xsl:choose>
                 <xsl:when test="matches(. , '^.*?[,|.|;]$')">

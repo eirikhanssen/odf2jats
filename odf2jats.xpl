@@ -71,6 +71,36 @@
     <!-- Delete unneeded lvl attribute from sec elements -->
     <p:delete match="sec/@lvl"/>
 
+    <p:xslt name="remove_doi_marker_immediately_before_tagged_doi_url" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="remove_doi_marker_immediately_before_tagged_doi_url.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
+    <p:xslt name="tag_doi_refs_as_uri" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="tag_doi_refs_as_uri.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
+    <p:xslt name="tag_loose_links_as_uri" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="tag_loose_links_as_uri.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <!-- Attempt to auto-tag citations in the running text -->
     <p:xslt name="textRefParsing" version="2.0">
         <p:input port="source"/>
@@ -81,7 +111,7 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
+
     <!-- autotagging of ref-list references -->
     <p:xslt name="refListParsing" version="2.0">
         <p:input port="source"/>
