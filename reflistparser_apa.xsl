@@ -234,18 +234,18 @@
     <xsl:variable name="hasPublisherLocAndNameString" as="xs:boolean">
       <!-- It is important to make sure that uri elements in the end are not interpreted as publisher-name: publisher-loc (they have colons) -->
       <!-- Check if the end of the reference to see if it ends with a typical reference to a publisher-loc: publisher-name pair -->
-      <!-- Allow some flexibility in publisher-name and publisher-loc such as spaces, slash, hyphen -->
+      <!-- Allow some flexibility in publisher-name and publisher-loc such as spaces, commas, slash, hyphen -->
       <!-- Example publisher strings that should match:
-          [(...) Malmö: Liber.] 
-          [(...) Cambridge: Polity Press.]
-          [(...) Stockholm/Stehag: Symposion.]
-          [(...) Stockholm: Sveriges Kommuner och Landsting.]
+          Malmö: Liber.
+          Cambridge: Polity Press.
+          Stockholm/Stehag: Symposion.
+          Stockholm: Sveriges Kommuner och Landsting.
+          New York: Farrar, Strauss and Giroux.
       -->
       <!--
-        This test is very important in deciding book and journal type reference 
-        and currently gets confused by un-tagged uris in the end of the ref because of colon
+        This test is very important in classifying book and journal type references and might need to be revisited.
       -->
-      <xsl:value-of select="matches($textcontent, '[-\c/]{2,}:\s+[-\c\s/]{2,}.?$')"/>
+      <xsl:value-of select="matches($textcontent, '[-\c/]{2,}:\s+[-,\c\s/]{2,}.?$')"/>
     </xsl:variable>
 
     <xsl:variable name="isBook" as="xs:boolean">

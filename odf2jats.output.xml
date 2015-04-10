@@ -809,8 +809,19 @@
             <mixed-citation publication-type="journal" publication-format="print">Jung, H. P., Wensing, M., Olesen, F., &amp; Grol, R. (2002). Comparison of patients' and general practitioners' evaluations of general practice care. <italic>Quality &amp; Safety in Health Care, 11</italic>, 315-319. <uri>http://dx.doi.org/10.1136/qhc.11.4.315</uri>
             </mixed-citation>
          </ref>
-         <ref id="___ 2011"><!--Kahneman, D. (2011). <italic>Thinking, fast and slow</italic>. New York: Farrar, Strauss and Giroux.-->
-            <mixed-citation publication-type="journal" publication-format="print">Kahneman, D. (2011). <italic>Thinking, fast and slow</italic>. New York: Farrar, Strauss and Giroux.</mixed-citation>
+         <ref id="K2011"><!--Kahneman, D. (2011). <italic>Thinking, fast and slow</italic>. New York: Farrar, Strauss and Giroux.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kahneman</surname>
+                     <given-names>D.</given-names>
+                  </name>
+               </person-group>
+               <source>Thinking, fast and slow</source>
+               <year>2011</year>
+               <publisher-loc>New York</publisher-loc>
+               <publisher-name>Farrar, Strauss and Giroux</publisher-name>
+            </element-citation>
          </ref>
          <ref id="KH2006"><!--Kelly, E., & Hurst, J. (2006). Health care quality indicators project: conceptual framework paper <italic>OECD Health Working Papers no. 23</italic>. Paris: OECD.-->
             <element-citation publication-type="book" publication-format="print">
