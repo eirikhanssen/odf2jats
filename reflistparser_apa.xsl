@@ -438,7 +438,7 @@
         <!-- publication-format: print|web -->
         <xsl:attribute name="publication-format">
           <xsl:choose>
-            <xsl:when test="ext-link">
+            <xsl:when test="uri">
               <xsl:text>web</xsl:text>
             </xsl:when>
             <xsl:otherwise>
