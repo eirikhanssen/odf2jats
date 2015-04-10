@@ -3,7 +3,7 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema" 
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:o2j="https://github.com/eirikhanssen/odf2jats"
-  exclude-result-prefixes="xs xlink j2e">
+  exclude-result-prefixes="xs xlink o2j">
 
   <xsl:output method="xml" indent="yes"/>
 
@@ -179,6 +179,11 @@
     <xsl:value-of select="replace($originalString , '(,\s?)' , '|' )"/>
   </xsl:function>
 
+  <xsl:function name="o2j:getEdition" as="xs:integer">
+    <xsl:param name="originalString" as="xs:string"/>
+    <xsl:value-of select="replace($originalString, '^.*?\(\s*(\d+?)\s*(nd|rd|th)\s*ed\.?.*?\).*?$' , '$1')"/>
+  </xsl:function>
+
   <xsl:template match="node()|@*">
     <xsl:copy>
       <xsl:apply-templates select="node()|@*"/>
@@ -232,6 +237,8 @@
       -->
       <xsl:value-of select="matches($textcontent, '[-\c/]{2,}:\s+[-\c\s/]{2,}.?$')"/>
     </xsl:variable>
+
+    <xsl:variable name="hasEdition" select="matches($textcontent, '\(\s*\d+?\s*(nd|rd|th)\s*ed\.?.*?\)')" as="xs:boolean"/>
 
     <xsl:variable name="isBookChapter" as="xs:boolean">
       <xsl:value-of select="matches($textcontent, '((Re|E)ds?\.)')"/>
@@ -469,6 +476,10 @@
                     </xsl:if>
                   </xsl:otherwise>
                 </xsl:choose>
+                <!-- insert edition if present in reference -->
+                <xsl:if test="$hasEdition eq true()">
+                  <edition><xsl:value-of select="o2j:getEdition($textcontent)"/></edition>
+                </xsl:if>
               </xsl:when>
             </xsl:choose>
             <year>
