@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <ref>This is some <italic>Italic text</italic>, <italic>20</italic> that should be joined.</ref>
+</doc>

@@ -662,8 +662,8 @@
             <mixed-citation publication-type="journal" publication-format="web">Birkmeyer, J. D., Finks, J. F., O'Reilly, A., Oerline, M., Carlin, A. M., Nunn, A. R., . . . Birkmeyer, N. J. (2013). Surgical skill and complication rates after bariatric surgery. <italic>New England Journal of Medicine, 369</italic>(15), 1434-1442. <uri>http://dx.doi.org/10.1056/NEJMsa1300625</uri>
             </mixed-citation>
          </ref>
-         <ref id="___ 2013"><!--Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., & Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality & Safety</italic>,<italic> 22</italic>(7), 532-540. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001691</uri>-->
-            <mixed-citation publication-type="journal" publication-format="web">Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., &amp; Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality &amp; Safety</italic>,<italic> 22</italic>(7), 532-540. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001691</uri>
+         <ref id="___ 2013"><!--Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., & Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality & Safety, 22</italic>(7), 532-540. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001691</uri>-->
+            <mixed-citation publication-type="journal" publication-format="web">Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., &amp; Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality &amp; Safety, 22</italic>(7), 532-540. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001691</uri>
             </mixed-citation>
          </ref>
          <ref id="___ 2013"><!--Bjertnaes, O., Skudal, K. E., Iversen, H. H., & Lindahl, A. K. (2013). The Patient-Reported Incident in Hospital Instrument (PRIH-I): assessments of data quality, test-retest reliability and hospital-level reliability. <italic>BMJ Quality & Safety, 22</italic>(9), 743-751. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001756</uri>-->
@@ -784,10 +784,8 @@
                <publisher-name>Cambridge University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="___ 2015"><!--Hayes, C. W., Batalden, P. B., & Goldmann, D. (2015). A 'work smarter, not harder' approach to improving healthcare quality. <italic>BMJ </italic><italic>Quality & Safety</italic><italic>, 24</italic>(2), 100-102. <uri>http://dx.doi.org/10.1136/bmjqs-2014-003673</uri>-->
-            <mixed-citation publication-type="journal" publication-format="web">Hayes, C. W., Batalden, P. B., &amp; Goldmann, D. (2015). A 'work smarter, not harder' approach to improving healthcare quality. <italic>BMJ </italic>
-               <italic>Quality &amp; Safety</italic>
-               <italic>, 24</italic>(2), 100-102. <uri>http://dx.doi.org/10.1136/bmjqs-2014-003673</uri>
+         <ref id="___ 2015"><!--Hayes, C. W., Batalden, P. B., & Goldmann, D. (2015). A 'work smarter, not harder' approach to improving healthcare quality. <italic>BMJ Quality & Safety, 24</italic>(2), 100-102. <uri>http://dx.doi.org/10.1136/bmjqs-2014-003673</uri>-->
+            <mixed-citation publication-type="journal" publication-format="web">Hayes, C. W., Batalden, P. B., &amp; Goldmann, D. (2015). A 'work smarter, not harder' approach to improving healthcare quality. <italic>BMJ Quality &amp; Safety, 24</italic>(2), 100-102. <uri>http://dx.doi.org/10.1136/bmjqs-2014-003673</uri>
             </mixed-citation>
          </ref>
          <ref id="___"><!--Helsedirektoratet. (28. mai 2013). Hvorfor kvalitetsindikatorer? Retrieved 28. april 2014, from <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri><uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>-->
