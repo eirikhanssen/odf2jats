@@ -9,15 +9,23 @@ ODF is supported by many programs and used as a native format by the free LibreO
 
 ## Project goals
 
-To simplify and automate the conversion as known as tagging/marking up of scientific manuscripts 
-to be represented in the Journal Archive Tag Suite (JATS) XML tagset.
+### Improve the worflow for Open Access Scholarly Publishing
+
+To simplify, reduce time needed and as much as possible, automate the conversion from manuscripts to be represented in the Journal Archive Tag Suite (JATS) XML tagset.
+
+- http://jats.nlm.nih.gov/publishing/
+- http://jats.nlm.nih.gov/publishing/tag-library/1.1d2/index.html
 
 ## Motivation
+
+### Don't let a person do a machine's job
 
 Marking up manuscripts by hand is very time-consuming. The ODF format is a zipped container with text/xml-files and other files. 
 
 If the manuscripts use a known template and use consistent styling, it is very possible to automatically generate most of the structure and 
 semantics needed to mark up a manuscript using the JATS tagset.
+
+### Automation using XSLT 2.0 and XProc
 
 By exploiting XSLT 2.0, XPath 2.0 and XProc, it is possible to automate extraction/transformation of the contents from the ODF-format to be 
 represented in another XML based format such as JATS. 
@@ -58,6 +66,7 @@ This style-mapping will be used in generating the structure and semantics needed
     - authors
     - source
     - trans-source (if present)
+    - edition (if present)
     - fpage
     - lpage
     - publisher-loc
@@ -77,10 +86,10 @@ This style-mapping will be used in generating the structure and semantics needed
 ### Reference list
 
 - Book type references auto-tag almost satisfactory
-    - can't handle uri at the end
-    - edition should be placed in a ```<comment>2nd ed.</comment>```
+    - can't handle uri at the end?
 - Book-chapter type references auto-tag almost satisfactory
-    - can't handle uri at the end
+    - can't handle uri at the end?
+- Initial journal type detection seems to be working
 
 ## Todo
 
@@ -95,7 +104,12 @@ This style-mapping will be used in generating the structure and semantics needed
 - table labels/titles/captions are not automatically handled yet
     - this can be done automatically if they are styled with a special paragraph style do identify the content as being table label, table title or table caption
 - citations in the text that only have year within the parens, have **rid** attributes that misses capital letters from author's surname. This could be extracted from the text node directly before the xref-element, or like now, just let the person doing the conversion manually fix those **rid** attributes.
-- clean up reflistparser_apa.xsl to make it more readable and follow Clean Code principles
+- if there are **8 or more authors**, after the 6th author there will be an ellipsis, followed by the last author
+    - this is currently not handled well by reflistparser_apa.xsl
+    - I have to decide what to do in this case; should only the 7 listed authors be tagged in JATS with no warnings,
+      or should there be inserted a comment in the JATS xml document, reminding the JATS xml author that 
+      there are several authors that haven't been included yet. Personally I think we should aim to 
+      present all relevant metadata in the JATS xml, including all authors, even if they won't be shown using APA standards.
 
 ### Writing and styling aids for editors and authors
 
