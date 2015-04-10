@@ -5,3 +5,18 @@ reason: unfamiliar content after publisher-loc
 remedy: fix detection of publisher-loc: publisher-name
 
 <mixed-citation publication-type="journal" publication-format="print">Kahneman, D. (2011). <italic>Thinking, fast and slow</italic>. New York: Farrar, Strauss and Giroux.</mixed-citation>
+
+
+Error:
+Reason: should check for author group and year before assigning isJournalArticle = true()
+<ref id="___ 2010"><!--European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, & European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion & Social.-->
+            <mixed-citation publication-type="journal" publication-format="print">European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, &amp; European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion &amp; Social.</mixed-citation>
+         </ref>
+
+double uri with same url. why?
+
+<ref id="___"><!--Helsedirektoratet. (28. mai 2013). Hvorfor kvalitetsindikatorer? Retrieved 28. april 2014, from <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri><uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>-->
+            <mixed-citation publication-format="web">Helsedirektoratet. (28. mai 2013). Hvorfor kvalitetsindikatorer? Retrieved 28. april 2014, from <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>
+               <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>
+            </mixed-citation>
+         </ref>
