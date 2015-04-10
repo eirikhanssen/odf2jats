@@ -1,0 +1,9 @@
+<!-- insert this in the pipeline to get a snapshot of the current document BEGIN -->
+<p:identity name="break1"/>
+  <p:store name="store1" href="store1.xml" indent="true" encoding="utf-8"></p:store>
+<p:identity name="continue1">
+  <p:input port="source">
+    <p:pipe port="result" step="break1"></p:pipe>
+  </p:input>
+</p:identity>
+<!-- insert this in the pipeline to get a snapshot of the current document END -->

@@ -1,0 +1,7 @@
+References that the reflistparser has problems with
+
+book classified as journal-article:
+reason: unfamiliar content after publisher-loc
+remedy: fix detection of publisher-loc: publisher-name
+
+<mixed-citation publication-type="journal" publication-format="print">Kahneman, D. (2011). <italic>Thinking, fast and slow</italic>. New York: Farrar, Strauss and Giroux.</mixed-citation>
