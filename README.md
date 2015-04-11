@@ -62,7 +62,8 @@ This style-mapping will be used in generating the structure and semantics needed
     - article authors (if styled with person paragraph style in the odt document).
     - abstract
     - keywords
-- book type references
+- adjacent (following) italic elements with only punctuation or whitespace between are merged in references
+- **book type references**
     - authors
     - source
     - trans-source (if present)
@@ -71,8 +72,7 @@ This style-mapping will be used in generating the structure and semantics needed
     - lpage
     - publisher-loc
     - publisher-name
-
-- book-chapter type references
+- **book-chapter type references**
     - same as book type references
     - chapter-title
     - trans-title (if present)
