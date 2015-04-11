@@ -94,6 +94,7 @@ This style-mapping will be used in generating the structure and semantics needed
 ## Todo
 
 ### Extraction from the ODF container format to JATS
+- id attribute generation in refs in reflistparser needs to be revisited to match the format used in rid attributes in reftextparser
 - figures
 - article-meta/history: a change in the source document is needed
 - article-meta issue and volume: a change in the source document is needed
