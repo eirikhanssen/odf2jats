@@ -715,8 +715,8 @@
                <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>
             </element-citation>
          </ref>
-         <ref id="B2007"><!--Bastesen, P. (2007). <italic>Ka sku vi gjort uten havet?</italic> [What should we do without the ocean?] Oslo: Høgskolen i Oslo og Akershus.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="B2007"><!--Bastesen, P. (2007). <italic>Ka sku vi gjort uten havet?</italic> [What should we do without the ocean?] Oslo: Høgskolen i Oslo og Akershus. <uri>http://www.bastesen.com/havet</uri>-->
+            <element-citation publication-type="book" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Bastesen</surname>
@@ -726,12 +726,13 @@
                <year>2007</year>
                <source xml:lang="__">Ka sku vi gjort uten havet?</source>
                <trans-source xml:lang="__">What should we do without the ocean?</trans-source>
-               <publisher-loc>Oslo</publisher-loc>
-               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
+               <publisher-loc>http</publisher-loc>
+               <publisher-name>//www.bastesen.com/havet</publisher-name>
+               <uri>http://www.bastesen.com/havet</uri>
             </element-citation>
          </ref>
-         <ref id="B2008"><!--Bastesen, P. (2008). Det er flere fisker i sjøen [There are more fish in the sea] In E. Hanssen & D. Buck (Eds.), <italic>Bærekraftig havdrift</italic> [Sustainable sea exploitation] Oslo: Høgskolen i Oslo og Akershus.-->
-            <element-citation publication-type="book-chapter" publication-format="print">
+         <ref id="B2008"><!--Bastesen, P. (2008). Det er flere fisker i sjøen [There are more fish in the sea] In E. Hanssen & D. Buck (Eds.), <italic>Bærekraftig havdrift</italic> [Sustainable sea exploitation] Oslo: Høgskolen i Oslo og Akershus. <uri>http://hb.com/havdrift</uri>-->
+            <element-citation publication-type="book-chapter" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Bastesen</surname>
@@ -753,8 +754,9 @@
                </person-group>
                <source xml:lang="__">Bærekraftig havdrift</source>
                <trans-source xml:lang="__">Sustainable sea exploitation</trans-source>
-               <publisher-loc>Oslo</publisher-loc>
-               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
+               <publisher-loc>http</publisher-loc>
+               <publisher-name>//hb.com/havdrift</publisher-name>
+               <uri>http://hb.com/havdrift</uri>
             </element-citation>
          </ref>
          <ref id="BGN2007"><!--Batalden, P. B., Godfrey, M. M., & Nelson, E. C. (2007). <italic>Quality by design: a clinical microsystems approach</italic>. San Francisco: Jossey-Bass.-->
