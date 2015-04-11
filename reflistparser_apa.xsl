@@ -101,16 +101,22 @@
     <xsl:value-of select="replace($originalString, '^(\c).*$' , '$1')"/>
   </xsl:function>
 
+  <xsl:function name="o2j:getCaps" as="xs:string">
+    <xsl:param name="originalString" as="xs:string"/>
+    <!-- delete all characters that are not uppercase letters and return string -->
+    <xsl:value-of select="replace($originalString, '\P{Lu}' , '')"/>
+  </xsl:function>
+
   <xsl:function name="o2j:createRefId" as="xs:string">
     <xsl:param name="authors" as="node()*"/>
     <xsl:param name="year" as="xs:string"/>
 
-    <xsl:variable name="authorInitials">
+    <xsl:variable name="authorSurnameCaps">
       <xsl:for-each select="$authors/person-group/name">
-        <xsl:value-of select="o2j:getFirstChar(./surname)"/>
+        <xsl:value-of select="o2j:getCaps(./surname)"/>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:value-of select="concat($authorInitials, $year)"/>
+    <xsl:value-of select="concat($authorSurnameCaps, $year)"/>
   </xsl:function>
 
   <xsl:function name="o2j:createRefId" as="xs:string">
