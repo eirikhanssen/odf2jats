@@ -188,20 +188,29 @@
   </xsl:function>
 
   <xsl:function name="o2j:getPublisherString" as="xs:string">
-    <xsl:param name="originalString" as="xs:string"/>
-    <!-- Extract publisher string from a book type reference in a reference list -->
-    <!-- This function assumes $originalString to be of a book type reference; a ref that is tested to be $isBook eq true() -->
-    <!-- It's important to use the lazy/non-greedy quantifiers such as *? as opposed to *
-         to get the shortest possible match and not the longest possible match -->
-    <!-- $1 with preceeding regex is important to allow publisher-loc such as {New York, NY: Wiley} -->
-    <!-- $2 makes {, } optional, so publisher-loc such as {New York: Basic Books.} is also correctly matched. 
-         This grouping should not be carried over to the output -->
-    <!-- $3 allows forward-slash in publisher-loc as in {Stockholm/Stehag: Symposion.} -->
-    <!-- the negated character class [^:] in $3 is important in order to match text only around the last colon
-         in the case where a colon might be used earlier in the string -->
+    <xsl:param name="originalRef" as="element(ref)"/>
+    <!--
+      Extract publisher string from a book type reference in a reference list
+      This function assumes $originalString to be of a book type reference; a ref that is tested to be $isBook eq true()
+
+      It's important to use the lazy/non-greedy quantifiers such as *? as opposed to *
+      to get the shortest possible match and not the longest possible match
+
+      $1 with preceeding regex is important to allow publisher-loc such as {New York, NY: Wiley}
+
+      $2 makes {, } optional, so publisher-loc such as {New York: Basic Books.} is also correctly matched.
+      This grouping should not be carried over to the output
+
+      $3 allows forward-slash in publisher-loc as in {Stockholm/Stehag: Symposion.}
+      the negated character class [^:] in $3 is important in order to match text only around the last colon
+      in the case where a colon might be used earlier in the string
+
+      The last text node of ref is used. This should be ok, as whitespace-only nodes should already 
+      have been removed. Maybe this is too naiive, if so, this rule might need to be revisited.
+    -->
     <xsl:value-of
-      select="normalize-space(replace($originalString , '.*?[,.\]]?\s+([^,.\]]*?\c\c+(,\s)?)?([\c/]{2,}:[^:]*?)$' , '$1$3'))"
-    />
+      select="normalize-space(replace($originalRef/text()[last()] , '.*?[,.\]]?\s+([^,.\]]*?\c\c+(,\s)?)?([\c/]{2,}:[^:]*?)$' , '$1$3'))"/>
+
   </xsl:function>
 
   <xsl:function name="o2j:getPublisherLoc" as="xs:string">

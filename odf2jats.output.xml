@@ -726,8 +726,8 @@
                <year>2007</year>
                <source xml:lang="__">Ka sku vi gjort uten havet?</source>
                <trans-source xml:lang="__">What should we do without the ocean?</trans-source>
-               <publisher-loc>http</publisher-loc>
-               <publisher-name>//www.bastesen.com/havet</publisher-name>
+               <publisher-loc>Oslo</publisher-loc>
+               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
                <uri>http://www.bastesen.com/havet</uri>
             </element-citation>
          </ref>
@@ -754,8 +754,8 @@
                </person-group>
                <source xml:lang="__">Bærekraftig havdrift</source>
                <trans-source xml:lang="__">Sustainable sea exploitation</trans-source>
-               <publisher-loc>http</publisher-loc>
-               <publisher-name>//hb.com/havdrift</publisher-name>
+               <publisher-loc>Oslo</publisher-loc>
+               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
                <uri>http://hb.com/havdrift</uri>
             </element-citation>
          </ref>
