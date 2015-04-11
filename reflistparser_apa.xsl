@@ -223,7 +223,7 @@
       </xsl:analyze-string>
     </xsl:variable>
 
-    <xsl:variable name="isParsableAuthorString" as="xs:boolean">
+    <xsl:variable name="hasParsableAuthorString" as="xs:boolean">
       <xsl:value-of select="matches($authors, '^\s*[\c][\c]*,\s*[\c]')"/>
     </xsl:variable>
 
@@ -352,12 +352,12 @@
     <!-- WIP this test needs to be revisited -->
     <xsl:variable name="isUnknownRefType" as="xs:boolean">
       <xsl:value-of
-        select="not($hasYearInParanthesis) or not($isParsableAuthorString) or not($isBook)"/>
+        select="not($hasYearInParanthesis and $hasParsableAuthorString) or not($isBook or $isJournalArticle)"/>
     </xsl:variable>
 
     <xsl:variable name="taggedAuthors">
       <xsl:choose>
-        <xsl:when test="$isParsableAuthorString eq true()">
+        <xsl:when test="$hasParsableAuthorString eq true()">
           <!-- process $authors -->
           <person-group person-group-type="author">
             <xsl:for-each select="tokenize($tokenizedAuthors, '\|')">
