@@ -22,9 +22,7 @@
                     </xsl:element>
                     <xsl:apply-templates select="$article-meta-common/article-categories"/>
                     <title-group>
-                        <article-title>
-                            <xsl:apply-templates select="article-title"/>
-                        </article-title>
+                        <xsl:apply-templates select="article-title"/>
                     </title-group>
                         <xsl:apply-templates select="authors"/>
                     <pub-date pub-type="pub">
