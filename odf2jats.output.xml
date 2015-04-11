@@ -653,6 +653,68 @@
                <uri>http://dx.doi.org/10.1093/intqhc/mzl024</uri>
             </element-citation>
          </ref>
+         <ref id="AGDM1881a"><!--Akira, A., Gump, F., Duck, D., & Man, S. (1881a). En fantastisk fortelling fra fantasien. [A fantastic tale from the fantacy.] <italic>Imagunært tidskrift for fantasier, 22</italic>(3), 5-13. <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Akira</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Gump</surname>
+                     <given-names>F.</given-names>
+                  </name>
+                  <name>
+                     <surname>Duck</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Man</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>1881</year>
+               <article-title xml:lang="__">En fantastisk fortelling fra fantasien.</article-title>
+               <trans-title xml:lang="__">A fantastic tale from the fantacy.</trans-title>
+               <source>Imagunært tidskrift for fantasier</source>
+               <volume>22</volume>
+               <issue>3</issue>
+               <fpage>5</fpage>
+               <lpage>13</lpage>
+               <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>
+            </element-citation>
+         </ref>
+         <ref id="AGDM1881b"><!--Akira, A., Gump, F., Duck, D., & Man, S. (1881b). En utrolig fortelling fra fantasien. [An unbelievable tale from the fantacy.] <italic>Imagunært tidskrift for fantasier, 22</italic>(3), 14-25. <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Akira</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Gump</surname>
+                     <given-names>F.</given-names>
+                  </name>
+                  <name>
+                     <surname>Duck</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Man</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>1881</year>
+               <article-title xml:lang="__">En utrolig fortelling fra fantasien.</article-title>
+               <trans-title xml:lang="__">An unbelievable tale from the fantacy.</trans-title>
+               <source>Imagunært tidskrift for fantasier</source>
+               <volume>22</volume>
+               <issue>3</issue>
+               <fpage>14</fpage>
+               <lpage>25</lpage>
+               <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>
+            </element-citation>
+         </ref>
          <ref id="B2007"><!--Bastesen, P. (2007). <italic>Ka sku vi gjort uten havet?</italic> [What should we do without the ocean?] Oslo: Høgskolen i Oslo og Akershus.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
@@ -853,7 +915,7 @@
                <uri>http://dx.doi.org/10.1177/1077558713496320</uri>
             </element-citation>
          </ref>
-         <ref id="___ 1998"><!--The development and implementation of quality improvement systems (QIS) in health care: recommendation No. R (97) 17 and explanatory memorandum. (1998).-->
+         <ref id="___1998"><!--The development and implementation of quality improvement systems (QIS) in health care: recommendation No. R (97) 17 and explanatory memorandum. (1998).-->
             <mixed-citation publication-format="print">The development and implementation of quality improvement systems (QIS) in health care: recommendation No. R (97) 17 and explanatory memorandum. (1998).</mixed-citation>
          </ref>
          <ref id="D1980"><!--Donabedian, A. (1980). The definition of quality and approaches to its assessment <italic>Explorations in quality assessment and monitoring Vol. 1</italic>. Ann Arbor, MI: Health Administration Press.-->
@@ -948,7 +1010,7 @@
                <uri>http://dx.doi.org/10.1136/bmjopen-2012-001570</uri>
             </element-citation>
          </ref>
-         <ref id="___ 2010"><!--European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, & European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion & Social.-->
+         <ref id="___2010"><!--European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, & European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion & Social.-->
             <mixed-citation publication-type="journal" publication-format="print">European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, &amp; European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion &amp; Social.</mixed-citation>
          </ref>
          <ref id="FDBJ1998"><!--Fitzpatrick, R., Davey, C., Buxton, M. J., & Jones, D. R. (1998). Evaluating patient-based outcome measures for use in clinical trials. <italic>Health Technology Assessment, 2</italic>, 1-74.-->
@@ -1063,7 +1125,7 @@
                <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>
             </mixed-citation>
          </ref>
-         <ref id="___ 2001"><!--Institute of Medicine. (2001). Crossing the quality chasm: a new health system for the 21st century. Washington, D.C.: National Academy Press.-->
+         <ref id="___2001"><!--Institute of Medicine. (2001). Crossing the quality chasm: a new health system for the 21st century. Washington, D.C.: National Academy Press.-->
             <mixed-citation publication-type="book" publication-format="print">Institute of Medicine. (2001). Crossing the quality chasm: a new health system for the 21st century. Washington, D.C.: National Academy Press.</mixed-citation>
          </ref>
          <ref id="IEWC2006"><!--Irvine, L., Elliott, L., Wallace, H., & Crombie, I. K. (2006). A review of major influences on current public health policy in developed countries in the second half of the 20th century. <italic>The journal of the Royal Society for the Promotion of Health, 126</italic>(2), 73-78. <uri>http://dx.doi.org/10.1177/1466424006063182</uri>-->
@@ -1096,7 +1158,7 @@
                <uri>http://dx.doi.org/10.1177/1466424006063182</uri>
             </element-citation>
          </ref>
-         <ref id="___ 2005"><!--ISO. (2005). Quality management systems: Fundamentals and vocabulary (ISO 9000:2005) (Vol. TC 176//SC). Geneva: International Organization for Standardization.-->
+         <ref id="___2005"><!--ISO. (2005). Quality management systems: Fundamentals and vocabulary (ISO 9000:2005) (Vol. TC 176//SC). Geneva: International Organization for Standardization.-->
             <mixed-citation publication-type="book" publication-format="print">ISO. (2005). Quality management systems: Fundamentals and vocabulary (ISO 9000:2005) (Vol. TC 176//SC). Geneva: International Organization for Standardization.</mixed-citation>
          </ref>
          <ref id="JWOG2002"><!--Jung, H. P., Wensing, M., Olesen, F., & Grol, R. (2002). Comparison of patients' and general practitioners' evaluations of general practice care. <italic>Quality & Safety in Health Care, 11</italic>, 315-319. <uri>http://dx.doi.org/10.1136/qhc.11.4.315</uri>-->
@@ -1295,11 +1357,33 @@
                <lpage>14</lpage>
             </element-citation>
          </ref>
-         <ref id="___"><!--Lohr, K. N. (1990a). Medicare: a strategy for quality assurance: volume I. Washington, D.C.: National Academy Press.-->
-            <mixed-citation publication-type="book" publication-format="print">Lohr, K. N. (1990a). Medicare: a strategy for quality assurance: volume I. Washington, D.C.: National Academy Press.</mixed-citation>
+         <ref id="L1990a"><!--Lohr, K. N. (1990a). Medicare: a strategy for quality assurance: volume I. Washington, D.C.: National Academy Press.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lohr</surname>
+                     <given-names>K. N.</given-names>
+                  </name>
+               </person-group>
+               <year>1990</year>
+               <source/>
+               <publisher-loc>Washington, D.C.</publisher-loc>
+               <publisher-name>National Academy Press</publisher-name>
+            </element-citation>
          </ref>
-         <ref id="___"><!--Lohr, K. N. (1990b). Medicare: a strategy for quality assurance: volume II Strategies and methods. Washington, D.C.: National Academy Press.-->
-            <mixed-citation publication-type="book" publication-format="print">Lohr, K. N. (1990b). Medicare: a strategy for quality assurance: volume II Strategies and methods. Washington, D.C.: National Academy Press.</mixed-citation>
+         <ref id="L1990b"><!--Lohr, K. N. (1990b). Medicare: a strategy for quality assurance: volume II Strategies and methods. Washington, D.C.: National Academy Press.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lohr</surname>
+                     <given-names>K. N.</given-names>
+                  </name>
+               </person-group>
+               <year>1990</year>
+               <source/>
+               <publisher-loc>Washington, D.C.</publisher-loc>
+               <publisher-name>National Academy Press</publisher-name>
+            </element-citation>
          </ref>
          <ref id="LS1990"><!--Lohr, K. N., & Schroeder, S. A. (1990). A strategy for quality assurance in Medicare. <italic>New England Journal of Medicine, 322</italic>(10), 707-712. <uri>http://dx.doi.org/10.1056/NEJM199003083221031</uri>-->
             <element-citation publication-type="journal" publication-format="web">
@@ -1389,10 +1473,10 @@
                <lpage>21</lpage>
             </element-citation>
          </ref>
-         <ref id="___ 2012"><!--NICE. (2012). Patient experience in adult NHS services: improving the experience of care for people using adult NHS services <italic>NICE Clinical Guideline 138</italic>. London: National Clinical Guideline Centre.-->
+         <ref id="___2012"><!--NICE. (2012). Patient experience in adult NHS services: improving the experience of care for people using adult NHS services <italic>NICE Clinical Guideline 138</italic>. London: National Clinical Guideline Centre.-->
             <mixed-citation publication-type="book" publication-format="print">NICE. (2012). Patient experience in adult NHS services: improving the experience of care for people using adult NHS services <italic>NICE Clinical Guideline 138</italic>. London: National Clinical Guideline Centre.</mixed-citation>
          </ref>
-         <ref id="___ 2014"><!--Quality (2014). <italic>In Merrian-Webster.com.</italic> Retrieved 28. april 2014, from <uri>http://www.merriam-webster.com/dictionary/quality</uri>-->
+         <ref id="___2014"><!--Quality (2014). <italic>In Merrian-Webster.com.</italic> Retrieved 28. april 2014, from <uri>http://www.merriam-webster.com/dictionary/quality</uri>-->
             <mixed-citation publication-type="journal" publication-format="web">Quality (2014). <italic>In Merrian-Webster.com.</italic> Retrieved 28. april 2014, from <uri>http://www.merriam-webster.com/dictionary/quality</uri>
             </mixed-citation>
          </ref>
@@ -1555,7 +1639,7 @@
                <publisher-name>Cambridge University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="___ 2005"><!--Sosial- og helsedirektoratet. (2005). -og bedre skal det bli!: nasjonal strategi for kvalitetsforbedring i Sosial- og helsetjenesten (2005-2015): til deg som leder og utøver <italic>IS-1162</italic>. Oslo: Sosial- og helsedirektoratet.-->
+         <ref id="___2005"><!--Sosial- og helsedirektoratet. (2005). -og bedre skal det bli!: nasjonal strategi for kvalitetsforbedring i Sosial- og helsetjenesten (2005-2015): til deg som leder og utøver <italic>IS-1162</italic>. Oslo: Sosial- og helsedirektoratet.-->
             <mixed-citation publication-type="book" publication-format="print">Sosial- og helsedirektoratet. (2005). -og bedre skal det bli!: nasjonal strategi for kvalitetsforbedring i Sosial- og helsetjenesten (2005-2015): til deg som leder og utøver <italic>IS-1162</italic>. Oslo: Sosial- og helsedirektoratet.</mixed-citation>
          </ref>
          <ref id="W2012"><!--Wachter, R. M. (2012). <italic>Understanding patient safety</italic> (2nd ed. ed.). New York: McGraw-Hill Medical.-->
@@ -1573,10 +1657,10 @@
                <publisher-name>McGraw-Hill Medical</publisher-name>
             </element-citation>
          </ref>
-         <ref id="___ 2000"><!--WHO. (2000). The world health report 2000 : health systems: improving performance. Geneva: World Health Organization-->
+         <ref id="___2000"><!--WHO. (2000). The world health report 2000 : health systems: improving performance. Geneva: World Health Organization-->
             <mixed-citation publication-type="book" publication-format="print">WHO. (2000). The world health report 2000 : health systems: improving performance. Geneva: World Health Organization</mixed-citation>
          </ref>
-         <ref id="___ 2006"><!--WHO. (2006). Quality of care: a process for making strategic choices in health systems. Geneva: World Health Organization.-->
+         <ref id="___2006"><!--WHO. (2006). Quality of care: a process for making strategic choices in health systems. Geneva: World Health Organization.-->
             <mixed-citation publication-type="book" publication-format="print">WHO. (2006). Quality of care: a process for making strategic choices in health systems. Geneva: World Health Organization.</mixed-citation>
          </ref>
          <ref id="WB7246"><!--Wilson, R. (2000). Screening for breast and cervical cancer as a common cause for litigation: a false negative result may be one of an irreducible minimum of errors. <italic>BMJ, 320</italic>(7246), 1352-1353. <uri>http://dx.doi.org/10.1136/bmj.320.7246.1352</uri>-->

@@ -120,13 +120,13 @@
 
   <xsl:function name="o2j:getChapterTitle" as="xs:string">
     <xsl:param name="originalRef" as="node()"/>
-    <xsl:variable name="chapterTitle" select="replace($originalRef, '.*?\(\d{4}\)\.?\s*(.+?)\.?\sIn\s\p{Lu}\..*', '$1')"/>
+    <xsl:variable name="chapterTitle" select="replace($originalRef, '.*?\(\d{4}\c?\)\.?\s*(.+?)\.?\sIn\s\p{Lu}\..*', '$1')"/>
     <xsl:value-of select="$chapterTitle"/>
   </xsl:function>
 
   <xsl:function name="o2j:getArticleTitle" as="xs:string">
     <xsl:param name="originalRef" as="element(ref)"/>
-    <xsl:variable name="articleTitle" select="replace($originalRef/text()[1], '^.*?\(\d{4}\)\.?\s*(.+?)\s*$', '$1')"/>
+    <xsl:variable name="articleTitle" select="replace($originalRef/text()[1], '^.*?\(\d{4}\c?\)\.?\s*(.+?)\s*$', '$1')"/>
     <xsl:value-of select="$articleTitle"/>
   </xsl:function>
 
@@ -245,7 +245,7 @@
     <xsl:variable name="current_ref" select="."/>
 
     <xsl:variable name="year">
-      <xsl:analyze-string select="$current_ref" regex=".*\(([0-9]{{4}})\)">
+      <xsl:analyze-string select="$current_ref" regex=".*\((\d{{4}}\c?)\)">
         <xsl:matching-substring>
           <xsl:value-of select="regex-group(1)"/>
         </xsl:matching-substring>
@@ -253,7 +253,7 @@
     </xsl:variable>
 
     <xsl:variable name="authors">
-      <xsl:analyze-string select="$current_ref" regex="(..*)\(\d{{4}}\)">
+      <xsl:analyze-string select="$current_ref" regex="(..*)\(\d{{4}}\c?\)">
         <xsl:matching-substring>
           <xsl:value-of select="regex-group(1)"/>
         </xsl:matching-substring>
@@ -327,7 +327,7 @@
     <xsl:variable name="hasSourceInItalics" as="xs:boolean" select="matches($current_ref/italic[1], '\c+')"/>
 
     <xsl:variable name="stringBetweenYearInParensAndSourceInItalics" 
-      select="replace($current_ref/italic[1]/preceding-sibling::text()[1], '^\D+?\(\s*\d{4}\s*\)(.*?)$' , '$1')"
+      select="replace($current_ref/italic[1]/preceding-sibling::text()[1], '^\D+?\(\s*\d{4}\c?\s*\)(.*?)$' , '$1')"
       as="xs:string"/>
 
     <xsl:variable name="hasTitleBeforeSourceInItalics" as="xs:boolean" 
@@ -389,7 +389,7 @@
     <!-- WIP placeholder isParsablePublisherString -->
 
     <xsl:variable name="hasYearInParanthesis" as="xs:boolean">
-      <xsl:value-of select='matches($current_ref, ".*\([0-9]{4}\).*")'/>
+      <xsl:value-of select='matches($current_ref, ".*\(\d{4}\c?\).*")'/>
     </xsl:variable>
 
     <!-- unknown ref types will be marked up as mixed citation, that means all ref types that
@@ -501,7 +501,7 @@
             <xsl:value-of select="o2j:createRefId($taggedAuthors, $year)"/>
           </xsl:when>
           <xsl:when test="$hasYearInParanthesis eq true()">
-            <xsl:text>___ </xsl:text>
+            <xsl:text>___</xsl:text>
             <xsl:value-of select="$year"/>
           </xsl:when>
           <xsl:otherwise>
@@ -525,7 +525,7 @@
           <xsl:element name="element-citation">
             <xsl:copy-of select="$publication-info/attributes/@*"/>
             <xsl:apply-templates select="$taggedAuthors"/>
-            <year><xsl:value-of select="$year"/></year>
+            <year><xsl:value-of select="replace($year , '\D' , '' )"/></year>
             <xsl:choose>
               <xsl:when test="$isBook eq true()">
                 <xsl:choose>
@@ -603,7 +603,7 @@
                   <trans-title>
                     <xsl:attribute name="xml:lang">__</xsl:attribute>
                     <!-- extract only the translation in angle brackets -->
-                    <xsl:value-of select="o2j:stripTranslationFromTitle(o2j:getArticleTitle($current_ref))"/>
+                    <xsl:value-of select="o2j:extractTranslationFromTitle(o2j:getArticleTitle($current_ref))"/>
                   </trans-title>
                 </xsl:if>
 
