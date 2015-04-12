@@ -40,12 +40,28 @@ By utilizing XSLT 2.0's grouping capabilities it is possible to properly structu
 
 It is important for the manuscript to properly communicate the outline.
 
-For best results, all headers in the original manuscript should be styled using header styles of the appropriate level (and not formatted using character formatting).
+For best results, all headers in the original manuscript should be styled using header 
+styles of the appropriate level (and not formatted using character formatting). These header styles need to 
+have an outline level set in the style configuration, for the default header-styles this is normally
+the case. But if a user creates own header styles, this is something to keep in mind.
 
-The same goes for the text in the manuscript, it should be formatted using paragraph styles.
+The outline level is used to automatically section the body of the JATS xml in sec/title + other elements.
 
-Then a style-mapping can be tailored to the specific family of manuscripts. 
-This style-mapping will be used in generating the structure and semantics needed to mark up the manuscript using the JATS tagset.
+Text in the manuscript should be styled with the default paragraph style for text.
+
+Special passages of text can be styled using custom paragraph styles that when 
+using a style-mapping in the odf2jats pipeline can facilitate automatic tagging of certain elements.
+
+This style-mapping will be used in generating the structure and semantics 
+needed to mark up the manuscript using the JATS tagset.
+
+### Using character styles
+
+Using character styling where appropriate is also important.
+Character styles such as bold, italic, subscript and superscript are all supported.
+
+In the reference list, the proper use of italic character style following the APA style guidelines, is
+important to facilitate the reference parsing.
 
 ## Already implemented/autotagged
 
