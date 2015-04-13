@@ -29,19 +29,27 @@
 
     <xsl:template match="text:p">
     <!-- Use the style mapping lookup to define the styles -->
+        
         <xsl:variable
             name="current_style_index_name"
-            select="current()/@text:style-name"
+            select="if(current()/@text:style-name) then (current()/@text:style-name) else('')"
             as="xs:string"/>
+        
+        <xsl:if test="matches($current_style_index_name , '^\s*$' )">
+            <xsl:message>(o2j WARNING): no $current_style_index_name</xsl:message>
+        </xsl:if>
 
         <xsl:variable name="current_automatic_style"
             select="/office:document-content/office:automatic-styles/style:style[@style:name=$current_style_index_name]" 
             as="element(style:style)?"/>
 
-        <xsl:variable name="current_stylename" select="
-            if (matches(current()/@text:style-name, '^P\d'))
-            then ($current_automatic_style/@style:parent-style-name)
-            else (current()/@text:style-name)
+        <xsl:variable name="current_stylename" 
+            select="
+                if (matches(current()/@text:style-name, '^P\d'))
+                then ($current_automatic_style/@style:parent-style-name)
+                else (
+                    if(current()/@text:style-name) then (current()/@text:style-name) else('')
+                )
             " as="xs:string"/>
 
         <xsl:variable name="elementName" select="
@@ -209,12 +217,16 @@
 
     <!-- Preserve italic and bold text -->
     <xsl:template match="text:span">
-        <xsl:variable name="mapped-style-def" select="$automatic-styles[@style:name = current()/@text:style-name]/style:text-properties" as="element(style:text-properties)"/>
+        <xsl:variable name="mapped-style-def" select="$automatic-styles[@style:name = current()/@text:style-name]/style:text-properties" as="element(style:text-properties)?"/>
         <xsl:variable name="isBold" select="$mapped-style-def/@fo:font-weight='bold'" as="xs:boolean"/>
         <xsl:variable name="isItalic" select="$mapped-style-def/@fo:font-style='italic'" as="xs:boolean"/>
         <xsl:variable name="isSubScript" select="matches($mapped-style-def/@style:text-position, '^sub')" as="xs:boolean"/>
         <xsl:variable name="isSuperScript" select="matches($mapped-style-def/@style:text-position, '^super')" as="xs:boolean"/>
         <xsl:choose>
+            <xsl:when test="count($mapped-style-def) = 0">
+                <xsl:message>(o2j WARNING): Empty Sequence $mapped-style-def</xsl:message>
+                <xsl:apply-templates/>
+            </xsl:when>
             <xsl:when test="$isBold eq true() and $isItalic eq true() and $isSubScript">
                 <sub><bold><italic><xsl:apply-templates/></italic></bold></sub>
             </xsl:when>
@@ -306,6 +318,7 @@
         </sm:style>
         <sm:style>
             <sm:name>Sender</sm:name>
+            <sm:name>article-authors</sm:name>
             <sm:transformTo>authors</sm:transformTo>
         </sm:style>
         <sm:style>

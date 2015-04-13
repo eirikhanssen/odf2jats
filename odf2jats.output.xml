@@ -102,7 +102,7 @@
             <kwd>outcome</kwd>
             <kwd>indicator</kwd>
             <kwd>measurement</kwd>
-            <kwd>improvement</kwd>
+            <kwd>improvement </kwd>
          </kwd-group>
       </article-meta>
    </front>
@@ -110,216 +110,6 @@
       <p>Studies on physician well-being frequently involve its relation to quality of care. What is the impact of physician job satisfaction on the quality of health care? An understanding of the complex nature of quality is in this context as crucial as an operational definition.</p>
       <p>The different perspectives of politicians, physicians, and patients may lead to different judgments of quality. Over time, the patient perspective has got more attention. This, as well as a shift from individual responsibility to systems thinking in quality improvement, has consequences for conceptual models of the relationship between physician professionalism and the quality of care.</p>
       <p>We aim at providing an overview of key components in the quality debate within health care. By presenting an analysis and discussion of the development of approaches to and definitions of quality of care we hope to create a better basis for discussions of the relationship between physician professionalism and quality.</p>
-      <!-- sec lvl 1 begin -->
-      <sec>
-         <title>FauxHeading1WithoutOutline</title>
-         <p>This paragraph has some text that is just <bold>bold</bold>, some text that is <italic>italic</italic> and some text that is both <bold>
-               <italic>bold and italic</italic>
-            </bold>, as well as text that is <bold>
-               <italic>italic and bold</italic>
-            </bold>. Now, isn't that nice for just one paragraph!</p>
-         <p>This is another paragraph containing text in <sub>subscript</sub> and text in <sup>superscript</sup>.</p>
-         <p>This is another paragraph containing text in <sub>
-               <bold>bold subscript</bold>
-            </sub> and text in <sup>
-               <bold>bold superscript</bold>
-            </sup>.</p>
-         <p>This is another paragraph containing text in <sub>
-               <bold>
-                  <italic>bold italic subscript</italic>
-               </bold>
-            </sub> and text in <sup>
-               <bold>
-                  <italic>bold italic superscript</italic>
-               </bold>
-            </sup>.</p>
-         <p>This is another paragraph containing text in <sub>
-               <italic>italic subscript</italic>
-            </sub> and text in <sup>
-               <italic>italic superscript</italic>
-            </sup>.</p>
-         <p>This is a paragrapgh with <sub>subscript containing both </sub>
-            <sub>
-               <bold>bold text</bold>
-            </sub>
-            <sub> and </sub>
-            <sub>
-               <italic>italic text</italic>
-            </sub>.</p>
-         <p>This is a paragraph with <sup>superscript containing both </sup>
-            <sup>
-               <bold>bold</bold>
-            </sup>
-            <sup> and </sup>
-            <sup>
-               <italic>italic text</italic>
-            </sup>.</p>
-         <p>Order list</p>
-         <list list-type="order">
-            <list-item>
-               <p>order list</p>
-            </list-item>
-            <list-item>
-               <p>order list</p>
-            </list-item>
-            <list-item>
-               <p>order list</p>
-            </list-item>
-            <list-item>
-               <p>order list</p>
-            </list-item>
-         </list>
-         <p>Alpha lower list</p>
-         <list list-type="alpha-lower">
-            <list-item>
-               <p>alpha-lower list</p>
-            </list-item>
-            <list-item>
-               <p>alpha-lower list</p>
-            </list-item>
-            <list-item>
-               <p>alpha-lower list</p>
-            </list-item>
-         </list>
-         <p>Alpha upper list</p>
-         <list list-type="alpha-upper">
-            <list-item>
-               <p>alpha-upper list</p>
-            </list-item>
-            <list-item>
-               <p>alpha-upper list</p>
-            </list-item>
-            <list-item>
-               <p>alpha-upper list</p>
-            </list-item>
-         </list>
-         <p>A simple list with no markings</p>
-         <p>simple list item</p>
-         <p>simple list item</p>
-         <p>simple list item</p>
-         <p>A roman lower list</p>
-         <list list-type="roman-lower">
-            <list-item>
-               <p>roman-lower list</p>
-            </list-item>
-            <list-item>
-               <p>roman-lower list</p>
-            </list-item>
-            <list-item>
-               <p>roman-lower list</p>
-            </list-item>
-         </list>
-         <p>A nested list: roman-upper &gt; order list &gt; bullet list</p>
-         <list list-type="roman-upper">
-            <list-item>
-               <p>roman-upper list</p>
-            </list-item>
-            <list-item>
-               <p>roman-upper list</p>
-            </list-item>
-            <list-item>
-               <p>roman-upper list</p>
-               <list list-type="order">
-                  <list-item>
-                     <p>order list lvl 2</p>
-                  </list-item>
-                  <list-item>
-                     <p>order list lvl 2</p>
-                  </list-item>
-               </list>
-            </list-item>
-            <list-item>
-               <p>roman-upper list</p>
-               <list list-type="order">
-                  <list-item>
-                     <p>order list lvl 2</p>
-                  </list-item>
-                  <list-item>
-                     <p>order list lvl 2</p>
-                     <list list-type="bullet">
-                        <list-item>
-                           <p>bullet list lvl 3</p>
-                        </list-item>
-                        <list-item>
-                           <p>bullet list lvl 3</p>
-                        </list-item>
-                        <list-item>
-                           <p>bullet list lvl 3</p>
-                        </list-item>
-                     </list>
-                  </list-item>
-               </list>
-            </list-item>
-         </list>
-         <p>A bullet list</p>
-         <list list-type="bullet">
-            <list-item>
-               <p>Bullet list item</p>
-            </list-item>
-            <list-item>
-               <p>Bullet list item</p>
-            </list-item>
-            <list-item>
-               <p>Bullet list item</p>
-            </list-item>
-         </list>
-         <p>A roman upper list</p>
-         <list list-type="roman-upper">
-            <list-item>
-               <p>roman-upper list</p>
-            </list-item>
-            <list-item>
-               <p>roman-upper list</p>
-            </list-item>
-            <list-item>
-               <p>roman-upper list</p>
-            </list-item>
-         </list>
-         <table-wrap id="tbl1">
-            <label>____</label>
-            <!-- optional label and caption -->
-            <caption>
-               <p>____</p>
-            </caption>
-            <table>
-               <thead>
-                  <tr>
-                     <th>Header1</th>
-                     <th>Header2</th>
-                     <th>Header3</th>
-                     <th>Header4</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>1-1</td>
-                     <td>1-2</td>
-                     <td>1-3</td>
-                     <td>1-4</td>
-                  </tr>
-                  <tr>
-                     <td>2-1</td>
-                     <td>2-2</td>
-                     <td>2-3</td>
-                     <td>2-4</td>
-                  </tr>
-                  <tr>
-                     <td>3-1</td>
-                     <td>3-2</td>
-                     <td>3-3</td>
-                     <td>3-4</td>
-                  </tr>
-                  <tr>
-                     <td>4-1</td>
-                     <td>4-2</td>
-                     <td>4-3</td>
-                     <td>4-4</td>
-                  </tr>
-               </tbody>
-            </table>
-         </table-wrap>
-      </sec>
-      <!-- sec lvl 1 end -->
       <!-- sec lvl 1 begin -->
       <sec>
          <title>The concept of quality in general</title>
@@ -332,7 +122,7 @@
             <p>Most definitions of quality relate the standard of a service or product to something else, thus giving quality a relative value such as poor, good or excellent. This implies a comparison, as the comparator might be more or less well specified and even vary, for example over time.</p>
             <p>A widely used definition of quality in general is, “the degree to which a set of inherent characteristics fulfills requirements” (<xref ref-type="bibr" rid="ISO2005">ISO, 2005</xref>). According to this definition, “inherent,” as opposed to “assigned,” means “existing in something, especially as a permanent characteristic,” while requirement means a “need or expectation that is stated, generally implied or obligatory.”</p>
             <p>Whether a product or service meets implicit or explicit requirements is at the core of its quality. In this sense, quality can be seen as the ratio of outcome (result, experience, etc.) to requirements (needs or expectations):</p>
-            <table-wrap id="tbl2">
+            <table-wrap id="tbl1">
                <label>____</label>
                <!-- optional label and caption -->
                <caption>
@@ -357,7 +147,7 @@
          <!-- sec lvl 2 end -->
          <!-- sec lvl 2 begin -->
          <sec>
-            <title>Subjectitivity</title>
+            <title>Subjectivity</title>
             <p>Even based on the more or less same expectations, quality may be judged differently by different individuals. Whether requirements have been met is frequently a matter of disagreement, although this element of subjectivity is different from the described relativity implied in quality judgments. W. Edward Deming (1900-93), who led the quality revolution in Japan and the United States, said that “a product or service possesses quality if it helps somebody and enjoys a good and sustainable market.” The same product or service that might help and satisfy one customer might disappoint another.</p>
             <p>Two individuals using the same airline company or buying the same dishwasher may conclude rather differently as to the results or experiences, and therefore also on the quality. This subjectivity can be related to different emphasis on underlying characteristics. A typical example is the diverse judgment of the interior of a dishwasher; is a cutlery basket or a separate cutlery tray preferable? Another example is related to the balance between noise versus the time of a regular washing program of a dishwasher. Some will prioritize time over silence, whereas others will prioritize silence before time.</p>
          </sec>
@@ -385,10 +175,10 @@
             </list>
             <p>The patients’ perspective differs from that of health-care personnel, and health care personnel’s perspectives differ from that of managers and politicians insofar as: “Where you stand depends on where you sit.” Different roles will normally reflect different values and priorities. Managers will probably emphasize efficiency and a just distribution of resources more than health-care professionals and patients. They might also be more concerned about sustainability regarding research, education and economy than other groups. Physicians, nurses and other professional groups might have other priorities than individual patients, whereas patients are more likely to emphasize the importance of sufficient time in consultations than physicians (<xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>).</p>
             <p>The patient perspective is important in quality judgments, but the level of importance depends on the chosen definition of health-care quality.</p>
-            <p style="Table">Table</p>
-            <p style="Text">A selection of quality definitions (<xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>).</p>
+            <p>Table</p>
+            <p>A selection of quality definitions (<xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>).</p>
             <p>
-               <table-wrap id="tbl3">
+               <table-wrap id="tbl2">
                   <label>____</label>
                   <!-- optional label and caption -->
                   <caption>
@@ -423,14 +213,8 @@
                      </tbody>
                   </table>
                </table-wrap>In general, the ISO definition of quality implies a rather relative view of quality by relating it directly to requirements. This opens up the possibility of varying quality perceptions between individuals and between different stakeholders confronted with the same services. The IOM definition relates quality to the goals of the health-care system, as well as to the current level of professional knowledge.</p>
-            <p>One possible use of the ISO definition is to ask patients what constitutes the most important outcome to them and apply this as the requirement part of the quality definition. A special Euro Barometer population survey on safety and the quality of health care in all European countries conducted in 2009 asked respondents to prioritize different quality criteria (<xref ref-type="bibr" rid="EC2010">European Commission, 2010</xref>). The results of the survey showed that effective treatment and a competent medical staff were considered the most important quality criteria for Europe as a whole. Furthermore, a fair agreement was found on at least the two most important quality criteria across the European countries, but also a lot of between-country variation and some variation between different socio-demographic groups. A Norwegian study showed that it is possible to identify ten core patient experience items across nine patient groups in specialized health care based on patient priorities, including items on safety, effectiveness and responsiveness. This study also showed that certain aspects varied between the groups (<xref ref-type="bibr" rid="SBOIB2011">Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011</xref>). Consequently, the European and Norwegian studies show that there is no universal definition of quality criteria, even from the patient or population perspective. Other stakeholders with other perspectives, such as managers and professionals, may have other expectations and requirements (<xref ref-type="bibr" rid="JWOG2002">Jung, Wensing, Olesen, &amp; Grol, 2002</xref>; <xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>).<sup>
-                  <xref ref-type="fn" rid="ftn1">1</xref>
-               </sup>
-            </p>
-            <p>A study comparing physician and patient perceptions of quality found both similarities and differences regarding the quality concept in ambulatory care (<xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>), as both groups highly valued clinical skills, rapport and health-related communication, but varied in sub-categories within these topics and on other major topics. The bottom line is that quality is a relative concept according to the ISO definition, and that health-care service quality cannot be judged without linking it to the requirements of patients or other stakeholders.<sup>
-                  <xref ref-type="fn" rid="ftn2">i</xref>
-               </sup>
-            </p>
+            <p>One possible use of the ISO definition is to ask patients what constitutes the most important outcome to them and apply this as the requirement part of the quality definition. A special Euro Barometer population survey on safety and the quality of health care in all European countries conducted in 2009 asked respondents to prioritize different quality criteria (<xref ref-type="bibr" rid="EC2010">European Commission, 2010</xref>). The results of the survey showed that effective treatment and a competent medical staff were considered the most important quality criteria for Europe as a whole. Furthermore, a fair agreement was found on at least the two most important quality criteria across the European countries, but also a lot of between-country variation and some variation between different socio-demographic groups. A Norwegian study showed that it is possible to identify ten core patient experience items across nine patient groups in specialized health care based on patient priorities, including items on safety, effectiveness and responsiveness. This study also showed that certain aspects varied between the groups (<xref ref-type="bibr" rid="SBOIB2011">Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011</xref>). Consequently, the European and Norwegian studies show that there is no universal definition of quality criteria, even from the patient or population perspective. Other stakeholders with other perspectives, such as managers and professionals, may have other expectations and requirements (<xref ref-type="bibr" rid="JWOG2002">Jung, Wensing, Olesen, &amp; Grol, 2002</xref>; <xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>).</p>
+            <p>A study comparing physician and patient perceptions of quality found both similarities and differences regarding the quality concept in ambulatory care (<xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>), as both groups highly valued clinical skills, rapport and health-related communication, but varied in sub-categories within these topics and on other major topics. The bottom line is that quality is a relative concept according to the ISO definition, and that health-care service quality cannot be judged without linking it to the requirements of patients or other stakeholders.</p>
             <p>Deciding on a more specific health-care definition of quality, the patient perspective has an important but more limited role. The patient perspective is included in most conceptual health-care models of quality as a separate quality dimension, and patients are also included in the evaluation of quality. For example, through concepts like patient satisfaction and experiences of care, the IOM approach includes the patient perspective in the term “outcomes,” which also has patient centeredness as one of six dimensions of quality (<xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="L1990b">Lohr, 1990b</xref>). The patient centeredness component is usually measured by systematic surveys of patient-reported experiences, at least in large-scale settings.</p>
          </sec>
          <!-- sec lvl 2 end -->
@@ -576,14 +360,6 @@
       <!-- sec lvl 1 end -->
    </body>
    <back>
-      <fn-group>
-         <fn id="ftn1">
-            <p>The wonderful first footnote.</p>
-         </fn>
-         <fn id="ftn2">
-            <p>The first endnote.</p>
-         </fn>
-      </fn-group>
       <ref-list>
          <ref id="ASCBHL2006"><!--Adair, C. E., Simpson, E., Casebeer, A. L., Birdsell, J. M., Hayden, K. A., & Lewis, S. (2006). Performance measurement in healthcare part II: state of the science findings by stage of the performance measurement process. <italic>Health Policy, 2</italic>(1), 56-78. -->
             <element-citation publication-type="journal" publication-format="print">
@@ -649,112 +425,6 @@
                <fpage>5</fpage>
                <lpage>13</lpage>
                <uri>http://dx.doi.org/10.1093/intqhc/mzl024</uri>
-            </element-citation>
-         </ref>
-         <ref id="AGDM1881a"><!--Akira, A., Gump, F., Duck, D., & Man, S. (1881a). En fantastisk fortelling fra fantasien. [A fantastic tale from the fantacy.] <italic>Imagunært tidskrift for fantasier, 22</italic>(3), 5-13. <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Akira</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Gump</surname>
-                     <given-names>F.</given-names>
-                  </name>
-                  <name>
-                     <surname>Duck</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Man</surname>
-                     <given-names>S.</given-names>
-                  </name>
-               </person-group>
-               <year>1881</year>
-               <article-title xml:lang="__">En fantastisk fortelling fra fantasien.</article-title>
-               <trans-title xml:lang="__">A fantastic tale from the fantacy.</trans-title>
-               <source>Imagunært tidskrift for fantasier</source>
-               <volume>22</volume>
-               <issue>3</issue>
-               <fpage>5</fpage>
-               <lpage>13</lpage>
-               <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>
-            </element-citation>
-         </ref>
-         <ref id="AGDM1881b"><!--Akira, A., Gump, F., Duck, D., & Man, S. (1881b). En utrolig fortelling fra fantasien. [An unbelievable tale from the fantacy.] <italic>Imagunært tidskrift for fantasier, 22</italic>(3), 14-25. <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Akira</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Gump</surname>
-                     <given-names>F.</given-names>
-                  </name>
-                  <name>
-                     <surname>Duck</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Man</surname>
-                     <given-names>S.</given-names>
-                  </name>
-               </person-group>
-               <year>1881</year>
-               <article-title xml:lang="__">En utrolig fortelling fra fantasien.</article-title>
-               <trans-title xml:lang="__">An unbelievable tale from the fantacy.</trans-title>
-               <source>Imagunært tidskrift for fantasier</source>
-               <volume>22</volume>
-               <issue>3</issue>
-               <fpage>14</fpage>
-               <lpage>25</lpage>
-               <uri>http://dx.doi.org/11.12.93/super/fantacy/123456/</uri>
-            </element-citation>
-         </ref>
-         <ref id="B2007"><!--Bastesen, P. (2007). <italic>Ka sku vi gjort uten havet?</italic> [What should we do without the ocean?] Oslo: Høgskolen i Oslo og Akershus. <uri>http://www.bastesen.com/havet</uri>-->
-            <element-citation publication-type="book" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Bastesen</surname>
-                     <given-names>P.</given-names>
-                  </name>
-               </person-group>
-               <year>2007</year>
-               <source xml:lang="__">Ka sku vi gjort uten havet?</source>
-               <trans-source xml:lang="__">What should we do without the ocean?</trans-source>
-               <publisher-loc>Oslo</publisher-loc>
-               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
-               <uri>http://www.bastesen.com/havet</uri>
-            </element-citation>
-         </ref>
-         <ref id="B2008"><!--Bastesen, P. (2008). Det er flere fisker i sjøen [There are more fish in the sea] In E. Hanssen & D. Buck (Eds.), <italic>Bærekraftig havdrift</italic> [Sustainable sea exploitation] Oslo: Høgskolen i Oslo og Akershus. <uri>http://hb.com/havdrift</uri>-->
-            <element-citation publication-type="book-chapter" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Bastesen</surname>
-                     <given-names>P.</given-names>
-                  </name>
-               </person-group>
-               <year>2008</year>
-               <chapter-title xml:lang="__">Det er flere fisker i sjøen</chapter-title>
-               <trans-title xml:lang="__">There are more fish in the sea</trans-title>
-               <person-group person-group-type="editor">
-                  <name>
-                     <surname>Hanssen</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Buck</surname>
-                     <given-names>D.</given-names>
-                  </name>
-               </person-group>
-               <source xml:lang="__">Bærekraftig havdrift</source>
-               <trans-source xml:lang="__">Sustainable sea exploitation</trans-source>
-               <publisher-loc>Oslo</publisher-loc>
-               <publisher-name>Høgskolen i Oslo og Akershus</publisher-name>
-               <uri>http://hb.com/havdrift</uri>
             </element-citation>
          </ref>
          <ref id="BGN2007"><!--Batalden, P. B., Godfrey, M. M., & Nelson, E. C. (2007). <italic>Quality by design: a clinical microsystems approach</italic>. San Francisco: Jossey-Bass.-->
