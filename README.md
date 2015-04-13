@@ -122,11 +122,20 @@ important to facilitate the reference parsing.
     - issue of the article
     - fpage of the article
     - lpage of the article
+- text-frames located in the document body as well as header and footer content should temporarily be placed
+  in article/orphans/orphan[@origin="header|footer|body"]
+    - Then during the grouping phase of the document, these orphans can be tested using regex pattern matching
+      to see if there is any information there that should be put in either of:
+        - article/front/article-meta
+        - article/front/journal-meta
+    - afterwords these orphans should be put in comment nodes, to allow the person running the JATS conversion to
+      decide what to do with it.
+    - electronic journal type references with elocation and no pages: elocation-id extraction haven't been implemented
 
 ### Improve ref-list autotagging
-- Journal type references
-    - elocation-id not implemented
-- Refs starting with following, fail:
+- Electronic journal type references with elocation instead of page(s)
+    - elocation-id extraction not implemented
+- Refs starting with following fail, but maybe this is acceptable because it is difficult to mark up using element-citation:
     - NICE. (2012).
     - WHO. (2000).
     - Institute of Medicine. (2001).

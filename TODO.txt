@@ -2,6 +2,13 @@ Flat extract
     - figure odf extract not implemented
     - table captions not implemented, using placeholders
     - doi-uri in the header on page1 should be extracted to self uri and doi (specific to PP)
+    - text-frames located in the document body and header and footer content should temporarily be placed
+      in article/orphans/orphan[@origin="header|footer|body"]
+        - Then during the grouping phase of the document, these orphans can be tested using regex pattern matching
+          to see if there is any information there that should be in the article/front/article-meta section.
+        - afterwords these orphans should be put in comment nodes, to allow the person running the JATS conversion to 
+          decide what to do with it.
+    - electronic journal type references with elocation and no pages: elocation-id extraction haven't been implemented
 
 Grouping/sectioning
     - p-elements with only whitespace should be deleted
@@ -10,13 +17,6 @@ Grouping/sectioning
         - see article by Angerer
 
 Reference list parsing/autotagging
-    - Book/Book-chapter type references
-        - reflistparser_apa can't handle uri at the end
-        - translated source and chapter-title not implemented yet
-
-    - Journal articles
-        - Not implemented yet
-
     - Dissertations - should they also be marked up using element-citation?
 
 Citations in text parsing/autotagging
