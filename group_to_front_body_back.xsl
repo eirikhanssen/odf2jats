@@ -24,7 +24,7 @@
                     <title-group>
                         <xsl:apply-templates select="article-title"/>
                     </title-group>
-                        <xsl:apply-templates select="authors"/>
+                    <xsl:apply-templates select="authors"/>
                     <pub-date pub-type="pub">
                         <day>____</day>
                         <month>____</month>
@@ -78,7 +78,7 @@
     <xsl:template match="authors">
         <xsl:variable name="author-group" as="element(contrib-group)">
             <contrib-group>
-                <xsl:for-each select="tokenize(., ',')">
+                <xsl:for-each select="tokenize(. , ',')">
                     <contrib contrib-type="author">
                         <name>
                             <xsl:analyze-string select="normalize-space(.)" regex="\c+$">

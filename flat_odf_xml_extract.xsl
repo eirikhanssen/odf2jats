@@ -314,20 +314,47 @@
         </sm:style>
         <sm:style>
             <sm:name>Title</sm:name>
+            <sm:name>H1-ArticleTitle</sm:name>
             <sm:transformTo>article-title</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Sender</sm:name>
-            <sm:name>article-authors</sm:name>
+            <sm:name>ArticleAuthors</sm:name>
             <sm:transformTo>authors</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Abstract</sm:name>
+            <sm:name>ArticleAbstract</sm:name>
             <sm:transformTo>abstract</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Keywords</sm:name>
+            <sm:name>ArticleKeywords</sm:name>
             <sm:transformTo>keywords</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>ArticleContactInfo</sm:name>
+            <sm:transformTo>contact-info</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>ArticleHistory</sm:name>
+            <sm:transformTo>history</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>FigLabel</sm:name>
+            <sm:transformTo>label_fig</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>FigCaption</sm:name>
+            <sm:transformTo>caption_fig</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableLabel</sm:name>
+            <sm:transformTo>label_table</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableCaption</sm:name>
+            <sm:transformTo>caption_table</sm:transformTo>
         </sm:style>
     </sm:styles>
 </xsl:stylesheet>

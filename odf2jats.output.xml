@@ -26,43 +26,17 @@
                <subject>305.553</subject>
             </subj-group>
          </article-categories>
-         <title-group>
-            <article-title>What is Good Quality of Health Care?</article-title>
-         </title-group>
+         <title-group/>
          <contrib-group>
             <contrib contrib-type="author">
                <name>
-                  <given-names>Magne</given-names>
-                  <surname>Nylenna</surname>
+                  <given-names>Francis J. Crosson and Lawrence P.</given-names>
+                  <surname>Casalino</surname>
                </name>
-               <xref ref-type="aff" rid="M_Nylenna"/>
-            </contrib>
-            <contrib contrib-type="author">
-               <name>
-                  <given-names>Øyvind Andresen</given-names>
-                  <surname>Bjertnaes</surname>
-               </name>
-               <xref ref-type="aff" rid="Ø_Bjertnaes"/>
-            </contrib>
-            <contrib contrib-type="author">
-               <name>
-                  <given-names>Ingrid Sperre</given-names>
-                  <surname>Saunes</surname>
-               </name>
-               <xref ref-type="aff" rid="I_Saunes"/>
-            </contrib>
-            <contrib contrib-type="author">
-               <name>
-                  <given-names>Anne Karin</given-names>
-                  <surname>Lindahl</surname>
-               </name>
-               <xref ref-type="aff" rid="A_Lindahl"/>
+               <xref ref-type="aff" rid="F_Casalino"/>
             </contrib>
          </contrib-group>
-         <aff id="M_Nylenna">____</aff>
-         <aff id="Ø_Bjertnaes">____</aff>
-         <aff id="I_Saunes">____</aff>
-         <aff id="A_Lindahl">____</aff>
+         <aff id="F_Casalino">____</aff>
          <pub-date pub-type="pub">
             <day>____</day>
             <month>____</month>
@@ -92,1270 +66,322 @@
          </permissions>
          <self-uri xlink:href="____">____</self-uri>
          <abstract>
-            <p>A diversity of definitions of quality exists, that frequently contain aspects of complexity, relativity and subjectivity. This paper provides an overview of key components in the quality debate within health care, including different perspectives and dimensions of the quality of care. Definitions of the quality of health care reflect the characteristics of health services, and are useful for measurements and quality improvement. Over time the patient perspective of quality has gotten increasing weight, and in quality improvement there has been a shift from individual responsibility for doctors and health care personnel to systems thinking. We argue that the quality approach in health care should be more standardized and that health care-specific definitions of quality should be used when the relationship between physician professionalism and quality is investigated.</p>
+            <p>This paper addresses several root causes of dissatisfaction with medical practice among American physicians, and suggests that some, but not all, are potentially remediable. Fixed assumptions about the nature of medical practice in the United States, developed over several decades, appear to be eroding. At the same time, increasing demands on physician time, especially involving low value documentation and administrative tasks are interfering with the physician-patient interaction. In addition, physician practice structure and payment methodologies are beginning to change in the United States leading to a sense of practice instability among physicians. Recent research conducted by the American Medical Association and the RAND Corporation has provided new qualitative and quantitative information about the impact of these trends on physician practices. An evaluation of these research findings indicates that some improvements in physician satisfaction are possible.</p>
          </abstract>
          <kwd-group kwd-group-type="author-generated">
-            <kwd>quality</kwd>
-            <kwd>health care</kwd>
-            <kwd>systems thinking</kwd>
-            <kwd>patient perspective</kwd>
-            <kwd>outcome</kwd>
-            <kwd>indicator</kwd>
-            <kwd>measurement</kwd>
-            <kwd>improvement </kwd>
+            <kwd>physician professionalism</kwd>
+            <kwd>practice satisfaction</kwd>
+            <kwd>electronic health records</kwd>
+            <kwd>health care reform in the U.S</kwd>
          </kwd-group>
       </article-meta>
    </front>
-   <body>
-      <p>Studies on physician well-being frequently involve its relation to quality of care. What is the impact of physician job satisfaction on the quality of health care? An understanding of the complex nature of quality is in this context as crucial as an operational definition.</p>
-      <p>The different perspectives of politicians, physicians, and patients may lead to different judgments of quality. Over time, the patient perspective has got more attention. This, as well as a shift from individual responsibility to systems thinking in quality improvement, has consequences for conceptual models of the relationship between physician professionalism and the quality of care.</p>
-      <p>We aim at providing an overview of key components in the quality debate within health care. By presenting an analysis and discussion of the development of approaches to and definitions of quality of care we hope to create a better basis for discussions of the relationship between physician professionalism and quality.</p>
-      <!-- sec lvl 1 begin -->
+   <body><!-- sec lvl 1 begin -->
       <sec>
-         <title>The concept of quality in general</title>
-         <p>Tracing the origins of the quality concept takes us back to France at the beginning of the 13th century, where <italic>qualite</italic> was used in the meaning of characteristics. A quality (from Latin <italic>qualitas</italic>) is originally an element or attribute of someone or something, defined as “a characteristic or feature that someone or something has: something that can be noticed as a part of a person or thing” (<xref ref-type="bibr" rid="Q2014">Quality, 2014</xref>).</p>
-         <p>In everyday language, quality is also used to describe the standard of something or someone, “the degree of excellence” that a thing possesses (<xref ref-type="bibr" rid="Q2014">Quality, 2014</xref>). Normally, this use of quality refers to an overall assessment of several components more or less related to each other, whereas the assessed quality of a service or a product is based on a complex combination of attributes. Some of these attributes might be measurable, such as the regularity of an airline company or the lifetime of a dishwasher. Such an isolated, single characteristic is seldom called quality in itself, but instead is seen as a part of- or indicator of- the total quality of the actual airline or dishwasher.</p>
-         <p>Quality is usually applied to the standard of several characteristics in combination, frequently including characteristics that are more difficult or even impossible to measure and quantify. For an airline, this could include the passengers’ experience of service, and for a dishwasher how its design is perceived.</p>
+         <title>Physician Dissatisfaction in the United States: An Examination</title>
+         <contact-info>
+            <italic>Francis J. Crosson</italic>, American Medical Association </contact-info>
+         <contact-info>
+            <italic>Lawrence P. Casalino</italic>, Division of Health Policy and Economics, Cornell Weill Medical College</contact-info>
+         <contact-info>
+            <bold>Contact:</bold> Francis J. Crosson, American Medical Association, <uri>mailto:fjcrosson@gmail.com</uri>
+            <uri>mailto:fjcrosson@gmail.com</uri>
+         </contact-info>
+         <history>Received: 17 June 2014</history>
+         <history>Accepted: 26 Feb 2015</history>
+         <p>A concerning number of American physicians have been growing increasingly dissatisfied with medical practice (<xref ref-type="bibr" rid="CSTW2014">Christopher, Smith, Tivis, &amp; Wilper, 2014</xref>; <xref ref-type="bibr" rid="LRB2003">Landon, Reschovsky, &amp; Blumenthal, 2003</xref>; <xref ref-type="bibr" rid="LKSSM2002">Leigh, Kravitz, Schembri, Samuels, &amp; Mobley, 2002</xref>; <xref ref-type="bibr" rid="LTK2009">Leigh, Tancredi, &amp; Kravitz, 2009</xref>; <xref ref-type="bibr" rid="P    2002">Pathman et al.,2002</xref>). In this paper we will discuss possible reasons for the growth in professional dissatisfaction. This will be through an examination of the evolution of the career expectations of physicians in the United States over recent decades and how those expectations are being affected by changes underway that are both internal and external to physician practices.</p>
+         <p>American physicians enjoy higher social status, income and professional independence than physicians in most other countries. Advancements in clinical diagnostic and therapeutic to57ols gradually created a new aura of respect for the competency of physicians and a high level of patient trust in their professional judgment. Physicians became valued and their interventions more valuable just as the American economy was expanding after World War II.</p>
+         <p>Until recently, most American physicians have practiced in solo practice or in small groups, usually organized by specialty, and approximately 60% still do (defined as less than 10 physicians in a practice) (<xref ref-type="bibr" rid="KE2013">Kane &amp; Emmons, 2013</xref>). This structure allows for control of virtually all the details of the day-to-day practice environment, and in the minds of many physicians strengthens the primacy of the physician-patient 1:1 relationship, free from external or “third party” interference<sup> </sup>(Starr, 1982, p. 25-26).</p>
+         <p>This “Hippocratic Oath” responsibility, many physicians believed, confers upon them an independence of judgment and action, which should not be subject to external interference. This belief led to the principle of “physician autonomy”, which by the mid-twentieth century was a firmly established expectation for physicians leaving residency training programs and entering practice (<xref ref-type="bibr" rid="S1982">Starr, 1982</xref>).</p>
+         <p>Most physicians in practice were and still are receiving payment for individual services provided one at a time to patients (fee-for-service payment). This payment mechanism in the U.S, unlike in most OECD countries, generally takes place in the absence of any supervening “global budget” for health care services, either at a local or national level. Many believe that in America this payment mechanism, combined with the principle of physician autonomy, can encourage the overuse of some health care services, especially in clinical situations where the indications for such services are “borderline” (<xref ref-type="bibr" rid="TMPAC2011">The Medicare Payment Advisory Commission, 2011</xref>), leading to higher income, especially for certain medical specialties.</p>
+         <p>Payment for physician services in the U.S. was also influenced by two key historical events. The first was the encouragement during World War II by the U.S War Labor Board of employer-provided health care coverage in lieu of wage increases, which were deemed inflationary. In addition, in 1964 the federal government established the Medicare program to provide health care services for citizens aged 65 and over. Although the Medicare program evolved a methodology to set prices for specific physician services, known as the Resource-Based Relative Value System (<xref ref-type="bibr" rid="H    1988">Hsiao et al., 1988</xref>), the program has virtually no constraints on the volume of services provided to its beneficiaries.</p>
+         <p>Thus, these three forces, fee-for-service payment in the absence of a global budget, broad private insurance coverage and growing expenditures for the elderly contributed to rising income for physicians in the latter half of the twentieth century and an expectation among physicians that this trend would continue unabated. The aim of what follows is to examine financial concerns and additional, non-financial, causes of dissatisfaction and by doing so place financial concerns in a larger context.</p>
          <!-- sec lvl 2 begin -->
          <sec>
-            <title>Relativity</title>
-            <p>Most definitions of quality relate the standard of a service or product to something else, thus giving quality a relative value such as poor, good or excellent. This implies a comparison, as the comparator might be more or less well specified and even vary, for example over time.</p>
-            <p>A widely used definition of quality in general is, “the degree to which a set of inherent characteristics fulfills requirements” (<xref ref-type="bibr" rid="ISO2005">ISO, 2005</xref>). According to this definition, “inherent,” as opposed to “assigned,” means “existing in something, especially as a permanent characteristic,” while requirement means a “need or expectation that is stated, generally implied or obligatory.”</p>
-            <p>Whether a product or service meets implicit or explicit requirements is at the core of its quality. In this sense, quality can be seen as the ratio of outcome (result, experience, etc.) to requirements (needs or expectations):</p>
-            <table-wrap id="tbl1">
-               <label>____</label>
-               <!-- optional label and caption -->
-               <caption>
-                  <p>____</p>
-               </caption>
-               <table>
-                  <tbody>
-                     <tr>
-                        <td>Q (quality)</td>
-                        <td>=</td>
-                        <td>O (outcome)</td>
-                     </tr>
-                     <tr>
-                        <td>R (requirements)</td>
-                     </tr>
-                  </tbody>
-               </table>
-            </table-wrap>
-            <p>Hence, the quality of an airline or dishwasher depends both on expectation (requirements) and experience (outcome). The outcome is the sum total of measurable (quantitative) and unmeasurable (non-quantitative) results, while the expectation is the anticipated level of these characteristics. This level is usually set through a knowledge of comparable services or products, or other judgments made beforehand.</p>
-            <p>Based on this relative approach, quality will increase not only by a higher outcome, but also by a lower expectation. For most services and products, the expectations will increase over time, thereby demanding a higher outcome to keep the quality at the same level. Expectations may also vary according to social, cultural, economic and other factors, for example in the airline industry when flights are delayed due to poor weather conditions. Whether passengers’ expectations are adjusted accordingly decides the perceived quality of the airline, and these adjustments are again dependent on information and an acceptance of the consequences that bad weather will have for air traffic. For airline companies and dishwashers, expectations are probably also related to price, since high prices will lead to higher expectations than low prices. If the experiences with a budget airline or a cheap dishwasher are seen as similar to services or products that are more expensive, the quality could be judged as being higher.</p>
+            <title>The decline in physician practice satisfaction</title>
+            <p>As cited above, several survey-based studies over the last two decades have shown declining satisfaction with office-based practice among American physicians. Physicians are not infrequently quoted as saying that they wish they had not chosen medicine as a career and would not recommend that their own children become physicians. The percentage of physicians expressing these views varies by survey design, but is probably between 20-30% of currently practicing physicians (<xref ref-type="bibr" rid="BCOM2009">Boukus, Cassil, &amp; O’Malley, 2009</xref>; <xref ref-type="bibr" rid="SJ2014">Sorrell &amp; Jennings, 2014</xref>). It is important to note that this level of dissatisfaction is not the case in all countries (<xref ref-type="bibr" rid="ARN2010">Aasland, Rosta, &amp; Nylenna, 2010</xref>). Discontent also varies by specialty and income, with overrepresentation among physicians practicing adult primary care medicine, especially in smaller practices. One study in California suggested that dissatisfaction is lower among physicians practicing in large multispecialty groups<sup> </sup>(<xref ref-type="bibr" rid="RGONDB2004">Rittenhouse, Grumbach, O’Neil, Dower, &amp; Bindman, 2004</xref>).</p>
+            <p>As noted above, one source of vocal dissatisfaction, often heard in political discourse, is declining income and anticipation of further declines in the future. There are generally three sources for physician income, other than direct payments from patients. The largest source for most physicians is payments from commercial health plans. Most health plans have been attempting to limit physician costs by selectively contracting with the least costly practices, thus driving down rates. In addition, insurance design has been evolving to higher patient out-of-pocket cost requirements through the use of higher deductibles and co-payments, which has become a barrier for some to seeking physician services.</p>
+            <p>More importantly, there is a growing disparity in income among physician specialties<sup> </sup>(<xref ref-type="bibr" rid="M2013">Medscape, 2013</xref>). Those physicians in primary care specialties and other specialties in which reimbursement is based primarily on office visits alone have had income decreases in some cases, and in most cases substantially lower increases over time (compared to inflation) than specialties in which reimbursement is based, all or in part, on diagnostic or therapeutic procedures.</p>
+            <p>But, at least as important for most physicians as income are the non-financial subjective rewards accruing from the practice of medicine. This is why most physicians chose the profession of medicine in the first place. This reward has been dissipating as well for many physicians. First, the aging of the population has added to the fragility and complexity of the patients being served, resulting in time pressures during physician-patient encounters (<xref ref-type="bibr" rid="SDFF2014">Shaw, Davis, Fleischer, &amp; Feldman, 2014</xref>). It is very common for the physician’s day to be filled with patients 80 years old or older with multiple chronic conditions to deal with, sometimes with deteriorating patient mental capacities. In addition, medical science has produced, in the last twenty years, many more preventive services, such as immunizations, cancer screening processes, health education needs and other useful interventions that again require physician time to explain, order, interpret and communicate. One recent calculation concluded that to deal properly with all these interventions in the typical primary care physician practice would require 1773 hours of work per year per physician or 7.4 hours per day, while doing nothing else (<xref ref-type="bibr" rid="YPØK2013">Yarnell, Pollak, Østbye, &amp; Krause, 2013</xref>). Many physicians report feelings of guilt about not be able to all that is needed for their patients no matter how hard they work (<xref ref-type="bibr" rid="F    2013">Friedberg et al., 2013</xref>).</p>
+            <p>Another common complaint heard from American physicians is the increasing “administrative” non-clinical work that is required of them by payers and by government regulations. A typical physician practice receives payment from multiple private health plans, direct payments from large employers, and commonly, payments from Medicare and Medicaid (the government program for low income citizens). Each of these payers has different rules and regulations about what services they will cover and how to submit and receive payments. For example, each private health plan may cover different pharmaceuticals, requiring physicians to understand and track the specifics for each plan or risk having the patients prescription not covered by the health plan. In addition to Medicare, many private payers and voluntary accrediting organizations are beginning to require more and more complex reporting of quality information from practices, necessitating a new level of record keeping and external communications in physician offices (<xref ref-type="bibr" rid="C    2009">Casalino et al., 2009</xref>; <xref ref-type="bibr" rid="P    2013">Panzer et al., 2013</xref>). It must be acknowledged, however, that not all time spent on these activities is wasted: Quality measurement and documentation probably serve to improve practice quality.</p>
+            <p>Similarly, the increase in the use of electronic health records (EHRs) in physician offices and hospitals, although improving the quality and legibility of medical record keeping and likely the quality of care, has created more time-consuming work for physicians (<xref ref-type="bibr" rid="QWOBS2009">Quinn, Wilcox, Orav, Bates, &amp; Simon., 2009</xref>). Some physicians report that the deployment of their EHR was “the straw that broke the camel’s back,” in terms of practice efficiency and workload. We will cover more detail on this point below.</p>
+            <p>Finally, the demographic profile of the American physician has been changing, in keeping with changes seen in the larger population. Many more newly trained physicians are women, with attendant childbearing interests. In addition, many younger American physicians, irrespective of gender, express more interest than previous generations in “balancing” professional responsibilities with family and personal priorities (<xref ref-type="bibr" rid="C    1014">Christopher et al. 1014</xref>). These interests often conflict with the professional and managerial responsibilities of running a practice, resulting in dissatisfaction at a level not experienced by previous generations of physicians. As a consequence many younger physicians are seeking institutional employment by large group practices and hospitals in an effort to find a more stable and sustainable life style<sup> </sup>(<xref ref-type="bibr" rid="M    2013">Moses et al., 2013</xref>).</p>
          </sec>
          <!-- sec lvl 2 end -->
          <!-- sec lvl 2 begin -->
          <sec>
-            <title>Subjectivity</title>
-            <p>Even based on the more or less same expectations, quality may be judged differently by different individuals. Whether requirements have been met is frequently a matter of disagreement, although this element of subjectivity is different from the described relativity implied in quality judgments. W. Edward Deming (1900-93), who led the quality revolution in Japan and the United States, said that “a product or service possesses quality if it helps somebody and enjoys a good and sustainable market.” The same product or service that might help and satisfy one customer might disappoint another.</p>
-            <p>Two individuals using the same airline company or buying the same dishwasher may conclude rather differently as to the results or experiences, and therefore also on the quality. This subjectivity can be related to different emphasis on underlying characteristics. A typical example is the diverse judgment of the interior of a dishwasher; is a cutlery basket or a separate cutlery tray preferable? Another example is related to the balance between noise versus the time of a regular washing program of a dishwasher. Some will prioritize time over silence, whereas others will prioritize silence before time.</p>
-         </sec>
-         <!-- sec lvl 2 end -->
-      </sec>
-      <!-- sec lvl 1 end -->
-      <!-- sec lvl 1 begin -->
-      <sec>
-         <title>Quality in health care</title>
-         <p>Health-care quality and quality indicators are complex topics, with a range of different conceptual approaches, operationalizations and measurement techniques (<xref ref-type="bibr" rid="AWHK2006">Arah, Westert, Hurst, &amp; Klazinga, 2006</xref>; <xref ref-type="bibr" rid="LQMKNG2008">Legido-Quigley, McKee, Nolte, &amp; Glinos, 2008</xref>; <xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>). Furthermore, the distinction between quality and performance is often unclear, and the level of measurement varies from the concrete practice level to the health-care system level (<xref ref-type="bibr" rid="A    2006">Adair et al., 2006</xref>; <xref ref-type="bibr" rid="MIRH2001">McIntyre, Rogers, &amp; Heier, 2001</xref>). The fact that patients, clinicians, leaders and other stakeholders might have different perspectives on health-care quality makes it even harder to standardize and harmonize different conceptual models of quality.</p>
-         <!-- sec lvl 2 begin -->
-         <sec>
-            <title>Perspectives on health-care quality</title>
-            <p>It should be noted that the different levels of quality of care are not the same as different perspectives on health-care quality. Various perspectives can be applied within each level of care. These perspectives are strongly related to roles and stakeholders, with the three main perspectives being defined as:</p>
-            <list list-type="bullet">
+            <title>AMA-Rand health research findings</title>
+            <p>By 2012, American physicians, including physician leaders and physician educators, had become increasingly concerned about growing physician dissatisfaction with clinical practice. The decline in physician practice satisfaction awkwardly coincided with federal efforts to expand health care coverage though the Patient Protection and Affordable care Act of 2010 (commonly referred to as the ACA or “Obamacare”), raising fears about a potential physician shortage. The largest American physician organization, the American Medical Association (AMA) decided to sponsor an organized effort to investigate in detail the current elements leading to practice dissatisfaction, and to develop plans to help mitigate those dissatisfaction-causing elements that are amenable to mitigation. To that end, near the end of 2012, the AMA, with input from an external advisory committee, engaged a team of health services investigators from the RAND Corporation, a noted research organization with multiple U.S. and international locations, to investigate the principal causes of physician dissatisfaction. Since this research represents the most current and detailed analysis of U.S. physician dissatisfaction, we will describe it below in some detail. The AMA’s intent was to analyze the findings of this AMA-RAND “field” research in order to help design the key aspects of a future mitigation plan for American physicians, including needs for further research.</p>
+            <p>A detailed description of the study methodology, as well as the results, was published in October of 2013<sup> </sup>(<xref ref-type="bibr" rid="F    2013">Friedberg et al., 2013</xref>). Readers are directed to the original paper for a thorough explication of the research<sup>
+                  <xref ref-type="fn" rid="ftn1">1</xref>
+               </sup>. What follows here is a summary of the work and findings. In general the findings were consistent with previous well-designed American physician satisfaction surveys (<xref ref-type="bibr" rid="L    2002">Leigh et al., 2002</xref>; <xref ref-type="bibr" rid="P    2002">Pathman et al., 2002</xref>; <xref ref-type="bibr" rid="L    2006">Landon et al., 2006</xref>; <xref ref-type="bibr" rid="L    2009">Leigh et al., 2009</xref>). It is difficult to compare levels of “overall” satisfaction among studies because of differences in survey design and question construction and presentation. One striking difference, described below, was the near universal citing by RAND-surveyed physicians of a new and intense dissatisfier not mentioned in earlier surveys, the lack of ease of use of EHRs. This is not surprising since EHRs were not in common use during the time of the earlier surveys.</p>
+            <label_fig>Figure 1</label_fig>
+            <caption_fig>
+               <italic>RAND Finding: Major contributors to lower professional satisfaction </italic>(<xref ref-type="bibr" rid="F    2013">Friedberg et al., 2013</xref>).</caption_fig>
+            <list>
                <list-item>
-                  <p>Politicians, health-care managers and others with responsibility for groups, communities and national systems;</p>
+                  <p style="ListContents">Perceived barriers to high-quality care</p>
                </list-item>
                <list-item>
-                  <p>Health-care professionals treating individual patients;</p>
+                  <p style="ListContents">Electronic health records</p>
                </list-item>
                <list-item>
-                  <p>Patients and their relatives.</p>
+                  <p style="ListContents">Lack of collegiality</p>
+               </list-item>
+               <list-item>
+                  <p style="ListContents">Lack of faith in practice leadership</p>
+               </list-item>
+               <list-item>
+                  <p style="ListContents">Worries about practice sustainability as a business</p>
+               </list-item>
+               <list-item>
+                  <p style="ListContents">Work volume too little or too much</p>
+               </list-item>
+               <list-item>
+                  <p style="ListContents">Income preservation challenging when pay rates decline</p>
+               </list-item>
+               <list-item>
+                  <p style="ListContents">Regulatory burden: many small things adding up</p>
                </list-item>
             </list>
-            <p>The patients’ perspective differs from that of health-care personnel, and health care personnel’s perspectives differ from that of managers and politicians insofar as: “Where you stand depends on where you sit.” Different roles will normally reflect different values and priorities. Managers will probably emphasize efficiency and a just distribution of resources more than health-care professionals and patients. They might also be more concerned about sustainability regarding research, education and economy than other groups. Physicians, nurses and other professional groups might have other priorities than individual patients, whereas patients are more likely to emphasize the importance of sufficient time in consultations than physicians (<xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>).</p>
-            <p>The patient perspective is important in quality judgments, but the level of importance depends on the chosen definition of health-care quality.</p>
-            <p>Table</p>
-            <p>A selection of quality definitions (<xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>).</p>
+            <p>Figure 1 depicts the principal factors leading to physician dissatisfaction among the physicians responses included in the study. The most often described dissatisfier was an interesting and somewhat unexpected finding. Physicians related their subjective sense of overall satisfaction or dissatisfaction to whether or not “at the end of the working day” they felt that they had been able to care for their patients according to their own sense of professionalism. When that feeling was present they tended to be satisfied overall; when it was not they were not. In general, any practice element, whether internal or external to the practice, that detracted from that sense of delivering thorough quality care was a dissatisfier, even in the presence of other satisfying practice elements. Many of the negative practice elements had one thing in common; they reduced the available time for physicians to interact with their patients. Some of these practice elements included: poor EHR usability, loss of practice autonomy and control, problems with work quantity and pace, and work content vs. staff work content and other documentation burdens.</p>
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Poor EHR usability</title>
+               <p>Since about 2009, the use of EHRs by American physicians has dramatically increased, both in the physicians’ offices and in the hospital setting (<xref ref-type="bibr" rid="M2013">Mitka, 2013</xref>). This change was accompanied by great expectations for improvements in quality, patient experience and efficiencies in care. In some ways these expectations have been met. Health records are more available than paper charts were and are more legible. The inclusion of practice “prompts” and preventive services reminders to physicians have likely improved care, and the digitization of patient information has made possible a level of systematic evaluation of processes of care and patient outcomes that was not possible before. Yet efficiency of practice for most specialties has not improved, rather it has deteriorated. Many physicians interviewed in the study reported that their EHRs were cumbersome to use and increased documentation requirements up to 1-2 hours per day. This experience was general and unrelated to any specific EHR system or vendor. The net effect on physicians was a “squeeze” on the time available to talk with and examine patients, leading to an increase in practice dissatisfaction, often expressed vociferously. Adding to surveyed physicians’ frustration was their understanding that, in general, EHRs do produce better quality care, and so “there is no going back to paper records”.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Loss of practice autonomy and control</title>
+               <p>Physicians’ sense that they could control or at least substantively influence the environment within which they practiced correlated with higher practice satisfaction. In some cases this loss of control was objective, for example an inability to influence which support staff members are assigned to which physician, and therefor the quality of staff support in helping manage patient care interactions. But in many cases, this sense of loss of control was more subjective, relating to whether or not a physician felt like an “owner” of the practice rather than just an employee. (This did not necessarily imply actual financial ownership). Physicians involved in at least some aspect of practice management were less likely to manifest this sense of loss of control.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Problems with work quantity and pace</title>
+               <p>As noted above, the age and illness burden of patients has been increasing, contributing to the complexity of the average physician office visit. This pressure affects nearly all physicians, but especially primary care physicians caring for adult patients. Added to the time pressure generated by patient complexity, many physicians feel under financial pressure because of declining payments. For many practices, whether small or large, physician owned or not, these pressures have tended to increase the number of patients that physicians need to see in a workday, either to cover increasing practice expenses in fee-for-service practices or to “cover” salaries paid by group practices or hospitals. This increase in patient workflow has been unaccompanied in most practices by a concomitant increase in knowledge about how to improve practice efficiency and productivity.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Work content</title>
+               <p>Physicians felt most satisfied when their daily activities with patients most closely matched their knowledge and skill level, and did not fall significantly below that level. Physicians often referred to this as “practicing up to the level of their license”. If physicians felt that they are “wasting time” doing work that could be done as well by support staff members they tend to feel less satisfied with their work experience. One factor contributing to this in some institution-based practices is the tendency for internal compliance officers and risk managers to try to reduce potential institutional liability by requiring that EHR documentation tasks that could be performed by support staff instead be performed by the physician. In some settings public payers and regulators also create such rules.</p>
+               <p>But these requirements can be unjustified, and add again to the complexity and length of the physician workday. In addition to EHR-related documentation burdens, physicians have experienced a general increase in documentation requirements from payers, both public and private. These include documentation to justify diagnostic tests and therapeutic procedures, documentation of clinical processes connected to financial rewards and penalties, regulatory requirements from state licensing boards, and recently enacted “maintenance of certification” requirements from many specialty boards. Physicians reported that the cumulative effect of these requirements detracts from the time available for patient care, sometimes calling this “death by a thousand paper cuts.”</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Lack of practice collegiality and good leadership</title>
+               <p>Many of the pressures on physicians described above have led physicians to create or join larger practices to improve economies of scale and shared practice support services. One might think this consolidation would lead to closer working relationships and more collegiality among physicians. This seems not to be the case. Many physicians reported that time pressures have isolated them from each other. In addition, the emergence of “hospitalists,” physicians caring for hospitalized patients <italic>in situ</italic>, has reduced the clinical and social connections among physicians in the hospital setting. The emergence of larger practices has also created the need for physician leaders of those practices. This process has not always gone smoothly, since few physicians are trained to manage complex social environments and the principle of physician autonomy does not incline some physicians to be led by anyone, even another physician.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Physician Income</title>
+               <p>One somewhat surprising finding of the research, given the often-vocal concerns about physician income referred to above was the lack of a strong correlation between overall satisfaction or dissatisfaction with practice and actual income. The study divided physician income into five quintiles. In only the top and bottom quintiles were satisfaction (top quintile) and dissatisfaction (bottom quintile) statistically correlated with income level.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+         </sec>
+         <!-- sec lvl 2 end -->
+         <!-- sec lvl 2 begin -->
+         <sec>
+            <title>What Can Be Done?</title>
+            <p>Not all the elements leading to physician dissatisfaction with modern practice can be changed. The practice of medicine has always been and still is a difficult and demanding career choice, requiring self-sacrifice and hard work for the benefit of one’s patients. In most of the developed world populations are aging, leading to many more patients with multiple complex conditions. And the explosion of medical knowledge and of the diagnostic and therapeutic choices available to physicians is a constant intellectual challenge.</p>
+            <p>Nevertheless, some of the causes of physician dissatisfaction are subject to mitigation. Based upon the RAND-AMA research and some educated guesses about future trends, such mitigation efforts will form a major portion of the AMA’s strategic focus for the next few years, including new research work. This work should create important learnings applicable not just to American physician practices but to those of physicians in other countries as well.</p>
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Improvements in practice efficiency</title>
+               <p>One of the observations during the RAND-AMA research visits to physician practices was the rareness of evidence-based efforts to reduce the impact of workflow and documentation requirements weighing on physicians by recapturing physician-patient interaction time through systematic work-flow process improvement. Such approaches are not unknown, having been well documented by organizations such as the Virginia Mason Clinic in Seattle, Washington<sup> </sup>(<xref ref-type="bibr" rid="B2007">Bush, 2007</xref>), and the ThedaCare Health System in Minnesota<sup> </sup>(<xref ref-type="bibr" rid="TMS2013">Toussaint, Milstein, &amp; Shortell, 2013</xref>). In addition, Drs. Christine and Thomas Sinsky and others have described such successful efforts in smaller physician practices (<xref ref-type="bibr" rid="S    2013">Sinsky et al., 2013</xref>).</p>
+               <label_fig>Figure 2</label_fig>
+               <caption_fig>
+                  <italic>Physician practice support tools</italic>
+               </caption_fig>
+               <list list-type="bullet">
+                  <list-item>
+                     <p style="">Pre-visit planning</p>
+                  </list-item>
+                  <list-item>
+                     <p style="">Pre-visit laboratory tests</p>
+                  </list-item>
+                  <list-item>
+                     <p style="">Expanded use of office staff</p>
+                     <list list-type="bullet">
+                        <list-item>
+                           <p style="">Establish teams with other care givers</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">Expanded rooming function by MAs</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">Order entry</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">Panel management-clinical</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">responsibility</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">Scribing</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">RN filtering of in-box</p>
+                        </list-item>
+                     </list>
+                  </list-item>
+                  <list-item>
+                     <p style="">Systematic prescriptions</p>
+                  </list-item>
+                  <list-item>
+                     <p style="">EHR improvements</p>
+                  </list-item>
+               </list>
+               <list list-type="bullet">
+                  <list-item>
+                     <list list-type="bullet">
+                        <list-item>
+                           <p style="">Improve usability of GUI</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">Team-shared simultaneous access</p>
+                        </list-item>
+                        <list-item>
+                           <p style="">Allow staff input of data elements</p>
+                        </list-item>
+                     </list>
+                  </list-item>
+                  <list-item>
+                     <p style="">Lean process improvement techniques–101</p>
+                  </list-item>
+               </list>
+               <p>Based upon the work of the Drs. Sinsky (<xref ref-type="bibr" rid="S    2013">Sinsky et al., 2013</xref>) and others the AMA is developing a series of specific process improvement modules that can be implemented in physician practices of different specialties and practice sizes. Figure 2 lists the modules under development. It is not the purpose of this paper to describe all these modules, but one example is systematic improvement in the methods employed to refill chronic medications for stable patients. By one estimate<sup> </sup>(<xref ref-type="bibr" rid="SS2012">Sinsky &amp; Simnsky, 2012</xref>), the process of refilling these prescriptions requires about 200 hours of work per adult primary care physician per year, or 4-5 hours per week. This involves both physician and office staff time; time that could be better used in direct patient care activities. The AMA has developed an education module to show physicians how to eliminate this unnecessary work<sup>
+                     <xref ref-type="fn" rid="ftn2">2</xref>
+                  </sup>.</p>
+               <p>Not every process improvement module listed in Figure 2 will be applicable to every physician practice, but at least several will be—and early field experience indicates that some efficiency improvements are quite feasible for nearly all practices, thus freeing up time for more satisfying physician-patient interactions.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Improvements in EHR usability</title>
+               <p>As described above, EHR systems broadly deployed in the U.S. in recent years have failed to achieve broad approval among American physicians, because they often reduce workflow efficiency in day-to-day practice. To deal with this problem the AMA convened a panel of leading physician informaticists from across the country to delineate the functional and technical flaws in current commercially available EHRs. Working with the leading EHR vendors and government regulators where possible, the AMA has created a detailed template for the functionally ideal “physician friendly” EHR; one which can improve, or at least not impede practice efficiency, as well as improve patient care quality. Achieving this goal will require that EHR vendors focus more resources on adapting their systems to physician practice needs<sup>
+                     <xref ref-type="fn" rid="ftn3">3</xref>
+                  </sup>.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>Physician-Hospital relationship</title>
+               <p>In the U.S., as in many other countries, most physicians work at least part of their professional life within the walls of a hospital. In fact, the U.S. hospital used to be colloquially known as “the physicians’ workshop.” The relationship was fairly simple. Physicians owned and worked in their private offices, and admitted and cared for their patients when the patients were in the hospital. A lay board of directors governed the hospital and employed a hospital administrator, who ran the operations of the facility. The physicians were very loosely organized into the “organized medical staff,” which met periodically to select an elected leader for the year, and had purview over credentialing physicians for the medical staff and some involvement in quality oversight.</p>
+               <p>This traditional model of physician-hospital relationship is currently changing for several reasons. First, because many more procedures are being performed in non-hospital settings, and because of the evolution of the “hospitalist” specialty, many physicians spend much less time within hospitals, as mentioned earlier. Second, as noted above, hospitals have begun to directly employ physicians in many specialties and at an increasing rate, primarily to boost revenue. Lastly, many hospitals are leading the creation of Accountable Care Organizations, which often involves developing new, more complex business relationships with non-employed physicians. For each of these reasons the traditional organized medical staff model has declined in relevance to the future relationship between physicians and hospitals (<xref ref-type="bibr" rid="C2008">Casalino, 2008</xref>), but no new common model has yet to emerge. This is of concern. It is conceivable that without a new model physicians could be relegated to the role of disempowered suppliers of services to hospitals, suffering a loss of legitimate professional autonomy in the process, and negatively affecting physician satisfaction and patient care in the long run. Work was urgently needed in this area to avoid such an outcome.</p>
+               <p>To that end the AMA and the American Hospital Association (AHA), not always allies, have combined to better define the issues at stake and work toward that new model. In October of 2013 AMA, AHA and the health policy journal <italic>Health Affairs </italic>convened a meeting in Washington DC of health policy leaders and health industry leaders. The purpose was to highlight and discuss the ways that ten leading American health care systems are managing this issue. These systems included the Geisinger Health System in Pennsylvania, Kaiser Permanente in California and the Advocate Health Care System in Illinois, among others<sup>
+                     <xref ref-type="fn" rid="ftn4">4</xref>
+                  </sup>.</p>
+               <p>Subsequent to the conference a senior level work team from AMA and AHA has convened in an effort to construct and promulgate a set of principles leading to a new model of physician hospital integrated leadership. These principles include, among others: the need for physicians to organize themselves sufficiently to collectively manage care quality and cost; the need for physician leadership and management training, and; the need for increased physician involvement in the management of hospitals and health systems<sup>
+                     <xref ref-type="fn" rid="ftn5">5</xref>
+                  </sup>.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+            <!-- sec lvl 3 begin -->
+            <sec>
+               <title>New Physician Payment Models</title>
+               <p>The traditional form of payment to physicians has been fee-for-service reimbursement for care rendered. Although many large medical groups and increasingly hospitals are paying physicians by salary, still fully half of American physicians in non-solo practice report that their at least some of their revenue comes from fee-for-service reimbursement<sup> </sup>(<xref ref-type="bibr" rid="K2014">Kane, 2014</xref>). But this is changing. Spurred in part by the ACA, both public and private payers are beginning to experiment with new payment methods that involve rewards or penalties for excessive costs, incentives to improve quality, and ways to involve physicians in sharing insurance-like “risk” for the total cost of health care rendered to a population (earlier versions were called capitation). The Medicare program has developed several versions of “shared savings” payment models in association with ACO creation<sup> </sup>(<xref ref-type="bibr" rid="B2011">Berwick, 2011</xref>). In addition many large health plans are working with physicians and physician groups to find new ways of paying physicians beyond traditional fee-for-service payments.</p>
+               <p>Physicians themselves are starting new practice financial models, especially “subscription” payment models, wherein the patient pays the physician an annual or monthly fee, plus fee-for-service payments, in return for longer office visits, improved after-hours care and more personalized services. The financial upper end of this model is commonly called “concierge medicine.” The long-term effect of these models on patient costs, physician practice satisfaction and other values such as social equity is yet to be determined.</p>
+               <p>The sum of all these payment changes and choices for physician practices to potentially pursue is creating anxiety among many physicians about future practice sustainability, leading some physicians to give up practice and retire early or pursue other lines of work, rather than change the way they are paid.</p>
+               <p>To better understand the likelihood of eventual success or failure of new physician payment models AMA has again engaged the RAND Corporation to jointly conduct field research in physician practices employing such models. The results should be available in published form by the spring of 2015.</p>
+            </sec>
+            <!-- sec lvl 3 end -->
+         </sec>
+         <!-- sec lvl 2 end -->
+         <!-- sec lvl 2 begin -->
+         <sec>
+            <title>Conclusion</title>
+            <p>This paper has described the reasons for the decline of satisfaction with medical practice currently taking place among American physicians. The reasons for this decline are many, including: concerns about inadequate time to properly care for patients, financial stress and payment complexity, loss of a sense of necessary autonomy, loss of collegiality with other physicians, the complexity of patients, the intellectual demands of keeping up with the changes in medical science, regulatory burdens, documentation issues stemming from too-difficult-to-use EHRs, concerns about relationships with hospitals, and changes in expectations among younger physicians about work-life balance.</p>
+            <p>Research sponsored by the AMA and conducted with the RAND Corporation has shed new light on these drivers of dissatisfaction, including quantitative correlations between practice elements and satisfaction or dissatisfaction.</p>
+            <p>Some of these drivers of dissatisfaction are probably immutable at present or inherent in the stress of being a physician. But others can be changed; some by the physicians themselves through reorganization of how they practice; and some through collective physician actions to change those external force on practices that are amenable to change. The AMA, working with other health care industry partners in the U.S. will be producing a steady flow of new information from this work over the next several years. Much of this information will likely have immediate relevance for physicians in other countries and for those seeking to assist them in improving their lives and those of the patients they care for.</p>
+         </sec>
+         <!-- sec lvl 2 end -->
+         <!-- sec lvl 2 begin -->
+         <sec>
+            <title>References</title>
+            <p>Aasland, O. G., Rosta, J., &amp; Nylenna, M. (<xref ref-type="bibr" rid="    2010">2010</xref>). Health care reforms and job satisfaction among doctors in Norway. <italic>Scandinavian journal of public health</italic>, <italic>8</italic>, 253-258. <uri>http://dx.doi.org/10.1177/1403494810364559</uri>
+            </p>
+            <p>Berwick, D. M. (<xref ref-type="bibr" rid="    2011">2011</xref>). Making good on ACOs' promise—the final rule for the Medicare shared savings program. <italic>New England Journal of Medicine</italic>, <italic>365</italic>(19), 1753-1756. <uri>http://dx.doi.org/10.1056/NEJMp1111671</uri>
+            </p>
+            <p>Boukus, E., Cassil, A., &amp; O'Malley, A. S. (<xref ref-type="bibr" rid="    2009">2009</xref>). A snapshot of US physicians: key findings from the 2008 Health Tracking Physician Survey. <italic>Data bulletin (Center for Studying Health System Change)</italic>, (35), 1-11.</p>
+            <p>Bush, R. W. (<xref ref-type="bibr" rid="    2007">2007</xref>). Reducing waste in US health care systems. <italic>Journal of the American Medical Association</italic>, <italic>297</italic>(8), 871-874. <uri>http://dx.doi.org/10.1001/jama.297.8.871</uri>
+            </p>
+            <p>Casalino, L. P., November, E. A., Berenson, R. A., &amp; Pham, H. H. (<xref ref-type="bibr" rid="    2008">2008</xref>). Hospital-physician relations: two tracks and the decline of the voluntary medical staff model. <italic>Health Affairs</italic>, <italic>27</italic>(5), 1305-1314.</p>
             <p>
-               <table-wrap id="tbl2">
-                  <label>____</label>
-                  <!-- optional label and caption -->
-                  <caption>
-                     <p>____</p>
-                  </caption>
-                  <table>
-                     <tbody>
-                        <tr>
-                           <td>International Organization for Standardization (<xref ref-type="bibr" rid="    2005">2005</xref>)</td>
-                           <td>The degree to which a set of inherent characteristics fulfills requirements (<xref ref-type="bibr" rid="ISO2005">ISO, 2005</xref>)</td>
-                        </tr>
-                        <tr>
-                           <td>Donabedian (<xref ref-type="bibr" rid="    1980">1980</xref>)</td>
-                           <td>Quality of care is the kind of care that is expected to maximize an inclusive measure of patient welfare after one has taken into account the balance of expected gains and losses that attend the process of care in all its parts (<xref ref-type="bibr" rid="D1980">Donabedian, 1980</xref>).</td>
-                        </tr>
-                        <tr>
-                           <td>IOM (<xref ref-type="bibr" rid="    1990">1990</xref>)</td>
-                           <td>Quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes, and are consistent with current professional knowledge (<xref ref-type="bibr" rid="LS1990">Lohr &amp; Schroeder, 1990</xref>).</td>
-                        </tr>
-                        <tr>
-                           <td>Department of Health (UK) (<xref ref-type="bibr" rid="    1997">1997</xref>)</td>
-                           <td>Quality of care is:doing the right things (what);to the right people (to whom);at the right time (when); anddoing things right the first time.</td>
-                        </tr>
-                        <tr>
-                           <td>Council of Europe (<xref ref-type="bibr" rid="    1997">1997</xref>)</td>
-                           <td>Quality of care is the degree to which the treatment dispensed increases the patient’s chances of achieving the desired results, and diminishes the chances of undesirable results with regard to the current state of knowledge ("The development and implementation of quality improvement systems (QIS) in health care: recom-mendation No. R (97) 17 and explanatory memoran-dum," 1998).</td>
-                        </tr>
-                        <tr>
-                           <td>WHO (<xref ref-type="bibr" rid="    2000">2000</xref>)</td>
-                           <td>Quality of care is the level of attainment of health systems’ intrinsic goals for health improvement and responsiveness to legitimate expectations of the population (<xref ref-type="bibr" rid="WHO2000">WHO, 2000</xref>).</td>
-                        </tr>
-                     </tbody>
-                  </table>
-               </table-wrap>In general, the ISO definition of quality implies a rather relative view of quality by relating it directly to requirements. This opens up the possibility of varying quality perceptions between individuals and between different stakeholders confronted with the same services. The IOM definition relates quality to the goals of the health-care system, as well as to the current level of professional knowledge.</p>
-            <p>One possible use of the ISO definition is to ask patients what constitutes the most important outcome to them and apply this as the requirement part of the quality definition. A special Euro Barometer population survey on safety and the quality of health care in all European countries conducted in 2009 asked respondents to prioritize different quality criteria (<xref ref-type="bibr" rid="EC2010">European Commission, 2010</xref>). The results of the survey showed that effective treatment and a competent medical staff were considered the most important quality criteria for Europe as a whole. Furthermore, a fair agreement was found on at least the two most important quality criteria across the European countries, but also a lot of between-country variation and some variation between different socio-demographic groups. A Norwegian study showed that it is possible to identify ten core patient experience items across nine patient groups in specialized health care based on patient priorities, including items on safety, effectiveness and responsiveness. This study also showed that certain aspects varied between the groups (<xref ref-type="bibr" rid="SBOIB2011">Sjetne, Bjertnaes, Olsen, Iversen, &amp; Bukholm, 2011</xref>). Consequently, the European and Norwegian studies show that there is no universal definition of quality criteria, even from the patient or population perspective. Other stakeholders with other perspectives, such as managers and professionals, may have other expectations and requirements (<xref ref-type="bibr" rid="JWOG2002">Jung, Wensing, Olesen, &amp; Grol, 2002</xref>; <xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>).</p>
-            <p>A study comparing physician and patient perceptions of quality found both similarities and differences regarding the quality concept in ambulatory care (<xref ref-type="bibr" rid="L    2012">Levine et al., 2012</xref>), as both groups highly valued clinical skills, rapport and health-related communication, but varied in sub-categories within these topics and on other major topics. The bottom line is that quality is a relative concept according to the ISO definition, and that health-care service quality cannot be judged without linking it to the requirements of patients or other stakeholders.</p>
-            <p>Deciding on a more specific health-care definition of quality, the patient perspective has an important but more limited role. The patient perspective is included in most conceptual health-care models of quality as a separate quality dimension, and patients are also included in the evaluation of quality. For example, through concepts like patient satisfaction and experiences of care, the IOM approach includes the patient perspective in the term “outcomes,” which also has patient centeredness as one of six dimensions of quality (<xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="L1990b">Lohr, 1990b</xref>). The patient centeredness component is usually measured by systematic surveys of patient-reported experiences, at least in large-scale settings.</p>
-         </sec>
-         <!-- sec lvl 2 end -->
-         <!-- sec lvl 2 begin -->
-         <sec>
-            <title>The quality triade</title>
-            <p>In the mid-1960s, Avedis Donabedian (1919 – 2000) raised the question of how the quality of health care can best be assessed (<xref ref-type="bibr" rid="D2005">Donabedian, 2005</xref>), and introduced what has later become known as the quality triade, namely, structure, process and outcome:</p>
-            <list list-type="bullet">
-               <list-item>
-                  <p>Common indicators of <italic>structure</italic> are economy, buildings, number of hospital beds, population to be served;</p>
-               </list-item>
-               <list-item>
-                  <p>
-                     <italic>Process</italic> indicators consist of organizational processes (how the organization is working) and clinical processes (interaction with the patient). Examples may be adherence to guidelines, checklists and a communication with patients.</p>
-               </list-item>
-               <list-item>
-                  <p>
-                     <italic>Outcome</italic> indicators of quality for the patient may be survival, level of functioning, quality of life, patient satisfaction and experiences. Output measures of quality for the organization may be the number of patient-treated and economic measures.</p>
-               </list-item>
-            </list>
-            <p>Donabedian wrote that the structure-process-outcome model was particularly relevant for clinical practice, and that it might be less relevant for other settings. There is an ongoing debate on the pros and cons of structure, process and outcome measures, but Donabedian himself pointed to the need for indicators on all aspects. He also claimed that structure, process and outcome indicators together give information that could be used to infer something about quality, but they are not quality per se. Understanding the purpose of the indicator is important when using it to assess quality (<xref ref-type="bibr" rid="WHO2006">WHO, 2006</xref>).</p>
-            <p>The patient experiences are an important component of health-care quality, and as such, are important quality indicators. In accordance with Donabedian’s approach to quality measurement, and based on their experiences with health services, patients can evaluate the structures, processes and outcomes of care. There is a huge amount of literature on the patient evaluation of structures, processes and outcomes, including various concepts such as patient satisfaction, patient-reported experiences, patient-reported outcomes and health systems’ responsiveness. These concepts are partially overlapping but also complement each other, and as a whole constitute a broad approach for the evaluation of health services from the patient perspective. Obviously, other perspectives and stakeholders have a role in the definition and evaluation of health-care quality, but the key importance of the patient perspective has strong support in policy documents and research articles (<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>; <xref ref-type="bibr" rid="GELDD1993">Gerteis, Edgman-Levitan, Daley, &amp; Delbanco, 1993</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>).</p>
-         </sec>
-         <!-- sec lvl 2 end -->
-         <!-- sec lvl 2 begin -->
-         <sec>
-            <title>Dimensions of health care quality</title>
-            <p>A variety of definitions for health-care quality have been proposed (<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>; <xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>; <xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>; <xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>; <xref ref-type="bibr" rid="S2009">Smith, 2009</xref>) (see Table page 4), and most of them relate health-care services to health outcomes. A frequently referenced definition from the Institute of Medicine states that, “quality of care is the degree to which health services for individuals and populations increase the likelihood of desired health outcomes and are consistent with current professional knowledge” (<xref ref-type="bibr" rid="L1990a">Lohr, 1990a</xref>). The IOM definition is health-care-specific and was based on a review of approximately 100 health-care quality definitions (<xref ref-type="bibr" rid="L1990b">Lohr, 1990b</xref>), relating quality to the final goals of the health-care system. Moreover, health outcomes are not specified in detail, opening up the possibility of different perspectives on what are the most important outcomes (<xref ref-type="bibr" rid="LQ    2008">Legido-Quigley et al., 2008</xref>). The definition includes both the patient and population perspective, thus also including the health promotion part of the health-care system.</p>
-            <p>However, some common features exist. These can often be traced back to the work of Avedis Donabedian (1919-2000), creator of The Donabedian Model of Care, and who is seen as the founder of the study of quality in health care (<xref ref-type="bibr" rid="D1988">Donabedian, 1988</xref>, <xref ref-type="bibr" rid="D2005">2005</xref>; <xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>). Donabedian conceptualized quality as the product of the science and technology of health care and the application of that science and technology, thereby resulting in the following dimensions (<xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>):</p>
-            <list list-type="bullet">
-               <list-item>
-                  <p>Efficacy, the ability of the science and technology of health care to bring about improvements in health when used under the most favorable circumstances;</p>
-               </list-item>
-               <list-item>
-                  <p>Effectiveness, the degree to which attainable improvements in health are in fact attained;</p>
-               </list-item>
-               <list-item>
-                  <p>Efficiency, the ability to lower the cost of care without diminishing attainable improvements in health;</p>
-               </list-item>
-               <list-item>
-                  <p>Optimality, the balancing of improvements in health against the costs of such improvements;</p>
-               </list-item>
-               <list-item>
-                  <p>Acceptability, conformity to the wishes, desires and expectations of patients and their families;</p>
-               </list-item>
-               <list-item>
-                  <p>Legitimacy, conformity to social preferences as expressed in ethical principles, values, norms, mores, laws and regulations;</p>
-               </list-item>
-               <list-item>
-                  <p>Equity, conformity to a principle that determines what is just and fair in the distribution of health care and its benefits among members of the population.</p>
-               </list-item>
-            </list>
-            <p>One early and influential work within this field is attributed to Marc Lalonde, a Canadian Minister of National Health and Welfare, responsible for the report on the health of the Canadian population in 1974 (<xref ref-type="bibr" rid="LDNHW1974">Lalonde &amp; Department of National Health and Welfare, 1974</xref>). The report made two major contributions to the understanding of the field of health care. The first one may seem obvious today: that population health is not only attributable to health care, environmental and social factors are major determinants of health. This insight was an important contribution to the emphasis on preventive and primary health care as stated in the Alma-Ata declaration of the WHO (<xref ref-type="bibr" rid="IEWC2006">Irvine, Elliott, Wallace, &amp; Crombie, 2006</xref>). The second contribution was identifying eight components of the health-care system contributing to the quality of health care: acceptability, accessibility, appropriateness, competence, continuity, effectiveness, efficiency and safety. Especially interesting are the terms competency, continuity and safety. Ensuring individual competency has been at the focus for the medical professions since the early days of quality assurance, but the emphasis on safety and continuity of care were early recognition of important quality characteristics in an increasingly more complex health care sector.</p>
-            <p>Nearly 30 years after the Canadian report, The Institute of Medicine (IOM), an independent, non-profit US-based organization, proposed six components that define quality in health care based on a systematic review of the dimensions of quality improvement (<xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>). According to this proposal, high-quality health care should be: safe, effective, patient centered, timely, efficient and equitable.</p>
-            <p>Ensuring competency may be interpreted as a part of efficacy, the ability of science and technology to bring about improvements in health when used under the most favorable circumstances, having competent personnel may be seen as an important prerequisite to achieve improvement. It may be tempting to say that these three classical mapping of quality characteristics as “same, same, but different”. They differ in terms of time of origin, from the beginning of the 70s, to mid- eighties and late nineties, they may differ in perspective, from the Health Minsters policy perspective, to Donabedians’ clinically-oriented perspective, and the later IOM can be interpreted as a an attempt to bridge both policy, clinical and patient perspective. There are similarities and there are differences, and the recognition of this lead to yet another systematic review of central health-care performance frameworks. A quality indicator project established by the WHO, OECD and the EU-commission selected effectiveness, safety and patient centeredness as the primary dimensions for comparing quality (<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>). Other, Norwegian approaches, have included these three components, and supplemented them with access to health services, equity, efficiency and an integration of care (<xref ref-type="bibr" rid="R    2010">Rygh et al., 2010</xref>).</p>
-            <p>Donabedian underscored that the different dimensions of quality depend on the level of assessment, ranging from the care provided by practitioners and other providers to care received at the community level (<xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>). For instance, core dimensions for the former are effectiveness, efficiency and the patient-practitioner relationship, while the latter has relatively more focus on legitimacy and equity. Donabedian argued that there is no general answer to the relative priority of different dimensions or what dimensions to include or exclude, but rather that such questions depend on the measurement context. Therefore, according to Donabedian, the measurement of quality depends on a definition of quality, an operationalization of quality dimensions and a selection of dimensions according to the relevant measurement level.</p>
-            <p style="No_20_Spacing">Having decided on a definition of quality, the next step is to operationalize the concept as a basis for measurement and improvement. As for the definition of quality, a range of different approaches exists regarding operationalization. As a result, the dimensions of quality are coming closer to a common approach, but lack a universal standard and should be explicitly chosen and argued for in the context of evaluation. The context could be the health-care system or lower levels of health care, for example a single health-care provider, which affects the priority of and selection of dimensions.</p>
-         </sec>
-         <!-- sec lvl 2 end -->
-      </sec>
-      <!-- sec lvl 1 end -->
-      <!-- sec lvl 1 begin -->
-      <sec>
-         <title>Measuring quality of care</title>
-         <p>Assessing the quality of care may have different purposes, and can be applied on different levels of the health-care system (<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>). Because the complex concept of quality of care is hard to define and impossible to measure directly, proxy variables and indirect indicators must serve the need.</p>
-         <p>Quality indicators are limited components of the quality of care, and serve as tools to measure what is not measurable in—and for itself: the overall quality of health care. Quality indicators may either reflect what constitutes quality or reflect the quality of care provided. Aspects that constitute quality are manifold, and incorporate the structures and the processes involved in the delivery of health care. They are the independent variables that cause (whether directly or indirectly) the quality of care. The outcome or output variables are also manifold, and are believed to be reflections of good quality care, and they are caused by care. In the OECD quality indicators project initiated in 2001, they identified three main criteria for selecting the indicators: the importance of what is being measured, the scientific soundness of the measure and the feasibility of obtaining data (<xref ref-type="bibr" rid="KH2006">Kelly &amp; Hurst, 2006</xref>).</p>
-         <p>The scientific soundness of quality indicators are dependent on both the validity (is the indicator actually an indicator of the particular aspect of quality, and do you measure what you want to measure) and the reliability (can you trust how it has been measured, and does the indicator capture the relevant information in all cases without any false cases).</p>
-         <p>As the number of health-care indicators continues to rise, the question of composite measure is on the agenda (<xref ref-type="bibr" rid="KH2006">Kelly &amp; Hurst, 2006</xref>). Is it possible, desirable or both to construct overall measures of quality? A composite measure is a single measure that provides an overview of performance and quality. It is easier to communicate than the many single quality indicators, and points to the broader concept of quality, rather than to sub-dimensions and aspects. A comparison of composite measures between organizations can target organizations in need of special quality improvement. At the same time, it is an imminent feature of a quantitative analysis; the higher level of aggregation, the less information it provides. In practice, it means that serious flaws or shortcomings in health-care delivery may go under the radar of a composite measure, and that composite measures are not good at identifying sources of failures, and therefore of little use to actually improve the performance of the organization. The publication of composite measures is recommended only as long as it is followed with an explanation of the choice of indicators that are included, how they are transformed into the composite measure and the reason for the weighting structure that is used (<xref ref-type="bibr" rid="GJ2009">Goodard &amp; Jacobs, 2009</xref>). It has clearly been demonstrated that different methods of computing composite quality scores can lead to different conclusions being drawn (<xref ref-type="bibr" rid="R    2007">Reeves et al., 2007</xref>). The OECD quality indicator project chose to exclude composite measures for international comparison (<xref ref-type="bibr" rid="KH2006">Kelly &amp; Hurst, 2006</xref>).</p>
-         <p>The purpose of quality indicators or performance measures are twofold: to promote accountability and to improve the performance of the health-care system (<xref ref-type="bibr" rid="S2009">Smith, 2009</xref>). Assessing the quality of care may have different purposes for various stakeholders, and the purpose will influence what you are looking for. Policymakers need a confirmation from the health-care system: the citizen receive a good quality health care (outcome measures), and the money is well spent (structure and process measures). The health-care providers (health professionals and institutions) are interested in assessing the quality of care they provide and can influence (process measures), and the patients need to trust that the health-care system is providing the help they need when they need it, and that the quality of care is as good as possible (structure, process and outcome measures).</p>
-         <p>Measurement is a necessary condition if the health-care system is to be held accountable for its action and use of money. Policymakers who provide the funding of the health services need a tool to ensure that the money is well spent and that the quality of care is good, with the purpose of the indicators being accountability, in addition to ensuring public legitimacy and control. The providers of health care (institutions and organizations) need information to guide strategic decision making, and quality indicators may identify areas of care that need extra attention or resources. With regard to clinic quality, indicators are useful tools to guide quality improvement processes. As a basis for hospital choice or as a tool for trust building, indicators may also be used to communicate with the customers/patient. The transparency of the quality of care is important from the patient perspective, and will influence the expectation they have towards the health-care system.</p>
-         <p>Patient experiences is an important outcome variable in itself, and is also associated with patient safety and clinical effectiveness (<xref ref-type="bibr" rid="DLB2013">Doyle, Lennox, &amp; Bell, 2013</xref>). The evaluation of health-care quality should include the patient perspective, and patients can be included in evaluation of all core components of quality in the OECD quality indicator framework, including patient experiences, effectiveness and patient safety. International surveys of patient experiences with health services show that patients report several improvement areas (<xref ref-type="bibr" rid="S    2011">Schoen et al., 2011</xref>), thereby indicating the need for quality improvement. Examples of relevant resources include the CAHPS Improvement Guide (<xref ref-type="bibr" rid="    2014">2014</xref>) literature on the effectiveness of patient-centered approaches to health care, and clinical guidelines and standards on the improvement of patient experiences (<xref ref-type="bibr" rid="NICE2012">NICE, 2012</xref>).</p>
-         <p>In Norway, the Directorate of Health is responsible for a national quality indicator system for both primary and secondary care (<xref ref-type="bibr" rid="H2013">Helsedirektoratet, 2013</xref>). The purposes of the national quality indicator system are to:</p>
-         <list list-type="bullet">
-            <list-item>
-               <p>Provide a basis and incentive for health providers to continuously improve the quality and safety of their services;</p>
-            </list-item>
-            <list-item>
-               <p>Provide a basis for an individual choice of hospital;</p>
-            </list-item>
-            <list-item>
-               <p>A leadership tool for managers and owners;</p>
-            </list-item>
-            <list-item>
-               <p>Serve as a tool for policymakers and politicians in their evaluation and prioritizing of investments in health;</p>
-            </list-item>
-            <list-item>
-               <p>Inform the public/patient (transparency).</p>
-            </list-item>
-         </list>
-      </sec>
-      <!-- sec lvl 1 end -->
-      <!-- sec lvl 1 begin -->
-      <sec>
-         <title>Improving quality of care</title>
-         <p>Even though selection mechanisms related to the public reporting of performance measures may cause improvements, the usual and most promising path from reports to improvement is some type of organizational change (<xref ref-type="bibr" rid="CCD2014">Contandriopoulos, Champagne, &amp; Denis, 2014</xref>). Since the publication of Crossing the quality chasm in 2001 (<xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>), the improvement science regarding quality and patient safety has been increasing in volume, and there are now several scientific journals dedicated to quality and quality improvement (e.g. BMJ Quality and Safety, the International Journal of Quality in Health Care).</p>
-         <p>Over the past three decades, there has been a shift from just ensuring quality to working with continuous quality improvement. During the last 10-15 years, three main approaches to quality improvement work are visible:</p>
-         <list list-type="bullet">
-            <list-item>
-               <p>Systems for ensuring quality of the services (certification, systems of internal control, national quality indicators);</p>
-            </list-item>
-            <list-item>
-               <p>Clinically originated quality follow-up of one’s own practice, for example through professional clinical quality registries or clinical breakthrough learning groups;</p>
-            </list-item>
-            <list-item>
-               <p>Patient-oriented quality improvement through user experience surveys or involving patient groups or establishing patients’ committees.</p>
-            </list-item>
-         </list>
-         <p>For continuous quality improvement, various approaches need to be applied, and at different levels: the societal/political level, the organizational or institutional level, the clinical microsystems level (the interdisciplinary professional health-care team providing care to a particular group of patients) and at the individual patient level (<xref ref-type="bibr" rid="S2005">Sosial- og helsedirektoratet, 2005</xref>).</p>
-         <p>The modern approach to quality and patient safety implies “systems thinking,” meaning that when they occur, poor quality or errors are made by competent, caring people who do their best in a flawed system that does not block errors from leading to harm (<xref ref-type="bibr" rid="W2012">Wachter, 2012</xref>). But how about those physicians who for unknown reasons are not competent or responsible care providers (<xref ref-type="bibr" rid="BSGWS2013">Bismark, Spittal, Gurrin, Ward, &amp; Studdert, 2013</xref>; <xref ref-type="bibr" rid="L2003">Light, 2003</xref>)? How can our need for a no-blame culture and focus on systems thinking be reconciled with the need for accountability? And how do we draw the line between the individual physician’s responsibility for quality of the care that he or she provides and the responsibility of the system, that is, the management of the hospital or the department?</p>
-         <p>Over the years, the health-care system has become much more complex than previously where there was only one physician, for example responsibility for the entire ward. Subsequent to this, the individual responsibility was huge, and the individual freedom to practice according to his or her own standards was undisputed. With the more complex health-care systems, a shift of responsibility towards the hospitals, and thus the managers of the hospitals, has developed (<xref ref-type="bibr" rid="HBG2015">Hayes, Batalden, &amp; Goldmann, 2015</xref>). Management must make sure that there are guidelines and procedures to ensure a sound professional practice, and health-care professionals must act as an employee to a much higher degree and follow the rules of the system. This may be perceived as being in conflict with the professional’s need for autonomy and thus job satisfaction. Batalden has stated that everybody in health care has two jobs; doing their job well, meaning with continuous updating of clinical knowledge and skills, and contributing to continuously improving the system in which one works (<xref ref-type="bibr" rid="BGN2007">Batalden, Godfrey, &amp; Nelson, 2007</xref>). However, the necessary quality improvement skills have not been an integrated part of the basic medical curriculum in Norway, and health professionals may thus feel insecure and uncomfortable with the needed systems thinking approach. The next generations of medical professionals will hopefully embrace the quality improvement science along with the medical science, and thus be empowered to improve the complex system they now work in. That might in turn lead to higher degree of job autonomy, satisfaction and through this higher quality of their work.</p>
-         <p>As part of the patient safety, systems thinking, a just culture has been defined as a culture in which frontline operators and others are not punished for actions, omissions or decisions taken by them that are commensurate with their experience and training, but where gross negligence, willful violations and destructive acts are not tolerated (<xref ref-type="bibr" rid="W2012">Wachter, 2012</xref>). In order to bring about the best possible outcomes, this helps to build a culture that encourages coaching and honesty at all levels. It is not enough to be a knowledgeable and good physician or nurse. To be able to continue through the professional life to practice with high quality, some additional skills are needed, including the knowledge about the principles of quality improvement work, and how to promote a safe patient practice and an open patient safety culture, in which “no blame, no shame” is the leading principle. There is also a need to include knowledge about how to apply evidence-based medicine, as well as how to close the knowing-doing gap. A basic skill needed is to engage co-workers and leaders to join in on the quality improvement journey. The future health professional must be a team player and be a member of a team around the patient. A key question is whether the education of health-care professionals sufficiently includes these core competencies for the new obligations and the new professional roles. We also need role models to influence the newly educated in pursuing this proactive-, microsystem-oriented-, quality improvement- and patient safety-focused role.</p>
-         <p>It has not been rendered fair to focus on the individual physician’s contribution to the quality of care or the lack of quality of care, although there is now scientific evidence to support what everybody assumes, namely that the skills and quality of the performance of the physician are crucial for the outcome (<xref ref-type="bibr" rid="B    2013">Birkmeyer et al., 2013</xref>).</p>
-      </sec>
-      <!-- sec lvl 1 end -->
-      <!-- sec lvl 1 begin -->
-      <sec>
-         <title>What is special about quality in health care?</title>
-         <p>In principle, the basic aspects of quality apply to health care just like they do to other services. Health care is a diverse and complex system, and quality is seen as the combined product of a high number of separate attributes or features, both measurable and non-measurable. These can be classified and organized in several ways, such as dimensions (<xref ref-type="bibr" rid="A    2006">Arah et al., 2006</xref>; <xref ref-type="bibr" rid="IM2001">Institute of Medicine, 2001</xref>; <xref ref-type="bibr" rid="R    2010">Rygh et al., 2010</xref>; <xref ref-type="bibr" rid="S2005">Sosial- og helsedirektoratet, 2005</xref>).</p>
-         <p>Based on the relativity implicit in the relationship between outcome and requirements (<xref ref-type="bibr" rid="ISO2005">ISO, 2005</xref>), quality is a dynamic dimension that varies over time and space. The media’s coverage of medicine and health plays an important part in the formation of expectations to health care. Diseases that occur frequently in the media are considered to be more common and more serious than diseases of comparable objective severity that receive less media attention. Such subjective perceptions of risk are essential in what psychologists call anchoring, a psychological heuristic that influences the way people intuitively assess probabilities, and thus also affect their expectations (<xref ref-type="bibr" rid="K2011">Kahneman, 2011</xref>).</p>
-         <p>The difference between the hopes, wishes and expectations to health care on the one hand, and health care’s ability to fulfill these expectations in terms of preventing diseases, treating diseases and avoiding death and suffering on the other, can be called an expectation gap. An example of how such gaps are created is seen in the promotion of mass screening. Some people have come to believe that screening may prevent breast or cervical cancer, and not just detect it. Another challenge is the near automatic assumption that if a cancer arises soon after screening, it must have been missed through error (<xref ref-type="bibr" rid="W2000">Wilson, 2000</xref>).</p>
-         <p>Even though it is hard to identify and define the outcome of health care, it is even harder to identify and define the expectations. Because “outcomes” of health care (e.g. survival) over the years have increased due to more effective treatments, expectations may have increased even faster. Expectations, e.g. as to diagnostic accuracy and sophisticated treatments, vary according to the level of care, thereby adding to the relativity of quality assessment. The same relativity is probably also related to economic resources. Moreover, expectations to health care are higher in wealthy than in poor societies, hence demanding a higher outcome.</p>
-         <p>Like other services, assessing the quality of health care also includes elements of subjectivity, which adds to the relativity based on differences in expectations and demands. The more or less identical consultation with a physician might be perceived rather differently by two similar patients, partially due to different priorities of measurable indicators such as waiting time or out-of-pocket payment.</p>
-         <!-- sec lvl 2 begin -->
-         <sec>
-            <title>Concluding remarks</title>
-            <p>A systematic review of improvement frameworks in health, education and social services identified seven conceptual approaches based on the Institute of Medicine’s recommendations, 32 based on Kaplan and Norton’s balanced scorecard, and ten based on Donabedian’s structure-process-outcome approach (<xref ref-type="bibr" rid="K    2010">Klassen et al., 2010</xref>). The review identified 16 quality concepts applicable across many settings, sectors and levels of application, concepts being equivalent to what we have termed dimensions in this manuscript. Consequently, there is a need to further standardize the quality approach in local, national and international health-care quality and quality assessment work.</p>
-            <p>We argue that the standardization work should use a health-care-specific approach to quality, for the following reasons:</p>
-            <list list-type="bullet">
-               <list-item>
-                  <p>Health-care services are special, as health care differs from other commodities in many respects. Health-care services include a variety of elements from brief consultations to long-term treatment plans. Emotional factors related to illness and disease play an important role in decision making that frequently must be done under uncertain conditions. There is a large asymmetry between “providers” and “customers” in terms of knowledge and experience than in most other “markets” in society. A quality concept tailor suited for health care is therefore needed. Insight into the complex nature of quality, understanding the aspects, dimensions and perspectives involved and the shared responsibility between organizations and individuals for quality improvement, as well as access to relevant and robust quality indicators, are all prerequisites for developing a better health-care system.</p>
-               </list-item>
-               <list-item>
-                  <p>The conceptual approach should be acceptable by health-care workers since there have been several international standardizing efforts over the last few years (EU, OECD, Nordic Council of Ministers), but even these cross-national approaches vary. However, the conceptual models chosen in such projects indicate the importance of using health-care-specific quality approaches, not approaches from other public sectors or from the private sector. Regardless of the similarities or differences between health care and other services, a health-care-specific approach is probably more likely to receive legitimacy and acceptance from physicians and other health-care workers. This is of fundamental interest since physicians and other health-care workers are ultimately supposed to improve the quality of care.</p>
-               </list-item>
-            </list>
-            <p>The IOM and Donabedian approaches are quite similar and together provide a fruitful, coherent and health-care-specific approach to the quality of health care. We particularly emphasize the IOM’s definition and six dimensions (safe, effective, patient-centered, timely, efficient, equitable), and Donabedian’s point of varying dimensions depending on the health-care level being assessed and his structure-process-quality approach to assessing performance.</p>
-            <p>The more technical components of quality can be measured by a range of methods and indicators (<xref ref-type="bibr" rid="S2009">Smith, 2009</xref>) but also by the patient perspective through patient-reported outcome measures (<xref ref-type="bibr" rid="FDBJ1998">Fitzpatrick, Davey, Buxton, &amp; Jones, 1998</xref>) and patient-reported safety measures (<xref ref-type="bibr" rid="BSIL2013">Bjertnaes, Skudal, Iversen, &amp; Lindahl, 2013</xref>; <xref ref-type="bibr" rid="ME    2013">McEachan et al., 2013</xref>). However, as Donabedian has stressed, the collected information about structures, processes and outcomes are not attributes of quality, but can be used to infer whether quality is good or not (<xref ref-type="bibr" rid="DB2003">Donabedian &amp; Bashshur, 2003</xref>).</p>
-            <p>While quality evaluation have some elements of subjectivity and relativity, we stress that health care quality can be rather accurately defined, operationalized and measured. This can be achieved by combining the quality concept approach described above with state of the art quality measurement methods. The latter includes using more objective patient-reported experience instruments when including patients in quality evaluation, rather than subjective patient satisfaction questions, and the application of robust case-mix models to adjust for socio-demographic and other individual level variables. Furthermore, conjoint analysis can be applied to account for variation in attribute preferences, or alternatively completely patient defined instruments where patients themselves can define and prioritize attributes and then rate health care services on these.</p>
-            <p>Studies on the relationship between physicians’ working conditions and the quality of care should be based on an updated and comprehensive quality concept and scientifically robust quality indicators.</p>
+               <uri>http://dx.doi.org/10.1377/hlthaff.27.5.1305</uri>
+            </p>
+            <p>Casalino, L. P., Nicholson, S., Gans, D. N., Hammons, T., Morra, D., Karrison, T., &amp; Levinson, W. (<xref ref-type="bibr" rid="    2009">2009</xref>). What does it cost physician practices to interact with health insurance plans? <italic>Health Affairs</italic>, <italic>28</italic>(4), w533-w543. <uri>http://dx.doi.org/10.1377/hlthaff.28.4.w533</uri>
+            </p>
+            <p>Christopher, A. S., Smith, C. S., Tivis, R., &amp; Wilper, A. P. (<xref ref-type="bibr" rid="    2014">2014</xref>). Trends in United States Physician Work Hours and Career Satisfaction. <italic>The American Journal of Medicine</italic>, <italic>127</italic>(7), 674-680. <uri>http://dx.doi.org/10.1016/j.amjmed.2014.03.033</uri>
+            </p>
+            <p>Friedberg, M. W., Chen, P. G., Van Busum, K. R., Aunon, F., Pham, C., Caloyeras, J., … &amp; Tutty, M. (<xref ref-type="bibr" rid="    2013">2013</xref>). <italic>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</italic>. Rand Corporation.</p>
+            <p>Hsiao, W. C., Braun, P., Dunn, D., Becker, E. R., DeNicola, M., &amp; Ketcham, T. R. (<xref ref-type="bibr" rid="    1988">1988</xref>). Results and policy implications of the resource-based relative-value study. <italic>The New England journal of medicine</italic>, <italic>319</italic>(13), 881-888. <uri>http://dx.doi.org/10.1056/NEJM198809293191330</uri>
+            </p>
+            <p>Kane, C.K., Emmons, D.W. (<xref ref-type="bibr" rid="    2013">2013</xref>). Policy research perspectives: Private practice remains strong despite shifts toward hospital employment. <italic>AMA Practice Benchmark Survey-2012. </italic>American Medical Association<italic>.</italic> Retrieved from: <uri>http://www.ama-assn.org/ama/pub/advocacy/health-policy.page</uri>?</p>
+            <p>Kane, C.K., (<xref ref-type="bibr" rid="    2014">2014</xref>). Policy research perspectives: New data on physician compensation methods —one size does not fit all. <italic>AMA Practice Benchmark Survey-2012</italic>. American Medical Association. Retrieved from: <uri>http://www.ama-assn.org/resources/doc/health-policy/prp-phys-comp-methods-2014.pdf</uri>.</p>
+            <p>Landon, B. E., Reschovsky, J., &amp; Blumenthal, D. (<xref ref-type="bibr" rid="    2003">2003</xref>). Changes in career satisfaction among primary care and specialist physicians, 1997-2001. <italic>Journal of the American Medical Association</italic>, <italic>289</italic>(4), 442-449. <uri>http://dx.doi.org/10.1001/jama.289.4.442</uri>
+            </p>
+            <p>Leigh, J. P., Kravitz, R. L., Schembri, M., Samuels, S. J., &amp; Mobley, S. (<xref ref-type="bibr" rid="    2002">2002</xref>). Physician career satisfaction across specialties. <italic>Archives of Internal Medicine</italic>, <italic>162</italic>(14), 1577-1584. <uri>http://dx.doi.org/10.1001/archinte.162.14.1577</uri>
+            </p>
+            <p>Leigh, J. P., Tancredi, D. J., &amp; Kravitz, R. L. (<xref ref-type="bibr" rid="    2009">2009</xref>). Physician career satisfaction within specialties. <italic>BMC Health Services Research</italic>, <italic>9</italic>(1), 166. <uri>http://dx.doi.org/10.1186/1472-6963-9-166</uri>
+            </p>
+            <p>Medicare Payment Advisory Commission (<xref ref-type="bibr" rid="    2011">2011</xref>). Chapter 3; Medicare Fee-For-Service Benefit Design. <italic>Report to the Congress: Medicare and the health Care Delivery System</italic>. Washington, D.C. MedPAC. Retrieved from: <uri>http://www.medpac.gov/documents/Jun11_EntireReport.pdf</uri>.</p>
+            <p>Medscape (<xref ref-type="bibr" rid="    2013">2013</xref>). Physician Compensation Report-2013. Retrieved from: <uri>http://www.medscape.com/features/slideshow/compensation/2013/public</uri>.</p>
+            <p>Mitka, M. (<xref ref-type="bibr" rid="    2013">2013</xref>). Financial Incentives Appear to Boost Electronic Health Record Use. <italic>Journal of the American Medical Association</italic>, <italic>310</italic>(23), 2496-2496.</p>
+            <p>Moses, H., Matheson, D. H., Dorsey, E. R., George, B. P., Sadoff, D., &amp; Yoshimura, S. (<xref ref-type="bibr" rid="    2013">2013</xref>). The anatomy of health care in the United States. <italic>Journal of the American Medical Association,</italic> 
+               <italic>310</italic>(18), 1947-1964. <uri>http://dx.doi.org/10.1001/jama.2013.281425</uri>
+            </p>
+            <p>Panzer, R. J., Gitomer, R. S., Greene, W. H., Webster, P. R., Landry, K. R., &amp; Riccobono, C. A. (<xref ref-type="bibr" rid="    2013">2013</xref>). Increasing demands for quality measurement. <italic>Journal of the American Medical Association</italic>, <italic>310</italic>(18), 1971-1980. <uri>http://dx.doi.org/10.1001/jama.2013.282047</uri>
+            </p>
+            <p>Pathman, D. E., Konrad, T. R., Williams, E. S., Scheckler, W. E., Linzer, M., &amp; Douglas, J. (<xref ref-type="bibr" rid="    2002">2002</xref>). Physician job satisfaction, job dissatisfaction, and physician turnover. <italic>Journal of Family Practice</italic>, <italic>51</italic>(7), 593.</p>
+            <p>Quinn, M. A., Wilcox, A., Orav, E. J., Bates, D. W., &amp; Simon, S. R. (<xref ref-type="bibr" rid="    2009">2009</xref>). The relationship between perceived practice quality and quality improvement activities and physician practice dissatisfaction, professional isolation, and work-life stress. <italic>Medical care</italic>, <italic>47</italic>(8), 924-928. <uri>http://dx.doi.org/10.1097/MLR.0b013e3181a393e4</uri>
+            </p>
+            <p>Rittenhouse, D. R., Grumbach, K., O’Neil, E. H., Dower, C., &amp; Bindman, A. (<xref ref-type="bibr" rid="    2004">2004</xref>). Physician organization and care management in California: from cottage to Kaiser. <italic>Health Affairs</italic>, <italic>23</italic>(6), 51-62. <uri>http://dx.doi.org/10.1377/hlthaff.23.6.51</uri>
+            </p>
+            <p>Shaw, M. K., Davis, S. A., Fleischer, A. B., &amp; Feldman, S. R. (<xref ref-type="bibr" rid="    2014">2014</xref>). The duration of office visits in the United States, 1993 to 2010. <italic>The American Journal of Managed Care</italic>, <italic>20</italic>(10), 820-826.</p>
+            <p>Sinsky, T. A., &amp; Sinsky, C. A. (<xref ref-type="bibr" rid="    2012">2012</xref>). A streamlined approach to prescription management. <italic>Family practice management</italic>, <italic>19</italic>(6), 11.</p>
+            <p>Sinsky, C. A., Willard-Grace, R., Schutzbank, A. M., Sinsky, T. A., Margolius, D., &amp; Bodenheimer, T. (<xref ref-type="bibr" rid="    2013">2013</xref>). In search of joy in practice: a report of 23 high-functioning primary care practices. <italic>The Annals of Family Medicine</italic>, <italic>11</italic>(3), 272-278. <uri>http://dx.doi.org/10.1370/afm.1531</uri>
+            </p>
+            <p>Sorrell, S., Jennings, K. (<xref ref-type="bibr" rid="    2014">2014</xref>). 51 Statistics on satisfied versus dissatisfied physicians. Jackson Healthcare Survey. Retrieved from: <uri>http://www.jacksonhealthcare.com/media-room/articles/physician-trends/51-statistics-on-satisfied-and-dissatisfied-physicians/</uri>
+            </p>
+            <p>Starr, P. (<xref ref-type="bibr" rid="    1982">1982</xref>). <italic>The social transformation of American medicine</italic>. New York, New York: Basic Books Harper Collins.</p>
+            <p>Toussaint, J., Milstein, A., Shortell, S. (<xref ref-type="bibr" rid="    2013">2013</xref>). How the pioneer ACO Model needs to change: Lessons from its best performing ACO. <italic>Journal of the American Medical Association</italic>, <italic>310</italic>(13), 1341-1342. <uri>http://dx.doi.org/10.1001/jama.2013.279149</uri>
+            </p>
+            <p>Yarnell, K.S., Pollak, K.I., Østbye, T., &amp; Krause, K.M. (<xref ref-type="bibr" rid="    2003">2003</xref>). Primary care: Is there enough time for prevention? <italic>American Journal of Public Health</italic>. <italic>93</italic>(4), 635-641. <uri>http://dx.doi.org/10.2105/AJPH.93.4.635</uri>
+            </p>
          </sec>
          <!-- sec lvl 2 end -->
       </sec>
       <!-- sec lvl 1 end -->
    </body>
    <back>
-      <ref-list>
-         <ref id="ASCBHL2006"><!--Adair, C. E., Simpson, E., Casebeer, A. L., Birdsell, J. M., Hayden, K. A., & Lewis, S. (2006). Performance measurement in healthcare part II: state of the science findings by stage of the performance measurement process. <italic>Health Policy, 2</italic>(1), 56-78. -->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Adair</surname>
-                     <given-names>C. E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Simpson</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Casebeer</surname>
-                     <given-names>A. L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Birdsell</surname>
-                     <given-names>J. M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Hayden</surname>
-                     <given-names>K. A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Lewis</surname>
-                     <given-names>S.</given-names>
-                  </name>
-               </person-group>
-               <year>2006</year>
-               <article-title>Performance measurement in healthcare part II: state of the science findings by stage of the performance measurement process.</article-title>
-               <source>Health Policy</source>
-               <volume>2</volume>
-               <issue>1</issue>
-               <fpage>56</fpage>
-               <lpage>78</lpage>
-            </element-citation>
-         </ref>
-         <ref id="AWHK2006"><!--Arah, O. A., Westert, G. P., Hurst, J., & Klazinga, N. S. (2006). A conceptual framework for the OECD Health Care Quality Indicators Project. <italic>International Journal for Quality in Health Care, 18 Suppl 1</italic>, 5-13. <uri>http://dx.doi.org/10.1093/intqhc/mzl024</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Arah</surname>
-                     <given-names>O. A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Westert</surname>
-                     <given-names>G. P.</given-names>
-                  </name>
-                  <name>
-                     <surname>Hurst</surname>
-                     <given-names>J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Klazinga</surname>
-                     <given-names>N. S.</given-names>
-                  </name>
-               </person-group>
-               <year>2006</year>
-               <article-title>A conceptual framework for the OECD Health Care Quality Indicators Project.</article-title>
-               <source>International Journal for Quality in Health Care</source>
-               <volume>18 Suppl 1</volume>
-               <fpage>5</fpage>
-               <lpage>13</lpage>
-               <uri>http://dx.doi.org/10.1093/intqhc/mzl024</uri>
-            </element-citation>
-         </ref>
-         <ref id="BGN2007"><!--Batalden, P. B., Godfrey, M. M., & Nelson, E. C. (2007). <italic>Quality by design: a clinical microsystems approach</italic>. San Francisco: Jossey-Bass.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Batalden</surname>
-                     <given-names>P. B.</given-names>
-                  </name>
-                  <name>
-                     <surname>Godfrey</surname>
-                     <given-names>M. M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Nelson</surname>
-                     <given-names>E. C.</given-names>
-                  </name>
-               </person-group>
-               <year>2007</year>
-               <source>Quality by design: a clinical microsystems approach</source>
-               <publisher-loc>San Francisco</publisher-loc>
-               <publisher-name>Jossey-Bass</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="BFOROCNB2013"><!--Birkmeyer, J. D., Finks, J. F., O'Reilly, A., Oerline, M., Carlin, A. M., Nunn, A. R., . . . Birkmeyer, N. J. (2013). Surgical skill and complication rates after bariatric surgery. <italic>New England Journal of Medicine, 369</italic>(15), 1434-1442. <uri>http://dx.doi.org/10.1056/NEJMsa1300625</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Birkmeyer</surname>
-                     <given-names>J. D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Finks</surname>
-                     <given-names>J. F.</given-names>
-                  </name>
-                  <name>
-                     <surname>O'Reilly</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Oerline</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Carlin</surname>
-                     <given-names>A. M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Nunn</surname>
-                     <given-names>A. R.</given-names>
-                  </name>
-                  <name>
-                     <surname>.. . .. Birkmeyer</surname>
-                     <given-names>N. J.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>Surgical skill and complication rates after bariatric surgery.</article-title>
-               <source>New England Journal of Medicine</source>
-               <volume>369</volume>
-               <issue>15</issue>
-               <fpage>1434</fpage>
-               <lpage>1442</lpage>
-               <uri>http://dx.doi.org/10.1056/NEJMsa1300625</uri>
-            </element-citation>
-         </ref>
-         <ref id="BSGWS2013"><!--Bismark, M. M., Spittal, M. J., Gurrin, L. C., Ward, M., & Studdert, D. M. (2013). Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia. <italic>BMJ Quality & Safety, 22</italic>(7), 532-540. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001691</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Bismark</surname>
-                     <given-names>M. M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Spittal</surname>
-                     <given-names>M. J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Gurrin</surname>
-                     <given-names>L. C.</given-names>
-                  </name>
-                  <name>
-                     <surname>Ward</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Studdert</surname>
-                     <given-names>D. M.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>Identification of doctors at risk of recurrent complaints: a national study of healthcare complaints in Australia.</article-title>
-               <source>BMJ Quality &amp; Safety</source>
-               <volume>22</volume>
-               <issue>7</issue>
-               <fpage>532</fpage>
-               <lpage>540</lpage>
-               <uri>http://dx.doi.org/10.1136/bmjqs-2012-001691</uri>
-            </element-citation>
-         </ref>
-         <ref id="BSIL2013"><!--Bjertnaes, O., Skudal, K. E., Iversen, H. H., & Lindahl, A. K. (2013). The Patient-Reported Incident in Hospital Instrument (PRIH-I): assessments of data quality, test-retest reliability and hospital-level reliability. <italic>BMJ Quality & Safety, 22</italic>(9), 743-751. <uri>http://dx.doi.org/10.1136/bmjqs-2012-001756</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Bjertnaes</surname>
-                     <given-names>O.</given-names>
-                  </name>
-                  <name>
-                     <surname>Skudal</surname>
-                     <given-names>K. E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Iversen</surname>
-                     <given-names>H. H.</given-names>
-                  </name>
-                  <name>
-                     <surname>Lindahl</surname>
-                     <given-names>A. K.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>The Patient-Reported Incident in Hospital Instrument (PRIH-I): assessments of data quality, test-retest reliability and hospital-level reliability.</article-title>
-               <source>BMJ Quality &amp; Safety</source>
-               <volume>22</volume>
-               <issue>9</issue>
-               <fpage>743</fpage>
-               <lpage>751</lpage>
-               <uri>http://dx.doi.org/10.1136/bmjqs-2012-001756</uri>
-            </element-citation>
-         </ref>
-         <ref id="___"><!--The CAHPS Improvement Guide. Retrieved 28. april 2014, from <uri>https://cahps.ahrq.gov/quality-improvement/improvement-guide/improvement-guide.html</uri>-->
-            <mixed-citation publication-format="web">The CAHPS Improvement Guide. Retrieved 28. april 2014, from <uri>https://cahps.ahrq.gov/quality-improvement/improvement-guide/improvement-guide.html</uri>
-            </mixed-citation>
-         </ref>
-         <ref id="CCD2014"><!--Contandriopoulos, D., Champagne, F., & Denis, J. L. (2014). The multiple causal pathways between performance measures' use and effects. <italic>Medical Care Research and Review, 71</italic>(1), 3-20. <uri>http://dx.doi.org/10.1177/1077558713496320</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Contandriopoulos</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Champagne</surname>
-                     <given-names>F.</given-names>
-                  </name>
-                  <name>
-                     <surname>Denis</surname>
-                     <given-names>J. L.</given-names>
-                  </name>
-               </person-group>
-               <year>2014</year>
-               <article-title>The multiple causal pathways between performance measures' use and effects.</article-title>
-               <source>Medical Care Research and Review</source>
-               <volume>71</volume>
-               <issue>1</issue>
-               <fpage>3</fpage>
-               <lpage>20</lpage>
-               <uri>http://dx.doi.org/10.1177/1077558713496320</uri>
-            </element-citation>
-         </ref>
-         <ref id="___1998"><!--The development and implementation of quality improvement systems (QIS) in health care: recommendation No. R (97) 17 and explanatory memorandum. (1998).-->
-            <mixed-citation publication-format="print">The development and implementation of quality improvement systems (QIS) in health care: recommendation No. R (97) 17 and explanatory memorandum. (1998).</mixed-citation>
-         </ref>
-         <ref id="D1980"><!--Donabedian, A. (1980). The definition of quality and approaches to its assessment <italic>Explorations in quality assessment and monitoring Vol. 1</italic>. Ann Arbor, MI: Health Administration Press.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Donabedian</surname>
-                     <given-names>A.</given-names>
-                  </name>
-               </person-group>
-               <year>1980</year>
-               <source>Explorations in quality assessment and monitoring Vol. 1</source>
-               <publisher-loc>Ann Arbor, MI</publisher-loc>
-               <publisher-name>Health Administration Press</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="D1988"><!--Donabedian, A. (1988). The quality of care: how can it be assessed? <italic>JAMA, 260</italic>(12), 1743-1748. <uri>http://dx.doi.org/10.1001/jama.1988.03410120089033</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Donabedian</surname>
-                     <given-names>A.</given-names>
-                  </name>
-               </person-group>
-               <year>1988</year>
-               <article-title>The quality of care: how can it be assessed?</article-title>
-               <source>JAMA</source>
-               <volume>260</volume>
-               <issue>12</issue>
-               <fpage>1743</fpage>
-               <lpage>1748</lpage>
-               <uri>http://dx.doi.org/10.1001/jama.1988.03410120089033</uri>
-            </element-citation>
-         </ref>
-         <ref id="D2005"><!--Donabedian, A. (2005). Evaluating the quality of medical care. 1966. <italic>Milbank Quarterly, 83</italic>(4), 691-729. <uri>http://dx.doi.org/10.1111/j.1468-0009.2005.00397.x</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Donabedian</surname>
-                     <given-names>A.</given-names>
-                  </name>
-               </person-group>
-               <year>2005</year>
-               <article-title>Evaluating the quality of medical care. 1966.</article-title>
-               <source>Milbank Quarterly</source>
-               <volume>83</volume>
-               <issue>4</issue>
-               <fpage>691</fpage>
-               <lpage>729</lpage>
-               <uri>http://dx.doi.org/10.1111/j.1468-0009.2005.00397.x</uri>
-            </element-citation>
-         </ref>
-         <ref id="DB2003"><!--Donabedian, A., & Bashshur, R. (2003). <italic>An introduction to quality assurance in health care</italic>. Oxford: Oxford University Press.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Donabedian</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Bashshur</surname>
-                     <given-names>R.</given-names>
-                  </name>
-               </person-group>
-               <year>2003</year>
-               <source>An introduction to quality assurance in health care</source>
-               <publisher-loc>Oxford</publisher-loc>
-               <publisher-name>Oxford University Press</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="DLB2013"><!--Doyle, C., Lennox, L., & Bell, D. (2013). A systematic review of evidence on the links between patient experience and clinical safety and effectiveness. <italic>BMJ Open, 3</italic>(1), e001570. <uri>http://dx.doi.org/10.1136/bmjopen-2012-001570</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Doyle</surname>
-                     <given-names>C.</given-names>
-                  </name>
-                  <name>
-                     <surname>Lennox</surname>
-                     <given-names>L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Bell</surname>
-                     <given-names>D.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>A systematic review of evidence on the links between patient experience and clinical safety and effectiveness.</article-title>
-               <source>BMJ Open</source>
-               <volume>3</volume>
-               <issue>1</issue>
-               <uri>http://dx.doi.org/10.1136/bmjopen-2012-001570</uri>
-            </element-citation>
-         </ref>
-         <ref id="___2010"><!--European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, & European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion & Social.-->
-            <mixed-citation publication-type="journal" publication-format="print">European Commission. Directorate-General Communication, European Commission. Directorate-General for Health and Consumer Protection, &amp; European Opinion Research Group. (2010). Patient safety and quality of healthcare <italic>Special Eurobarometer 327</italic>. Brussels: TNS Opinion &amp; Social.</mixed-citation>
-         </ref>
-         <ref id="FDBJ1998"><!--Fitzpatrick, R., Davey, C., Buxton, M. J., & Jones, D. R. (1998). Evaluating patient-based outcome measures for use in clinical trials. <italic>Health Technology Assessment, 2</italic>, 1-74.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Fitzpatrick</surname>
-                     <given-names>R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Davey</surname>
-                     <given-names>C.</given-names>
-                  </name>
-                  <name>
-                     <surname>Buxton</surname>
-                     <given-names>M. J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Jones</surname>
-                     <given-names>D. R.</given-names>
-                  </name>
-               </person-group>
-               <year>1998</year>
-               <article-title>Evaluating patient-based outcome measures for use in clinical trials.</article-title>
-               <source>Health Technology Assessment</source>
-               <volume>2</volume>
-               <fpage>1</fpage>
-               <lpage>74</lpage>
-            </element-citation>
-         </ref>
-         <ref id="GELDD1993"><!--Gerteis, M., Edgman-Levitan, S., Daley, J., & Delbanco, T. L. (1993). <italic>Through the patient's eyes: understanding and promoting patient-centered care</italic>. San Francisco: Jossey-Bass-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Gerteis</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Edgman-Levitan</surname>
-                     <given-names>S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Daley</surname>
-                     <given-names>J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Delbanco</surname>
-                     <given-names>T. L.</given-names>
-                  </name>
-               </person-group>
-               <year>1993</year>
-               <source>Through the patient's eyes: understanding and promoting patient-centered care</source>
-               <publisher-loc>San Francisco</publisher-loc>
-               <publisher-name>Jossey-Bass</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="GJ2009"><!--Goodard, M., & Jacobs, R. (2009). Using composite indicators to measure performance in health care. In P. Smith (Ed.), <italic>Performance measurement for health system improvement </italic>(pp. 339-368). Cambridge; New York: Cambridge University Press.-->
-            <element-citation publication-type="book-chapter" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Goodard</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Jacobs</surname>
-                     <given-names>R.</given-names>
-                  </name>
-               </person-group>
-               <year>2009</year>
-               <chapter-title>Using composite indicators to measure performance in health care</chapter-title>
-               <person-group person-group-type="editor">
-                  <name>
-                     <surname>Smith</surname>
-                     <given-names>P.</given-names>
-                  </name>
-               </person-group>
-               <source>Performance measurement for health system improvement</source>
-               <fpage>339</fpage>
-               <lpage>368</lpage>
-               <publisher-loc>Cambridge; New York</publisher-loc>
-               <publisher-name>Cambridge University Press</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="HBG2015"><!--Hayes, C. W., Batalden, P. B., & Goldmann, D. (2015). A 'work smarter, not harder' approach to improving healthcare quality. <italic>BMJ Quality & Safety, 24</italic>(2), 100-102. <uri>http://dx.doi.org/10.1136/bmjqs-2014-003673</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Hayes</surname>
-                     <given-names>C. W.</given-names>
-                  </name>
-                  <name>
-                     <surname>Batalden</surname>
-                     <given-names>P. B.</given-names>
-                  </name>
-                  <name>
-                     <surname>Goldmann</surname>
-                     <given-names>D.</given-names>
-                  </name>
-               </person-group>
-               <year>2015</year>
-               <article-title>A 'work smarter, not harder' approach to improving healthcare quality.</article-title>
-               <source>BMJ Quality &amp; Safety</source>
-               <volume>24</volume>
-               <issue>2</issue>
-               <fpage>100</fpage>
-               <lpage>102</lpage>
-               <uri>http://dx.doi.org/10.1136/bmjqs-2014-003673</uri>
-            </element-citation>
-         </ref>
-         <ref id="___"><!--Helsedirektoratet. (28. mai 2013). Hvorfor kvalitetsindikatorer? Retrieved 28. april 2014, from <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri><uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>-->
-            <mixed-citation publication-format="web">Helsedirektoratet. (28. mai 2013). Hvorfor kvalitetsindikatorer? Retrieved 28. april 2014, from <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>
-               <uri>http://www.helsedirektoratet.no/kvalitet-planlegging/kvalitetsindikatorer/hvorfor-kvalitetsindikatorer/Sider/default.aspx</uri>
-            </mixed-citation>
-         </ref>
-         <ref id="___2001"><!--Institute of Medicine. (2001). Crossing the quality chasm: a new health system for the 21st century. Washington, D.C.: National Academy Press.-->
-            <mixed-citation publication-type="book" publication-format="print">Institute of Medicine. (2001). Crossing the quality chasm: a new health system for the 21st century. Washington, D.C.: National Academy Press.</mixed-citation>
-         </ref>
-         <ref id="IEWC2006"><!--Irvine, L., Elliott, L., Wallace, H., & Crombie, I. K. (2006). A review of major influences on current public health policy in developed countries in the second half of the 20th century. <italic>The journal of the Royal Society for the Promotion of Health, 126</italic>(2), 73-78. <uri>http://dx.doi.org/10.1177/1466424006063182</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Irvine</surname>
-                     <given-names>L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Elliott</surname>
-                     <given-names>L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Wallace</surname>
-                     <given-names>H.</given-names>
-                  </name>
-                  <name>
-                     <surname>Crombie</surname>
-                     <given-names>I. K.</given-names>
-                  </name>
-               </person-group>
-               <year>2006</year>
-               <article-title>A review of major influences on current public health policy in developed countries in the second half of the 20th century.</article-title>
-               <source>The journal of the Royal Society for the Promotion of Health</source>
-               <volume>126</volume>
-               <issue>2</issue>
-               <fpage>73</fpage>
-               <lpage>78</lpage>
-               <uri>http://dx.doi.org/10.1177/1466424006063182</uri>
-            </element-citation>
-         </ref>
-         <ref id="___2005"><!--ISO. (2005). Quality management systems: Fundamentals and vocabulary (ISO 9000:2005) (Vol. TC 176//SC). Geneva: International Organization for Standardization.-->
-            <mixed-citation publication-type="book" publication-format="print">ISO. (2005). Quality management systems: Fundamentals and vocabulary (ISO 9000:2005) (Vol. TC 176//SC). Geneva: International Organization for Standardization.</mixed-citation>
-         </ref>
-         <ref id="JWOG2002"><!--Jung, H. P., Wensing, M., Olesen, F., & Grol, R. (2002). Comparison of patients' and general practitioners' evaluations of general practice care. <italic>Quality & Safety in Health Care, 11</italic>, 315-319. <uri>http://dx.doi.org/10.1136/qhc.11.4.315</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Jung</surname>
-                     <given-names>H. P.</given-names>
-                  </name>
-                  <name>
-                     <surname>Wensing</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Olesen</surname>
-                     <given-names>F.</given-names>
-                  </name>
-                  <name>
-                     <surname>Grol</surname>
-                     <given-names>R.</given-names>
-                  </name>
-               </person-group>
-               <year>2002</year>
-               <article-title>Comparison of patients' and general practitioners' evaluations of general practice care.</article-title>
-               <source>Quality &amp; Safety in Health Care</source>
-               <volume>11</volume>
-               <fpage>315</fpage>
-               <lpage>319</lpage>
-               <uri>http://dx.doi.org/10.1136/qhc.11.4.315</uri>
-            </element-citation>
-         </ref>
-         <ref id="K2011"><!--Kahneman, D. (2011). <italic>Thinking, fast and slow</italic>. New York: Farrar, Strauss and Giroux.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Kahneman</surname>
-                     <given-names>D.</given-names>
-                  </name>
-               </person-group>
-               <year>2011</year>
-               <source>Thinking, fast and slow</source>
-               <publisher-loc>New York</publisher-loc>
-               <publisher-name>Farrar, Strauss and Giroux</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="KH2006"><!--Kelly, E., & Hurst, J. (2006). Health care quality indicators project: conceptual framework paper <italic>OECD Health Working Papers no. 23</italic>. Paris: OECD.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Kelly</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Hurst</surname>
-                     <given-names>J.</given-names>
-                  </name>
-               </person-group>
-               <year>2006</year>
-               <source>OECD Health Working Papers no. 23</source>
-               <publisher-loc>Paris</publisher-loc>
-               <publisher-name>OECD</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="KMASSOD2010"><!--Klassen, A., Miller, A., Anderson, N., Shen, J., Schiariti, V., & O'Donnell, M. (2010). Performance measurement and improvement frameworks in health, education and social services systems: a systematic review. <italic>International Journal for Quality in Health Care, 22</italic>(1), 44-69. <uri>http://dx.doi.org/10.1093/intqhc/mzp057</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Klassen</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Miller</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Anderson</surname>
-                     <given-names>N.</given-names>
-                  </name>
-                  <name>
-                     <surname>Shen</surname>
-                     <given-names>J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Schiariti</surname>
-                     <given-names>V.</given-names>
-                  </name>
-                  <name>
-                     <surname>O'Donnell</surname>
-                     <given-names>M.</given-names>
-                  </name>
-               </person-group>
-               <year>2010</year>
-               <article-title>Performance measurement and improvement frameworks in health, education and social services systems: a systematic review.</article-title>
-               <source>International Journal for Quality in Health Care</source>
-               <volume>22</volume>
-               <issue>1</issue>
-               <fpage>44</fpage>
-               <lpage>69</lpage>
-               <uri>http://dx.doi.org/10.1093/intqhc/mzp057</uri>
-            </element-citation>
-         </ref>
-         <ref id="LD1974"><!--Lalonde, M., & Department of National Health and Welfare. (1974). A new perspective on the health of Canadians: a working document (pp. 77). Ottawa: Government of Canada-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Lalonde</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Department</surname>
-                     <given-names>and Welfare.</given-names>
-                  </name>
-               </person-group>
-               <year>1974</year>
-               <source/>
-               <fpage>77</fpage>
-               <publisher-loc>Ottawa</publisher-loc>
-               <publisher-name>Government of Canada</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="LQMKNG2008"><!--Legido-Quigley, H., McKee, M., Nolte, E., & Glinos, I. (2008). Assuring the quality of health care in the European Union: A case for action <italic>Observatory Service Series No. 12</italic>. Copenhagen: WHO Regional Office for Europe.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Legido-Quigley</surname>
-                     <given-names>H.</given-names>
-                  </name>
-                  <name>
-                     <surname>McKee</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Nolte</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Glinos</surname>
-                     <given-names>I.</given-names>
-                  </name>
-               </person-group>
-               <year>2008</year>
-               <source>Observatory Service Series No. 12</source>
-               <publisher-loc>Copenhagen</publisher-loc>
-               <publisher-name>WHO Regional Office for Europe</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="LSLGHC2012"><!--Levine, R., Shore, K., Lubalin, J., Garfinkel, S., Hurtado, M., & Carman, K. (2012). Comparing physician and patient perceptions of quality in ambulatory care. <italic>International Journal for Quality in Health Care, 24</italic>, 348-356. <uri>http://dx.doi.org/10.1093/intqhc/mzs023</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Levine</surname>
-                     <given-names>R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Shore</surname>
-                     <given-names>K.</given-names>
-                  </name>
-                  <name>
-                     <surname>Lubalin</surname>
-                     <given-names>J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Garfinkel</surname>
-                     <given-names>S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Hurtado</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Carman</surname>
-                     <given-names>K.</given-names>
-                  </name>
-               </person-group>
-               <year>2012</year>
-               <article-title>Comparing physician and patient perceptions of quality in ambulatory care.</article-title>
-               <source>International Journal for Quality in Health Care</source>
-               <volume>24</volume>
-               <fpage>348</fpage>
-               <lpage>356</lpage>
-               <uri>http://dx.doi.org/10.1093/intqhc/mzs023</uri>
-            </element-citation>
-         </ref>
-         <ref id="L2003"><!--Light, D. (2003). Towards a new professionalism in medicine: quality, value and trust. <italic>Tidsskrift for den Norske Legeforening 123</italic>(13-14).-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Light</surname>
-                     <given-names>D.</given-names>
-                  </name>
-               </person-group>
-               <year>2003</year>
-               <article-title>Towards a new professionalism in medicine: quality, value and trust.</article-title>
-               <source>Tidsskrift for den Norske Legeforening 123</source>
-               <fpage>13</fpage>
-               <lpage>14</lpage>
-            </element-citation>
-         </ref>
-         <ref id="L1990a"><!--Lohr, K. N. (1990a). Medicare: a strategy for quality assurance: volume I. Washington, D.C.: National Academy Press.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Lohr</surname>
-                     <given-names>K. N.</given-names>
-                  </name>
-               </person-group>
-               <year>1990</year>
-               <source/>
-               <publisher-loc>Washington, D.C.</publisher-loc>
-               <publisher-name>National Academy Press</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="L1990b"><!--Lohr, K. N. (1990b). Medicare: a strategy for quality assurance: volume II Strategies and methods. Washington, D.C.: National Academy Press.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Lohr</surname>
-                     <given-names>K. N.</given-names>
-                  </name>
-               </person-group>
-               <year>1990</year>
-               <source/>
-               <publisher-loc>Washington, D.C.</publisher-loc>
-               <publisher-name>National Academy Press</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="LS1990"><!--Lohr, K. N., & Schroeder, S. A. (1990). A strategy for quality assurance in Medicare. <italic>New England Journal of Medicine, 322</italic>(10), 707-712. <uri>http://dx.doi.org/10.1056/NEJM199003083221031</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Lohr</surname>
-                     <given-names>K. N.</given-names>
-                  </name>
-                  <name>
-                     <surname>Schroeder</surname>
-                     <given-names>S. A.</given-names>
-                  </name>
-               </person-group>
-               <year>1990</year>
-               <article-title>A strategy for quality assurance in Medicare.</article-title>
-               <source>New England Journal of Medicine</source>
-               <volume>322</volume>
-               <issue>10</issue>
-               <fpage>707</fpage>
-               <lpage>712</lpage>
-               <uri>http://dx.doi.org/10.1056/NEJM199003083221031</uri>
-            </element-citation>
-         </ref>
-         <ref id="MELOHAGPW2013"><!--McEachan, R. R., Lawton, R. J., O'Hara, J. K., Armitage, G., Giles, S., Parveen, S., . . . Wright, J. (2013). Developing a reliable and valid patient measure of safety in hospitals (PMOS): a validation study. <italic>BMJ Quality & Safety, 23</italic>(7), 565-573.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>McEachan</surname>
-                     <given-names>R. R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Lawton</surname>
-                     <given-names>R. J.</given-names>
-                  </name>
-                  <name>
-                     <surname>O'Hara</surname>
-                     <given-names>J. K.</given-names>
-                  </name>
-                  <name>
-                     <surname>Armitage</surname>
-                     <given-names>G.</given-names>
-                  </name>
-                  <name>
-                     <surname>Giles</surname>
-                     <given-names>S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Parveen</surname>
-                     <given-names>S.</given-names>
-                  </name>
-                  <name>
-                     <surname>.. . .. Wright</surname>
-                     <given-names>J.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>Developing a reliable and valid patient measure of safety in hospitals (PMOS): a validation study.</article-title>
-               <source>BMJ Quality &amp; Safety</source>
-               <volume>23</volume>
-               <issue>7</issue>
-               <fpage>565</fpage>
-               <lpage>573</lpage>
-            </element-citation>
-         </ref>
-         <ref id="MIRH2001"><!--McIntyre, D., Rogers, L., & Heier, E. (2001). Overview, history, and objectives of performance measurement. <italic>Health Care Financing Review, 22</italic>(3), 7-21.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>McIntyre</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Rogers</surname>
-                     <given-names>L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Heier</surname>
-                     <given-names>E.</given-names>
-                  </name>
-               </person-group>
-               <year>2001</year>
-               <article-title>Overview, history, and objectives of performance measurement.</article-title>
-               <source>Health Care Financing Review</source>
-               <volume>22</volume>
-               <issue>3</issue>
-               <fpage>7</fpage>
-               <lpage>21</lpage>
-            </element-citation>
-         </ref>
-         <ref id="___2012"><!--NICE. (2012). Patient experience in adult NHS services: improving the experience of care for people using adult NHS services <italic>NICE Clinical Guideline 138</italic>. London: National Clinical Guideline Centre.-->
-            <mixed-citation publication-type="book" publication-format="print">NICE. (2012). Patient experience in adult NHS services: improving the experience of care for people using adult NHS services <italic>NICE Clinical Guideline 138</italic>. London: National Clinical Guideline Centre.</mixed-citation>
-         </ref>
-         <ref id="___2014"><!--Quality (2014). <italic>In Merrian-Webster.com.</italic> Retrieved 28. april 2014, from <uri>http://www.merriam-webster.com/dictionary/quality</uri>-->
-            <mixed-citation publication-type="journal" publication-format="web">Quality (2014). <italic>In Merrian-Webster.com.</italic> Retrieved 28. april 2014, from <uri>http://www.merriam-webster.com/dictionary/quality</uri>
-            </mixed-citation>
-         </ref>
-         <ref id="RCASKR2007"><!--Reeves, D., Campbell, S. M., Adams, J., Shekelle, P. G., Kontopantelis, E., & Roland, M. O. (2007). Combining multiple indicators of clinical quality: an evaluation of different analytic approaches. <italic>Medical Care, 45</italic>(6), 489-496. <uri>http://dx.doi.org/10.1097/MLR.0b013e31803bb479</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Reeves</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Campbell</surname>
-                     <given-names>S. M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Adams</surname>
-                     <given-names>J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Shekelle</surname>
-                     <given-names>P. G.</given-names>
-                  </name>
-                  <name>
-                     <surname>Kontopantelis</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Roland</surname>
-                     <given-names>M. O.</given-names>
-                  </name>
-               </person-group>
-               <year>2007</year>
-               <article-title>Combining multiple indicators of clinical quality: an evaluation of different analytic approaches.</article-title>
-               <source>Medical Care</source>
-               <volume>45</volume>
-               <issue>6</issue>
-               <fpage>489</fpage>
-               <lpage>496</lpage>
-               <uri>http://dx.doi.org/10.1097/MLR.0b013e31803bb479</uri>
-            </element-citation>
-         </ref>
-         <ref id="RHBBFFN2010"><!--Rygh, L. H., Helgeland, J., Braut, G. S., Bukholm, G., Fredheim, N., Frich, J. C., . . . Nguyen, K. N. (2010). Forslag til rammeverk for et nasjonalt kvalitetsindikatorsystem for helsetjenesten <italic>Rapport fra Kunnskapssenteret nr 16-2010</italic>. Oslo: Nasjonalt kunnskapssenter for helsetjenesten.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Rygh</surname>
-                     <given-names>L. H.</given-names>
-                  </name>
-                  <name>
-                     <surname>Helgeland</surname>
-                     <given-names>J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Braut</surname>
-                     <given-names>G. S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Bukholm</surname>
-                     <given-names>G.</given-names>
-                  </name>
-                  <name>
-                     <surname>Fredheim</surname>
-                     <given-names>N.</given-names>
-                  </name>
-                  <name>
-                     <surname>Frich</surname>
-                     <given-names>J. C.</given-names>
-                  </name>
-                  <name>
-                     <surname>.. . .. Nguyen</surname>
-                     <given-names>K. N.</given-names>
-                  </name>
-               </person-group>
-               <year>2010</year>
-               <source>Rapport fra Kunnskapssenteret nr 16-2010</source>
-               <publisher-loc>Oslo</publisher-loc>
-               <publisher-name>Nasjonalt kunnskapssenter for helsetjenesten</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="SOSDPA2011"><!--Schoen, C., Osborn, R., Squires, D., Doty, M., Pierson, R., & Applebaum, S. (2011). New 2011 survey of patients with complex care needs in eleven countries finds that care is often poorly coordinated. <italic>Health Affairs, 30</italic>, 2437-2448. <uri>http://dx.doi.org/10.1377/hlthaff.2011.0923</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Schoen</surname>
-                     <given-names>C.</given-names>
-                  </name>
-                  <name>
-                     <surname>Osborn</surname>
-                     <given-names>R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Squires</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Doty</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Pierson</surname>
-                     <given-names>R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Applebaum</surname>
-                     <given-names>S.</given-names>
-                  </name>
-               </person-group>
-               <year>2011</year>
-               <article-title>New 2011 survey of patients with complex care needs in eleven countries finds that care is often poorly coordinated.</article-title>
-               <source>Health Affairs</source>
-               <volume>30</volume>
-               <fpage>2437</fpage>
-               <lpage>2448</lpage>
-               <uri>http://dx.doi.org/10.1377/hlthaff.2011.0923</uri>
-            </element-citation>
-         </ref>
-         <ref id="SBOIB2011"><!--Sjetne, I. S., Bjertnaes, O. A., Olsen, R. V., Iversen, H. H., & Bukholm, G. (2011). The Generic Short Patient Experiences Questionnaire (GS-PEQ): identification of core items from a survey in Norway. <italic>BMC Health Services Research, 11</italic>(88). <uri>http://dx.doi.org/10.1186/1472-6963-11-88</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Sjetne</surname>
-                     <given-names>I. S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Bjertnaes</surname>
-                     <given-names>O. A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Olsen</surname>
-                     <given-names>R. V.</given-names>
-                  </name>
-                  <name>
-                     <surname>Iversen</surname>
-                     <given-names>H. H.</given-names>
-                  </name>
-                  <name>
-                     <surname>Bukholm</surname>
-                     <given-names>G.</given-names>
-                  </name>
-               </person-group>
-               <year>2011</year>
-               <article-title>The Generic Short Patient Experiences Questionnaire (GS-PEQ): identification of core items from a survey in Norway.</article-title>
-               <source>BMC Health Services Research</source>
-               <volume>11</volume>
-               <issue>88</issue>
-               <uri>http://dx.doi.org/10.1186/1472-6963-11-88</uri>
-            </element-citation>
-         </ref>
-         <ref id="S2009"><!--Smith, P. (2009). <italic>Performance measurement for health system improvement: experiences, challenges and prospects</italic>. Cambridge: Cambridge University Press.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Smith</surname>
-                     <given-names>P.</given-names>
-                  </name>
-               </person-group>
-               <year>2009</year>
-               <source>Performance measurement for health system improvement: experiences, challenges and prospects</source>
-               <publisher-loc>Cambridge</publisher-loc>
-               <publisher-name>Cambridge University Press</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="___2005"><!--Sosial- og helsedirektoratet. (2005). -og bedre skal det bli!: nasjonal strategi for kvalitetsforbedring i Sosial- og helsetjenesten (2005-2015): til deg som leder og utøver <italic>IS-1162</italic>. Oslo: Sosial- og helsedirektoratet.-->
-            <mixed-citation publication-type="book" publication-format="print">Sosial- og helsedirektoratet. (2005). -og bedre skal det bli!: nasjonal strategi for kvalitetsforbedring i Sosial- og helsetjenesten (2005-2015): til deg som leder og utøver <italic>IS-1162</italic>. Oslo: Sosial- og helsedirektoratet.</mixed-citation>
-         </ref>
-         <ref id="W2012"><!--Wachter, R. M. (2012). <italic>Understanding patient safety</italic> (2nd ed. ed.). New York: McGraw-Hill Medical.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Wachter</surname>
-                     <given-names>R. M.</given-names>
-                  </name>
-               </person-group>
-               <year>2012</year>
-               <source>Understanding patient safety</source>
-               <edition>2</edition>
-               <publisher-loc>New York</publisher-loc>
-               <publisher-name>McGraw-Hill Medical</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="___2000"><!--WHO. (2000). The world health report 2000 : health systems: improving performance. Geneva: World Health Organization-->
-            <mixed-citation publication-type="book" publication-format="print">WHO. (2000). The world health report 2000 : health systems: improving performance. Geneva: World Health Organization</mixed-citation>
-         </ref>
-         <ref id="___2006"><!--WHO. (2006). Quality of care: a process for making strategic choices in health systems. Geneva: World Health Organization.-->
-            <mixed-citation publication-type="book" publication-format="print">WHO. (2006). Quality of care: a process for making strategic choices in health systems. Geneva: World Health Organization.</mixed-citation>
-         </ref>
-         <ref id="WBMJ7246"><!--Wilson, R. (2000). Screening for breast and cervical cancer as a common cause for litigation: a false negative result may be one of an irreducible minimum of errors. <italic>BMJ, 320</italic>(7246), 1352-1353. <uri>http://dx.doi.org/10.1136/bmj.320.7246.1352</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Wilson</surname>
-                     <given-names>of errors.</given-names>
-                  </name>
-                  <name>
-                     <surname>BMJ</surname>
-                     <given-names>320</given-names>
-                  </name>
-               </person-group>
-               <year>7246</year>
-               <article-title>Screening for breast and cervical cancer as a common cause for litigation: a false negative result may be one of an irreducible minimum of errors.</article-title>
-               <source>BMJ</source>
-               <volume>320</volume>
-               <issue>7246</issue>
-               <fpage>1352</fpage>
-               <lpage>1353</lpage>
-               <uri>http://dx.doi.org/10.1136/bmj.320.7246.1352</uri>
-            </element-citation>
-         </ref>
-      </ref-list>
+      <fn-group>
+         <fn id="ftn1">
+            <p style="footnote_20_text"> Available at <uri>http://www.rand.org/pubs/research_reports/RR439.html</uri>
+            </p>
+         </fn>
+         <fn id="ftn2">
+            <p> This module and others in <italic>beta</italic>-testing mode can be accessed at <uri>https://www.steps-forward.com</uri>
+            </p>
+         </fn>
+         <fn id="ftn3">
+            <p> This report can be accessed at <uri>https://download.ama-assn.org/resources/doc/ps2/x-pub/ehr-priorities.pdf</uri>.</p>
+         </fn>
+         <fn id="ftn4">
+            <p> The proceedings of the conference can be accessed at <uri>http://www.aha.org/research/rc/stat-studies/Studies.shtml</uri>, more particularly the entry entitled <uri>http://www.ahaphysicianforum.org/resources/leadership-development/ama-aha/new-models-proceedings.pdf</uri>
+            </p>
+         </fn>
+         <fn id="ftn5">
+            <p style="footnote_20_text">A full description of the need for these principles can be accessed at: <uri>http://healthaffairs.org/blog/2014/04/17/well-need-a-bigger-boat-reimagining-the-hospital-physician-partnership/</uri>
+            </p>
+         </fn>
+      </fn-group>
+      <ref-list/>
    </back>
 </article>
 
