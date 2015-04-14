@@ -28,9 +28,9 @@
         </p:input>
     </p:xslt>
 
-    <p:rename match="p[preceding-sibling::h1='References']" new-name="ref"/>
+    <p:rename match="p[preceding-sibling::h2='References']" new-name="ref"/>
 
-    <p:delete match="h1[.='References']"/>
+    <p:delete match="h2[.='References']"/>
 
     <!-- delete empty p-elements -->
     <p:delete match="p[.='']"/>

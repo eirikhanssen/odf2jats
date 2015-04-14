@@ -167,8 +167,8 @@
                 <xsl:when test="$outline_level = 1">
                     <xsl:value-of select="
                         if($styles[sm:name=current()/@text:style-name]) 
-                        then ($styles[sm:name=current()/@text:style-name]/sm:transformTo) (:('YES'):) 
-                        else (concat('h', $outline_level)) (:('NO'):)"/> 
+                        then ($styles[sm:name=current()/@text:style-name]/sm:transformTo) 
+                        else (concat('h', $outline_level))"/> 
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="concat('h', $outline_level)"/>
