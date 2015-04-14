@@ -146,6 +146,9 @@ important to facilitate the reference parsing.
        - only mark up the 7 listed authors in the supplied ref list and leave it at that?
        - or should inserted a comment to remind the JATS xml author to try and find the missing authors
        - even if they will not be displayed in the html-file, it could make sense to have it in JATS xml.
+- If the author made a typo using dot instead of comma in source (journal type article), handle this with regex?
+    - Should be ", 93" not ". 93"
+      ```<ref>Yarnell, K.S., Pollak, K.I., Østbye, T., & Krause, K.M. (2003). Primary care: Is there enough time for prevention? <italic>American Journal of Public Health. 93</italic>(4), 635-641. <uri>http://dx.doi.org/10.2105/AJPH.93.4.635</uri></ref>```
 
 ### Content in the back section after references
 - tables/appendixes in the back section haven't been properly handled yet
