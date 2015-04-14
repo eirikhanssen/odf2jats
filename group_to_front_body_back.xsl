@@ -78,7 +78,7 @@
     <xsl:template match="authors">
         <xsl:variable name="author-group" as="element(contrib-group)">
             <contrib-group>
-                <xsl:for-each select="tokenize(. , ',')">
+                <xsl:for-each select="tokenize( . , ',|\sand\s|&amp;')">
                     <contrib contrib-type="author">
                         <name>
                             <xsl:analyze-string select="normalize-space(.)" regex="\c+$">

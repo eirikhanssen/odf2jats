@@ -30,13 +30,21 @@
          <contrib-group>
             <contrib contrib-type="author">
                <name>
-                  <given-names>Francis J. Crosson and Lawrence P.</given-names>
+                  <given-names>Francis J.</given-names>
+                  <surname>Crosson</surname>
+               </name>
+               <xref ref-type="aff" rid="F_Crosson"/>
+            </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <given-names>Lawrence P.</given-names>
                   <surname>Casalino</surname>
                </name>
-               <xref ref-type="aff" rid="F_Casalino"/>
+               <xref ref-type="aff" rid="L_Casalino"/>
             </contrib>
          </contrib-group>
-         <aff id="F_Casalino">____</aff>
+         <aff id="F_Crosson">____</aff>
+         <aff id="L_Casalino">____</aff>
          <pub-date pub-type="pub">
             <day>____</day>
             <month>____</month>
