@@ -1,54 +1,24 @@
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
-WARNING: file:/home/hanson/projects/odf2jats/flat_odf_xml_extract.xsl:163:Branch 2 of conditional will fail with a type error if executed. Required item type of value of variable $outline_level is xs:integer; supplied value has item type xs:string
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
-WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
-Apr 16, 2015 3:49:36 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
-
-*** Error while highlighting:
-IOError: [Errno 32] Broken pipe
-   (file "/usr/lib/python2.7/codecs.py", line 352, in write)
+WARN : file:/home/hanson/projects/odf2jats/flat_odf_xml_extract.xsl:163:Branch 2 of conditional will fail with a type error if executed. Required item type of value of variable $outline_level is xs:integer; supplied value has item type xs:string
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
+INFO : odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def

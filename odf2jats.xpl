@@ -133,22 +133,22 @@
         </p:input>
     </p:xslt>
 
-    <!-- Attempt to auto-tag citations in the running text -->
-    <p:xslt name="reftextparser" version="2.0">
+    <!-- autotagging of ref-list references -->
+    <p:xslt name="reflistparser" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
-            <p:document href="reftextparser_apa.xsl"/>
+            <p:document href="reflistparser_apa.xsl"/>
         </p:input>
         <p:input port="parameters">
             <p:empty/>
         </p:input>
     </p:xslt>
 
-    <!-- autotagging of ref-list references -->
-    <p:xslt name="reflistparser" version="2.0">
+    <!-- Attempt to auto-tag citations in the running text -->
+    <p:xslt name="reftextparser" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
-            <p:document href="reflistparser_apa.xsl"/>
+            <p:document href="reftextparser_apa.xsl"/>
         </p:input>
         <p:input port="parameters">
             <p:empty/>
