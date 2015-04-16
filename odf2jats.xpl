@@ -28,6 +28,16 @@
         </p:input>
     </p:xslt>
 
+    <p:xslt name="article-history" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="article-history.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <p:rename match="p[preceding-sibling::h2='References']" new-name="ref"/>
 
     <p:delete match="h2[.='References']"/>

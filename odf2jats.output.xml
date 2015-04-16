@@ -58,14 +58,14 @@
          <lpage>____</lpage>
          <history>
             <date date-type="received">
-               <day>____</day>
-               <month>____</month>
-               <year>____</year>
+               <day>17</day>
+               <month>6</month>
+               <year>2014</year>
             </date>
             <date date-type="accepted">
-               <day>____</day>
-               <month>____</month>
-               <year>____</year>
+               <day>26</day>
+               <month>2</month>
+               <year>2015</year>
             </date>
          </history>
          <permissions>
@@ -95,8 +95,6 @@
          <bold>Contact:</bold> Francis J. Crosson, American Medical Association, <uri>mailto:fjcrosson@gmail.com</uri>
          <uri>mailto:fjcrosson@gmail.com</uri>
       </contact-info>
-      <history>Received: 17 June 2014</history>
-      <history>Accepted: 26 Feb 2015</history>
       <p>A concerning number of American physicians have been growing increasingly dissatisfied with medical practice (<xref ref-type="bibr" rid="CSTW2014">Christopher, Smith, Tivis, &amp; Wilper, 2014</xref>; <xref ref-type="bibr" rid="LRB2003">Landon, Reschovsky, &amp; Blumenthal, 2003</xref>; <xref ref-type="bibr" rid="LKSSM2002">Leigh, Kravitz, Schembri, Samuels, &amp; Mobley, 2002</xref>; <xref ref-type="bibr" rid="LTK2009">Leigh, Tancredi, &amp; Kravitz, 2009</xref>; <xref ref-type="bibr" rid="P    2002">Pathman et al.,2002</xref>). In this paper we will discuss possible reasons for the growth in professional dissatisfaction. This will be through an examination of the evolution of the career expectations of physicians in the United States over recent decades and how those expectations are being affected by changes underway that are both internal and external to physician practices.</p>
       <p>American physicians enjoy higher social status, income and professional independence than physicians in most other countries. Advancements in clinical diagnostic and therapeutic to57ols gradually created a new aura of respect for the competency of physicians and a high level of patient trust in their professional judgment. Physicians became valued and their interventions more valuable just as the American economy was expanding after World War II.</p>
       <p>Until recently, most American physicians have practiced in solo practice or in small groups, usually organized by specialty, and approximately 60% still do (defined as less than 10 physicians in a practice) (<xref ref-type="bibr" rid="KE2013">Kane &amp; Emmons, 2013</xref>). This structure allows for control of virtually all the details of the day-to-day practice environment, and in the minds of many physicians strengthens the primacy of the physician-patient 1:1 relationship, free from external or “third party” interference<sup> </sup>(Starr, 1982, p. 25-26).</p>
@@ -1087,7 +1085,8 @@
                </person-group>
                <year>2003</year>
                <article-title>Primary care: Is there enough time for prevention?</article-title>
-               <source>American Journal of Public Health. 93</source>
+               <source>American Journal of Public Health</source>
+               <volume>93</volume>
                <issue>4</issue>
                <fpage>635</fpage>
                <lpage>641</lpage>

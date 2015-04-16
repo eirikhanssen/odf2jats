@@ -138,13 +138,13 @@
 
   <xsl:function name="o2j:getArticleSource" as="xs:string">
     <xsl:param name="originalRef" as="element(ref)"/>
-    <xsl:variable name="articleSource" select="replace($originalRef/italic[1], '^(.+?)(,\s*\d+.*?)?\s*$', '$1')" as="xs:string"/>
+    <xsl:variable name="articleSource" select="replace($originalRef/italic[1], '^(.+?)([,.]\s*\d+.*?)?\s*$', '$1')" as="xs:string"/>
     <xsl:value-of select="$articleSource"/>
   </xsl:function>
 
   <xsl:function name="o2j:getVolume" as="xs:string">
     <xsl:param name="originalRef" as="element(ref)"/>
-    <xsl:value-of select="replace($originalRef/italic[1] , '^.*?,\s*(\d+.*?)\s*$' , '$1')"/>
+    <xsl:value-of select="replace($originalRef/italic[1] , '^.*?[,.]\s*(\d+.*?)\s*$' , '$1')"/>
   </xsl:function>
 
   <xsl:function name="o2j:getIssue" as="xs:string">
@@ -307,7 +307,7 @@
 
     <xsl:variable name="hasTranslatedSource" select="matches($current_ref/italic[1]/following-sibling::text()[1] , '^.*?\[(.+?)\].*$')" as="xs:boolean"/>
 
-    <xsl:variable name="hasVolume" select="matches($current_ref/italic[1] , '^.*?,\s*\d+.*?\s*$')" as="xs:boolean"/>
+    <xsl:variable name="hasVolume" select="matches($current_ref/italic[1] , '^.*?[,.]\s*\d+.*?\s*$')" as="xs:boolean"/>
 
     <xsl:variable name="hasIssue" select="matches($current_ref/italic[1]/following-sibling::text()[1], '^\s*?\(\d+\).*?$')" as="xs:boolean"/>
 

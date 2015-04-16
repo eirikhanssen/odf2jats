@@ -35,16 +35,30 @@
                     <fpage>____</fpage>
                     <lpage>____</lpage>
                     <history>
-                        <date date-type="received">
-                            <day>____</day>
-                            <month>____</month>
-                            <year>____</year>
-                        </date>
-                        <date date-type="accepted">
-                            <day>____</day>
-                            <month>____</month>
-                            <year>____</year>
-                        </date>
+                        <xsl:choose>
+                            <xsl:when test="date[@date-type='received']">
+                                <xsl:sequence select="date[@date-type='received']"></xsl:sequence>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <date date-type="received">
+                                    <day>____</day>
+                                    <month>____</month>
+                                    <year>____</year>
+                                </date>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:choose>
+                            <xsl:when test="date[@date-type='accepted']">
+                                <xsl:sequence select="date[@date-type='accepted']"></xsl:sequence>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <date date-type="accepted">
+                                    <day>____</day>
+                                    <month>____</month>
+                                    <year>____</year>
+                                </date>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </history>
                     <xsl:apply-templates select="$article-meta-common/permissions"/>
                     <self-uri xlink:href="____">____</self-uri>
@@ -122,7 +136,7 @@
     <!-- These should not be applied to the body as they will be put in front or back -->
     <!-- since fn is listed here, it should not appear in the body, yet it does! -->
     <!-- If I can't prevent it from appearing in the body, I suppose I have to delete it with XProc -->
-    <xsl:template match="fn|abstract|keywords|authors|article-title|ref" mode="body"/>
+    <xsl:template match="fn|abstract|keywords|authors|article-title|ref|date" mode="body"/>
 
     <xsl:template match="node()|@*" mode="body">
         <xsl:copy>
