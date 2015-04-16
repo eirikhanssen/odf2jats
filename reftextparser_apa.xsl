@@ -31,6 +31,12 @@
         </xsl:choose>
     </xsl:function>
 
+    <!-- 
+        Store all refs with element-citation in a variable for comparing et al. type citations against 
+        referencs in the ref-list 
+    -->
+    <xsl:variable name="element-citation-refs" select="/article/back/ref-list/ref[element-citation]"/>
+
     <!--
         This template is a micro-pipeline, where parens that are identified to contain citation(s)
         are processed in several passes/phases using different modes.
@@ -68,12 +74,12 @@
                             <xsl:apply-templates select="$refsBySameAuthorsTokenized"
                                 mode="genIdIfAuthorsAndYear"/>
                         </xsl:variable>
-                        
+
                         <xsl:variable name="xrefsWithRidIfWhenLettersNotPresent">
                             <xsl:apply-templates select="$xrefsWithRidIfLettersPresent"
                                 mode="genIdWhenCapsLetterNotPresent"/>
                         </xsl:variable>
-                        
+
                         <xsl:variable name="xrefsInAuthorsGroupCleanup">
                             <xsl:apply-templates select="$xrefsWithRidIfWhenLettersNotPresent"
                                 mode="cleanupXrefsInAuthorsGroup"/>
@@ -93,16 +99,16 @@
             <xsl:non-matching-substring><xsl:text/><xsl:copy/><xsl:text/></xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:template>
-    
+
     <xsl:template match="refs" mode="cleanupXrefsInAuthorsGroup">
         <xsl:apply-templates mode="cleanupXrefsInAuthorsGroup"/>
     </xsl:template>
-    
+
     <xsl:template match="refsBySameAuthors" mode="cleanupXrefsInAuthorsGroup">
         <xsl:apply-templates mode="cleanupXrefsInAuthorsGroup"/>
         <xsl:if test="position() &lt; last()"><xsl:text>; </xsl:text></xsl:if>
     </xsl:template>
-    
+
     <xsl:template match="refsBySameAuthors/xref" mode="cleanupXrefsInAuthorsGroup">
         <xsl:element name="xref">
             <xsl:copy-of select="@*"/>
@@ -110,19 +116,19 @@
         </xsl:element>
         <xsl:if test="position() &lt; last()"><xsl:text>, </xsl:text></xsl:if>
     </xsl:template>
-    
+
     <xsl:template match="refs" mode="genIdWhenCapsLetterNotPresent">
         <refs>
             <xsl:apply-templates mode="genIdWhenCapsLetterNotPresent"/>
         </refs>
     </xsl:template>
-    
+
     <xsl:template match="refsBySameAuthors" mode="genIdWhenCapsLetterNotPresent">
         <refsBySameAuthors>
             <xsl:apply-templates mode="genIdWhenCapsLetterNotPresent"/>
         </refsBySameAuthors>
     </xsl:template>
-    
+
     <xsl:template match="refsBySameAuthors/xref" mode="genIdWhenCapsLetterNotPresent">
         <xref ref-type="bibr">
             <xsl:variable name="caps" select="replace(preceding-sibling::xref[@rid]/@rid , '\P{Lu}' ,'')"/>
@@ -160,7 +166,20 @@
             <xsl:variable name="year" select="replace( . , '.*(\d{4}\c*)', '$1')"/>
             <xsl:choose>
                 <xsl:when test="matches( . ,'\p{Lu}') and matches( . , 'et al\.')">
-                    <xsl:attribute name="rid" select="concat($caps , '    ' , $year)"/>
+                    <xsl:variable name="first_author_surname_in_citation" select="replace(. , '^\s*(.*?)\s*?et\s+al.*?$', '$1')"/>
+                    <xsl:choose>
+                        <!-- 
+                            If there is one and only one ref in the ref-list where the first author's surname and the year matches the 
+                            surname and year in an et al. citation, then copy the id from that ref in the ref-list to the rid-attribute 
+                            in this xref element. 
+                        -->
+                        <xsl:when test="count($element-citation-refs[(matches(element-citation/person-group/name[1]/surname , $first_author_surname_in_citation)) and element-citation/year = $year]) = 1">
+                            <xsl:attribute name="rid" select="$element-citation-refs[(matches(element-citation/person-group/name[1]/surname , $first_author_surname_in_citation)) and element-citation/year = $year]/@id"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="rid" select="concat($caps , '    ' , $year)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:when>
                 <xsl:when test="matches( . ,'\p{Lu}')">
                     <xsl:attribute name="rid" select="concat($caps, $year)"/>
