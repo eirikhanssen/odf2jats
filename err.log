@@ -1,4 +1,3 @@
-WARN : file:/home/hanson/projects/odf2jats/flat_odf_xml_extract.xsl:163:Branch 2 of conditional will fail with a type error if executed. Required item type of value of variable $outline_level is xs:integer; supplied value has item type xs:string
 INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
 INFO : odf2jats.xpl:21:55:(o2j WARNING): no $current_style_index_name
 INFO : odf2jats.xpl:21:55:(o2j WARNING): Empty Sequence $mapped-style-def

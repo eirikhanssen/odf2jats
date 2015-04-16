@@ -160,7 +160,7 @@
 
     <xsl:template match="text:h">
         <!-- store the outline_level in a variable, default to 1 -->
-        <xsl:variable name="outline_level" select="if (current()/@text:outline-level) then (current()/@text:outline-level) else ('1')" as="xs:integer"/>
+        <xsl:variable name="outline_level" select="if (current()/@text:outline-level) then (current()/@text:outline-level) else (1)" as="xs:integer"/>
         <xsl:variable name="elementName" as="xs:string">
             <!-- hvis level er 1, sjekk stilnavnet -->
             <xsl:choose>
