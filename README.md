@@ -45,6 +45,9 @@ styles of the appropriate level (and not formatted using character formatting). 
 have an outline level set in the style configuration, for the default header-styles this is normally
 the case. But if a user creates own header styles, this is something to keep in mind.
 
+Only the article title should have a header style with outline level 1, the rest should use lvl 2 and higher,
+and it is important not to skip a level.
+
 The outline level is used to automatically section the body of the JATS xml in sec/title + other elements.
 
 Text in the manuscript should be styled with the default paragraph style for text.
@@ -74,12 +77,19 @@ important to facilitate the reference parsing.
 - **journal-meta**
     - a template for a journal has been included, it could be changed for different journals by using a parameter to the pipeline
 - **article-meta**
-    - article title (if it has been styled with title paragraph style in the odt document).
-    - article authors (if styled with person paragraph style in the odt document).
-    - abstract
-    - keywords
-    - history (if styled with history paragraph style)
+    - article title (if it has been styled with **H1-ArticleTitle** header style in the odt document).
+    - article authors (if styled with **ArticleAuthors** paragraph style in the odt document).
+    - abstract (if styled with **ArticleAbstract** paragraph style)
+    - keywords (if styled with **ArticleKeywords** paragraph style)
+    - history (if styled with **ArticleHistory** paragraph style)
+    - if copied in a paragraph and styled with **ArticleIdentifiers** paragraph style:
+        - volume
+        - issue
+        - year
+        - self-uri
+        - doi 
 - adjacent (following) italic elements with only punctuation or whitespace between are merged in references
+
 - **book/book-chapter type references**
     - authors
     - year
@@ -96,6 +106,7 @@ important to facilitate the reference parsing.
     - publisher-loc
     - publisher-name
     - uri (if applicable)
+
 - **journal type references**
     - authors
     - year
@@ -126,29 +137,18 @@ important to facilitate the reference parsing.
 
 ### Extraction from the ODF container format to JATS
 - figures (not implemented)
-- article-meta/history: a change in the source document is needed for automatic extraction
-- article-meta issue and volume: a change in the source document is needed for automatic extraction
 - libre office can't access this information in the sample document because of ms word format incompatibilty
-    - volume of the article
-    - issue of the article
     - fpage of the article
     - lpage of the article
-- text-frames located in the document body as well as header and footer content should temporarily be placed
-  in article/orphans/orphan[@origin="header|footer|body"]
-    - Then during the grouping phase of the document, these orphans can be tested using regex pattern matching
-      to see if there is any information there that should be put in either of:
-        - article/front/article-meta
-        - article/front/journal-meta
-    - afterwords these orphans should be put in comment nodes, to allow the person running the JATS conversion to
-      decide what to do with it.
-    - electronic journal type references with elocation and no pages: elocation-id extraction haven't been implemented
-- contact-info is made available when marked up using paragraph-style, but 
-  behaviour to extract that info to article-meta (and remove the temporary elements from body) 
+- contact-info is made available when marked up using ArticleContactInfo paragraph-style, but the
+  behaviour to extract that info into article-meta (and remove the temporary elements from body) 
   has not been implemented yet.
 
 ### Improve ref-list autotagging
 - Electronic journal type references with elocation instead of page(s)
     - elocation-id extraction not implemented
+    - Actually I am not sure how this would be correctly styled with APA yet. Investigating.
+
 - Refs starting with following fail, but maybe this is acceptable because it is difficult to mark up using element-citation:
     - NICE. (2012).
     - WHO. (2000).
@@ -160,6 +160,7 @@ important to facilitate the reference parsing.
        - only mark up the 7 listed authors in the supplied ref list and leave it at that?
        - or should inserted a comment to remind the JATS xml author to try and find the missing authors
        - even if they will not be displayed in the html-file, it could make sense to have it in JATS xml.
+    - Correct triple dots to ellipsis character
 
 ### Content in the back section after references
 - tables/appendixes in the back section haven't been properly handled yet
@@ -171,6 +172,19 @@ important to facilitate the reference parsing.
   have **rid** attributes that misses capital letters from author's surname. 
     - extract relevant capital letters from the text node directly before the xref-element?
     - leave it as is and let the person doing the conversion manually fix those **rid** attributes?
+
+### Automatic correction/error handling
+In some cases it is obvious how to correct typing mistakes. This can be done automatically with regex,
+but then a ```<xsl:message>...</xsl:message>``` should be generated about what was fixed. This 
+will end up in the err.log so that corrections will not go unnoticed, and can be reported back
+to the authors/editors.
+
+Some tests should be made to check for and report common problems.
+
+### Adjacent bold, italic elements of the same type with whitespace-only nodes between.
+Sometimes the software for writing documents will insert adjacent bold or italic element
+in the same word, depending on how the user edits the text. 
+These should be merged, but maybe the white-space between can be significant, so this needs some care.
 
 ### Writing and styling aids for editors and authors
 
