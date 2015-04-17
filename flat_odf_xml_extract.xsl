@@ -354,6 +354,10 @@
             <sm:transformTo>history</sm:transformTo>
         </sm:style>
         <sm:style>
+            <sm:name>ArticleIdentifiers</sm:name>
+            <sm:transformTo>article-identifiers</sm:transformTo>
+        </sm:style>
+        <sm:style>
             <sm:name>FigLabel</sm:name>
             <sm:transformTo>label_fig</sm:transformTo>
         </sm:style>
