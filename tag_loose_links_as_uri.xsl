@@ -9,7 +9,8 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="text()[not(ancestor::uri)]">
+    <!-- wrap hyperlinks in uri elements, but not if they are already marked up as uri or self-uri -->
+    <xsl:template match="text()[not(ancestor::uri|ancestor::self-uri)]">
         <xsl:variable name="markup_common_uris_output">
             <xsl:analyze-string select="." regex="(\c+://[^\s]+)">
                 <xsl:matching-substring>
