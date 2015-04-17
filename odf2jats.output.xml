@@ -200,65 +200,63 @@
             <title>Improvements in practice efficiency</title>
             <p>One of the observations during the RAND-AMA research visits to physician practices was the rareness of evidence-based efforts to reduce the impact of workflow and documentation requirements weighing on physicians by recapturing physician-patient interaction time through systematic work-flow process improvement. Such approaches are not unknown, having been well documented by organizations such as the Virginia Mason Clinic in Seattle, Washington<sup> </sup>(<xref ref-type="bibr" rid="B2007">Bush, 2007</xref>), and the ThedaCare Health System in Minnesota<sup> </sup>(<xref ref-type="bibr" rid="TMS2013">Toussaint, Milstein, &amp; Shortell, 2013</xref>). In addition, Drs. Christine and Thomas Sinsky and others have described such successful efforts in smaller physician practices (<xref ref-type="bibr" rid="SWGSSMB2013">Sinsky et al., 2013</xref>).</p>
             <label_fig>Figure 2</label_fig>
-            <caption_fig>
-               <italic>Physician practice support tools</italic>
-            </caption_fig>
+            <caption_fig>Physician practice support tools</caption_fig>
             <list list-type="bullet">
                <list-item>
-                  <p style="">Pre-visit planning</p>
+                  <p>Pre-visit planning</p>
                </list-item>
                <list-item>
-                  <p style="">Pre-visit laboratory tests</p>
+                  <p>Pre-visit laboratory tests</p>
                </list-item>
                <list-item>
-                  <p style="">Expanded use of office staff</p>
+                  <p>Expanded use of office staff</p>
                   <list list-type="bullet">
                      <list-item>
-                        <p style="">Establish teams with other care givers</p>
+                        <p>Establish teams with other care givers</p>
                      </list-item>
                      <list-item>
-                        <p style="">Expanded rooming function by MAs</p>
+                        <p>Expanded rooming function by MAs</p>
                      </list-item>
                      <list-item>
-                        <p style="">Order entry</p>
+                        <p>Order entry</p>
                      </list-item>
                      <list-item>
-                        <p style="">Panel management-clinical</p>
+                        <p>Panel management-clinical</p>
                      </list-item>
                      <list-item>
-                        <p style="">responsibility</p>
+                        <p>responsibility</p>
                      </list-item>
                      <list-item>
-                        <p style="">Scribing</p>
+                        <p>Scribing</p>
                      </list-item>
                      <list-item>
-                        <p style="">RN filtering of in-box</p>
+                        <p>RN filtering of in-box</p>
                      </list-item>
                   </list>
                </list-item>
                <list-item>
-                  <p style="">Systematic prescriptions</p>
+                  <p>Systematic prescriptions</p>
                </list-item>
                <list-item>
-                  <p style="">EHR improvements</p>
+                  <p>EHR improvements</p>
                </list-item>
             </list>
             <list list-type="bullet">
                <list-item>
                   <list list-type="bullet">
                      <list-item>
-                        <p style="">Improve usability of GUI</p>
+                        <p>Improve usability of GUI</p>
                      </list-item>
                      <list-item>
-                        <p style="">Team-shared simultaneous access</p>
+                        <p>Team-shared simultaneous access</p>
                      </list-item>
                      <list-item>
-                        <p style="">Allow staff input of data elements</p>
+                        <p>Allow staff input of data elements</p>
                      </list-item>
                   </list>
                </list-item>
                <list-item>
-                  <p style="">Lean process improvement techniques–101</p>
+                  <p>Lean process improvement techniques–101</p>
                </list-item>
             </list>
             <p>Based upon the work of the Drs. Sinsky (<xref ref-type="bibr" rid="SWGSSMB2013">Sinsky et al., 2013</xref>) and others the AMA is developing a series of specific process improvement modules that can be implemented in physician practices of different specialties and practice sizes. Figure 2 lists the modules under development. It is not the purpose of this paper to describe all these modules, but one example is systematic improvement in the methods employed to refill chronic medications for stable patients. By one estimate<sup> </sup>(<xref ref-type="bibr" rid="SS2012">Sinsky &amp; Simnsky, 2012</xref>), the process of refilling these prescriptions requires about 200 hours of work per adult primary care physician per year, or 4-5 hours per week. This involves both physician and office staff time; time that could be better used in direct patient care activities. The AMA has developed an education module to show physicians how to eliminate this unnecessary work<sup>
@@ -311,18 +309,18 @@
    <back>
       <fn-group>
          <fn id="ftn1">
-            <p style="footnote_20_text"> Available at <uri>http://www.rand.org/pubs/research_reports/RR439.html</uri>
+            <p style="footnote_20_text">Available at <uri>http://www.rand.org/pubs/research_reports/RR439.html</uri>
             </p>
          </fn>
          <fn id="ftn2">
-            <p> This module and others in <italic>beta</italic>-testing mode can be accessed at <uri>https://www.steps-forward.com</uri>
+            <p>This module and others in <italic>beta</italic>-testing mode can be accessed at <uri>https://www.steps-forward.com/</uri>
             </p>
          </fn>
          <fn id="ftn3">
-            <p> This report can be accessed at <uri>https://download.ama-assn.org/resources/doc/ps2/x-pub/ehr-priorities.pdf</uri>.</p>
+            <p>This report can be accessed at <uri>https://download.ama-assn.org/resources/doc/ps2/x-pub/ehr-priorities.pdf</uri>.</p>
          </fn>
          <fn id="ftn4">
-            <p> The proceedings of the conference can be accessed at <uri>http://www.aha.org/research/rc/stat-studies/Studies.shtml</uri>, more particularly the entry entitled <uri>http://www.ahaphysicianforum.org/resources/leadership-development/ama-aha/new-models-proceedings.pdf</uri>
+            <p>The proceedings of the conference can be accessed at <uri>http://www.aha.org/research/rc/stat-studies/Studies.shtml</uri>, more particularly the entry entitled <uri>http://www.ahaphysicianforum.org/resources/leadership-development/ama-aha/new-models-proceedings.pdf</uri>
             </p>
          </fn>
          <fn id="ftn5">
@@ -415,8 +413,8 @@
                <uri>http://dx.doi.org/10.1001/jama.297.8.871</uri>
             </element-citation>
          </ref>
-         <ref id="CNBP2008"><!--Casalino, L. P., November, E. A., Berenson, R. A., & Pham, H. H. (2008). Hospital-physician relations: two tracks and the decline of the voluntary medical staff model. <italic>Health Affairs, 27</italic>(5), 1305-1314.-->
-            <element-citation publication-type="journal" publication-format="print">
+         <ref id="CNBP2008"><!--Casalino, L. P., November, E. A., Berenson, R. A., & Pham, H. H. (2008). Hospital-physician relations: two tracks and the decline of the voluntary medical staff model. <italic>Health Affairs, 27</italic>(5), 1305-1314. <uri>http://dx.doi.org/10.1377/hlthaff.27.5.1305</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Casalino</surname>
@@ -442,12 +440,8 @@
                <issue>5</issue>
                <fpage>1305</fpage>
                <lpage>1314</lpage>
-            </element-citation>
-         </ref>
-         <ref id="___"><!--<uri>http://dx.doi.org/10.1377/hlthaff.27.5.1305</uri>-->
-            <mixed-citation publication-format="web">
                <uri>http://dx.doi.org/10.1377/hlthaff.27.5.1305</uri>
-            </mixed-citation>
+            </element-citation>
          </ref>
          <ref id="CNGHMKL2009"><!--Casalino, L. P., Nicholson, S., Gans, D. N., Hammons, T., Morra, D., Karrison, T., & Levinson, W. (2009). What does it cost physician practices to interact with health insurance plans? <italic>Health Affairs, 28</italic>(4), w533-w543. <uri>http://dx.doi.org/10.1377/hlthaff.28.4.w533</uri>-->
             <element-citation publication-type="journal" publication-format="web">
