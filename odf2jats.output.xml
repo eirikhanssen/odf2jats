@@ -27,16 +27,9 @@
             </subj-group>
          </article-categories>
          <title-group>
-            <article-title>Physician Dissatisfaction in the United States: An Examination</article-title>
+            <article-title>Physician Satisfaction and Physician Well-Being: Should Anyone Care?</article-title>
          </title-group>
          <contrib-group>
-            <contrib contrib-type="author">
-               <name>
-                  <surname>Crosson</surname>
-                  <given-names>Francis J.</given-names>
-               </name>
-               <xref ref-type="aff" rid="F_Crosson"/>
-            </contrib>
             <contrib contrib-type="author">
                <name>
                   <surname>Casalino</surname>
@@ -44,9 +37,16 @@
                </name>
                <xref ref-type="aff" rid="L_Casalino"/>
             </contrib>
+            <contrib contrib-type="author">
+               <name>
+                  <surname>Crosson</surname>
+                  <given-names>Francis J.</given-names>
+               </name>
+               <xref ref-type="aff" rid="F_Crosson"/>
+            </contrib>
          </contrib-group>
-         <aff id="F_Crosson">____</aff>
          <aff id="L_Casalino">____</aff>
+         <aff id="F_Crosson">____</aff>
          <pub-date pub-type="pub">
             <day>____</day>
             <month>____</month>
@@ -58,14 +58,14 @@
          <lpage>____</lpage>
          <history>
             <date date-type="received">
-               <day>17</day>
-               <month>6</month>
-               <year>2014</year>
+               <day>____</day>
+               <month>____</month>
+               <year>____</year>
             </date>
             <date date-type="accepted">
-               <day>26</day>
-               <month>2</month>
-               <year>2015</year>
+               <day>____</day>
+               <month>____</month>
+               <year>____</year>
             </date>
          </history>
          <permissions>
@@ -76,374 +76,287 @@
          </permissions>
          <self-uri xlink:href="____">____</self-uri>
          <abstract>
-            <p>This paper addresses several root causes of dissatisfaction with medical practice among American physicians, and suggests that some, but not all, are potentially remediable. Fixed assumptions about the nature of medical practice in the United States, developed over several decades, appear to be eroding. At the same time, increasing demands on physician time, especially involving low value documentation and administrative tasks are interfering with the physician-patient interaction. In addition, physician practice structure and payment methodologies are beginning to change in the United States leading to a sense of practice instability among physicians. Recent research conducted by the American Medical Association and the RAND Corporation has provided new qualitative and quantitative information about the impact of these trends on physician practices. An evaluation of these research findings indicates that some improvements in physician satisfaction are possible.</p>
+            <p>We present a model of hypothesized relationships between physician satisfaction, physician well-being and the quality of care, in addition to a review of relevant literature. The model suggests that physicians who are stressed, burned out, depressed, and/or have poor self-care are more likely to be dissatisfied, and vice-versa. Both poor physician well-being and physician dissatisfaction are hypothesized to lead to diminished physician concentration, effort, empathy, and professionalism. This results in misdiagnoses and other medical errors, a higher rate of inappropriate referrals and prescriptions, lower patient satisfaction and adherence to physician recommendations, and worse physician performance in areas not observed by others. Research to date largely supports the model, but high quality studies are few. Research should include studies that are prospective, larger, and have a stronger analytic design, ideally including difference in differences analyses comparing quality of care for patients of physicians who become dissatisfied to those who remain satisfied, and vice versa.</p>
          </abstract>
-         <kwd-group kwd-group-type="author-generated">
-            <kwd>physician professionalism</kwd>
-            <kwd>practice satisfaction</kwd>
-            <kwd>electronic health records</kwd>
-            <kwd>health care reform in the U.S</kwd>
-         </kwd-group>
+         <kwd-group kwd-group-type="author-generated"/>
       </article-meta>
    </front>
    <body>
-      <contact-info>
-         <italic>Francis J. Crosson</italic>, American Medical Association </contact-info>
-      <contact-info>
-         <italic>Lawrence P. Casalino</italic>, Division of Health Policy and Economics, Cornell Weill Medical College</contact-info>
-      <contact-info>
-         <bold>Contact:</bold> Francis J. Crosson, American Medical Association, <uri>mailto:fjcrosson@gmail.com</uri>
-         <uri>mailto:fjcrosson@gmail.com</uri>
-      </contact-info>
-      <p>A concerning number of American physicians have been growing increasingly dissatisfied with medical practice (<xref ref-type="bibr" rid="CSTW2014">Christopher, Smith, Tivis, &amp; Wilper, 2014</xref>; <xref ref-type="bibr" rid="LRB2003">Landon, Reschovsky, &amp; Blumenthal, 2003</xref>; <xref ref-type="bibr" rid="LKSSM2002">Leigh, Kravitz, Schembri, Samuels, &amp; Mobley, 2002</xref>; <xref ref-type="bibr" rid="LTK2009">Leigh, Tancredi, &amp; Kravitz, 2009</xref>; <xref ref-type="bibr" rid="PKWSLD2002">Pathman et al.,2002</xref>). In this paper we will discuss possible reasons for the growth in professional dissatisfaction. This will be through an examination of the evolution of the career expectations of physicians in the United States over recent decades and how those expectations are being affected by changes underway that are both internal and external to physician practices.</p>
-      <p>American physicians enjoy higher social status, income and professional independence than physicians in most other countries. Advancements in clinical diagnostic and therapeutic to57ols gradually created a new aura of respect for the competency of physicians and a high level of patient trust in their professional judgment. Physicians became valued and their interventions more valuable just as the American economy was expanding after World War II.</p>
-      <p>Until recently, most American physicians have practiced in solo practice or in small groups, usually organized by specialty, and approximately 60% still do (defined as less than 10 physicians in a practice) (<xref ref-type="bibr" rid="KE2013">Kane &amp; Emmons, 2013</xref>). This structure allows for control of virtually all the details of the day-to-day practice environment, and in the minds of many physicians strengthens the primacy of the physician-patient 1:1 relationship, free from external or “third party” interference<sup> </sup>(Starr, 1982, p. 25-26).</p>
-      <p>This “Hippocratic Oath” responsibility, many physicians believed, confers upon them an independence of judgment and action, which should not be subject to external interference. This belief led to the principle of “physician autonomy”, which by the mid-twentieth century was a firmly established expectation for physicians leaving residency training programs and entering practice (<xref ref-type="bibr" rid="S1982">Starr, 1982</xref>).</p>
-      <p>Most physicians in practice were and still are receiving payment for individual services provided one at a time to patients (fee-for-service payment). This payment mechanism in the U.S, unlike in most OECD countries, generally takes place in the absence of any supervening “global budget” for health care services, either at a local or national level. Many believe that in America this payment mechanism, combined with the principle of physician autonomy, can encourage the overuse of some health care services, especially in clinical situations where the indications for such services are “borderline” (<xref ref-type="bibr" rid="TMPAC2011">The Medicare Payment Advisory Commission, 2011</xref>), leading to higher income, especially for certain medical specialties.</p>
-      <p>Payment for physician services in the U.S. was also influenced by two key historical events. The first was the encouragement during World War II by the U.S War Labor Board of employer-provided health care coverage in lieu of wage increases, which were deemed inflationary. In addition, in 1964 the federal government established the Medicare program to provide health care services for citizens aged 65 and over. Although the Medicare program evolved a methodology to set prices for specific physician services, known as the Resource-Based Relative Value System (<xref ref-type="bibr" rid="HBDBDNK1988">Hsiao et al., 1988</xref>), the program has virtually no constraints on the volume of services provided to its beneficiaries.</p>
-      <p>Thus, these three forces, fee-for-service payment in the absence of a global budget, broad private insurance coverage and growing expenditures for the elderly contributed to rising income for physicians in the latter half of the twentieth century and an expectation among physicians that this trend would continue unabated. The aim of what follows is to examine financial concerns and additional, non-financial, causes of dissatisfaction and by doing so place financial concerns in a larger context.</p>
+      <p style="ArticleIdentifiers">ISSN: 1893-1049Volume 5, No 1 (<xref ref-type="bibr" rid="    2015">2015</xref>) <uri>http://dx.doi.org/10.7577/pp.954</uri>
+      </p>
+      <p>It seems obvious that patients would prefer that their physician not be depressed, burned out, sleep-deprived, or addicted to drugs or alcohol. But in addition, it seems likely that patients would prefer their physician to be reasonably satisfied with his or her work. What would you say if you—the reader—were asked “Would you willingly consult a physician who is very dissatisfied with his or her work?” What would go through your mind? Will the physician care about you? Will she make you feel uncomfortable? Will she order the right tests? Will she be conscientious about details? Will she make the right diagnosis? Will she stay in touch to make sure that you recover as expected? Can you trust her?</p>
+      <p>
+         <date date-type="received">
+            <day>3</day>
+            <month>8</month>
+            <year>2014</year>
+         </date>
+         <date date-type="accepted">
+            <day>17</day>
+            <month>2</month>
+            <year>2015</year>
+         </date>These questions suggest that physician dissatisfaction and physician well-being may be issues worthy of attention. If physician dissatisfaction, for example, affects the quality of care, and if it is widespread, then physician dissatisfaction is a public health issue (<xref ref-type="bibr" rid="K2012">Kravitz, 2012</xref>). In this paper we present a simple model of hypothesized relationships between physician dissatisfaction, physician well-being, and the quality of care for patients. We briefly review the evidence on the effects of physician dissatisfaction and a lack of physician well-being on quality. We suggest areas where research is lacking and types of research that might address these gaps.</p>
       <!-- sec lvl 2 begin -->
       <sec>
-         <title>The decline in physician practice satisfaction</title>
-         <p>As cited above, several survey-based studies over the last two decades have shown declining satisfaction with office-based practice among American physicians. Physicians are not infrequently quoted as saying that they wish they had not chosen medicine as a career and would not recommend that their own children become physicians. The percentage of physicians expressing these views varies by survey design, but is probably between 20-30% of currently practicing physicians (<xref ref-type="bibr" rid="BCOM2009">Boukus, Cassil, &amp; O’Malley, 2009</xref>; <xref ref-type="bibr" rid="SJ2014">Sorrell &amp; Jennings, 2014</xref>). It is important to note that this level of dissatisfaction is not the case in all countries (<xref ref-type="bibr" rid="ARN2010">Aasland, Rosta, &amp; Nylenna, 2010</xref>). Discontent also varies by specialty and income, with overrepresentation among physicians practicing adult primary care medicine, especially in smaller practices. One study in California suggested that dissatisfaction is lower among physicians practicing in large multispecialty groups<sup> </sup>(<xref ref-type="bibr" rid="RGONDB2004">Rittenhouse, Grumbach, O’Neil, Dower, &amp; Bindman, 2004</xref>).</p>
-         <p>As noted above, one source of vocal dissatisfaction, often heard in political discourse, is declining income and anticipation of further declines in the future. There are generally three sources for physician income, other than direct payments from patients. The largest source for most physicians is payments from commercial health plans. Most health plans have been attempting to limit physician costs by selectively contracting with the least costly practices, thus driving down rates. In addition, insurance design has been evolving to higher patient out-of-pocket cost requirements through the use of higher deductibles and co-payments, which has become a barrier for some to seeking physician services.</p>
-         <p>More importantly, there is a growing disparity in income among physician specialties<sup> </sup>(<xref ref-type="bibr" rid="M2013">Medscape, 2013</xref>). Those physicians in primary care specialties and other specialties in which reimbursement is based primarily on office visits alone have had income decreases in some cases, and in most cases substantially lower increases over time (compared to inflation) than specialties in which reimbursement is based, all or in part, on diagnostic or therapeutic procedures.</p>
-         <p>But, at least as important for most physicians as income are the non-financial subjective rewards accruing from the practice of medicine. This is why most physicians chose the profession of medicine in the first place. This reward has been dissipating as well for many physicians. First, the aging of the population has added to the fragility and complexity of the patients being served, resulting in time pressures during physician-patient encounters (<xref ref-type="bibr" rid="SDFF2014">Shaw, Davis, Fleischer, &amp; Feldman, 2014</xref>). It is very common for the physician’s day to be filled with patients 80 years old or older with multiple chronic conditions to deal with, sometimes with deteriorating patient mental capacities. In addition, medical science has produced, in the last twenty years, many more preventive services, such as immunizations, cancer screening processes, health education needs and other useful interventions that again require physician time to explain, order, interpret and communicate. One recent calculation concluded that to deal properly with all these interventions in the typical primary care physician practice would require 1773 hours of work per year per physician or 7.4 hours per day, while doing nothing else (<xref ref-type="bibr" rid="YPØK2013">Yarnell, Pollak, Østbye, &amp; Krause, 2013</xref>). Many physicians report feelings of guilt about not be able to all that is needed for their patients no matter how hard they work (<xref ref-type="bibr" rid="FCVAPC2013">Friedberg et al., 2013</xref>).</p>
-         <p>Another common complaint heard from American physicians is the increasing “administrative” non-clinical work that is required of them by payers and by government regulations. A typical physician practice receives payment from multiple private health plans, direct payments from large employers, and commonly, payments from Medicare and Medicaid (the government program for low income citizens). Each of these payers has different rules and regulations about what services they will cover and how to submit and receive payments. For example, each private health plan may cover different pharmaceuticals, requiring physicians to understand and track the specifics for each plan or risk having the patients prescription not covered by the health plan. In addition to Medicare, many private payers and voluntary accrediting organizations are beginning to require more and more complex reporting of quality information from practices, necessitating a new level of record keeping and external communications in physician offices (<xref ref-type="bibr" rid="CNGHMKL2009">Casalino et al., 2009</xref>; <xref ref-type="bibr" rid="PGGWLR2013">Panzer et al., 2013</xref>). It must be acknowledged, however, that not all time spent on these activities is wasted: Quality measurement and documentation probably serve to improve practice quality.</p>
-         <p>Similarly, the increase in the use of electronic health records (EHRs) in physician offices and hospitals, although improving the quality and legibility of medical record keeping and likely the quality of care, has created more time-consuming work for physicians (<xref ref-type="bibr" rid="QWOBS2009">Quinn, Wilcox, Orav, Bates, &amp; Simon., 2009</xref>). Some physicians report that the deployment of their EHR was “the straw that broke the camel’s back,” in terms of practice efficiency and workload. We will cover more detail on this point below.</p>
-         <p>Finally, the demographic profile of the American physician has been changing, in keeping with changes seen in the larger population. Many more newly trained physicians are women, with attendant childbearing interests. In addition, many younger American physicians, irrespective of gender, express more interest than previous generations in “balancing” professional responsibilities with family and personal priorities (<xref ref-type="bibr" rid="C    1014">Christopher et al. 1014</xref>). These interests often conflict with the professional and managerial responsibilities of running a practice, resulting in dissatisfaction at a level not experienced by previous generations of physicians. As a consequence many younger physicians are seeking institutional employment by large group practices and hospitals in an effort to find a more stable and sustainable life style<sup> </sup>(<xref ref-type="bibr" rid="MMDGSY2013">Moses et al., 2013</xref>).</p>
+         <title>Model of the effects of physician dissatisfaction</title>
+         <p>By “physician dissatisfaction”, we mean lack of satisfaction related directly to the physician’s work, as reported by the physician. By physician well-being we mean, at a minimum, the absence of burnout, depression, poor self-care, and substance abuse. Research suggests a negative correlation between physician dissatisfaction and well-being, though not all dissatisfied physicians report being burnt out, and not all physicians who report being burned out report being dissatisfied (<xref ref-type="bibr" rid="KFJH2007">Keeton, Fenner, Johnson, &amp; Hayward, 2007</xref>; <xref ref-type="bibr" rid="WMKL2007">Williams, Manwell, Konrad, &amp; Linzer, 2007</xref>). Figure 1 presents a simple model of physician well-being and physician dissatisfaction and their possible effects; we discuss research evidence relevant to the components of this model in the “Evidence” section of this paper, below.</p>
+         <p>Figure 1 assumes that, though physician well-being and physician satisfaction are not identical, the same factors affect both, and that both physician well-being and physician satisfaction may impact physician behavior and therefore the quality of medical care. Multiple factors may affect physician well-being and satisfaction—notably the physician’s income and the conditions in which he or she works—for example work hours, the pace of work, the culture of the organization in which the physician works, the incentives the organization provides to the physician, and administrative or other obstacles that make work more difficult and/or that interfere with the physician’s ability to provide what he or she considers to be high quality care. In addition, if patient outcomes or patients’ experience of care are not as favorable as the physician believes appropriate, this may lead to physician dissatisfaction.</p>
+         <p>Figure 1 suggests that dissatisfied physicians may be more likely to develop stress, burnout, depression, poor self-care, and/or substance abuse, and that physicians who are stressed, burned-out, depressed, etc. will be more likely to report being dissatisfied with their work. Physician dissatisfaction and physician well-being, in turn, may have an impact on physician behavior: They may diminish the cognitive capacity that the physician applies to her work, the concentration that she is able to bring to bear on difficult problems, the effort that she makes for patients, and the empathy that she is able to feel for her patients. More broadly, and perhaps even more importantly, the physician’s professionalism may be reduced—a topic to which we will return in a moment.</p>
+         <p>If cognitive capacity, concentration, effort, empathy, and professionalism are reduced, there may be negative impacts on patients: The physician may be more likely to make incorrect diagnoses, to make other medical errors, to write inappropriate prescriptions and to make unnecessary referrals for specialist care and for expensive diagnostic tests, and to perform particularly poorly in areas of medical care that are difficult for patients, peers, or outside entities that measure physician performance to observe. Confronted with a physician who doesn’t give them much time, empathy, or information, patients may be less satisfied with their care and be less likely to adhere to important advice from the physician. Figure 1 suggests a possible deleterious feedback cycle in which physician dissatisfaction and/or low physician well-being lead to lower patient satisfaction and worse outcomes for patients, which in turn increase physician dissatisfaction and/or lower physician well-being.</p>
+         <p>Related, quite similar models have been published (<xref ref-type="bibr" rid="FC2001">Firth-Cozens, 2001</xref>; <xref ref-type="bibr" rid="WLG2009">Wallace, Lemaire, &amp; Ghali, 2009</xref>; <xref ref-type="bibr" rid="WS2003">Williams &amp; Skinner, 2003</xref>), though they do not explicitly distinguish between physician dissatisfaction and physician well-being.</p>
+         <p>Physician dissatisfaction and lack of physician well-being may also affect patients indirectly. For example, dissatisfied or burnt-out physicians may be more likely to change jobs frequently or to leave medicine altogether. The costs of physician turnover are high for both the physician and the organization that employed her. Higher costs may be passed on to the organizations that pay for medical care, and ultimately to patients. If physicians leave medical practice, they exacerbate the problem, at least in the U.S., of shortages of physicians in some specialties (especially primary care—and primary care physicians tend to be among the most dissatisfied) and geographic areas.</p>
       </sec>
       <!-- sec lvl 2 end -->
       <!-- sec lvl 2 begin -->
       <sec>
-         <title>AMA-Rand health research findings</title>
-         <p>By 2012, American physicians, including physician leaders and physician educators, had become increasingly concerned about growing physician dissatisfaction with clinical practice. The decline in physician practice satisfaction awkwardly coincided with federal efforts to expand health care coverage though the Patient Protection and Affordable care Act of 2010 (commonly referred to as the ACA or “Obamacare”), raising fears about a potential physician shortage. The largest American physician organization, the American Medical Association (AMA) decided to sponsor an organized effort to investigate in detail the current elements leading to practice dissatisfaction, and to develop plans to help mitigate those dissatisfaction-causing elements that are amenable to mitigation. To that end, near the end of 2012, the AMA, with input from an external advisory committee, engaged a team of health services investigators from the RAND Corporation, a noted research organization with multiple U.S. and international locations, to investigate the principal causes of physician dissatisfaction. Since this research represents the most current and detailed analysis of U.S. physician dissatisfaction, we will describe it below in some detail. The AMA’s intent was to analyze the findings of this AMA-RAND “field” research in order to help design the key aspects of a future mitigation plan for American physicians, including needs for further research.</p>
-         <p>A detailed description of the study methodology, as well as the results, was published in October of 2013<sup> </sup>(<xref ref-type="bibr" rid="FCVAPC2013">Friedberg et al., 2013</xref>). Readers are directed to the original paper for a thorough explication of the research<sup>
-               <xref ref-type="fn" rid="ftn1">1</xref>
-            </sup>. What follows here is a summary of the work and findings. In general the findings were consistent with previous well-designed American physician satisfaction surveys (<xref ref-type="bibr" rid="LKSSM2002">Leigh et al., 2002</xref>; <xref ref-type="bibr" rid="PKWSLD2002">Pathman et al., 2002</xref>; <xref ref-type="bibr" rid="L    2006">Landon et al., 2006</xref>; <xref ref-type="bibr" rid="LTK2009">Leigh et al., 2009</xref>). It is difficult to compare levels of “overall” satisfaction among studies because of differences in survey design and question construction and presentation. One striking difference, described below, was the near universal citing by RAND-surveyed physicians of a new and intense dissatisfier not mentioned in earlier surveys, the lack of ease of use of EHRs. This is not surprising since EHRs were not in common use during the time of the earlier surveys.</p>
+         <title>Physician dissatisfaction, physician well-being, and physician professionalism</title>
+         <p>Physician professionalism has many facets (<xref ref-type="bibr" rid="MPP2002">Medical Professionalism Project, 2002</xref>), but for purposes of this article we will focus on two: first, keeping one’s knowledge and skills up to date; second, putting the patient’s needs first. Proponents of physician professionalism often discuss it as if it were a metaphysical essence—a vital inner capacity possessed by almost all physicians (<xref ref-type="bibr" rid="B2003">Barondess, 2003</xref>). Skeptics, at the extreme, see physician professionalism as a self-serving myth—a shield used by physicians to maximize their autonomy and incomes (<xref ref-type="bibr" rid="L1977">Larson, 1977</xref>). But it is probably more accurate to understand physician professionalism not as a metaphysical essence, nor as a self-serving myth, but as a vital but variable reality—something that is vital for the well-being of patients but varies depending on the individual physician and the environment in which the physician works.</p>
+         <p>As the Nobel Prize winning economist Kenneth Arrow pointed out long ago, physician professionalism is important because of the inevitable information asymmetry between patients and physicians (<xref ref-type="bibr" rid="A1963">Arrow, 1963</xref>). Patients generally cannot know as much as physicians, and neither patients nor any outside entity (such as a government agency or a health insurance company) can observe or measure all—or even very many—of the important decisions physicians make and the important things they do (or don’t do) for patients. Therefore, even in health care systems that emphasize “pay-for performance,” public reporting of physician performance, and/or “value based payment,” physician professionalism will remain very important if patients are to receive truly high quality care (<xref ref-type="bibr" rid="C1999">Casalino, 1999</xref>).</p>
+         <p>Put another way, physician professionalism is important because highly professional physicians will try hard to do the right thing even when they are not being measured, and many critical areas of medical care—for example diagnosis—are not currently measured and may never be amenable to accurate measurement (<xref ref-type="bibr" rid="BK2013">Berenson &amp; Kaye, 2013</xref>; <xref ref-type="bibr" rid="CAJK2007">Casalino, Alexander, Jin, &amp; Konetzka, 2007</xref>). But professionalism is likely to vary across physicians (based, for example, on differences in physicians’ personalities and in the training they have had) and even within the same physician over time (based, for example, on the organization in which the physician works and the incentives that the physician faces).</p>
+         <p>It seems likely that physicians who are dissatisfied, burned-out, and/or depressed will act less professionally. If this is the case, the impact on patient care is likely to be large. Critically, much of the impact may be difficult to measure, because professionalism is particularly important for areas of patient care that are difficult (or, practically speaking, impossible) to measure (<xref ref-type="bibr" rid="BK2013">Berenson &amp; Kaye, 2013</xref>).</p>
+      </sec>
+      <!-- sec lvl 2 end -->
+      <!-- sec lvl 2 begin -->
+      <sec>
+         <title>Evidence of the consequences of physician dissatisfaction and low physician well-being</title>
+         <p>This article is not intended to be a comprehensive review of the literature but rather a presentation of key concepts and key findings from the literature and suggestions for research to fill important gaps in the literature. We focused our search of the literature on the consequences of physician dissatisfaction, but we also report evidence on the impact of poor physician well-being. Specifically, we searched PubMed, Google Scholar, and Google for the phrases “physician satisfaction” and “physician dissatisfaction,” with emphasis on the past 25 years. To our knowledge, there have been two narrative reviews in English of research on the consequences of physician dissatisfaction and low physician well-being, with the most recent published in 2009 (<xref ref-type="bibr" rid="W    2009">Wallace et al., 2009</xref>; <xref ref-type="bibr" rid="WS2003">Williams &amp; Skinner, 2003</xref>). We critically and selectively present evidence from these reviews, as well evidence that has appeared since they were published.</p>
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Physician well-being</title>
+            <p>Many physicians work long hours and must deal with various kinds of stressors. Suicide rates tend to be higher among physicians than among the general population (<xref ref-type="bibr" rid="HHATVE2005">Hem et al., 2005</xref>). There is ample evidence that physicians—regardless of the country in which they work—frequently suffer from burnout, depression, and substance abuse problems (<xref ref-type="bibr" rid="WLG2009">Wallace, Lemaire, Ghali, 2009</xref>). A recent review cites studies suggesting the frequency of physician reported burnout as ranging from 25-60% (<xref ref-type="bibr" rid="W    2009">Wallace et al., 2009</xref>). A critical assessment of the studies suggests that the true frequency is more likely to be closer to the lower percentage than the higher one, with depression rates somewhat lower than burnout rates. Not surprisingly, dissatisfied physicians are more likely to report being burned out (<xref ref-type="bibr" rid="WMKL2007">Williams et al., 2007</xref>) and burnout has been shown to be a predictor of physician dissatisfaction (<xref ref-type="bibr" rid="KFJH2007">Keeton et al., 2007</xref>), though most studies do not evaluate the relationship between dissatisfaction and burnout or depression.</p>
+            <p>The high frequency of physician burnout contrasts sharply with the high percentage of physicians in the U.S. who reported being “somewhat satisfied” or “very satisfied” with their careers in a large national study (<xref ref-type="bibr" rid="CSTW2014">Christopher, Smith, Tivis, &amp; Wilper, 2014</xref>) or the fact that physicians scored higher than any other occupational category in overall well-being as measured in a 2012 Gallup Poll (<xref ref-type="bibr" rid="W2013">Witters, 2013</xref>). This contrast has not been explained and is an important subject for future research. Speculatively, it might be hypothesized that physicians can be satisfied with their careers yet take pride in working very hard and being “burned out”—attitudes that may be imprinted on medical students and resident physicians during their clinical training years.</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Physician turn-over and physicians leaving the practice of medicine</title>
+            <p>There is ample evidence that dissatisfied physicians are more likely to report planning to leave their current practice situation or to leave the practice of medicine altogether (<xref ref-type="bibr" rid="CSECG2001">Campbell, Sonnad, Eckhauser, Campbell, &amp; Greenfield, 2001</xref>; <xref ref-type="bibr" rid="SBG2003">Sibbald, Bojke, &amp; Gravelle, 2003</xref>; <xref ref-type="bibr" rid="WKSPLMMS2010">Williams et al., 2010</xref>; <xref ref-type="bibr" rid="WS2003">Williams &amp; Skinner, 2003</xref>). It is not surprising that dissatisfied physicians would report this, but do they actually leave? A longitudinal study a U.S. national sample of nearly 17,000 physicians, using successive waves of the Community Tracking Study, demonstrated that dissatisfied physicians are in fact more likely to leave medicine or to reduce their work hours (<xref ref-type="bibr" rid="LRPB2006">Landon, Reschovsky, Pham, &amp; Blumenthal, 2006</xref>). Physicians who reported being very dissatisfied in 1996 were 2.3 times more likely to have left medicine by 1998 and 3.6 times more likely to have reduced their hours practicing medicine. A separate longitudinal study of 507 primary care physicians found that dissatisfied physicians were 2.4 times more likely to leave their current practice (<xref ref-type="bibr" rid="BWMP2001">Buchbinder, Wilson, Melick, &amp; Powe, 2001</xref>).</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Physician professionalism</title>
+            <p>There is relatively little direct evidence of the effect of dissatisfaction or low physician well-being on physician professionalism. However, as predicted in the model in Figure 1, physicians who report being burned out are more likely to report engaging in unprofessional behaviors and holding less altruistic views about physicians’ responsibility to society (<xref ref-type="bibr" rid="DMJEHPDS2010">Dyrbye et al., 2010</xref>), and physicians who report being stressed report multiple ways in which stress reduces their empathy and cognitive capacity, leading to serious medical errors (<xref ref-type="bibr" rid="FCG1997">Firth-Cozens &amp; Greenhalgh, 1997</xref>). In a 2014 study of physicians within a highly esteemed U.S. medical group, one quarter of physicians reported that they depersonalize patients, responding affirmatively to statements such as “I’ve become more callous toward people since I took this job” and “I feel I treat some recipients as if they were impersonal objects” (<xref ref-type="bibr" rid="G2014">Goitein, 2014</xref>; <xref ref-type="bibr" rid="WDRCDMS2014">West et al., 2014</xref>).</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Patient satisfaction</title>
+            <p>Research tends to support the hypothesis that patient satisfaction is higher among patients of more satisfied physicians, though the quantity and strength of the research are surprisingly modest. In a 1985 study of patients in 16 academic general internal medicine clinics, patient satisfaction was significantly higher among patients of physicians who reported high levels of satisfaction with their work (<xref ref-type="bibr" rid="LBCDFK1985">Linn et al., 1985</xref>).</p>
+            <p>In a 2005 prospective study of 2,004 patients with pain and/or depression cared for by 261 primary care physicians in private practice in Seattle, patients reported significantly higher trust and confidence in physicians who had high job satisfaction, and depressed patients gave higher ratings to the care provided by high satisfaction physicians, but neither pain nor depression patients reported significantly better communication with their physicians (<xref ref-type="bibr" rid="GPDKMP2005">Grembowski et al., 2005</xref>).</p>
+            <p>In a 2008 study of patients who had been hospitalized for a variety of reasons, among 178 matched physician-patient pairs, patients of physicians who scored high on the depersonalization dimension of the Maslach Burnout Inventory were less satisfied with their physician and reported a longer post-discharge recovery time (<xref ref-type="bibr" rid="HR2008">Halbesleben &amp; Rathert, 2008</xref>).</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Patient adherence to physician recommendations</title>
+            <p>There is surprisingly little direct evidence on the relationship of physician satisfaction to patient adherence with physician recommendations. In a 1993 two year prospective study of 20,000 chronically ill patients of 186 physicians, patients were more likely to follow the recommendations of physicians who reported relatively high levels of global satisfaction with their practice of medicine (<xref ref-type="bibr" rid="DMSHOKMGR1993">DiMatteo et al., 1993</xref>). A 1985 study found higher continuity of care and lower patient no-show rates in internal medicine practices when both physicians and patients reported higher satisfaction (<xref ref-type="bibr" rid="LBCDFK1985">Linn et al., 1985</xref>); more highly satisfied physicians also had patients with better adherence in a two year study of 186 physicians (<xref ref-type="bibr" rid="DMSHOKMGR1993">DiMatteo et al., 1993</xref>).</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Prescribing medications and referring patients to specialists</title>
+            <p>Dissatisfied physicians may not be inclined to devote too much time or cognitive effort to caring for their patients. If this is true, then it is easier to write a prescription and send the patient on her way than to spend time evaluating a problem thoroughly and communicating with the patient. Similarly, if a patient’s problem is at all difficult, it is quicker simply to refer the patient to another physician, or for an imaging study (except in environments where referrals are rationed and making a referral may require some time from the physician). There is a good deal of evidence that dissatisfied physicians write more prescriptions, and some evidence that they make more referrals. In a 1980 cross-sectional study of 124 general practitioners in England and Wales, physicians with low job satisfaction were significantly more likely to prescribe medications that are prone to cause adverse reactions (such as monoamine oxidase inhibitors, or major tranquilizers for elderly patients) and/or were deemed inappropriate (<xref ref-type="bibr" rid="M1980">Melville, 1980</xref>).</p>
+            <p>In a 1985 cross-sectional study of 42 general practitioners in the Netherlands, dissatisfied physicians prescribed more medications (<xref ref-type="bibr" rid="GMSBMMN1985">Grol et al., 1985</xref>). However, they made fewer referrals to specialists. It is not clear whether, in the context in which these physicians were working, referrals were an activity that required little effort from the physician (in which case one might expect dissatisfied physicians to make more referrals) or significant effort from physicians (in which case dissatisfied physicians might make fewer referrals).</p>
+            <p>In a 2003 cross-sectional study of 220 primary care physicians performed in Barcelona in 2000, physicians classified as burned out, using the Maslach Burnout Inventory, generated significantly higher pharmaceutical costs of prescribing (<xref ref-type="bibr" rid="CSRS2003">Cebria, Sobreques, Rodriguez, &amp; Segura, 2003</xref>).</p>
+            <p>In a 2013 cross-sectional study of 135 primary care physicians in one Health Maintenance Organization district in Israel, burned out physicians referred significantly more patients to specialists and for diagnostic imaging tests. Physicians with a higher workload also referred more patients (holding the extent of burnout constant). Fifty-six percent of physicians in this study, which used the Maslach Burnout Inventory, were classified as burned out (<xref ref-type="bibr" rid="KGMHYB2014">Kushnir et al., 2014</xref>).</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Quality of care</title>
+            <p>Direct evidence of the relationship between physician satisfaction and the quality of care is relatively scarce and shows mixed results. The difficulty of measuring the quality of care, particularly with small sample sizes, may contribute to these results.</p>
+            <p>Dissatisfied physicians generally report dissatisfaction with the quality of care they feel able to provide, and vice-versa (<xref ref-type="bibr" rid="FCVAPCT2013">Friedberg et al., 2013</xref>; <xref ref-type="bibr" rid="TPSVF2013">Tyssen, Palmer, Solberg, Voltmer, &amp; Frank, 2013</xref>). A cross-sectional analysis of 1996 data from the large national Community Tracking Study physician survey found that primary care physicians who reported dissatisfaction with their medical career were significantly more likely to report that in their situation it was more difficult to provide high quality care or to have sufficient communication with specialists (<xref ref-type="bibr" rid="DVFJHPG2002">DeVoe, Fryer Jr, Hargraves, Phillips, &amp; Green, 2002</xref>). It is not surprising that physicians who are dissatisfied with their work also report being dissatisfied with specific aspects of their work (e.g. the ability to provide high quality care), so the direction of causality is not clear.</p>
+            <p>Physicians report that fatigue and overwork lead them to treat patients irritably and lead to serious mistakes (<xref ref-type="bibr" rid="FCG1997">Firth-Cozens &amp; Greenhalgh, 1997</xref>). In a large, 2010 cross-sectional survey of 8,000 U.S. surgeons, 9% reported making a major medical error in the previous three months (<xref ref-type="bibr" rid="SBBRDSF2010">Shanafelt et al., 2010</xref>). Physicians who were classified as burned out, using the Maslach Burnout Inventory, or as depressed, were significantly more likely to report making a major medical error. It was not possible to judge whether burnout or depression makes medical errors more likely, or whether making a major medical error leads to burnout or depression, or whether the causality operates in both directions. Bidirectional causality is supported by a 2006 prospective longitudinal cohort study of 184 internal medicine residents that found that committing a self-perceived medical error was associated with a large, significantly increased frequency of subsequent burnout or depression, and that increased burnout was associated with a significantly increased risk of committing a subsequent self-perceived medical error (<xref ref-type="bibr" rid="WTHSS2009">West, Tan, Habermann, Sloan, &amp; Shanafelt, 2009</xref>).</p>
+            <p>In a 2003 small prospective cohort study of pediatric residents in two children’s hospitals, 20% (24) of the residents met the criteria for depression and 74% (90) of the residents met the criteria for burnout, using the Maslach Burnout Inventory (<xref ref-type="bibr" rid="F    2008">Fahrenkopf et al., 2008</xref>). Depressed residents made significantly more medication errors – more than six times as many errors as residents who were not depressed. There was no difference in error rates between the burned out residents and those who were not burned out.</p>
+            <p>In a 2005 prospective study of 2,004 patients with pain and/or depression, cared for by 261 primary care physicians in private practice in Seattle, the health status, at 6 month follow-up, of patients who had highly satisfied physicians, did not differ significantly from patients with less satisfied physicians (<xref ref-type="bibr" rid="GPDKMP2005">Grembowski et al., 2005</xref>).</p>
+            <p>A 2008 cross-sectional study of 53 physicians working in 13 hospitals in Japan linked physician survey data to data abstracted from outpatient charts on care of patients with hypertension, diabetes, and asthma (<xref ref-type="bibr" rid="UOBMHF2009">Utsugi-Ozaki, Bito, Matsumura, Hayashino, &amp; Fukuhara, 2009</xref>). There was no association between physician satisfaction and the quality of care provided.</p>
+            <p>In an important 2009 cross-sectional study of 422 primary care physicians and 1,795 chronically ill patients in 119 clinics in New York City and the Midwest, 27% of the physicians reported burnout (<xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al., 2009</xref>). Burnout was not associated with the quality of care—measured by chart audits of such things as hemoglobin A1c control for patients with diabetes.</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+      </sec>
+      <!-- sec lvl 2 end -->
+      <!-- sec lvl 2 begin -->
+      <sec>
+         <title>Discussion and suggestions for further research</title>
+         <p>Anecdotal reports suggest an increase in physician burnout in the U.S., yet studies of physician satisfaction continue to show overall rates of U.S. physician satisfaction of about 80% (<xref ref-type="bibr" rid="CSTW2014">Christopher, Smith, Tivis, &amp; Wilper, 2014</xref>; <xref ref-type="bibr" rid="FCVAPCT2013">Friedberg et al., 2013</xref>). The most recent nationally representative survey of U.S. physician satisfaction was completed in 2006 (<xref ref-type="bibr" rid="CSTW2014">Christopher et al., 2014</xref>)—well before health care reform and the very large increase in electronic health records (EHR) that resulted from the financial incentives for EHR implementation provided by the federal Meaningful Use program (<xref ref-type="bibr" rid="B2011">Blumenthal, 2011</xref>). There are some indications that during recent years EHRs have been a major factor in U.S. physician dissatisfaction (<xref ref-type="bibr" rid="FCVAPCT2013">Friedberg et al., 2013</xref>). It is possible that physician satisfaction in the U.S. has declined during the past eight years, though the 2012 Gallup study indicates that at that time physicians were still the most satisfied occupation in the U.S. (<xref ref-type="bibr" rid="W2013">Witters, 2013</xref>).</p>
+         <p>Studies of the prevalence of physician burnout provide very high prevalence percentages, suggesting that some physicians are reporting symptoms of burnout yet are satisfied with their career. The 2013 RAND study, in which 81% of a (non-nationally representative) sample of physicians stated that they are satisfied with their career, yet 27% reported feeling burned out, showed that this in fact does occur (<xref ref-type="bibr" rid="FCVAPCT2013">Friedberg et al., 2013</xref>). It would be useful to have studies that provide information on the relationship between satisfaction and burnout.</p>
+         <p>Overall, the available evidence supports the hypotheses suggested by the model in Figure 1. There is strong evidence, including two longitudinal studies, that dissatisfied physicians are more likely to work less, to leave medicine, and/or to state that they would not advise young people to become physicians. Though the number of physicians leaving medicine does not appear to be large, it is not a good thing for physician supply to be reduced at a time when health care reform is increasing demand by increasing the number of insured patients in the U.S. and when the U.S. has a worsening shortage of primary care physicians.</p>
+         <p>In addition, though the evidence is not overwhelming, and though high quality studies are few, it does appear that physician dissatisfaction and burnout have a negative impact on patients. There is surprisingly little evidence about the relationship between physician satisfaction and patient satisfaction, but the available evidence, including one large prospective study, does suggest that satisfied physicians are more likely to have satisfied patients. There is very little evidence about the relationship between physician satisfaction and patient adherence to physicians’ recommendations, but the one large prospective study that exists supports this relationship. There is a good deal of evidence, albeit all from cross-sectional studies, that dissatisfied physicians are more likely to write prescriptions, including inappropriate prescriptions, and to refer patients to specialists and for imaging studies (though the appropriateness of these referrals has not been studied). There is relatively little evidence of the relationship between physician satisfaction and measures of the quality of care; the evidence to date, including three prospective studies, does not show a strong relationship. This may be because physician satisfaction is not related to quality, though it is more likely, give the other evidence just cited, that the relationship has not been demonstrated because of small sample sizes and difficulties with adequately measuring quality.</p>
+         <p>If dissatisfied physicians act less professionally, this would be expected to have a pervasive effect on quality—especially on areas of quality that are not usually measured. Very little evidence concerning the relationship between physician dissatisfaction and physician professionalism exists, though the evidence that does exist suggests that there may be a strong relationship. Research in this area is hindered by the lack of accepted measures of professionalism in practicing physicians.</p>
+         <p>Most studies of the effects of physician satisfaction have been flawed by one or more of the following: low physician response rates with possible accompanying selection bias, small samples, a cross-sectional design that makes it difficult to assess the direction of causality (if any), and the problem, inherent in observational research, that confounding factors may affect both physician satisfaction and the dependent variable (e.g., the quality of care provided). For example, certain physicians might have personalities that make them both more likely to report being dissatisfied and more likely to provider poor quality care. In this case, one might want to avoid dissatisfied physicians, but the dissatisfaction would not be causing the poor quality.</p>
+         <p>Physician dissatisfaction might be a warning sign that the physician and/or the organization within the physician works are providing quality of care that is less than desirable (<xref ref-type="bibr" rid="FCVAPCT2013">Friedberg et al., 2013</xref>). This will be true to the extent that dissatisfied physicians provide worse care and/or to the extent that physicians are dissatisfied because they believe that the conditions under which they work are obstacles to providing high quality care (see Figure 1, page 10). However, it is possible that not all causes of physician dissatisfaction have the same implications for quality. For example, a physician who is dissatisfied because his or her income is too low may provide lower quality care, but their dissatisfaction is not in itself an indication that the conditions under which the physician works are obstacles to quality. It would be very useful for researchers to investigate the extent to which physician dissatisfaction is an indicator that quality may be poor, and to investigate whether different causes of dissatisfaction vary in their implications for quality.</p>
+         <p>It will never be possible to conduct randomized trials of the relationship between physician satisfaction and physician professionalism, or of the relationship between physician satisfaction and the quality of patient care. However, it would be possible to conduct studies that are prospective, are larger, obtain high response rates from physicians, and have a stronger analytic design. Ideally, this design might include difference in differences analyses that compare patient satisfaction, patient adherence, and the quality of care for patients of physicians who become dissatisfied to those who remain satisfied, and vice versa. These studies would not be inexpensive, but the topic is extremely important. Large sums of money are being invested in comparative effectiveness research that supports evidence-based medical decisions, but this research will be useless if dissatisfied physicians ignore it.</p>
          <label_fig>Figure 1</label_fig>
          <caption_fig>
-            <italic>RAND Finding: Major contributors to lower professional satisfaction </italic>(<xref ref-type="bibr" rid="FCVAPC2013">Friedberg et al., 2013</xref>).</caption_fig>
-         <list>
-            <list-item>
-               <p style="ListContents">Perceived barriers to high-quality care</p>
-            </list-item>
-            <list-item>
-               <p style="ListContents">Electronic health records</p>
-            </list-item>
-            <list-item>
-               <p style="ListContents">Lack of collegiality</p>
-            </list-item>
-            <list-item>
-               <p style="ListContents">Lack of faith in practice leadership</p>
-            </list-item>
-            <list-item>
-               <p style="ListContents">Worries about practice sustainability as a business</p>
-            </list-item>
-            <list-item>
-               <p style="ListContents">Work volume too little or too much</p>
-            </list-item>
-            <list-item>
-               <p style="ListContents">Income preservation challenging when pay rates decline</p>
-            </list-item>
-            <list-item>
-               <p style="ListContents">Regulatory burden: many small things adding up</p>
-            </list-item>
-         </list>
-         <p>Figure 1 depicts the principal factors leading to physician dissatisfaction among the physicians responses included in the study. The most often described dissatisfier was an interesting and somewhat unexpected finding. Physicians related their subjective sense of overall satisfaction or dissatisfaction to whether or not “at the end of the working day” they felt that they had been able to care for their patients according to their own sense of professionalism. When that feeling was present they tended to be satisfied overall; when it was not they were not. In general, any practice element, whether internal or external to the practice, that detracted from that sense of delivering thorough quality care was a dissatisfier, even in the presence of other satisfying practice elements. Many of the negative practice elements had one thing in common; they reduced the available time for physicians to interact with their patients. Some of these practice elements included: poor EHR usability, loss of practice autonomy and control, problems with work quantity and pace, and work content vs. staff work content and other documentation burdens.</p>
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Poor EHR usability</title>
-            <p>Since about 2009, the use of EHRs by American physicians has dramatically increased, both in the physicians’ offices and in the hospital setting (<xref ref-type="bibr" rid="M2013">Mitka, 2013</xref>). This change was accompanied by great expectations for improvements in quality, patient experience and efficiencies in care. In some ways these expectations have been met. Health records are more available than paper charts were and are more legible. The inclusion of practice “prompts” and preventive services reminders to physicians have likely improved care, and the digitization of patient information has made possible a level of systematic evaluation of processes of care and patient outcomes that was not possible before. Yet efficiency of practice for most specialties has not improved, rather it has deteriorated. Many physicians interviewed in the study reported that their EHRs were cumbersome to use and increased documentation requirements up to 1-2 hours per day. This experience was general and unrelated to any specific EHR system or vendor. The net effect on physicians was a “squeeze” on the time available to talk with and examine patients, leading to an increase in practice dissatisfaction, often expressed vociferously. Adding to surveyed physicians’ frustration was their understanding that, in general, EHRs do produce better quality care, and so “there is no going back to paper records”.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Loss of practice autonomy and control</title>
-            <p>Physicians’ sense that they could control or at least substantively influence the environment within which they practiced correlated with higher practice satisfaction. In some cases this loss of control was objective, for example an inability to influence which support staff members are assigned to which physician, and therefor the quality of staff support in helping manage patient care interactions. But in many cases, this sense of loss of control was more subjective, relating to whether or not a physician felt like an “owner” of the practice rather than just an employee. (This did not necessarily imply actual financial ownership). Physicians involved in at least some aspect of practice management were less likely to manifest this sense of loss of control.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Problems with work quantity and pace</title>
-            <p>As noted above, the age and illness burden of patients has been increasing, contributing to the complexity of the average physician office visit. This pressure affects nearly all physicians, but especially primary care physicians caring for adult patients. Added to the time pressure generated by patient complexity, many physicians feel under financial pressure because of declining payments. For many practices, whether small or large, physician owned or not, these pressures have tended to increase the number of patients that physicians need to see in a workday, either to cover increasing practice expenses in fee-for-service practices or to “cover” salaries paid by group practices or hospitals. This increase in patient workflow has been unaccompanied in most practices by a concomitant increase in knowledge about how to improve practice efficiency and productivity.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Work content</title>
-            <p>Physicians felt most satisfied when their daily activities with patients most closely matched their knowledge and skill level, and did not fall significantly below that level. Physicians often referred to this as “practicing up to the level of their license”. If physicians felt that they are “wasting time” doing work that could be done as well by support staff members they tend to feel less satisfied with their work experience. One factor contributing to this in some institution-based practices is the tendency for internal compliance officers and risk managers to try to reduce potential institutional liability by requiring that EHR documentation tasks that could be performed by support staff instead be performed by the physician. In some settings public payers and regulators also create such rules.</p>
-            <p>But these requirements can be unjustified, and add again to the complexity and length of the physician workday. In addition to EHR-related documentation burdens, physicians have experienced a general increase in documentation requirements from payers, both public and private. These include documentation to justify diagnostic tests and therapeutic procedures, documentation of clinical processes connected to financial rewards and penalties, regulatory requirements from state licensing boards, and recently enacted “maintenance of certification” requirements from many specialty boards. Physicians reported that the cumulative effect of these requirements detracts from the time available for patient care, sometimes calling this “death by a thousand paper cuts.”</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Lack of practice collegiality and good leadership</title>
-            <p>Many of the pressures on physicians described above have led physicians to create or join larger practices to improve economies of scale and shared practice support services. One might think this consolidation would lead to closer working relationships and more collegiality among physicians. This seems not to be the case. Many physicians reported that time pressures have isolated them from each other. In addition, the emergence of “hospitalists,” physicians caring for hospitalized patients <italic>in situ</italic>, has reduced the clinical and social connections among physicians in the hospital setting. The emergence of larger practices has also created the need for physician leaders of those practices. This process has not always gone smoothly, since few physicians are trained to manage complex social environments and the principle of physician autonomy does not incline some physicians to be led by anyone, even another physician.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Physician Income</title>
-            <p>One somewhat surprising finding of the research, given the often-vocal concerns about physician income referred to above was the lack of a strong correlation between overall satisfaction or dissatisfaction with practice and actual income. The study divided physician income into five quintiles. In only the top and bottom quintiles were satisfaction (top quintile) and dissatisfaction (bottom quintile) statistically correlated with income level.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-      </sec>
-      <!-- sec lvl 2 end -->
-      <!-- sec lvl 2 begin -->
-      <sec>
-         <title>What Can Be Done?</title>
-         <p>Not all the elements leading to physician dissatisfaction with modern practice can be changed. The practice of medicine has always been and still is a difficult and demanding career choice, requiring self-sacrifice and hard work for the benefit of one’s patients. In most of the developed world populations are aging, leading to many more patients with multiple complex conditions. And the explosion of medical knowledge and of the diagnostic and therapeutic choices available to physicians is a constant intellectual challenge.</p>
-         <p>Nevertheless, some of the causes of physician dissatisfaction are subject to mitigation. Based upon the RAND-AMA research and some educated guesses about future trends, such mitigation efforts will form a major portion of the AMA’s strategic focus for the next few years, including new research work. This work should create important learnings applicable not just to American physician practices but to those of physicians in other countries as well.</p>
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Improvements in practice efficiency</title>
-            <p>One of the observations during the RAND-AMA research visits to physician practices was the rareness of evidence-based efforts to reduce the impact of workflow and documentation requirements weighing on physicians by recapturing physician-patient interaction time through systematic work-flow process improvement. Such approaches are not unknown, having been well documented by organizations such as the Virginia Mason Clinic in Seattle, Washington<sup> </sup>(<xref ref-type="bibr" rid="B2007">Bush, 2007</xref>), and the ThedaCare Health System in Minnesota<sup> </sup>(<xref ref-type="bibr" rid="TMS2013">Toussaint, Milstein, &amp; Shortell, 2013</xref>). In addition, Drs. Christine and Thomas Sinsky and others have described such successful efforts in smaller physician practices (<xref ref-type="bibr" rid="SWGSSMB2013">Sinsky et al., 2013</xref>).</p>
-            <label_fig>Figure 2</label_fig>
-            <caption_fig>Physician practice support tools</caption_fig>
-            <list list-type="bullet">
-               <list-item>
-                  <p>Pre-visit planning</p>
-               </list-item>
-               <list-item>
-                  <p>Pre-visit laboratory tests</p>
-               </list-item>
-               <list-item>
-                  <p>Expanded use of office staff</p>
-                  <list list-type="bullet">
-                     <list-item>
-                        <p>Establish teams with other care givers</p>
-                     </list-item>
-                     <list-item>
-                        <p>Expanded rooming function by MAs</p>
-                     </list-item>
-                     <list-item>
-                        <p>Order entry</p>
-                     </list-item>
-                     <list-item>
-                        <p>Panel management-clinical</p>
-                     </list-item>
-                     <list-item>
-                        <p>responsibility</p>
-                     </list-item>
-                     <list-item>
-                        <p>Scribing</p>
-                     </list-item>
-                     <list-item>
-                        <p>RN filtering of in-box</p>
-                     </list-item>
-                  </list>
-               </list-item>
-               <list-item>
-                  <p>Systematic prescriptions</p>
-               </list-item>
-               <list-item>
-                  <p>EHR improvements</p>
-               </list-item>
-            </list>
-            <list list-type="bullet">
-               <list-item>
-                  <list list-type="bullet">
-                     <list-item>
-                        <p>Improve usability of GUI</p>
-                     </list-item>
-                     <list-item>
-                        <p>Team-shared simultaneous access</p>
-                     </list-item>
-                     <list-item>
-                        <p>Allow staff input of data elements</p>
-                     </list-item>
-                  </list>
-               </list-item>
-               <list-item>
-                  <p>Lean process improvement techniques–101</p>
-               </list-item>
-            </list>
-            <p>Based upon the work of the Drs. Sinsky (<xref ref-type="bibr" rid="SWGSSMB2013">Sinsky et al., 2013</xref>) and others the AMA is developing a series of specific process improvement modules that can be implemented in physician practices of different specialties and practice sizes. Figure 2 lists the modules under development. It is not the purpose of this paper to describe all these modules, but one example is systematic improvement in the methods employed to refill chronic medications for stable patients. By one estimate<sup> </sup>(<xref ref-type="bibr" rid="SS2012">Sinsky &amp; Simnsky, 2012</xref>), the process of refilling these prescriptions requires about 200 hours of work per adult primary care physician per year, or 4-5 hours per week. This involves both physician and office staff time; time that could be better used in direct patient care activities. The AMA has developed an education module to show physicians how to eliminate this unnecessary work<sup>
-                  <xref ref-type="fn" rid="ftn2">2</xref>
-               </sup>.</p>
-            <p>Not every process improvement module listed in Figure 2 will be applicable to every physician practice, but at least several will be—and early field experience indicates that some efficiency improvements are quite feasible for nearly all practices, thus freeing up time for more satisfying physician-patient interactions.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Improvements in EHR usability</title>
-            <p>As described above, EHR systems broadly deployed in the U.S. in recent years have failed to achieve broad approval among American physicians, because they often reduce workflow efficiency in day-to-day practice. To deal with this problem the AMA convened a panel of leading physician informaticists from across the country to delineate the functional and technical flaws in current commercially available EHRs. Working with the leading EHR vendors and government regulators where possible, the AMA has created a detailed template for the functionally ideal “physician friendly” EHR; one which can improve, or at least not impede practice efficiency, as well as improve patient care quality. Achieving this goal will require that EHR vendors focus more resources on adapting their systems to physician practice needs<sup>
-                  <xref ref-type="fn" rid="ftn3">3</xref>
-               </sup>.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Physician-Hospital relationship</title>
-            <p>In the U.S., as in many other countries, most physicians work at least part of their professional life within the walls of a hospital. In fact, the U.S. hospital used to be colloquially known as “the physicians’ workshop.” The relationship was fairly simple. Physicians owned and worked in their private offices, and admitted and cared for their patients when the patients were in the hospital. A lay board of directors governed the hospital and employed a hospital administrator, who ran the operations of the facility. The physicians were very loosely organized into the “organized medical staff,” which met periodically to select an elected leader for the year, and had purview over credentialing physicians for the medical staff and some involvement in quality oversight.</p>
-            <p>This traditional model of physician-hospital relationship is currently changing for several reasons. First, because many more procedures are being performed in non-hospital settings, and because of the evolution of the “hospitalist” specialty, many physicians spend much less time within hospitals, as mentioned earlier. Second, as noted above, hospitals have begun to directly employ physicians in many specialties and at an increasing rate, primarily to boost revenue. Lastly, many hospitals are leading the creation of Accountable Care Organizations, which often involves developing new, more complex business relationships with non-employed physicians. For each of these reasons the traditional organized medical staff model has declined in relevance to the future relationship between physicians and hospitals (<xref ref-type="bibr" rid="C2008">Casalino, 2008</xref>), but no new common model has yet to emerge. This is of concern. It is conceivable that without a new model physicians could be relegated to the role of disempowered suppliers of services to hospitals, suffering a loss of legitimate professional autonomy in the process, and negatively affecting physician satisfaction and patient care in the long run. Work was urgently needed in this area to avoid such an outcome.</p>
-            <p>To that end the AMA and the American Hospital Association (AHA), not always allies, have combined to better define the issues at stake and work toward that new model. In October of 2013 AMA, AHA and the health policy journal <italic>Health Affairs </italic>convened a meeting in Washington DC of health policy leaders and health industry leaders. The purpose was to highlight and discuss the ways that ten leading American health care systems are managing this issue. These systems included the Geisinger Health System in Pennsylvania, Kaiser Permanente in California and the Advocate Health Care System in Illinois, among others<sup>
-                  <xref ref-type="fn" rid="ftn4">4</xref>
-               </sup>.</p>
-            <p>Subsequent to the conference a senior level work team from AMA and AHA has convened in an effort to construct and promulgate a set of principles leading to a new model of physician hospital integrated leadership. These principles include, among others: the need for physicians to organize themselves sufficiently to collectively manage care quality and cost; the need for physician leadership and management training, and; the need for increased physician involvement in the management of hospitals and health systems<sup>
-                  <xref ref-type="fn" rid="ftn5">5</xref>
-               </sup>.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>New Physician Payment Models</title>
-            <p>The traditional form of payment to physicians has been fee-for-service reimbursement for care rendered. Although many large medical groups and increasingly hospitals are paying physicians by salary, still fully half of American physicians in non-solo practice report that their at least some of their revenue comes from fee-for-service reimbursement<sup> </sup>(<xref ref-type="bibr" rid="K2014">Kane, 2014</xref>). But this is changing. Spurred in part by the ACA, both public and private payers are beginning to experiment with new payment methods that involve rewards or penalties for excessive costs, incentives to improve quality, and ways to involve physicians in sharing insurance-like “risk” for the total cost of health care rendered to a population (earlier versions were called capitation). The Medicare program has developed several versions of “shared savings” payment models in association with ACO creation<sup> </sup>(<xref ref-type="bibr" rid="B2011">Berwick, 2011</xref>). In addition many large health plans are working with physicians and physician groups to find new ways of paying physicians beyond traditional fee-for-service payments.</p>
-            <p>Physicians themselves are starting new practice financial models, especially “subscription” payment models, wherein the patient pays the physician an annual or monthly fee, plus fee-for-service payments, in return for longer office visits, improved after-hours care and more personalized services. The financial upper end of this model is commonly called “concierge medicine.” The long-term effect of these models on patient costs, physician practice satisfaction and other values such as social equity is yet to be determined.</p>
-            <p>The sum of all these payment changes and choices for physician practices to potentially pursue is creating anxiety among many physicians about future practice sustainability, leading some physicians to give up practice and retire early or pursue other lines of work, rather than change the way they are paid.</p>
-            <p>To better understand the likelihood of eventual success or failure of new physician payment models AMA has again engaged the RAND Corporation to jointly conduct field research in physician practices employing such models. The results should be available in published form by the spring of 2015.</p>
-         </sec>
-         <!-- sec lvl 3 end -->
-      </sec>
-      <!-- sec lvl 2 end -->
-      <!-- sec lvl 2 begin -->
-      <sec>
-         <title>Conclusion</title>
-         <p>This paper has described the reasons for the decline of satisfaction with medical practice currently taking place among American physicians. The reasons for this decline are many, including: concerns about inadequate time to properly care for patients, financial stress and payment complexity, loss of a sense of necessary autonomy, loss of collegiality with other physicians, the complexity of patients, the intellectual demands of keeping up with the changes in medical science, regulatory burdens, documentation issues stemming from too-difficult-to-use EHRs, concerns about relationships with hospitals, and changes in expectations among younger physicians about work-life balance.</p>
-         <p>Research sponsored by the AMA and conducted with the RAND Corporation has shed new light on these drivers of dissatisfaction, including quantitative correlations between practice elements and satisfaction or dissatisfaction.</p>
-         <p>Some of these drivers of dissatisfaction are probably immutable at present or inherent in the stress of being a physician. But others can be changed; some by the physicians themselves through reorganization of how they practice; and some through collective physician actions to change those external force on practices that are amenable to change. The AMA, working with other health care industry partners in the U.S. will be producing a steady flow of new information from this work over the next several years. Much of this information will likely have immediate relevance for physicians in other countries and for those seeking to assist them in improving their lives and those of the patients they care for.</p>
+            <italic>Model of the potential impacts of physician dissatistfaction</italic>
+         </caption_fig>
       </sec>
       <!-- sec lvl 2 end -->
    </body>
    <back>
-      <fn-group>
-         <fn id="ftn1">
-            <p style="footnote_20_text">Available at <uri>http://www.rand.org/pubs/research_reports/RR439.html</uri>
-            </p>
-         </fn>
-         <fn id="ftn2">
-            <p>This module and others in <italic>beta</italic>-testing mode can be accessed at <uri>https://www.steps-forward.com/</uri>
-            </p>
-         </fn>
-         <fn id="ftn3">
-            <p>This report can be accessed at <uri>https://download.ama-assn.org/resources/doc/ps2/x-pub/ehr-priorities.pdf</uri>.</p>
-         </fn>
-         <fn id="ftn4">
-            <p>The proceedings of the conference can be accessed at <uri>http://www.aha.org/research/rc/stat-studies/Studies.shtml</uri>, more particularly the entry entitled <uri>http://www.ahaphysicianforum.org/resources/leadership-development/ama-aha/new-models-proceedings.pdf</uri>
-            </p>
-         </fn>
-         <fn id="ftn5">
-            <p style="footnote_20_text">A full description of the need for these principles can be accessed at: <uri>http://healthaffairs.org/blog/2014/04/17/well-need-a-bigger-boat-reimagining-the-hospital-physician-partnership/</uri>
-            </p>
-         </fn>
-      </fn-group>
       <ref-list>
-         <ref id="ARN2010"><!--Aasland, O. G., Rosta, J., & Nylenna, M. (2010). Health care reforms and job satisfaction among doctors in Norway. <italic>Scandinavian journal of public health, 8</italic>, 253-258. <uri>http://dx.doi.org/10.1177/1403494810364559</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Aasland</surname>
-                     <given-names>O. G.</given-names>
-                  </name>
-                  <name>
-                     <surname>Rosta</surname>
-                     <given-names>J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Nylenna</surname>
-                     <given-names>M.</given-names>
-                  </name>
-               </person-group>
-               <year>2010</year>
-               <article-title>Health care reforms and job satisfaction among doctors in Norway.</article-title>
-               <source>Scandinavian journal of public health</source>
-               <volume>8</volume>
-               <fpage>253</fpage>
-               <lpage>258</lpage>
-               <uri>http://dx.doi.org/10.1177/1403494810364559</uri>
-            </element-citation>
-         </ref>
-         <ref id="B2011"><!--Berwick, D. M. (2011). Making good on ACOs' promise—the final rule for the Medicare shared savings program. <italic>New England Journal of Medicine, 365</italic>(19), 1753-1756. <uri>http://dx.doi.org/10.1056/NEJMp1111671</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Berwick</surname>
-                     <given-names>D. M.</given-names>
-                  </name>
-               </person-group>
-               <year>2011</year>
-               <article-title>Making good on ACOs' promise—the final rule for the Medicare shared savings program.</article-title>
-               <source>New England Journal of Medicine</source>
-               <volume>365</volume>
-               <issue>19</issue>
-               <fpage>1753</fpage>
-               <lpage>1756</lpage>
-               <uri>http://dx.doi.org/10.1056/NEJMp1111671</uri>
-            </element-citation>
-         </ref>
-         <ref id="BCOM2009"><!--Boukus, E., Cassil, A., & O'Malley, A. S. (2009). A snapshot of US physicians: key findings from the 2008 Health Tracking Physician Survey. <italic>Data bulletin (Center for Studying Health System Change)</italic>, (35), 1-11.-->
+         <ref id="A1963"><!--Arrow, K. (1963). Uncertainty and the Welfare Economics of Medical Care. <italic>The American Economic Review, 53</italic>(5), 941-969.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Boukus</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Cassil</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>O'Malley</surname>
-                     <given-names>A. S.</given-names>
+                     <surname>Arrow</surname>
+                     <given-names>K.</given-names>
                   </name>
                </person-group>
-               <year>2009</year>
-               <article-title>A snapshot of US physicians: key findings from the 2008 Health Tracking Physician Survey.</article-title>
-               <source>Data bulletin (Center for Studying Health System Change)</source>
-               <fpage>1</fpage>
-               <lpage>11</lpage>
+               <year>1963</year>
+               <article-title>Uncertainty and the Welfare Economics of Medical Care.</article-title>
+               <source>The American Economic Review</source>
+               <volume>53</volume>
+               <issue>5</issue>
+               <fpage>941</fpage>
+               <lpage>969</lpage>
             </element-citation>
          </ref>
-         <ref id="B2007"><!--Bush, R. W. (2007). Reducing waste in US health care systems. <italic>Journal of the American Medical Association, 297</italic>(8), 871-874. <uri>http://dx.doi.org/10.1001/jama.297.8.871</uri>-->
+         <ref id="B2003"><!--Barondess, J. A. (2003). Medicine and professionalism. <italic>Archives Internal Medicine,163</italic>(2), 145-149. <uri>http://dx.doi.org/10.1001/archinte.163.2.145</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Bush</surname>
-                     <given-names>R. W.</given-names>
+                     <surname>Barondess</surname>
+                     <given-names>J. A.</given-names>
                   </name>
                </person-group>
-               <year>2007</year>
-               <article-title>Reducing waste in US health care systems.</article-title>
-               <source>Journal of the American Medical Association</source>
-               <volume>297</volume>
-               <issue>8</issue>
-               <fpage>871</fpage>
-               <lpage>874</lpage>
-               <uri>http://dx.doi.org/10.1001/jama.297.8.871</uri>
+               <year>2003</year>
+               <article-title>Medicine and professionalism.</article-title>
+               <source>Archives Internal Medicine</source>
+               <volume>163</volume>
+               <issue>2</issue>
+               <fpage>145</fpage>
+               <lpage>149</lpage>
+               <uri>http://dx.doi.org/10.1001/archinte.163.2.145</uri>
             </element-citation>
          </ref>
-         <ref id="CNBP2008"><!--Casalino, L. P., November, E. A., Berenson, R. A., & Pham, H. H. (2008). Hospital-physician relations: two tracks and the decline of the voluntary medical staff model. <italic>Health Affairs, 27</italic>(5), 1305-1314. <uri>http://dx.doi.org/10.1377/hlthaff.27.5.1305</uri>-->
+         <ref id="BK2013"><!--Berenson, R. A., & Kaye, D. R. (2013). Grading a physician's value—the misapplication of performance measurement. <italic>New England Journal of Medicine, 369</italic>(22), 2079-2081. <uri>http://dx.doi.org/10.1056/NEJMp1312287</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
-                  <name>
-                     <surname>Casalino</surname>
-                     <given-names>L. P.</given-names>
-                  </name>
-                  <name>
-                     <surname>November</surname>
-                     <given-names>E. A.</given-names>
-                  </name>
                   <name>
                      <surname>Berenson</surname>
                      <given-names>R. A.</given-names>
                   </name>
                   <name>
-                     <surname>Pham</surname>
-                     <given-names>H. H.</given-names>
+                     <surname>Kaye</surname>
+                     <given-names>D. R.</given-names>
                   </name>
                </person-group>
-               <year>2008</year>
-               <article-title>Hospital-physician relations: two tracks and the decline of the voluntary medical staff model.</article-title>
-               <source>Health Affairs</source>
-               <volume>27</volume>
-               <issue>5</issue>
-               <fpage>1305</fpage>
-               <lpage>1314</lpage>
-               <uri>http://dx.doi.org/10.1377/hlthaff.27.5.1305</uri>
+               <year>2013</year>
+               <article-title>Grading a physician's value—the misapplication of performance measurement.</article-title>
+               <source>New England Journal of Medicine</source>
+               <volume>369</volume>
+               <issue>22</issue>
+               <fpage>2079</fpage>
+               <lpage>2081</lpage>
+               <uri>http://dx.doi.org/10.1056/NEJMp1312287</uri>
             </element-citation>
          </ref>
-         <ref id="CNGHMKL2009"><!--Casalino, L. P., Nicholson, S., Gans, D. N., Hammons, T., Morra, D., Karrison, T., & Levinson, W. (2009). What does it cost physician practices to interact with health insurance plans? <italic>Health Affairs, 28</italic>(4), w533-w543. <uri>http://dx.doi.org/10.1377/hlthaff.28.4.w533</uri>-->
+         <ref id="B2011"><!--Blumenthal, D. (2011). Wiring the Health System: Origins and Provisions of a New Federal Program. <italic>New England Journal of Medicine, 365</italic>(24), 2323-2329. <uri>http://dx.doi.org/10.1056/NEJMsr1110507</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Blumenthal</surname>
+                     <given-names>D.</given-names>
+                  </name>
+               </person-group>
+               <year>2011</year>
+               <article-title>Wiring the Health System: Origins and Provisions of a New Federal Program.</article-title>
+               <source>New England Journal of Medicine</source>
+               <volume>365</volume>
+               <issue>24</issue>
+               <fpage>2323</fpage>
+               <lpage>2329</lpage>
+               <uri>http://dx.doi.org/10.1056/NEJMsr1110507</uri>
+            </element-citation>
+         </ref>
+         <ref id="BWMP2001"><!--Buchbinder, S. B., Wilson, M., Melick, C. F., & Powe, N. R. (2001). Primary care physician job satisfaction and turnover. <italic>The American Journal of Managed Care, 7</italic>(7), 701-713.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Buchbinder</surname>
+                     <given-names>S. B.</given-names>
+                  </name>
+                  <name>
+                     <surname>Wilson</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Melick</surname>
+                     <given-names>C. F.</given-names>
+                  </name>
+                  <name>
+                     <surname>Powe</surname>
+                     <given-names>N. R.</given-names>
+                  </name>
+               </person-group>
+               <year>2001</year>
+               <article-title>Primary care physician job satisfaction and turnover.</article-title>
+               <source>The American Journal of Managed Care</source>
+               <volume>7</volume>
+               <issue>7</issue>
+               <fpage>701</fpage>
+               <lpage>713</lpage>
+            </element-citation>
+         </ref>
+         <ref id="CJSECG2001"><!--Campbell, D. A., Jr., Sonnad, S. S., Eckhauser, F. E., Campbell, K. K., & Greenfield, L. J. (2001). Burnout among American surgeons. <italic>Surgery, 130</italic>(4), 696-702. <uri>http://dx.doi.org/10.1056/NEJM199910073411511</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Campbell</surname>
+                     <given-names>D. A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Jr.</surname>
+                     <given-names>Jr.</given-names>
+                  </name>
+                  <name>
+                     <surname>Sonnad</surname>
+                     <given-names>S. S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Eckhauser</surname>
+                     <given-names>F. E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Campbell</surname>
+                     <given-names>K. K.</given-names>
+                  </name>
+                  <name>
+                     <surname>Greenfield</surname>
+                     <given-names>L. J.</given-names>
+                  </name>
+               </person-group>
+               <year>2001</year>
+               <article-title>Burnout among American surgeons.</article-title>
+               <source>Surgery</source>
+               <volume>130</volume>
+               <issue>4</issue>
+               <fpage>696</fpage>
+               <lpage>702</lpage>
+               <uri>http://dx.doi.org/10.1056/NEJM199910073411511</uri>
+            </element-citation>
+         </ref>
+         <ref id="C1999"><!--Casalino, L. P. (1999). Unintended consequences of measuring quality on the quality of medical care. <italic>New England Journal of Medicine, 341</italic>(15), 1147-1150. <uri>http://dx.doi.org/10.1056/NEJM199910073411511</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Casalino</surname>
+                     <given-names>L. P.</given-names>
+                  </name>
+               </person-group>
+               <year>1999</year>
+               <article-title>Unintended consequences of measuring quality on the quality of medical care.</article-title>
+               <source>New England Journal of Medicine</source>
+               <volume>341</volume>
+               <issue>15</issue>
+               <fpage>1147</fpage>
+               <lpage>1150</lpage>
+               <uri>http://dx.doi.org/10.1056/NEJM199910073411511</uri>
+            </element-citation>
+         </ref>
+         <ref id="CAJK2007"><!--Casalino, L. P., Alexander, G. C., Jin, L., & Konetzka, R. T. (2007). General internists’ views on pay-for-performance and public reporting of quality scores: a national survey. <italic>Health Affairs, 26</italic>(2), 492-499. <uri>http://dx.doi.org/10.1377/hlthaff.26.2.492</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -451,39 +364,58 @@
                      <given-names>L. P.</given-names>
                   </name>
                   <name>
-                     <surname>Nicholson</surname>
-                     <given-names>S.</given-names>
+                     <surname>Alexander</surname>
+                     <given-names>G. C.</given-names>
                   </name>
                   <name>
-                     <surname>Gans</surname>
-                     <given-names>D. N.</given-names>
+                     <surname>Jin</surname>
+                     <given-names>L.</given-names>
                   </name>
                   <name>
-                     <surname>Hammons</surname>
-                     <given-names>T.</given-names>
-                  </name>
-                  <name>
-                     <surname>Morra</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Karrison</surname>
-                     <given-names>T.</given-names>
-                  </name>
-                  <name>
-                     <surname>Levinson</surname>
-                     <given-names>W.</given-names>
+                     <surname>Konetzka</surname>
+                     <given-names>R. T.</given-names>
                   </name>
                </person-group>
-               <year>2009</year>
-               <article-title>What does it cost physician practices to interact with health insurance plans?</article-title>
+               <year>2007</year>
+               <article-title>General internists’ views on pay-for-performance and public reporting of quality scores: a national survey.</article-title>
                <source>Health Affairs</source>
-               <volume>28</volume>
-               <issue>4</issue>
-               <uri>http://dx.doi.org/10.1377/hlthaff.28.4.w533</uri>
+               <volume>26</volume>
+               <issue>2</issue>
+               <fpage>492</fpage>
+               <lpage>499</lpage>
+               <uri>http://dx.doi.org/10.1377/hlthaff.26.2.492</uri>
             </element-citation>
          </ref>
-         <ref id="CSTW2014"><!--Christopher, A. S., Smith, C. S., Tivis, R., & Wilper, A. P. (2014). Trends in United States Physician Work Hours and Career Satisfaction. <italic>The American Journal of Medicine, 127</italic>(7), 674-680. <uri>http://dx.doi.org/10.1016/j.amjmed.2014.03.033</uri>-->
+         <ref id="CSRS2003"><!--Cebria, J., Sobreques, J., Rodriguez, C., & Segura, J. (2003). Influence of burnout on pharmaceutical expediture among primary care physicians. <italic>Gaceta Sanitaria, 17</italic>(6), 483-489.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cebria</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Sobreques</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Rodriguez</surname>
+                     <given-names>C.</given-names>
+                  </name>
+                  <name>
+                     <surname>Segura</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>2003</year>
+               <article-title>Influence of burnout on pharmaceutical expediture among primary care physicians.</article-title>
+               <source>Gaceta Sanitaria</source>
+               <volume>17</volume>
+               <issue>6</issue>
+               <fpage>483</fpage>
+               <lpage>489</lpage>
+            </element-citation>
+         </ref>
+         <ref id="CSTW2014"><!--Christopher, A. S., Smith, C. S., Tivis, R., & Wilper, A. P. (2014). Trends in United States physician work hours and career satisfaction. <italic>The American Journal of Medicine</italic>, 127(7),674-680. <uri>http://dx.doi.org/10.1016/j.amjmed.2014.03.033</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -504,33 +436,238 @@
                   </name>
                </person-group>
                <year>2014</year>
-               <article-title>Trends in United States Physician Work Hours and Career Satisfaction.</article-title>
+               <article-title>Trends in United States physician work hours and career satisfaction.</article-title>
                <source>The American Journal of Medicine</source>
-               <volume>127</volume>
-               <issue>7</issue>
                <fpage>674</fpage>
                <lpage>680</lpage>
                <uri>http://dx.doi.org/10.1016/j.amjmed.2014.03.033</uri>
             </element-citation>
          </ref>
-         <ref id="FCVAPC2013"><!--Friedberg, M. W., Chen, P. G., Van Busum, K. R., Aunon, F., Pham, C., Caloyeras, J., … & Tutty, M. (2013). <italic>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</italic>. Rand Corporation.-->
+         <ref id="DVFHPG2002"><!--DeVoe, J., Fryer Jr, G. E., Hargraves, J. L., Phillips, R. L., & Green, L. A. (2002). Does career dissatisfaction affect the ability of family physicians to deliver high-quality patient care? <italic>The Journal of Family Practice, 51</italic>(3), 223-228.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
+                     <surname>DeVoe</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Fryer</surname>
+                     <given-names>G. E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hargraves</surname>
+                     <given-names>J. L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Phillips</surname>
+                     <given-names>R. L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Green</surname>
+                     <given-names>L. A.</given-names>
+                  </name>
+               </person-group>
+               <year>2002</year>
+               <article-title>Does career dissatisfaction affect the ability of family physicians to deliver high-quality patient care?</article-title>
+               <source>The Journal of Family Practice</source>
+               <volume>51</volume>
+               <issue>3</issue>
+               <fpage>223</fpage>
+               <lpage>228</lpage>
+            </element-citation>
+         </ref>
+         <ref id="DMSHOKMGR1993"><!--DiMatteo, M. R., Sherbourne, C. D., Hays, R. D., Ordway, L., Kravitz, R. L., McGlynn, E. A., . . . Rogers, W. H. (1993). Physicians' characteristics influence patients' adherence to medical treatment: results from the Medical Outcomes Study. <italic>Health Psychology, 12</italic>(2), 93-102. <uri>http://dx.doi.org/10.1037/0278-6133.12.2.93</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>DiMatteo</surname>
+                     <given-names>M. R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Sherbourne</surname>
+                     <given-names>C. D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hays</surname>
+                     <given-names>R. D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Ordway</surname>
+                     <given-names>L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Kravitz</surname>
+                     <given-names>R. L.</given-names>
+                  </name>
+                  <name>
+                     <surname>McGlynn</surname>
+                     <given-names>E. A.</given-names>
+                  </name>
+                  <name>
+                     <surname>.. . .. Rogers</surname>
+                     <given-names>W. H.</given-names>
+                  </name>
+               </person-group>
+               <year>1993</year>
+               <article-title>Physicians' characteristics influence patients' adherence to medical treatment: results from the Medical Outcomes Study.</article-title>
+               <source>Health Psychology</source>
+               <volume>12</volume>
+               <issue>2</issue>
+               <fpage>93</fpage>
+               <lpage>102</lpage>
+               <uri>http://dx.doi.org/10.1037/0278-6133.12.2.93</uri>
+            </element-citation>
+         </ref>
+         <ref id="DMJEHPDS2010"><!--Dyrbye, L. N., Massie, F. S., Jr., Eacker, A., Harper, W., Power, D., Durning, S. J., . . . Shanafelt, T. D. (2010). Relationship between burnout and professional conduct and attitudes among US medical students. <italic>Jama, 304</italic>(11), 1173-1180. <uri>http://dx.doi.org/10.1001/jama.2010.1318</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Dyrbye</surname>
+                     <given-names>L. N.</given-names>
+                  </name>
+                  <name>
+                     <surname>Massie</surname>
+                     <given-names>F. S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Jr.</surname>
+                     <given-names>Jr.</given-names>
+                  </name>
+                  <name>
+                     <surname>Eacker</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Harper</surname>
+                     <given-names>W.</given-names>
+                  </name>
+                  <name>
+                     <surname>Power</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Durning</surname>
+                     <given-names>S. J.</given-names>
+                  </name>
+                  <name>
+                     <surname>.. . .. Shanafelt</surname>
+                     <given-names>T. D.</given-names>
+                  </name>
+               </person-group>
+               <year>2010</year>
+               <article-title>Relationship between burnout and professional conduct and attitudes among US medical students.</article-title>
+               <source>Jama</source>
+               <volume>304</volume>
+               <issue>11</issue>
+               <fpage>1173</fpage>
+               <lpage>1180</lpage>
+               <uri>http://dx.doi.org/10.1001/jama.2010.1318</uri>
+            </element-citation>
+         </ref>
+         <ref id="FSBSLCLBMJ7642"><!--Fahrenkopf, A. M., Sectish, T. C., Barger, L. K., Sharek, P. J., Lewin, D., Chiang, V. W., . . . Landrigan, C. P. (2008). Rates of medication errors among depressed and burnt out residents: prospective cohort study. <italic>BMJ, 336</italic>(7642), 488-491. <uri>http://dx.doi.org/10.1136/bmj.39469.763218.BE</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fahrenkopf</surname>
+                     <given-names>A. M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Sectish</surname>
+                     <given-names>T. C.</given-names>
+                  </name>
+                  <name>
+                     <surname>Barger</surname>
+                     <given-names>L. K.</given-names>
+                  </name>
+                  <name>
+                     <surname>Sharek</surname>
+                     <given-names>P. J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Lewin</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Chiang</surname>
+                     <given-names>V. W.</given-names>
+                  </name>
+                  <name>
+                     <surname>.. . .. Landrigan</surname>
+                     <given-names>study.</given-names>
+                  </name>
+                  <name>
+                     <surname>BMJ</surname>
+                     <given-names>336</given-names>
+                  </name>
+               </person-group>
+               <year>7642</year>
+               <article-title>Rates of medication errors among depressed and burnt out residents: prospective cohort study.</article-title>
+               <source>BMJ</source>
+               <volume>336</volume>
+               <issue>7642</issue>
+               <fpage>488</fpage>
+               <lpage>491</lpage>
+               <uri>http://dx.doi.org/10.1136/bmj.39469.763218.BE</uri>
+            </element-citation>
+         </ref>
+         <ref id="FC2001"><!--Firth-Cozens, J. (2001). Interventions to improve physicians' well-being and patient care. <italic>Social Science & Medicine, 52</italic>(2), 215-222. <uri>http://dx.doi.org/10.1016/S0277-9536(00)00221-5</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Firth-Cozens</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>2001</year>
+               <article-title>Interventions to improve physicians' well-being and patient care.</article-title>
+               <source>Social Science &amp; Medicine</source>
+               <volume>52</volume>
+               <issue>2</issue>
+               <fpage>215</fpage>
+               <lpage>222</lpage>
+               <uri>http://dx.doi.org/10.1016/S0277-9536(00)00221-5</uri>
+            </element-citation>
+         </ref>
+         <ref id="FCG1997"><!--Firth-Cozens, J., & Greenhalgh, J. (1997). Doctors' perceptions of the links between stress and lowered clinical care. <italic>Social Science & Medicine, 44</italic>(7), 1017-1022. <uri>http://dx.doi.org/10.1016/S0277-9536%2896%2900227-4</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Firth-Cozens</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Greenhalgh</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>1997</year>
+               <article-title>Doctors' perceptions of the links between stress and lowered clinical care.</article-title>
+               <source>Social Science &amp; Medicine</source>
+               <volume>44</volume>
+               <issue>7</issue>
+               <fpage>1017</fpage>
+               <lpage>1022</lpage>
+               <uri>http://dx.doi.org/10.1016/S0277-9536%2896%2900227-4</uri>
+            </element-citation>
+         </ref>
+         <ref id="FCVAPCT2013"><!--Friedberg, M.W., Chen, P.G., Van Busem, K.R., Aunon, F.M., Pham, C, Caloyeras, J.P., . . . Tutty, M. (2013). <italic>Factors Affecting Physician Professional Satisfaction and Their Implications for Patient Care, Health Systems, and Health Policy</italic>. Boston, MA: The RAND Corporation.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
                      <surname>Friedberg</surname>
-                     <given-names>M. W.</given-names>
+                     <given-names>M.W.</given-names>
                   </name>
                   <name>
                      <surname>Chen</surname>
-                     <given-names>P. G.</given-names>
+                     <given-names>P.G.</given-names>
                   </name>
                   <name>
                      <surname>Van</surname>
-                     <given-names>K. R.</given-names>
+                     <given-names>K.R.</given-names>
                   </name>
                   <name>
                      <surname>Aunon</surname>
-                     <given-names>F.</given-names>
+                     <given-names>F.M.</given-names>
                   </name>
                   <name>
                      <surname>Pham</surname>
@@ -538,95 +675,262 @@
                   </name>
                   <name>
                      <surname>Caloyeras</surname>
-                     <given-names>J.</given-names>
+                     <given-names>J.P.</given-names>
                   </name>
                   <name>
-                     <surname>…</surname>
+                     <surname>.. . .. Tutty</surname>
                      <given-names>M.</given-names>
                   </name>
                </person-group>
                <year>2013</year>
-               <article-title> </article-title>
-               <source>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</source>
+               <source>Factors Affecting Physician Professional Satisfaction and Their Implications for Patient Care, Health Systems, and Health Policy</source>
+               <publisher-loc>Boston, MA</publisher-loc>
+               <publisher-name>The RAND Corporation</publisher-name>
             </element-citation>
          </ref>
-         <ref id="HBDBDNK1988"><!--Hsiao, W. C., Braun, P., Dunn, D., Becker, E. R., DeNicola, M., & Ketcham, T. R. (1988). Results and policy implications of the resource-based relative-value study. <italic>The New England journal of medicine, 319</italic>(13), 881-888. <uri>http://dx.doi.org/10.1056/NEJM198809293191330</uri>-->
+         <ref id="G2014"><!--Goitein, L. (2014). Physician well-being: Addressing downstream effects, but looking upstream. <italic>JAMA Internal Medicine, 174</italic>(4), 533-534. <uri>http://dx.doi.org/10.1001/jamainternmed.2013.13253</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Hsiao</surname>
-                     <given-names>W. C.</given-names>
-                  </name>
-                  <name>
-                     <surname>Braun</surname>
-                     <given-names>P.</given-names>
-                  </name>
-                  <name>
-                     <surname>Dunn</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Becker</surname>
-                     <given-names>E. R.</given-names>
-                  </name>
-                  <name>
-                     <surname>DeNicola</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Ketcham</surname>
-                     <given-names>T. R.</given-names>
-                  </name>
-               </person-group>
-               <year>1988</year>
-               <article-title>Results and policy implications of the resource-based relative-value study.</article-title>
-               <source>The New England journal of medicine</source>
-               <volume>319</volume>
-               <issue>13</issue>
-               <fpage>881</fpage>
-               <lpage>888</lpage>
-               <uri>http://dx.doi.org/10.1056/NEJM198809293191330</uri>
-            </element-citation>
-         </ref>
-         <ref id="KE2013"><!--Kane, C.K., Emmons, D.W. (2013). Policy research perspectives: Private practice remains strong despite shifts toward hospital employment. <italic>AMA Practice Benchmark Survey-2012. </italic>American Medical Association<italic>.</italic> Retrieved from: <uri>http://www.ama-assn.org/ama/pub/advocacy/health-policy.page</uri>?-->
-            <element-citation publication-type="book" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Kane</surname>
-                     <given-names>C.K.</given-names>
-                  </name>
-                  <name>
-                     <surname>Emmons</surname>
-                     <given-names>D.W.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <source>AMA Practice Benchmark Survey-2012.</source>
-               <publisher-loc>?</publisher-loc>
-               <publisher-name>?</publisher-name>
-               <uri>http://www.ama-assn.org/ama/pub/advocacy/health-policy.page</uri>
-            </element-citation>
-         </ref>
-         <ref id="K2014"><!--Kane, C.K., (2014). Policy research perspectives: New data on physician compensation methods —one size does not fit all. <italic>AMA Practice Benchmark Survey-2012</italic>. American Medical Association. Retrieved from: <uri>http://www.ama-assn.org/resources/doc/health-policy/prp-phys-comp-methods-2014.pdf</uri>.-->
-            <element-citation publication-type="book" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Kane</surname>
-                     <given-names>C.K.</given-names>
-                  </name>
-                  <name>
-                     <surname/>
-                     <given-names/>
+                     <surname>Goitein</surname>
+                     <given-names>L.</given-names>
                   </name>
                </person-group>
                <year>2014</year>
-               <source>AMA Practice Benchmark Survey-2012</source>
-               <publisher-loc>.</publisher-loc>
-               <publisher-name>.</publisher-name>
-               <uri>http://www.ama-assn.org/resources/doc/health-policy/prp-phys-comp-methods-2014.pdf</uri>
+               <article-title>Physician well-being: Addressing downstream effects, but looking upstream.</article-title>
+               <source>JAMA Internal Medicine</source>
+               <volume>174</volume>
+               <issue>4</issue>
+               <fpage>533</fpage>
+               <lpage>534</lpage>
+               <uri>http://dx.doi.org/10.1001/jamainternmed.2013.13253</uri>
             </element-citation>
          </ref>
-         <ref id="LRB2003"><!--Landon, B. E., Reschovsky, J., & Blumenthal, D. (2003). Changes in career satisfaction among primary care and specialist physicians, 1997-2001. <italic>Journal of the American Medical Association, 289</italic>(4), 442-449. <uri>http://dx.doi.org/10.1001/jama.289.4.442</uri>-->
+         <ref id="GPDKMP2005"><!--Grembowski, D., Paschane, D., Diehr, P., Katon, W., Martin, D., & Patrick, D. L. (2005). Managed care, physician job satisfaction, and the quality of primary care. <italic>Journal of General Internal Medicine, 20</italic>(3), 271-277. <uri>http://dx.doi.org/10.1111/j.1525-1497.2005.32127.x</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Grembowski</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Paschane</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Diehr</surname>
+                     <given-names>P.</given-names>
+                  </name>
+                  <name>
+                     <surname>Katon</surname>
+                     <given-names>W.</given-names>
+                  </name>
+                  <name>
+                     <surname>Martin</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Patrick</surname>
+                     <given-names>D. L.</given-names>
+                  </name>
+               </person-group>
+               <year>2005</year>
+               <article-title>Managed care, physician job satisfaction, and the quality of primary care.</article-title>
+               <source>Journal of General Internal Medicine</source>
+               <volume>20</volume>
+               <issue>3</issue>
+               <fpage>271</fpage>
+               <lpage>277</lpage>
+               <uri>http://dx.doi.org/10.1111/j.1525-1497.2005.32127.x</uri>
+            </element-citation>
+         </ref>
+         <ref id="GMSBMMN1985"><!--Grol, R., Mokkink, H., Smits, A., van Eijk, J., Beek, M., Mesker, P., & Mesker-Niesten, J. (1985). Work satisfaction of general practitioners and the quality of patient care. <italic>The Journal of Family Practice, 2</italic>(3), 128-135. <uri>http://dx.doi.org/10.1093/fampra/2.3.128</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Grol</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Mokkink</surname>
+                     <given-names>H.</given-names>
+                  </name>
+                  <name>
+                     <surname>Smits</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>van</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Beek</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Mesker</surname>
+                     <given-names>P.</given-names>
+                  </name>
+                  <name>
+                     <surname>Mesker-Niesten</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>1985</year>
+               <article-title>Work satisfaction of general practitioners and the quality of patient care.</article-title>
+               <source>The Journal of Family Practice</source>
+               <volume>2</volume>
+               <issue>3</issue>
+               <fpage>128</fpage>
+               <lpage>135</lpage>
+               <uri>http://dx.doi.org/10.1093/fampra/2.3.128</uri>
+            </element-citation>
+         </ref>
+         <ref id="HR2008"><!--Halbesleben, J. R., & Rathert, C. (2008). Linking physician burnout and patient outcomes: exploring the dyadic relationship between physicians and patients. <italic>Health Care Management Review, 33</italic>(1), 29-39. <uri>http://dx.doi.org/10.1097/01.HMR.0000304493.87898.72</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Halbesleben</surname>
+                     <given-names>J. R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Rathert</surname>
+                     <given-names>C.</given-names>
+                  </name>
+               </person-group>
+               <year>2008</year>
+               <article-title>Linking physician burnout and patient outcomes: exploring the dyadic relationship between physicians and patients.</article-title>
+               <source>Health Care Management Review</source>
+               <volume>33</volume>
+               <issue>1</issue>
+               <fpage>29</fpage>
+               <lpage>39</lpage>
+               <uri>http://dx.doi.org/10.1097/01.HMR.0000304493.87898.72</uri>
+            </element-citation>
+         </ref>
+         <ref id="HHATVE2005"><!--Hem, E., Haldorsen, T., Aasland, O. G., Tyssen, R., Vaglum, P., & Ekeberg, O. (2005). Suicide among physicians. The <italic>American Journal of Psychiatry, 162</italic>(11), 2199-2200. <uri>http://dx.doi.org/10.1176/appi.ajp.162.11.2199-a</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hem</surname>
+                     <given-names>E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Haldorsen</surname>
+                     <given-names>T.</given-names>
+                  </name>
+                  <name>
+                     <surname>Aasland</surname>
+                     <given-names>O. G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Tyssen</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Vaglum</surname>
+                     <given-names>P.</given-names>
+                  </name>
+                  <name>
+                     <surname>Ekeberg</surname>
+                     <given-names>O.</given-names>
+                  </name>
+               </person-group>
+               <year>2005</year>
+               <article-title>Suicide among physicians. The</article-title>
+               <source>American Journal of Psychiatry</source>
+               <volume>162</volume>
+               <issue>11</issue>
+               <fpage>2199</fpage>
+               <lpage>2200</lpage>
+               <uri>http://dx.doi.org/10.1176/appi.ajp.162.11.2199-a</uri>
+            </element-citation>
+         </ref>
+         <ref id="KFJH2007"><!--Keeton, K., Fenner, D. E., Johnson, T. R., & Hayward, R. A. (2007). Predictors of physician career satisfaction, work-life balance, and burnout. <italic>Obstetrics Gynecology, 109</italic>(4), 949-955. <uri>http://dx.doi.org/10.1097/01.AOG.0000258299.45979.37</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Keeton</surname>
+                     <given-names>K.</given-names>
+                  </name>
+                  <name>
+                     <surname>Fenner</surname>
+                     <given-names>D. E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Johnson</surname>
+                     <given-names>T. R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hayward</surname>
+                     <given-names>R. A.</given-names>
+                  </name>
+               </person-group>
+               <year>2007</year>
+               <article-title>Predictors of physician career satisfaction, work-life balance, and burnout.</article-title>
+               <source>Obstetrics Gynecology</source>
+               <volume>109</volume>
+               <issue>4</issue>
+               <fpage>949</fpage>
+               <lpage>955</lpage>
+               <uri>http://dx.doi.org/10.1097/01.AOG.0000258299.45979.37</uri>
+            </element-citation>
+         </ref>
+         <ref id="K2012"><!--Kravitz, R. L. (2012). Physician job satisfaction as a public health issue. <italic>Israel Journal of Health Policy Research, 1</italic>(1), 51. <uri>http://dx.doi.org/10.1186/2045-4015-1-51</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kravitz</surname>
+                     <given-names>R. L.</given-names>
+                  </name>
+               </person-group>
+               <year>2012</year>
+               <article-title>Physician job satisfaction as a public health issue.</article-title>
+               <source>Israel Journal of Health Policy Research</source>
+               <volume>1</volume>
+               <issue>1</issue>
+               <uri>http://dx.doi.org/10.1186/2045-4015-1-51</uri>
+            </element-citation>
+         </ref>
+         <ref id="KGMHYB2014"><!--Kushnir, T., Greenberg, D., Madjar, N., Hadari, I., Yermiahu, Y., & Bachner, Y. G. (2014). Is burnout associated with referral rates among primary care physicians in community clinics? <italic>The Journal of Family Practice, 31</italic>(1), 44-50. <uri>http://dx.doi.org/10.1093/fampra/cmt060</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kushnir</surname>
+                     <given-names>T.</given-names>
+                  </name>
+                  <name>
+                     <surname>Greenberg</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Madjar</surname>
+                     <given-names>N.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hadari</surname>
+                     <given-names>I.</given-names>
+                  </name>
+                  <name>
+                     <surname>Yermiahu</surname>
+                     <given-names>Y.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bachner</surname>
+                     <given-names>Y. G.</given-names>
+                  </name>
+               </person-group>
+               <year>2014</year>
+               <article-title>Is burnout associated with referral rates among primary care physicians in community clinics?</article-title>
+               <source>The Journal of Family Practice</source>
+               <volume>31</volume>
+               <issue>1</issue>
+               <fpage>44</fpage>
+               <lpage>50</lpage>
+               <uri>http://dx.doi.org/10.1093/fampra/cmt060</uri>
+            </element-citation>
+         </ref>
+         <ref id="LRPB2006"><!--Landon, B. E., Reschovsky, J. D., Pham, H. H., & Blumenthal, D. (2006). Leaving medicine: the consequences of physician dissatisfaction. <italic>Medical Care, 44</italic>(3), 234-242. <uri>http://dx.doi.org/10.1097/01.mlr.0000199848.17133.9b</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -635,457 +939,486 @@
                   </name>
                   <name>
                      <surname>Reschovsky</surname>
-                     <given-names>J.</given-names>
+                     <given-names>J. D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Pham</surname>
+                     <given-names>H. H.</given-names>
                   </name>
                   <name>
                      <surname>Blumenthal</surname>
                      <given-names>D.</given-names>
                   </name>
                </person-group>
-               <year>2003</year>
-               <article-title>Changes in career satisfaction among primary care and specialist physicians, 1997-2001.</article-title>
-               <source>Journal of the American Medical Association</source>
-               <volume>289</volume>
-               <issue>4</issue>
-               <fpage>442</fpage>
-               <lpage>449</lpage>
-               <uri>http://dx.doi.org/10.1001/jama.289.4.442</uri>
+               <year>2006</year>
+               <article-title>Leaving medicine: the consequences of physician dissatisfaction.</article-title>
+               <source>Medical Care</source>
+               <volume>44</volume>
+               <issue>3</issue>
+               <fpage>234</fpage>
+               <lpage>242</lpage>
+               <uri>http://dx.doi.org/10.1097/01.mlr.0000199848.17133.9b</uri>
             </element-citation>
          </ref>
-         <ref id="LKSSM2002"><!--Leigh, J. P., Kravitz, R. L., Schembri, M., Samuels, S. J., & Mobley, S. (2002). Physician career satisfaction across specialties. <italic>Archives of Internal Medicine, 162</italic>(14), 1577-1584. <uri>http://dx.doi.org/10.1001/archinte.162.14.1577</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
+         <ref id="L1977"><!--Larson, M. (1977). <italic>The Rise of Professionalism: A Sociological Analysis</italic>. Berkeley, CA: University of California Press.-->
+            <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Leigh</surname>
-                     <given-names>J. P.</given-names>
-                  </name>
-                  <name>
-                     <surname>Kravitz</surname>
-                     <given-names>R. L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Schembri</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Samuels</surname>
-                     <given-names>S. J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Mobley</surname>
-                     <given-names>S.</given-names>
-                  </name>
-               </person-group>
-               <year>2002</year>
-               <article-title>Physician career satisfaction across specialties.</article-title>
-               <source>Archives of Internal Medicine</source>
-               <volume>162</volume>
-               <issue>14</issue>
-               <fpage>1577</fpage>
-               <lpage>1584</lpage>
-               <uri>http://dx.doi.org/10.1001/archinte.162.14.1577</uri>
-            </element-citation>
-         </ref>
-         <ref id="LTK2009"><!--Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. <italic>BMC Health Services Research, 9</italic>(1), 166. <uri>http://dx.doi.org/10.1186/1472-6963-9-166</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Leigh</surname>
-                     <given-names>J. P.</given-names>
-                  </name>
-                  <name>
-                     <surname>Tancredi</surname>
-                     <given-names>D. J.</given-names>
-                  </name>
-                  <name>
-                     <surname>Kravitz</surname>
-                     <given-names>R. L.</given-names>
-                  </name>
-               </person-group>
-               <year>2009</year>
-               <article-title>Physician career satisfaction within specialties.</article-title>
-               <source>BMC Health Services Research</source>
-               <volume>9</volume>
-               <issue>1</issue>
-               <uri>http://dx.doi.org/10.1186/1472-6963-9-166</uri>
-            </element-citation>
-         </ref>
-         <ref id="___2011"><!--Medicare Payment Advisory Commission (2011). Chapter 3; Medicare Fee-For-Service Benefit Design. <italic>Report to the Congress: Medicare and the health Care Delivery System</italic>. Washington, D.C. MedPAC. Retrieved from: <uri>http://www.medpac.gov/documents/Jun11_EntireReport.pdf</uri>.-->
-            <mixed-citation publication-type="book" publication-format="web">Medicare Payment Advisory Commission (2011). Chapter 3; Medicare Fee-For-Service Benefit Design. <italic>Report to the Congress: Medicare and the health Care Delivery System</italic>. Washington, D.C. MedPAC. Retrieved from: <uri>http://www.medpac.gov/documents/Jun11_EntireReport.pdf</uri>.</mixed-citation>
-         </ref>
-         <ref id="___2013"><!--Medscape (2013). Physician Compensation Report-2013. Retrieved from: <uri>http://www.medscape.com/features/slideshow/compensation/2013/public</uri>.-->
-            <mixed-citation publication-type="book" publication-format="web">Medscape (2013). Physician Compensation Report-2013. Retrieved from: <uri>http://www.medscape.com/features/slideshow/compensation/2013/public</uri>.</mixed-citation>
-         </ref>
-         <ref id="M2013"><!--Mitka, M. (2013). Financial Incentives Appear to Boost Electronic Health Record Use. <italic>Journal of the American Medical Association, 310</italic>(23), 2496-2496.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Mitka</surname>
+                     <surname>Larson</surname>
                      <given-names>M.</given-names>
                   </name>
                </person-group>
-               <year>2013</year>
-               <article-title>Financial Incentives Appear to Boost Electronic Health Record Use.</article-title>
-               <source>Journal of the American Medical Association</source>
-               <volume>310</volume>
-               <issue>23</issue>
-               <fpage>2496</fpage>
-               <lpage>2496</lpage>
+               <year>1977</year>
+               <source>The Rise of Professionalism: A Sociological Analysis</source>
+               <publisher-loc>Berkeley, CA</publisher-loc>
+               <publisher-name>University of California Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="MMDGSY2013"><!--Moses, H., Matheson, D. H., Dorsey, E. R., George, B. P., Sadoff, D., & Yoshimura, S. (2013). The anatomy of health care in the United States. <italic>Journal of the American Medical Association,310</italic>(18), 1947-1964. <uri>http://dx.doi.org/10.1001/jama.2013.281425</uri>-->
+         <ref id="LBCDFK1985"><!--Linn, L. S., Brook, R. H., Clark, V. A., Davies, A. R., Fink, A., & Kosecoff, J. (1985). Physician and patient satisfaction as factors related to the organization of internal medicine group practices. <italic>Medical Care, 23</italic>(10), 1171-1178. <uri>http://dx.doi.org/10.1097/00005650-198510000-00006</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Moses</surname>
-                     <given-names>H.</given-names>
+                     <surname>Linn</surname>
+                     <given-names>L. S.</given-names>
                   </name>
                   <name>
-                     <surname>Matheson</surname>
-                     <given-names>D. H.</given-names>
+                     <surname>Brook</surname>
+                     <given-names>R. H.</given-names>
                   </name>
                   <name>
-                     <surname>Dorsey</surname>
-                     <given-names>E. R.</given-names>
+                     <surname>Clark</surname>
+                     <given-names>V. A.</given-names>
                   </name>
                   <name>
-                     <surname>George</surname>
-                     <given-names>B. P.</given-names>
+                     <surname>Davies</surname>
+                     <given-names>A. R.</given-names>
                   </name>
                   <name>
-                     <surname>Sadoff</surname>
-                     <given-names>D.</given-names>
+                     <surname>Fink</surname>
+                     <given-names>A.</given-names>
                   </name>
                   <name>
-                     <surname>Yoshimura</surname>
-                     <given-names>S.</given-names>
+                     <surname>Kosecoff</surname>
+                     <given-names>J.</given-names>
                   </name>
                </person-group>
-               <year>2013</year>
-               <article-title>The anatomy of health care in the United States.</article-title>
-               <source>Journal of the American Medical Association</source>
-               <volume>310</volume>
-               <issue>18</issue>
-               <fpage>1947</fpage>
-               <lpage>1964</lpage>
-               <uri>http://dx.doi.org/10.1001/jama.2013.281425</uri>
+               <year>1985</year>
+               <article-title>Physician and patient satisfaction as factors related to the organization of internal medicine group practices.</article-title>
+               <source>Medical Care</source>
+               <volume>23</volume>
+               <issue>10</issue>
+               <fpage>1171</fpage>
+               <lpage>1178</lpage>
+               <uri>http://dx.doi.org/10.1097/00005650-198510000-00006</uri>
             </element-citation>
          </ref>
-         <ref id="PGGWLR2013"><!--Panzer, R. J., Gitomer, R. S., Greene, W. H., Webster, P. R., Landry, K. R., & Riccobono, C. A. (2013). Increasing demands for quality measurement. <italic>Journal of the American Medical Association, 310</italic>(18), 1971-1980. <uri>http://dx.doi.org/10.1001/jama.2013.282047</uri>-->
+         <ref id="LMWBBVS2009"><!--Linzer, M., Manwell, L. B., Williams, E. S., Bobula, J. A., Brown, R. L., Varkey, A.B., ... & Schwartz, M. D. (2009). Working conditions in primary care: physician reactions and care quality. <italic>Annals of internal medicine, 151</italic>(1), 28-36. <uri>http://dx.doi.org/10.7326/0003-4819-151-1-200907070-00006</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Panzer</surname>
-                     <given-names>R. J.</given-names>
+                     <surname>Linzer</surname>
+                     <given-names>M.</given-names>
                   </name>
                   <name>
-                     <surname>Gitomer</surname>
-                     <given-names>R. S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Greene</surname>
-                     <given-names>W. H.</given-names>
-                  </name>
-                  <name>
-                     <surname>Webster</surname>
-                     <given-names>P. R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Landry</surname>
-                     <given-names>K. R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Riccobono</surname>
-                     <given-names>C. A.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>Increasing demands for quality measurement.</article-title>
-               <source>Journal of the American Medical Association</source>
-               <volume>310</volume>
-               <issue>18</issue>
-               <fpage>1971</fpage>
-               <lpage>1980</lpage>
-               <uri>http://dx.doi.org/10.1001/jama.2013.282047</uri>
-            </element-citation>
-         </ref>
-         <ref id="PKWSLD2002"><!--Pathman, D. E., Konrad, T. R., Williams, E. S., Scheckler, W. E., Linzer, M., & Douglas, J. (2002). Physician job satisfaction, job dissatisfaction, and physician turnover. <italic>Journal of Family Practice, 51</italic>(7), 593.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Pathman</surname>
-                     <given-names>D. E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Konrad</surname>
-                     <given-names>T. R.</given-names>
+                     <surname>Manwell</surname>
+                     <given-names>L. B.</given-names>
                   </name>
                   <name>
                      <surname>Williams</surname>
                      <given-names>E. S.</given-names>
                   </name>
                   <name>
+                     <surname>Bobula</surname>
+                     <given-names>J. A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Brown</surname>
+                     <given-names>R. L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Varkey</surname>
+                     <given-names>A.B.</given-names>
+                  </name>
+                  <name>
+                     <surname>...</surname>
+                     <given-names>...</given-names>
+                  </name>
+                  <name>
+                     <surname>Schwartz</surname>
+                     <given-names>M. D.</given-names>
+                  </name>
+               </person-group>
+               <year>2009</year>
+               <article-title>Working conditions in primary care: physician reactions and care quality.</article-title>
+               <source>Annals of internal medicine</source>
+               <volume>151</volume>
+               <issue>1</issue>
+               <fpage>28</fpage>
+               <lpage>36</lpage>
+               <uri>http://dx.doi.org/10.7326/0003-4819-151-1-200907070-00006</uri>
+            </element-citation>
+         </ref>
+         <ref id="___2002"><!--Medical Professionalism Project. (2002). Medical Professionalism in the New Millennium: A Physician Charter. <italic>Annals of Internal Medicine, 136</italic>(3), 243-246. <uri>http://dx.doi.org/10.7326/0003-4819-136-3-200202050-00012</uri>-->
+            <mixed-citation publication-type="journal" publication-format="web">Medical Professionalism Project. (2002). Medical Professionalism in the New Millennium: A Physician Charter. <italic>Annals of Internal Medicine, 136</italic>(3), 243-246. <uri>http://dx.doi.org/10.7326/0003-4819-136-3-200202050-00012</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="M1980"><!--Melville, A. (1980). Job satisfaction in general practice implications for prescribe ing. <italic>Social Science & Medicine. Part A: Medical Psychology & Medical Sociology, 14</italic>(6), 495-499. <uri>http://dx.doi.org/10.1016/S0271-7123%2880%2980055-1</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Melville</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <year>1980</year>
+               <article-title>Job satisfaction in general practice implications for prescribe ing.</article-title>
+               <source>Social Science &amp; Medicine. Part A: Medical Psychology &amp; Medical Sociology</source>
+               <volume>14</volume>
+               <issue>6</issue>
+               <fpage>495</fpage>
+               <lpage>499</lpage>
+               <uri>http://dx.doi.org/10.1016/S0271-7123%2880%2980055-1</uri>
+            </element-citation>
+         </ref>
+         <ref id="SBBRDSF2010"><!--Shanafelt, T. D., Balch, C. M., Bechamps, G., Russell, T., Dyrbye, L., Satele, D., . . . Freischlag, J. (2010). Burnout and medical errors among American surgeons. <italic>Annals of Surgery, 251</italic>(6), 995-1000. <uri>http://dx.doi.org/10.1097/SLA.0b013e3181bfdab3</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Shanafelt</surname>
+                     <given-names>T. D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Balch</surname>
+                     <given-names>C. M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bechamps</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Russell</surname>
+                     <given-names>T.</given-names>
+                  </name>
+                  <name>
+                     <surname>Dyrbye</surname>
+                     <given-names>L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Satele</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>.. . .. Freischlag</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>2010</year>
+               <article-title>Burnout and medical errors among American surgeons.</article-title>
+               <source>Annals of Surgery</source>
+               <volume>251</volume>
+               <issue>6</issue>
+               <fpage>995</fpage>
+               <lpage>1000</lpage>
+               <uri>http://dx.doi.org/10.1097/SLA.0b013e3181bfdab3</uri>
+            </element-citation>
+         </ref>
+         <ref id="SBGBMJ7379"><!--Sibbald, B., Bojke, C., & Gravelle, H. (2003). National survey of job satisfaction and retirement intentions among general practitioners in England. <italic>BMJ, 326</italic>(7379), 22. <uri>http://dx.doi.org/10.1136/bmj.326.7379.22</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Sibbald</surname>
+                     <given-names>B.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bojke</surname>
+                     <given-names>C.</given-names>
+                  </name>
+                  <name>
+                     <surname>Gravelle</surname>
+                     <given-names>in England.</given-names>
+                  </name>
+                  <name>
+                     <surname>BMJ</surname>
+                     <given-names>326</given-names>
+                  </name>
+               </person-group>
+               <year>7379</year>
+               <article-title>National survey of job satisfaction and retirement intentions among general practitioners in England.</article-title>
+               <source>BMJ</source>
+               <volume>326</volume>
+               <issue>7379</issue>
+               <uri>http://dx.doi.org/10.1136/bmj.326.7379.22</uri>
+            </element-citation>
+         </ref>
+         <ref id="TPSVF2013"><!--Tyssen, R., Palmer, K. S., Solberg, I. B., Voltmer, E., & Frank, E. (2013). Physicians' perceptions of quality of care, professional autonomy, and job satisfaction in Canada, Norway, and the United States. <italic>BMC health services research, 13</italic>, 516. <uri>http://dx.doi.org/10.1186/1472-6963-13-516</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tyssen</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Palmer</surname>
+                     <given-names>K. S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Solberg</surname>
+                     <given-names>I. B.</given-names>
+                  </name>
+                  <name>
+                     <surname>Voltmer</surname>
+                     <given-names>E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Frank</surname>
+                     <given-names>E.</given-names>
+                  </name>
+               </person-group>
+               <year>2013</year>
+               <article-title>Physicians' perceptions of quality of care, professional autonomy, and job satisfaction in Canada, Norway, and the United States.</article-title>
+               <source>BMC health services research</source>
+               <volume>13</volume>
+               <uri>http://dx.doi.org/10.1186/1472-6963-13-516</uri>
+            </element-citation>
+         </ref>
+         <ref id="UOBMHF2009"><!--Utsugi-Ozaki, M., Bito, S., Matsumura, S., Hayashino, Y., & Fukuhara, S. (2009). Physician job satisfaction and quality of care among hospital employed physicians in Japan. <italic>Journal of General Internal Medicine, 24</italic>(3), 387-392. <uri>http://dx.doi.org/10.1007/s11606-008-0886-4</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Utsugi-Ozaki</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bito</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Matsumura</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hayashino</surname>
+                     <given-names>Y.</given-names>
+                  </name>
+                  <name>
+                     <surname>Fukuhara</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>2009</year>
+               <article-title>Physician job satisfaction and quality of care among hospital employed physicians in Japan.</article-title>
+               <source>Journal of General Internal Medicine</source>
+               <volume>24</volume>
+               <issue>3</issue>
+               <fpage>387</fpage>
+               <lpage>392</lpage>
+               <uri>http://dx.doi.org/10.1007/s11606-008-0886-4</uri>
+            </element-citation>
+         </ref>
+         <ref id="WLGL9702"><!--Wallace, J. E., Lemaire, J. B., & Ghali, W. A. (2009). Physician wellness: a missing quality indicator. <italic>Lancet, 374</italic>(9702), 1714-1721. <uri>http://dx.doi.org/10.1016/S0140-6736%2809%2961424-0</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Wallace</surname>
+                     <given-names>J. E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Lemaire</surname>
+                     <given-names>J. B.</given-names>
+                  </name>
+                  <name>
+                     <surname>Ghali</surname>
+                     <given-names>indicator.</given-names>
+                  </name>
+                  <name>
+                     <surname>Lancet</surname>
+                     <given-names>374</given-names>
+                  </name>
+               </person-group>
+               <year>9702</year>
+               <article-title>Physician wellness: a missing quality indicator.</article-title>
+               <source>Lancet</source>
+               <volume>374</volume>
+               <issue>9702</issue>
+               <fpage>1714</fpage>
+               <lpage>1721</lpage>
+               <uri>http://dx.doi.org/10.1016/S0140-6736%2809%2961424-0</uri>
+            </element-citation>
+         </ref>
+         <ref id="WDRCDMS2014"><!--West, C. P., Dyrbye, L. N., Rabatin, J. T., Call, T. G., Davidson, J. H., Multari, A., . . . Shanafelt, T. D. (2014). Intervention to Promote Physician Well-being, Job Satisfaction, and Professionalism: A Randomized Clinical Trial. <italic>JAMA Internal Medicine, 174</italic>(4), 527-533. <uri>http://dx.doi.org/10.1001/jamaintermed.2013.14387</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>West</surname>
+                     <given-names>C. P.</given-names>
+                  </name>
+                  <name>
+                     <surname>Dyrbye</surname>
+                     <given-names>L. N.</given-names>
+                  </name>
+                  <name>
+                     <surname>Rabatin</surname>
+                     <given-names>J. T.</given-names>
+                  </name>
+                  <name>
+                     <surname>Call</surname>
+                     <given-names>T. G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Davidson</surname>
+                     <given-names>J. H.</given-names>
+                  </name>
+                  <name>
+                     <surname>Multari</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>.. . .. Shanafelt</surname>
+                     <given-names>T. D.</given-names>
+                  </name>
+               </person-group>
+               <year>2014</year>
+               <article-title>Intervention to Promote Physician Well-being, Job Satisfaction, and Professionalism: A Randomized Clinical Trial.</article-title>
+               <source>JAMA Internal Medicine</source>
+               <volume>174</volume>
+               <issue>4</issue>
+               <fpage>527</fpage>
+               <lpage>533</lpage>
+               <uri>http://dx.doi.org/10.1001/jamaintermed.2013.14387</uri>
+            </element-citation>
+         </ref>
+         <ref id="WTHSS2009"><!--West, C. P., Tan, A. D., Habermann, T. M., Sloan, J. A., & Shanafelt, T. D. (2009). Association of resident fatigue and distress with perceived medical errors. <italic>Jama, 302</italic>(12), 1294-1300. <uri>http://dx.doi.org/10.1001/jama.2009.1389</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>West</surname>
+                     <given-names>C. P.</given-names>
+                  </name>
+                  <name>
+                     <surname>Tan</surname>
+                     <given-names>A. D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Habermann</surname>
+                     <given-names>T. M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Sloan</surname>
+                     <given-names>J. A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Shanafelt</surname>
+                     <given-names>T. D.</given-names>
+                  </name>
+               </person-group>
+               <year>2009</year>
+               <article-title>Association of resident fatigue and distress with perceived medical errors.</article-title>
+               <source>Jama</source>
+               <volume>302</volume>
+               <issue>12</issue>
+               <fpage>1294</fpage>
+               <lpage>1300</lpage>
+               <uri>http://dx.doi.org/10.1001/jama.2009.1389</uri>
+            </element-citation>
+         </ref>
+         <ref id="WKSPLMMS2010"><!--Williams, E. S., Konrad, T. R., Scheckler, W. E., Pathman, D. E., Linzer, M., McMurray, J. E., . . . Schwartz, M. (2010). Understanding physicians' intentions to withdraw from practice: the role of job satisfaction, job stress, mental and physical health. 2001. <italic>Health Care Management Review, 35</italic>(2), 105-115. <uri>http://dx.doi.org/10.1097/01.HMR.0000304509.58297.6f</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Williams</surname>
+                     <given-names>E. S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Konrad</surname>
+                     <given-names>T. R.</given-names>
+                  </name>
+                  <name>
                      <surname>Scheckler</surname>
                      <given-names>W. E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Pathman</surname>
+                     <given-names>D. E.</given-names>
                   </name>
                   <name>
                      <surname>Linzer</surname>
                      <given-names>M.</given-names>
                   </name>
                   <name>
-                     <surname>Douglas</surname>
-                     <given-names>J.</given-names>
+                     <surname>McMurray</surname>
+                     <given-names>J. E.</given-names>
+                  </name>
+                  <name>
+                     <surname>.. . .. Schwartz</surname>
+                     <given-names>M.</given-names>
                   </name>
                </person-group>
-               <year>2002</year>
-               <article-title>Physician job satisfaction, job dissatisfaction, and physician turnover.</article-title>
-               <source>Journal of Family Practice</source>
-               <volume>51</volume>
-               <issue>7</issue>
+               <year>2010</year>
+               <article-title>Understanding physicians' intentions to withdraw from practice: the role of job satisfaction, job stress, mental and physical health. 2001.</article-title>
+               <source>Health Care Management Review</source>
+               <volume>35</volume>
+               <issue>2</issue>
+               <fpage>105</fpage>
+               <lpage>115</lpage>
+               <uri>http://dx.doi.org/10.1097/01.HMR.0000304509.58297.6f</uri>
             </element-citation>
          </ref>
-         <ref id="QWOBS2009"><!--Quinn, M. A., Wilcox, A., Orav, E. J., Bates, D. W., & Simon, S. R. (2009). The relationship between perceived practice quality and quality improvement activities and physician practice dissatisfaction, professional isolation, and work-life stress. <italic>Medical care, 47</italic>(8), 924-928. <uri>http://dx.doi.org/10.1097/MLR.0b013e3181a393e4</uri>-->
+         <ref id="WMKL2007"><!--Williams, E. S., Manwell, L. B., Konrad, T. R., & Linzer, M. (2007). The relationship of organizational culture, stress, satisfaction, and burnout with physician-reported error and suboptimal patient care: results from the MEMO study. <italic>Health Care Management Review, 32</italic>(3), 203-212. <uri>http://dx.doi.org/10.1097/01.HMR.0000281626.28363.59</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Quinn</surname>
-                     <given-names>M. A.</given-names>
+                     <surname>Williams</surname>
+                     <given-names>E. S.</given-names>
                   </name>
                   <name>
-                     <surname>Wilcox</surname>
-                     <given-names>A.</given-names>
+                     <surname>Manwell</surname>
+                     <given-names>L. B.</given-names>
                   </name>
                   <name>
-                     <surname>Orav</surname>
-                     <given-names>E. J.</given-names>
+                     <surname>Konrad</surname>
+                     <given-names>T. R.</given-names>
                   </name>
                   <name>
-                     <surname>Bates</surname>
-                     <given-names>D. W.</given-names>
-                  </name>
-                  <name>
-                     <surname>Simon</surname>
-                     <given-names>S. R.</given-names>
+                     <surname>Linzer</surname>
+                     <given-names>M.</given-names>
                   </name>
                </person-group>
-               <year>2009</year>
-               <article-title>The relationship between perceived practice quality and quality improvement activities and physician practice dissatisfaction, professional isolation, and work-life stress.</article-title>
-               <source>Medical care</source>
-               <volume>47</volume>
-               <issue>8</issue>
-               <fpage>924</fpage>
-               <lpage>928</lpage>
-               <uri>http://dx.doi.org/10.1097/MLR.0b013e3181a393e4</uri>
-            </element-citation>
-         </ref>
-         <ref id="RGONDB2004"><!--Rittenhouse, D. R., Grumbach, K., O’Neil, E. H., Dower, C., & Bindman, A. (2004). Physician organization and care management in California: from cottage to Kaiser. <italic>Health Affairs, 23</italic>(6), 51-62. <uri>http://dx.doi.org/10.1377/hlthaff.23.6.51</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Rittenhouse</surname>
-                     <given-names>D. R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Grumbach</surname>
-                     <given-names>K.</given-names>
-                  </name>
-                  <name>
-                     <surname>O’Neil</surname>
-                     <given-names>E. H.</given-names>
-                  </name>
-                  <name>
-                     <surname>Dower</surname>
-                     <given-names>C.</given-names>
-                  </name>
-                  <name>
-                     <surname>Bindman</surname>
-                     <given-names>A.</given-names>
-                  </name>
-               </person-group>
-               <year>2004</year>
-               <article-title>Physician organization and care management in California: from cottage to Kaiser.</article-title>
-               <source>Health Affairs</source>
-               <volume>23</volume>
-               <issue>6</issue>
-               <fpage>51</fpage>
-               <lpage>62</lpage>
-               <uri>http://dx.doi.org/10.1377/hlthaff.23.6.51</uri>
-            </element-citation>
-         </ref>
-         <ref id="SDFF2014"><!--Shaw, M. K., Davis, S. A., Fleischer, A. B., & Feldman, S. R. (2014). The duration of office visits in the United States, 1993 to 2010. <italic>The American Journal of Managed Care, 20</italic>(10), 820-826.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Shaw</surname>
-                     <given-names>M. K.</given-names>
-                  </name>
-                  <name>
-                     <surname>Davis</surname>
-                     <given-names>S. A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Fleischer</surname>
-                     <given-names>A. B.</given-names>
-                  </name>
-                  <name>
-                     <surname>Feldman</surname>
-                     <given-names>S. R.</given-names>
-                  </name>
-               </person-group>
-               <year>2014</year>
-               <article-title>The duration of office visits in the United States, 1993 to 2010.</article-title>
-               <source>The American Journal of Managed Care</source>
-               <volume>20</volume>
-               <issue>10</issue>
-               <fpage>820</fpage>
-               <lpage>826</lpage>
-            </element-citation>
-         </ref>
-         <ref id="SS2012"><!--Sinsky, T. A., & Sinsky, C. A. (2012). A streamlined approach to prescription management. <italic>Family practice management, 19</italic>(6), 11.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Sinsky</surname>
-                     <given-names>T. A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Sinsky</surname>
-                     <given-names>C. A.</given-names>
-                  </name>
-               </person-group>
-               <year>2012</year>
-               <article-title>A streamlined approach to prescription management.</article-title>
-               <source>Family practice management</source>
-               <volume>19</volume>
-               <issue>6</issue>
-            </element-citation>
-         </ref>
-         <ref id="SWGSSMB2013"><!--Sinsky, C. A., Willard-Grace, R., Schutzbank, A. M., Sinsky, T. A., Margolius, D., & Bodenheimer, T. (2013). In search of joy in practice: a report of 23 high-functioning primary care practices. <italic>The Annals of Family Medicine, 11</italic>(3), 272-278. <uri>http://dx.doi.org/10.1370/afm.1531</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Sinsky</surname>
-                     <given-names>C. A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Willard-Grace</surname>
-                     <given-names>R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Schutzbank</surname>
-                     <given-names>A. M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Sinsky</surname>
-                     <given-names>T. A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Margolius</surname>
-                     <given-names>D.</given-names>
-                  </name>
-                  <name>
-                     <surname>Bodenheimer</surname>
-                     <given-names>T.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>In search of joy in practice: a report of 23 high-functioning primary care practices.</article-title>
-               <source>The Annals of Family Medicine</source>
-               <volume>11</volume>
+               <year>2007</year>
+               <article-title>The relationship of organizational culture, stress, satisfaction, and burnout with physician-reported error and suboptimal patient care: results from the MEMO study.</article-title>
+               <source>Health Care Management Review</source>
+               <volume>32</volume>
                <issue>3</issue>
-               <fpage>272</fpage>
-               <lpage>278</lpage>
-               <uri>http://dx.doi.org/10.1370/afm.1531</uri>
+               <fpage>203</fpage>
+               <lpage>212</lpage>
+               <uri>http://dx.doi.org/10.1097/01.HMR.0000281626.28363.59</uri>
             </element-citation>
          </ref>
-         <ref id="SJ2014"><!--Sorrell, S., Jennings, K. (2014). 51 Statistics on satisfied versus dissatisfied physicians. Jackson Healthcare Survey. Retrieved from: <uri>http://www.jacksonhealthcare.com/media-room/articles/physician-trends/51-statistics-on-satisfied-and-dissatisfied-physicians/</uri>-->
-            <element-citation publication-type="book" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Sorrell</surname>
-                     <given-names>S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Jennings</surname>
-                     <given-names>K.</given-names>
-                  </name>
-               </person-group>
-               <year>2014</year>
-               <source/>
-               <publisher-loc>Retrieved from</publisher-loc>
-               <publisher-name/>
-               <uri>http://www.jacksonhealthcare.com/media-room/articles/physician-trends/51-statistics-on-satisfied-and-dissatisfied-physicians/</uri>
-            </element-citation>
-         </ref>
-         <ref id="S1982"><!--Starr, P. (1982). <italic>The social transformation of American medicine</italic>. New York, New York: Basic Books Harper Collins.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Starr</surname>
-                     <given-names>P.</given-names>
-                  </name>
-               </person-group>
-               <year>1982</year>
-               <source>The social transformation of American medicine</source>
-               <publisher-loc>New York</publisher-loc>
-               <publisher-name>Basic Books Harper Collins</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="TMS2013"><!--Toussaint, J., Milstein, A., Shortell, S. (2013). How the pioneer ACO Model needs to change: Lessons from its best performing ACO. <italic>Journal of the American Medical Association, 310</italic>(13), 1341-1342. <uri>http://dx.doi.org/10.1001/jama.2013.279149</uri>-->
+         <ref id="WS2003"><!--Williams, E. S., & Skinner, A. C. (2003). Outcomes of physician job satisfaction: a narrative review, implications, and directions for future research. <italic>Health Care Managment Review, 28</italic>(2), 119-139. <uri>http://dx.doi.org/10.1097/00004010200304000-00004</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Toussaint</surname>
-                     <given-names>J.</given-names>
+                     <surname>Williams</surname>
+                     <given-names>E. S.</given-names>
                   </name>
                   <name>
-                     <surname>Milstein</surname>
-                     <given-names>A.</given-names>
-                  </name>
-                  <name>
-                     <surname>Shortell</surname>
-                     <given-names>S.</given-names>
-                  </name>
-               </person-group>
-               <year>2013</year>
-               <article-title>How the pioneer ACO Model needs to change: Lessons from its best performing ACO.</article-title>
-               <source>Journal of the American Medical Association</source>
-               <volume>310</volume>
-               <issue>13</issue>
-               <fpage>1341</fpage>
-               <lpage>1342</lpage>
-               <uri>http://dx.doi.org/10.1001/jama.2013.279149</uri>
-            </element-citation>
-         </ref>
-         <ref id="YPØK2003"><!--Yarnell, K.S., Pollak, K.I., Østbye, T., & Krause, K.M. (2003). Primary care: Is there enough time for prevention? <italic>American Journal of Public Health. 93</italic>(4), 635-641. <uri>http://dx.doi.org/10.2105/AJPH.93.4.635</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Yarnell</surname>
-                     <given-names>K.S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Pollak</surname>
-                     <given-names>K.I.</given-names>
-                  </name>
-                  <name>
-                     <surname>Østbye</surname>
-                     <given-names>T.</given-names>
-                  </name>
-                  <name>
-                     <surname>Krause</surname>
-                     <given-names>K.M.</given-names>
+                     <surname>Skinner</surname>
+                     <given-names>A. C.</given-names>
                   </name>
                </person-group>
                <year>2003</year>
-               <article-title>Primary care: Is there enough time for prevention?</article-title>
-               <source>American Journal of Public Health</source>
-               <volume>93</volume>
-               <issue>4</issue>
-               <fpage>635</fpage>
-               <lpage>641</lpage>
-               <uri>http://dx.doi.org/10.2105/AJPH.93.4.635</uri>
+               <article-title>Outcomes of physician job satisfaction: a narrative review, implications, and directions for future research.</article-title>
+               <source>Health Care Managment Review</source>
+               <volume>28</volume>
+               <issue>2</issue>
+               <fpage>119</fpage>
+               <lpage>139</lpage>
+               <uri>http://dx.doi.org/10.1097/00004010200304000-00004</uri>
             </element-citation>
+         </ref>
+         <ref id="___"><!--Witters, Dan. (2013, March 13). U.S. Doctors Lead in Wellbeing, Transportation Workers Lag. From <uri>http://www.gallup.com/poll/161324/physicians-lead-wellbeing-transportation-</uri><uri>http://www.gallup.com/poll/161324/physicians-lead-wellbeing-transportation-</uri>-->
+            <mixed-citation publication-format="web">Witters, Dan. (2013, March 13). U.S. Doctors Lead in Wellbeing, Transportation Workers Lag. From <uri>http://www.gallup.com/poll/161324/physicians-lead-wellbeing-transportation-</uri>
+               <uri>http://www.gallup.com/poll/161324/physicians-lead-wellbeing-transportation-</uri>
+            </mixed-citation>
          </ref>
       </ref-list>
    </back>
