@@ -12,13 +12,36 @@
     <xsl:param name="article-meta-common" select="doc('article-meta-common-PP.xml')/article-meta" as="element(article-meta)"/>
 
     <xsl:template match="article">
+        <xsl:variable name="article-identifiers">
+            <xsl:for-each select="tokenize(article-identifiers, '\s*\|\s*')">
+                <xsl:choose>
+                    <xsl:when test="matches(. , '^ISSN:\s*.*?$')">
+                        <issn><xsl:value-of select="replace(. , '^ISSN:\s*(.*?)$', '$1' )"/></issn>
+                    </xsl:when>
+                    <xsl:when test="matches(. , '^Volume.*?\d+\D*?\d+\D*?\(\d{4}\)$')">
+                        <volume><xsl:value-of select="replace(. , '^Volume.*?(\d+)\D*?\d+\D*?\(\d{4}\)$', '$1' )"/></volume>
+                        <issue><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?(\d+)\D*?\(\d{4}\)$', '$1' )"/></issue>
+                        <year><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?\d+\D*?\((\d{4})\)$', '$1' )"/></year>
+                    </xsl:when>
+                    <xsl:when test="matches(. , '^http://dx\.doi\.org/.*?$')">
+                        <self-uri><xsl:value-of select="."/></self-uri>
+                        <doi><xsl:value-of select="replace(. , 'http://dx\.doi\.org/(.*?)$' , '$1')"/></doi>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:variable>
         <article article-type="research-article">
             <front>
                 <xsl:apply-templates select="$journal-meta-common"/>
                 <article-meta>
                     <xsl:element name="article-id">
                         <xsl:attribute name="pub-id-type">doi</xsl:attribute>
-                        <xsl:text>____</xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="$article-identifiers/doi">
+                                <xsl:value-of select="$article-identifiers/doi"/>
+                            </xsl:when>
+                            <xsl:otherwise><xsl:text>____</xsl:text></xsl:otherwise>
+                        </xsl:choose>
                     </xsl:element>
                     <xsl:apply-templates select="$article-meta-common/article-categories"/>
                     <title-group>
@@ -28,10 +51,37 @@
                     <pub-date pub-type="pub">
                         <day>____</day>
                         <month>____</month>
-                        <year>____</year>
+                        <year>
+                            <xsl:choose>
+                                <xsl:when test="$article-identifiers/year">
+                                    <xsl:value-of select="$article-identifiers/year"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>____</xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </year>
                     </pub-date>
-                    <volume>____</volume>
-                    <issue>____</issue>
+                    <volume>
+                        <xsl:choose>
+                            <xsl:when test="$article-identifiers/volume">
+                                <xsl:value-of select="$article-identifiers/volume"/>
+                            </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>____</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    </volume>
+                    <issue>
+                        <xsl:choose>
+                            <xsl:when test="$article-identifiers/issue">
+                                <xsl:value-of select="$article-identifiers/issue"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>____</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </issue>
                     <fpage>____</fpage>
                     <lpage>____</lpage>
                     <history>
@@ -61,7 +111,22 @@
                         </xsl:choose>
                     </history>
                     <xsl:apply-templates select="$article-meta-common/permissions"/>
-                    <self-uri xlink:href="____">____</self-uri>
+                    <xsl:element name="self-uri">
+                        <xsl:variable name="hyperlink">
+                            <xsl:choose>
+                                <xsl:when test="$article-identifiers/self-uri">
+                                    <xsl:value-of select="$article-identifiers/self-uri"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:text>____</xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:attribute name="xlink:href">
+                            <xsl:value-of select="$hyperlink"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="$hyperlink"/>
+                    </xsl:element>
                     <xsl:apply-templates select="abstract"/>
                     <kwd-group kwd-group-type="author-generated">
                         <xsl:for-each select="tokenize(keywords, ',')">
@@ -139,7 +204,7 @@
     <!-- These should not be applied to the body as they will be put in front or back -->
     <!-- since fn is listed here, it should not appear in the body, yet it does! -->
     <!-- If I can't prevent it from appearing in the body, I suppose I have to delete it with XProc -->
-    <xsl:template match="fn|abstract|keywords|authors|article-title|ref|date" mode="body"/>
+    <xsl:template match="fn|abstract|keywords|authors|article-title|ref|date|article-identifiers" mode="body"/>
 
     <xsl:template match="node()|@*" mode="body">
         <xsl:copy>

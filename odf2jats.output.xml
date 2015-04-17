@@ -14,7 +14,7 @@
          </publisher>
       </journal-meta>
       <article-meta>
-         <article-id pub-id-type="doi">____</article-id>
+         <article-id pub-id-type="doi">10.7577/pp.954</article-id>
          <article-categories>
             <subj-group subj-group-type="article-type">
                <subject>Article</subject>
@@ -50,10 +50,10 @@
          <pub-date pub-type="pub">
             <day>____</day>
             <month>____</month>
-            <year>____</year>
+            <year>2015</year>
          </pub-date>
-         <volume>____</volume>
-         <issue>____</issue>
+         <volume>5</volume>
+         <issue>1</issue>
          <fpage>____</fpage>
          <lpage>____</lpage>
          <history>
@@ -74,7 +74,9 @@
                <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
             </license>
          </permissions>
-         <self-uri xlink:href="____">____</self-uri>
+         <self-uri xlink:href="http://dx.doi.org/10.7577/pp.954">
+            <uri>http://dx.doi.org/10.7577/pp.954</uri>
+         </self-uri>
          <abstract>
             <p>We present a model of hypothesized relationships between physician satisfaction, physician well-being and the quality of care, in addition to a review of relevant literature. The model suggests that physicians who are stressed, burned out, depressed, and/or have poor self-care are more likely to be dissatisfied, and vice-versa. Both poor physician well-being and physician dissatisfaction are hypothesized to lead to diminished physician concentration, effort, empathy, and professionalism. This results in misdiagnoses and other medical errors, a higher rate of inappropriate referrals and prescriptions, lower patient satisfaction and adherence to physician recommendations, and worse physician performance in areas not observed by others. Research to date largely supports the model, but high quality studies are few. Research should include studies that are prospective, larger, and have a stronger analytic design, ideally including difference in differences analyses comparing quality of care for patients of physicians who become dissatisfied to those who remain satisfied, and vice versa.</p>
          </abstract>
@@ -93,8 +95,6 @@
       <contact-info>Contact: Lawrence P. Casalino, Division of Health Policy and Economics, Cornell Weill Medical College, 1300 York Avenue New York, NY 10065, USA <uri>mailto:lac2021@med.conell.edu</uri>
          <uri>mailto:lac2021@med.conell.edu</uri>
       </contact-info>
-      <article-identifiers>ISSN: 1893-1049Volume 5, No 1 (<xref ref-type="bibr" rid="    2015">2015</xref>) <uri>http://dx.doi.org/10.7577/pp.954</uri>
-      </article-identifiers>
       <p>It seems obvious that patients would prefer that their physician not be depressed, burned out, sleep-deprived, or addicted to drugs or alcohol. But in addition, it seems likely that patients would prefer their physician to be reasonably satisfied with his or her work. What would you say if you—the reader—were asked “Would you willingly consult a physician who is very dissatisfied with his or her work?” What would go through your mind? Will the physician care about you? Will she make you feel uncomfortable? Will she order the right tests? Will she be conscientious about details? Will she make the right diagnosis? Will she stay in touch to make sure that you recover as expected? Can you trust her?</p>
       <p>These questions suggest that physician dissatisfaction and physician well-being may be issues worthy of attention. If physician dissatisfaction, for example, affects the quality of care, and if it is widespread, then physician dissatisfaction is a public health issue (<xref ref-type="bibr" rid="K2012">Kravitz, 2012</xref>). In this paper we present a simple model of hypothesized relationships between physician dissatisfaction, physician well-being, and the quality of care for patients. We briefly review the evidence on the effects of physician dissatisfaction and a lack of physician well-being on quality. We suggest areas where research is lacking and types of research that might address these gaps.</p>
       <!-- sec lvl 2 begin -->

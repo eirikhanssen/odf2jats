@@ -132,6 +132,9 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
+    
+    <!-- insert a | character when encountering text:tab in a p that has the paragraph style ArticleIdentifiers -->
+    <xsl:template match="text:tab[ancestor::text:p[@text:style-name='ArticleIdentifiers']]"><xsl:text>|</xsl:text></xsl:template>
 
     <xsl:template match="text:list-item">
         <list-item><xsl:apply-templates/></list-item>
