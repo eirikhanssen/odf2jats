@@ -95,14 +95,17 @@
                 <xsl:for-each select="tokenize( . , ',|\sand\s|&amp;')">
                     <contrib contrib-type="author">
                         <name>
-                            <xsl:analyze-string select="normalize-space(.)" regex="\c+$">
-                                <xsl:matching-substring>
-                                    <surname><xsl:value-of select="normalize-space(.)"/></surname>
-                                </xsl:matching-substring>
-                                <xsl:non-matching-substring>
-                                    <given-names><xsl:value-of select="normalize-space(.)"/></given-names>
-                                </xsl:non-matching-substring>
-                            </xsl:analyze-string>
+                            <xsl:variable name="current_name">
+                                <xsl:analyze-string select="normalize-space(.)" regex="\c+$">
+                                    <xsl:matching-substring>
+                                        <surname><xsl:value-of select="normalize-space(.)"/></surname>
+                                    </xsl:matching-substring>
+                                    <xsl:non-matching-substring>
+                                        <given-names><xsl:value-of select="normalize-space(.)"/></given-names>
+                                    </xsl:non-matching-substring>
+                                </xsl:analyze-string>
+                            </xsl:variable>
+                            <xsl:sequence select="$current_name/surname, $current_name/given-names"/>
                         </name>
                         <xsl:variable name="aff_rid" select="concat(replace(normalize-space(.) , '^(.).+' , '$1') , '_' , replace( . , '.+\s' , ''))"/>
                         <xsl:element name="xref">
