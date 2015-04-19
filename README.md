@@ -66,6 +66,52 @@ Character styles such as bold, italic, subscript and superscript are all support
 In the reference list, the proper use of italic character style following the APA style guidelines, is
 important to facilitate the reference parsing.
 
+## Steps taken while preparing manuscripts for odf2jats (subject to change)
+- recieve xml-based document format (odf or docx)
+- open document with Libre Office Writer
+- make sure display of Nonprinting characters is on (View menu)
+- import user defined styles from document with styles for odf2jats workflow
+- change Default Style, add 10pt space above and below paragraph
+
+### Clean up
+Remove unneccecary whitespace
+
+#### Regex replace in Libre Office, replace with empty string:
+This could be done in a xslt stylesheet as well.
+- blank lines ^$
+- whitespace at end of lines \s*$
+- whitespace at the beginning of lines ^\s*
+
+#### Remove unwanted paragraph marks
+Sometimes the author/editor has inserted extra paragraphs within text units to make it span several lines.
+For the purposes of generating a structured document, one text unit needs to be in one paragraph:
+- headings, article-title heading in particular
+- each reference in the reference list must be in one paragraph and not spread across several paragraphs as 
+the paragraph is the unit being parsed to auto-tag the contents in a reference
+- Each author's contact information should also be in one paragraph with the author's name
+
+#### Apply paragraph/header styles specific to the odf2jats workflow
+- ArticleAbstract - one paragraph
+- ArticleAuthors - one paragraph, all article authors
+- ArticleKeywords - one paragraph
+- ArticleIdentifiers - one paragraph with issn,<tab> vol, issue, year <tab> doi-url (copied from pdf)
+- ArticleContactInfo - one paragraph for each author + one paragraph for author to contact with address
+- ArticleHistory - Two paragraphs, one for received, one for accepted
+- Apply Header styles (important that the header styles used have proper outline lvl set)
+    - H1-ArticleTitle for article-title
+    - H2-H{n} for the rest according to level
+- Check lists, figures, tables and apply appropriate styles:
+    - FigCaption
+    - FigLabel
+    - TableCaption
+    - TableLabel
+    - ListContents (necceceary?)
+    - If row(s) in the begninning should be table-header rows > apply TableHeader style
+
+### Prepare to run odf2jats
+- unzip odt-file to a folder
+- link to content.xml in odf2jats.xpl (later this will be done using a parameter, and unzip will be done in a shellscript).
+
 ## Already implemented/autotagged
 
 ### Extraction from the ODF container format
