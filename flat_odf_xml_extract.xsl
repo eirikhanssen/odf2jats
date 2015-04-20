@@ -10,7 +10,8 @@
     xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
     xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
     xmlns:sm="https://github.com/eirikhanssen/odf2jats/stylemap"
-    exclude-result-prefixes="xs sm style office text table fo">
+    xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+    exclude-result-prefixes="xs sm style office text table fo draw">
 
     <xsl:output method="xml" indent="yes"/>
 
@@ -285,9 +286,20 @@
         <uri><xsl:value-of select="@xlink:href"/></uri>
     </xsl:template>
 
-    <!--<xsl:template match="*">
-        <xsl:message>undefined element: <xsl:value-of select="local-name(.)"/>"</xsl:message>
-    </xsl:template>-->
+    <xsl:template match="draw:frame">
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <!-- Graphics -->
+    <xsl:template match="draw:frame[draw:image]">
+        <alternatives>
+            <xsl:for-each select="draw:image">
+                <graphic>
+                    <xsl:sequence select="@xlink:href"/>
+                </graphic>
+            </xsl:for-each>
+        </alternatives>
+    </xsl:template>
 
     <!-- Stylemap - map styles to elements -->
     <sm:styles>
@@ -362,19 +374,23 @@
         </sm:style>
         <sm:style>
             <sm:name>FigLabel</sm:name>
-            <sm:transformTo>label_fig</sm:transformTo>
+            <sm:transformTo>fig_label</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>FigCaption</sm:name>
-            <sm:transformTo>caption_fig</sm:transformTo>
+            <sm:transformTo>fig_caption</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>FigLabelCaptionGraphic</sm:name>
+            <sm:transformTo>figure_with_label_caption_graphic</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>TableLabel</sm:name>
-            <sm:transformTo>label_table</sm:transformTo>
+            <sm:transformTo>table_label</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>TableCaption</sm:name>
-            <sm:transformTo>caption_table</sm:transformTo>
+            <sm:transformTo>table_caption</sm:transformTo>
         </sm:style>
     </sm:styles>
 </xsl:stylesheet>
