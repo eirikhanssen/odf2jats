@@ -186,11 +186,16 @@
          <p>Most studies of the effects of physician satisfaction have been flawed by one or more of the following: low physician response rates with possible accompanying selection bias, small samples, a cross-sectional design that makes it difficult to assess the direction of causality (if any), and the problem, inherent in observational research, that confounding factors may affect both physician satisfaction and the dependent variable (e.g., the quality of care provided). For example, certain physicians might have personalities that make them both more likely to report being dissatisfied and more likely to provider poor quality care. In this case, one might want to avoid dissatisfied physicians, but the dissatisfaction would not be causing the poor quality.</p>
          <p>Physician dissatisfaction might be a warning sign that the physician and/or the organization within the physician works are providing quality of care that is less than desirable (<xref ref-type="bibr" rid="FCVAPCT2013">Friedberg et al., 2013</xref>). This will be true to the extent that dissatisfied physicians provide worse care and/or to the extent that physicians are dissatisfied because they believe that the conditions under which they work are obstacles to providing high quality care (see Figure 1, page 10). However, it is possible that not all causes of physician dissatisfaction have the same implications for quality. For example, a physician who is dissatisfied because his or her income is too low may provide lower quality care, but their dissatisfaction is not in itself an indication that the conditions under which the physician works are obstacles to quality. It would be very useful for researchers to investigate the extent to which physician dissatisfaction is an indicator that quality may be poor, and to investigate whether different causes of dissatisfaction vary in their implications for quality.</p>
          <p>It will never be possible to conduct randomized trials of the relationship between physician satisfaction and physician professionalism, or of the relationship between physician satisfaction and the quality of patient care. However, it would be possible to conduct studies that are prospective, are larger, obtain high response rates from physicians, and have a stronger analytic design. Ideally, this design might include difference in differences analyses that compare patient satisfaction, patient adherence, and the quality of care for patients of physicians who become dissatisfied to those who remain satisfied, and vice versa. These studies would not be inexpensive, but the topic is extremely important. Large sums of money are being invested in comparative effectiveness research that supports evidence-based medical decisions, but this research will be useless if dissatisfied physicians ignore it.</p>
-         <figure_with_label_caption_graphic>
-            <alternatives>
-               <graphic xlink:href="Pictures/1000712F00004F43000069A403A30032.svg"/>
-               <graphic xlink:href="Pictures/1000020100000265000003302A8919E5.png"/>
-            </alternatives>Figure 1: Model of the potential impacts of physician dissatistfaction</figure_with_label_caption_graphic>
+         <fig id="fig1"><!--Figure 1: Model of the potential impacts of physician dissatistfaction-->
+            <label>Figure 1</label>
+            <caption>
+               <p>Model of the potential impacts of physician dissatistfaction</p>
+            </caption>
+            <graphic id="graphic1"
+                     xlink:href="Pictures/1000712F00004F43000069A403A30032.svg"/>
+            <graphic id="graphic2"
+                     xlink:href="Pictures/1000020100000265000003302A8919E5.png"/>
+         </fig>
       </sec>
       <!-- sec lvl 2 end -->
    </body>

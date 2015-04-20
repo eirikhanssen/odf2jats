@@ -11,7 +11,8 @@
     xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
     xmlns:sm="https://github.com/eirikhanssen/odf2jats/stylemap"
     xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
-    exclude-result-prefixes="xs sm style office text table fo draw">
+    xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+    exclude-result-prefixes="xs sm style office text table fo draw svg">
 
     <xsl:output method="xml" indent="yes"/>
 
@@ -292,13 +293,36 @@
 
     <!-- Graphics -->
     <xsl:template match="draw:frame[draw:image]">
-        <alternatives>
+        <xsl:text>&#xa;</xsl:text>
+        <label>
+            <xsl:choose>
+                <xsl:when test="@draw:name">
+                    <xsl:value-of select="@draw:name"/>
+                </xsl:when>
+                <xsl:when test="matches(./text()  , '^\c\s*\d+:\s*.+$')">
+                    <xsl:value-of select="replace(./text() , '^(\c\s*\d+):\s*.+$' , '$1')"/>
+                </xsl:when>
+                <xsl:otherwise><xsl:text>____</xsl:text></xsl:otherwise>
+            </xsl:choose>
+        </label>
+        <caption>
+            <p>
+                <xsl:choose>
+                    <xsl:when test="svg:title">
+                        <xsl:value-of select="svg:title"/>
+                    </xsl:when>
+                    <xsl:when test="matches(./text()  , '^\c\s*\d+:\s*.+$')">
+                        <xsl:value-of select="replace(./text() , '^\c\s*\d+:\s*(.+)$' , '$1')"/>
+                    </xsl:when>
+                    <xsl:otherwise><xsl:text>____</xsl:text></xsl:otherwise>
+                </xsl:choose>
+                </p>
+        </caption>
             <xsl:for-each select="draw:image">
                 <graphic>
                     <xsl:sequence select="@xlink:href"/>
                 </graphic>
             </xsl:for-each>
-        </alternatives>
     </xsl:template>
 
     <!-- Stylemap - map styles to elements -->

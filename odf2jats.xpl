@@ -29,6 +29,27 @@
         </p:input>
     </p:xslt>
 
+    <p:xslt name="figures" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="figures.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+    
+    <p:xslt name="generate-figure-id" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="generate-figure-id.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+    
+
     <p:xslt name="article-history" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
