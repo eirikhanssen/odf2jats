@@ -1,2 +1,4 @@
-Apr 20, 2015 1:53:22 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
+Apr 27, 2015 12:14:32 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
 WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
+Apr 27, 2015 12:14:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:23:55:(o2j WARNING): no $current_style_index_name
