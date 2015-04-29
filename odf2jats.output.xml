@@ -1,7 +1,8 @@
 <article xmlns:xlink="http://www.w3.org/1999/xlink"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns:mml="http://www.w3.org/1998/Math/MathML"
-         article-type="research-article">
+         article-type="research-article"
+         xsi:noNamespaceSchemaLocation="../../jats/JATS-Publishing-1-1d3-MathML3-XSD/JATS-Publishing-1-1d3-MathML3-XSD/JATS-journalpublishing1-mathml3.xsd">
    <front>
       <journal-meta>
          <journal-id journal-id-type="DOAJ">18931049</journal-id>

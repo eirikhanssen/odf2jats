@@ -31,6 +31,9 @@
             </xsl:for-each>
         </xsl:variable>
         <article article-type="research-article">
+            <xsl:attribute name="xsi:noNamespaceSchemaLocation">
+                <xsl:text>../../jats/JATS-Publishing-1-1d3-MathML3-XSD/JATS-Publishing-1-1d3-MathML3-XSD/JATS-journalpublishing1-mathml3.xsd</xsl:text>
+            </xsl:attribute>
             <front>
                 <xsl:apply-templates select="$journal-meta-common"/>
                 <article-meta>
