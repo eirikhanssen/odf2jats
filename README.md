@@ -11,8 +11,10 @@ ODF is supported by many programs and used as a native format by the free LibreO
 
 ### Improve the worflow for Open Access Scholarly Publishing
 
-To simplify, reduce time needed and as much as possible, automate the conversion from manuscripts to be represented in the Journal Archive Tag Suite (JATS) XML tagset.
+- simplify and automate conversion from manuscripts to JATS XML
+- greatly reduce time required by switching from a manual to a semi-automatic workflow
 
+Read more about Journal Article (Publishing) Tag Suite, as known as JATS
 - http://jats.nlm.nih.gov/publishing/
 - http://jats.nlm.nih.gov/publishing/tag-library/1.1d2/index.html
 
@@ -20,69 +22,80 @@ To simplify, reduce time needed and as much as possible, automate the conversion
 
 ### Don't let a person do a machine's job
 
-Marking up manuscripts by hand is very time-consuming. The ODF format is a zipped container with text/xml-files and other files. 
+Marking up manuscripts by hand is very time-consuming. The ODF document format is a zipped container with text/xml-files and other files. 
 
-If the manuscripts use a known template and use consistent styling, it is very possible to automatically generate most of the structure and 
+If the manuscripts use a known template and consistent styling, it is possible to automatically generate most of the structure and 
 semantics needed to mark up a manuscript using the JATS tagset.
 
 ### Automation using XSLT 2.0 and XProc
 
-By exploiting XSLT 2.0, XPath 2.0 and XProc, it is possible to automate extraction/transformation of the contents from the ODF-format to be 
-represented in another XML based format such as JATS. 
-
-By utilizing RegEx pattern-matching that is available in XSLT 2.0 and XPath 2.0 it is possible to identify, tokenize and automatically tag text citations and references in the reference list.
-
-By utilizing XSLT 2.0's grouping capabilities it is possible to properly structure a flat xml document to a proper sectioned document.
+Automate extraction/transformation of the contents from the ODF-format to JATS by exploiting XSLT 2.0, XPath 2.0 and XProc.
+- Use RegEx pattern-matching in XSLT 2.0 and XPath 2.0 to identify, tokenize and automatically tag text citations and references in the reference list.
+- Use XSLT 2.0's grouping capabilities to properly structure a flat xml document to a properly sectioned JATS XML document.
 
 ## Proper styling of documents
 
 ### Preserving the outline
 
-It is important for the manuscript to properly communicate the outline.
+It is important for the manuscript to properly communicate the outline, or hierarchy of the different headers.
 
 For best results, all headers in the original manuscript should be styled using header 
-styles of the appropriate level (and not formatted using character formatting). These header styles need to 
-have an outline level set in the style configuration, for the default header-styles this is normally
+styles of the appropriate outline level (as opposed to using character formatting to increase font sizes). 
+
+These header styles need to have an outline level set in the style configuration. For the default header-styles this is normally
 the case. But if a user creates own header styles, this is something to keep in mind.
 
-Only the article title should have a header style with outline level 1, the rest should use lvl 2 and higher,
-and it is important not to skip a level.
+#### There can be only one
+Only the article title should have a header style with outline level 1, the rest should use header styles with outline lvl 2 and higher.
+
+#### Don't skip levels
+It is important not to skip a level to ensure that the headings are properly nested, so a level 3 heading should never be a direct child 
+of a lvl 1 heading.
 
 The outline level is used to automatically section the body of the JATS xml in sec/title + other elements.
 
 Text in the manuscript should be styled with the default paragraph style for text.
 
-Special passages of text can be styled using custom paragraph styles that when 
-using a style-mapping in the odf2jats pipeline can facilitate automatic tagging of certain elements.
+#### Style mappings
+Special passages of text can be styled using custom paragraph styles that when using a style-mapping 
+in the odf2jats pipeline can facilitate automatic tagging of certain elements.
 
-This style-mapping will be used in generating the structure and semantics 
-needed to mark up the manuscript using the JATS tagset.
+This is used when generating markup for content such as:
+- abstract
+- keywords
+- history
+- references
+
 
 ### Using character styles
 
 Using character styling where appropriate is also important.
 Character styles such as bold, italic, subscript and superscript are all supported.
 
-In the reference list, the proper use of italic character style following the APA style guidelines, is
-important to facilitate the reference parsing.
+#### Italic text in references has a special meaning
+In the reference list, the proper use of italic character style (to identify the source), is
+important to facilitate the reference parsing (APA style).
 
-## Steps taken while preparing manuscripts for odf2jats (subject to change)
+## Steps taken while preparing manuscripts for odf2jats
+These are steps that I do to prepare the document for odf2jats conversion.
+This section is subject to change.
+
 - recieve xml-based document format (odf or docx)
 - open document with Libre Office Writer
 - make sure display of Nonprinting characters is on (View menu)
 - import user defined styles from document with styles for odf2jats workflow
 - change Default Style, add 10pt space above and below paragraph
 
-### Clean up
+### 1. Clean up
 Remove unneccecary whitespace
 
-#### Regex replace in Libre Office, replace with empty string:
+#### 1.1 Regex replace in Libre Office, replace with empty string:
 This could be done in a xslt stylesheet as well.
 - blank lines ^$
 - whitespace at end of lines \s*$
 - whitespace at the beginning of lines ^\s*
 
-#### Remove unwanted paragraph marks
+#### 1.2 Remove unwanted paragraph marks
 Sometimes the author/editor has inserted extra paragraphs within text units to make it span several lines.
 For the purposes of generating a structured document, one text unit needs to be in one paragraph:
 - headings, article-title heading in particular
@@ -90,7 +103,7 @@ For the purposes of generating a structured document, one text unit needs to be 
 the paragraph is the unit being parsed to auto-tag the contents in a reference
 - Each author's contact information should also be in one paragraph with the author's name
 
-#### Apply paragraph/header styles specific to the odf2jats workflow
+### 2 Apply paragraph/header styles specific to the odf2jats workflow
 - ArticleAbstract - one paragraph
 - ArticleAuthors - one paragraph, all article authors
 - ArticleKeywords - one paragraph
@@ -108,7 +121,7 @@ the paragraph is the unit being parsed to auto-tag the contents in a reference
     - ListContents (necceceary?)
     - If row(s) in the begninning should be table-header rows > apply TableHeader style
 
-### Prepare to run odf2jats
+### 3 Prepare to run odf2jats
 - unzip odt-file to a folder
 - link to content.xml in odf2jats.xpl (later this will be done using a parameter, and unzip will be done in a shellscript).
 
@@ -183,9 +196,6 @@ the paragraph is the unit being parsed to auto-tag the contents in a reference
 
 ### Extraction from the ODF container format to JATS
 - figures (not implemented)
-- libre office can't access this information in the sample document because of ms word format incompatibilty
-    - fpage of the article
-    - lpage of the article
 - contact-info is made available when marked up using ArticleContactInfo paragraph-style, but the
   behaviour to extract that info into article-meta (and remove the temporary elements from body) 
   has not been implemented yet.
@@ -193,8 +203,14 @@ the paragraph is the unit being parsed to auto-tag the contents in a reference
 ### Improve ref-list autotagging
 - Electronic journal type references with elocation instead of page(s)
     - elocation-id extraction not implemented
-    - Actually I am not sure how this would be correctly styled with APA yet. Investigating.
-
+    - Two options for formatting elocation id in lieu of an explicit construct in either:
+      the Publication Manual of the American Psychological Association or 
+      the APA Style Guide to Electronic References, or on the APA Style Blog.
+      Option 1: as a page number instead of the page range. Option 2: insert the word "Article" before it.
+        - Option 1: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, 166. http://dx.doi.org/10.1186/1472-6963-9-166
+        - Option 2: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, Article 166. http://dx.doi.org/10.1186/1472-6963-9-166
+    
+1) as a single page, 2) using Article in front
 - Refs starting with following fail, but maybe this is acceptable because it is difficult to mark up using element-citation:
     - NICE. (2012).
     - WHO. (2000).
