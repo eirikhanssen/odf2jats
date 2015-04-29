@@ -160,11 +160,19 @@
 
   <xsl:function name="o2j:getArticlePageRangeSequence" as="element()*">
     <xsl:param name="originalRef" as="element(ref)"/>
-    <xsl:variable name="range" select="replace($originalRef/italic[1]/following-sibling::text()[1], '^.*?(\d+\s*(-|—|–)\s*\d+).*?$' , '$1')" as="xs:string"/>
-    <xsl:variable name="fpage" select="replace($range, '^(\d+).*?$' , '$1')" as="xs:string"/>
-    <xsl:variable name="lpage" select="replace($range, '^.*?(\d+)$' , '$1')" as="xs:string"/>
-    <fpage><xsl:value-of select="$fpage"/></fpage>
-    <lpage><xsl:value-of select="$lpage"/></lpage>
+    <xsl:variable name="range" as="element()">
+      <range>
+        <xsl:analyze-string select="$originalRef/italic[1]/following-sibling::text()[1]"
+          regex="(\c?\d+)\s*(-|—|–)\s*(\c?\d+)">
+          <xsl:matching-substring>
+            <fpage><xsl:value-of select="regex-group(1)"/></fpage>
+            <lpage><xsl:value-of select="regex-group(3)"/></lpage>
+          </xsl:matching-substring>
+        </xsl:analyze-string>
+      </range>
+    </xsl:variable>
+      <fpage><xsl:value-of select="$range/fpage"/></fpage>
+      <lpage><xsl:value-of select="$range/lpage"/></lpage>
   </xsl:function>
 
   <xsl:function name="o2j:stripTranslationFromTitle" as="xs:string">
@@ -370,7 +378,7 @@
       <xsl:value-of select="$hasTitleBeforeSourceInItalics eq true() and $hasSourceInItalics eq true() and $isBook eq false()"/>
     </xsl:variable>
 
-    <xsl:variable name="hasArticlePageRange" select="$isJournalArticle and matches($current_ref/italic[1]/following-sibling::text()[1], '^.*?(\d+\s*(-|—|–)\s*\d+).*?$')" as="xs:boolean"/>
+    <xsl:variable name="hasArticlePageRange" select="$isJournalArticle and matches($current_ref/italic[1]/following-sibling::text()[1], '^.*?(\c?\d+\s*(-|—|–)\s*\c?\d+).*?$')" as="xs:boolean"/>
 
     <xsl:variable name="hasSinglePageCountStringInParens" as="xs:boolean">
       <xsl:value-of select="matches ($current_ref , '\(.*?p?p\.\s*\d+.*?\)') and not(matches($current_ref, '\(.*?pp\.\s*\d+\s*-\s*\d+.*?\)'))"/>
