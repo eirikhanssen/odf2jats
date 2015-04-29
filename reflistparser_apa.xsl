@@ -71,8 +71,20 @@
 
   <xsl:function name="o2j:tokenizeAuthors" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
+    <!-- strip (Ed.). or (Eds.). from authorstring if it is before year in parens -->
+    <xsl:variable name="originalStringEdsStripped">
+      <xsl:analyze-string select="$originalString" regex="\s*\(Ed[s]?\.?\)\.?\s*">
+        <xsl:matching-substring>
+          <xsl:text> </xsl:text><xsl:value-of select="regex-group(1)"/>
+        </xsl:matching-substring>
+        <xsl:non-matching-substring>
+          <xsl:copy/>
+        </xsl:non-matching-substring>
+      </xsl:analyze-string>
+    </xsl:variable>
+
     <xsl:value-of
-      select="o2j:prepareTokens(o2j:replaceAmpInAuthorstring(o2j:normalizeInitialsInAuthorstring($originalString)))"
+      select="o2j:prepareTokens(o2j:replaceAmpInAuthorstring(o2j:normalizeInitialsInAuthorstring($originalStringEdsStripped)))"
     />
   </xsl:function>
 
@@ -320,7 +332,7 @@
     <xsl:variable name="hasIssue" select="matches($current_ref/italic[1]/following-sibling::text()[1], '^\s*?\(\d+\).*?$')" as="xs:boolean"/>
 
     <xsl:variable name="isBookChapter" as="xs:boolean">
-      <xsl:value-of select="matches($current_ref, '((Re|E)ds?\.)')"/>
+      <xsl:value-of select="matches($current_ref, '\(\d{4}[a-z]?\).*?((Re|E)ds?\.)')"/>
     </xsl:variable>
 
     <xsl:variable name="hasTranslatedArticleTitle" select="matches(o2j:getArticleTitle($current_ref) , '\[[^\]]+?\]')" as="xs:boolean"/>
@@ -427,7 +439,21 @@
       <xsl:choose>
         <xsl:when test="$hasParsableAuthorString eq true()">
           <!-- process $authors -->
+          <xsl:variable name="person-group-type" as="xs:string">
+            <xsl:choose>
+              <!-- 
+                the editors of the book will be listed, followed by (Eds.). before year in parens
+                if the reference in question is the whole edited book. If so, appropriately use the 
+                right attribute value for person-group-type
+              -->
+              <xsl:when test="matches($authors, '\(Ed[s]\.?\)')">
+                <xsl:text>editor</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>author</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
           <person-group person-group-type="author">
+            <xsl:attribute name="person-group-type" select="$person-group-type"/>
             <xsl:for-each select="tokenize($tokenizedAuthors, '\|')">
               <xsl:variable name="author" select="normalize-space(.)"/>
               <name>

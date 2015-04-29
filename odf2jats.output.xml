@@ -499,41 +499,18 @@
             </element-citation>
          </ref>
          <ref id="EH1998"><!--Exworthy, M., & Halford, S. (Eds.). (1998). <italic>Professionals and the new managerialism in the public sector</italic>. Buckingham: Open University Press.-->
-            <element-citation publication-type="book-chapter" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Exworthy</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Halford</surname>
-                     <given-names>S. (Eds.).</given-names>
-                  </name>
-               </person-group>
-               <year>1998</year>
-               <chapter-title>Exworthy, M., &amp; Halford, S. (Eds.). (1998). Professionals and the new managerialism in the public sector. Buckingham: Open University Press.</chapter-title>
+            <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="editor">
                   <name>
                      <surname>Exworthy</surname>
-                     <given-names>Exworthy</given-names>
-                  </name>
-                  <name>
-                     <surname>M.</surname>
                      <given-names>M.</given-names>
                   </name>
                   <name>
-                     <surname/>
-                     <given-names/>
-                  </name>
-                  <name>
                      <surname>Halford</surname>
-                     <given-names>Halford</given-names>
-                  </name>
-                  <name>
-                     <surname>S. (Eds.). (1998). Professionals and the new managerialism in the public sector. Buckingham: Open University Press.</surname>
                      <given-names>S.</given-names>
                   </name>
                </person-group>
+               <year>1998</year>
                <source>Professionals and the new managerialism in the public sector</source>
                <publisher-loc>Buckingham</publisher-loc>
                <publisher-name>Open University Press</publisher-name>
@@ -630,53 +607,22 @@
             </element-citation>
          </ref>
          <ref id="FLP2005"><!--Ferlie, E., Lynn, L., & Pollitt, C. (Eds.). (2005). <italic>The Oxford Handbook of Public Management</italic>. Oxford: Oxford University Press.-->
-            <element-citation publication-type="book-chapter" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Ferlie</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Lynn</surname>
-                     <given-names>L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Pollitt</surname>
-                     <given-names>C. (Eds.).</given-names>
-                  </name>
-               </person-group>
-               <year>2005</year>
-               <chapter-title>Ferlie, E., Lynn, L., &amp; Pollitt, C. (Eds.). (2005). The Oxford Handbook of Public Management. Oxford: Oxford University Press.</chapter-title>
+            <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="editor">
                   <name>
                      <surname>Ferlie</surname>
-                     <given-names>Ferlie</given-names>
-                  </name>
-                  <name>
-                     <surname>E.</surname>
                      <given-names>E.</given-names>
                   </name>
                   <name>
                      <surname>Lynn</surname>
-                     <given-names>Lynn</given-names>
-                  </name>
-                  <name>
-                     <surname>L.</surname>
                      <given-names>L.</given-names>
                   </name>
                   <name>
-                     <surname/>
-                     <given-names/>
-                  </name>
-                  <name>
                      <surname>Pollitt</surname>
-                     <given-names>Pollitt</given-names>
-                  </name>
-                  <name>
-                     <surname>C. (Eds.). (2005). The Oxford Handbook of Public Management. Oxford: Oxford University Press.</surname>
                      <given-names>C.</given-names>
                   </name>
                </person-group>
+               <year>2005</year>
                <source>The Oxford Handbook of Public Management</source>
                <publisher-loc>Oxford</publisher-loc>
                <publisher-name>Oxford University Press</publisher-name>
