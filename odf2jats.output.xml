@@ -231,6 +231,8 @@
                   </name>
                </person-group>
                <source>Book title for dummy ref.</source>
+               <fpage>A17</fpage>
+               <lpage>A49</lpage>
                <publisher-loc>Dummy-location</publisher-loc>
                <publisher-name>Dummy-Publisher</publisher-name>
             </element-citation>
@@ -381,6 +383,7 @@
                </person-group>
                <source>Professionals and the new managerialism in the public sector.</source>
                <fpage>83</fpage>
+               <lpage>101</lpage>
                <publisher-loc>Buckingham</publisher-loc>
                <publisher-name>Open University Press</publisher-name>
             </element-citation>
@@ -451,6 +454,7 @@
                </person-group>
                <source>The new sociology of the health service.</source>
                <fpage>17</fpage>
+               <lpage>36</lpage>
                <publisher-loc>London</publisher-loc>
                <publisher-name>Routledge</publisher-name>
             </element-citation>
@@ -863,6 +867,7 @@
                </person-group>
                <source>Professionals and the new managerialism in the public sector</source>
                <fpage>50</fpage>
+               <lpage>64</lpage>
                <publisher-loc>Buckingham</publisher-loc>
                <publisher-name>Open University Press</publisher-name>
             </element-citation>
@@ -1401,6 +1406,7 @@
                </person-group>
                <source>Regulation and organizations: international perspectives.</source>
                <fpage>17</fpage>
+               <lpage>49</lpage>
                <publisher-loc>London</publisher-loc>
                <publisher-name>Routledge</publisher-name>
             </element-citation>

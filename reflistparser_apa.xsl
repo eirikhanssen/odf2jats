@@ -385,7 +385,7 @@
     </xsl:variable>
 
     <xsl:variable name="hasMultiplePageCountStringInParens" as="xs:boolean">
-      <xsl:value-of select="matches($current_ref, '\(.*?pp\.\s*\d+\s*-\s*\d+.*?\)')"/>
+      <xsl:value-of select="matches($current_ref, '\(.*?pp\.\s*\c?\d+\s*(-|—|–)\s*\c?\d+.*?\)')"/>
     </xsl:variable>
 
     <xsl:variable name="editorString">
@@ -660,8 +660,8 @@
 
             <xsl:choose>
               <xsl:when test="$hasMultiplePageCountStringInParens eq true()">
-                <fpage><xsl:value-of select="replace($current_ref, '.*?\(.*?pp\.\s*(\d+)\s*-\s*\d+.*?\).*' , '$1')"/></fpage>
-                <lpage><xsl:value-of select="replace($current_ref, '.*?\(.*?pp\.\s*\d+\s*-\s*(\d+).*?\).*' , '$1')"/></lpage>
+                <fpage><xsl:value-of select="replace($current_ref, '.*?\(.*?pp\.\s*(\c?\d+)\s*(-|—|–)\s*\c?\d+.*?\).*' , '$1')"/></fpage>
+                <lpage><xsl:value-of select="replace($current_ref, '.*?\(.*?pp\.\s*\c?\d+\s*(-|—|–)\s*(\c?\d+).*?\).*' , '$2')"/></lpage>
               </xsl:when>
               <xsl:when test="$hasSinglePageCountStringInParens eq true()">
                 <fpage><xsl:value-of select="replace($current_ref, '.*?\(.*?p?p\.\s*(\d+).*?\).*' , '$1')"/></fpage>
