@@ -13,7 +13,7 @@
 
     <xsl:template match="article">
         <xsl:variable name="article-identifiers">
-            <xsl:for-each select="tokenize(article-identifiers, '\s*\|\s*')">
+            <xsl:for-each select="tokenize( replace(article-identifiers, '\t' , '|') , '\s*\|\s*' ) ">
                 <xsl:choose>
                     <xsl:when test="matches(. , '^ISSN:\s*.*?$')">
                         <issn><xsl:value-of select="replace(. , '^ISSN:\s*(.*?)$', '$1' )"/></issn>
@@ -23,7 +23,7 @@
                         <issue><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?(\d+)\D*?\(\d{4}\)$', '$1' )"/></issue>
                         <year><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?\d+\D*?\((\d{4})\)$', '$1' )"/></year>
                     </xsl:when>
-                    <xsl:when test="matches(. , '^http://dx\.doi\.org/.*?$')">
+                    <xsl:when test="matches(. , '^\s*http://(dx\.)?doi\.org/.*?$')">
                         <self-uri><xsl:value-of select="."/></self-uri>
                         <doi><xsl:value-of select="replace(. , 'http://dx\.doi\.org/(.*?)$' , '$1')"/></doi>
                     </xsl:when>
@@ -129,7 +129,8 @@
                     </xsl:element>
                     <xsl:apply-templates select="abstract"/>
                     <kwd-group kwd-group-type="author-generated">
-                        <xsl:for-each select="tokenize(keywords, ',')">
+                        <!-- Remove the text "Keywords: " from the beginning of the keywords. -->
+                        <xsl:for-each select="tokenize(replace(keywords, '^\s*Keywords:\s*' ,''), ',')">
                             <kwd><xsl:value-of select="replace(normalize-space(.), '[.]$', '')"/></kwd>
                         </xsl:for-each>
                     </kwd-group>
@@ -152,6 +153,11 @@
                 </ref-list>
             </back>
         </article>
+    </xsl:template>
+
+    <!-- Remove the text "Abstract: " from the beginning of the abstract. -->
+    <xsl:template match="abstract/p[1]/text()[1]">
+        <xsl:value-of select="replace(. , '^\s*Abstract:\s*' , '')"></xsl:value-of>
     </xsl:template>
 
     <xsl:template match="authors">
