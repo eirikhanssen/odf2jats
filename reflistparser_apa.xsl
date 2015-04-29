@@ -574,7 +574,7 @@
           <xsl:element name="element-citation">
             <xsl:copy-of select="$publication-info/attributes/@*"/>
             <xsl:apply-templates select="$taggedAuthors"/>
-            <year><xsl:value-of select="replace($year , '\D' , '' )"/></year>
+            <year><xsl:value-of select="$year"/></year>
             <xsl:choose>
               <xsl:when test="$isBook eq true()">
                 <xsl:choose>
