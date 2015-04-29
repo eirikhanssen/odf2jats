@@ -173,8 +173,8 @@
                             surname and year in an et al. citation, then copy the id from that ref in the ref-list to the rid-attribute 
                             in this xref element. 
                         -->
-                        <xsl:when test="count($element-citation-refs[(matches(element-citation/person-group/name[1]/surname , $first_author_surname_in_citation)) and element-citation/year = $year]) = 1">
-                            <xsl:attribute name="rid" select="$element-citation-refs[(matches(element-citation/person-group/name[1]/surname , $first_author_surname_in_citation)) and element-citation/year = $year]/@id"/>
+                        <xsl:when test="count($element-citation-refs[(matches(element-citation/person-group[1]/name[1]/surname , $first_author_surname_in_citation)) and element-citation/year = $year]) = 1">
+                            <xsl:attribute name="rid" select="$element-citation-refs[(matches(element-citation/person-group[1]/name[1]/surname , $first_author_surname_in_citation)) and element-citation/year = $year]/@id"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:attribute name="rid" select="concat($caps , '    ' , $year)"/>
