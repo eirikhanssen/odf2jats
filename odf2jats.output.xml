@@ -210,6 +210,31 @@
    </body>
    <back>
       <ref-list>
+         <ref id="D2015"><!--Dummy, A. (2015). Chapter title for dummy ref: Testing letters in a page range. In B. Dummy & C. Dummy (Eds.), <italic>Book title for dummy ref. </italic>(pp. A17–A49). Dummy-location: Dummy-Publisher.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Dummy</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <year>2015</year>
+               <chapter-title>Chapter title for dummy ref: Testing letters in a page range</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Dummy</surname>
+                     <given-names>B.</given-names>
+                  </name>
+                  <name>
+                     <surname>Dummy</surname>
+                     <given-names>C.</given-names>
+                  </name>
+               </person-group>
+               <source>Book title for dummy ref.</source>
+               <publisher-loc>Dummy-location</publisher-loc>
+               <publisher-name>Dummy-Publisher</publisher-name>
+            </element-citation>
+         </ref>
          <ref id="ABGTTWW2013"><!--Amy, R., Bolton, L., Glennie, J., Thompson, S., Turner, N., Walker, I., & Williamson, D. (2013). <italic>Review Body on Doctors’ and Dentists’ Remuneration. Forty-First Report 2013</italic>. London: DDRB. Retrieved from <uri>https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/226732/DDRB_41st_report_2013_Cm_8577_Accessible.pdf</uri>-->
             <element-citation publication-type="book" publication-format="web">
                <person-group person-group-type="author">
