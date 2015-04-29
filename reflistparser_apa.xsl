@@ -209,7 +209,7 @@
       have been removed. Maybe this is too naiive, if so, this rule might need to be revisited.
     -->
     <xsl:value-of
-      select="normalize-space(replace($originalRef/text()[last()] , '.*?[,.\]]?\s+([^,.\]]*?\c\c+(,\s)?)?([\c/]{2,}:[^:]*?)$' , '$1$3'))"/>
+      select="normalize-space(replace($originalRef/text()[last()] , '.*?[,.\]]?\s+([^,.\]]*?\c\c+(,\s)?)?([\c/]{2,}:[^:]*?)(\s*Retrieved\s*from\s*)?$' , '$1$3'))"/>
 
   </xsl:function>
 
