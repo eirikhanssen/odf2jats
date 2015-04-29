@@ -7,4 +7,4 @@
 # Later, when all content have been extracted this way,
 # the flat xml output will be manipulated in an XProc pipeline to massage the xml into JATS xml conformance
 # This also includes performing RegEx pattern matching to auto-tag text citations and items in the reference list
-saxon source/odf-casalino_crosson/content.xml flat_odf_xml_extract.xsl 2> err.log | tee flat-extract-output-casalino_crosson.xml | pygmentize -l xml | less -R
+saxon source/odf-exworthy-refs/content.xml flat_odf_xml_extract.xsl 2> err.log | tee flat-extract-output-exworthy-refs.xml | pygmentize -l xml | less -R
