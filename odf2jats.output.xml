@@ -14,7 +14,7 @@
          </publisher>
       </journal-meta>
       <article-meta>
-         <article-id pub-id-type="doi">____</article-id>
+         <article-id pub-id-type="doi">10.7577/pp.944</article-id>
          <article-categories>
             <subj-group subj-group-type="article-type">
                <subject>Article</subject>
@@ -26,9 +26,7 @@
                <subject>305.553</subject>
             </subj-group>
          </article-categories>
-         <title-group>
-            <article-title>The Iron Cage and the Gaze?Re-Interpreting Medical Control in the English Health System</article-title>
-         </title-group>
+         <title-group/>
          <contrib-group>
             <contrib contrib-type="author">
                <name>
@@ -42,10 +40,10 @@
          <pub-date pub-type="pub">
             <day>____</day>
             <month>____</month>
-            <year>____</year>
+            <year>2015</year>
          </pub-date>
-         <volume>____</volume>
-         <issue>____</issue>
+         <volume>5</volume>
+         <issue>1</issue>
          <fpage>____</fpage>
          <lpage>____</lpage>
          <history>
@@ -53,16 +51,6 @@
                <day>4</day>
                <month>8</month>
                <year>2014</year>
-            </date>
-            <date date-type="received">
-               <day>4</day>
-               <month>8</month>
-               <year>2014</year>
-            </date>
-            <date date-type="accepted">
-               <day>25</day>
-               <month>3</month>
-               <year>2015</year>
             </date>
             <date date-type="accepted">
                <day>25</day>
@@ -76,9 +64,9 @@
                <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
             </license>
          </permissions>
-         <self-uri xlink:href="____">____</self-uri>
+         <self-uri xlink:href="http://dx.doi.org/10.7577/pp.944">http://dx.doi.org/10.7577/pp.944</self-uri>
          <abstract>
-            <p>Mark Exworthy, Health Services Management Centre, University of Birmingham Contact: Mark Exworthy, Health Services Management Centre, University of Birmingham, Edgbaston Birmingham B15 2TT United Kingdom  mailto:m.exworthy@bham.ac.uk mailto:m.exworthy@bham.ac.uk This paper seeks to determine the value of theoretical ideal-types of medical control. Whilst ideal types (such as the iron cage and gaze) need revision in their application to medical settings, they remain useful in describing and explaining patterns of control and autonomy in the medical profession. The apparent transition from the cage to the gaze has often been over-stated since both types are found in many contemporary health reforms. Indeed, forms of neo-bureaucracy have emerged alongside surveillance of the gaze. These types are contextualised and elaborated in terms of two empirical examples: the management of medical performance and financial incentives for senior hospital doctors in England. Findings point towards the reformulation of medical control, an on-going re-stratification of the medical profession, and the internalisation of managerial discourses. The cumulative effect involves the medical profession’s ability to re-cast and enhance its position ( vis-à-vis managerial interests).</p>
+            <p>This paper seeks to determine the value of theoretical ideal-types of medical control. Whilst ideal types (such as the iron cage and gaze) need revision in their application to medical settings, they remain useful in describing and explaining patterns of control and autonomy in the medical profession. The apparent transition from the cage to the gaze has often been over-stated since both types are found in many contemporary health reforms. Indeed, forms of neo-bureaucracy have emerged alongside surveillance of the gaze. These types are contextualised and elaborated in terms of two empirical examples: the management of medical performance and financial incentives for senior hospital doctors in England. Findings point towards the reformulation of medical control, an on-going re-stratification of the medical profession, and the internalisation of managerial discourses. The cumulative effect involves the medical profession’s ability to re-cast and enhance its position (vis-à-vis managerial interests).</p>
          </abstract>
          <kwd-group kwd-group-type="author-generated">
             <kwd>medical profession</kwd>
@@ -89,33 +77,77 @@
       </article-meta>
    </front>
    <body>
-      <p>This paper explores the modes of control of doctors by health-care institutions. Primarily, it assesses the value of applying two theoretical ideal-types to understand and explain physician (medical) control. It is argued that such modes of control have a significant bearing upon doctors’ motivation, job satisfaction and ultimately the quality of care which they deliver.</p>
-      <p>The paper is organised in three sections. First, it summarises the main arguments of the two ideal-types: the “cage” and the “gaze.” These ideal-types need elaboration to enable their application to the context of the medical profession. Second, the paper outlines two empirical examples of medical performance and financial incentives relating to medical pay in the English National Health Service (NHS). This section examines these examples as illustrations and applications of the control. Finally, the paper draws conclusions about the value of such conceptual approaches in explaining the management and control of doctors.</p>
+      <contact-info>Mark Exworthy, Health Services Management Centre, University of Birmingham</contact-info>
+      <contact-info>Contact: Mark Exworthy, Health Services Management Centre, University of Birmingham, Edgbaston Birmingham B15 2TT United Kingdom <uri>mailto:m.exworthy@bham.ac.uk</uri>
+      </contact-info>
+      <title>The Iron Cage and the Gaze? Re-Interpreting Medical Control in the English Health System</title>
+      <p>XML-author's note: This document is a reference-list test, where all the references have been managed using the Zotero reference manager. Now, it will be interesting to see how odf2jats will handle references that should be properly formatted using APA 6 style formatting.</p>
       <!-- sec lvl 2 begin -->
       <sec>
          <title>Ideal-types of occupational control</title>
-         <p>Drawing on Reed’s (<xref ref-type="bibr" rid="    1999">1999</xref>) thesis, this section presents two ideal-types which represent contrasting perspectives upon control of occupations by managerial and other external interests. The ideal-types are heuristic devices which generalise experiences from Western countries, specifically the UK. During the second half of the twentieth century, it is claimed, there has been a long transition of the decline in bureaucratic control (the so-called “iron cage”) in public services (<xref ref-type="bibr" rid="FM2003">Farrell &amp; Morris, 2003</xref>). Its apparent “decline” has coincided somewhat with the emergence of a new form of control—the “panopticon discipline”, also called the “gaze.” This ostensible shift from Weberian-inspired model to a Foucauldian one has been witnessed across contemporary modern societies in many fields of public life.</p>
-         <p>Whilst a broad pattern may be observed, this observation needs to be tailored to the nuances of occupational or sectoral contexts; here, health-care organisations and the medical profession. As such ideal-types may provide limited relevance and applicability to explaining the changing patterns of control in/of the medical profession, adaptation and elaboration is, therefore, essential.</p>
-         <!-- sec lvl 3 begin -->
-         <sec>
-            <title>Iron cage</title>
-            <p>The classic version of the iron cage thesis posits a system of hierarchical control which is marked by direct supervision of workers and formal rules. Progression and promotion (especially for professional staff) is based on socialisation into an occupational culture. Knowledge is standardised, enabling a clear division of labour and so, workers are trapped but also entrap themselves within a culture of control (<xref ref-type="bibr" rid="R1999">Reed, 1999</xref>). I argue that the latter form of control has become significant given the medical colonisation of managerialism. Despite its “repressive and dysfunctional” effects (<xref ref-type="bibr" rid="KCS2005">Kitchener, Caronna, &amp; Shortell, 2005</xref>; <xref ref-type="bibr" rid="MKA1985">McKinlay &amp; Arches, 1985</xref>), the strength of this heuristic has been its integration of theoretical and empirical, ideological and normative, structural and operational features. However, there is a danger that this conceptualisation is sociological deterministic in that observation of these features necessarily implies an iron cage of control. It overlooks, therefore, the role of human agency in resisting such cage mentality and its associated practices.</p>
-            <p>The start of the demise the Weberian iron cage is not precise but the advent of neo-liberal policies, such as new public management (NPM) in the latter half of the twentieth century has been considered a precipitating factor (<xref ref-type="bibr" rid="FLP2005">Ferlie, Lynn &amp; Pollitt, 2005</xref>). However, this must be viewed alongside a raft of other contemporary developments such as the crisis in the welfare state (of Western democracies), the advent of new forms of information communication technologies (ICT), and shifting cultural values (including disillusionment with hierarchy and a growing acceptance of consumerism and market-based approaches) (<xref ref-type="bibr" rid="EPM1999">Exworthy, Powell, &amp; Mohan, 1999</xref>). Notably, ICTs were instrumental in delivering a transformational impact on hierarchical structures and processes, overcoming many of the rigidities of the iron cage (<xref ref-type="bibr" rid="LU1987">Lash &amp; Urry, 1987</xref>). ICT enabled, for example, performance data to be compared, audited and costed (<xref ref-type="bibr" rid="P1997">Power, 1997</xref>).</p>
-            <p>In terms of professionalised occupations, this period also saw the emergence of a narrative of professions whose influence was seen as increasingly malign; professionals were regarded as self-serving interest groups whose actions were not always coincident with those of service users or the wider public (<xref ref-type="bibr" rid="E2009">Elston, 2009</xref>; <xref ref-type="bibr" rid="F1970">Freidson, 1970</xref>). However, generally less well observed in applications of the iron cage thesis has been the applicability and relevance to the (medical) profession. Doctors (in most jurisdictions) have traditionally enjoyed significant autonomy over the technical and operational aspects of their work (<xref ref-type="bibr" rid="H1999">Harrison, 1999</xref>). Until relatively recently, doctors have been able to avoid the institutional, organisational and managerial imperatives which have often been applied to other occupations, including non-medical ones. Doctors have also enjoyed a high degree of self-regulation (at a macro and micro level), rather than external regulation. Thus, there has been limited evidence of a “monolithic iron cage of physician subjugation” (<xref ref-type="bibr" rid="KCSS2005">Kitchener et al., 2005</xref>, <xref ref-type="bibr" rid="KCSS1320">p. 1320</xref>).</p>
-            <p>However, the cage thesis still retains relevance and arguably has become more significant. At first sight, medical autonomy might seem to contradict the notion of centralised authority (implied by the iron cage thesis). Yet, recently, central authority has been re-cast in three ways. First, NPM represented a “widespread shift in the legitimacy of management” (<xref ref-type="bibr" rid="EH1999">Exworthy &amp; Halford, 1999</xref>, <xref ref-type="bibr" rid="EHp. 5">p. 5</xref>) which privileged managers (<italic>vis-à-vis</italic> professionals). NPM also entailed the creation of a cadre of local managers who were often seen as agents of the (hierarchical) centre, providing a stronger line of local implementation of national policies (<xref ref-type="bibr" rid="H1988">Harrison, 1988</xref>). Market-based competition for health services may have challenged further medical power. Secondly, the emergence of evidence-based medicine (EBM) (<xref ref-type="bibr" rid="    1990s">in the 1980s and 1990s</xref>) represented a new (and countervailing) paradigm of central knowledge to which normative and cognitive behaviours of medical professionals are increasingly expected to conform (<xref ref-type="bibr" rid="A2002">Armstrong, 2002</xref>; <xref ref-type="bibr" rid="H1998">Harrison, 1998</xref>). Third, the decline in trust in professions as a result of a series of “scandals” (<xref ref-type="bibr" rid="    especially in medicine">especially in medicine</xref>; <xref ref-type="bibr" rid="DWYB2011">Dixon-Woods, Yeung, &amp; Bosk 2011</xref>) eroded the profession’s claims to maintain autonomy and be self-regulating; in doing so, they have arguably ceded (some) power to external interests. However, although different medical specialties have enjoyed contrasting experiences of managerialism, the medical profession (as a whole) remains reasonable well established and resilient to external threats (<xref ref-type="bibr" rid="TO2010">Timmermans &amp; Oh, 2010</xref>).</p>
-            <p>Arguably, as a result of recent developments, the notion of the cage has not become redundant but rather, recent reforms have transformed and intensified it (<xref ref-type="bibr" rid="FM2003">Farrell &amp; Morris, 2003</xref>). Although they do not advocate a return to a form of Weberian bureaucracy, they recognise that it has some merits which have often been decried in recent neo-liberal reforms (<xref ref-type="bibr" rid="P2009">see also Pollitt, 2009</xref>).</p>
-            <p>Farrell and Morris note three developments which have prompted a revision of the bureaucratic mode of control: interaction between professionalism and managerialism, managerial resistance to managerialism, and professional heterogeneity. The first refers to the apparent tension between different values and accountabilities of these discourses but also to the accommodation between them (<xref ref-type="bibr" rid="EH1999">Exworthy &amp; Halford, 1999</xref>). Second, it may be that local managers do not fully enrol in managerial projects (especially those instigated by the centre); instead, they find local arrangements to work with professions (<xref ref-type="bibr" rid="MEWG2011">Macfarlane, Exworthy, Wilmott, &amp; Greenhalgh, 2011</xref>). Cultural self-management may, however, become normalised amongst doctors. Third, the internal professional heterogeneity reveals stratification. One such division is medical hybrids within institutions (<xref ref-type="bibr" rid="MGCFFW2015">McGivern, Currie, Ferlie, Fitzgerald, &amp; Waring, 2015</xref>). Whilst the managerial/administrative elite of the profession has long been apparent (<xref ref-type="bibr" rid="F1994">Freidson, 1994</xref>), their role and significance has been amplified by recent managerialism. This also signals internalisation of managerial discourses within segments of the profession. Thus, the bureaucratic controls may not have disappeared but rather have been transformed and even intensified (<xref ref-type="bibr" rid="FM2003">Farrell &amp; Morris, 2003</xref>).</p>
-         </sec>
-         <!-- sec lvl 3 end -->
+         <p>(<xref ref-type="bibr" rid="A2002">Armstrong, 2002</xref>) </p>
+         <p>(<xref ref-type="bibr" rid="BG2000">Bates &amp; Gawande, 2000</xref>) </p>
+         <p>(<xref ref-type="bibr" rid="BH2006">Bevan &amp; Hood, 2006</xref>) </p>
+         <p>(<xref ref-type="bibr" rid="BW2013">Bevan &amp; Wilson, 2013</xref>) </p>
+         <p>(<xref ref-type="bibr" rid="CE1999">Causer &amp; Exworthy, 1999</xref>) </p>
+         <p>(<xref ref-type="bibr" rid="C2000">Courpasson, 2000</xref>) </p>
+         <p>(<xref ref-type="bibr" rid="DWYB2011">Dixon-Woods, Yeung, &amp; Bosk, 2011</xref>) </p>
+         <p>(<xref ref-type="bibr" rid="E2009">Elston, 2009</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="ES2007">Espeland &amp; Sauder, 2007</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="E2010">Exworthy, 2010</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="EH1998">Exworthy &amp; Halford, 1998</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="MEPM1999">Mark Exworthy, Powell, &amp; Mohan, 1999</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="EWMCMRSG2003">Exworthy et al., 2003</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="FM2003">Farrell &amp; Morris, 2003</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="FLP2005">Ferlie, Lynn, &amp; Pollitt, 2005</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="F1979">Foucault, 1979</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="F1999">Fournier, 1999</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="F1970">Freidson, 1970</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="F1994">Freidson, 1994</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="F1997">Frey, 1997</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="FN2009">Frey &amp; Neckermann, 2009</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="JGEJS2012">Jonathan Gabe, Exworthy, Jones, &amp; Smith, 2012</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="GEPP2009">Greener, Exworthy, Peckham, &amp; Powell, 2009</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="H1998b">Harrison, 1998b</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="H1998a">Harrison, 1998a</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="HSCIC2014">Health and Social Care Information Centre, 2014</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="H2007">Hood, 2007</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="IJLBTW2006">Iedema et al., 2006</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="K1998">Katz, 1998</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="KCS2005">Kitchener, Caronna, &amp; Shortell, 2005</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="K1990">Klein, 1990</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="LU1987">Lash &amp; Urry, 1987</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="LW2009">Levay &amp; Waks, 2009</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="L1993">Lyon, 1993</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="MEWG2011">Macfarlane, Exworthy, Wilmott, &amp; Greenhalgh, 2011</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="MDWHWB2005">McDonald, Waring, Harrison, Walshe, &amp; Boaden, 2005</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="RMDHCCR2007">Ruth McDonald, Harrison, Checkland, Campbell, &amp; Roland, 2007</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="MGF2007">McGivern &amp; Ferlie, 2007</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="MGF2010">McGivern &amp; Fischer, 2010</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="MCFFW2015">Mcgivern, Currie, Ferlie, Fitzgerald, &amp; Waring, 2015</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="MKA1985">McKinlay &amp; Arches, 1985</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="M1992">Miller, 1992</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="NAO2013">National Audit Office, 2013</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="N2011">Noordegraaf, 2011</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="P2002">Pawson, 2002</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="PEGP2005">Peckham, Exworthy, Greener, &amp; Powell, 2005</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="P2009">Pollitt, 2009</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="P1997">Power, 1997</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="R1999">Reed, 1999</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="ABGTTWW2013">Amy et al., 2013</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="R1995">Rosenthal, 1995</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="S2008">Scott, 2008</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="SLMD2008">Shekelle, Lim, Mattke, &amp; Damberg, 2008</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="TO2010">Timmermans &amp; Oh, 2010</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="T1994">Townley, 1994</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="T1997">Tsoukas, 1997</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="WC2009">Waring &amp; Currie, 2009</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="W2002">Weeden, 2002</xref>)</p>
+         <p>(<xref ref-type="bibr" rid="Z1988">Zuboff, 1988</xref>)</p>
          <!-- sec lvl 3 begin -->
          <sec>
             <title>The gaze</title>
-            <p>Typically, the gaze consists of various managerial strategies whereby control is internalised within norms and behaviours of occupations, individually and collectively. The disciplines of (especially) market-based discourses thus become inculcated within occupational logics and thereby become unchallengeable. Drawing on earlier work by Bentham, Foucault’s (<xref ref-type="bibr" rid="    1979">1979</xref>) characterised the gaze in terms of the panopticon—the remote and supervisory observation of many prisoners by guards (or even one guard). However, it has also come to refer to the applications of this surveillance such as the hierarchical and comparative ranking of subjects (as in “league tables”), total quality management (<xref ref-type="bibr" rid="T1994">Townley, 1994</xref>), and the public reporting of CEO salaries, mortality rates associated with individual surgeons and school performance (<xref ref-type="bibr" rid="P2002">Pawson, 2002</xref>).</p>
-            <p>The effect of the gaze, it is claimed, transforms “recalcitrant, disordered and potentially threatening individuals into docile and obedient subjects” (<xref ref-type="bibr" rid="R1999">Reed, 1999</xref>, <xref ref-type="bibr" rid="Rp. 29">p. 29</xref>) through separation, remote observation, hierarchical ranking, and normalisation. Individual agents are thus transformed into “calculable selves”; individuals become <italic>subject</italic> to the demands of the external logic (here, managerial) and the <italic>objects</italic> of it (by becoming individually committed to evaluating their own practice). Miller (<xref ref-type="bibr" rid="    1992">1992</xref>) uses accountancy practices within public sector managerialism to argue that: “The calculative technologies of accountancy [and arguably, other panoptic approaches] hold out the promise that one can transform all individuals, whether they be managers, workers, doctors, or teachers into calculating selves” (p. 70).</p>
-            <p>ICT has been instrumental in creating and shaping the ways in which the gaze has been enacted. ICT offers the potential for more flexible processes of control in which such (managerial) discipline (especially in relation to managing medical performance) can be internalised by individuals (<xref ref-type="bibr" rid="R1999">Reed, 1999</xref>). “ICTs seem to possess the inherent capacity for delivering an organisational control regime in which self-regulation and discipline… is a realisable project for management” (<xref ref-type="bibr" rid="R1999">Reed, 1999</xref>, <xref ref-type="bibr" rid="Rp. 24">p. 24</xref>).</p>
-            <p>This self-discipline overcomes the limitations of continuous surveillance by a superordinate as control is internalised. ICT thus has the “benefit” of providing remote and unobtrusive monitoring (of performance) and cultural self-management (<xref ref-type="bibr" rid="KE2008">Kitchener &amp; Exworthy, 2008</xref>). No specific external managerial intervention need thus be imposed. One of the limitations of the iron cage was its inability to effectively monitor or control activities which are “invisible” to the managerial gaze (such as doctors) (<xref ref-type="bibr" rid="KCSS2005">Kitchener et al., 2005</xref>). This is the essence of Foucault’s interpretation of the panopticon: “The surveillance is permanent in its effects even if it is discontinuous in its action” (<xref ref-type="bibr" rid="F1979">Foucault, 1979</xref>, <xref ref-type="bibr" rid="Fp. 201">p. 201</xref>).</p>
-            <p>Responses by public service professionals to post-modern, and neo-bureaucratic, modes of control have evolved from binary tensions to more contingent responses, mediated by the type of control, local contextual factors and professional trajectories. Such contingent responses by professionals have included adoption of managerial discourses and perception of their identity, career and professional norms into terms of such discourses (<xref ref-type="bibr" rid="MGCFFW2015">McGivern et al., 2015</xref>). This panoptic gaze has, for example, been applied to doctors through performance management such as pay-for-performance schemes (<xref ref-type="bibr" rid="MDCCR2007">McDonald, Checkland, Campbell, &amp; Roland, 2007</xref>) and public reporting of their mortality rates (<xref ref-type="bibr" rid="GEJS2012">Gabe, Exworthy, Jones &amp; Smith, 2012</xref>). It has also helped reveal poor (and even criminal) clinical practice (<xref ref-type="bibr" rid="DWYB2011">Dixon-Woods et al., 2011</xref>; <xref ref-type="bibr" rid="MGF2010">McGivern &amp; Fischer, 2010</xref>). The notion of the gaze is also helpful because it is applicable to the growing self-reflexivity of the medical profession. In the context of quality and patient safety initiatives, such reflexivity of the gaze might also engender a “micro-sociology” rather than questioning the “over-arching governance and structuring” of health care organisations or institutions (<xref ref-type="bibr" rid="IJLBTW2006">Iedema et al., 2006</xref>).</p>
-            <p>The notion of the gaze has limitations. The ideal-typical notion of “one” observing “the many” needs to be reversed in the case of the online panopticon; a limited number of agents (doctors) are being watched by (potentially) a vast number of “observers,” not simply health-care managers but patients and the public too (<xref ref-type="bibr" rid="L1993">Lyon, 1993</xref>; <xref ref-type="bibr" rid="Z1988">Zuboff, 1988</xref>). Their ability to understand and interpret the data about medical performance is likely to be limited as will be their willingness to act upon it (<xref ref-type="bibr" rid="SLMD2008">Shekelle, Lim, Mattke, &amp; Damberg, 2008</xref>). The continual generation of information creates a “tyranny of light” (<xref ref-type="bibr" rid="T1997">Tsoukas, 1997</xref>) which may obscure as much as it enlightens; for example, the increasing volume of data about medical performance may obfuscate patient or managerial decision-making and create a sense of misplaced trust. Also, the gaze may be unable to reach into inter-personal aspects of professional performance. Some aspects of such practice are ineffable and not easily reducible to standard measures amenable to comparison (<xref ref-type="bibr" rid="EWMCMRSG2003">Exworthy et al., 2003</xref>). Crucially, the medical profession has played a key role in defining the creation and implementation of gaze-like performance measures, not least through the interpretation of esoteric knowledge.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          </sec>
          <!-- sec lvl 3 end -->
       </sec>
@@ -123,29 +155,17 @@
       <!-- sec lvl 2 begin -->
       <sec>
          <title>Controlling the medical profession? Two empirical examples</title>
-         <p>The notions of the cage and the gaze are applied to two contrasting examples which relate to domains which have traditionally been seen as the preserve of the profession or areas where they have had substantial influence. Attempts at new forms of control in these areas might, therefore, be revealing.</p>
+         <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          <!-- sec lvl 3 begin -->
          <sec>
             <title>Medical performance</title>
-            <p>Traditionally, the definition and measurement relating of medical performance remained solely the remit of the profession itself (<xref ref-type="bibr" rid="CE1999">Causer &amp; Exworthy, 1999</xref>). Doctors were only deemed eligible to monitor their own performance, either individually or collectively; the essence of peer review. Patient, managerial and political interests were largely excluded from commenting on or taking action on cases of (poor/bad) medical performance. Performance data were not usually shared with colleagues and less likely, with external stakeholders. Although doctors themselves would often privately claim that they “knew” about such performance, there was a professional ethic which stifled open/public criticism of their peers; Causer and Exworthy (<xref ref-type="bibr" rid="    1999">1999</xref>) term this a “notion of equality of competence.” Action to rectify “poor” performance was instigated and administered by the medical profession (<xref ref-type="bibr" rid="R1995">Rosenthal, 1995</xref>).</p>
-            <p>Central to doctors’ ability to maintain control over their own performance was the extent to which their medical practice was not amenable to tight managerial control and/or was “hidden” from external view, or gaze. The operating theatre or the physician’s office were thus private spaces which helped sustain their autonomy. The advent of ICT (notably the internet) has provided the opportunity to store, accumulate and compare data about the performance of doctors (<xref ref-type="bibr" rid="WC2009">Waring &amp; Currie, 2009</xref>). Consistent with the audit society thesis (<xref ref-type="bibr" rid="P1997">Power, 1997</xref>), ICT—as new “softwares of control” (<xref ref-type="bibr" rid="F1999">Fournier, 1999</xref>)—enables stricter application of performance measures and also greater panoptic scrutiny of doctors (<xref ref-type="bibr" rid="N2011">Noordegraaf, 2011</xref>).</p>
-            <p>A particular expression of the audit society and the application of ICT has been public reporting of medical outcomes (<xref ref-type="bibr" rid="GEJS2012">Gabe et al., 2012</xref>; <xref ref-type="bibr" rid="MGF2010">McGivern &amp; Fischer, 2010</xref>). Public reporting is part of transparency which has become “a widespread normative doctrine for the conduct of governance” whose value is rarely questioned (<xref ref-type="bibr" rid="H2007">Hood, 2007</xref>, <xref ref-type="bibr" rid="Hp. 192">p. 192</xref>). It involves the publication of the medical performance associated with named individual doctors. Cardiac surgery has been the pioneer of public reporting. Publication has previously been in paper-based reports but is increasingly disseminated via the internet (<xref ref-type="bibr" rid="BG2007">Bates &amp; Gawande, 2007</xref>). Public reporting has tended to record aspects of performance, usually mortality rates (rather than patient experience although this is now being introduced in some specialties). Also, previous anonymised reporting systems have become transparent by identifying named doctors.</p>
-            <p>However, the notion of <italic>performance</italic> becomes problematic; the published performance data are not a factual account of a doctor’s actions but a discourse which conveys particular interests. For example, public reporting can mask the contribution of the wider clinical team for which the senior doctor is responsible. As health services have become subject to market competition, such comparison have become useful for patients as consumers. Public reporting facilitates control of surgeons since surgery might be seen as more easily measurable than some other clinical services (<xref ref-type="bibr" rid="K1998">Katz, 1998</xref>; <xref ref-type="bibr" rid="MDWHWB2005">McDonald, Waring, Harrison, Walshe, &amp; Boaden, 2005</xref>). However, the impact of control over doctors which is exercised by patients (acting as consumers) and managers (acting as regulators of medical profession) is not fully understood (<xref ref-type="bibr" rid="GEJS2012">Gabe et al., 2012</xref>; <xref ref-type="bibr" rid="SLMD2008">Shekelle et al., 2008</xref>). Public reporting can also provide patients (as consumers) with information upon which they might “choose” between competing providers; yet, much evidence (mainly in the US and UK) suggest that patients do not choose in this way (<xref ref-type="bibr" rid="SLMD2008">Shekelle et al., 2008</xref>). Public reporting may thus be as much a mechanism to convey and amplify peer reputation, than to control the profession (<xref ref-type="bibr" rid="BW2013">Bevan &amp; Wilson, 2013</xref>).</p>
-            <p>Although the measure of performance in cardiac surgery (30 day post-operative mortality rate assigned to the lead surgeon) is still defined and measured by the profession, there has been some resistance by doctors to the involvement of external agents in the surveillance (<xref ref-type="bibr" rid="GEJS2012">Gabe et al., 2012</xref>; <xref ref-type="bibr" rid="MGF2007">McGivern &amp; Ferlie, 2007</xref>). However, the shift towards mandated participation in public reporting in ten medical specialties in England (<xref ref-type="bibr" rid="    2013">since 2013</xref>) points more towards bureaucratisaton (iron cage) combined with a post-bureaucratic (gaze) modes of control. However, the presence of doctors (especially cardiac surgeons) in key policy-making positions in the government ministry (Department of Health) and a regulatory agency (Care Quality Commission; CQC) has moderated the extent of the cage. Furthermore, the CQC’s collaboration with the cardiac surgeons’ professional body in presenting these mortality data on the internet has also affected the salience of the gaze.</p>
-            <p>At the same time that public reporting is becoming normalised within the (surgical) profession, questions have been raised about the value of mortality rates as a measure of performance. Whilst apparently precise measures (such as mortality) have enabled the spread of public reporting due to their comparability, a standardised, comparable measure of mortality inevitably neglects ineffable practices (such as consultation skills) or unmeasured aspects of care (such as patient experience). Hence, public reporting may not act as any sort of cage and may present a “narrow gaze” (which has been defined largely by the profession).</p>
-            <p>Public reporting does not rely simply on bureaucratic techniques of direct control (associated with the cage) or a narrow gaze (described above) but more on transforming doctors as “calculable selves” (associated with the gaze). While scholarly and professional attention focuses on “micro-circuits” of surveillance (<xref ref-type="bibr" rid="I    2006">Iedema, et al., 2006</xref>; <xref ref-type="bibr" rid="R1999">Reed, 1999</xref>), there is a danger that counter-vailing forces of the professional power are neglected. Using a narrow gaze upon their performance, surgeons have been able to present a reassuring assessment of their own performance. This might signify that public reporting is being used by the profession to restore trust and promote a new professionalism.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          </sec>
          <!-- sec lvl 3 end -->
          <!-- sec lvl 3 begin -->
          <sec>
-            <title>Financial incentives relating to medical pay</title>
-            <p>Although pay is the largest single item in financing health systems, the issue of doctors’ pay has received relatively little attention (compared with other English health policy issues). The example of financial incentives relating to the pay senior doctors (“consultants”) in the English NHS provides a pertinent application of models of medical control. Consultants are mostly hospital-based doctors who are responsible for the delivery of health-care to assigned patents. By contrast, English primary care doctors have different contractual arrangements (<xref ref-type="bibr" rid="MDCCR2007">McDonald et al., 2007</xref>).</p>
-            <p>In 2011, there were over 47,000 consultants in England (<xref ref-type="bibr" rid="RBDDR2013">Review Body on Doctors' and Dentists' Remuneration, 2013</xref>). This was equivalent to 4% of the NHS workforce but 13% of the NHS budget. Consultants are not evenly distributed with current shortages in emergency medicine and in poorer, deprived areas. Three-quarter of consultants’ pay consists of “basic pay” (salary) which was worth £88,732 (€111,590) (mean annual basic pay) in 2013-14 (<xref ref-type="bibr" rid="HSCIC2014">Health and Social Care Information Centre, 2014</xref>). Additional payments for specific activities (such as weekend working) are also paid. They are also eligible to apply for Clinical Excellence Awards (CEAs).</p>
-            <p>CEAs were established in 1948 at the inception of the NHS. Their ostensible purpose was to ensure that the medical profession participated in the newly-established government-run institution. Otherwise, doctors might be tempted to practise their medicine privately. The awards are currently given to consultants who meet criteria across five domains, indicative of a quality of work “over and above” contractual obligations, as determined by a system of local and national committees. Awards range in value from £3,000 (approx. €3,785) to £75,000 (€94,640) <italic>per annum</italic> across 12 levels, which are paid in addition to basic salary. As a result of CEAs, the median annual total earnings of a consultant are £109,000 (€137,545) (2011-12) (<xref ref-type="bibr" rid="NAO2013">NAO, 2013</xref>). The overall cost of CEAs is over £500million (€630,939million) <italic>per annum</italic>.</p>
-            <p>The five CEA domains of medical performance include: delivering a high quality service, developing a high quality service, leadership and managing a high quality service, research and innovation, and teaching and training. The criteria for allocating awards have changed over time but since 2001, greater emphasis has been placed on “delivering and improving local and health services,” which includes participation in local managerial and organisational decision-making processes (among other things). This emphasis has been complemented by rising managerial and lay representation on award committees. Although chaired by a lay member and including managerial representation, doctors still account for 50% or more of the representation of these committees.</p>
-            <p>One explanation for the continued implementation of CEAs (and their financial benefits to doctors) for over 60 years is social closure (<xref ref-type="bibr" rid="W2002">Weedon, 2002</xref>). The profession and state are in an inter-dependent relationship relating to the content of work, training, performance appraisal and pay, for example (<xref ref-type="bibr" rid="K1990">Klein, 1990</xref>). Doctors have secured and maintained a monopoly of medical labour through state (legislative) protection. However, the state (in the form of the NHS) has arguably depressed doctors’ incomes by being the main employer of medical labour (<xref ref-type="bibr" rid="K1990">Klein, 1990</xref>).</p>
-            <p>The case of CEAs illustrates weakly the application of the cage thesis. Whilst the introduction of (the forerunner of) CEAs was a bargain struck between the state and medical profession, the original application of autonomous peer review remains largely intact. Recent media interest in doctors’ pay has occasionally mentioned CEAs but, despite medical scandals, there has been no concerted attempt to link CEAs to the more toxic issue of bonuses in banking or high salaries in the public sector. Also, information about CEAs is available on the internet but the absence of debate perhaps denotes minimal external gaze; CEAs thus remain “hidden in plain sight.” Arguably, over time, CEAs have become more aligned with the wider (regulatory and economic) interests of the state. Changing criteria for awards and committee membership both denote a shift towards wider organisational/corporate objectives and discourses. That said, three aspects lessen bureaucratic control over doctors in this example. First, the infrastructure of health policy-making is riven with medical staff, not least award committees. This arguably nullifies the extent of external threats to their position. Moreover, the comprehensive application of rules by which CEAs are administered might be considered a bureaucratic hallmark of this mode. Yet, financial support for CEAs has been maintained despite challenging fiscal climate elsewhere in the NHS. Second, the criteria for awards remain largely medically determined and applied, with relatively little influence from managerial or lay interests. Data about individual medical performance data (pertaining to the five domains) are passed to hospital chief executives who are required to offer support for applications to higher level CEAs. However, such information only provides a moderating influence on committee decisions and can hardly be interpreted as significant extension of control over the profession. Third, the coverage of CEAs to (currently) over three-fifths of all consultants creates (or perhaps reinforces) a sense of entitlement to these financial rewards among doctors, rather than simply a reward for their “excellent” medical practice. This might have a socialising effect on junior doctors. CEAs act, therefore, as an incentive to maintain medical collegiality and adherence to professional values, rather than controlling and managing their performance.</p>
-            <p>CEAs could also be interpreted in terms of the gaze. Certainly, some of the domains (which doctors must address to be awarded a CEA) have, over time, been re-defined to reflect a more managerial orientation. This might support the notion that a managerial gaze is being normalised within the profession. The third CEA domain, for example, refers to demonstrating a sustained commitment to the values and goals of the NHS. This might be evident in terms participating in the annual process of agreeing doctors’ “job plans” with the hospital, observing the guidelines which regulate the amount of private medicine which they (as NHS employees) can undertake, and showing a commitment to achieving agreed service objectives. Such evidence denotes the cultural self-management associated with the managerial gaze. Doctors’ behaviours might thus become aligned with the managerial definitions in certain domains. However, doctors do not necessarily need to perform well on this domain alone. Therefore, the specific interpretation of these behaviors (by CEA committees, dominated by doctors) might simply reinforce a medical perspective, rather than challenge it.</p>
+            <title>Financial incentives to medical pay</title>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          </sec>
          <!-- sec lvl 3 end -->
       </sec>
@@ -153,29 +173,23 @@
       <!-- sec lvl 2 begin -->
       <sec>
          <title>The cage and the gaze: a re-interpretation of medical control</title>
-         <p>This paper has sought to ascertain the value of applying the ideal-types of the cage and the gaze to notions of control of the medical profession in England. It applied these to two aspects of (ostensible) control of the profession, namely, medical performance and financial incentives relating to pay. For sure, there have been signs of a shift from the cage to the gaze in recent years in terms of a trajectory of change, an underlying logic and a redirection of organisational control (<xref ref-type="bibr" rid="R1999">Reed, 1999</xref>). Perhaps more than ever, the binary distinction between cage and gaze is unhelpful. Both were evident although in different configurations.</p>
+         <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          <!-- sec lvl 3 begin -->
          <sec>
             <title>Re-interpreting the cage</title>
-            <p>The ideal-type of the iron cage applies weakly to the entirety of public services and health care. Given the professional autonomy of doctors, it never was a “monolithic” approach to control of this occupation. This underlines the need to re-assess it and apply it more appropriately. In health-care, however, the demise of the cage has been over-stated (<xref ref-type="bibr" rid="FM2003">Farrell &amp; Morris, 2003</xref>) but it would be misleading to claim that the cage is no longer evident or relevant. Aspects of the cage have been and remain evident in health care institutions; the salience of each aspect has been contingent upon the institutional and professional setting. Indeed, certain aspects of the cage have become intensified in terms of implementation and salience. Such neo-bureaucracy has not removed cage-like apparatus but rather extended its application. In doing so, it has revealed many of the dysfunctional consequences and contradictions of the forms of NPM which have been implemented in the UK and elsewhere (<xref ref-type="bibr" rid="FM2003">Farrell &amp; Morris, 2003</xref>).</p>
-            <p>Over the past 25 years, various forms of neo-bureaucracy have been implemented in the English NHS. Notably, the introduction of market-like relations and competition in 1991 (and the variations thereof since) have disaggregated health care institutions into semi-autonomous units. Whilst this might appear to have decentralised decision-making in the NHS, it has equally established more centralised apparatus in the form of regulation of the market (<xref ref-type="bibr" rid="GEPP2009">Greener, Exworthy, Peckham, &amp; Powell, 2009</xref>). This paradox of simultaneous decentralisation/centralisation has not reduced hierarchy but increased bureaucracy (<xref ref-type="bibr" rid="FM2003">Farrell &amp; Morris, 2003</xref>; <xref ref-type="bibr" rid="PEGP2005">Peckham, Exworthy, Greener, &amp; Powell, 2005</xref>).</p>
-            <p>An illustration of the decentralisation/centralisation paradox is the use of financial incentives to control the performance of medical professionals. Whilst the use of financial incentives has continued apace in the last decade, Clinical Excellence Awards have remained largely untouched since 1948. The initial resistance to financial incentives has, for the most part, moved to acceptance as primary care doctors, for example, have benefitted significantly (<xref ref-type="bibr" rid="MDCCR2007">McDonald et al., 2007</xref>). However, it doing so, medical legitimacy to set and monitor standards and crucially reward their members, has been challenged by NPM strategies (of the cage). Medical authority may not have been usurped but their ability to control their profession has been significantly eroded. Farrell and Morris (<xref ref-type="bibr" rid="    2003">2003</xref>) may thus only been partly correct in referring to “persecuted professionals” (p. 135).</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          </sec>
          <!-- sec lvl 3 end -->
          <!-- sec lvl 3 begin -->
          <sec>
             <title>Re-interpreting the gaze</title>
-            <p>As transparency has become a doctrine for good governance in many health systems (<xref ref-type="bibr" rid="H2007">Hood, 2007</xref>), there has been a growing surveillance of medical practice, with the widespread application of strategies associated with the gaze. In particular, the connection between surveillance (gaze) and the “performance paradigm” of NPM has been pervasive (<xref ref-type="bibr" rid="BH2006">Bevan &amp; Hood, 2006</xref>; <xref ref-type="bibr" rid="E2010">Exworthy, 2010</xref>).</p>
-            <p>Often, professionals have “de-coupled” from surveillance strategies linked to performance measurement. Professionals have often adopted a “tick box mentality” to fulfilling the requirements of the technique, without changing their own work practices (<xref ref-type="bibr" rid="LW2009">Levay &amp; Waks, 2009</xref>; <xref ref-type="bibr" rid="MGF2009">McGivern &amp; Ferlie, 2009</xref>). Over time, there has been a growing normalisation of NPM strategies through the professional colonization by its logics. This tends to involve greater self-monitoring and normalisation. Whether this represents a loss of medical autonomy or rather a re-definition of it depends much on the context into which these strategies are implemented. For example, more junior doctors have tended to inculcate the logic of self-monitoring more readily than their senior colleagues (<xref ref-type="bibr" rid="GEJS2012">Gabe et al., 2012</xref>).</p>
-            <p>Whatever the consequence for medical autonomy, it is apparent that two consequences have arisen: self-fulfilling prophecy and commensuration (<xref ref-type="bibr" rid="ES2007">Espeland &amp; Sauder, 2007</xref>). The former refers to the changes in behaviour in response to predictions whilst the latter refers to the transformation of (often disparate) properties which are quantified and measured.</p>
-            <p>Doctors’ responses to financial incentives might illustrate the former while the development of hierarchical rankings of performance (which are then publicly reported) illustrates the latter. Both of these consequences reflect the sense in which market-based relations have pervaded medical performance and medical pay. As a result, individuals and institutions increasingly need to be self-aware and re-position themselves in relation to their competitors. Managerial and professional interest may thus become elided.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          </sec>
          <!-- sec lvl 3 end -->
          <!-- sec lvl 3 begin -->
          <sec>
             <title>Cage and gaze re-visited</title>
-            <p>Conceptualisations of the confluence of control (through cage and/or gaze) and professional autonomy have become key areas of inquiry recently. Techniques (such as public reporting of medical performance or the use of financial incentives for health-care professional) need to be vague enough to be adaptable to local (professional) circumstances but sufficiently testing to capture the attention of professionals. This is the essence of Courpasson’s (<xref ref-type="bibr" rid="    2000">2000</xref>) soft bureaucracy. This implies a more flexible, “plastic” cage rather than a rigid, iron one. Equally, it reflects a two-way surveillance whereby doctors are coupled to be managerial strategies but continue to enjoy some latitude in defining and implementing them. By and large, doctors continue to set the terms by which their performance is defined and rewarded in the CEA scheme.</p>
-            <p>The significance of the “soft bureaucracy” in institutional change is especially relevant given the enduring and malleable power of the medical profession. Equally, Scott’s (<xref ref-type="bibr" rid="    2008">2008</xref>) institutional pillars indicate the consequences in medical performance and financial incentives. For example, Scott’s “cognitive pillar” denotes the “symbolic systems” of professions. Here, this might include the reputation effect of public reporting (<xref ref-type="bibr" rid="SLMD2008">Shekelle et al., 2008</xref>) and the use of CEAs as honorific symbols of the medical profession (<xref ref-type="bibr" rid="F1997">Frey, 1997</xref>). Both are consistent with Frey and Neckermann’s (<xref ref-type="bibr" rid="    2009">2009</xref>) analysis of non-financial recognition. Collegial control (cf. managerial control) thus becomes significant as the professions seeks to define and sustain its “own” definition and prescription of reward for its members.</p>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
          </sec>
          <!-- sec lvl 3 end -->
       </sec>
@@ -183,20 +197,58 @@
       <!-- sec lvl 2 begin -->
       <sec>
          <title>Conclusions</title>
-         <p>Managing performance and financial incentives of pay are both central to the motivation and job satisfaction of doctors but both can also be used as mechanisms to “control” doctors. As both performance and pay were redolent of medical autonomy, the managerial and consumerist challenges to technical and operational aspects of their work and income are significant. However, such challenges have not simply resulted in more control <italic>per se</italic>. The balance of control has not simply shifted from cage to gaze, but to cage and gaze, through an intensification of neo-bureaucratic mechanisms and the pervasive influence of gaze-like surveillance. Doctors have, however, not been passive to these challenges but sought to mitigate their perceived inimical effects. This has been through a partial shift towards managerial modes and a retrenchment towards professional ones which suggests that the medical profession has not entirely lost control over the assessment of their work content or their remuneration.</p>
-         <p>The representation of the cage and the gaze are powerful heuristic devices but individually, they do not fully signify the professional, institutional and regulatory ramifications of medical control. Combined, the cage and gaze might offer powerful explanations of medical power. As Reed (<xref ref-type="bibr" rid="    1999">1999</xref>) argues, there is a need to assess the cumulative impact and transformations of “compliance structures, knowledge systems and surveillance technologies” (p. 17). It is their combination which offers a more powerful analysis. Indeed, it is the “interlocking configuration of ideological, structural and operational elements” (<xref ref-type="bibr" rid="R1999">Reed, 1999</xref>, <xref ref-type="bibr" rid="Rp. 19">p. 19</xref>) through which control has been exercised and resisted, which merits further empirical attention. The character of the “control regimes” will be evident in terms of organisational logics, governance structures and aligned actors (<xref ref-type="bibr" rid="KE2008">Kitchener &amp; Exworthy, 2008</xref>). Thus, the co-existence of control and autonomy need to be re-conceptualised.</p>
+         <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
       </sec>
       <!-- sec lvl 2 end -->
       <!-- sec lvl 2 begin -->
       <sec>
          <title>Acknowledgements</title>
-         <p>The empirical research on which this paper draws was funded by the Economic and Social Research Council and by the British Academy of Management. I am grateful to my collaborators on these projects: Jon Gabe, Ian Rees Jones, Glenn Smith, Paula Hyde and Pamela McDonald-Kuhne.</p>
+         <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
       </sec>
       <!-- sec lvl 2 end -->
    </body>
    <back>
       <ref-list>
-         <ref id="A2002"><!--Armstrong, D. (2002). <italic>A new history of identity: A sociology of medical knowledge.</italic> Basingstoke: Palgrave. <uri>http://dx.doi.org/10.1057/9781403907028</uri>-->
+         <ref id="ABGTTWW2013"><!--Amy, R., Bolton, L., Glennie, J., Thompson, S., Turner, N., Walker, I., & Williamson, D. (2013). <italic>Review Body on Doctors’ and Dentists’ Remuneration. Forty-First Report 2013</italic>. London: DDRB. Retrieved from <uri>https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/226732/DDRB_41st_report_2013_Cm_8577_Accessible.pdf</uri>-->
+            <element-citation publication-type="book" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Amy</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bolton</surname>
+                     <given-names>L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Glennie</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Thompson</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Turner</surname>
+                     <given-names>N.</given-names>
+                  </name>
+                  <name>
+                     <surname>Walker</surname>
+                     <given-names>I.</given-names>
+                  </name>
+                  <name>
+                     <surname>Williamson</surname>
+                     <given-names>D.</given-names>
+                  </name>
+               </person-group>
+               <year>2013</year>
+               <source>Review Body on Doctors’ and Dentists’ Remuneration. Forty-First Report 2013</source>
+               <publisher-loc>London</publisher-loc>
+               <publisher-name>DDRB. Retrieved from</publisher-name>
+               <uri>https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/226732/DDRB_41st_report_2013_Cm_8577_Accessible.pdf</uri>
+            </element-citation>
+         </ref>
+         <ref id="A2002"><!--Armstrong, D. (2002). <italic>A New History of Identity</italic>. Basingstroke: Palgrave. Retrieved from <uri>http://dx.doi.org/10.1057/9781403907028</uri>-->
             <element-citation publication-type="book" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -205,53 +257,57 @@
                   </name>
                </person-group>
                <year>2002</year>
-               <source>A new history of identity: A sociology of medical knowledge.</source>
-               <publisher-loc>Basingstoke</publisher-loc>
-               <publisher-name>Palgrave</publisher-name>
+               <source>A New History of Identity</source>
+               <publisher-loc>Basingstroke</publisher-loc>
+               <publisher-name>Palgrave. Retrieved from</publisher-name>
                <uri>http://dx.doi.org/10.1057/9781403907028</uri>
             </element-citation>
          </ref>
-         <ref id="BG2000"><!--Bates, D. & Gawande, A. (2000). The impact of the internet on quality measurement. <italic>Health Affairs, 19</italic>(6), 104-14. <uri>http://dx.doi.org/10.1377/hlthaff.19.6.104</uri>-->
+         <ref id="BG2000"><!--Bates, D. W., & Gawande, A. A. (2000). The impact of the Internet on quality measurement. <italic>Health Affairs, 19</italic>(6), 104–114. <uri>http://doi.org/10.1377/hlthaff.19.6.104</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Bates</surname>
-                     <given-names>D.</given-names>
+                     <given-names>D. W.</given-names>
                   </name>
                   <name>
                      <surname>Gawande</surname>
-                     <given-names>A.</given-names>
+                     <given-names>A. A.</given-names>
                   </name>
                </person-group>
                <year>2000</year>
-               <article-title>The impact of the internet on quality measurement.</article-title>
+               <article-title>The impact of the Internet on quality measurement.</article-title>
                <source>Health Affairs</source>
                <volume>19</volume>
                <issue>6</issue>
                <fpage>104</fpage>
-               <lpage>14</lpage>
-               <uri>http://dx.doi.org/10.1377/hlthaff.19.6.104</uri>
+               <lpage>114</lpage>
+               <uri>http://doi.org/10.1377/hlthaff.19.6.104</uri>
             </element-citation>
          </ref>
-         <ref id="B2006"><!--Bevan, G. and Hood, C. (2006). What’s measured is what matters: targets and gaming in the English public health care system. <italic>Public Administration, 84</italic>(3), 517–538. <uri>http://dx.doi.org/10.1111/j.1467-9299.2006.00600.x</uri>-->
+         <ref id="BH2006"><!--Bevan, G., & Hood, C. (2006). What’s Measured Is What Matters: Targets and Gaming in the English Public Health Care System. <italic>Public Administration, 84</italic>(3), 517–538. <uri>http://doi.org/10.1111/j.1467-9299.2006.00600.x</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Bevan</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hood</surname>
                      <given-names>C.</given-names>
                   </name>
                </person-group>
                <year>2006</year>
-               <article-title>What’s measured is what matters: targets and gaming in the English public health care system.</article-title>
+               <article-title>What’s Measured Is What Matters: Targets and Gaming in the English Public Health Care System.</article-title>
                <source>Public Administration</source>
                <volume>84</volume>
                <issue>3</issue>
                <fpage>517</fpage>
                <lpage>538</lpage>
-               <uri>http://dx.doi.org/10.1111/j.1467-9299.2006.00600.x</uri>
+               <uri>http://doi.org/10.1111/j.1467-9299.2006.00600.x</uri>
             </element-citation>
          </ref>
-         <ref id="BW2013"><!--Bevan, G. & Wilson, D. (2013). Does “naming and shaming” work for schools and hospitals? Lessons from natural experiments following devolution in England and Wales. <italic>Public Money and Management, 33</italic>(4), 245-252. <uri>http://dx.doi.org/10.1080/09540962.2013.799801</uri>-->
+         <ref id="BW2013"><!--Bevan, G., & Wilson, D. (2013). Does “naming and shaming” work for schools and hospitals? Lessons from natural experiments following devolution in England and Wales. <italic>Public Money & Management, 33</italic>(4), 245–252. <uri>http://doi.org/10.1080/09540962.2013.799801</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -265,16 +321,16 @@
                </person-group>
                <year>2013</year>
                <article-title>Does “naming and shaming” work for schools and hospitals? Lessons from natural experiments following devolution in England and Wales.</article-title>
-               <source>Public Money and Management</source>
+               <source>Public Money &amp; Management</source>
                <volume>33</volume>
                <issue>4</issue>
                <fpage>245</fpage>
                <lpage>252</lpage>
-               <uri>http://dx.doi.org/10.1080/09540962.2013.799801</uri>
+               <uri>http://doi.org/10.1080/09540962.2013.799801</uri>
             </element-citation>
          </ref>
-         <ref id="CE1999"><!--Causer, G. & Exworthy, M. (1999). Professionals as managers across the publicsector. Chapter 6 (pp.83-101) in Exworthy, M. and Halford, S. (eds). <italic>Professionals and the new managerialism in the public sector</italic>. Buckingham: Open University Press.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="CE1999"><!--Causer, G., & Exworthy, M. (1999). Professionals as managers across the publicsector. In M. Exworthy & S. Halford (Eds.), <italic>Professionals and the new managerialism in the public sector.</italic> (pp. 83–101). Buckingham: Open University Press.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Causer</surname>
@@ -286,14 +342,24 @@
                   </name>
                </person-group>
                <year>1999</year>
-               <source>Professionals and the new managerialism in the public sector</source>
+               <chapter-title>Professionals as managers across the publicsector</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Exworthy</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Halford</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <source>Professionals and the new managerialism in the public sector.</source>
                <fpage>83</fpage>
-               <lpage>101</lpage>
                <publisher-loc>Buckingham</publisher-loc>
                <publisher-name>Open University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="C2000"><!--Courpasson, D. (2000). Managerial strategies of domination: power in soft bureaucracies. <italic>Organization Studies, 21</italic>(1), 141–161. <uri>http://dx.doi.org/10.1177/0170840600211001</uri>-->
+         <ref id="C2000"><!--Courpasson, D. (2000). Managerial Strategies of Domination. Power in Soft Bureaucracies. <italic>Organization Studies, 21</italic>(1), 141–161. <uri>http://doi.org/10.1177/0170840600211001</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -302,16 +368,16 @@
                   </name>
                </person-group>
                <year>2000</year>
-               <article-title>Managerial strategies of domination: power in soft bureaucracies.</article-title>
+               <article-title>Managerial Strategies of Domination. Power in Soft Bureaucracies.</article-title>
                <source>Organization Studies</source>
                <volume>21</volume>
                <issue>1</issue>
                <fpage>141</fpage>
                <lpage>161</lpage>
-               <uri>http://dx.doi.org/10.1177/0170840600211001</uri>
+               <uri>http://doi.org/10.1177/0170840600211001</uri>
             </element-citation>
          </ref>
-         <ref id="DWYB2011"><!--Dixon-Woods, M., Yeung, K. & Bosk, CL. (2011). Why is UK medicine no longer a self-regulating profession? The role of scandals involving “bad apple” doctors. <italic>Social Science and Medicine, 73</italic>(10), 1452-1459. <uri>http://dx.doi.org/10.1016/j.socscimed.2011.08.031</uri>-->
+         <ref id="DWYB2011"><!--Dixon-Woods, M., Yeung, K., & Bosk, C. L. (2011). Why is UK medicine no longer a self-regulating profession? The role of scandals involving “bad apple” doctors. <italic>Social Science & Medicine, 73</italic>(10), 1452–1459. <uri>http://doi.org/10.1016/j.socscimed.2011.08.031</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -324,21 +390,21 @@
                   </name>
                   <name>
                      <surname>Bosk</surname>
-                     <given-names>CL.</given-names>
+                     <given-names>C. L.</given-names>
                   </name>
                </person-group>
                <year>2011</year>
                <article-title>Why is UK medicine no longer a self-regulating profession? The role of scandals involving “bad apple” doctors.</article-title>
-               <source>Social Science and Medicine</source>
+               <source>Social Science &amp; Medicine</source>
                <volume>73</volume>
                <issue>10</issue>
                <fpage>1452</fpage>
                <lpage>1459</lpage>
-               <uri>http://dx.doi.org/10.1016/j.socscimed.2011.08.031</uri>
+               <uri>http://doi.org/10.1016/j.socscimed.2011.08.031</uri>
             </element-citation>
          </ref>
-         <ref id="E2009"><!--Elston, M. A. (2009). Remaking a trustworthy medical profession in the twenty-first century? Chapter 1 (pp.17-36) in Gabe, J & Calnan, M. (eds.) <italic>The new sociology of the health service</italic>. London: Routledge.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="E2009"><!--Elston, M. A. (2009). Remaking a trustworthy medical profession in the twenty-first century? In J. Gabe & M. Calnan (Eds.), <italic>The new sociology of the health service.</italic> (pp. 17–36). London: Routledge.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Elston</surname>
@@ -346,19 +412,29 @@
                   </name>
                </person-group>
                <year>2009</year>
-               <source>The new sociology of the health service</source>
+               <chapter-title>Remaking a trustworthy medical profession in the twenty-first century?</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Gabe</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Calnan</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <source>The new sociology of the health service.</source>
                <fpage>17</fpage>
-               <lpage>36</lpage>
                <publisher-loc>London</publisher-loc>
                <publisher-name>Routledge</publisher-name>
             </element-citation>
          </ref>
-         <ref id="ES2007"><!--Espeland, W. M. & Sauder, M. (2007). Rankings and reactivity: how public measures recreate social worlds. <italic>American Journal of Sociology, 113</italic>(1), 1–40. <uri>http://dx.doi.org/10.1086/517897</uri>-->
+         <ref id="ES2007"><!--Espeland, W. N., & Sauder, M. (2007). Rankings and Reactivity: How Public Measures Recreate Social Worlds. <italic>American Journal of Sociology, 113</italic>(1), 1–40. <uri>http://doi.org/10.1086/517897</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Espeland</surname>
-                     <given-names>W. M.</given-names>
+                     <given-names>W. N.</given-names>
                   </name>
                   <name>
                      <surname>Sauder</surname>
@@ -366,16 +442,16 @@
                   </name>
                </person-group>
                <year>2007</year>
-               <article-title>Rankings and reactivity: how public measures recreate social worlds.</article-title>
+               <article-title>Rankings and Reactivity: How Public Measures Recreate Social Worlds.</article-title>
                <source>American Journal of Sociology</source>
                <volume>113</volume>
                <issue>1</issue>
                <fpage>1</fpage>
                <lpage>40</lpage>
-               <uri>http://dx.doi.org/10.1086/517897</uri>
+               <uri>http://doi.org/10.1086/517897</uri>
             </element-citation>
          </ref>
-         <ref id="E2010"><!--Exworthy, M. (2010). Performance management in the English NHS: potential, pitfalls, and prospects. <italic>Eurohealth, 16</italic>(3), 16-19. -->
+         <ref id="E2010"><!--Exworthy, M. (2010). Performance management in the English NHS: potential, pitfalls, and prospects. <italic>Eurohealth, 16</italic>(3), 16–19.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -392,8 +468,8 @@
                <lpage>19</lpage>
             </element-citation>
          </ref>
-         <ref id="EH1999"><!--Exworthy, M. & Halford, S. (eds) (1999). <italic>Professionals and the new managerialism in the public sector</italic>. Buckingham: Open University Press.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="EH1998"><!--Exworthy, M., & Halford, S. (Eds.). (1998). <italic>Professionals and the new managerialism in the public sector</italic>. Buckingham: Open University Press.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Exworthy</surname>
@@ -401,16 +477,39 @@
                   </name>
                   <name>
                      <surname>Halford</surname>
-                     <given-names>S. (eds)</given-names>
+                     <given-names>S. (Eds.).</given-names>
                   </name>
                </person-group>
-               <year>1999</year>
+               <year>1998</year>
+               <chapter-title>Exworthy, M., &amp; Halford, S. (Eds.). (1998). Professionals and the new managerialism in the public sector. Buckingham: Open University Press.</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Exworthy</surname>
+                     <given-names>Exworthy</given-names>
+                  </name>
+                  <name>
+                     <surname>M.</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname/>
+                     <given-names/>
+                  </name>
+                  <name>
+                     <surname>Halford</surname>
+                     <given-names>Halford</given-names>
+                  </name>
+                  <name>
+                     <surname>S. (Eds.). (1998). Professionals and the new managerialism in the public sector. Buckingham: Open University Press.</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
                <source>Professionals and the new managerialism in the public sector</source>
                <publisher-loc>Buckingham</publisher-loc>
                <publisher-name>Open University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="EPM1999"><!--Exworthy, M., Powell, M. & Mohan, J. (1999). The NHS: quasi-market, quasi-hierarchy and quasi-network? <italic>Public Money and Management, 19</italic>(4), 15-22. <uri>http://dx.doi.org/10.1111/1467-9302.00184</uri>-->
+         <ref id="EPM1999"><!--Exworthy, M., Powell, M., & Mohan, J. (1999). Markets, Bureaucracy and Public Management: The NHS: Quasi-market, Quasi-hierarchy and Quasi-network? <italic>Public Money & Management, 19</italic>(4), 15–22. <uri>http://doi.org/10.1111/1467-9302.00184</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -427,16 +526,16 @@
                   </name>
                </person-group>
                <year>1999</year>
-               <article-title>The NHS: quasi-market, quasi-hierarchy and quasi-network?</article-title>
-               <source>Public Money and Management</source>
+               <article-title>Markets, Bureaucracy and Public Management: The NHS: Quasi-market, Quasi-hierarchy and Quasi-network?</article-title>
+               <source>Public Money &amp; Management</source>
                <volume>19</volume>
                <issue>4</issue>
                <fpage>15</fpage>
                <lpage>22</lpage>
-               <uri>http://dx.doi.org/10.1111/1467-9302.00184</uri>
+               <uri>http://doi.org/10.1111/1467-9302.00184</uri>
             </element-citation>
          </ref>
-         <ref id="EWMCMRSG2003"><!--Exworthy, M., Wilkinson, E. K., McColl, A., Moore, M., Roderick, P., Smith, H., & Gabbay, J. (2003). The role of performance indicators in changing the autonomy of the general practice profession in the UK. <italic>Social Science & Medicine, 56</italic>(7), 1493-1504. <uri>http://dx.doi.org/10.1016/S0277-9536%2802%2900151-X</uri>-->
+         <ref id="EWMCMRSG2003"><!--Exworthy, M., Wilkinson, E. K., McColl, A., Moore, M., Roderick, P., Smith, H., & Gabbay, J. (2003). The role of performance indicators in changing the autonomy of the general practice profession in the UK. <italic>Social Science & Medicine, 56</italic>(7), 1493–1504. <uri>http://doi.org/10.1016/S0277-9536(02)00151-X</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -475,15 +574,15 @@
                <issue>7</issue>
                <fpage>1493</fpage>
                <lpage>1504</lpage>
-               <uri>http://dx.doi.org/10.1016/S0277-9536%2802%2900151-X</uri>
+               <uri>http://doi.org/10.1016/S0277-9536(02)00151-X</uri>
             </element-citation>
          </ref>
-         <ref id="FM2003"><!--Farrell, C. M. & Morris, J. (2003). The neo-bureaucratic state: professionals and managers and professional managers in schools, general practices and social work. <italic>Organisation, 10</italic>(1), 129-157. <uri>http://dx.doi.org/10.1177/1350508403010001380</uri>-->
+         <ref id="FM2003"><!--Farrell, C., & Morris, J. (2003). The `Neo-Bureaucratic’ State: Professionals, Managers and Professional Managers in Schools, General Practices and Social Work. <italic>Organization, 10</italic>(1), 129–156. <uri>http://doi.org/10.1177/1350508403010001380</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Farrell</surname>
-                     <given-names>C. M.</given-names>
+                     <given-names>C.</given-names>
                   </name>
                   <name>
                      <surname>Morris</surname>
@@ -491,17 +590,17 @@
                   </name>
                </person-group>
                <year>2003</year>
-               <article-title>The neo-bureaucratic state: professionals and managers and professional managers in schools, general practices and social work.</article-title>
-               <source>Organisation</source>
+               <article-title>The `Neo-Bureaucratic’ State: Professionals, Managers and Professional Managers in Schools, General Practices and Social Work.</article-title>
+               <source>Organization</source>
                <volume>10</volume>
                <issue>1</issue>
                <fpage>129</fpage>
-               <lpage>157</lpage>
-               <uri>http://dx.doi.org/10.1177/1350508403010001380</uri>
+               <lpage>156</lpage>
+               <uri>http://doi.org/10.1177/1350508403010001380</uri>
             </element-citation>
          </ref>
-         <ref id="FLP2005"><!--Ferlie, E., Lynn, L., & Pollitt, C. (2005). <italic>Oxford handbook of public management</italic>. Oxford: Oxford University Press.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="FLP2005"><!--Ferlie, E., Lynn, L., & Pollitt, C. (Eds.). (2005). <italic>The Oxford Handbook of Public Management</italic>. Oxford: Oxford University Press.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Ferlie</surname>
@@ -513,16 +612,47 @@
                   </name>
                   <name>
                      <surname>Pollitt</surname>
-                     <given-names>C.</given-names>
+                     <given-names>C. (Eds.).</given-names>
                   </name>
                </person-group>
                <year>2005</year>
-               <source>Oxford handbook of public management</source>
+               <chapter-title>Ferlie, E., Lynn, L., &amp; Pollitt, C. (Eds.). (2005). The Oxford Handbook of Public Management. Oxford: Oxford University Press.</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Ferlie</surname>
+                     <given-names>Ferlie</given-names>
+                  </name>
+                  <name>
+                     <surname>E.</surname>
+                     <given-names>E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Lynn</surname>
+                     <given-names>Lynn</given-names>
+                  </name>
+                  <name>
+                     <surname>L.</surname>
+                     <given-names>L.</given-names>
+                  </name>
+                  <name>
+                     <surname/>
+                     <given-names/>
+                  </name>
+                  <name>
+                     <surname>Pollitt</surname>
+                     <given-names>Pollitt</given-names>
+                  </name>
+                  <name>
+                     <surname>C. (Eds.). (2005). The Oxford Handbook of Public Management. Oxford: Oxford University Press.</surname>
+                     <given-names>C.</given-names>
+                  </name>
+               </person-group>
+               <source>The Oxford Handbook of Public Management</source>
                <publisher-loc>Oxford</publisher-loc>
                <publisher-name>Oxford University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="F1979"><!--Foucault, M. (1979). <italic>Discipline and punish: the birth of the prison</italic>. Harmondsworth: Penguin.-->
+         <ref id="F1979"><!--Foucault, M. (1979). <italic>Discipline and punish: the birth of the prison.</italic> Harmondsworth: Penguin.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -531,12 +661,12 @@
                   </name>
                </person-group>
                <year>1979</year>
-               <source>Discipline and punish: the birth of the prison</source>
+               <source>Discipline and punish: the birth of the prison.</source>
                <publisher-loc>Harmondsworth</publisher-loc>
                <publisher-name>Penguin</publisher-name>
             </element-citation>
          </ref>
-         <ref id="F1999"><!--Fournier, V. (1999). The appeal to “professionalism” as a disciplinary mechanism. <italic>Sociological Review, 47</italic>(2), 280–307. <uri>http://dx.doi.org/10.1111/1467-954X.00173</uri>-->
+         <ref id="F1999"><!--Fournier, V. (1999). The Appeal to “Professionalism” as a Disciplinary Mechanism. <italic>The Sociological Review, 47</italic>(2), 280–307. <uri>http://doi.org/10.1111/1467-954X.00173</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -545,17 +675,17 @@
                   </name>
                </person-group>
                <year>1999</year>
-               <article-title>The appeal to “professionalism” as a disciplinary mechanism.</article-title>
-               <source>Sociological Review</source>
+               <article-title>The Appeal to “Professionalism” as a Disciplinary Mechanism.</article-title>
+               <source>The Sociological Review</source>
                <volume>47</volume>
                <issue>2</issue>
                <fpage>280</fpage>
                <lpage>307</lpage>
-               <uri>http://dx.doi.org/10.1111/1467-954X.00173</uri>
+               <uri>http://doi.org/10.1111/1467-954X.00173</uri>
             </element-citation>
          </ref>
-         <ref id="F1970"><!--Freidson, E. (1970). <italic>Professional dominance</italic>. Chicago; University of Chicago Press.-->
-            <element-citation publication-type="journal" publication-format="print">
+         <ref id="F1970"><!--Freidson, E. (1970). <italic>Professional Dominance: The Social Structure of Medical Care</italic>. Chicago: University of Chicago Press.-->
+            <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Freidson</surname>
@@ -563,11 +693,12 @@
                   </name>
                </person-group>
                <year>1970</year>
-               <article-title> </article-title>
-               <source>Professional dominance</source>
+               <source>Professional Dominance: The Social Structure of Medical Care</source>
+               <publisher-loc>Chicago</publisher-loc>
+               <publisher-name>University of Chicago Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="F1994"><!--Freidson, E. (1994). <italic>Professionalism reborn: theory, prophecy, and policy. </italic>Chicago: University of Chicago Press.-->
+         <ref id="F1994"><!--Freidson, E. (1994). <italic>Professionalism Reborn: Theory, Prophecy, and Policy</italic>. Chicago: University of Chicago Press.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -576,31 +707,31 @@
                   </name>
                </person-group>
                <year>1994</year>
-               <source>Professionalism reborn: theory, prophecy, and policy.</source>
+               <source>Professionalism Reborn: Theory, Prophecy, and Policy</source>
                <publisher-loc>Chicago</publisher-loc>
                <publisher-name>University of Chicago Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="F1997"><!--Frey, B. (1997). <italic>Not just for the money: an economic theory of personal motivation</italic>. Cheltenham, UK: Edward Elgar Publishing.-->
+         <ref id="F1997"><!--Frey, B. S. (1997). <italic>Not just for the money: an economic theory of personal motivation.</italic> Cheltenham, UK: Edward Elgar Publishing.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Frey</surname>
-                     <given-names>B.</given-names>
+                     <given-names>B. S.</given-names>
                   </name>
                </person-group>
                <year>1997</year>
-               <source>Not just for the money: an economic theory of personal motivation</source>
+               <source>Not just for the money: an economic theory of personal motivation.</source>
                <publisher-loc>Cheltenham, UK</publisher-loc>
                <publisher-name>Edward Elgar Publishing</publisher-name>
             </element-citation>
          </ref>
-         <ref id="FN2009"><!--Frey, B. & Neckermann, S. (2009). Awards: a view from economics. Chapter 5 (pp.73-88) in Brennan, G. & Eusepi, G. (eds). <italic>The economics of ethics and the ethics of economics.</italic> Cheltenham: Edward Elgar.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="FN2009"><!--Frey, B. S., & Neckermann, S. (2009). Awards: a view from economics. In G. Brennan & G. Eusepi (Eds.), <italic>The Economics of Ethics and the Ethics of Economics: Values, Markets and the State</italic>. Cheltenham: Edward Elgar Publishing.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Frey</surname>
-                     <given-names>B.</given-names>
+                     <given-names>B. S.</given-names>
                   </name>
                   <name>
                      <surname>Neckermann</surname>
@@ -608,14 +739,23 @@
                   </name>
                </person-group>
                <year>2009</year>
-               <source>The economics of ethics and the ethics of economics.</source>
-               <fpage>73</fpage>
-               <lpage>88</lpage>
+               <chapter-title>Awards: a view from economics</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Brennan</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Eusepi</surname>
+                     <given-names>G.</given-names>
+                  </name>
+               </person-group>
+               <source>The Economics of Ethics and the Ethics of Economics: Values, Markets and the State</source>
                <publisher-loc>Cheltenham</publisher-loc>
-               <publisher-name>Edward Elgar</publisher-name>
+               <publisher-name>Edward Elgar Publishing</publisher-name>
             </element-citation>
          </ref>
-         <ref id="GEJS2012"><!--Gabe, J., Exworthy, M., Jones, IR. & Smith, G. (2012). Towards a sociology of disclosure: the case of surgical performance. <italic>Sociology Compass, 6</italic>(11), 08-922. <uri>http://dx.doi.org/10.1111/j.1751-9020.2012.00490.x</uri>-->
+         <ref id="GEJS2012"><!--Gabe, J., Exworthy, M., Jones, I. R., & Smith, G. (2012). Towards a Sociology of Disclosure: The Case of Surgical Performance. <italic>Sociology Compass, 6</italic>(11), 908–922. <uri>http://doi.org/10.1111/j.1751-9020.2012.00490.x</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -628,7 +768,7 @@
                   </name>
                   <name>
                      <surname>Jones</surname>
-                     <given-names>IR.</given-names>
+                     <given-names>I. R.</given-names>
                   </name>
                   <name>
                      <surname>Smith</surname>
@@ -636,16 +776,16 @@
                   </name>
                </person-group>
                <year>2012</year>
-               <article-title>Towards a sociology of disclosure: the case of surgical performance.</article-title>
+               <article-title>Towards a Sociology of Disclosure: The Case of Surgical Performance.</article-title>
                <source>Sociology Compass</source>
                <volume>6</volume>
                <issue>11</issue>
-               <fpage>08</fpage>
+               <fpage>908</fpage>
                <lpage>922</lpage>
-               <uri>http://dx.doi.org/10.1111/j.1751-9020.2012.00490.x</uri>
+               <uri>http://doi.org/10.1111/j.1751-9020.2012.00490.x</uri>
             </element-citation>
          </ref>
-         <ref id="GEP2009"><!--Greener, I., Exworthy, M. Peckham, S. & Powell, M. (2009) Has Labour decentralised the NHS? Terminological obfuscation and analytical confusion. <italic>Policy Studies, 30</italic>(4), 439-454. <uri>http://dx.doi.org/10.1080/01442870902899905</uri>-->
+         <ref id="GEPP2009"><!--Greener, I., Exworthy, M., Peckham, S., & Powell, M. (2009). Has Labour decentralised the NHS? Terminological obfuscation and analytical confusion. <italic>Policy Studies, 30</italic>(4), 439–454. <uri>http://doi.org/10.1080/01442870902899905</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -654,6 +794,10 @@
                   </name>
                   <name>
                      <surname>Exworthy</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Peckham</surname>
                      <given-names>S.</given-names>
                   </name>
                   <name>
@@ -668,10 +812,36 @@
                <issue>4</issue>
                <fpage>439</fpage>
                <lpage>454</lpage>
-               <uri>http://dx.doi.org/10.1080/01442870902899905</uri>
+               <uri>http://doi.org/10.1080/01442870902899905</uri>
             </element-citation>
          </ref>
-         <ref id="H1998"><!--Harrison, S. (1998). The politics of evidence-based medicine in the UK. <italic>Policy and Politics, 26</italic>(1), 15-31. <uri>http://dx.doi.org/10.1332/030557398782018293</uri>-->
+         <ref id="H1998a"><!--Harrison, S. (1998a). Clinical autonomy and health policy: past and futures. In M. Exworthy & S. Halford (Eds.), <italic>Professionals and the new managerialism in the public sector</italic> (pp. 50–64). Buckingham: Open University Press.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Harrison</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>1998</year>
+               <chapter-title>Clinical autonomy and health policy: past and futures</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Exworthy</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Halford</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <source>Professionals and the new managerialism in the public sector</source>
+               <fpage>50</fpage>
+               <publisher-loc>Buckingham</publisher-loc>
+               <publisher-name>Open University Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="H1998b"><!--Harrison, S. (1998b). The politics of evidence-based medicine in the United Kingdom. <italic>Policy & Politics, 26</italic>(1), 15–31. <uri>http://doi.org/10.1332/030557398782018293</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -680,35 +850,20 @@
                   </name>
                </person-group>
                <year>1998</year>
-               <article-title>The politics of evidence-based medicine in the UK.</article-title>
-               <source>Policy and Politics</source>
+               <article-title>The politics of evidence-based medicine in the United Kingdom.</article-title>
+               <source>Policy &amp; Politics</source>
                <volume>26</volume>
                <issue>1</issue>
                <fpage>15</fpage>
                <lpage>31</lpage>
-               <uri>http://dx.doi.org/10.1332/030557398782018293</uri>
+               <uri>http://doi.org/10.1332/030557398782018293</uri>
             </element-citation>
          </ref>
-         <ref id="H1999"><!--Harrison, S. (1999). Clinical autonomy and health policy: past and futures. Chapter 4 (pp. 50–64) in Exworthy, M. & Halford, S. (eds). <italic>Professionals and the new managerialism in the public sector</italic>. Buckingham: Open University Press.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Harrison</surname>
-                     <given-names>S.</given-names>
-                  </name>
-               </person-group>
-               <year>1999</year>
-               <source>Professionals and the new managerialism in the public sector</source>
-               <fpage>50</fpage>
-               <publisher-loc>Buckingham</publisher-loc>
-               <publisher-name>Open University Press</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="___"><!--Health and Social Care Information Centre. (24 June 2014). <italic>NHS staff earnings estimates to March 2014: provisional statistics</italic>. Retrieved from: <uri>http://www.hscic.gov.uk/searchcatalogue?productid=14897&q=staff&sort=Relevance&size=10&page=1#top</uri>-->
-            <mixed-citation publication-type="journal" publication-format="web">Health and Social Care Information Centre. (24 June 2014). <italic>NHS staff earnings estimates to March 2014: provisional statistics</italic>. Retrieved from: <uri>http://www.hscic.gov.uk/searchcatalogue?productid=14897&amp;q=staff&amp;sort=Relevance&amp;size=10&amp;page=1#top</uri>
+         <ref id="___"><!--Health and Social Care Information Centre. (2014, June 24). NHS Staff Earnings Estimates to March 2014 - Provisional statistics [standard]. Retrieved April 28, 2015, from <uri>http://www.hscic.gov.uk/searchcatalogue?productid=14897&q=staff&sort=Relevance&size=10&page=1#top</uri>-->
+            <mixed-citation publication-format="web">Health and Social Care Information Centre. (2014, June 24). NHS Staff Earnings Estimates to March 2014 - Provisional statistics [standard]. Retrieved April 28, 2015, from <uri>http://www.hscic.gov.uk/searchcatalogue?productid=14897&amp;q=staff&amp;sort=Relevance&amp;size=10&amp;page=1#top</uri>
             </mixed-citation>
          </ref>
-         <ref id="H2007"><!--Hood, C. (2007). What happens when transparency meets blame-avoidance? <italic>Public Management Review, 9</italic>(2), 191-210. <uri>http://dx.doi.org/10.1080/14719030701340275</uri>-->
+         <ref id="H2007"><!--Hood, C. (2007). What happens when transparency meets blame-avoidance? <italic>Public Management Review, 9</italic>(2), 191–210. <uri>http://doi.org/10.1080/14719030701340275</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -723,15 +878,15 @@
                <issue>2</issue>
                <fpage>191</fpage>
                <lpage>210</lpage>
-               <uri>http://dx.doi.org/10.1080/14719030701340275</uri>
+               <uri>http://doi.org/10.1080/14719030701340275</uri>
             </element-citation>
          </ref>
-         <ref id="IJLBTW2006"><!--Iedema, R., Jorm, C., Long, D., Braithwaite, J., Travaglia, J. & Westbrook, M. (2006). Turning the medical gaze in upon itself: root cause analysis and the investigation of clinical error. <italic>Social Science and Medicine, 61</italic>, 1605-1615. <uri>http://dx.doi.org/10.1016/j.socscimed.2005.08.049</uri>-->
-            <element-citation publication-type="book" publication-format="web">
+         <ref id="IJLBTW2006"><!--Iedema, R. A. M., Jorm, C., Long, D., Braithwaite, J., Travaglia, J., & Westbrook, M. (2006). Turning the medical gaze in upon itself: Root cause analysis and the investigation of clinical error. <italic>Social Science & Medicine, 62</italic>(7), 1605–1615. <uri>http://doi.org/10.1016/j.socscimed.2005.08.049</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Iedema</surname>
-                     <given-names>R.</given-names>
+                     <given-names>R. A. M.</given-names>
                   </name>
                   <name>
                      <surname>Jorm</surname>
@@ -755,13 +910,16 @@
                   </name>
                </person-group>
                <year>2006</year>
-               <source>Social Science and Medicine, 61</source>
-               <publisher-loc>, 1605-1615.</publisher-loc>
-               <publisher-name>, 1605-1615.</publisher-name>
-               <uri>http://dx.doi.org/10.1016/j.socscimed.2005.08.049</uri>
+               <article-title>Turning the medical gaze in upon itself: Root cause analysis and the investigation of clinical error.</article-title>
+               <source>Social Science &amp; Medicine</source>
+               <volume>62</volume>
+               <issue>7</issue>
+               <fpage>1605</fpage>
+               <lpage>1615</lpage>
+               <uri>http://doi.org/10.1016/j.socscimed.2005.08.049</uri>
             </element-citation>
          </ref>
-         <ref id="K1998"><!--Katz, P. (1998). <italic>The scalpel’s edge: the culture of surgeons</italic>. Boston, MA: Allyn and Bacon.-->
+         <ref id="K1998"><!--Katz, P. (1998). <italic>The scalpel’s edge: the culture of surgeons.</italic> Boston, MA: Allyn and Bacon.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -770,12 +928,12 @@
                   </name>
                </person-group>
                <year>1998</year>
-               <source>The scalpel’s edge: the culture of surgeons</source>
+               <source>The scalpel’s edge: the culture of surgeons.</source>
                <publisher-loc>Boston, MA</publisher-loc>
                <publisher-name>Allyn and Bacon</publisher-name>
             </element-citation>
          </ref>
-         <ref id="KCSS2005"><!--Kitchener, M., Caronna, C. & Shortell. S. (2005). From the doctors’ workshop to the iron cage? Evolving models of physician control in US health systems. <italic>Social Science & Medicine,60</italic>, 1311–22. <uri>http://dx.doi.org/10.1016/j.socscimed.2004.07.008</uri>-->
+         <ref id="KCS2005"><!--Kitchener, M., Caronna, C. A., & Shortell, S. M. (2005). From the doctor’s workshop to the iron cage? Evolving modes of physician control in US health systems. <italic>Social Science & Medicine, 60</italic>(6), 1311–1322. <uri>http://doi.org/10.1016/j.socscimed.2004.07.008</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -784,63 +942,47 @@
                   </name>
                   <name>
                      <surname>Caronna</surname>
-                     <given-names>C.</given-names>
+                     <given-names>C. A.</given-names>
                   </name>
                   <name>
-                     <surname>Shortell.</surname>
-                     <given-names>Shortell.</given-names>
-                  </name>
-                  <name>
-                     <surname>S.</surname>
-                     <given-names>S.</given-names>
+                     <surname>Shortell</surname>
+                     <given-names>S. M.</given-names>
                   </name>
                </person-group>
                <year>2005</year>
-               <article-title>From the doctors’ workshop to the iron cage? Evolving models of physician control in US health systems.</article-title>
+               <article-title>From the doctor’s workshop to the iron cage? Evolving modes of physician control in US health systems.</article-title>
                <source>Social Science &amp; Medicine</source>
                <volume>60</volume>
+               <issue>6</issue>
                <fpage>1311</fpage>
-               <lpage>22</lpage>
-               <uri>http://dx.doi.org/10.1016/j.socscimed.2004.07.008</uri>
+               <lpage>1322</lpage>
+               <uri>http://doi.org/10.1016/j.socscimed.2004.07.008</uri>
             </element-citation>
          </ref>
-         <ref id="KE2008"><!--Kitchener, M. & Exworthy, M. (2008). Models of medical work control: a theory elaboration from English general practice. Chapter (pp.209-223) in McKee, L., Ferlie, E. & Hyde, P. (eds). <italic>Organising and re-organising: power and change in health-care organisations.</italic> Basingstoke, UK: Palgrave Macmillan-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Kitchener</surname>
-                     <given-names>M.</given-names>
-                  </name>
-                  <name>
-                     <surname>Exworthy</surname>
-                     <given-names>M.</given-names>
-                  </name>
-               </person-group>
-               <year>2008</year>
-               <source>Organising and re-organising: power and change in health-care organisations.</source>
-               <fpage>209</fpage>
-               <lpage>223</lpage>
-               <publisher-loc>UK</publisher-loc>
-               <publisher-name>Palgrave Macmillan</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="K1990"><!--Klein, R. (1990). The state and the profession: the politics of the double-bed. <italic>British Medical Journal, 301</italic>, 700-702. <uri>http://dx.doi.org/10.1136/bmj.301.6754.700</uri>-->
-            <element-citation publication-type="book" publication-format="web">
+         <ref id="KBMJ6754"><!--Klein, R. (1990). The state and the profession: the politics of the double bed. <italic>BMJ, 301</italic>(6754), 700–702. <uri>http://doi.org/10.1136/bmj.301.6754.700</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Klein</surname>
-                     <given-names>R.</given-names>
+                     <given-names>bed.</given-names>
+                  </name>
+                  <name>
+                     <surname>BMJ</surname>
+                     <given-names>301</given-names>
                   </name>
                </person-group>
-               <year>1990</year>
-               <source>British Medical Journal, 301</source>
-               <publisher-loc>, 700-702.</publisher-loc>
-               <publisher-name>, 700-702.</publisher-name>
-               <uri>http://dx.doi.org/10.1136/bmj.301.6754.700</uri>
+               <year>6754</year>
+               <article-title>The state and the profession: the politics of the double bed.</article-title>
+               <source>BMJ</source>
+               <volume>301</volume>
+               <issue>6754</issue>
+               <fpage>700</fpage>
+               <lpage>702</lpage>
+               <uri>http://doi.org/10.1136/bmj.301.6754.700</uri>
             </element-citation>
          </ref>
-         <ref id="LU1987"><!--Lash, S. & Urry, J. (1987). <italic>The end of organised capitalism.</italic> University of Wisconsin Press.-->
-            <element-citation publication-type="journal" publication-format="print">
+         <ref id="LU1987"><!--Lash, S., & Urry, J. (1987). <italic>The End of Organized Capitalism</italic>. Madison, Wis: University of Wisconsin Press.-->
+            <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Lash</surname>
@@ -852,11 +994,12 @@
                   </name>
                </person-group>
                <year>1987</year>
-               <article-title> </article-title>
-               <source>The end of organised capitalism.</source>
+               <source>The End of Organized Capitalism</source>
+               <publisher-loc>Madison, Wis</publisher-loc>
+               <publisher-name>University of Wisconsin Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="LW2009"><!--Levay, C. & Waks, C. (2009). Professions and the pursuit of transparency in healthcare: two cases of soft autonomy. <italic>Organization Studies, 30</italic>(5), 509–527. <uri>http://dx.doi.org/10.1177/0170840609104396</uri>-->
+         <ref id="LW2009"><!--Levay, C., & Waks, C. (2009). Professions and the Pursuit of Transparency in Healthcare: Two Cases of Soft Autonomy. <italic>Organization Studies, 30</italic>(5), 509–527. <uri>http://doi.org/10.1177/0170840609104396</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -869,16 +1012,16 @@
                   </name>
                </person-group>
                <year>2009</year>
-               <article-title>Professions and the pursuit of transparency in healthcare: two cases of soft autonomy.</article-title>
+               <article-title>Professions and the Pursuit of Transparency in Healthcare: Two Cases of Soft Autonomy.</article-title>
                <source>Organization Studies</source>
                <volume>30</volume>
                <issue>5</issue>
                <fpage>509</fpage>
                <lpage>527</lpage>
-               <uri>http://dx.doi.org/10.1177/0170840609104396</uri>
+               <uri>http://doi.org/10.1177/0170840609104396</uri>
             </element-citation>
          </ref>
-         <ref id="L1993"><!--Lyon, D. (1993). An electronic panopticon? A sociological critique of surveillance theory. <italic>Sociological Review, 41</italic>(4), 653–678. <uri>http://dx.doi.org/10.1111/j.1467-954X.1993.tb00896.x</uri>-->
+         <ref id="L1993"><!--Lyon, D. (1993). An electronic panopticon? A sociological critique of surveillance theory. <italic>The Sociological Review, 41</italic>(4), 653–678. <uri>http://doi.org/10.1111/j.1467-954X.1993.tb00896.x</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -888,15 +1031,15 @@
                </person-group>
                <year>1993</year>
                <article-title>An electronic panopticon? A sociological critique of surveillance theory.</article-title>
-               <source>Sociological Review</source>
+               <source>The Sociological Review</source>
                <volume>41</volume>
                <issue>4</issue>
                <fpage>653</fpage>
                <lpage>678</lpage>
-               <uri>http://dx.doi.org/10.1111/j.1467-954X.1993.tb00896.x</uri>
+               <uri>http://doi.org/10.1111/j.1467-954X.1993.tb00896.x</uri>
             </element-citation>
          </ref>
-         <ref id="MEWG2011"><!--Macfarlane, F., Exworthy, M., Wilmott, M., & Greenhalgh, T. (2011). Plus ça change, plus c'est la même chose: senior NHS managers' narratives of restructuring. <italic>Sociology of Health and Illness, 33</italic>(6), 914-929. <uri>http://dx.doi.org/10.1111/j.1467-9566.2011.01338.x</uri>-->
+         <ref id="MEWG2011"><!--Macfarlane, F., Exworthy, M., Wilmott, M., & Greenhalgh, T. (2011). Plus ça change, plus c’est la même chose: senior NHS managers’ narratives of restructuring. <italic>Sociology of Health & Illness, 33</italic>(6), 914–929. <uri>http://doi.org/10.1111/j.1467-9566.2011.01338.x</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -917,16 +1060,52 @@
                   </name>
                </person-group>
                <year>2011</year>
-               <article-title>Plus ça change, plus c'est la même chose: senior NHS managers' narratives of restructuring.</article-title>
-               <source>Sociology of Health and Illness</source>
+               <article-title>Plus ça change, plus c’est la même chose: senior NHS managers’ narratives of restructuring.</article-title>
+               <source>Sociology of Health &amp; Illness</source>
                <volume>33</volume>
                <issue>6</issue>
                <fpage>914</fpage>
                <lpage>929</lpage>
-               <uri>http://dx.doi.org/10.1111/j.1467-9566.2011.01338.x</uri>
+               <uri>http://doi.org/10.1111/j.1467-9566.2011.01338.x</uri>
             </element-citation>
          </ref>
-         <ref id="MDWHWB2005"><!--McDonald, R., Waring, J., Harrison, S., Walshe, K., & Boaden, R. (2005). Rules and guidelines in clinical practice: a qualitative study in operating theatres of doctors’ and nurses’ views. <italic>Quality and Safety in Health Care, 14</italic>(4), 290-294. <uri>http://dx.doi.org/10.1136/qshc.2005.013912</uri>-->
+         <ref id="MDHCCRBMJ7608"><!--McDonald, R., Harrison, S., Checkland, K., Campbell, S. M., & Roland, M. (2007). Impact of financial incentives on clinical autonomy and internal motivation in primary care: ethnographic study. <italic>BMJ, 334</italic>(7608), 1357. <uri>http://doi.org/10.1136/bmj.39238.890810.BE</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McDonald</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Harrison</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Checkland</surname>
+                     <given-names>K.</given-names>
+                  </name>
+                  <name>
+                     <surname>Campbell</surname>
+                     <given-names>S. M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Roland</surname>
+                     <given-names>study.</given-names>
+                  </name>
+                  <name>
+                     <surname>BMJ</surname>
+                     <given-names>334</given-names>
+                  </name>
+               </person-group>
+               <year>7608</year>
+               <article-title>Impact of financial incentives on clinical autonomy and internal motivation in primary care: ethnographic study.</article-title>
+               <source>BMJ</source>
+               <volume>334</volume>
+               <issue>7608</issue>
+               <uri>http://doi.org/10.1136/bmj.39238.890810.BE</uri>
+            </element-citation>
+         </ref>
+         <ref id="MDWHWB2005"><!--McDonald, R., Waring, J., Harrison, S., Walshe, K., & Boaden, R. (2005). Rules and guidelines in clinical practice: a qualitative study in operating theatres of doctors’ and nurses’ views. <italic>Quality and Safety in Health Care, 14</italic>(4), 290–294. <uri>http://doi.org/10.1136/qshc.2005.013912</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -957,80 +1136,14 @@
                <issue>4</issue>
                <fpage>290</fpage>
                <lpage>294</lpage>
-               <uri>http://dx.doi.org/10.1136/qshc.2005.013912</uri>
+               <uri>http://doi.org/10.1136/qshc.2005.013912</uri>
             </element-citation>
          </ref>
-         <ref id="MDCCR2007"><!--McDonald, R., Checkland, K., Campbell, S. & Roland, M. (2007). Impact of financial incentives on clinical autonomy and internal motivation in primary care: ethnographic study. <italic>British Medical Journal, 334</italic>, 1357. <uri>http://dx.doi.org/10.1136/bmj.39238.890810.BE</uri>-->
+         <ref id="MCFFW2015"><!--Mcgivern, G., Currie, G., Ferlie, E., Fitzgerald, L., & Waring, J. (2015). Hybrid Manager–Professionals’ Identity Work: The Maintenance and Hybridization of Medical Professionalism in Managerial Contexts. <italic>Public Administration</italic>. <uri>http://doi.org/10.1111/padm.12119</uri>-->
             <element-citation publication-type="book" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>McDonald</surname>
-                     <given-names>R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Checkland</surname>
-                     <given-names>K.</given-names>
-                  </name>
-                  <name>
-                     <surname>Campbell</surname>
-                     <given-names>S.</given-names>
-                  </name>
-                  <name>
-                     <surname>Roland</surname>
-                     <given-names>M.</given-names>
-                  </name>
-               </person-group>
-               <year>2007</year>
-               <source>British Medical Journal, 334</source>
-               <publisher-loc>, 1357.</publisher-loc>
-               <publisher-name>, 1357.</publisher-name>
-               <uri>http://dx.doi.org/10.1136/bmj.39238.890810.BE</uri>
-            </element-citation>
-         </ref>
-         <ref id="MGF2007"><!--McGivern, G. & Ferlie, E. (2007). Playing tick-box games: inter-relating defences in professional appraisal. <italic>Human Relations,60</italic>, 1361-1385. <uri>http://dx.doi.org/10.1177/0018726707082851</uri>-->
-            <element-citation publication-type="book" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>McGivern</surname>
-                     <given-names>G.</given-names>
-                  </name>
-                  <name>
-                     <surname>Ferlie</surname>
-                     <given-names>E.</given-names>
-                  </name>
-               </person-group>
-               <year>2007</year>
-               <source>Human Relations,60</source>
-               <publisher-loc>, 1361-1385.</publisher-loc>
-               <publisher-name>, 1361-1385.</publisher-name>
-               <uri>http://dx.doi.org/10.1177/0018726707082851</uri>
-            </element-citation>
-         </ref>
-         <ref id="MGF2010"><!--McGivern, G. & Fischer, M. (2010). Medical regulation, spectacular transparency & the blame business. <italic>Journal of Health Organisation and Management,26</italic>, 597-610.-->
-            <element-citation publication-type="journal" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>McGivern</surname>
-                     <given-names>G.</given-names>
-                  </name>
-                  <name>
-                     <surname>Fischer</surname>
-                     <given-names>M.</given-names>
-                  </name>
-               </person-group>
-               <year>2010</year>
-               <article-title>Medical regulation, spectacular transparency &amp; the blame business.</article-title>
-               <source>Journal of Health Organisation and Management</source>
-               <volume>26</volume>
-               <fpage>597</fpage>
-               <lpage>610</lpage>
-            </element-citation>
-         </ref>
-         <ref id="MGCFFW2015"><!--McGivern, G., Currie, G., Ferlie, E., Fitzgerald, L., & Waring, J. (2015). Hybrid manager-professionals’ identity work, the maintenance and hybridization of professionalism in managerial contexts. <italic>Public Administration, </italic>forthcoming. <uri>http://dx.doi.org/10.1111/padm.12119</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>McGivern</surname>
+                     <surname>Mcgivern</surname>
                      <given-names>G.</given-names>
                   </name>
                   <name>
@@ -1051,17 +1164,62 @@
                   </name>
                </person-group>
                <year>2015</year>
-               <article-title>Hybrid manager-professionals’ identity work, the maintenance and hybridization of professionalism in managerial contexts.</article-title>
-               <source>Public Administration,</source>
-               <uri>http://dx.doi.org/10.1111/padm.12119</uri>
+               <source>Public Administration</source>
+               <publisher-loc>.</publisher-loc>
+               <publisher-name>.</publisher-name>
+               <uri>http://doi.org/10.1111/padm.12119</uri>
             </element-citation>
          </ref>
-         <ref id="MKA1985"><!--McKinlay, J., & Arches, J. (1985). Towards the proletarianization of physicians. <italic>International Journal of Health Services, 15</italic>(2), 161–195. <uri>http://dx.doi.org/10.2190/JBMN-C0W6-9WFQ-Q5A6</uri>-->
+         <ref id="MGF2007"><!--McGivern, G., & Ferlie, E. (2007). Playing tick-box games: Interrelating defences in professional appraisal. <italic>Human Relations, 60</italic>(9), 1361–1385. <uri>http://doi.org/10.1177/0018726707082851</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
+                     <surname>McGivern</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Ferlie</surname>
+                     <given-names>E.</given-names>
+                  </name>
+               </person-group>
+               <year>2007</year>
+               <article-title>Playing tick-box games: Interrelating defences in professional appraisal.</article-title>
+               <source>Human Relations</source>
+               <volume>60</volume>
+               <issue>9</issue>
+               <fpage>1361</fpage>
+               <lpage>1385</lpage>
+               <uri>http://doi.org/10.1177/0018726707082851</uri>
+            </element-citation>
+         </ref>
+         <ref id="MGF2010"><!--McGivern, G., & Fischer, M. (2010). Medical regulation, spectacular transparency and the blame business. <italic>Journal of Health Organization and Management, 24</italic>(6), 597–610. <uri>http://doi.org/10.1108/14777261011088683</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McGivern</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Fischer</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <year>2010</year>
+               <article-title>Medical regulation, spectacular transparency and the blame business.</article-title>
+               <source>Journal of Health Organization and Management</source>
+               <volume>24</volume>
+               <issue>6</issue>
+               <fpage>597</fpage>
+               <lpage>610</lpage>
+               <uri>http://doi.org/10.1108/14777261011088683</uri>
+            </element-citation>
+         </ref>
+         <ref id="MKA1985"><!--McKinlay, J. B., & Arches, J. (1985). Towards the proletarianization of physicians. <italic>International Journal of Health Services: Planning, Administration, Evaluation, 15</italic>(2), 161–195.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
                      <surname>McKinlay</surname>
-                     <given-names>J.</given-names>
+                     <given-names>J. B.</given-names>
                   </name>
                   <name>
                      <surname>Arches</surname>
@@ -1070,15 +1228,14 @@
                </person-group>
                <year>1985</year>
                <article-title>Towards the proletarianization of physicians.</article-title>
-               <source>International Journal of Health Services</source>
+               <source>International Journal of Health Services: Planning, Administration, Evaluation</source>
                <volume>15</volume>
                <issue>2</issue>
                <fpage>161</fpage>
                <lpage>195</lpage>
-               <uri>http://dx.doi.org/10.2190/JBMN-C0W6-9WFQ-Q5A6</uri>
             </element-citation>
          </ref>
-         <ref id="M1992"><!--Miller, P. (1992). Accounting and subjectivity: the invention of calculating selves and calculating spaces. <italic>Annals of Scholarship, 9</italic>(1/2), 61-86.-->
+         <ref id="M1992"><!--Miller, P. (1992). Accounting and subjectivity: the invention of calculating selves and calculating spaces. <italic>Annals of Scholarship, 9</italic>(1/2), 61–86.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -1094,10 +1251,11 @@
                <lpage>86</lpage>
             </element-citation>
          </ref>
-         <ref id="___2013"><!--National Audit Office (2013). <italic>Managing NHS hospital consultants</italic>. HC885. 6 February 2013. London; NAO.-->
-            <mixed-citation publication-type="journal" publication-format="print">National Audit Office (2013). <italic>Managing NHS hospital consultants</italic>. HC885. 6 February 2013. London; NAO.</mixed-citation>
+         <ref id="___2013"><!--National Audit Office. (2013). <italic>Managing NHS hospital consultants</italic> (No. HC 885). London: National Audit Office. Retrieved from <uri>http://www.nao.org.uk/report/managing-nhs-hospital-consultants/</uri>-->
+            <mixed-citation publication-type="book" publication-format="web">National Audit Office. (2013). <italic>Managing NHS hospital consultants</italic> (No. HC 885). London: National Audit Office. Retrieved from <uri>http://www.nao.org.uk/report/managing-nhs-hospital-consultants/</uri>
+            </mixed-citation>
          </ref>
-         <ref id="N2011"><!--Noordegraaf, M. (2011). Risky business: how professionals and professional fields (must) deal with organizational issues. <italic>Organization Studies, 32</italic>(10), 1349-1371. <uri>http://dx.doi.org/10.1177/0170840611416748</uri>-->
+         <ref id="N2011"><!--Noordegraaf, M. (2011). Risky Business: How Professionals and Professional Fields (Must) Deal with Organizational Issues. <italic>Organization Studies, 32</italic>(10), 1349–1371. <uri>http://doi.org/10.1177/0170840611416748</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -1106,16 +1264,16 @@
                   </name>
                </person-group>
                <year>2011</year>
-               <article-title>.</article-title>
+               <article-title>Risky Business: How Professionals and Professional Fields (Must) Deal with Organizational Issues.</article-title>
                <source>Organization Studies</source>
                <volume>32</volume>
                <issue>10</issue>
                <fpage>1349</fpage>
                <lpage>1371</lpage>
-               <uri>http://dx.doi.org/10.1177/0170840611416748</uri>
+               <uri>http://doi.org/10.1177/0170840611416748</uri>
             </element-citation>
          </ref>
-         <ref id="P2002"><!--Pawson, R. (2002). Evidence and policy and naming and shaming. <italic>Policy Studies, 23</italic>(3-4), 211-230. <uri>http://dx.doi.org/10.1080/0144287022000045993</uri>-->
+         <ref id="P2002"><!--Pawson, R. (2002). Evidence and Policy and Naming and Shaming. <italic>Policy Studies, 23</italic>(3), 211–230. <uri>http://doi.org/10.1080/0144287022000045993</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -1124,15 +1282,16 @@
                   </name>
                </person-group>
                <year>2002</year>
-               <article-title>Evidence and policy and naming and shaming.</article-title>
+               <article-title>Evidence and Policy and Naming and Shaming.</article-title>
                <source>Policy Studies</source>
                <volume>23</volume>
-               <fpage>3</fpage>
-               <lpage>4</lpage>
-               <uri>http://dx.doi.org/10.1080/0144287022000045993</uri>
+               <issue>3</issue>
+               <fpage>211</fpage>
+               <lpage>230</lpage>
+               <uri>http://doi.org/10.1080/0144287022000045993</uri>
             </element-citation>
          </ref>
-         <ref id="PEGP2005"><!--Peckham, S., Exworthy, M., Greener, I., & Powell, M. (2005). Decentralizing health services: more local accountability or just more central control? <italic>Public Money & Management, 25</italic>(4), 221-228. <uri>http://dx.doi.org/10.1080/09540962.2005.10600097</uri>-->
+         <ref id="PEGP2005"><!--Peckham, S., Exworthy, M., Greener, I., & Powell, M. (2005). Decentralizing Health Services: More Local Accountability or Just More Central Control? <italic>Public Money & Management, 25</italic>(4), 221–228. <uri>http://doi.org/10.1080/09540962.2005.10600097</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -1153,16 +1312,16 @@
                   </name>
                </person-group>
                <year>2005</year>
-               <article-title>Decentralizing health services: more local accountability or just more central control?</article-title>
+               <article-title>Decentralizing Health Services: More Local Accountability or Just More Central Control?</article-title>
                <source>Public Money &amp; Management</source>
                <volume>25</volume>
                <issue>4</issue>
                <fpage>221</fpage>
                <lpage>228</lpage>
-               <uri>http://dx.doi.org/10.1080/09540962.2005.10600097</uri>
+               <uri>http://doi.org/10.1080/09540962.2005.10600097</uri>
             </element-citation>
          </ref>
-         <ref id="P2009"><!--Pollitt, C. (2009). Bureaucracies remember, post-bureaucratic organizations forget. <italic>Public Administration, 87</italic>(2), 198-218. <uri>http://dx.doi.org/10.1111/j.1467-9299.2008.01738.x</uri>-->
+         <ref id="P2009"><!--Pollitt, C. (2009). Bureaucracies Remember, Post-Bureaucratic Organizations Forget? <italic>Public Administration, 87</italic>(2), 198–218. <uri>http://doi.org/10.1111/j.1467-9299.2008.01738.x</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -1171,16 +1330,16 @@
                   </name>
                </person-group>
                <year>2009</year>
-               <article-title>Bureaucracies remember, post-bureaucratic organizations forget.</article-title>
+               <article-title>Bureaucracies Remember, Post-Bureaucratic Organizations Forget?</article-title>
                <source>Public Administration</source>
                <volume>87</volume>
                <issue>2</issue>
                <fpage>198</fpage>
                <lpage>218</lpage>
-               <uri>http://dx.doi.org/10.1111/j.1467-9299.2008.01738.x</uri>
+               <uri>http://doi.org/10.1111/j.1467-9299.2008.01738.x</uri>
             </element-citation>
          </ref>
-         <ref id="P1997"><!--Power, M. (1997). <italic>The audit society.</italic> Oxford: Oxford University Press.-->
+         <ref id="P1997"><!--Power, M. (1997). <italic>The Audit Society: Rituals of Verification</italic>. Oxford: Oxford University Press.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -1189,13 +1348,13 @@
                   </name>
                </person-group>
                <year>1997</year>
-               <source>The audit society.</source>
+               <source>The Audit Society: Rituals of Verification</source>
                <publisher-loc>Oxford</publisher-loc>
                <publisher-name>Oxford University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="R1999"><!--Reed, M. (1999). From the cage to the gaze? The dynamics of organizational control in late modernity. Chapter 2 (pp.17-49) in Morgan, G. & Engwall, L. (eds). <italic>Regulation and organizations: international perspectives.</italic> London: Routledge.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="R1999"><!--Reed, M. (1999). From the cage to the gaze? The dynamics of organizational control in late modernity. In G. Morgan & L. Engwall (Eds.), <italic>Regulation and organizations: international perspectives.</italic> (pp. 17–49). London: Routledge.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Reed</surname>
@@ -1203,17 +1362,24 @@
                   </name>
                </person-group>
                <year>1999</year>
+               <chapter-title>From the cage to the gaze? The dynamics of organizational control in late modernity</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Morgan</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Engwall</surname>
+                     <given-names>L.</given-names>
+                  </name>
+               </person-group>
                <source>Regulation and organizations: international perspectives.</source>
                <fpage>17</fpage>
-               <lpage>49</lpage>
                <publisher-loc>London</publisher-loc>
                <publisher-name>Routledge</publisher-name>
             </element-citation>
          </ref>
-         <ref id="___2013"><!--Review Body on Doctors' and Dentists' Remuneration (2013). <italic>Review Body on Doctors’ and Dentists’ Remuneration, 2013; 41st report.</italic> London: DDRB.-->
-            <mixed-citation publication-type="book" publication-format="print">Review Body on Doctors' and Dentists' Remuneration (2013). <italic>Review Body on Doctors’ and Dentists’ Remuneration, 2013; 41st report.</italic> London: DDRB.</mixed-citation>
-         </ref>
-         <ref id="R1995"><!--Rosenthal, M. (1995). <italic>The incompetent doctor: behind closed doors</italic>. Buckingham: Open University Press.-->
+         <ref id="R1995"><!--Rosenthal, M. (1995). <italic>The incompetent doctor: behind closed doors.</italic> Buckingham: Open University Press.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -1222,39 +1388,39 @@
                   </name>
                </person-group>
                <year>1995</year>
-               <source>The incompetent doctor: behind closed doors</source>
+               <source>The incompetent doctor: behind closed doors.</source>
                <publisher-loc>Buckingham</publisher-loc>
                <publisher-name>Open University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="S2008"><!--Scott, R. W. (2008). Lords of the dance: professionals as institutional agents. <italic>Organization Studies, 29</italic>(2), 219-238. <uri>http://dx.doi.org/10.1177/0170840607088151</uri>-->
+         <ref id="S2008"><!--Scott, W. R. (2008). Lords of the Dance: Professionals as Institutional Agents. <italic>Organization Studies, 29</italic>(2), 219–238. <uri>http://doi.org/10.1177/0170840607088151</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Scott</surname>
-                     <given-names>R. W.</given-names>
+                     <given-names>W. R.</given-names>
                   </name>
                </person-group>
                <year>2008</year>
-               <article-title>Lords of the dance: professionals as institutional agents.</article-title>
+               <article-title>Lords of the Dance: Professionals as Institutional Agents.</article-title>
                <source>Organization Studies</source>
                <volume>29</volume>
                <issue>2</issue>
                <fpage>219</fpage>
                <lpage>238</lpage>
-               <uri>http://dx.doi.org/10.1177/0170840607088151</uri>
+               <uri>http://doi.org/10.1177/0170840607088151</uri>
             </element-citation>
          </ref>
-         <ref id="SLMD2008"><!--Shekelle, P., Lim, Y-W., Mattke, S. & Damberg, C. (2008). <italic>Does public releaseof performance results improve quality of care?</italic> London; Health Foundation.-->
-            <element-citation publication-type="journal" publication-format="print">
+         <ref id="SLMD2008"><!--Shekelle, P. G., Lim, Y.-W., Mattke, S., & Damberg, C. (2008). <italic>Does public release of performance results improve quality of care? A systematic review</italic>. London: Health Foundation. Retrieved from <uri>http://www.health.org.uk/publications/does-public-release-of-performance-results-improve-quality-of-care/</uri>-->
+            <element-citation publication-type="book" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Shekelle</surname>
-                     <given-names>P.</given-names>
+                     <given-names>P. G.</given-names>
                   </name>
                   <name>
                      <surname>Lim</surname>
-                     <given-names>Y-W.</given-names>
+                     <given-names>Y.-W.</given-names>
                   </name>
                   <name>
                      <surname>Mattke</surname>
@@ -1266,11 +1432,13 @@
                   </name>
                </person-group>
                <year>2008</year>
-               <article-title> </article-title>
-               <source>Does public releaseof performance results improve quality of care?</source>
+               <source>Does public release of performance results improve quality of care? A systematic review</source>
+               <publisher-loc>London</publisher-loc>
+               <publisher-name>Health Foundation. Retrieved from</publisher-name>
+               <uri>http://www.health.org.uk/publications/does-public-release-of-performance-results-improve-quality-of-care/</uri>
             </element-citation>
          </ref>
-         <ref id="TO2010"><!--Timmermans, S., & Oh, H. (2010). The continued social transformation of the medical profession. <italic>Journal of Health and Social Behavior, 51</italic>(1 suppl), S94-S106. <uri>http://dx.doi.org/10.1177/0022146510383500</uri>-->
+         <ref id="TO2010"><!--Timmermans, S., & Oh, H. (2010). The Continued Social Transformation of the Medical Profession. <italic>Journal of Health and Social Behavior, 51</italic>(1 suppl), S94–S106. <uri>http://doi.org/10.1177/0022146510383500</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -1283,10 +1451,10 @@
                   </name>
                </person-group>
                <year>2010</year>
-               <article-title>The continued social transformation of the medical profession.</article-title>
+               <article-title>The Continued Social Transformation of the Medical Profession.</article-title>
                <source>Journal of Health and Social Behavior</source>
                <volume>51</volume>
-               <uri>http://dx.doi.org/10.1177/0022146510383500</uri>
+               <uri>http://doi.org/10.1177/0022146510383500</uri>
             </element-citation>
          </ref>
          <ref id="T1994"><!--Townley, B. (1994). <italic>Reframing human resource management: power, ethics and the subject at work.</italic> London: Sage.-->
@@ -1303,7 +1471,7 @@
                <publisher-name>Sage</publisher-name>
             </element-citation>
          </ref>
-         <ref id="T1997"><!--Tsoukas, H. (1997). The tyranny of light: the temptations and the paradoxes of the information society.<italic> Futures, 29</italic>(9), 827–43. <uri>http://dx.doi.org/10.1016/S0016-3287(97)00035-9</uri>-->
+         <ref id="T1997"><!--Tsoukas, H. (1997). The tyranny of light: The temptations and the paradoxes of the information society. <italic>Futures, 29</italic>(9), 827–843. <uri>http://doi.org/10.1016/S0016-3287(97)00035-9</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -1312,52 +1480,56 @@
                   </name>
                </person-group>
                <year>1997</year>
-               <article-title>The tyranny of light: the temptations and the paradoxes of the information society.</article-title>
-               <source> Futures</source>
+               <article-title>The tyranny of light: The temptations and the paradoxes of the information society.</article-title>
+               <source>Futures</source>
                <volume>29</volume>
                <issue>9</issue>
                <fpage>827</fpage>
-               <lpage>43</lpage>
-               <uri>http://dx.doi.org/10.1016/S0016-3287(97)00035-9</uri>
+               <lpage>843</lpage>
+               <uri>http://doi.org/10.1016/S0016-3287(97)00035-9</uri>
             </element-citation>
          </ref>
-         <ref id="W2009"><!--Waring, J. and Currie, G. (2009). Managing expert knowledge: organizational challenges and managerial futures for the UK medical profession. <italic>Organization Studies, 30</italic>(7), 755-778. <uri>http://dx.doi.org/10.1177/0170840609104819</uri>-->
+         <ref id="WC2009"><!--Waring, J., & Currie, G. (2009). Managing Expert Knowledge: Organizational Challenges and Managerial Futures for the UK Medical Profession. <italic>Organization Studies, 30</italic>(7), 755–778. <uri>http://doi.org/10.1177/0170840609104819</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Waring</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Currie</surname>
                      <given-names>G.</given-names>
                   </name>
                </person-group>
                <year>2009</year>
-               <article-title>Managing expert knowledge: organizational challenges and managerial futures for the UK medical profession.</article-title>
+               <article-title>Managing Expert Knowledge: Organizational Challenges and Managerial Futures for the UK Medical Profession.</article-title>
                <source>Organization Studies</source>
                <volume>30</volume>
                <issue>7</issue>
                <fpage>755</fpage>
                <lpage>778</lpage>
-               <uri>http://dx.doi.org/10.1177/0170840609104819</uri>
+               <uri>http://doi.org/10.1177/0170840609104819</uri>
             </element-citation>
          </ref>
-         <ref id="W2002"><!--Weedon, K. A. (2002). Why so some occupations pay more than others? Social closure and earnings inequality in the United States. <italic>American Journal of Sociology, 108</italic>(1), 55-101. <uri>http://dx.doi.org/10.1086/344121</uri>-->
+         <ref id="W2002"><!--Weeden, K. A. (2002). Why Do Some Occupations Pay More than Others? Social Closure and Earnings Inequality in the United States. <italic>American Journal of Sociology, 108</italic>(1), 55–101. <uri>http://doi.org/10.1086/344121</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Weedon</surname>
+                     <surname>Weeden</surname>
                      <given-names>K. A.</given-names>
                   </name>
                </person-group>
                <year>2002</year>
-               <article-title>Why so some occupations pay more than others? Social closure and earnings inequality in the United States.</article-title>
+               <article-title>Why Do Some Occupations Pay More than Others? Social Closure and Earnings Inequality in the United States.</article-title>
                <source>American Journal of Sociology</source>
                <volume>108</volume>
                <issue>1</issue>
                <fpage>55</fpage>
                <lpage>101</lpage>
-               <uri>http://dx.doi.org/10.1086/344121</uri>
+               <uri>http://doi.org/10.1086/344121</uri>
             </element-citation>
          </ref>
-         <ref id="Z1988"><!--Zuboff, S. (1988). <italic>In the age of the smart machine: The future of work and power</italic>. Chicago: Basic Books.-->
+         <ref id="Z1988"><!--Zuboff, S. (1988). <italic>In the age of the smart machine: The future of work and power.</italic> Chicago: Basic Books.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -1366,7 +1538,7 @@
                   </name>
                </person-group>
                <year>1988</year>
-               <source>In the age of the smart machine: The future of work and power</source>
+               <source>In the age of the smart machine: The future of work and power.</source>
                <publisher-loc>Chicago</publisher-loc>
                <publisher-name>Basic Books</publisher-name>
             </element-citation>
