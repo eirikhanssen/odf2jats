@@ -325,6 +325,9 @@
             </xsl:for-each>
     </xsl:template>
 
+    <!-- preserve tabs -->
+    <xsl:template match="text:tab"><xsl:text>&#x09;</xsl:text></xsl:template>
+
     <!-- Stylemap - map styles to elements -->
     <sm:styles>
         <sm:style>
@@ -334,6 +337,10 @@
             <sm:name>Footnote</sm:name>
             <sm:name>Endnote</sm:name>
             <sm:transformTo>p</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>RefListRef</sm:name>
+            <sm:transformTo>ref</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Heading_20_1</sm:name>
