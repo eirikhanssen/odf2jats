@@ -43,7 +43,7 @@
                             <xsl:when test="$article-identifiers/doi">
                                 <xsl:value-of select="$article-identifiers/doi"/>
                             </xsl:when>
-                            <xsl:otherwise><xsl:text>____</xsl:text></xsl:otherwise>
+                            <xsl:otherwise><xsl:text>___</xsl:text></xsl:otherwise>
                         </xsl:choose>
                     </xsl:element>
                     <xsl:apply-templates select="$article-meta-common/article-categories"/>
@@ -52,15 +52,15 @@
                     </title-group>
                     <xsl:apply-templates select="authors"/>
                     <pub-date pub-type="pub">
-                        <day>____</day>
-                        <month>____</month>
+                        <day>___</day>
+                        <month>___</month>
                         <year>
                             <xsl:choose>
                                 <xsl:when test="$article-identifiers/year">
                                     <xsl:value-of select="$article-identifiers/year"/>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:text>____</xsl:text>
+                                    <xsl:text>___</xsl:text>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </year>
@@ -71,7 +71,7 @@
                                 <xsl:value-of select="$article-identifiers/volume"/>
                             </xsl:when>
                         <xsl:otherwise>
-                            <xsl:text>____</xsl:text>
+                            <xsl:text>___</xsl:text>
                         </xsl:otherwise>
                     </xsl:choose>
                     </volume>
@@ -81,12 +81,12 @@
                                 <xsl:value-of select="$article-identifiers/issue"/>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:text>____</xsl:text>
+                                <xsl:text>___</xsl:text>
                             </xsl:otherwise>
                         </xsl:choose>
                     </issue>
-                    <fpage>____</fpage>
-                    <lpage>____</lpage>
+                    <fpage>___</fpage>
+                    <lpage>___</lpage>
                     <history>
                         <xsl:choose>
                             <xsl:when test="date[@date-type='received']">
@@ -94,9 +94,9 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <date date-type="received">
-                                    <day>____</day>
-                                    <month>____</month>
-                                    <year>____</year>
+                                    <day>___</day>
+                                    <month>___</month>
+                                    <year>___</year>
                                 </date>
                             </xsl:otherwise>
                         </xsl:choose>
@@ -106,9 +106,9 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <date date-type="accepted">
-                                    <day>____</day>
-                                    <month>____</month>
-                                    <year>____</year>
+                                    <day>___</day>
+                                    <month>___</month>
+                                    <year>___</year>
                                 </date>
                             </xsl:otherwise>
                         </xsl:choose>
@@ -121,7 +121,7 @@
                                     <xsl:value-of select="$article-identifiers/self-uri"/>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:text>____</xsl:text>
+                                    <xsl:text>___</xsl:text>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:variable>
@@ -195,7 +195,7 @@
             <xsl:for-each select="$author-group/contrib/xref[@ref-type='aff']">
                 <xsl:element name="aff">
                     <xsl:attribute name="id" select="@rid"/>
-                    <xsl:text>____</xsl:text>
+                    <xsl:text>___</xsl:text>
                 </xsl:element>
             </xsl:for-each>
         </xsl:variable>
