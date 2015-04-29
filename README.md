@@ -122,8 +122,10 @@ the paragraph is the unit being parsed to auto-tag the contents in a reference
     - If row(s) in the begninning should be table-header rows > apply TableHeader style
 
 ### 3 Prepare to run odf2jats
+These steps will be unneccecary to do manually in the future as they will be handled by a shellscript.
+
 - unzip odt-file to a folder
-- link to content.xml in odf2jats.xpl (later this will be done using a parameter, and unzip will be done in a shellscript).
+- link to content.xml in odf2jats.xpl (later this will be done using a parameter
 
 ## Already implemented/autotagged
 
@@ -210,7 +212,6 @@ the paragraph is the unit being parsed to auto-tag the contents in a reference
         - Option 1: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, 166. http://dx.doi.org/10.1186/1472-6963-9-166
         - Option 2: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, Article 166. http://dx.doi.org/10.1186/1472-6963-9-166
     
-1) as a single page, 2) using Article in front
 - Refs starting with following fail, but maybe this is acceptable because it is difficult to mark up using element-citation:
     - NICE. (2012).
     - WHO. (2000).
