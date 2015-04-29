@@ -280,7 +280,7 @@
     <xsl:variable name="current_ref" select="."/>
 
     <xsl:variable name="year">
-      <xsl:analyze-string select="$current_ref" regex=".*\((\d{{4}}\c?)\)">
+      <xsl:analyze-string select="$current_ref/text()[1]" regex="..*?\((\d{{4}}\c?)\)">
         <xsl:matching-substring>
           <xsl:value-of select="regex-group(1)"/>
         </xsl:matching-substring>
@@ -288,7 +288,7 @@
     </xsl:variable>
 
     <xsl:variable name="authors">
-      <xsl:analyze-string select="$current_ref" regex="(..*)\(\d{{4}}\c?\)">
+      <xsl:analyze-string select="$current_ref/text()[1]" regex="(..*?)\(\d{{4}}\c?\)">
         <xsl:matching-substring>
           <xsl:value-of select="regex-group(1)"/>
         </xsl:matching-substring>

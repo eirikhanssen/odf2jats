@@ -936,19 +936,15 @@
                <uri>http://doi.org/10.1016/j.socscimed.2004.07.008</uri>
             </element-citation>
          </ref>
-         <ref id="KBMJ6754"><!--Klein, R. (1990). The state and the profession: the politics of the double bed. <italic>BMJ, 301</italic>(6754), 700–702. <uri>http://doi.org/10.1136/bmj.301.6754.700</uri>-->
+         <ref id="K1990"><!--Klein, R. (1990). The state and the profession: the politics of the double bed. <italic>BMJ, 301</italic>(6754), 700–702. <uri>http://doi.org/10.1136/bmj.301.6754.700</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Klein</surname>
-                     <given-names>bed.</given-names>
-                  </name>
-                  <name>
-                     <surname>BMJ</surname>
-                     <given-names>301</given-names>
+                     <given-names>R.</given-names>
                   </name>
                </person-group>
-               <year>6754</year>
+               <year>1990</year>
                <article-title>The state and the profession: the politics of the double bed.</article-title>
                <source>BMJ</source>
                <volume>301</volume>
@@ -1046,7 +1042,7 @@
                <uri>http://doi.org/10.1111/j.1467-9566.2011.01338.x</uri>
             </element-citation>
          </ref>
-         <ref id="MDHCCRBMJ7608"><!--McDonald, R., Harrison, S., Checkland, K., Campbell, S. M., & Roland, M. (2007). Impact of financial incentives on clinical autonomy and internal motivation in primary care: ethnographic study. <italic>BMJ, 334</italic>(7608), 1357. <uri>http://doi.org/10.1136/bmj.39238.890810.BE</uri>-->
+         <ref id="MDHCCR2007"><!--McDonald, R., Harrison, S., Checkland, K., Campbell, S. M., & Roland, M. (2007). Impact of financial incentives on clinical autonomy and internal motivation in primary care: ethnographic study. <italic>BMJ, 334</italic>(7608), 1357. <uri>http://doi.org/10.1136/bmj.39238.890810.BE</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -1067,14 +1063,10 @@
                   </name>
                   <name>
                      <surname>Roland</surname>
-                     <given-names>study.</given-names>
-                  </name>
-                  <name>
-                     <surname>BMJ</surname>
-                     <given-names>334</given-names>
+                     <given-names>M.</given-names>
                   </name>
                </person-group>
-               <year>7608</year>
+               <year>2007</year>
                <article-title>Impact of financial incentives on clinical autonomy and internal motivation in primary care: ethnographic study.</article-title>
                <source>BMJ</source>
                <volume>334</volume>
