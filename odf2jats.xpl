@@ -14,7 +14,8 @@
         <!--<p:document href="source/odf-crosson/content.xml"/>-->
         <!--<p:document href="source/odf-casalino_crosson/content.xml"/>-->
         <!--<p:document href="source/odf-exworthy/content.xml"/>-->
-        <p:document href="source/odf-exworthy-refs/content.xml"/>
+        <!--<p:document href="source/odf-exworthy-refs/content.xml"/>-->
+        <p:document href="source/odf-angerer/content.xml"/>
     </p:input>
 
     <p:output port="result"/>
@@ -62,7 +63,7 @@
         </p:input>
     </p:xslt>
 
-    <p:rename match="p[preceding-sibling::h2='References']" new-name="ref"/>
+    <!--<p:rename match="p[preceding-sibling::h2='References']" new-name="ref"/>-->
 
     <p:delete match="h2[.='References']"/>
 

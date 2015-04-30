@@ -154,6 +154,12 @@
                 <ref-list>
                     <xsl:apply-templates select="ref"/>                    
                 </ref-list>
+                <xsl:if test="/article/ref[position() = last()]/following::node()">
+                    <sec>
+                        <title>Appendix</title>
+                        <xsl:apply-templates mode="appendix"/>
+                    </sec>
+                </xsl:if>
             </back>
         </article>
     </xsl:template>
@@ -216,9 +222,28 @@
     <xsl:template match="fn|abstract|keywords|authors|article-title|ref|date|article-identifiers" mode="body"/>
 
     <xsl:template match="node()|@*" mode="body">
-        <xsl:copy>
-            <xsl:apply-templates select="node()|@*"/>
-        </xsl:copy>
+        <!-- if it has preceding::ref, then do nothing (don't copy the node to body) -->
+        <!-- starting with ref-nodes in the reference list, all content should be placed in the back section -->
+        <xsl:choose>
+            <xsl:when test="preceding::ref"/>
+            <xsl:otherwise>
+                <xsl:copy>
+                    <xsl:apply-templates select="node()|@*"/>
+                </xsl:copy>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="node()|@*" mode="appendix">
+        <!-- if it has preceding ref nodes, and it is not a ref node itself, then copy to the appendix -->
+        <xsl:choose>
+            <xsl:when test="preceding::ref and not(self::ref)">
+                <xsl:copy>
+                    <xsl:apply-templates select="node()|@*"/>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:otherwise/>
+        </xsl:choose>
     </xsl:template>
     
 </xsl:stylesheet>

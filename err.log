@@ -1,0 +1,2 @@
+Apr 30, 2015 10:39:57 AM com.xmlcalabash.util.DefaultXProcMessageListener warning
+WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
