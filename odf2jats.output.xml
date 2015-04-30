@@ -1621,57 +1621,147 @@
             <table>
                <tbody>
                   <tr>
-                     <td>Citation (first author, year)</td>
-                     <td>Design of study (observational/interventional) and primary research question</td>
-                     <td>Physicians studied</td>
-                     <td>Patients studied</td>
-                     <td>Measurement of work conditions</td>
-                     <td>Measurement of quality of care</td>
-                     <td>Main results (extracted)</td>
+                     <td>
+                        <p>Citation (first author, year)</p>
+                     </td>
+                     <td>
+                        <p>Design of study (observational/interventional) and primary research question</p>
+                     </td>
+                     <td>
+                        <p>Physicians studied</p>
+                     </td>
+                     <td>
+                        <p>Patients studied</p>
+                     </td>
+                     <td>
+                        <p>Measurement of work conditions</p>
+                     </td>
+                     <td>
+                        <p>Measurement of quality of care</p>
+                     </td>
+                     <td>
+                        <p>Main results (extracted)</p>
+                     </td>
                   </tr>
                   <tr>
-                     <td>McKinstry et al. (<xref ref-type="bibr" rid="    2007">2007</xref>)</td>
-                     <td>Observational study, cross-sectional survey linked to registry dataObjective: Relationship between physician "morale" and patients ratings about the quality of their care including organizational issues and consultation skills in General Practice</td>
-                     <td>General practitioners, n=276 (of 475 invited and 296 participating)</td>
-                     <td>Patients of these GPs (on average 50 patients per physician)</td>
-                     <td>Physicians: Morale Assessment in General Practice Index (MAGPI): control of work, support/relationships at work, perceptions of effectiveness as a physician, home support, and contentment with career choice, health, happiness and alcohol use.Covariates included in analysis: None</td>
-                     <td>Patients: General Practice Assessment Questionnaire (GPAQ): patients' perception of practice accessibility; the quality of their consultation; and their assessment of the consultation outcome</td>
+                     <td>
+                        <p>McKinstry et al. (<xref ref-type="bibr" rid="    2007">2007</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational study, cross-sectional survey linked to registry data</p>
+                        <p>Objective: Relationship between physician "morale" and patients ratings about the quality of their care including organizational issues and consultation skills in General Practice</p>
+                     </td>
+                     <td>
+                        <p>General practitioners, n=276 (of 475 invited and 296 participating)</p>
+                     </td>
+                     <td>
+                        <p>Patients of these GPs (on average 50 patients per physician)</p>
+                     </td>
+                     <td>
+                        <p>Physicians: Morale Assessment in General Practice Index (MAGPI): control of work, support/relationships at work, perceptions of effectiveness as a physician, home support, and contentment with career choice, health, happiness and alcohol use.</p>
+                        <p>Covariates included in analysis: None</p>
+                     </td>
+                     <td>
+                        <p>Patients: General Practice Assessment Questionnaire (GPAQ): patients' perception of practice accessibility; the quality of their consultation; and their assessment of the consultation outcome</p>
+                     </td>
                      <td>no significant correlation between the total MAGPI score and the GPAQ communication or enablement scaleweak correlations between control of work in the MAGPI scale and GPAQ items on waiting times to see physician (r = 0.24 p &lt; 0.01)</td>
                   </tr>
                   <tr>
-                     <td>Klein et al. (<xref ref-type="bibr" rid="    2011">2011</xref>)</td>
-                     <td>Observational study, cross-sectional surveyObjective: Associations between psychosocial job stress and perceived health care quality among German surgeons.</td>
-                     <td>Surgeons (<xref ref-type="bibr" rid="    1311">n=1311</xref>) from 489 hospitals; 53 of the invited hospitals and 65% of the surgeons in these hospitals participate</td>
-                     <td>Not reported</td>
-                     <td>Physicians: Effort-reward imbalance model (ERI) and the demand-control model (job strain) by means of the respective questionnairesCovariates included in analysis: Gender, occupational position, job experience</td>
-                     <td>Physicians’ self-assessed performance, service quality, and error frequency</td>
+                     <td>
+                        <p>Klein et al. (<xref ref-type="bibr" rid="    2011">2011</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational study, cross-sectional survey</p>
+                        <p>Objective: Associations between psychosocial job stress and perceived health care quality among German surgeons.</p>
+                     </td>
+                     <td>
+                        <p>Surgeons (<xref ref-type="bibr" rid="    1311">n=1311</xref>) from 489 hospitals; 53 of the invited hospitals and 65% of the surgeons in these hospitals participate</p>
+                     </td>
+                     <td>
+                        <p>Not reported</p>
+                     </td>
+                     <td>
+                        <p>Physicians: Effort-reward imbalance model (ERI) and the demand-control model (job strain) by means of the respective questionnaires</p>
+                        <p>Covariates included in analysis: Gender, occupational position, job experience</p>
+                     </td>
+                     <td>
+                        <p>Physicians’ self-assessed performance, service quality, and error frequency</p>
+                     </td>
                      <td>Clinicians exposed to job stress have an increased risk of reporting suboptimal quality of care.Magnitude of the association varies depending on the respective job stress model and the indicator of health care quality used.Odds ratios, adjusted for gender, occupational position and job experience vary between 1.04 (CI 0.70-1.57) and 3.21 (CI 2.23-4.61)."</td>
                   </tr>
                   <tr>
-                     <td>Mache et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</td>
-                     <td>Observational study, cross-sectional surveyObjective: to investigate surgeons’ job satisfaction, patients’ satisfaction with medical care in surgery departments and to analyze correlations between perceived working conditions and these two outcome parameters.</td>
-                     <td>Surgeons (n=98 of 150 invited) from 7 surgical departments</td>
-                     <td>Surgical patients of the respective departments (n=122 of 250 invited)</td>
-                     <td>Physicians: Working conditions and job satisfaction (Copenhagen Psychosocial Questionnaire)Covariates included in analysis: patients' age, race, gender, length of stay, number of surgical treatments performed; physicians’ age, gender, years of experience, marital status and having children status.</td>
-                     <td>Patients: Patient satisfaction questionnaire (developed and validated for this study)</td>
+                     <td>
+                        <p>Mache et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational study, cross-sectional survey</p>
+                        <p>Objective: to investigate surgeons’ job satisfaction, patients’ satisfaction with medical care in surgery departments and to analyze correlations between perceived working conditions and these two outcome parameters.</p>
+                     </td>
+                     <td>
+                        <p>Surgeons (n=98 of 150 invited) from 7 surgical departments</p>
+                     </td>
+                     <td>
+                        <p>Surgical patients of the respective departments (n=122 of 250 invited)</p>
+                     </td>
+                     <td>
+                        <p>Physicians: Working conditions and job satisfaction (Copenhagen Psychosocial Questionnaire)</p>
+                        <p>Covariates included in analysis: patients' age, race, gender, length of stay, number of surgical treatments performed; physicians’ age, gender, years of experience, marital status and having children status.</p>
+                     </td>
+                     <td>
+                        <p>Patients: Patient satisfaction questionnaire (developed and validated for this study)</p>
+                     </td>
                      <td>Bivariate analyses showed correlations between patients’ overall satisfaction and surgeons’ job satisfaction (r=.49, p&lt;0.01).Analyses showed significant negative correlations between physicians’ assessments of their working demands and patient satisfaction (r=.38; p&lt;0.01)Positive correlations were analyzed between working resources (social support, feedback, etc.) and patient satisfaction (r=.42, p&lt;0.01).</td>
                   </tr>
                   <tr>
-                     <td>Weigl et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</td>
-                     <td>Controlled intervention studyObjective: Evaluate the effectiveness of an participatory intervention (health circles) on working conditions, physician well-being, and physician-patient relationshipProcess quality of intervention - measured by qualitative interviews with physicians</td>
-                     <td>Physicians in 2 internal and 2 surgical departments (n=57) of 1 hospitalparticipation rate (depending on group and time point) between 54,3% and 70%</td>
-                     <td>Patients (<xref ref-type="bibr" rid="    1581">n=1581</xref>) as in patients in the same departments, before and after the interventionparticipation rate (depending on group and time point) between 36,8% and 60,5%</td>
-                     <td>Physicians: Four scales of an established, valid, and reliable German questionnaire for physicians work: (1) Workflow interruptions (2) Conflicts in role and ambiguous task demands (3) Colleague Support; (4) Quality losses (erroneous work or work of poor quality caused by inferior work conditions)Physicians evaluation of the quality of cooperation with relatives of patients (1 item) and with the nursing staff (1 item).Covariates included in analysis: None</td>
-                     <td>Patients: perceived quality of care rated on established, standardized questionnaire1) “Organization of physicians care” (4 items; e.g. “The physicians have enough time for me”); (2) “Quality of physicians” information’ (5 items; e.g. “Physicians provide me with detailed information regarding my medical treatment”).</td>
+                     <td>
+                        <p>Weigl et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Controlled intervention study</p>
+                        <p>Objective: Evaluate the effectiveness of an participatory intervention (health circles) on working conditions, physician well-being, and physician-patient relationship</p>
+                        <p>Process quality of intervention - measured by qualitative interviews with physicians</p>
+                     </td>
+                     <td>
+                        <p>Physicians in 2 internal and 2 surgical departments (n=57) of 1 hospital</p>
+                        <p>participation rate (depending on group and time point) between 54,3% and 70%</p>
+                     </td>
+                     <td>
+                        <p>Patients (<xref ref-type="bibr" rid="    1581">n=1581</xref>) as in patients in the same departments, before and after the intervention</p>
+                        <p>participation rate (depending on group and time point) between 36,8% and 60,5%</p>
+                     </td>
+                     <td>
+                        <p>Physicians: Four scales of an established, valid, and reliable German questionnaire for physicians work: (1) Workflow interruptions (2) Conflicts in role and ambiguous task demands (3) Colleague Support; (4) Quality losses (erroneous work or work of poor quality caused by inferior work conditions)</p>
+                        <p>Physicians evaluation of the quality of cooperation with relatives of patients (1 item) and with the nursing staff (1 item).</p>
+                        <p>Covariates included in analysis: None</p>
+                     </td>
+                     <td>
+                        <p>Patients: perceived quality of care rated on established, standardized questionnaire</p>
+                        <p>1) “Organization of physicians care” (4 items; e.g. “The physicians have enough time for me”); (2) “Quality of physicians” information’ (5 items; e.g. “Physicians provide me with detailed information regarding my medical treatment”).</p>
+                     </td>
                      <td>During the intervention several work-related problems were identified, categorized, and ten solutions were implemented.Post-intervention, physicians in the intervention departments reported substantially less conflicting demands and enhanced quality of cooperation with patients’ relatives, compared to control group physicians.Moreover, positive changes in enhanced colleague support could be attributed to the intervention.Regarding patient reports of care quality of care, patient ratings of physicians organization of care improved for physicians in the intervention group: From 4.20(±.82) to 4.23 (±.75) in the intervention group; from 4.13 (±.76) to 4.01 (±.84) in the control group (p=0.056)</td>
                   </tr>
                   <tr>
-                     <td>Weigl et al. (<xref ref-type="bibr" rid="    2014">2014</xref>)</td>
-                     <td>Controlled intervention studyObjective: (1) to determine the effect of a documentation assistant intervention for reducing hospital pediatricians’ workflow interruptions and its impact on pediatricians’ performance, indicated by self- reported productivity, quality, and efficiency of work.(2) to determine whether the intervention improved the patients’ perceived quality of care.</td>
-                     <td>Pediatricians of two wards of a Pediatric University Hospital (n=8)</td>
-                     <td>Patients on these two wards, n=132 (of 161 invited)</td>
-                     <td>Experts: Number of interruptions per hour - measured by 28 full shift observations</td>
-                     <td>Physicians: evaluated their performance in terms of productivity, quality, and efficiency.Patients: standardized patients’ reports on perceived quality of care</td>
+                     <td>
+                        <p>Weigl et al. (<xref ref-type="bibr" rid="    2014">2014</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Controlled intervention study</p>
+                        <p>Objective: (1) to determine the effect of a documentation assistant intervention for reducing hospital pediatricians’ workflow interruptions and its impact on pediatricians’ performance, indicated by self- reported productivity, quality, and efficiency of work.</p>
+                        <p>(2) to determine whether the intervention improved the patients’ perceived quality of care.</p>
+                     </td>
+                     <td>
+                        <p>Pediatricians of two wards of a Pediatric University Hospital (n=8)</p>
+                     </td>
+                     <td>
+                        <p>Patients on these two wards, n=132 (of 161 invited)</p>
+                     </td>
+                     <td>
+                        <p>Experts: Number of interruptions per hour - measured by 28 full shift observations</p>
+                     </td>
+                     <td>
+                        <p>Physicians: evaluated their performance in terms of productivity, quality, and efficiency.</p>
+                        <p>Patients: standardized patients’ reports on perceived quality of care</p>
+                     </td>
                      <td>The intervention was associated with reduced workflow interruptions (percentage of change in interruptions rates attributable to the intervention 55.1 % (CI=36.3–83.6 %)Increased pediatricians’ self-rated performance in terms of performance, quality, and efficiency in daily clinical work (performance: intervention ward (=IW) increase +45.27 % over time; control ward (=CW) −25.05 %; reported quality: IW +54.1 %, CW, −28.69 %; efficiency of work: IW +69.6 %; CW −9.31 %).Increased patients’ perceptions of quality of care: increased pediatricians’ patient-oriented work-organization and quality of pediatricians’, patient information; (pediatricians’ work-organization: IW +10.43 %; CW, −8.97 %; quality of patient information: IW, +11.12 %, CW, −3.39 %)</td>
                   </tr>
                </tbody>
@@ -1688,48 +1778,120 @@
             <table>
                <tbody>
                   <tr>
-                     <td>Citation (first author, year)</td>
-                     <td>Design of study (observational/interventional) and primary research question</td>
-                     <td>Physicians studied</td>
-                     <td>Patients studied</td>
-                     <td>Measurement of work conditions</td>
-                     <td>Measurement of quality of care</td>
-                     <td>Main results (extracted)</td>
+                     <td>
+                        <p>Citation (first author, year)</p>
+                     </td>
+                     <td>
+                        <p>Design of study (observational/interventional) and primary research question</p>
+                     </td>
+                     <td>
+                        <p>Physicians studied</p>
+                     </td>
+                     <td>
+                        <p>Patients studied</p>
+                     </td>
+                     <td>
+                        <p>Measurement of work conditions</p>
+                     </td>
+                     <td>
+                        <p>Measurement of quality of care</p>
+                     </td>
+                     <td>
+                        <p>Main results (extracted)</p>
+                     </td>
                   </tr>
                   <tr>
-                     <td>Koponen et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</td>
-                     <td>Observational, cross-sectional studyObjective: Associations between healthcare personnel’s perceived job strain, supervisor support and the outcome of care in terms of glycemic control among patients with type 2 diabetes.</td>
-                     <td>Physicians (n=122) and nurses (n=300) in 18 primary care health centers (response rate 78%)</td>
-                     <td>Type 2 diabetes mellitus (<xref ref-type="bibr" rid="    8975">n=8975</xref>) (from register data of all patients treated in these health centers)</td>
-                     <td>Job strain, supervisor supportCovariates included in analysis: patient sex and age, organization characteristics (the percentage of temporary employees and the mean rate of sickness absence days in the HC), HC service area characteristics (educational level of the residents, median income and unemployment rate).</td>
-                     <td>Achievement of good blood glucose control (HBA1c &lt; 7 mg/dl)</td>
+                     <td>
+                        <p>Koponen et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational, cross-sectional study</p>
+                        <p>Objective: Associations between healthcare personnel’s perceived job strain, supervisor support and the outcome of care in terms of glycemic control among patients with type 2 diabetes.</p>
+                     </td>
+                     <td>
+                        <p>Physicians (n=122) and nurses (n=300) in 18 primary care health centers (response rate 78%)</p>
+                     </td>
+                     <td>
+                        <p>Type 2 diabetes mellitus (<xref ref-type="bibr" rid="    8975">n=8975</xref>) (from register data of all patients treated in these health centers)</p>
+                     </td>
+                     <td>
+                        <p>Job strain, supervisor support</p>
+                        <p>Covariates included in analysis: patient sex and age, organization characteristics (the percentage of temporary employees and the mean rate of sickness absence days in the HC), HC service area characteristics (educational level of the residents, median income and unemployment rate).</p>
+                     </td>
+                     <td>
+                        <p>Achievement of good blood glucose control (HBA1c &lt; 7 mg/dl)</p>
+                     </td>
                      <td>High job strain is associated with worse glucose control (OR for HbA1c &gt;7 mg/dl 1.44 (1.12 to 1.86)No association with supervisor support</td>
                   </tr>
                   <tr>
-                     <td>Virtanen et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</td>
-                     <td>Observational, cross-sectional studyObjective: Association between perceived organizational justice among health care providers and glycemic control among their diabetic patients.</td>
-                     <td>Physicians (n=122) and nurses (n=300) in 18 primary care health centers (response rate 78%)</td>
-                     <td>Patients with Type 2 diabetes mellitus (<xref ref-type="bibr" rid="    8954">n=8954</xref>) (from register data of all patients treated in these health centers)</td>
-                     <td>Staff-reported procedural justice and relational justice, effort-reward imbalance, and work-unit team climateCovariates included in analysis: patient-level and unit-level (<xref ref-type="bibr" rid="K2013">for details see Koponen et al 2013</xref>)</td>
-                     <td>Achievement of good blood glucose control (HBA1c &lt; 7 mg/dl)</td>
+                     <td>
+                        <p>Virtanen et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational, cross-sectional study</p>
+                        <p>Objective: Association between perceived organizational justice among health care providers and glycemic control among their diabetic patients.</p>
+                     </td>
+                     <td>
+                        <p>Physicians (n=122) and nurses (n=300) in 18 primary care health centers (response rate 78%)</p>
+                     </td>
+                     <td>
+                        <p>Patients with Type 2 diabetes mellitus (<xref ref-type="bibr" rid="    8954">n=8954</xref>) (from register data of all patients treated in these health centers)</p>
+                     </td>
+                     <td>
+                        <p>Staff-reported procedural justice and relational justice, effort-reward imbalance, and work-unit team climate</p>
+                        <p>Covariates included in analysis: patient-level and unit-level (<xref ref-type="bibr" rid="K2013">for details see Koponen et al 2013</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Achievement of good blood glucose control (HBA1c &lt; 7 mg/dl)</p>
+                     </td>
                      <td>Perceptions of higher levels of procedural justice among staff associated with more optimal glycated hemoglobin levels among patients (cumulative odds ratio per 1-U increase in justice=1.54, 95% confidence interval, 1.08-2.18) after adjustment for patient-level and unit-level covariates.Relational justice, effort-reward imbalance, and work-unit team climate were not associated with glycemic control.</td>
                   </tr>
                   <tr>
-                     <td>Virtanen et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</td>
-                     <td>Observational, cross-sectional studyObjective: Association between work hours, work stress, and collaboration among the ward personnel, and the risk of hospital-associated infection among patients.</td>
-                     <td>Physicians (n=73) and nurses (n=999), other (=87), from 60 (non-psychiatric) wards in 6 hospitalsOverall response rate in the survey 77%</td>
-                     <td>All patients (<xref ref-type="bibr" rid="    1102">n = 1092 from 1102</xref>) included, on one sampling day for each ward (32% on surgical wards, 34% on internal wards)</td>
-                     <td>Working hours per day were calculated from staff responses (used as a dichotomous variable of 8.75 hours; i.e., 8 hours 45 minutes per day vs. less).Work stress was assessed with scales of the job strain model, and the effort-reward imbalance (ERI) model.Covariates included in analysis: patient sex, age, surgical status, exposure to devices, hospital type, unit type, number of patients at ward, diagnosis of cancer (lymphoma, leukemia, or myeloma), and use of corticosteroids.</td>
-                     <td>Prevalence surveillance was performed by 4 infection control nurses, using standard criteria to register hospital-associated infection.</td>
+                     <td>
+                        <p>Virtanen et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational, cross-sectional study</p>
+                        <p>Objective: Association between work hours, work stress, and collaboration among the ward personnel, and the risk of hospital-associated infection among patients.</p>
+                     </td>
+                     <td>
+                        <p>Physicians (n=73) and nurses (n=999), other (=87), from 60 (non-psychiatric) wards in 6 hospitals</p>
+                        <p>Overall response rate in the survey 77%</p>
+                     </td>
+                     <td>
+                        <p>All patients (<xref ref-type="bibr" rid="    1102">n = 1092 from 1102</xref>) included, on one sampling day for each ward (32% on surgical wards, 34% on internal wards)</p>
+                     </td>
+                     <td>
+                        <p>Working hours per day were calculated from staff responses (used as a dichotomous variable of 8.75 hours; i.e., 8 hours 45 minutes per day vs. less).</p>
+                        <p>Work stress was assessed with scales of the job strain model, and the effort-reward imbalance (ERI) model.</p>
+                        <p>Covariates included in analysis: patient sex, age, surgical status, exposure to devices, hospital type, unit type, number of patients at ward, diagnosis of cancer (lymphoma, leukemia, or myeloma), and use of corticosteroids.</p>
+                     </td>
+                     <td>
+                        <p>Prevalence surveillance was performed by 4 infection control nurses, using standard criteria to register hospital-associated infection.</p>
+                     </td>
                      <td>Ninety-nine cases (9.1%) of hospital-associated infection were found.Multilevel logistic regression analyses, adjusted for hospital factors and patient-related risk factors, showed that long work hours among staff were associated with increased risk of infection odds ratio (OR) 2.74, 95% confidence interval (CI): 1.07–7.04.Other staff-related correlates of infection were high work stress, as indicated by high imbalance between efforts and rewards (OR:2.47; 95% CI:1.38 – 4.42), low trust between work unit members (OR: 2.37; 95% CI: 1.27–4.43), injustice in the distribution of work (OR: 1.81; 95% CI: 1.04–3.16), and poor collaboration between ward supervisors (OR: 2.46; 95% CI: 1.38– 4.38).</td>
                   </tr>
                   <tr>
-                     <td>Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</td>
-                     <td>Observational, cross-sectional studyObjective: To assess the relationship among adverse primary care work conditions, adverse physician reactions (stress, burnout, and intent to leave), and patient care.</td>
-                     <td>Family physicians and general internists (n=449) from 119 practices (59.6% of those invited) consented to participate, and 422 (94.0%) completed the baseline survey (participation rate, 56.0%).</td>
-                     <td>1795 patients, an average of 4 per physician (range, 1 to 8 patients) with diabetes, hypertension, or heart failure.</td>
-                     <td>Survey among physicians (items chosen based on focus groups). physician perception of clinic workflow (time pressure and pace), work control, and organizational culture (assessed survey); physician satisfaction, stress, burnout, and intent to leave practice (assessed by survey);Covariates included in analysis: physician age, sex, race, and clustering within clinics</td>
-                     <td>Health care quality and errors (assessed by chart audits).</td>
+                     <td>
+                        <p>Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational, cross-sectional study</p>
+                        <p>Objective: To assess the relationship among adverse primary care work conditions, adverse physician reactions (stress, burnout, and intent to leave), and patient care.</p>
+                     </td>
+                     <td>
+                        <p>Family physicians and general internists (n=449) from 119 practices (59.6% of those invited) consented to participate, and 422 (94.0%) completed the baseline survey (participation rate, 56.0%).</p>
+                     </td>
+                     <td>
+                        <p>1795 patients, an average of 4 per physician (range, 1 to 8 patients) with diabetes, hypertension, or heart failure.</p>
+                     </td>
+                     <td>
+                        <p>Survey among physicians (items chosen based on focus groups). physician perception of clinic workflow (time pressure and pace), work control, and organizational culture (assessed survey); physician satisfaction, stress, burnout, and intent to leave practice (assessed by survey);</p>
+                        <p>Covariates included in analysis: physician age, sex, race, and clustering within clinics</p>
+                     </td>
+                     <td>
+                        <p>Health care quality and errors (assessed by chart audits).</p>
+                     </td>
                      <td>Adverse workflow (time pressure and chaotic environments), low work control, and unfavorable organizational culture were strongly associated with low physician satisfaction, high stress, burnout, and intent to leave.No association was found between adverse physician reactions, such as stress and burnout, and care quality or errors.Some work conditions were associated with lower quality and more errors. Partial regression coefficient for quality of care for patients with diabetes and work control 8.41 (0.85 to 15.97); trust in the organization 6.71 (0.59 to 12.83); and values alignment within the organization 12.12 (7.14 to 17.10)</td>
                   </tr>
                </tbody>
@@ -1746,56 +1908,137 @@
             <table>
                <tbody>
                   <tr>
-                     <td>Citation (first author, year)</td>
-                     <td>Design of study (observational/interventional) and primary research question</td>
-                     <td>Physicians studied</td>
-                     <td>Patients studied</td>
-                     <td>Measurement of work conditions</td>
-                     <td>Measurement of quality of care</td>
-                     <td>Main results (extracted)</td>
+                     <td>
+                        <p>Citation (first author, year)</p>
+                     </td>
+                     <td>
+                        <p>Design of study (observational/interventional) and primary research question</p>
+                     </td>
+                     <td>
+                        <p>Physicians studied</p>
+                     </td>
+                     <td>
+                        <p>Patients studied</p>
+                     </td>
+                     <td>
+                        <p>Measurement of work conditions</p>
+                     </td>
+                     <td>
+                        <p>Measurement of quality of care</p>
+                     </td>
+                     <td>
+                        <p>Main results (extracted)</p>
+                     </td>
                   </tr>
                   <tr>
-                     <td>Jones et al. (<xref ref-type="bibr" rid="    1988">1988</xref>)</td>
-                     <td>4 studies: 2 observational – cross sectional, 2 interventionalObjectives and design:In study 1, the incidence of malpractice claims in hospital departments was evaluated in light of the level of stress within each department.In study 2, the unit of analysis was the organization (hospital). Study 2 tested the hypothesis that hospitals in which employees, as a whole, report higher levels of workplace and personal stress also have a higher frequency of medical malpractice claims.Study 3 used a longitudinal, single-case design to evaluate the impact of an organization-wide stress management program on the incidence of medication errors. A baseline prevalence of medication errors was established, and the incidence of errors was tracked following the implementation of an organization-wide stress management intervention.In study 4, the organization was used as the unit of analysis, and the impact of a stress management intervention was evaluated. The malpractice risk of a sample of hospitals that participated in the stress management intervention was compared with that of a control sample of hospitals that were matched to the experimental group on important variables (e.g., size and risk potential).</td>
-                     <td>Unit of analysis instudy 1: 91 hospital departments in 5 hospitals,study 2: 61 of 93 hospitals invited (66%),study 3: one hospital before and after intervention,study 4: 22 intervention and 22 control hospitals (matched out of 93)5% physiciansStudy 1 and 3 - Employees from all 91 departments /61 hospitals were administered the Job Stress, Organizational Stress, Job Dissatisfaction, and Personal Stress subscales (see column "measurement" response rate of employees in survey between 84 and 95% (according the respective hospital)</td>
-                     <td>Not reported</td>
-                     <td>Human Factors inventory (HFI) with 4 subscales as a survey for all employees,"Strain" The Job Stress subscale consists of 29 items that measure mental, emotional, and psychosomatic stress reactions that employees attribute to their work."Satisfaction": The Job Dissatisfaction subscale consists of 20 items that assess employees' affective appraisals of their workplace (e.g., their degree of liking for aspects of their work such as tasks, supervision, and coworkers)."Stress": The Organizational Stress scale consists of 17 items that measure employees' perceptions of the well-being of their department and organization. An organization is assumed to be stressed when there exists higher than normal turnover, theft, wastage, substance abuse, and conflict among employees and departments."Personal Stress": The Personal Stress scale consists of <italic>25 </italic>items that measure a wide variety of stressful life events that employees may have experienced in the last 12 months.</td>
-                     <td>Study 1,2, and 4: Malpractice risk:Departments were classified as high or low in malpractice risk according to their record of errors and negligence; departments were identified as high risk if they had one or more malpractice claim filed against them in the past year, and at least one of these claims was because of avoidable human error.Number of malpractice claimsStudy 3: Medication errors: gathered from the hospital's "medication incident reporting system" files, which hospital staff used to report medication errors immediately following an incident.</td>
+                     <td>
+                        <p>Jones et al. (<xref ref-type="bibr" rid="    1988">1988</xref>)</p>
+                     </td>
+                     <td>
+                        <p>4 studies: 2 observational – cross sectional, 2 interventional</p>
+                        <p>Objectives and design:</p>
+                        <p>In study 1, the incidence of malpractice claims in hospital departments was evaluated in light of the level of stress within each department.</p>
+                        <p>In study 2, the unit of analysis was the organization (hospital). Study 2 tested the hypothesis that hospitals in which employees, as a whole, report higher levels of workplace and personal stress also have a higher frequency of medical malpractice claims.</p>
+                        <p>Study 3 used a longitudinal, single-case design to evaluate the impact of an organization-wide stress management program on the incidence of medication errors. A baseline prevalence of medication errors was established, and the incidence of errors was tracked following the implementation of an organization-wide stress management intervention.</p>
+                        <p>In study 4, the organization was used as the unit of analysis, and the impact of a stress management intervention was evaluated. The malpractice risk of a sample of hospitals that participated in the stress management intervention was compared with that of a control sample of hospitals that were matched to the experimental group on important variables (e.g., size and risk potential).</p>
+                     </td>
+                     <td>
+                        <p>Unit of analysis in</p>
+                        <p>study 1: 91 hospital departments in 5 hospitals,</p>
+                        <p>study 2: 61 of 93 hospitals invited (66%),</p>
+                        <p>study 3: one hospital before and after intervention,</p>
+                        <p>study 4: 22 intervention and 22 control hospitals (matched out of 93)</p>
+                        <p>5% physicians</p>
+                        <p>Study 1 and 3 - Employees from all 91 departments /61 hospitals were administered the Job Stress, Organizational Stress, Job Dissatisfaction, and Personal Stress subscales (see column "measurement" response rate of employees in survey between 84 and 95% (according the respective hospital)</p>
+                     </td>
+                     <td>
+                        <p>Not reported</p>
+                     </td>
+                     <td>
+                        <p>Human Factors inventory (HFI) with 4 subscales as a survey for all employees,</p>
+                        <p>"Strain" The Job Stress subscale consists of 29 items that measure mental, emotional, and psychosomatic stress reactions that employees attribute to their work.</p>
+                        <p>"Satisfaction": The Job Dissatisfaction subscale consists of 20 items that assess employees' affective appraisals of their workplace (e.g., their degree of liking for aspects of their work such as tasks, supervision, and coworkers).</p>
+                        <p>"Stress": The Organizational Stress scale consists of 17 items that measure employees' perceptions of the well-being of their department and organization. An organization is assumed to be stressed when there exists higher than normal turnover, theft, wastage, substance abuse, and conflict among employees and departments.</p>
+                        <p>"Personal Stress": The Personal Stress scale consists of <italic>25 </italic>items that measure a wide variety of stressful life events that employees may have experienced in the last 12 months.</p>
+                     </td>
+                     <td>
+                        <p>Study 1,2, and 4: Malpractice risk:</p>
+                        <p>Departments were classified as high or low in malpractice risk according to their record of errors and negligence; departments were identified as high risk if they had one or more malpractice claim filed against them in the past year, and at least one of these claims was because of avoidable human error.</p>
+                        <p>Number of malpractice claims</p>
+                        <p>Study 3: Medication errors: gathered from the hospital's "medication incident reporting system" files, which hospital staff used to report medication errors immediately following an incident.</p>
+                     </td>
                      <td>Study 1: The high-malpractice-risk group (25% of departments) scored significantly (p &lt; .05) higher than did the low-risk group on Job Stress, Job Dissatisfaction, and Organizational Stress (Score 65.2± 14.3 vs.44.1 ±17.0). No differences were found on Personal Stress. The matched group analysis suggests that the relation between level of stress and malpractice risk is independent of the type of hospital department.Study 2: Job stress, job dissatisfaction, organizational stress and number of hospital beds were all positively related to frequency of malpractice claims at the p &lt; .0001 level. After control for number of beds: organizational stress (r=.4, p&lt;0.01)Study 3: The average number of medication errors per month in phase A equaled10.25 (SD = 3.45). The monthly average for Phase B equaled 5.14 (SD = 3.34). This reduction in errors was statistically significant, t( 13) = 2.90, p &lt; .02Study 4: Demonstrates that stress management programs may lead to a reduction in malpractice incidents. Treatment condition x coverage year interaction ( p &lt; .046).</td>
                   </tr>
                   <tr>
-                     <td>Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</td>
                      <td>
-                        <italic>See Table 2</italic>
+                        <p>Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</p>
                      </td>
                      <td>
-                        <italic>See Table 2</italic>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
                      </td>
                      <td>
-                        <italic>See Table 2</italic>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
                      </td>
                      <td>
-                        <italic>See Table 2</italic>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
                      </td>
-                     <td>Treatment errors were defined as missed treatment opportunities, inattention to behavioral factors, and guideline non-adherence and defined prevention errors as lack of tobacco use documentation and missed prevention activities, such as mammograms, cervical cancer screening, colon cancer screening, and depression assessment</td>
+                     <td>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
+                     </td>
+                     <td>
+                        <p>Treatment errors were defined as missed treatment opportunities, inattention to behavioral factors, and guideline non-adherence and defined prevention errors as lack of tobacco use documentation and missed prevention activities, such as mammograms, cervical cancer screening, colon cancer screening, and depression assessment</p>
+                     </td>
                      <td>Fewer total, prevention, and diabetes care errors in clinics with high values alignment - diabetes care: partial regression coefficient (95%CI): 12.12 (7.14 to 17.10)</td>
                   </tr>
                   <tr>
-                     <td>Nielsen et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</td>
-                     <td>Observational, cross-sectionalObjective: to investigate the relationship between 12 work-related stressors and the occurrence of adverse events in an Danish emergency department.</td>
-                     <td>118 participants (95% of all nurses (n=98) and all physicians (n=26) invited; all working in an emergency department at a Danish regional hospital</td>
-                     <td>Not reported</td>
-                     <td>Questionnaire on occurrence and emotional impact of 12 work-related stressors completed after each shift during a 4-week period. Stressors: Work frequently interrupted; did not complete all work tasks; noise; insufﬁcient opportunity for work planning; felt insufﬁciently prepared to handle work tasks; too busy to do the job in the best way; lack of help and support; emotionally demanding patients; Criticized or verbally attacked by others; bad working relations within own unit; bad working relations with other units; violence or threats of violenceCovariates included: Shift type, shift length, age, seniority, and participant group</td>
-                     <td>Questionnaire to describe <italic>any</italic> adverse events that participants were involved in during the shift</td>
+                     <td>
+                        <p>Nielsen et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational, cross-sectional</p>
+                        <p>Objective: to investigate the relationship between 12 work-related stressors and the occurrence of adverse events in an Danish emergency department.</p>
+                     </td>
+                     <td>
+                        <p>118 participants (95% of all nurses (n=98) and all physicians (n=26) invited; all working in an emergency department at a Danish regional hospital</p>
+                     </td>
+                     <td>
+                        <p>Not reported</p>
+                     </td>
+                     <td>
+                        <p>Questionnaire on occurrence and emotional impact of 12 work-related stressors completed after each shift during a 4-week period. Stressors: Work frequently interrupted; did not complete all work tasks; noise; insufﬁcient opportunity for work planning; felt insufﬁciently prepared to handle work tasks; too busy to do the job in the best way; lack of help and support; emotionally demanding patients; Criticized or verbally attacked by others; bad working relations within own unit; bad working relations with other units; violence or threats of violence</p>
+                        <p>Covariates included: Shift type, shift length, age, seniority, and participant group</p>
+                     </td>
+                     <td>
+                        <p>Questionnaire to describe <italic>any</italic> adverse events that participants were involved in during the shift</p>
+                     </td>
                      <td>214 adverse events were reported during the 979 studied shifts (69% of all shifts worked in this time).The study showed an association between the occurrence and impact of 12 work-related stressors and involvement in adverse events across the groups of participants.Multivariate regression: adverse event on emotional impact of stressors 0.06 (0.04-0.09)</td>
                   </tr>
                   <tr>
-                     <td>Ross et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</td>
-                     <td>Observational, cross-sectional, qualitative studyObjective: to investigate the perceived causes of prescribing errors among foundation (junior) doctors in Scotland.</td>
-                     <td>Doctors having done a prescribing error (n=40 of 54 invited), in eight Scottish hospitals;</td>
+                     <td>
+                        <p>Ross et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</p>
+                     </td>
+                     <td>
+                        <p>Observational, cross-sectional, qualitative study</p>
+                        <p>Objective: to investigate the perceived causes of prescribing errors among foundation (junior) doctors in Scotland.</p>
+                     </td>
+                     <td>
+                        <p>Doctors having done a prescribing error (n=40 of 54 invited), in eight Scottish hospitals;</p>
+                     </td>
                      <td/>
-                     <td>Qualitative study: doctors responsible for making a prescribing error were interviewed about the perceived causes; Interview transcripts were analyzed using content analysis and categorized into themes previously identified under Reason's Model of Accident Causation and Human Error; categorized into five categories of error-producing conditions, (environment, team, individual, task and patient factors)</td>
-                     <td>Data on prescribing errors were collected by ward pharmacists over a 14-month period.</td>
+                     <td>
+                        <p>Qualitative study: doctors responsible for making a prescribing error were interviewed about the perceived causes; Interview transcripts were analyzed using content analysis and categorized into themes previously identified under Reason's Model of Accident Causation and Human Error; categorized into five categories of error-producing conditions, (environment, team, individual, task and patient factors)</p>
+                     </td>
+                     <td>
+                        <p>Data on prescribing errors were collected by ward pharmacists over a 14-month period.</p>
+                     </td>
                      <td>Work environment was identified as an important aspect by all doctors, especially workload and time pressures.</td>
                   </tr>
                </tbody>

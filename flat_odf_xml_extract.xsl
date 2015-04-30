@@ -230,7 +230,7 @@
     <xsl:template match="table:table-cell/text:p"> </xsl:template>
 
     <xsl:template match="table:table-cell/text:p" mode="table-cell">
-        <xsl:apply-templates/>
+        <p><xsl:apply-templates/></p>
     </xsl:template>
 
     <!-- Preserve italic and bold text -->
