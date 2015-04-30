@@ -215,23 +215,25 @@
         </tr>
     </xsl:template>
 
-    <xsl:template match="table:table-cell">
+    <xsl:template match="table:table-cell[not(ancestor::table:table-header-rows)]">
         <td>
-            <xsl:apply-templates mode="table-cell"/>
+            <xsl:apply-templates/>
         </td>
     </xsl:template>
 
     <xsl:template match="table:table-cell[ancestor::table:table-header-rows]">
         <th>
-            <xsl:apply-templates mode="table-cell"/>
+            <xsl:apply-templates/>
         </th>
     </xsl:template>
 
-    <xsl:template match="table:table-cell/text:p"> </xsl:template>
-
-    <xsl:template match="table:table-cell/text:p" mode="table-cell">
+    <xsl:template match="table:table-cell/text:p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
+
+    <!--<xsl:template match="table:table-cell/text:p" mode="table-cell">
+        <p><xsl:apply-templates mode="table-cell"/></p>
+    </xsl:template>-->
 
     <!-- Preserve italic and bold text -->
     <xsl:template match="text:span">
