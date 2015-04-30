@@ -1610,15 +1610,13 @@
       </ref-list>
       <sec>
          <title>Appendix</title>
-         <table_label>Table 1</table_label>
-         <table_caption>
-            <italic>Physicians’ psychosocial work conditions and physicians' and/or patients' perception of the quality of care.</italic>
-         </table_caption>
          <table-wrap id="tbl1">
-            <label>____</label>
+            <label>Table 1</label>
             <!-- optional label and caption -->
             <caption>
-               <p>____</p>
+               <p>
+                  <italic>Physicians’ psychosocial work conditions and physicians' and/or patients' perception of the quality of care.</italic>
+               </p>
             </caption>
             <table>
                <tbody>
@@ -1679,15 +1677,13 @@
                </tbody>
             </table>
          </table-wrap>
-         <table_label>Table 2</table_label>
-         <table_caption>
-            <italic>Physicians psychosocial work conditions and success of treatment or absence of complications.</italic>
-         </table_caption>
          <table-wrap id="tbl2">
-            <label>____</label>
+            <label>Table 2</label>
             <!-- optional label and caption -->
             <caption>
-               <p>____</p>
+               <p>
+                  <italic>Physicians psychosocial work conditions and success of treatment or absence of complications.</italic>
+               </p>
             </caption>
             <table>
                <tbody>
@@ -1739,15 +1735,13 @@
                </tbody>
             </table>
          </table-wrap>
-         <table_label>Table 3</table_label>
-         <table_caption>
-            <italic>Physicians’ psychosocial work conditions and prevalence of medical errors.</italic>
-         </table_caption>
          <table-wrap id="tbl3">
-            <label>____</label>
+            <label>Table 3</label>
             <!-- optional label and caption -->
             <caption>
-               <p>____</p>
+               <p>
+                  <italic>Physicians’ psychosocial work conditions and prevalence of medical errors.</italic>
+               </p>
             </caption>
             <table>
                <tbody>

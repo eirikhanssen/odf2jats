@@ -158,6 +158,16 @@
         </p:input>
     </p:xslt>
 
+    <p:xslt name="fix-table-captions-and-labels" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="table-captions-and-labels.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <!-- autotagging of ref-list references -->
     <p:xslt name="reflistparser" version="2.0">
         <p:input port="source"/>
