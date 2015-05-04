@@ -170,7 +170,19 @@
     </xsl:template>
 
     <xsl:template match="authors">
+        <!-- these two variables are used when attaching the contact address to the author to be contacted -->
         <xsl:variable name="contact-info" select="/article/contact-info" as="element(contact-info)*"/>
+        <xsl:variable name="contact-address">
+                <xsl:for-each select="$contact-info">
+                    <xsl:if test="matches( . , '^\s*[cC]ontact:')">
+                        <xsl:variable name="contactPersonString" select="replace( . , '^\s*[cC]ontact:\s*([^,]+),.*?$' , '$1')"/>
+                        <xsl:variable name="addressString" select="replace( . , '^\s*[cC]ontact:\s*[^,]+,\s*(.*?)$' , '$1')"/>
+                        <contact_person><xsl:value-of select="$contactPersonString"/></contact_person>
+                        <address_string><xsl:value-of select="$addressString"/></address_string>
+                    </xsl:if>
+                </xsl:for-each>
+        </xsl:variable>
+        
         <xsl:variable name="author-group" as="element(contrib-group)">
             <contrib-group>
                 <xsl:for-each select="tokenize( . , ',|\sand\s|&amp;')">
@@ -193,7 +205,33 @@
                             <xsl:attribute name="ref-type">aff</xsl:attribute>
                             <xsl:attribute name="rid"><xsl:value-of select="$aff_rid"/></xsl:attribute>
                         </xsl:element>
-                    </contrib>    
+                        <!-- add contact address if it matches the author (surname and given-names are present) -->                        
+                        <xsl:choose>
+                            <xsl:when test="$contact-address/contact_person and $contact-address/address_string">
+                                <xsl:if test="
+                                    matches($contact-address/contact_person , $current_name/surname) and 
+                                    matches($contact-address/contact_person , $current_name/given-names)">
+                                    <xsl:comment>Fixme! Properly tag &lt;adress>...&lt;/adress>:</xsl:comment>
+                                    <xsl:comment>institution|addr-line|city|country|phone|postal-code|state|email|ext-link|uri</xsl:comment>
+                                    <address>
+                                        <xsl:analyze-string select="$contact-address/address_string" regex="\s*,\s*">
+                                            <xsl:matching-substring/>
+                                            <xsl:non-matching-substring>
+                                                <xsl:variable name="current-line"><xsl:copy/></xsl:variable>
+                                                <xsl:choose>
+                                                    <xsl:when test="matches($current-line , '^[\c\d._%+-]+@[\c\d.-]+\.\c\c+$')">
+                                                        <email><xsl:value-of select="$current-line"/></email>
+                                                    </xsl:when>
+                                                    <xsl:otherwise><addr-line><xsl:value-of select="$current-line"/></addr-line></xsl:otherwise>
+                                                </xsl:choose>
+                                            </xsl:non-matching-substring>
+                                        </xsl:analyze-string>
+                                    </address>
+                                </xsl:if>
+                            </xsl:when>
+                            <xsl:otherwise/>
+                        </xsl:choose>
+                    </contrib>
                 </xsl:for-each>
             </contrib-group>
         </xsl:variable>

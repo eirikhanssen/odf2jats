@@ -37,6 +37,14 @@
                   <given-names>Peter</given-names>
                </name>
                <xref ref-type="aff" rid="P_Angerer"/>
+               <!--Fixme! Properly tag <adress>...</adress>:-->
+               <!--institution|addr-line|city|country|phone|postal-code|state|email|ext-link|uri-->
+               <address>
+                  <addr-line>Institute for Occupational and Social Medicine</addr-line>
+                  <addr-line>Heinrich-Heine-University</addr-line>
+                  <addr-line>Moorenstr. 5</addr-line>
+                  <addr-line>40225 Düsseldorf</addr-line>
+               </address>
             </contrib>
             <contrib contrib-type="author">
                <name>
