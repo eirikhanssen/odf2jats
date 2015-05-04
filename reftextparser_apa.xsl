@@ -42,7 +42,7 @@
                 <!-- a digit-range in parens should not be considered a reference -->
                 <xsl:value-of select="false()"/>
             </xsl:when>
-            <xsl:when test="matches($str, '^[nN]=\d+$')">
+            <xsl:when test="matches($str, '^[nN]\s*=\s*\d+$')">
                 <xsl:message>
                     <xsl:text>The parens: «(</xsl:text>
                     <xsl:value-of select="$str"/>
