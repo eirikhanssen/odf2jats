@@ -118,7 +118,7 @@
 
     <!-- Delete unneeded lvl attribute from sec elements -->
     <p:delete match="sec/@lvl"/>
-    
+
     <p:xslt name="comma_surrounded_by_italic" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
@@ -128,7 +128,7 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
+
     <p:xslt name="merge_adjacent_italic.xsl" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
@@ -138,7 +138,7 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
+
     <p:xslt name="remove_doi_marker_immediately_before_tagged_doi_url" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
@@ -210,6 +210,9 @@
             <p:empty/>
         </p:input>
     </p:xslt>
+
+    <!-- Delete unneeded style attributes from some p elements -->
+    <p:delete match="p/@style"/>
 
     <p:identity/>
 

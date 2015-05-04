@@ -170,21 +170,22 @@
     </xsl:template>
 
     <xsl:template match="authors">
+        <xsl:variable name="contact-info" select="/article/contact-info" as="element(contact-info)*"/>
         <xsl:variable name="author-group" as="element(contrib-group)">
             <contrib-group>
                 <xsl:for-each select="tokenize( . , ',|\sand\s|&amp;')">
+                    <xsl:variable name="current_name">
+                        <xsl:analyze-string select="normalize-space(.)" regex="\c+$">
+                            <xsl:matching-substring>
+                                <surname><xsl:value-of select="normalize-space(.)"/></surname>
+                            </xsl:matching-substring>
+                            <xsl:non-matching-substring>
+                                <given-names><xsl:value-of select="normalize-space(.)"/></given-names>
+                            </xsl:non-matching-substring>
+                        </xsl:analyze-string>
+                    </xsl:variable>
                     <contrib contrib-type="author">
                         <name>
-                            <xsl:variable name="current_name">
-                                <xsl:analyze-string select="normalize-space(.)" regex="\c+$">
-                                    <xsl:matching-substring>
-                                        <surname><xsl:value-of select="normalize-space(.)"/></surname>
-                                    </xsl:matching-substring>
-                                    <xsl:non-matching-substring>
-                                        <given-names><xsl:value-of select="normalize-space(.)"/></given-names>
-                                    </xsl:non-matching-substring>
-                                </xsl:analyze-string>
-                            </xsl:variable>
                             <xsl:sequence select="$current_name/surname, $current_name/given-names"/>
                         </name>
                         <xsl:variable name="aff_rid" select="concat(replace(normalize-space(.) , '^(.).+' , '$1') , '_' , replace( . , '.+\s' , ''))"/>
@@ -199,9 +200,26 @@
 
         <xsl:variable name="affs">
             <xsl:for-each select="$author-group/contrib/xref[@ref-type='aff']">
+                <xsl:variable name="currentAuthorSurname" select="../name/surname" as="xs:string"/>
+                <xsl:variable name="currentAuthorGivenNames" select="../name/given-names" as="xs:string"/>
+                <xsl:variable name="currentContactInfo">
+                    <xsl:for-each select="$contact-info">
+                        <xsl:if test="matches( . , $currentAuthorGivenNames) and matches( . , $currentAuthorSurname) and not(matches( . , '^\s*[Cc]ontact:'))">
+                            <xsl:value-of select="replace( . , '^[^,]*?,\s*(.*?)$','$1')"/>
+                        </xsl:if>
+                    </xsl:for-each>
+                </xsl:variable>
+
                 <xsl:element name="aff">
                     <xsl:attribute name="id" select="@rid"/>
-                    <xsl:text>___</xsl:text>
+                    <xsl:choose>
+                        <xsl:when test="not(empty($currentContactInfo) and $currentContactInfo != '')">
+                            <xsl:value-of select="$currentContactInfo"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>___</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:for-each>
         </xsl:variable>
@@ -219,7 +237,7 @@
     <!-- These should not be applied to the body as they will be put in front or back -->
     <!-- since fn is listed here, it should not appear in the body, yet it does! -->
     <!-- If I can't prevent it from appearing in the body, I suppose I have to delete it with XProc -->
-    <xsl:template match="fn|abstract|keywords|authors|article-title|ref|date|article-identifiers" mode="body"/>
+    <xsl:template match="fn|abstract|keywords|authors|article-title|ref|date|article-identifiers|contact-info" mode="body"/>
 
     <xsl:template match="node()|@*" mode="body">
         <!-- if it has preceding::ref, then do nothing (don't copy the node to body) -->
