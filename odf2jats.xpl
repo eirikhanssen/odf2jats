@@ -191,6 +191,16 @@
     </p:xslt>
 
     <!-- Attempt to auto-tag citations in the running text -->
+    <p:xslt name="reftextparser_et_al_outside_parens" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="reftextparser_apa_et_al_outside_parens.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+
     <p:xslt name="reftextparser" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">

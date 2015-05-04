@@ -10,7 +10,7 @@
 
     <xsl:output method="xml" indent="yes"/>
 
-    <xsl:function name="o2j:isAssumedToBeReference" as="xs:boolean">
+    <xsl:function name="o2j:isAssumedToBeUntaggedReference" as="xs:boolean">
         <xsl:param name="str" as="xs:string"/>
         <xsl:variable name="hasFourDigitsGroup" select="matches($str , '\d{4}')" as="xs:boolean"/>
         <xsl:variable name="hasLetters" select="matches($str , '\c+')" as="xs:boolean"/>
@@ -25,7 +25,7 @@
                 <xsl:value-of select="false()"/>
             </xsl:when>
             <xsl:otherwise>
-                <!-- if the two first tests failed, then it is probably a reference in the parens -->
+                <!-- if all the other tests failed, then it is probably an untagged reference in the parens -->
                 <xsl:value-of select="true()"/>
             </xsl:otherwise>
         </xsl:choose>
@@ -50,11 +50,12 @@
         within parens are properly separated with commas, space and semicolons.
     -->
 
-    <xsl:template match="element()[not(ancestor::ref-list)]/text()">
+    <!-- don't process text in the reference list or already tagged references -->
+    <xsl:template match="element()[not(ancestor::ref-list)]/text()[not(ancestor::xref)]">
         <xsl:analyze-string select="." regex="\(([^()]+)\)">
             <xsl:matching-substring>
                 <xsl:choose>
-                    <xsl:when test="o2j:isAssumedToBeReference(regex-group(1)) eq true()">
+                    <xsl:when test="o2j:isAssumedToBeUntaggedReference(regex-group(1)) eq true()">
 
                         <!-- process the citation -->
                         <xsl:variable name="parensWithRefs">

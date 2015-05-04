@@ -163,8 +163,8 @@
          <sec>
             <title>Major findings and contributions of this review</title>
             <p>Since our review draws on a limited number of studies and a large diversity in settings, designs, participants, and measurements, our conclusions are restricted to a qualitative statement. However, we can infer that there are meaningful and direct associations between physicians’ psychosocial work conditions and quality of care. The identified associations are largely independent from the subjective stress experienced by physicians (i.e., indirect pathway). Furthermore, the reviewed interventions indicate that a change in physicians’ psychosocial work conditions alters quality of care. However, it is neither possible to define the magnitude of effects nor yet justified to estimate overall effect sizes.</p>
-            <p>These findings corroborate our argument of direct effects between physicians’ psychosocial work conditions and inherent effects on quality of care (see Figure 1). Our argument of a direct pathway between work conditions and quality of care is consistent to system approaches of health care quality and safety, which propose that poorly designed hospital environments pose a systemic threat to patient care quality and safety (<xref ref-type="bibr" rid="D2011">Dekker, 2011</xref>; <xref ref-type="bibr" rid="HJHF2004">Hoff et al., 2004</xref>; <xref ref-type="bibr" rid="LMEGSWW2012">Lawton et al., 2012</xref>; <xref ref-type="bibr" rid="VMSCD2004">Vincent et al., 2004</xref>). Our results provide confirmation for our assumption that adverse psychosocial work conditions are a major indicator for insufficient work and care environments in health care (<xref ref-type="bibr" rid="CHKGASB2006">Carayon et al., 2006</xref>). Almost all studies included in this review examined direct associations between physicians’ work conditions and quality of care. Only Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>) additionally considered physicians' stress reactions and health as an intermediate factor, but did not confirm a mediating effect. Direct associations were investigated in different clinical settings (i.e., in-patient as well as out-patient clinics) and based on various evaluations (as perceived by physicians or patients), while outcomes were operationalized differently (e.g., success of treatment or incidence of errors).</p>
-            <p>Although the reviewed studies mostly confirm the association between physicians’ psychosocial work conditions and quality of care, not all analyzed work conditions were related to the outcomes in question: Koponen et al. (<xref ref-type="bibr" rid="    2013">2013</xref>) did not observe a relationship between supervisor support and glycemic control, while Virtanen et al. (<xref ref-type="bibr" rid="    2012">2012</xref>) did not observe associations between relational justice, effort-reward imbalance, and work-unit team climate and hospital infections as identified in previous research (<xref ref-type="bibr" rid="VKTOPVK2009">Virtanen et al., 2009</xref>). These findings suggest that not all outcomes concerning quality of care are related to physicians’ work conditions in similar ways. For example, Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>) revealed associations between work control as well as value alignment and treatment quality of diabetes, but found no effects on patients’ hypertension.</p>
+            <p>These findings corroborate our argument of direct effects between physicians’ psychosocial work conditions and inherent effects on quality of care (see Figure 1). Our argument of a direct pathway between work conditions and quality of care is consistent to system approaches of health care quality and safety, which propose that poorly designed hospital environments pose a systemic threat to patient care quality and safety (<xref ref-type="bibr" rid="D2011">Dekker, 2011</xref>; <xref ref-type="bibr" rid="HJHF2004">Hoff et al., 2004</xref>; <xref ref-type="bibr" rid="LMEGSWW2012">Lawton et al., 2012</xref>; <xref ref-type="bibr" rid="VMSCD2004">Vincent et al., 2004</xref>). Our results provide confirmation for our assumption that adverse psychosocial work conditions are a major indicator for insufficient work and care environments in health care (<xref ref-type="bibr" rid="CHKGASB2006">Carayon et al., 2006</xref>). Almost all studies included in this review examined direct associations between physicians’ work conditions and quality of care. Only <xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al. (2009)</xref> additionally considered physicians' stress reactions and health as an intermediate factor, but did not confirm a mediating effect. Direct associations were investigated in different clinical settings (i.e., in-patient as well as out-patient clinics) and based on various evaluations (as perceived by physicians or patients), while outcomes were operationalized differently (e.g., success of treatment or incidence of errors).</p>
+            <p>Although the reviewed studies mostly confirm the association between physicians’ psychosocial work conditions and quality of care, not all analyzed work conditions were related to the outcomes in question: <xref ref-type="bibr" rid="KVPVPSRS2013">Koponen et al. (2013)</xref> did not observe a relationship between supervisor support and glycemic control, while <xref ref-type="bibr" rid="VOKSESV2012">Virtanen et al. (2012)</xref> did not observe associations between relational justice, effort-reward imbalance, and work-unit team climate and hospital infections as identified in previous research (<xref ref-type="bibr" rid="VKTOPVK2009">Virtanen et al., 2009</xref>). These findings suggest that not all outcomes concerning quality of care are related to physicians’ work conditions in similar ways. For example, <xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al. (2009)</xref> revealed associations between work control as well as value alignment and treatment quality of diabetes, but found no effects on patients’ hypertension.</p>
             <p>Work overload and multitasking demands limit physicians’ opportunities for direct patient communication. This may explain inferior patient ratings of perceived care as well as wrong decisions due to insufficient time for gathering critical patient information (<xref ref-type="bibr" rid="MVKG2012">Mache et al., 2012</xref>). In line with this reasoning, work stress can also decrease kindness or empathy of medical staff towards patients (<xref ref-type="bibr" rid="AL2011">Alarcon &amp; Lyons, 2011</xref>; <xref ref-type="bibr" rid="RA2010">Rousseau &amp; Aube, 2010</xref>). However, specific work conditions may act as a buffer or resource in the hypothesized framework (see Figure 1). Adverse work conditions strongly affect physicians’ well-being, but their reactions do not inevitably translate into lower-quality care (<xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al., 2009</xref>). However, daily hassles and chronic disturbances of well-being may interfere with motivation, satisfaction, and capability of delivering empathetic and highest-standard care in the long term (<xref ref-type="bibr" rid="KVPVPSRS2013">Koponen et al., 2013</xref>).</p>
          </sec>
          <!-- sec lvl 3 end -->
@@ -1638,7 +1638,9 @@
                <tbody>
                   <tr>
                      <td>
-                        <p>McKinstry et al. (<xref ref-type="bibr" rid="    2007">2007</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="MKWPFTHM2007">McKinstry et al. (2007)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational study, cross-sectional survey linked to registry data</p>
@@ -1670,7 +1672,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Klein et al. (<xref ref-type="bibr" rid="    2011">2011</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="KGB2011">Klein et al. (2011)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational study, cross-sectional survey</p>
@@ -1705,7 +1709,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Mache et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="MVKG2012">Mache et al. (2012)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational study, cross-sectional survey</p>
@@ -1740,7 +1746,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Weigl et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="WHASG2013">Weigl et al. (2013)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Controlled intervention study</p>
@@ -1784,7 +1792,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Weigl et al. (<xref ref-type="bibr" rid="    2014">2014</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="WHMBA2014">Weigl et al. (2014)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Controlled intervention study</p>
@@ -1856,7 +1866,9 @@
                <tbody>
                   <tr>
                      <td>
-                        <p>Koponen et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="KVPVPSRS2013">Koponen et al. (2013)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational, cross-sectional study</p>
@@ -1888,7 +1900,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Virtanen et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="VOKSESV2012">Virtanen et al. (2012)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational, cross-sectional study</p>
@@ -1922,7 +1936,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Virtanen et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="VKTOPVK2009">Virtanen et al. (2009)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational, cross-sectional study</p>
@@ -1959,7 +1975,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al. (2009)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational, cross-sectional study</p>
@@ -2030,7 +2048,9 @@
                <tbody>
                   <tr>
                      <td>
-                        <p>Jones et al. (<xref ref-type="bibr" rid="    1988">1988</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="JBSFKW1988">Jones et al. (1988)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>4 studies: 2 observational – cross sectional, 2 interventional</p>
@@ -2084,7 +2104,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Linzer et al. (<xref ref-type="bibr" rid="    2009">2009</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al. (2009)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>
@@ -2119,7 +2141,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Nielsen et al. (<xref ref-type="bibr" rid="    2013">2013</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="NPRPM2013">Nielsen et al. (2013)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational, cross-sectional</p>
@@ -2154,7 +2178,9 @@
                   </tr>
                   <tr>
                      <td>
-                        <p>Ross et al. (<xref ref-type="bibr" rid="    2012">2012</xref>)</p>
+                        <p>
+                           <xref ref-type="bibr" rid="Ross  2012">Ross et al. (2012)</xref>
+                        </p>
                      </td>
                      <td>
                         <p>Observational, cross-sectional, qualitative study</p>
