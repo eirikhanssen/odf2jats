@@ -1,35 +1,43 @@
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
+May 04, 2015 3:06:31 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
 WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Fahrenkopf, et al., 2008» To: «Fahrenkopf et al., 2008»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «West, et al., 2006)» To: «West et al., 2006)»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Hickam, et al., 2003» To: «Hickam et al., 2003»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Jones, et al., 1988)» To: «Jones et al., 1988)»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Lawton, et al., 2012» To: «Lawton et al., 2012»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Carayon, et al., 2006» To: «Carayon et al., 2006»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Lawton, et al., 2012» To: «Lawton et al., 2012»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Ross, et al., 2013)» To: «Ross et al., 2013)»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Hickam, et al., 2003)» To: «Hickam et al., 2003)»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Weigl, et al., 2014» To: «Weigl et al., 2014»
-May 04, 2015 2:04:16 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:36:50:autocorrections.xsl: removed «,» 
 	 From: «Weigl, et al., 2013)» To: «Weigl et al., 2013)»
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:204:48:The parens: «(n=1311)» was not recognized as a citation (probably numeric data). Please check manually.
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:204:48:The parens: «(n=1581)» was not recognized as a citation (probably numeric data). Please check manually.
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:204:48:The parens: «(n=8975)» was not recognized as a citation (probably numeric data). Please check manually.
+May 04, 2015 3:06:32 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:204:48:The parens: «(n=8954)» was not recognized as a citation (probably numeric data). Please check manually.
