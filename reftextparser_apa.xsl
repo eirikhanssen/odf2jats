@@ -166,7 +166,7 @@
             <xsl:variable name="year" select="replace( . , '.*(\d{4}\c*)', '$1')"/>
             <xsl:choose>
                 <xsl:when test="matches( . ,'\p{Lu}') and matches( . , 'et al\.')">
-                    <xsl:variable name="first_author_surname_in_citation" select="replace(. , '^\s*(.*?)\s*?et\s+al.*?$', '$1')"/>
+                    <xsl:variable name="first_author_surname_in_citation" select="replace(. , '^\s*(\c*?)[,]?\s*?et\s+al.*?$', '$1')"/>
                     <xsl:choose>
                         <!-- 
                             If there is one and only one ref in the ref-list where the first author's surname and the year matches the 
