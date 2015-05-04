@@ -16,10 +16,10 @@
     <xsl:variable name="element-citation-refs" select="/article/back/ref-list/ref[element-citation]"/>
     
     <xsl:template match="element()[not(ancestor::ref-list)]/text()">
-        <xsl:analyze-string select="." regex="(((\c+) et al. )\((\d{{4}}\c?)\))">
+        <xsl:analyze-string select="." regex="(((\c+)\s+(et\s+al\.|and\s+colleagues)\s+)\((\d{{4}}\c?)\))">
             <xsl:matching-substring>
                 <xsl:variable name="authorSurname" select="regex-group(3)"/>
-                <xsl:variable name="yearString" select="regex-group(4)"/>
+                <xsl:variable name="yearString" select="regex-group(5)"/>
                 
                 <xsl:variable name="rid">
                     <xsl:choose>
