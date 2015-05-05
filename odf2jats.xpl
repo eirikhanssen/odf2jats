@@ -190,6 +190,21 @@
         </p:input>
     </p:xslt>
 
+    <!-- insert a comment to notify that there are authors that haven't been supplied in the manuscript. -->
+    <p:insert match="/article/back/ref-list/ref/element-citation/person-group[@person-group-type='author']/name[matches(surname , '^…')]" position="before">
+        <p:input port="insertion">
+            <!-- I just want to insert a comment, but if I don't have an element here, the processor complains that p:inline is incomplete -->
+            <p:inline><!-- Article has more authors than can be listed in APA style, some are missing here. --><commentDummy/></p:inline>
+        </p:input>
+    </p:insert>
+
+    <p:delete match="//commentDummy"/>
+
+    <!-- Delete ellipsis from surname of author -->
+    <p:string-replace 
+        match="/article/back/ref-list/ref/element-citation/person-group[@person-group-type='author']/name/surname/text()[matches(. , '^\s*…\s*.*?$')]" 
+        replace="replace(. , '^\s*…\s*(.*?)$','$1')"/>
+
     <!-- Attempt to auto-tag citations in the running text -->
     <p:xslt name="reftextparser_et_al_outside_parens" version="2.0">
         <p:input port="source"/>
