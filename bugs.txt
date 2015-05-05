@@ -1,0 +1,8 @@
+<!--Klein, J., Grosse, K., Blum, K., & von dem Knesebeck, O. (2011). Psychosocial stress at work and perceived quality of care among clinicians in surgery. <italic>BMC Health Services Research, 11</italic>, 109. <uri>http://dx.doi.org/10.1186/1472-6963-11-109</uri>-->
+
+problem: von dem 
+
+<xref ref-type="bibr" rid="L   2009">one study each in Linzer et al., 2009</xref>;
+<xref ref-type="bibr" rid="LMWBBVS2009">one study each in Linzer et al., 2009</xref>;
+
+(<xref ref-type="bibr" rid="K2013">for details see Koponen et al 2013</xref>)

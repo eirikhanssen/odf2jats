@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="AngererFig1Framework.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.79022284"
+     inkscape:cx="323.17984"
+     inkscape:cy="300.79343"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="1024px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="TriangleOutS"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutS">
+      <path
+         transform="scale(0.2)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path4891" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path4888" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path4885" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutSd"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutSd">
+      <path
+         transform="scale(0.2)"
+         style="stroke:#ff0000;stroke-width:1.0pt;fill:#ff0000;fill-rule:evenodd"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path5566" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-452.36218)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <flowRoot
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:bold;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Sans Bold;font-stretch:normal;font-variant:normal"
+       id="flowRoot3276"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3278"><rect
+           y="355.71429"
+           x="752.85712"
+           height="32.857143"
+           width="230"
+           id="rect3280" /></flowRegion><flowPara
+         id="flowPara3282" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4759"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:10px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4761"><rect
+           id="rect4763"
+           width="11.632653"
+           height="22.370487"
+           x="338.24176"
+           y="522.1507" /></flowRegion><flowPara
+         id="flowPara4765"></flowPara></flowRoot>    <g
+       id="g5836">
+      <rect
+         ry="1.5904599"
+         rx="1.5904601"
+         y="452.36218"
+         x="0"
+         height="600"
+         width="800"
+         id="rect5119"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.5, 2.5;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.30083656px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="125.77148"
+         y="509.96964"
+         id="text2985"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan2987"
+           x="129.41867"
+           y="509.96964">Hospital </tspan><tspan
+           sodipodi:role="line"
+           x="125.77148"
+           y="542.84564"
+           id="tspan2989">Work System</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.30083656px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="674.56885"
+         y="512.58301"
+         id="text2997"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="674.56885"
+           y="512.58301"
+           id="tspan3001">Patient care</tspan><tspan
+           sodipodi:role="line"
+           x="674.56885"
+           y="545.45905"
+           id="tspan3009">outcomes</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.64850044px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="114.45841"
+         y="609.5506"
+         id="text3181"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan3187"
+           sodipodi:role="line"
+           x="114.45841"
+           y="609.5506">indirect effects</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3194"
+         y="987.60583"
+         x="341.15219"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.64850044px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="987.60583"
+           x="341.15219"
+           id="tspan4769"
+           sodipodi:role="line">direct effects</tspan></text>
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#aad4ff;fill-opacity:1;stroke:#000080;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect3489"
+         width="217.14668"
+         height="336.7822"
+         x="16.395508"
+         y="676.29919" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3011"
+         y="707.72107"
+         x="30.079817"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           id="tspan3015"
+           y="707.72107"
+           x="30.079817"
+           sodipodi:role="line"
+           style="text-align:start;text-anchor:start">Adverse</tspan><tspan
+           y="734.38965"
+           x="30.079817"
+           sodipodi:role="line"
+           id="tspan3019"
+           style="text-align:start;text-anchor:start">psychosocial</tspan><tspan
+           y="761.05823"
+           x="30.079817"
+           sodipodi:role="line"
+           id="tspan3021"
+           style="text-align:start;text-anchor:start">work conditions</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         x="82.181328"
+         y="872.65521"
+         id="text3040"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3055"
+           x="82.181328"
+           y="872.65521"
+           style="font-weight:normal;-inkscape-font-specification:Arial" /><tspan
+           sodipodi:role="line"
+           x="82.181328"
+           y="899.32379"
+           id="tspan3065"
+           style="font-weight:normal;-inkscape-font-specification:Arial">Organizational </tspan><tspan
+           sodipodi:role="line"
+           x="82.181328"
+           y="925.99237"
+           id="tspan3075"
+           style="font-weight:normal;-inkscape-font-specification:Arial">justice</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="55.472122"
+         y="835.68445"
+         id="text3069"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3071"
+           x="55.472122"
+           y="835.68445">●</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="29.81938"
+         y="804.86572"
+         id="text3077"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3079"
+           x="29.81938"
+           y="804.86572">Workstress Models</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3173"
+         y="900.03699"
+         x="55.472122"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="900.03699"
+           x="55.472122"
+           id="tspan3175"
+           sodipodi:role="line">●</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="55.472122"
+         y="968.74139"
+         id="text3177"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3179"
+           x="55.472122"
+           y="968.74139">●</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3303"
+         y="943.34424"
+         x="79.863655"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="943.34424"
+           x="79.863655"
+           id="tspan3305"
+           sodipodi:role="line" /><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3315"
+           y="970.01282"
+           x="79.863655"
+           sodipodi:role="line">Job</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3317"
+           y="996.6814"
+           x="79.863655"
+           sodipodi:role="line">characteristics</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         x="83.340164"
+         y="811.23688"
+         id="text3319"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3321"
+           x="83.340164"
+           y="811.23688"
+           style="font-weight:normal;-inkscape-font-specification:Arial" /><tspan
+           sodipodi:role="line"
+           x="83.340164"
+           y="837.90546"
+           id="tspan3323"
+           style="font-weight:normal;-inkscape-font-specification:Arial">Effort reward</tspan><tspan
+           sodipodi:role="line"
+           x="83.340164"
+           y="864.57404"
+           id="tspan3333"
+           style="font-weight:normal;-inkscape-font-specification:Arial">imbalance</tspan></text>
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffd9aa;fill-opacity:1;stroke:#ff0000;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect4261"
+         width="217.14668"
+         height="336.7822"
+         x="566.45782"
+         y="667.40588" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3036"
+         y="729.1947"
+         x="678.88165"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="729.1947"
+           x="678.88165"
+           sodipodi:role="line"
+           id="tspan3038">Quality of care</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         x="604.84509"
+         y="873.68597"
+         id="text3144"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3146"
+           x="604.84509"
+           y="873.68597"
+           style="font-weight:normal;-inkscape-font-specification:Arial" /><tspan
+           sodipodi:role="line"
+           x="604.84509"
+           y="900.35455"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3165" /><tspan
+           sodipodi:role="line"
+           x="604.84509"
+           y="927.02313"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3167">Lack of </tspan><tspan
+           sodipodi:role="line"
+           x="604.84509"
+           y="953.69171"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3169">complications</tspan><tspan
+           sodipodi:role="line"
+           x="604.84509"
+           y="980.36029"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3171" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3202"
+         y="836.80341"
+         x="604.29303"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="836.80341"
+           x="604.29303"
+           id="tspan3204"
+           sodipodi:role="line" /><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="863.47198"
+           x="604.29303"
+           sodipodi:role="line"
+           id="tspan3206">Physician-patient</tspan><tspan
+           id="tspan3208"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="890.14056"
+           x="604.29303"
+           sodipodi:role="line">relationship</tspan><tspan
+           id="tspan3220"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="916.80914"
+           x="604.29303"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         x="605.30347"
+         y="777.5025"
+         id="text3222"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="605.30347"
+           y="777.5025"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3230"
+           dy="2.7017379e-08">Success of </tspan><tspan
+           sodipodi:role="line"
+           x="605.30347"
+           y="804.17108"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3232">diagnostics and</tspan><tspan
+           sodipodi:role="line"
+           x="605.30347"
+           y="830.83966"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3234">treatment</tspan><tspan
+           sodipodi:role="line"
+           x="605.30347"
+           y="857.50824"
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3240" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="582.67615"
+         y="775.85278"
+         id="text3069-6"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3071-4"
+           x="582.67615"
+           y="775.85278">●</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3173-5"
+         y="865.01495"
+         x="582.67615"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="865.01495"
+           x="582.67615"
+           id="tspan3175-6"
+           sodipodi:role="line">●</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="582.67615"
+         y="927.61652"
+         id="text3177-7"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3179-0"
+           x="582.67615"
+           y="927.61652">●</tspan></text>
+      <rect
+         y="589.16168"
+         x="295.95676"
+         height="336.7822"
+         width="217.14668"
+         id="rect4259"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#acffaa;fill-opacity:1;stroke:#008000;stroke-width:1;marker:none;enable-background:accumulate" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="383.11713"
+         y="636.62463"
+         id="text3023"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan3029"
+           sodipodi:role="line"
+           x="383.11713"
+           y="636.62463">Physicians</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3081"
+         y="684.67206"
+         x="327.93607"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="684.67206"
+           x="327.93607"
+           id="tspan3083"
+           sodipodi:role="line">Physical health</tspan><tspan
+           y="711.34064"
+           x="327.93607"
+           sodipodi:role="line"
+           id="tspan3085">Mental health</tspan><tspan
+           y="738.00922"
+           x="327.93607"
+           sodipodi:role="line"
+           id="tspan3087">Stress reactions</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3089"
+         y="748.71448"
+         x="363.84961"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="748.71448"
+           x="363.84961"
+           id="tspan3091"
+           sodipodi:role="line" /><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           id="tspan3103"
+           y="775.38306"
+           x="363.84961"
+           sodipodi:role="line">Irritability</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="802.05164"
+           x="363.84961"
+           sodipodi:role="line"
+           id="tspan3125">Burnout</tspan><tspan
+           style="font-weight:normal;-inkscape-font-specification:Arial"
+           y="828.72021"
+           x="363.84961"
+           sodipodi:role="line"
+           id="tspan3127">Fatigue</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="328.32153"
+         y="866.83423"
+         id="text3129"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan3135"
+           sodipodi:role="line"
+           x="328.32153"
+           y="866.83423">Job satisfaction</tspan><tspan
+           sodipodi:role="line"
+           x="328.32153"
+           y="893.50281"
+           id="tspan3142">Motivation</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="333.34451"
+         y="776.55597"
+         id="text3069-66"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3071-0"
+           x="333.34451"
+           y="776.55597">●</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3173-0"
+         y="801.47382"
+         x="333.34451"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="801.47382"
+           x="333.34451"
+           id="tspan3175-1"
+           sodipodi:role="line">●</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33486557px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="333.34451"
+         y="826.3916"
+         id="text3177-5"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3179-7"
+           x="333.34451"
+           y="826.3916">●</tspan></text>
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5766"
+         d="m 533.48933,611.4818 132.30013,0 c 6.82982,0 14.60797,0.56776 14.60797,13.62209 l 0,20.72076"
+         style="fill:none;stroke:#ff0000;stroke-width:12.5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#TriangleOutSd)" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:12.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutSd)"
+         d="m 251.34647,957.04609 266.38291,0 12.12183,0"
+         id="path5768"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:12.5;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;marker-end:url(#TriangleOutSd)"
+         d="m 109.88089,663.38228 0,-23.01442 c 0,-6.82982 0.56776,-14.60797 13.62209,-14.60797 l 136.43504,0"
+         id="path5772"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         ry="1.5904599"
+         rx="1.5904599"
+         y="484.16803"
+         x="304.97726"
+         height="101.23726"
+         width="193.61627"
+         id="rect5687"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.5, 2.5;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2991"
+         y="512.58301"
+         x="404.64569"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.30083656px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           id="tspan2995"
+           y="512.58301"
+           x="404.64569"
+           sodipodi:role="line">Physician</tspan><tspan
+           y="545.45905"
+           x="404.64569"
+           sodipodi:role="line"
+           id="tspan3005">outcomes</tspan></text>
+    </g>
+  </g>
+</svg>
