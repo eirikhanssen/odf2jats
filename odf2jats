@@ -1,2 +1,2 @@
 #!/bin/bash
-calabash odf2jats.xpl 2> err.log | tee odf2jats.output.xml | pygmentize -l xml | less -R
+calabash -i source=$1 odf2jats.xpl 2> err.log | tee odf2jats.output.xml | pygmentize -l xml | less -R

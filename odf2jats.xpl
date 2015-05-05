@@ -8,15 +8,10 @@
     xmlns:mml="http://www.w3.org/1998/Math/MathML"
     exclude-inline-prefixes="c p">
 
-    <p:input port="source">
-        <!--<p:document href="source/odf-testdoc/content.xml"/>-->
-        <!--<p:document href="source/odf-nylenna/content.xml"/>-->
-        <!--<p:document href="source/odf-crosson/content.xml"/>-->
-        <!--<p:document href="source/odf-casalino_crosson/content.xml"/>-->
-        <!--<p:document href="source/odf-exworthy/content.xml"/>-->
-        <!--<p:document href="source/odf-exworthy-refs/content.xml"/>-->
-        <p:document href="source/odf-angerer/content.xml"/>
-    </p:input>
+    <!-- take input document from parameter -->
+    <p:input port="source"/>
+    
+    <p:input port="parameters" kind="parameter"/>
 
     <p:output port="result"/>
 
