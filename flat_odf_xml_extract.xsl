@@ -345,16 +345,23 @@
             <sm:transformTo>ref</sm:transformTo>
         </sm:style>
         <sm:style>
+            <sm:name>Title</sm:name>
+            <sm:name>PP_20_Heading_20_1</sm:name>
+            <sm:name>H1-ArticleTitle</sm:name>
+            <sm:transformTo>article-title</sm:transformTo>
+        </sm:style>
+        <sm:style>
             <sm:name>Heading_20_1</sm:name>
-            <sm:name>FauxHeading1WithoutOutline</sm:name>
             <sm:transformTo>h1</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Heading_20_2</sm:name>
+            <sm:name>PP_20_Heading_20_2</sm:name>
             <sm:transformTo>h2</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Heading_20_3</sm:name>
+            <sm:name>PP_20_Heading_20_3</sm:name>
             <sm:transformTo>h3</sm:transformTo>
         </sm:style>
         <sm:style>
@@ -372,11 +379,6 @@
         <sm:style>
             <sm:name>Subtitle</sm:name>
             <sm:transformTo>subtitle</sm:transformTo>
-        </sm:style>
-        <sm:style>
-            <sm:name>Title</sm:name>
-            <sm:name>H1-ArticleTitle</sm:name>
-            <sm:transformTo>article-title</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>Sender</sm:name>

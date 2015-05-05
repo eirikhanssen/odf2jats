@@ -27,7 +27,9 @@
                <subject>305.553</subject>
             </subj-group>
          </article-categories>
-         <title-group/>
+         <title-group>
+            <article-title>Physician Satisfaction and Physician Well-Being: Should Anyone Care?</article-title>
+         </title-group>
          <contrib-group>
             <contrib contrib-type="author">
                <name>
@@ -91,7 +93,6 @@
       </article-meta>
    </front>
    <body>
-      <title>Physician Satisfaction and Physician Well-Being: Should Anyone Care?</title>
       <p>Keywords: physician satisfaction, physician dissatisfaction, quality of care, physician well-being, physician burnout</p>
       <p>It seems obvious that patients would prefer that their physician not be depressed, burned out, sleep-deprived, or addicted to drugs or alcohol. But in addition, it seems likely that patients would prefer their physician to be reasonably satisfied with his or her work. What would you say if you—the reader—were asked “Would you willingly consult a physician who is very dissatisfied with his or her work?” What would go through your mind? Will the physician care about you? Will she make you feel uncomfortable? Will she order the right tests? Will she be conscientious about details? Will she make the right diagnosis? Will she stay in touch to make sure that you recover as expected? Can you trust her?</p>
       <p>These questions suggest that physician dissatisfaction and physician well-being may be issues worthy of attention. If physician dissatisfaction, for example, affects the quality of care, and if it is widespread, then physician dissatisfaction is a public health issue (<xref ref-type="bibr" rid="K2012">Kravitz, 2012</xref>). In this paper we present a simple model of hypothesized relationships between physician dissatisfaction, physician well-being, and the quality of care for patients. We briefly review the evidence on the effects of physician dissatisfaction and a lack of physician well-being on quality. We suggest areas where research is lacking and types of research that might address these gaps.</p>
@@ -196,11 +197,6 @@
             <graphic id="graphic2"
                      xlink:href="Pictures/10000201000002650000033021D849EF.png"/>
          </fig>
-      </sec>
-      <!-- sec lvl 2 end -->
-      <!-- sec lvl 2 begin -->
-      <sec>
-         <title/>
       </sec>
       <!-- sec lvl 2 end -->
    </body>
