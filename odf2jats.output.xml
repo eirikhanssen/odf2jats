@@ -89,11 +89,16 @@
          <abstract>
             <p>We present a model of hypothesized relationships between physician satisfaction, physician well-being and the quality of care, in addition to a review of relevant literature. The model suggests that physicians who are stressed, burned out, depressed, and/or have poor self-care are more likely to be dissatisfied, and vice-versa. Both poor physician well-being and physician dissatisfaction are hypothesized to lead to diminished physician concentration, effort, empathy, and professionalism. This results in misdiagnoses and other medical errors, a higher rate of inappropriate referrals and prescriptions, lower patient satisfaction and adherence to physician recommendations, and worse physician performance in areas not observed by others. Research to date largely supports the model, but high quality studies are few. Research should include studies that are prospective, larger, and have a stronger analytic design, ideally including difference in differences analyses comparing quality of care for patients of physicians who become dissatisfied to those who remain satisfied, and vice versa.</p>
          </abstract>
-         <kwd-group kwd-group-type="author-generated"/>
+         <kwd-group kwd-group-type="author-generated">
+            <kwd>physician satisfaction</kwd>
+            <kwd>physician dissatisfaction</kwd>
+            <kwd>quality of care</kwd>
+            <kwd>physician well-being</kwd>
+            <kwd>physician burnout</kwd>
+         </kwd-group>
       </article-meta>
    </front>
    <body>
-      <p>Keywords: physician satisfaction, physician dissatisfaction, quality of care, physician well-being, physician burnout</p>
       <p>It seems obvious that patients would prefer that their physician not be depressed, burned out, sleep-deprived, or addicted to drugs or alcohol. But in addition, it seems likely that patients would prefer their physician to be reasonably satisfied with his or her work. What would you say if you—the reader—were asked “Would you willingly consult a physician who is very dissatisfied with his or her work?” What would go through your mind? Will the physician care about you? Will she make you feel uncomfortable? Will she order the right tests? Will she be conscientious about details? Will she make the right diagnosis? Will she stay in touch to make sure that you recover as expected? Can you trust her?</p>
       <p>These questions suggest that physician dissatisfaction and physician well-being may be issues worthy of attention. If physician dissatisfaction, for example, affects the quality of care, and if it is widespread, then physician dissatisfaction is a public health issue (<xref ref-type="bibr" rid="K2012">Kravitz, 2012</xref>). In this paper we present a simple model of hypothesized relationships between physician dissatisfaction, physician well-being, and the quality of care for patients. We briefly review the evidence on the effects of physician dissatisfaction and a lack of physician well-being on quality. We suggest areas where research is lacking and types of research that might address these gaps.</p>
       <!-- sec lvl 2 begin -->
@@ -509,8 +514,9 @@
                      <surname>McGlynn</surname>
                      <given-names>E. A.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>… Rogers</surname>
+                     <surname>Rogers</surname>
                      <given-names>W. H.</given-names>
                   </name>
                </person-group>
@@ -555,8 +561,9 @@
                      <surname>Durning</surname>
                      <given-names>S. J.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>… Shanafelt</surname>
+                     <surname>Shanafelt</surname>
                      <given-names>T. D.</given-names>
                   </name>
                </person-group>
@@ -597,8 +604,9 @@
                      <surname>Chiang</surname>
                      <given-names>V. W.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>… Landrigan</surname>
+                     <surname>Landrigan</surname>
                      <given-names>C. P.</given-names>
                   </name>
                </person-group>
@@ -679,8 +687,9 @@
                      <surname>Caloyeras</surname>
                      <given-names>J.P.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>… Tutty</surname>
+                     <surname>Tutty</surname>
                      <given-names>M.</given-names>
                   </name>
                </person-group>
@@ -1041,8 +1050,9 @@
                      <surname>Varkey</surname>
                      <given-names>A.B.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>…</surname>
+                     <surname/>
                      <given-names>M. D.</given-names>
                   </name>
                </person-group>
@@ -1105,8 +1115,9 @@
                      <surname>Satele</surname>
                      <given-names>D.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>… Freischlag</surname>
+                     <surname>Freischlag</surname>
                      <given-names>J.</given-names>
                   </name>
                </person-group>
@@ -1262,8 +1273,9 @@
                      <surname>Multari</surname>
                      <given-names>A.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>… Shanafelt</surname>
+                     <surname>Shanafelt</surname>
                      <given-names>T. D.</given-names>
                   </name>
                </person-group>
@@ -1338,8 +1350,9 @@
                      <surname>McMurray</surname>
                      <given-names>J. E.</given-names>
                   </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>… Schwartz</surname>
+                     <surname>Schwartz</surname>
                      <given-names>M.</given-names>
                   </name>
                </person-group>
