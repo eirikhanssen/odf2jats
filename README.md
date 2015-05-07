@@ -139,8 +139,10 @@ These steps will be unneccecary to do manually in the future as they will be han
 - paragraphs
 - lists that can be nested
 - tables
+- figures
 - headings (6 levels)
 - footnotes: xref pointing to the footnotes are left in the text, and the footnotes are grouped in back/fn-group
+- handling of content in the back section after the reference list (appendix) has been implemented
 - **journal-meta**
     - a template for a journal has been included, it could be changed for different journals by using a parameter to the pipeline
 - **article-meta**
@@ -155,6 +157,7 @@ These steps will be unneccecary to do manually in the future as they will be han
         - year
         - self-uri
         - doi 
+    - contact-info (if paragraphs have been styled with this style)
 - adjacent (following) italic elements with only punctuation or whitespace between are merged in references
 
 - **book/book-chapter type references**
@@ -184,6 +187,7 @@ These steps will be unneccecary to do manually in the future as they will be han
     - issue (if applicable)
     - fpage (if applicable)
     - lpage (if applicable)
+    - elocation-id (if applicable) - a single page number instead of a range is interpreted as elocation-id
     - uri (if applicable)
     - if the author made a typo mistake and used dot instead of comma between source and volume, 
       this is handled by a more permissive regex.
@@ -202,45 +206,53 @@ These steps will be unneccecary to do manually in the future as they will be han
 
 ## Todo
 
-### Extraction from the ODF container format to JATS
-- figures (not implemented)
-- contact-info is made available when marked up using ArticleContactInfo paragraph-style, but the
-  behaviour to extract that info into article-meta (and remove the temporary elements from body) 
-  has not been implemented yet.
-
 ### Improve ref-list autotagging
-- Electronic journal type references with elocation instead of page(s)
-    - elocation-id extraction not implemented
-    - Two options for formatting elocation id in lieu of an explicit construct in either:
-      the Publication Manual of the American Psychological Association or 
-      the APA Style Guide to Electronic References, or on the APA Style Blog.
-      Option 1: as a page number instead of the page range. Option 2: insert the word "Article" before it.
-        - Option 1: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, 166. http://dx.doi.org/10.1186/1472-6963-9-166
-        - Option 2: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, Article 166. http://dx.doi.org/10.1186/1472-6963-9-166
+
+When marking up electronic journal type references with elocation instead of page(s)
+there are two options for formatting elocation id in lieu of an explicit construct in either of:
+- The Publication Manual of the American Psychological Association
+- The APA Style Guide to Electronic References, or on the APA Style Blog
+
+The following options are:
+- Option 1: as a page number instead of the page range. (This is the option that has been adopted).
+    - Option 1: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, 166. http://dx.doi.org/10.1186/1472-6963-9-166
+- Option 2: insert the word "Article" before it.
+    - Option 2: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, Article 166. http://dx.doi.org/10.1186/1472-6963-9-166
     
 - Refs starting with following fail, but maybe this is acceptable because it is difficult to mark up using element-citation:
     - NICE. (2012).
     - WHO. (2000).
     - Institute of Medicine. (2001).
-- Many authors (8 or more) need better handling
-    - APA style: after the 6th author there will be an ellipsis, followed by the last author
-    - currently the last author has dots before the name tagged in JATS
-    - I have to decide what to do in this case; 
-       - only mark up the 7 listed authors in the supplied ref list and leave it at that?
-       - or should inserted a comment to remind the JATS xml author to try and find the missing authors
-       - even if they will not be displayed in the html-file, it could make sense to have it in JATS xml.
-    - Correct triple dots to ellipsis character
 
-### Content in the back section after references
-- tables/appendixes in the back section haven't been properly handled yet
-
-### Content in the body
-- table labels/titles/captions are not automatically handled yet
+### Tables
+- table labels/titles/captions are now handled
     - this can be done automatically if they are styled with a special paragraph style do identify the content as being table label, table title or table caption
-- citations in the text that only have year within the parens, 
-  have **rid** attributes that misses capital letters from author's surname. 
-    - extract relevant capital letters from the text node directly before the xref-element?
-    - leave it as is and let the person doing the conversion manually fix those **rid** attributes?
+
+In libreOffice when creating a table, there is an option to create n header rows, and if one selects to repeat n headers on 
+following pages, then a row is inserted in the table.
+
+If this is not done, it is not possible to edit a table and make the first row a header row.
+
+However, one can style the content of a whole row with the 'TableHeader style'. This will generate ```<td><p style="TableHeader">...</p></td>```.
+This easily enables renaming of td to th elements in XProc, and this has been done.
+
+Then, if the first row(s) only contain th-cells, they should be wrapped in ```<thead>...</thead>``` element. And the consequtive rows 
+should be wrapped in ```<tbody>...</tbody>``` element. **This has not yet been implemented.**
+
+The reason for doing this is accessibility concerns.
+
+### Citations
+
+Citations in the text that only have year within the parens, have **rid** attributes that misses capital letters from author's surname. 
+
+- extract relevant capital letters from the text node directly before the xref-element?
+- leave it as is and let the person doing the conversion manually fix those **rid** attributes?
+
+*Edit: this is now handled automatically for et al. references where there is a match in the reference list but not for other references.*
+
+### Lists
+
+Lists in the back section inside a table haven't got a list style type. This needs to be investigated.
 
 ### Automatic correction/error handling
 In some cases it is obvious how to correct typing mistakes. This can be done automatically with regex,
