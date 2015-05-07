@@ -218,19 +218,21 @@ there are two options for formatting elocation id in lieu of an explicit constru
 - The APA Style Guide to Electronic References, or on the APA Style Blog
 
 The following options are:
+
 - Option 1: as a page number instead of the page range. (This is the option that has been adopted).
     - Option 1: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, 166. http://dx.doi.org/10.1186/1472-6963-9-166
 - Option 2: insert the word "Article" before it.
     - Option 2: Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. BMC Health Services Research, 9, Article 166. http://dx.doi.org/10.1186/1472-6963-9-166
     
-- Refs starting with following fail, but maybe this is acceptable because it is difficult to mark up using element-citation:
-    - NICE. (2012).
-    - WHO. (2000).
-    - Institute of Medicine. (2001).
+Refs starting with following fail, but maybe this is acceptable because it is difficult to mark up using element-citation:
+
+- NICE. (2012).
+- WHO. (2000).
+- Institute of Medicine. (2001).
 
 ### Tables
-- table labels/titles/captions are now handled
-    - this can be done automatically if they are styled with a special paragraph style do identify the content as being table label, table title or table caption
+Table labels/titles/captions are now handled better. If they are styled with a 
+special paragraph style do identify the content as being table label, table title or table caption
 
 In libreOffice when creating a table, there is an option to create n header rows, and if one selects to repeat n headers on 
 following pages, then a row is inserted in the table.
