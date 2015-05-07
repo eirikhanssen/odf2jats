@@ -160,13 +160,19 @@
       <sec>
          <title>Results</title>
          <p>The database search identified 814 records, while hand search of retrieved articles identified another seven. Thus 821 records were screened, where of 804 were excluded because they were not within the scope of this review. In the next step, 17 full-text articles were assessed, where of five were excluded as they did not address our target group, that is, physicians. Finally 12 publications of which one reports four studies met the inclusion criteria. The retrieved studies were heterogeneous in regard to design, setting, measurement, medical specialty, and outcome. Thus, meta-analytic calculations and other measures of systematic quantitative aggregation were not appropriate. Instead, we reviewed and aggregated the heterogeneous studies qualitatively. All selected studies are depicted in Table 1-3 in the appendix.</p>
-         <p>Outcome 1: Physicians’ psychosocial work conditions and physicians’/patients’ perceived care quality.</p>
+         <p>
+            <italic>Outcome 1: Physicians’ psychosocial work conditions and physicians’/patients’ perceived care quality.</italic>
+         </p>
          <p>First, we focused on investigations of physicians’ psychosocial work conditions and quality of care as reported by physicians and patients (see Table 1 in the appendix). There were five studies that measured both physicians’ work conditions and quality of care as well as established a relationship between these concepts. Quality of care was either rated by physicians themselves (<xref ref-type="bibr" rid="KGBK2011">Klein, Grosse, Blum, &amp; von dem Knesebeck, 2011</xref>) or by their patients (<xref ref-type="bibr" rid="MVKG2012">Mache, Vitzthum, Klapp, &amp; Groneberg, 2012</xref>; <xref ref-type="bibr" rid="WHMBA2014">Weigl, Hoffmann, Muller, Barth, &amp; Angerer, 2014</xref>; <xref ref-type="bibr" rid="WHASG2013">Weigl, Hornung, Angerer, Siegrist, &amp; Glaser, 2013</xref>). Three out of five studies were observational with a cross-sectional design, while two studies were experimental with a control-group design. All five research papers involved surgeons, internists, pediatricians, or other specialties from various hospitals. The surveyed work conditions ranged from “moral characteristics” (control of work, support/relationships at work as components of a mixed-measures assessment) (<xref ref-type="bibr" rid="MKWPFTHM2007">McKinstry et al., 2007</xref>), to established work stress models (job strain, effort-reward imbalance). Assessments were either based on self-reports of hospital work conditions (<xref ref-type="bibr" rid="WHASG2013">Weigl et al., 2013</xref>) or expert-based observations (<xref ref-type="bibr" rid="WHMBA2014">Weigl et al., 2014</xref>).</p>
          <p>In spite of the differences, the studies consistently show that better work conditions are related to improved quality of care. Furthermore, both intervention studies indicate that promoting physicians’ work conditions is associated with improved patients’ evaluations of care (<xref ref-type="bibr" rid="WHMBA2014">Weigl et al., 2014</xref>; <xref ref-type="bibr" rid="WHASG2013">Weigl et al., 2013</xref>).</p>
-         <p>Outcome 2: Physicians’ psychosocial work conditions and treatment success or absence of complications.</p>
+         <p>
+            <italic>Outcome 2: Physicians’ psychosocial work conditions and treatment success or absence of complications.</italic>
+         </p>
          <p>Secondly, we summarized studies on physicians’ psychosocial work conditions and success of treatment or lack of complications in patients (see Table 2 in the appendix). Similarly to outcome 1, only few studies examined this relationship. We identified four studies with relevant outcomes such as hospital acquired infections, hypertension control, and diabetes control.</p>
          <p>Associations between physicians’ work conditions and their diabetic patients’ glycemic control have been shown by two large cross-sectional studies investigating outpatient clinics in the US (<xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al., 2009</xref>) as well as Finnish primary care health centers (<xref ref-type="bibr" rid="KVPVPSRS2013">Koponen et al., 2013</xref>; <xref ref-type="bibr" rid="VOKSESV2012">Virtanen et al., 2012</xref>). The studies linked work conditions assessed by entire teams, that is, by physicians, nurses and other health care professionals, with the quality of health care in treated patients. Particular strengths of both studies are the unit-based measurement of treatment success by objective laboratory parameters and objective assessments of infections. Work conditions, for example job control, trust in the organization, leadership values alignment (involving participation in organizational issues, justice, and fairness), procedural justice, and high job stress were associated with inferior quality of care. No consistent association was found for hypertension control (<xref ref-type="bibr" rid="LMWBBVS2009">Linzer et al., 2009</xref>). Hospital acquired infections were associated with low justice in work distribution, high effort-reward imbalance, low trust and poor collaboration in teams (<xref ref-type="bibr" rid="VKTOPVK2009">Virtanen et al., 2009</xref>).</p>
-         <p>Outcome 3: Physicians’ psychosocial work conditions and prevalence of medical errors.</p>
+         <p>
+            <italic>Outcome 3: Physicians’ psychosocial work conditions and prevalence of medical errors.</italic>
+         </p>
          <p>Our third research question referred to studies on physicians’ psychosocial work conditions and the prevalence of medical errors (see Table 3 in the appendix). The four retrieved publications cover seven separate studies (<xref ref-type="bibr" rid="J    1988">four in Jones et al., 1988</xref>; <xref ref-type="bibr" rid="L    2009">one study each in Linzer et al., 2009</xref>; <xref ref-type="bibr" rid="NPRPM2013">Nielsen, Pedersen, Rasmussen, Pape, &amp; Mikkelsen, 2013</xref>; <xref ref-type="bibr" rid="RRDFJKB2013">Ross et al., 2013</xref>). Five studies apply observations within a cross-sectional design, while two studies describe interventions. Overall, all research papers show that adverse psychosocial work conditions are associated with an increased prevalence of medical errors and malpractice suits. Moreover, two studies show some evidence on the potential of adequate interventions, that is, comprehensive stress management, to reduce errors and malpractice suits in physicians.</p>
       </sec>
       <!-- sec lvl 2 end -->
@@ -1885,10 +1891,10 @@
                      <td>
                         <list>
                            <list-item>
-                              <p>High job strain is associated with worse glucose control (OR for HbA1c &gt;7 mg/dl 1.44 (1.12 to 1.86)</p>
+                              <p style="List_20_Paragraph">High job strain is associated with worse glucose control (OR for HbA1c &gt;7 mg/dl 1.44 (1.12 to 1.86)</p>
                            </list-item>
                            <list-item>
-                              <p>No association with supervisor support</p>
+                              <p style="List_20_Paragraph">No association with supervisor support</p>
                            </list-item>
                         </list>
                      </td>
@@ -1921,10 +1927,10 @@
                      <td>
                         <list>
                            <list-item>
-                              <p>Perceptions of higher levels of procedural justice among staff associated with more optimal glycated hemoglobin levels among patients (cumulative odds ratio per 1-U increase in justice=1.54, 95% confidence interval, 1.08-2.18) after adjustment for patient-level and unit-level covariates.</p>
+                              <p style="List_20_Paragraph">Perceptions of higher levels of procedural justice among staff associated with more optimal glycated hemoglobin levels among patients (cumulative odds ratio per 1-U increase in justice=1.54, 95% confidence interval, 1.08-2.18) after adjustment for patient-level and unit-level covariates.</p>
                            </list-item>
                            <list-item>
-                              <p>Relational justice, effort-reward imbalance, and work-unit team climate were not associated with glycemic control.</p>
+                              <p style="List_20_Paragraph">Relational justice, effort-reward imbalance, and work-unit team climate were not associated with glycemic control.</p>
                            </list-item>
                         </list>
                      </td>
@@ -1957,13 +1963,13 @@
                      <td>
                         <list>
                            <list-item>
-                              <p>Ninety-nine cases (9.1%) of hospital-associated infection were found.</p>
+                              <p style="List_20_Paragraph">Ninety-nine cases (9.1%) of hospital-associated infection were found.</p>
                            </list-item>
                            <list-item>
-                              <p>Multilevel logistic regression analyses, adjusted for hospital factors and patient-related risk factors, showed that long work hours among staff were associated with increased risk of infection odds ratio (OR) 2.74, 95% confidence interval (CI): 1.07–7.04.</p>
+                              <p style="List_20_Paragraph">Multilevel logistic regression analyses, adjusted for hospital factors and patient-related risk factors, showed that long work hours among staff were associated with increased risk of infection odds ratio (OR) 2.74, 95% confidence interval (CI): 1.07–7.04.</p>
                            </list-item>
                            <list-item>
-                              <p>Other staff-related correlates of infection were high work stress, as indicated by high imbalance between efforts and rewards (OR:2.47; 95% CI:1.38 – 4.42), low trust between work unit members (OR: 2.37; 95% CI: 1.27–4.43), injustice in the distribution of work (OR: 1.81; 95% CI: 1.04–3.16), and poor collaboration between ward supervisors (OR: 2.46; 95% CI: 1.38– 4.38).</p>
+                              <p style="List_20_Paragraph">Other staff-related correlates of infection were high work stress, as indicated by high imbalance between efforts and rewards (OR:2.47; 95% CI:1.38 – 4.42), low trust between work unit members (OR: 2.37; 95% CI: 1.27–4.43), injustice in the distribution of work (OR: 1.81; 95% CI: 1.04–3.16), and poor collaboration between ward supervisors (OR: 2.46; 95% CI: 1.38– 4.38).</p>
                            </list-item>
                         </list>
                      </td>
@@ -1994,13 +2000,13 @@
                      <td>
                         <list>
                            <list-item>
-                              <p>Adverse workflow (time pressure and chaotic environments), low work control, and unfavorable organizational culture were strongly associated with low physician satisfaction, high stress, burnout, and intent to leave. </p>
+                              <p style="List_20_Paragraph">Adverse workflow (time pressure and chaotic environments), low work control, and unfavorable organizational culture were strongly associated with low physician satisfaction, high stress, burnout, and intent to leave. </p>
                            </list-item>
                            <list-item>
-                              <p>No association was found between adverse physician reactions, such as stress and burnout, and care quality or errors.</p>
+                              <p style="List_20_Paragraph">No association was found between adverse physician reactions, such as stress and burnout, and care quality or errors.</p>
                            </list-item>
                            <list-item>
-                              <p>Some work conditions were associated with lower quality and more errors. Partial regression coefficient for quality of care for patients with diabetes and work control 8.41 (0.85 to 15.97); trust in the organization 6.71 (0.59 to 12.83); and values alignment within the organization 12.12 (7.14 to 17.10)</p>
+                              <p style="List_20_Paragraph">Some work conditions were associated with lower quality and more errors. Partial regression coefficient for quality of care for patients with diabetes and work control 8.41 (0.85 to 15.97); trust in the organization 6.71 (0.59 to 12.83); and values alignment within the organization 12.12 (7.14 to 17.10)</p>
                            </list-item>
                         </list>
                      </td>
@@ -2104,16 +2110,24 @@
                         </p>
                      </td>
                      <td>
-                        <p>See Table 2</p>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
                      </td>
                      <td>
-                        <p>See Table 2</p>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
                      </td>
                      <td>
-                        <p>See Table 2</p>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
                      </td>
                      <td>
-                        <p>See Table 2</p>
+                        <p>
+                           <italic>See Table 2</italic>
+                        </p>
                      </td>
                      <td>
                         <p>Treatment errors were defined as missed treatment opportunities, inattention to behavioral factors, and guideline non-adherence and defined prevention errors as lack of tobacco use documentation and missed prevention activities, such as mammograms, cervical cancer screening, colon cancer screening, and depression assessment</p>

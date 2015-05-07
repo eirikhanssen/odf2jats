@@ -69,12 +69,7 @@
         </p:input>
     </p:xslt>
 
-    <!--<p:rename match="p[preceding-sibling::h2='References']" new-name="ref"/>-->
-
     <p:delete match="h2[.='References']"/>
-
-    <!-- delete empty p-elements -->
-    <p:delete match="p[.='']"/>
 
     <p:xslt name="fix_keywords_and_abstract_first_stage" version="2.0">
         <p:input port="source"/>
@@ -173,7 +168,12 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-
+    
+    <!-- if td has a child p with @style="TableHeaderStyle", then rename to th element -->
+    <p:rename name="td_to_th_if_TableHeader" match="td[p[@style='TableHeader']]" new-name="th"/>
+    <!-- remove @style from p[@style="TableHeader"] -->
+    <p:delete match="p/@style[.='TableHeader']"/>
+    
     <!-- autotagging of ref-list references -->
     <p:xslt name="reflistparser" version="2.0">
         <p:input port="source"/>
@@ -222,7 +222,7 @@
     </p:xslt>
 
     <!-- Delete unneeded style attributes from some p elements -->
-    <p:delete match="p/@style"/>
+    <!--<p:delete match="p/@style"/>-->
 
     <p:identity/>
 

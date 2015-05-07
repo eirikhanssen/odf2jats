@@ -30,17 +30,13 @@
     </xsl:template>
 
     <xsl:template match="text:p">
-    <!-- Use the style mapping lookup to define the styles -->
+        <!-- Use the style mapping lookup to define the styles -->
         
         <xsl:variable
             name="current_style_index_name"
             select="if(current()/@text:style-name) then (current()/@text:style-name) else('')"
             as="xs:string"/>
         
-        <xsl:if test="matches($current_style_index_name , '^\s*$' )">
-            <xsl:message>(o2j WARNING): no $current_style_index_name</xsl:message>
-        </xsl:if>
-
         <xsl:variable name="current_automatic_style"
             select="/office:document-content/office:automatic-styles/style:style[@style:name=$current_style_index_name]" 
             as="element(style:style)?"/>
@@ -61,22 +57,40 @@
             " as="xs:string"/>
 
         <xsl:choose>
+            <!-- if text:p is empty, don't output anything -->
+            <xsl:when test=".='' and not(element())">
+                <xsl:message>removed empty element: text:p</xsl:message>
+            </xsl:when>
+            <xsl:when test="$elementName = 'p' and
+                $current_automatic_style/style:text-properties[@fo:font-style='italic']">
+                    <xsl:element name="{$elementName}">
+                        <italic><xsl:apply-templates/></italic>
+                    </xsl:element>
+            </xsl:when>
             <xsl:when test="$elementName !=''">
                 <xsl:element name="{$elementName}">
                     <xsl:apply-templates/>
                 </xsl:element>
             </xsl:when>
             <xsl:otherwise>
-                <!-- paragraphs without a listed style are just plain p's -->
-                <!-- generate this p-element only if there is textcontent and it contains non-whitespace characters -->
-                <xsl:if test="matches(. , '[^\s]')">
+                <!-- paragraphs without a style in the style-mapping should just transform to p elements -->
                     <xsl:element name="p">
-                        <xsl:attribute name="style">
-                            <xsl:value-of select="$current_stylename"/>
-                        </xsl:attribute>
+                        <xsl:if test="matches($current_stylename, '[^\s]+')">
+                            <xsl:attribute name="style">
+                                <xsl:value-of select="$current_stylename"/>
+                            </xsl:attribute>
+                            <xsl:message>
+                                <xsl:text>Not mapped - text:p[@style='</xsl:text>
+                                <xsl:value-of select="$current_stylename"/>
+                                <xsl:text>'] &#xa;Textcontent: </xsl:text>
+                                <xsl:value-of select="substring(./text()[1],1,30)"/>
+                                <xsl:if test="string-length( . /text()[1]) &gt; 30">
+                                    <xsl:text> …</xsl:text>
+                                </xsl:if>
+                            </xsl:message>
+                        </xsl:if>
                         <xsl:apply-templates/>
                     </xsl:element>
-                </xsl:if>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -226,14 +240,6 @@
             <xsl:apply-templates/>
         </th>
     </xsl:template>
-
-    <xsl:template match="table:table-cell/text:p">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-
-    <!--<xsl:template match="table:table-cell/text:p" mode="table-cell">
-        <p><xsl:apply-templates mode="table-cell"/></p>
-    </xsl:template>-->
 
     <!-- Preserve italic and bold text -->
     <xsl:template match="text:span">

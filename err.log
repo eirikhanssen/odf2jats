@@ -1,61 +1,162 @@
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener warning
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
 WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:20:55:(o2j WARNING): no $current_style_index_name
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:20:55:(o2j WARNING): no $current_style_index_name
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:removed empty element: text:p
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:removed empty element: text:p
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:removed empty element: text:p
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Citation (first author, year)
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Design of study (observational …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Physicians studied
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Patients studied
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Measurement of work conditions
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Measurement of quality of care
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Main results (extracted)
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Citation (first author, year)
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Design of study (observational …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Physicians studied
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Patients studied
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Measurement of work conditions
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Measurement of quality of care
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Main results (extracted)
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: High job strain is associated  …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: No association with supervisor …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: Perceptions of higher levels o …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: Relational justice, effort-rew …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: Ninety-nine cases (9.1%) of ho …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: Multilevel logistic regression …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: Other staff-related correlates …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: Adverse workflow (time pressur …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: No association was found betwe …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='List_20_Paragraph'] 
+Textcontent: Some work conditions were asso …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Citation (first author, year)
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Design of study (observational …
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Physicians studied
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Patients studied
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Measurement of work conditions
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Measurement of quality of care
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: Main results (extracted)
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:removed empty element: text:p
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:removed empty element: text:p
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:removed empty element: text:p
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Fahrenkopf, et al., 2008» To: «Fahrenkopf et al., 2008»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «West, et al., 2006)» To: «West et al., 2006)»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Hickam, et al., 2003» To: «Hickam et al., 2003»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Jones, et al., 1988)» To: «Jones et al., 1988)»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Lawton, et al., 2012» To: «Lawton et al., 2012»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Carayon, et al., 2006» To: «Carayon et al., 2006»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Lawton, et al., 2012» To: «Lawton et al., 2012»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Ross, et al., 2013)» To: «Ross et al., 2013)»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Hickam, et al., 2003)» To: «Hickam et al., 2003)»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Weigl, et al., 2014» To: «Weigl et al., 2014»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:autocorrections.xsl: removed «,» 
 	 From: «Weigl, et al., 2013)» To: «Weigl et al., 2013)»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «W., ... &amp; Landriga» with «W., …  Landriga»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «N., ... &amp; Suominen» with «N., …  Suominen»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «M., ... &amp; Sectish,» with «M., …  Sectish,»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «B., ... &amp; Schwartz» with «B., …  Schwartz»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «S., ... &amp; Bond, C.» with «S., …  Bond, C.»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «J., ... &amp; Kivimäki» with «J., …  Kivimäki»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «S., ... &amp; Vahtera,» with «S., …  Vahtera,»
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:214:48:The parens: «(n=1311)» was not recognized as a citation (probably numeric data). Please check manually.
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:214:48:The parens: «(n=1581)» was not recognized as a citation (probably numeric data). Please check manually.
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:214:48:The parens: «(n=8975)» was not recognized as a citation (probably numeric data). Please check manually.
-May 06, 2015 10:30:34 AM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 07, 2015 12:09:59 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:214:48:The parens: «(n=8954)» was not recognized as a citation (probably numeric data). Please check manually.
