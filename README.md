@@ -72,7 +72,6 @@ This is used when generating markup for content such as:
 - history
 - references
 
-
 ### Using character styles
 
 Using character styling where appropriate is also important.
@@ -89,8 +88,13 @@ This section is subject to change.
 - recieve xml-based document format (odf or docx)
 - open document with Libre Office Writer
 - make sure display of Nonprinting characters is on (View menu)
-- import user defined styles from document with styles for odf2jats workflow
-- change Default Style, add 10pt space above and below paragraph
+- import user defined styles from another document that has styles prepared for odf2jats workflow
+    - In LibreOffice, bring up the style panel: Format > Styles and Formatting (F11)
+    - Click down-arrow in upper right corner of Styles and Formatting panel > Load Styles
+    - Check Overwrite (to overwrite styles in the current document with identically named styles from the prepared styles document)
+    - Click the button "From File ..." to choose the document to load styles from
+
+- apply odf2jats workflow styles (these are used for automatic conversion)
 
 ### 1. Clean up
 Remove unneccecary whitespace
