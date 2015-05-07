@@ -6,9 +6,8 @@
  <manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="meta.xml" manifest:media-type="text/xml"/>
- <manifest:file-entry manifest:full-path="Pictures/100002010000000100000001E752A37E.png" manifest:media-type="image/png"/>
- <manifest:file-entry manifest:full-path="Pictures/1000020100000330000002642B97D8BA.png" manifest:media-type="image/png"/>
- <manifest:file-entry manifest:full-path="Pictures/10006E7D0000583200004225A2A153D1.svg" manifest:media-type="image/svg+xml"/>
+ <manifest:file-entry manifest:full-path="Pictures/100002010000033000000265256C7BB9.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10006E7D0000584E00004242A2A153D1.svg" manifest:media-type="image/svg+xml"/>
  <manifest:file-entry manifest:full-path="styles.xml" manifest:media-type="text/xml"/>
  <manifest:file-entry manifest:full-path="manifest.rdf" manifest:media-type="application/rdf+xml"/>
  <manifest:file-entry manifest:full-path="Configurations2/accelerator/current.xml" manifest:media-type=""/>
