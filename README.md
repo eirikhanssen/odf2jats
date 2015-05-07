@@ -256,7 +256,8 @@ Citations in the text that only have year within the parens, have **rid** attrib
 
 ### Lists
 
-Lists in the back section inside a table haven't got a list style type. This needs to be investigated.
+- Lists in the back section inside a table haven't got a list style type. This needs to be investigated.
+- Lists in the back section inside a table get an undesireable style: ```<p style="List_20_Paragraph">...</p>```
 
 ### Automatic correction/error handling
 In some cases it is obvious how to correct typing mistakes. This can be done automatically with regex,
