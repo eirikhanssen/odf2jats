@@ -11,8 +11,8 @@
     <!-- take input document from parameter -->
     <p:input port="source"/>
     
-    <p:input port="parameters" kind="parameter"/>
-
+    <p:input port="documentStylesPath" kind="parameter"/>
+        
     <p:output port="result"/>
 
     <p:serialization port="result" indent="true"/>
@@ -23,7 +23,7 @@
             <p:document href="flat_odf_xml_extract.xsl"/>
         </p:input>
         <p:input port="parameters">
-            <p:empty/>
+            <p:pipe step="odf2jats" port="documentStylesPath"/>
         </p:input>
     </p:xslt>
 

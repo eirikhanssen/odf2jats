@@ -210,6 +210,14 @@ These steps will be unneccecary to do manually in the future as they will be han
 
 ## Todo
 
+### XProc pipeline
+- look into parameters. If text in the headers or footers is important, that is located in styles.xml.
+    - http://www.data2type.de/en/xml-xslt-xslfo/xproc/xproc-introduction/typical-application-scenarios/
+    - https://community.emc.com/docs/DOC-17045
+- how do you send styles.xml to a p:xslt in it's parameter port.
+    - do you need to use the parameter port to the pipeline
+    - or can you calculate the file path and replace content.xml with styles.xml?
+
 ### Improve ref-list autotagging
 
 When marking up electronic journal type references with elocation instead of page(s)

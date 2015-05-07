@@ -1,2 +1,14 @@
-May 07, 2015 2:49:40 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
-WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
+INFO : odf2jats.xpl:20:55:$documentStyles: source/odf-bringedal-editorial/styles.xml
+$documentStyles has 13 text:p elements
+
+INFO : odf2jats.xpl:20:55:1b: P4
+1c: 
+
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='No_20_Spacing'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='No_20_Spacing'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:178:48:Please verify that elocation-id: «655» is indeed an elocation-id and not an uncomplete page range.

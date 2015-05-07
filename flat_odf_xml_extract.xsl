@@ -14,6 +14,10 @@
     xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
     exclude-result-prefixes="xs sm style office text table fo draw svg">
 
+    <xsl:param name="documentStylesPath"/>
+
+    <xsl:variable name="document-styles" select="doc($documentStylesPath)/office:document-styles" as="element(office:document-styles)"/>
+
     <xsl:output method="xml" indent="yes"/>
 
     <xsl:variable name="styles"
@@ -25,6 +29,10 @@
 
     <xsl:template match="/">
         <article article-type="research-article">
+            <xsl:message>
+                <xsl:text>$documentStyles: </xsl:text><xsl:value-of select="$documentStylesPath"/><xsl:text>&#xa;</xsl:text>
+                <xsl:text>$documentStyles has </xsl:text><xsl:value-of select="count($document-styles//text:p)"/><xsl:text> text:p elements&#xa;</xsl:text>
+            </xsl:message>
             <xsl:apply-templates/>
         </article>
     </xsl:template>
@@ -50,11 +58,16 @@
                 )
             " as="xs:string"/>
 
-        <xsl:variable name="elementName" select="
-            if ($styles[sm:name=$current_stylename]/sm:transformTo) (: check if current style is in stylemap :)
-            then ($styles[sm:name=$current_stylename]/sm:transformTo) (: found current style in stylemap and use it for lookup :)
-            else ('') (: If current style is not found in the stylemap, return empty string :)
-            " as="xs:string"/>
+        <xsl:variable name="elementName" as="xs:string?">
+            <xsl:choose>
+                <xsl:when test="$styles[sm:name=$current_stylename]">
+                    <xsl:value-of select="$styles[sm:name=$current_stylename]/sm:transformTo"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:message>Style name match not found</xsl:message>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable> 
 
         <xsl:choose>
             <!-- if text:p is empty, don't output anything -->
@@ -148,14 +161,14 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-    
+
     <!-- insert a | character when encountering text:tab in a p that has the paragraph style ArticleIdentifiers -->
     <xsl:template match="text:tab[ancestor::text:p[@text:style-name='ArticleIdentifiers']]"><xsl:text>|</xsl:text></xsl:template>
 
     <xsl:template match="text:list-item">
         <list-item><xsl:apply-templates/></list-item>
     </xsl:template>
-    
+
     <!--
         footnotes and endnotes are mapped to xref and fn elements used in JATS
         in the place where the footnote/endnote is located in odf.
@@ -180,14 +193,47 @@
     <xsl:template match="text:h">
         <!-- store the outline_level in a variable, default to 1 -->
         <xsl:variable name="outline_level" select="if (current()/@text:outline-level) then (current()/@text:outline-level) else (1)" as="xs:integer"/>
+        
+        <xsl:variable
+            name="current_style_index_name"
+            select="if(current()/@text:style-name) then (current()/@text:style-name) else('')"
+            as="xs:string"/>
+        
+        <xsl:variable name="current_automatic_style"
+            select="/office:document-content/office:automatic-styles/style:style[@style:name=$current_style_index_name]" 
+            as="element(style:style)?"/>
+
+        <xsl:variable name="current_stylename" 
+            select="
+            if (matches(current()/@text:style-name, '^P\d'))
+            then ($current_automatic_style/@style:parent-style-name)
+            else (
+            if(current()/@text:style-name) then (current()/@text:style-name) else('')
+            )
+            " as="xs:string"/>
+
         <xsl:variable name="elementName" as="xs:string">
             <!-- if outline level is 1, check the style name -->
             <xsl:choose>
                 <xsl:when test="$outline_level = 1">
-                    <xsl:value-of select="
-                        if($styles[sm:name=current()/@text:style-name]) 
-                        then ($styles[sm:name=current()/@text:style-name]/sm:transformTo) 
-                        else (concat('h', $outline_level))"/> 
+                    <xsl:choose>
+                        <xsl:when test="$styles[sm:name=current()/@text:style-name]">
+                            <xsl:value-of select="$styles[sm:name=current()/@text:style-name]/sm:transformTo"/>
+                        </xsl:when>
+                        <xsl:when test="$styles[sm:name=$current_stylename]">
+                            <xsl:value-of select="$styles[sm:name=$current_stylename]/sm:transformTo"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="concat('h', $outline_level)"/>
+                            <xsl:message> created a h1 element poof</xsl:message>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    
+                    <xsl:message>
+                        <!--<xsl:text>1a: </xsl:text><xsl:value-of select="$styles/sm:name"/><xsl:text>&#xa;</xsl:text>-->
+                        <xsl:text>1b: </xsl:text><xsl:value-of select="current()/@text:style-name"/><xsl:text>&#xa;</xsl:text>
+                        <xsl:text>1c: </xsl:text><xsl:value-of select="$styles[sm:name=current()/@text:style-name]/sm:transformTo"/><xsl:text>&#xa;</xsl:text>
+                    </xsl:message>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="concat('h', $outline_level)"/>
@@ -351,7 +397,6 @@
             <sm:transformTo>ref</sm:transformTo>
         </sm:style>
         <sm:style>
-            <sm:name>Title</sm:name>
             <sm:name>PP_20_Heading_20_1</sm:name>
             <sm:name>H1-ArticleTitle</sm:name>
             <sm:transformTo>article-title</sm:transformTo>
@@ -387,7 +432,7 @@
             <sm:transformTo>subtitle</sm:transformTo>
         </sm:style>
         <sm:style>
-            <sm:name>Sender</sm:name>
+            <sm:name>PP_20_Navn</sm:name>
             <sm:name>ArticleAuthors</sm:name>
             <sm:transformTo>authors</sm:transformTo>
         </sm:style>
