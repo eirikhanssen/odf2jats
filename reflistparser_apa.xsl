@@ -186,6 +186,35 @@
       <fpage><xsl:value-of select="$range/fpage"/></fpage>
       <lpage><xsl:value-of select="$range/lpage"/></lpage>
   </xsl:function>
+  
+  <xsl:function name="o2j:getArticleElocationSequence" as="item()*">
+    <xsl:param name="originalRef" as="element(ref)"/>
+    <xsl:variable name="string_after_italic" select="$originalRef/italic[1]/following-sibling::text()[1]"/>
+    <xsl:variable name="uri" select="normalize-space($originalRef/uri[1]/text())" as="xs:string?"/>
+
+    <!-- extract elocation-id -->
+    <xsl:variable name="elocation" select="replace($string_after_italic, '^\s*(\([-\d\c\s.]+?\))?\s*,?\s*([-_\c\d]+?)\s*\.?\s*$' ,'$2')" as="xs:string?"/>
+
+    <!-- get the last n characters of the url, where n equals the length of the elocation string -->
+    <xsl:variable name="end_of_uri" select="substring($uri , string-length($uri) +1 - string-length($elocation))" as="xs:string?"/>
+
+    <xsl:choose>
+          <!-- if $elocation is not empty and matches the end of the uri, be confident that this is indeed the elocation -->
+          <xsl:when test="not(empty($elocation)) and compare(xs:string($elocation),xs:string($end_of_uri)) eq 0">
+            <elocation-id><xsl:value-of select="$elocation"/></elocation-id>
+          </xsl:when>
+          <!-- if $elocation is not empty and and doesn't match the end of a uri (that might not even be there), treat as elocation still, but add a comment. -->
+          <xsl:when test="not(empty($elocation))">
+            <xsl:comment>Please verify that the elocadion-id is indeed an elocation-id and not an uncomplete page range.</xsl:comment>
+            <elocation-id><xsl:value-of select="$elocation"/></elocation-id>
+            <xsl:message>Please verify that elocation-id: «<xsl:value-of select="$elocation"/>» is indeed an elocation-id and not an uncomplete page range.</xsl:message>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:message>o2j:getArticleElocationSequence() was called, but did not return elocation-id</xsl:message>
+          </xsl:otherwise>
+        </xsl:choose>
+
+  </xsl:function>
 
   <xsl:function name="o2j:stripTranslationFromTitle" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
@@ -391,6 +420,8 @@
     </xsl:variable>
 
     <xsl:variable name="hasArticlePageRange" select="$isJournalArticle and matches($current_ref/italic[1]/following-sibling::text()[1], '^.*?(\c?\d+\s*(-|—|–)\s*\c?\d+).*?$')" as="xs:boolean"/>
+
+    <xsl:variable name="hasElocationCandidate" select="$isJournalArticle and matches($current_ref/italic[1]/following-sibling::text()[1], '^\s*(\([-\d\c\s.]+\))?\s*,?\s*(\c?\d+\s*\c?)\s*\.?\s*$')" as="xs:boolean"/>
 
     <xsl:variable name="hasSinglePageCountStringInParens" as="xs:boolean">
       <xsl:value-of select="matches ($current_ref , '\(.*?p?p\.\s*\d+.*?\)') and not(matches($current_ref, '\(.*?pp\.\s*\d+\s*-\s*\d+.*?\)'))"/>
@@ -681,6 +712,10 @@
                   <xsl:sequence select="o2j:getArticlePageRangeSequence($current_ref)"/>
                 </xsl:if>
 
+                <xsl:if test="$hasElocationCandidate eq true()">
+                  <xsl:sequence select="o2j:getArticleElocationSequence($current_ref)"/>
+                </xsl:if>
+
               </xsl:when>
             </xsl:choose>
 
@@ -692,8 +727,8 @@
               <xsl:when test="$hasSinglePageCountStringInParens eq true()">
                 <fpage><xsl:value-of select="replace($current_ref, '.*?\(.*?p?p\.\s*(\d+).*?\).*' , '$1')"/></fpage>
               </xsl:when>
-
             </xsl:choose>
+
             <xsl:if test="$isBook eq true()">
               <publisher-loc>
                 <xsl:value-of select="$publisher/publisher-loc"/>
