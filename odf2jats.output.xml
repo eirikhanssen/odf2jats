@@ -523,7 +523,7 @@
                <lpage>7</lpage>
             </element-citation>
          </ref>
-         <ref id="LD2002"><!--Lammers, J. C., & Duggan, A. (2002). Bringing the physician back in: Communication predictors of physicians’ satisfaction with managed care. <italic>Health Communication14</italic>(4), 493–513; discussion, 498-515.-->
+         <ref id="LD2002"><!--Lammers, J. C., & Duggan, A. (2002). Bringing the physician back in: Communication predictors of physicians’ satisfaction with managed care. <italic>Health Communication, 14</italic>(4), 493–513; discussion, 498-515.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -537,7 +537,8 @@
                </person-group>
                <year>2002</year>
                <article-title>Bringing the physician back in: Communication predictors of physicians’ satisfaction with managed care.</article-title>
-               <source>Health Communication14</source>
+               <source>Health Communication</source>
+               <volume>14</volume>
                <issue>4</issue>
                <fpage>493 498</fpage>
                <lpage>513 515</lpage>
@@ -740,7 +741,7 @@
                </person-group>
                <year>2012</year>
                <article-title>The impact of management on medical professionalism: a review.</article-title>
-               <source> Sociology of Health &amp; Illness</source>
+               <source>Sociology of Health &amp; Illness</source>
                <volume>34</volume>
                <issue>4</issue>
                <fpage>626</fpage>
@@ -1001,7 +1002,7 @@
                </person-group>
                <year>2013</year>
                <article-title>Physicians’ perceptions of quality of care, professional autonomy, and job satisfaction in Canada, Norway, and the United States</article-title>
-               <source>. BMC Health Services Research</source>
+               <source>BMC Health Services Research</source>
                <volume>13</volume>
                <issue>1</issue>
                <elocation-id>516</elocation-id>

@@ -145,13 +145,13 @@
   <xsl:function name="o2j:getArticleTitle" as="xs:string">
     <xsl:param name="originalRef" as="element(ref)"/>
     <xsl:variable name="articleTitle" select="replace($originalRef/text()[1], '^.*?\(\d{4}\c?\)\.?\s*(.+?)\s*$', '$1')"/>
-    <xsl:value-of select="$articleTitle"/>
+    <xsl:value-of select="replace($articleTitle , '^[.\s]*(.+?)$' ,'$1')"/>
   </xsl:function>
 
   <xsl:function name="o2j:getArticleSource" as="xs:string">
     <xsl:param name="originalRef" as="element(ref)"/>
     <xsl:variable name="articleSource" select="replace($originalRef/italic[1], '^(.+?)([,.]\s*\d+.*?)?\s*$', '$1')" as="xs:string"/>
-    <xsl:value-of select="$articleSource"/>
+    <xsl:value-of select="replace($articleSource , '^[.\s]*(.+?)$' ,'$1')"/>
   </xsl:function>
 
   <xsl:function name="o2j:getVolume" as="xs:string">
