@@ -15,7 +15,7 @@
          </publisher>
       </journal-meta>
       <article-meta>
-         <article-id pub-id-type="doi">10.7577/pp.1355</article-id>
+         <article-id pub-id-type="doi">10.7577/pp.958</article-id>
          <article-categories>
             <subj-group subj-group-type="article-type">
                <subject>Article</subject>
@@ -28,27 +28,27 @@
             </subj-group>
          </article-categories>
          <title-group>
-            <article-title>Guest Editor’s Introduction</article-title>
+            <article-title>Beyond Binaries: Reflections and a Suggestion on the Subject of Medical Professional Satisfaction</article-title>
          </title-group>
          <contrib-group>
             <contrib contrib-type="author">
                <name>
-                  <surname>Bringedal</surname>
-                  <given-names>Berit</given-names>
+                  <surname>McDonald</surname>
+                  <given-names>Ruth</given-names>
                </name>
-               <xref ref-type="aff" rid="B_Bringedal"/>
+               <xref ref-type="aff" rid="R_McDonald"/>
                <!--Fixme! Properly tag <adress>...</adress>:-->
                <!--institution|addr-line|city|country|phone|postal-code|state|email|ext-link|uri-->
                <address>
-                  <addr-line>Institute for Studies of the Medical Profession</addr-line>
-                  <addr-line>PO Box 1152 Sentrum</addr-line>
-                  <addr-line>0107 Oslo</addr-line>
-                  <addr-line>Norway</addr-line>
-                  <email>mailto:Berit.bringedal@legeforeningen.no</email>
+                  <addr-line>University of Manchester</addr-line>
+                  <addr-line>Manchester</addr-line>
+                  <addr-line>M15 6PB</addr-line>
+                  <addr-line>United Kingdom</addr-line>
+                  <email>mailto:ruth.mcdonald@mbs.ac.uk</email>
                </address>
             </contrib>
          </contrib-group>
-         <aff id="B_Bringedal">Institute for Studies of the Medical Profession, Oslo </aff>
+         <aff id="R_McDonald">Manchester Business School, University of Manchester</aff>
          <pub-date pub-type="pub">
             <day>___</day>
             <month>___</month>
@@ -60,14 +60,14 @@
          <lpage>___</lpage>
          <history>
             <date date-type="received">
-               <day>___</day>
-               <month>___</month>
-               <year>___</year>
+               <day>6</day>
+               <month>8</month>
+               <year>2014</year>
             </date>
             <date date-type="accepted">
-               <day>___</day>
-               <month>___</month>
-               <year>___</year>
+               <day>17</day>
+               <month>2</month>
+               <year>2015</year>
             </date>
          </history>
          <permissions>
@@ -76,150 +76,568 @@
                <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
             </license>
          </permissions>
-         <self-uri xlink:href="http://dx.doi.org/10.7577/pp.1355">http://dx.doi.org/10.7577/pp.1355</self-uri>
-         <kwd-group kwd-group-type="author-generated"/>
+         <self-uri xlink:href="http://dx.doi.org/10.7577/pp.958">http://dx.doi.org/10.7577/pp.958</self-uri>
+         <abstract>
+            <p>This article notes the tendency in the sociological literature to frame studies of medical professionals in terms of a series of binaries (e.g. control/resistance, powerful/powerless professionals, medicine/management). It suggests that moving away from this approach to acknowledge a more nuanced perspective would be helpful. The article draws on recent empirical studies to support this view.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author-generated">
+            <kwd>Doctor satisfaction</kwd>
+            <kwd>sociology</kwd>
+            <kwd>control</kwd>
+            <kwd>resistance</kwd>
+         </kwd-group>
       </article-meta>
    </front>
    <body>
-      <p>Recent years have seen significant changes in the governance of public services, in particular in the provision of education and health care. These changes are built upon the idea that quality and efficiency will improve from a combination of incentives, agency, regulation, and provider competition, which New Public Management prescribes. Along with these changes, however, professional concerns are voiced. Many professionals claim that the new systems of governance will have the opposite effect of manifest intentions—they are believed detrimental to the quality of professional work (<xref ref-type="bibr" rid="LC2011">Lægreid &amp; Christensen, 2011</xref>).</p>
-      <p>The extent of regulation and control of the professions is an important element of this discussion. How detailed should regulation be, and how much control of individual professionals is required? Since the balance between professional autonomy and governmental restriction is a question of discretion, there is room for disagreement. Eliot Freidson’s change of perspective on this question is noteworthy. In his first account, published in 1970, he was concerned about doctors’ “unrestricted” autonomy, and argued in favor of the need to control their power for the sake of societal interests (<xref ref-type="bibr" rid="F1970">Freidson, 1970</xref>). Thirty years later, his perspective shifted dramatically. He now argues that the medical profession, as well as other professions, experience too little autonomy and may end up between a rock (bureaucracy) and a hard place (the market) (<xref ref-type="bibr" rid="F2001">Freidson, 2001</xref>).</p>
-      <p>In this special issue, we focus on the medical profession. Many recent studies have found that medical doctors in Western countries are warning that the systems of governance are threatening the quality of care (<xref ref-type="bibr" rid="LC2011">Lægreid &amp; Christensen, 2011</xref>; <xref ref-type="bibr" rid="MH2013">Makdessi &amp; Halmin, 2013</xref>; <xref ref-type="bibr" rid="WGHHHKW2013">Wyller et al., 2013</xref>), and a number of studies document an increase in stress, burnout, and reduced professional satisfaction among doctors (<xref ref-type="bibr" rid="MKM2011">McKinlay &amp; Marceau, 2011</xref>; <xref ref-type="bibr" rid="SBTDSSO2012">Shanafelt et al., 2012</xref>).</p>
-      <p>If researchers are right in their claim that doctors are increasingly discontent in the new health care system, or perhaps even alienated as some writers suggest (<xref ref-type="bibr" rid="MKM2011">McKinlay &amp; Marceau, 2011</xref>), the significance for performance is of crucial interest. Frustrated, stressed, and alienated doctors are not a likely recipe for high quality care. As seen from the societal and patients’ point of view, it is crucial that the conditions for high quality medical care are optimal. If the system counters this, doctors, patients, and health authorities share a common interest in changing the system.</p>
-      <p>However, despite the many concerns and despite postulated relationships between system factors, professional satisfaction, and the quality of medical care, research in this area is still insufficient. This is partly due to the lack of high quality empirical studies, and partly the result of disciplinary boundaries. The majority of research on doctors’ health and professional satisfaction is carried out by the doctors’ themselves and to some extent psychologists. The majority of studies regarding health care organizations and systems, on the other hand, are performed by social scientists. Further, research on the quality of medical treatment is seldom related to system factors.</p>
-      <p>The papers in this volume of <italic>Professions and Professionalism</italic> are the result of an attempt to transcend disciplinary boundaries and expand the research on, and our understanding of, the relationship between social context, professional satisfaction, and quality.</p>
-      <p>The Institute for Studies of the Medical Profession in Oslo hosted a symposium in June 2014, where a number of international experts delivered commissioned talks on various aspects of this topic. The speakers from that conference have since converted their presentations into scientific papers, all of which (except the commentaries) have been submitted for external peer review.</p>
-      <p>Each of these papers addresses different aspects of our topic. The papers by Olaf G. Aasland and Ruth McDonald provide general reflections from two different perspectives, both of which are sociologically inspired.</p>
-      <p>Olaf G. Aasland provides a reflection on why doctors complain strongly about stress and burnout, while at the same time belonging to the healthiest segment of the population. Building on the sociology of professions, in particular the concept of de-professionalization, he argues that the situation can be interpreted as a case of cognitive dissonance: Doctors’ traditional conception of their role as “professional artists” has been threatened by changes in modern health care systems. This adds a cognitive dimension to the traditional moral perspective. Inconsistencies between the doctor’s different roles, such as being the patient’s advocate but also considering societal responsibility, are traditionally seen as role conflicts, leading to moral stress. Aasland further suggests that there may also be a mismatch between the traditional conception of the doctor’s role and what is needed in 21<sup>st</sup> century global health care.</p>
-      <p>Ruth McDonald argues that much of the discussion in sociological literature applies a black and white, or binary, perspective on the different issues. Examples are the distinctions between medicine and management, or “powerful” versus “powerless” professionals. The lack of nuances, she claims, hinders appropriately understanding the field. An implication of her argument is that the claimed contradiction between current systems of management and professionalism is an oversimplification that stands in the way of a thorough understanding of social mechanisms.</p>
-      <p>It seems obvious that satisfied doctors would perform better than their dissatisfied counterparts. The connection is, however, not well documented. Lawrence Casalino and Francis J. Crosson discuss this relationship in their paper titled, “Physician Satisfaction and Physician Well-Being: Should Anyone Care?” Casalino and Crosson claim that high quality studies on the relationship are few and argue that more and better studies are needed. Nevertheless, the few existing studies have found that dissatisfied doctors are more likely to experience stress and burnout and are less likely to take good care of themselves. These factors lead to diminished professionalism, which in turn leads to reduced performance. Therefore, we should be concerned if doctors are professionally dissatisfied, since this condition will likely lead to suboptimal, or even harmful, medical care.</p>
-      <p>Peter Angerer and Matthias Weigl also discuss the relationship between professional satisfaction and quality in their paper: “Physicians' Psychosocial Work Conditions and Quality of Care: A Literature Review.” They present the results of a systematic literature search conducted in Medline and PsychInfo. Twelve studies were included, and the evidence provides preliminary support for the connection between content and quality. In line with Casalino and Crosson, however, the authors argue that more studies with stronger methodological designs are needed.</p>
-      <p>These methodological challenges are further discussed by Thomas Konrad in his paper: “Measures, Methods, and Models of Doctor Satisfaction: Future Research Challenges.” He provides an extensive overview of the many ways in which doctor satisfaction is studied. He points to the fact that different measures, methods, and models not only reflect different theoretical approaches, but also different political agendas and ideological values. This is an important reminder. Research on medical care and the doctors’ role involves many stakeholders: patients, politicians, managers, and the doctors themselves. Each stakeholder has, in principle, a common interest—high quality health care—yet the interpretations and perspectives on quality and how to secure quality will most likely vary between them.</p>
-      <p>Acknowledging the differences in perspective also requires being clear about the definitions of the concepts, including “professional satisfaction” and “quality.” The papers by Konrad, Angerer and Weigl, and Casalino and Crosson discuss facets of satisfaction. Magne Nylenna, Oyvind Bjertnaes, Ingrid Sperre Saunes, and Anne Karin Lindahl contribute to the clarification of medical quality in their paper “What Is Good Quality of Health Care?” Based on a broad review of definitions, they extract the following dimensions: safety, effectiveness, patient centeredness, timeliness, efficiency, and equity. The authors argue that studies of the relationship between doctors’ satisfaction and quality of care, as well as studies of system features and quality, need to take a variety of definitions into account.</p>
-      <p>The relationship between satisfied doctors and quality of work is only one aspect of what we would like to know. Another aspect of the topic is the features of medical practice about which doctors complain. Francis J. Crosson and Lawrence Casalino present and discuss the results of a study of American doctors, which was recently conducted by the RAND Corporation (<xref ref-type="bibr" rid="FCVAPCT2013">Friedberg et al., 2013</xref>). The study found that the most important reasons for dissatisfaction are closely related to the doctor’s feeling at the end of a working day that s/he had been able to provide good care for the patients. Thus, time, pace, and professional autonomy were among the crucial factors. Further, frustration regarding electronic health records ranked high among generators of dissatisfaction.</p>
-      <p>The identification of specific factors that cause frustration or dissatisfaction is important in order to understand how the shaping of an organization can foster or hinder professional satisfaction and quality. The balance of professional autonomy and societal control is a core question, as illustrated by Freidson’s change of perspective.</p>
-      <p>Marx Exworthy discusses two ideal typical accounts of medical control from the theory of professions, with reference to the British health system. One way of considering control is in terms of open and direct control, called the “iron cage” in this literature. Another type of control, “the gaze,” is of a more subtle type and refers to control that can be exercised through becoming part of a social culture and internalized by its actors. Trust in professional self-regulation relies on the latter type of control, while reporting requirements or financial incentives are examples of the first. Clearly, one type of control can transform into another, as the so-called crowding out effect demonstrates (<xref ref-type="bibr" rid="F1994">Frey, 1994</xref>). Financial incentives can “crowd out” an initial (e.g. patient centered) motivation; to be transformed into a motivation of maximizing financial gain.</p>
-      <p>At the symposium, all talks were commented on by active researchers in the field. Three of the commentaries are published in this issue. Jenny Firth-Cozens takes Casalino’s and Crosson’s paper as her starting point, and discusses the relationship between doctors’ satisfaction and the quality of their work. She concludes that satisfied doctors are a prerequisite for high quality care.</p>
-      <p>Donald Light argues in his commentary that promoting collaboration between the different stakeholders in health care, such as managers and doctors, is a promising way to improve doctors’ satisfaction as well as the quality of health care. He presents empirical examples of such collaboration, from British Columbia, Utah, and Idaho, and argues that successful collaboration alleviates dissatisfaction and alienation among doctors.</p>
-      <p>Finally, Per Arne Tufte discusses the concept of causality in this research field. A majority of the studies regarding relationships between doctors’ satisfaction, the quality of their work, and how this is affected by system factors tend to ignore the distinction between correlation and causality. Tufte suggests that a stronger focus on the causal mechanisms would improve our understanding.</p>
-      <p>Together, the collection of papers in this issue contributes to pushing this research a step forward. For the time being, it is clear that we should not draw strong conclusions. More rigorous studies are required in order to make conclusions about the relationships between features of health care systems and doctors’ professional satisfaction, as well as the relationships between context, doctor satisfaction, and the quality of their performance. It is my wish, however, that compiling perspectives from medical research on how doctors look upon and experience their own practice and perspectives from “strangers at the bedside” (<xref ref-type="bibr" rid="R1991">Rothman, 1991</xref>) can be mutually beneficial.</p>
-      <p>
-         <italic>Berit Bringedal</italic>
-      </p>
-      <p>
-         <italic>Guest Editor</italic>
-      </p>
+      <p>This paper is written from the perspective of a sociologist who studies health policy and professionals, but whose research has never focused explicitly on the topic of doctor satisfaction (DS). The impetus for this paper was in part a realisation that there are many studies conducted by sociologists that shed light on issues pertaining to DS. Yet there appears to be limited cross fertilisation of ideas and findings between these and other studies which have DS as an explicit focus. The aim of this short piece is to make a modest suggestion with a view to generating discussion and debate.</p>
+      <p>What follows is divided into three sections. The first of these discusses some studies raised by the literature on DS. This is not an exhaustive review, nor is it an evaluation of strengths and weaknesses of specific studies. Instead it is a preamble intended to highlight issues which are relevant to the arguments advanced in the rest of the paper. The second section draws on literature from the UK to discuss three sorts of binaries that the paper argues we should move beyond. Concluding remarks and a fourth binary are presented in the final section of the paper.</p>
+      <!-- sec lvl 2 begin -->
+      <sec>
+         <title>Learning from the literature</title>
+         <p>There are a range of approaches, terms and concepts used within the literature to explore what might broadly be termed DS. Some studies draw on one or more specific validated instruments to capture a range of concepts, others use their own questions developed for their particular study. This raises questions about conceptual definition and the ability to draw wider conclusions. For example, the Physicians Foundation (<xref ref-type="bibr" rid="    2014">2014</xref>) in the US, asks whether individuals would choose the same career if they had their time again (over 71% would) and whether they would recommend medicine as a career (about half would not), as well as about intentions to “accelerate their retirement plans due to changes in the healthcare system” (almost 40% are doing this) and feelings about the current state of the profession (44% are positive about this). One interpretation is that physicians can display high levels of satisfaction (based on the 71%) at the same time as exhibiting fairly high levels of discontent. This suggests that the relationship between (dis)satisfaction and (dis)content is not necessarily straightforward. Another interpretation is that asking questions about having one’s time over again tells us little about feelings today and may reflect experiences to date which are changing over time. Additionally, responses differ according to category of respondent, with younger doctors, employed doctors, females and primary care doctors more positive than others. So it is important to avoid drawing general conclusions about satisfaction on the basis of top level numbers.</p>
+         <p>As with the Physicians’ Foundation study, much of the literature concerning doctors’ attitudes to working life draws on large surveys, undertaken at a particular point in time. These often provide information based on the responses of a large number of individuals. However, the diversity of approach raises concerns about whether we can draw conclusions from diverse studies. Leaving aside the problems of attempting to do so, the findings raise questions about what constitutes a “high” level of dissatisfaction and whether we should be unduly concerned, especially as views on this may be largely in the eye of the beholder. In the US, where much of the research has been conducted, various studies highlight what might be regarded as high levels of physician dissatisfaction, especially in primary care settings (<xref ref-type="bibr" rid="MKM2011">McKinlay &amp; Marceau, 2011</xref>). The influence of managed care (<xref ref-type="bibr" rid="SHRV2001">Stoddard, Hargraves, Reed, &amp; Vratil, 2001</xref>) and other factors that reduce “autonomy” is reported as having a negative impact on satisfaction (<xref ref-type="bibr" rid="HM2002">e. g. Hadley &amp; Mitchell, 2002</xref>; <xref ref-type="bibr" rid="LD2002">Lammers &amp; Duggan, 2002</xref>). However, the relationship between satisfaction and perceived autonomy is not straightforward (<xref ref-type="bibr" rid="TPSVF2013">Tyssen, Palmer, Solberg, Voltmer &amp; Frank, 2013</xref>). Several reviews highlight links between physician satisfaction and quality of care (<xref ref-type="bibr" rid="SMKMW2009">e.g. Scheurer, McKean, Miller, &amp; Wetterneck, 2009</xref>; <xref ref-type="bibr" rid="MKM2011">McKinlay &amp; Marceau, 2011</xref>), although there are studies which fail to identify such a relationship (<xref ref-type="bibr" rid="UO    2009">e.g. Utsugi-Ozaki et al., 2009</xref>). As Casalino and Crosson (<xref ref-type="bibr" rid="    2015">2015</xref>) note in this special issue, direct evidence of the relationship between physician satisfaction and the quality of care is relatively scarce and shows mixed results.</p>
+         <p>In terms of whether things are worsening over time <xref ref-type="bibr" rid="SMKMW2009">Scheurer et al. (2009)</xref> found, based on a synthesis of longitudinal studies, that physician satisfaction in the US was relatively stable, although for primary care doctors a small decline was discernible. In contrast, Nylenna, Gulbrandsen, Førde, &amp; Aasland’s study of Norwegian doctors detected an increase in satisfaction over time (<xref ref-type="bibr" rid="NGFA2005">Nylenna et al., 2005</xref>; <xref ref-type="bibr" rid="CB2009">see also Carlsen and Bringedal, 2009</xref>) and Whalley, Bojke, Gravelle, &amp; Sibbald (<xref ref-type="bibr" rid="    2006">2006</xref>) found that satisfaction amongst English primary care doctors was higher in 2004 than 2001. However, this may in part reflect reforms which invested heavily in primary medical care and since then, a series of relatively unpopular (with the medical profession) reforms have been introduced which may have impacted on doctors’ views.</p>
+         <p>For the most part, the literature does not attempt to link sociological concepts to the analysis and understanding of the issues involved. A notable exception to this is McKinlay and Marceau’s (<xref ref-type="bibr" rid="    2011">2011</xref>) paper, which reviews and classifies evidence before going on to suggest that the concept of alienation is helpful in explaining physician discontent. The paper outlines a number of factors related to the modern workplace which are seen as contributing to alienation. These include a loss of control over the practice environment, supportive colleagues and a perception of workload as reasonable. From this perspective, doctors are on the receiving end of policy changes which attempt to control them and this leads to dysfunctional impacts. Much of the analysis is informed by experiences of managed care in the US and of primary care physicians, whose relatively low status and remuneration may not be mirrored in other countries. However, the paper also draws on evidence from other countries highlighting unique and contributing factors which the authors see as explaining doctors’ views.</p>
+         <p>The authors’ arguments about the scale, importance and causes of doctor dissatisfaction appear at times, to lead them to approach the evidence in a manner which seeks confirmation, rather than pursuing critical interrogation. This is evident in the discussion of studies measuring the relationship between physician discontent and quality of care. Findings showing that dissatisfaction impacts negatively on quality are accepted uncritically, but for studies which find no such relationship, a more critical approach is adopted (<xref ref-type="bibr"
+                  rid="MKE    2007 study finds no relationship between doctor’s morale in English primary care and patients’ perceptions of performance">e.g. McKinstry et al.’s 2007 study finds no relationship between doctor’s morale in English primary care and patients’ perceptions of performance</xref>).</p>
+         <p>According to McKinlay and Marceau, “a professional norm against workplace disgruntlement” means that patients may not notice any difference between dissatisfied doctors and their less stressed counterparts. Furthermore, the authors suggest, quantitative techniques may be too crude to capture the “subtle association between physician dissatisfaction and the processes and outcomes of care” (<xref ref-type="bibr" rid="    2011">2011</xref>, <xref ref-type="bibr" rid="    p. 320">p. 320</xref>). The paper does not discuss the possibility that studies which present self-report (as opposed to data extracted from medical charts) by doctors in relation to, for example, propensity to commit errors and provide sub-optimal care (<xref ref-type="bibr" rid="M1980">e.g. Melville, 1980</xref>) may be used an outlet for and reflective of “workplace disgruntlement” rather than reflecting care quality. Following McKinlay and Marceau’s arguments about methodological weaknesses, it would presumably be preferable to use data extracted from patient records, rather than relying on self-report. McKinlay and Marceau do not suggest that this approach should be taken, but they do acknowledge that a Japanese study (<xref ref-type="bibr" rid="UO2009">Utsugi-Ozaki, 2009</xref>) which did this found no relationship between job satisfaction and quality of care.</p>
+         <p>McKinlay and Marceau (<xref ref-type="bibr" rid="    2011">2011</xref>) identify encroachments on professional autonomy (such as requirements to pursue guideline driven care) as contributing hugely to dissatisfaction amongst medical professionals. Tyssen et al.’s 2013 study published after their review compared doctors’ perceptions on quality of care, professional autonomy and job satisfaction in Canada, Norway and the US. They found that US doctors felt greater autonomy, but lower levels of satisfaction compared with doctors in Canada and Norway. Their paper raises questions about the way in which studies define and measure autonomy, as well as highlighting the complex relationship between autonomy and satisfaction.</p>
+      </sec>
+      <!-- sec lvl 2 end -->
+      <!-- sec lvl 2 begin -->
+      <sec>
+         <title>Recognising complexity—beyond binaries</title>
+         <p>One way of exploring and understanding such complexity is to pay more attention to the insights from relevant, sociologically informed research. Sociological theories can provide a helpful perspective by offering concepts and frameworks locating doctors in the realm of the “social” to provide explanations of the views and behaviours of individuals which complement existing DS studies. There are a number of such studies which do not explore doctor satisfaction or discontent explicitly, but which shed light on doctors’ behaviours and perceptions. These resonate with McKinlay and Marceau’s (<xref ref-type="bibr" rid="    2011">2011</xref>) paper since they are often focused on the impacts of reforms in healthcare settings and doctors’ responses to changing contexts. Such research is frequently concerned to identify and categorize processes and outcomes in terms of control of professional work (<xref ref-type="bibr" rid="KE2008">Kitchener and Exworthy, 2008</xref>), though in many cases this results in a control-resistance framework, which leaves little room to accommodate more nuanced responses to reforms (<xref ref-type="bibr" rid="NSF2012">Numerato, Salvatore &amp; Fattore, 2012</xref>). In common with medical researchers in this area, there is a tendency amongst many sociologists to simplify and overemphasize findings which reinforce <italic>a priori</italic> assumptions. One of the problems with this type of approach is that it implicitly conceptualises power in terms of a zero sum game (<xref ref-type="bibr" rid="F1982">Foucault, 1982</xref>), and linked to this, a control-resistance framework is an overly simplistic view of a complex context (<xref ref-type="bibr" rid="BH2009">Bolton &amp; Houlihan, 2009</xref>). A preoccupation with medical power can lead to a failure to recognise that doctors can and do feel powerless, at times (<xref ref-type="bibr" rid="MD2002">McDonald, 2002</xref>). Linked to this, there is a danger that reporting on “satisfaction” takes on an “either/or” quality which leaves little room to incorporate complexity.</p>
+         <p>What follows draws on recent UK studies to illustrate why moving beyond this approach is important if we want to make greater progress in relation to DS.</p>
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Beyond binaries—incorporating exploration of different types of medical work</title>
+            <p>In a recent study my colleagues and I compared doctors’ responses in areas of activity that were the subject of “top down” reforms with those which were not (<xref ref-type="bibr" rid="MDCSBMK2013">McDonald, Cheraghi-Sohi, Bayes, Morriss, &amp; Kai, 2013</xref>). The former, the Quality and Outcomes Framework (QOF), involved guideline driven care underpinned by financial incentives (<xref ref-type="bibr" rid="MR2004">Martin Roland, 2004</xref>). In terms of the latter, the focus was on patients with medically unexplained symptoms (MUS) and the study found that doctors continued to practise as they had always done in this area. Whereas the introduction of guideline driven care appeared to embed new ways of working and thinking, with patients as groups to be managed as part of the organisational processes established for doing this, the organisational dimension with regard to MUS patients was largely absent from doctors’ accounts. For patients with QOF-related conditions proactive call and recall systems were developed and facilitated by disease registers and customized software. For MUS patients, doctors described reacting to patients who consumed large amounts of their time. Often doctors felt unhappy with the process and unsure of their impact. No attempt was made by the doctors to work together as a group practice to identify patients who attended too frequently and/or to meet to discuss strategies for managing this group of patients. This contrasted sharply with QOF-related areas of activity, where doctors and other members of the practice team worked closely together to ensure that targets were met.</p>
+            <p>Whereas QOF resulted in standardised approaches to care, accounts of MUS patients were characterized by variations and individual and idiosyncratic practice. Doctors’ accounts suggested that variations between approaches were seen as a “taken for granted” aspect of practice life, rather than something to be minimized in the pursuit of standardisation. Doctors gained little satisfaction from dealing with MUS patients. The absence of attempts to tackle this patient population could be attributed in part to the more complex nature of guidance and lack of computerized protocols for this group of patients compared to the various mechanisms which support QOF target delivery. However, it can also be interpreted in the context of the persistence of a logic (<xref ref-type="bibr" rid="S2001">Scott, 2001</xref>) of medical professionalism, which involves doctors coping with whatever presents and focusing on interactions with individual patients, as opposed to conceptualizing this in terms of organizations and the populations they serve (<xref ref-type="bibr" rid="MDCSBMK2013">McDonald et al., 2013</xref>). This example highlights that it is important not to approach DS from an “either/or” perspective, but to recognise the complexity of the context in which doctors are working. Examining different types of medical work undertaken by the same individuals helps to provide a more nuanced understanding.</p>
+            <p>McKinlay and Marceau (<xref ref-type="bibr" rid="    2011">2011</xref>) view clinical guidelines as undermining clinical autonomy and contributing to physician dissatisfaction. Yet studies demonstrate that this is not necessarily the case and physician satisfaction has been shown to be positively associated with guidelines (<xref ref-type="bibr" rid="KMHZPB2000">Kerr et al., 2000</xref>). This suggests that doctors do not always view such guidance as unhelpful or overly managerial. Doctors did not express high levels of dissatisfaction in relation to guidelines in our study (<xref ref-type="bibr" rid="MDCSBMK2013">McDonald et al., 2013</xref>). Furthermore, as Timmermans (<xref ref-type="bibr" rid="    2008">2008</xref>) explains, in the US and elsewhere the growth in clinical practice guidelines depends to a great extent on the collaboration of medical professional organisations. Guidelines have been part of the landscape of English primary medical care for some years and GPs as generalists do not necessarily see guidelines as threatening their professional autonomy (<xref ref-type="bibr" rid="C2004">Checkland, 2004</xref>). In our study (<xref ref-type="bibr" rid="MDCSBMK2013">McDonald et al., 2013</xref>) the doctors actively engaged with processes of organizational redesign and changes to ways of working. They welcomed being able to practise in a “well organized” environment and new structures did not undermine business ownership, which remained in the hands of the medical partners. Rather than viewing the reforms as running roughshod over traditional general medical practice, they can be seen as an attempt to build on and accelerate trends which were emerging pre-QOF, which may explain doctors’ willingness to embrace them.</p>
+            <p>In a context where much of the sociological literature is concerned with powerful medical professionals and their ability to resist change (<xref ref-type="bibr" rid="CLFMW2012">e.g. Currie, Lockett, Finn, Martin, &amp; Waring, 2012</xref>) our findings were relatively unusual. The state of affairs described with regard to MUS patients is less attributable to the power of medical professionals than to feelings of powerlessness experienced by many of the doctors in our study. Whilst maintaining the status quo is often characterised in terms of the “political efforts of actors to accomplish their ends” (<xref ref-type="bibr" rid="DM1988">DiMaggio, 1988</xref>, <xref ref-type="bibr" rid="DMp. 33">p. 33</xref>), it can also involve less conscious, iterative, routine-based and routine-reproducing activities (<xref ref-type="bibr" rid="S2008">Scott, 2008</xref>). These routinised behaviours continue in the context of MUS patients, where the logic of medical professionalism endures, despite the dissatisfactions of doctors in this area. At the same time, QOF activities were viewed in a relatively positive light, although some aspects (i.e. the potential to lose sight of the patient’s agenda) were seen in more negative terms.</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Beyond binaries—comparing different dimensions of autonomy/discretion</title>
+            <p>Various studies from the physician satisfaction literature make links between autonomy and satisfaction. However, autonomy is often measured and defined differently in different studies. Acknowledging developments over time which mean that nowadays professionals are much more likely to be located in employing organisations than was previously the case, Julia Evetts (<xref ref-type="bibr" rid="    2002">2002</xref>) suggests that rather than using the concept of autonomy, the term professional discretion is more appropriate and highly relevant to modern professional organisational contexts. Professional discretion,</p>
+            <disp-quote>
+               <p>enables workers to assess and evaluate cases and conditions, and to assert their professional judgement regarding advice, performance and treatment. To exercise discretion, however, requires the professional to make decisions and recommendations that take all factors and requirements into account. These factors and requirements will include organizational, economic, social, political and bureaucratic conditions and constraints. Thus, professional decisions will not be based solely on the needs of individual clients, but on clients’ needs in the wider corporate, organizational and economic context (<xref ref-type="bibr" rid="E2002">Evetts, 2002</xref>, <xref ref-type="bibr" rid="Ep. 345">p. 345</xref>).</p>
+            </disp-quote>
+            <p>This conceptualisation raises questions about the extent to which doctors are comfortable with a remit to “take all factors and requirements into account,” as well as the relationship between discretion and satisfaction. It also suggests a more complex and multi-dimensional concept than the view of “autonomy,” which features in much of the DS literature.</p>
+            <p>For Cheraghi-Sohi and Calnan (<xref ref-type="bibr" rid="    2013">2013</xref>) it is important to recognise the multi-dimensional nature of discretion when exploring doctors’ responses to changing work environments. The authors draw on Evetts’ (<xref ref-type="bibr" rid="    2002">2002</xref>) views to examine changes in English primary medical care and define various aspects of discretion (i.e. bureaucratic, social, organizational, economic and political). To some extent this resonates with McKinlay and Marceau’s (<xref ref-type="bibr" rid="    2011">2011</xref>) call to “change the approach to research on physician discontent […] to an organizational approach” (p. 322). But Cheraghi-Sohi and Calnan (<xref ref-type="bibr" rid="    2013">2013</xref>) go beyond this to examine how changes in each of these dimensions are perceived by the doctors involved. As their paper illustrates, conducting analyses on changes to discretion from a uni-dimensional perspective leads to, at best, a partial and at worse, an erroneous view of the situation. The authors find support for Evetts’ (<xref ref-type="bibr" rid="    2011">2011</xref>) assertion that modern professionalism is changing and “modern professional discretion is embedded in an organizational context and can only be understood on those terms with individual medical freedoms and latitude being tempered by increased collegiality, accountability and performance management” (<xref ref-type="bibr" rid="CSC2013 p. 59">Cheraghi-Sohi and Calnan, 2013 p. 59</xref>). This resonates with other studies which report the emergence of new forms of professionalism and an acceptance by medical professionals of such changes (<xref ref-type="bibr" rid="K2008">e.g. Kuhlmann, 2008</xref>).</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+         <!-- sec lvl 3 begin -->
+         <sec>
+            <title>Beyond binaries—collapsing the medicine versus management divide</title>
+            <p>My final example is drawn from a recent study which I undertook with colleagues (<xref ref-type="bibr" rid="MD    2012">McDonald et al., 2012</xref>) examining responses of hospital doctors to financial incentives which reward hospitals (as opposed to individuals) for providing care which is in accordance with a “best practice” pathway. As outlined above, guideline driven care has often been depicted as constraining clinical freedom. Furthermore, mechanisms such as financial incentives might be construed as part of the toolkit of management in a context where traditional notions of medical professionalism differ sharply in terms of ethics and orientation from the imperatives of management (<xref ref-type="bibr" rid="SGP1997">Schlesinger, Gray, &amp; Perreira, 1997</xref>; <xref ref-type="bibr" rid="MD2009">McDonald 2009</xref>). Many studies describe how managers and medical doctors inhabit different subcultures each with their own beliefs and practices (<xref ref-type="bibr" rid="MO2008">Morgan &amp; Ogbonna, 2008</xref>; <xref ref-type="bibr" rid="MDWH2006">McDonald, Waring, &amp; Harrison, 2006</xref>) languages and communication habits (<xref ref-type="bibr" rid="H2011">Holtman, 2011</xref>). <xref ref-type="bibr" rid="NSF2012">Numerato et al. (2012)</xref> describe how a whole raft of techniques and initiatives (e.g. New Public Management, governmentality) have been seen as part of a process whereby the tentacles of managerialism extend to control medical professionals. They conclude that:</p>
+            <disp-quote>
+               <p>Management and professionalism are frequently framed as contradictory in doctors’ views’ and it is worth noting that concepts such as co-optation, adaptation, negotiation or resistance remain located within the cultural incorporation⁄opposition, in other words hegemony ⁄ resistance framework and tend to situate the result of the dynamics between professional practice and managerial logic on a continuum between resistance to and compliance with managerialism. We suggest that this conceptualisation tends to overemphasise the importance of a conflictual model (<xref ref-type="bibr" rid="    2012">2012</xref>, <xref ref-type="bibr" rid="    p. 637">p. 637</xref>).</p>
+            </disp-quote>
+            <p>In our study, doctors were generally in agreement with the “best practice pathways” rather than seeing them as a mechanism of control. This is hardly surprising since the national pathway development was for the most part underpinned by medical knowledge and input. Some doctors described working with local managers to exploit the potential of the incentive initiative in order to improve care. At the same time, different levels of “management” were reported as being more or less amenable to collaborative working on the issue depending on a range of factors including proximity to the service and history of working relationships. This reminds us that “management” is not a unified monolithic entity but a collection of managers at different levels of the organisation characterised by collaborative and competing objectives and impulses. Additionally, doctors reported using what might be seen as management tools in order to deliver “best practice” care as part of a process of persuading senior managers to allocate resources to their service. In the area of renal “best practice tariffs” (BPTs) this BPT is intended to encourage vascular access for haemodialysis. There are wide variations in vascular access use within Europe, which do not appear to be explained by differences in population characteristics (<xref ref-type="bibr" rid="PYDGHGH2002">Pisoni et al., 2002</xref>) and rates in the UK are low. Consultant nephrologists identified a key issue for pathway compliance was access to surgeons and this could be problematic. Different doctors responded in different ways to this as illustrated below:</p>
+            <disp-quote>
+               <p>…if we do this better, we get paid more… best practice tariff … has certainly given me some leverage with the Trust to say: “Actually, this is something that we do need to invest in.” … what I've been in the process of doing ….is getting a business case together for bringing in a new member of staff, really, to coordinate the vascular access service. …The business case [was] approved because the best practice tariff will fund it. And without that, although it's something we wanted to do, actually, for a couple of years, we've never been able to because there's been no money for it. [Nephrologist A]</p>
+            </disp-quote>
+            <p>In contrast, as the following quote illustrates, some nephrologists wanted to increase vascular access, but felt frustrated at their inability to influence factors which they saw as beyond their control:</p>
+            <disp-quote>
+               <p>I can’t do a lot about it if my surgeon doesn’t do it … The problem is it’s not really a best practice tariff for renal services but for vascular surgery because even if I’m running the best renal unit, if I don’t have a proper vascular surgeon in the area I won’t be able to increase my fistula rate … I would need a more enthusiastic vascular surgeon who would take it up as a priority. [Nephrologist B]</p>
+            </disp-quote>
+            <p>It does not seem helpful to categorise these response using a control/resistance or medicine/management framework. The doctor in the second quote feels powerless and frustrated rather than actively resisting control. In the first case, the adoption of “management” tools and close working with local level managers has resulted in what the nephrologist sees as a positive outcome for patients. He does not appear to see this as threatening his medical identity, nor is it used to shore up medical power to defend against controlling managers. There is a literature describing how medical professionals attempt to maintain their clinical autonomy by selectively using “management” measures. However, my point here is that this is less about defending against encroachments on clinical autonomy than joining up aspects of care in a way that solves the sorts of problems that can leave doctors feeling powerless and dissatisfied. Furthermore, the example illustrates how differences and divisions between different types of doctors (in this case nephrologists and vascular surgeons) can be more important than divisions between doctors and managers.</p>
+            <p>In this example we can see how some doctors can incorporate what might be seen as management techniques and practices in ways which challenges static ideas about what constitutes doctors’ roles. Sociologists have written much on the subject of identity (<xref ref-type="bibr" rid="J2008">Jenkins, 2008</xref>) as a fluid and dynamic concept involving multiple identities (e.g. mother, doctor, wife etc.). Applying this perspective and locating individual accounts in a wider social and historic context, can help to understand doctors’ views and actions and avoid simplistic assumptions about the relationship between medicine and management.</p>
+         </sec>
+         <!-- sec lvl 3 end -->
+      </sec>
+      <!-- sec lvl 2 end -->
+      <!-- sec lvl 2 begin -->
+      <sec>
+         <title>Concluding remarks</title>
+         <p>As the foregoing illustrates, exploration and understanding of DS cannot be reduced to simplistic binary categories. My argument is not that for example, medical power is a useless concept. Indeed the fact that vascular surgeon in the above example can choose to ignore some aspects of work (i.e. grafts for vascular access) and prioritise others suggests that consideration of power is often important. However, a focus on power can lead to assume that “power” at the macro level readily provides an important resource at the micro level for individual doctors. Similarly, control and resistance and/or the distinction between medicine and management may be important in explaining some aspects of professional work, but we do not have to assume that in all cases, they are the appropriate frames from which to view the action.</p>
+         <p>Sociologically informed approaches can add value to the study of DS. Their contribution goes beyond providing more detailed qualitative and/or ethnographic studies, to using and developing theory to inform our understanding of events. The sociological imagination suggests that “personal troubles” such as the accounts and views of individual doctors must be understood in terms of public issues, biography and history and the “intricate relationship between them” (<xref ref-type="bibr" rid="M2000">Mills, 2000</xref>, <xref ref-type="bibr" rid="M"/>). This suggests a wide remit and highlights the need to pay attention to the broader social and historical context in which individual experiences are located.</p>
+         <p>This brings me to another binary, which is the split between sociological research and medically led research into the topic of DS. Breaking out of the silos in which we work to combine insights from both of these areas would be a fruitful way forward. As with the other binaries discussed in this paper, there is a danger that some of us have become so accustomed to viewing things in terms of these binaries that they have a “taken for granted” quality that makes it difficult for us to reflect critically upon them. The intention is that this short piece will stimulate discussion about whether and how we should start to do this.</p>
+      </sec>
+      <!-- sec lvl 2 end -->
    </body>
    <back>
       <ref-list>
-         <ref id="F1970"><!--Freidson, E. (1970). <italic>Profession of medicine: A study of the sociology of applied knowledge</italic>. New York: Dodd, Mead & Co.-->
-            <element-citation publication-type="journal" publication-format="print">
+         <ref id="BH2009"><!--Bolton, S. C., & Houlihan, M. (2009). Beyond the control-resistance debate: A fresh look at experiences of work in the new economy. <italic>Qualitative Research in Accounting & Management, 6</italic>(1/2), 5-13. <uri>http://dx.doi.org/10.1108/11766090910940629</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Freidson</surname>
-                     <given-names>E.</given-names>
+                     <surname>Bolton</surname>
+                     <given-names>S. C.</given-names>
+                  </name>
+                  <name>
+                     <surname>Houlihan</surname>
+                     <given-names>M.</given-names>
                   </name>
                </person-group>
-               <year>1970</year>
-               <article-title> </article-title>
-               <source>Profession of medicine: A study of the sociology of applied knowledge</source>
+               <year>2009</year>
+               <article-title>Beyond the control-resistance debate: A fresh look at experiences of work in the new economy.</article-title>
+               <source>Qualitative Research in Accounting &amp; Management</source>
+               <volume>6</volume>
+               <fpage>5</fpage>
+               <lpage>13</lpage>
+               <uri>http://dx.doi.org/10.1108/11766090910940629</uri>
             </element-citation>
          </ref>
-         <ref id="F2001"><!--Freidson, E. (2001). <italic>Professionalism, the third logic: On the practice of knowledge. </italic>The University of Chicago Press.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="CB2009"><!--Carlsen, F., & Bringedal, B. (2009). Befolkningens tilfredshet med helsetjenesten og legers tilfredshet med arbeidssituasjonen. [Population satisfaction with health care and physicians' job satisfaction]. <italic>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin,129</italic>(5), 405-407. <uri>http://dx.doi.org/10.4045/tidsskr.09.33577</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Freidson</surname>
-                     <given-names>E.</given-names>
-                  </name>
-               </person-group>
-               <year>2001</year>
-               <source>Professionalism, the third logic: On the practice of knowledge.</source>
-               <publisher-loc>The University of Chicago Press.</publisher-loc>
-               <publisher-name>The University of Chicago Press.</publisher-name>
-            </element-citation>
-         </ref>
-         <ref id="FCVAPCT2013"><!--Friedberg, M. W., Chen, P. G., Van Busum, K. R., Aunon, F., Pham, C., Caloyeras, J., … Tutty, M. (2013). <italic>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</italic>. Boston, Massachusetts: The RAND Corporation. Available at: <uri>http://www.rand.org/pubs/research_reports/RR439.html.</uri>-->
-            <element-citation publication-type="book" publication-format="web">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Friedberg</surname>
-                     <given-names>M. W.</given-names>
-                  </name>
-                  <name>
-                     <surname>Chen</surname>
-                     <given-names>P. G.</given-names>
-                  </name>
-                  <name>
-                     <surname>Van</surname>
-                     <given-names>K. R.</given-names>
-                  </name>
-                  <name>
-                     <surname>Aunon</surname>
+                     <surname>Carlsen</surname>
                      <given-names>F.</given-names>
                   </name>
                   <name>
-                     <surname>Pham</surname>
-                     <given-names>C.</given-names>
+                     <surname>Bringedal</surname>
+                     <given-names>B.</given-names>
+                  </name>
+               </person-group>
+               <year>2009</year>
+               <article-title xml:lang="__"> Befolkningens tilfredshet med helsetjenesten og legers tilfredshet med arbeidssituasjonen. [Population satisfaction with health care and physicians' job satisfaction].</article-title>
+               <trans-title xml:lang="__">Population satisfaction with health care and physicians' job satisfaction</trans-title>
+               <source>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin</source>
+               <volume>129</volume>
+               <issue>5</issue>
+               <fpage>405</fpage>
+               <lpage>407</lpage>
+               <uri>http://dx.doi.org/10.4045/tidsskr.09.33577</uri>
+            </element-citation>
+         </ref>
+         <ref id="CC2015"><!--Casalino, L. P., & Crosson, F. J. (2015). Physician satisfaction and physician well-being: should anyone care? <italic>Professions and Professionalism, 5</italic>(1). <uri>http://dx.doi.org/10.7577/pp.954</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Casalino</surname>
+                     <given-names>L. P.</given-names>
                   </name>
                   <name>
-                     <surname>Caloyeras</surname>
-                     <given-names>J.</given-names>
+                     <surname>Crosson</surname>
+                     <given-names>F. J.</given-names>
                   </name>
-                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
+               </person-group>
+               <year>2015</year>
+               <article-title>Physician satisfaction and physician well-being: should anyone care?</article-title>
+               <source>Professions and Professionalism</source>
+               <volume>5</volume>
+               <issue>1</issue>
+               <uri>http://dx.doi.org/10.7577/pp.954</uri>
+            </element-citation>
+         </ref>
+         <ref id="C2004"><!--Checkland, K. (2004). National Service Frameworks and UK general practitioners: street‐level bureaucrats at work? <italic>Sociology of health & Illness, 26</italic>(7), 951-975. <uri>http://dx.doi.org/10.1111/j.0141-9889.2004.00424.x</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
                   <name>
-                     <surname>Tutty</surname>
+                     <surname>Checkland</surname>
+                     <given-names>K.</given-names>
+                  </name>
+               </person-group>
+               <year>2004</year>
+               <article-title>National Service Frameworks and UK general practitioners: street‐level bureaucrats at work?</article-title>
+               <source>Sociology of health &amp; Illness</source>
+               <volume>26</volume>
+               <issue>7</issue>
+               <fpage>951</fpage>
+               <lpage>975</lpage>
+               <uri>http://dx.doi.org/10.1111/j.0141-9889.2004.00424.x</uri>
+            </element-citation>
+         </ref>
+         <ref id="CSC2013"><!--Cheraghi-Sohi, S., & Calnan, M. (2013). Discretion or discretions? Delineating professional discretion. The case of English medical practice. <italic>Social Science & Medicine, 96</italic>, 52-59. <uri>http://dx.doi.org/10.1016/j.socscimed.2013.07.011</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cheraghi-Sohi</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Calnan</surname>
                      <given-names>M.</given-names>
                   </name>
                </person-group>
                <year>2013</year>
-               <source>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</source>
-               <publisher-loc>at</publisher-loc>
-               <publisher-name/>
-               <uri>http://www.rand.org/pubs/research_reports/RR439.html.</uri>
+               <article-title>Discretion or discretions? Delineating professional discretion. The case of English medical practice.</article-title>
+               <source>Social Science &amp; Medicine</source>
+               <volume>96</volume>
+               <fpage>52</fpage>
+               <lpage>59</lpage>
+               <uri>http://dx.doi.org/10.1016/j.socscimed.2013.07.011</uri>
             </element-citation>
          </ref>
-         <ref id="F1994"><!--Frey, B. S. (1994). How intrinsic motivation is crowded out and in. <italic>Rationality and Society, 6</italic>(3), 334–352. <uri>http://dx.doi.org/10.1177/1043463194006003004</uri>-->
+         <ref id="CLFMW2012"><!--Currie, G., Lockett, A., Finn, R., Martin, G., & Waring, J. (2012). Institutional work to maintain professional power: Recreating the model of medical professionalism. <italic>Organization Studies, 33</italic>(7), 937-962. <uri>http://dx.doi.org/10.1177/0170840612445116</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Frey</surname>
-                     <given-names>B. S.</given-names>
+                     <surname>Currie</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Lockett</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Finn</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Martin</surname>
+                     <given-names>G.</given-names>
+                  </name>
+                  <name>
+                     <surname>Waring</surname>
+                     <given-names>J.</given-names>
                   </name>
                </person-group>
-               <year>1994</year>
-               <article-title>How intrinsic motivation is crowded out and in.</article-title>
-               <source>Rationality and Society</source>
-               <volume>6</volume>
-               <issue>3</issue>
-               <fpage>334</fpage>
-               <lpage>352</lpage>
-               <uri>http://dx.doi.org/10.1177/1043463194006003004</uri>
+               <year>2012</year>
+               <article-title>Institutional work to maintain professional power: Recreating the model of medical professionalism.</article-title>
+               <source>Organization Studies</source>
+               <volume>33</volume>
+               <issue>7</issue>
+               <fpage>937</fpage>
+               <lpage>962</lpage>
+               <uri>http://dx.doi.org/10.1177/0170840612445116</uri>
             </element-citation>
          </ref>
-         <ref id="LC2011"><!--Lægreid, P., & Christensen, T. (2011). <italic>The Ashgate research companion to new public management</italic>. Farnham: Ashgate.-->
-            <element-citation publication-type="book" publication-format="print">
+         <ref id="DM1988"><!--DiMaggio, P.J. (1988). Interest and agency in institutional theory. In L. J. Zucker (Ed.), <italic>Institutional Patterns and Organizations: Culture and Environment</italic>. Cambridge: Cambridge University-->
+            <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Lægreid</surname>
-                     <given-names>P.</given-names>
+                     <surname>DiMaggio</surname>
+                     <given-names>P.J.</given-names>
                   </name>
+               </person-group>
+               <year>1988</year>
+               <chapter-title>Interest and agency in institutional theory</chapter-title>
+               <person-group person-group-type="editor">
                   <name>
-                     <surname>Christensen</surname>
-                     <given-names>T.</given-names>
+                     <surname>Zucker</surname>
+                     <given-names>terest and agency in institutional theory. In L. J. Zucker</given-names>
+                  </name>
+               </person-group>
+               <source>Institutional Patterns and Organizations: Culture and Environment</source>
+               <publisher-loc>Cambridge</publisher-loc>
+               <publisher-name>Cambridge University</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="PE2002"><!--Press.Evetts, J. (2002). New directions in state and international professional occupations: discretionary decision-making and acquired regulation. <italic>Work, Employment & Society, 16</italic>(2), 341-353. <uri>http://dx.doi.org/10.1177/095001702400426875</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Press.Evetts</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>2002</year>
+               <article-title>New directions in state and international professional occupations: discretionary decision-making and acquired regulation.</article-title>
+               <source>Work, Employment &amp; Society</source>
+               <volume>16</volume>
+               <issue>2</issue>
+               <fpage>341</fpage>
+               <lpage>353</lpage>
+               <uri>http://dx.doi.org/10.1177/095001702400426875</uri>
+            </element-citation>
+         </ref>
+         <ref id="E2011"><!--Evetts, J. (2011). A new professionalism? Challenges and opportunities. <italic>Current Sociology, 59</italic>(4), 406-422. <uri>http://dx.doi.org/10.1177/0011392111402585</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Evetts</surname>
+                     <given-names>J.</given-names>
                   </name>
                </person-group>
                <year>2011</year>
-               <source>The Ashgate research companion to new public management</source>
-               <publisher-loc>Farnham</publisher-loc>
-               <publisher-name>Ashgate</publisher-name>
+               <article-title>A new professionalism? Challenges and opportunities.</article-title>
+               <source>Current Sociology</source>
+               <volume>59</volume>
+               <issue>4</issue>
+               <fpage>406</fpage>
+               <lpage>422</lpage>
+               <uri>http://dx.doi.org/10.1177/0011392111402585</uri>
             </element-citation>
          </ref>
-         <ref id="___"><!--Makdessi, L., & Halmin, M. (19 June 2013). Läkarupprop för en bättre sjukvård. <italic>Läkartidningen. </italic>2013;110:CD3I. Retrieved from:<italic> </italic><uri>http://www.lakartidningen.se/Opinion/Debatt/2013/06/Lakarupprop-for-en-battre-sjukvard/</uri>-->
-            <mixed-citation publication-type="book" publication-format="web">Makdessi, L., &amp; Halmin, M. (19 June 2013). Läkarupprop för en bättre sjukvård. <italic>Läkartidningen. </italic>2013;110:CD3I. Retrieved from:<italic> </italic>
-               <uri>http://www.lakartidningen.se/Opinion/Debatt/2013/06/Lakarupprop-for-en-battre-sjukvard/</uri>
-            </mixed-citation>
+         <ref id="F1982"><!--Foucault, M. (1982). The subject and power. In H. L. Dreyfus & P. Rabinow (Eds.), <italic>Michel Foucault: Beyond Structuralism and Hermeneutics</italic>. Chicago: University of Chicago Press.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Foucault</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <year>1982</year>
+               <chapter-title>The subject and power</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Dreyfus</surname>
+                     <given-names>H. L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Rabinow</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <source>Michel Foucault: Beyond Structuralism and Hermeneutics</source>
+               <publisher-loc>Chicago</publisher-loc>
+               <publisher-name>University of Chicago Press</publisher-name>
+            </element-citation>
          </ref>
-         <ref id="MKM2011"><!--McKinlay, J., & Marceau, L. (2011). New wine in an old bottle: Does alienation provide an explanation of the origins of physician discontent? <italic>International Journal of Health Services, 41</italic>(2), 301–335. <uri>http://dx.doi.org/10.2190/HS.41.2.g</uri>-->
+         <ref id="HM2002"><!--Hadley, J., & Mitchell, J. M. (2002). The growth of managed care and changes in physicians' incomes, autonomy, and satisfaction, 1991–1997. <italic>International Journal of Health Care Finance and Economics, 2</italic>(1), 37-50. <uri>http://dx.doi.org/10.1023/A:1015397413797</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hadley</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Mitchell</surname>
+                     <given-names>J. M.</given-names>
+                  </name>
+               </person-group>
+               <year>2002</year>
+               <article-title>The growth of managed care and changes in physicians' incomes, autonomy, and satisfaction, 1991–1997.</article-title>
+               <source>International Journal of Health Care Finance and Economics</source>
+               <volume>2</volume>
+               <issue>1</issue>
+               <fpage>37</fpage>
+               <lpage>50</lpage>
+               <uri>http://dx.doi.org/10.1023/A:1015397413797</uri>
+            </element-citation>
+         </ref>
+         <ref id="H2011"><!--Holtman, M.C. (2011). Paradoxes of professionalism and error in complex systems. <italic>Journal of Biomedical Informatics, 44</italic>(3), 395-401. <uri>http://dx.doi.org/10.1016/j.jbi.2009.08.002</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Holtman</surname>
+                     <given-names>M.C.</given-names>
+                  </name>
+               </person-group>
+               <year>2011</year>
+               <article-title>Paradoxes of professionalism and error in complex systems.</article-title>
+               <source>Journal of Biomedical Informatics</source>
+               <volume>44</volume>
+               <issue>3</issue>
+               <fpage>395</fpage>
+               <lpage>401</lpage>
+               <uri>http://dx.doi.org/10.1016/j.jbi.2009.08.002</uri>
+            </element-citation>
+         </ref>
+         <ref id="J2008"><!--Jenkins, R. (2008). <italic>Social Identity</italic>. (3rd ed.), London: Routledge.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Jenkins</surname>
+                     <given-names>R.</given-names>
+                  </name>
+               </person-group>
+               <year>2008</year>
+               <source>Social Identity</source>
+               <edition>3</edition>
+               <publisher-loc>London</publisher-loc>
+               <publisher-name>Routledge</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="KMHZPB2000"><!--Kerr, E. A., Mittman, B. S., Hays, R. D., Zemencuk, J. K., Pitts, J., & Brook, R. H. (2000). Associations between primary care physician satisfaction and self-reported aspects of utilization management. <italic>Health services research, 35</italic>(1 Pt 2), 333.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kerr</surname>
+                     <given-names>E. A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Mittman</surname>
+                     <given-names>B. S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hays</surname>
+                     <given-names>R. D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Zemencuk</surname>
+                     <given-names>J. K.</given-names>
+                  </name>
+                  <name>
+                     <surname>Pitts</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Brook</surname>
+                     <given-names>R. H.</given-names>
+                  </name>
+               </person-group>
+               <year>2000</year>
+               <article-title>Associations between primary care physician satisfaction and self-reported aspects of utilization management.</article-title>
+               <source>Health services research</source>
+               <volume>35</volume>
+               <!--Please verify that the elocadion-id is indeed an elocation-id and not an uncomplete page range.-->
+               <elocation-id>333</elocation-id>
+            </element-citation>
+         </ref>
+         <ref id="KE2008"><!--Kitchener, M., & Exworthy, M. (2008). Models of medical work control: A theory elaboration from English General Practice. In: L. McKee, E. Ferlie & P. Hyde (Eds.), <italic>Organizing and reorganizing: Power and change in health care organizations </italic>(pp. 209-223). Hampshire: Palgrave MacMillan.-->
+            <element-citation publication-type="book-chapter" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kitchener</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Exworthy</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <year>2008</year>
+               <chapter-title>Kitchener, M., &amp; Exworthy, M. (2008). Models of medical work control: A theory elaboration from English General Practice. In: L. McKee, E. Ferlie &amp; P. Hyde (Eds.), Organizing and reorganizing: Power and change in health care organizations (pp. 209-223). Hampshire: Palgrave MacMillan.</chapter-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>McKee</surname>
+                     <given-names>: L. McKee</given-names>
+                  </name>
+                  <name>
+                     <surname>Ferlie</surname>
+                     <given-names>E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hyde</surname>
+                     <given-names>P.</given-names>
+                  </name>
+               </person-group>
+               <source>Organizing and reorganizing: Power and change in health care organizations</source>
+               <fpage>209</fpage>
+               <lpage>223</lpage>
+               <publisher-loc>Hampshire</publisher-loc>
+               <publisher-name>Palgrave MacMillan</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="K2008"><!--Kuhlmann, E. (2008). <italic>Unsettling the power-knowledge nexus in professionalism: multiple dynamics in health care</italic>. Paper presented at the interim meeting of the ESA research network on “Sociology of Professions”. Aarhus Denmark, 5–7 June.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Kuhlmann</surname>
+                     <given-names>E.</given-names>
+                  </name>
+               </person-group>
+               <year>2008</year>
+               <article-title> </article-title>
+               <source>Unsettling the power-knowledge nexus in professionalism: multiple dynamics in health care</source>
+               <fpage>5</fpage>
+               <lpage>7</lpage>
+            </element-citation>
+         </ref>
+         <ref id="LD2002"><!--Lammers, J. C., & Duggan, A. (2002). Bringing the physician back in: Communication predictors of physicians’ satisfaction with managed care. <italic>Health Communication14</italic>(4), 493–513; discussion, 498-515.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lammers</surname>
+                     <given-names>J. C.</given-names>
+                  </name>
+                  <name>
+                     <surname>Duggan</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <year>2002</year>
+               <article-title>Bringing the physician back in: Communication predictors of physicians’ satisfaction with managed care.</article-title>
+               <source>Health Communication14</source>
+               <issue>4</issue>
+               <fpage>493 498</fpage>
+               <lpage>513 515</lpage>
+            </element-citation>
+         </ref>
+         <ref id="MD2002"><!--McDonald, R. (2002). <italic>Using Health Economics in Health Services, Rationing Rationally?</italic> Bucks: Open University Press.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McDonald</surname>
+                     <given-names>R.</given-names>
+                  </name>
+               </person-group>
+               <year>2002</year>
+               <source>Using Health Economics in Health Services, Rationing Rationally?</source>
+               <publisher-loc>Bucks</publisher-loc>
+               <publisher-name>Open University Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="MD2009"><!--McDonald, R. (2009). Market reforms in English primary care: medicine, habitus & the public sphere. <italic>Sociology of Health & Illness, 31</italic>(5), 659-672. <uri>http://dx.doi.org/10.1111/j.1467-9566.2009.01165.x</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McDonald</surname>
+                     <given-names>R.</given-names>
+                  </name>
+               </person-group>
+               <year>2009</year>
+               <article-title>Market reforms in English primary care: medicine, habitus &amp; the public sphere.</article-title>
+               <source>Sociology of Health &amp; Illness</source>
+               <volume>31</volume>
+               <issue>5</issue>
+               <fpage>659</fpage>
+               <lpage>672</lpage>
+               <uri>http://dx.doi.org/10.1111/j.1467-9566.2009.01165.x</uri>
+            </element-citation>
+         </ref>
+         <ref id="MDCSBMK2013"><!--McDonald, R., Cheraghi-Sohi, S., Bayes, S., Morriss, R., & Kai, J. (2013). Competing and coexisting logics in the changing field of English general medical practice. <italic>Social Science & Medicine, 93</italic>, 47-54. <uri>http://dx.doi.org/10.1016/j.socscimed.2013.06.010</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McDonald</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Cheraghi-Sohi</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bayes</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Morriss</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Kai</surname>
+                     <given-names>J.</given-names>
+                  </name>
+               </person-group>
+               <year>2013</year>
+               <article-title>Competing and coexisting logics in the changing field of English general medical practice.</article-title>
+               <source>Social Science &amp; Medicine</source>
+               <volume>93</volume>
+               <fpage>47</fpage>
+               <lpage>54</lpage>
+               <uri>http://dx.doi.org/10.1016/j.socscimed.2013.06.010</uri>
+            </element-citation>
+         </ref>
+         <ref id="___2012"><!--McDonald, R., Zaidi, S., Todd, S., Konteh, F., Hussain, K., Roe, J., … Sutton, M. (2012). A qualitative and quantitative evaluation of the introduction of Best-->
+            <mixed-citation publication-format="print">McDonald, R., Zaidi, S., Todd, S., Konteh, F., Hussain, K., Roe, J., … Sutton, M. (2012). A qualitative and quantitative evaluation of the introduction of Best</mixed-citation>
+         </ref>
+         <ref id="___"><!--Pratice Tariffs. <italic>An evaluation report commissioned by the Department of Health. </italic>University of Nottingham.-->
+            <mixed-citation publication-type="journal" publication-format="print">Pratice Tariffs. <italic>An evaluation report commissioned by the Department of Health. </italic>University of Nottingham.</mixed-citation>
+         </ref>
+         <ref id="MDWH2006"><!--McDonald, R., Waring, J., & Harrison, S. (2006). Rules, safety and the narrativisation of identity: a hospital operating theatre case study. <italic>Sociology of health & illness, 28</italic>(2), 178-202.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McDonald</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Waring</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Harrison</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>2006</year>
+               <article-title>Rules, safety and the narrativisation of identity: a hospital operating theatre case study.</article-title>
+               <source>Sociology of health &amp; illness</source>
+               <volume>28</volume>
+               <issue>2</issue>
+               <fpage>178</fpage>
+               <lpage>202</lpage>
+            </element-citation>
+         </ref>
+         <ref id="MKM2011"><!--McKinlay, J., &Marceau, L. (2011). New wine in an old bottle: Does alienation provide an explanation of the origins of physician discontent? <italic>International Journal of Health Services, 41</italic>(2), 301–335. <uri>http://dx.doi.org/10.2190/HS.41.2.g</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -241,103 +659,418 @@
                <uri>http://dx.doi.org/10.2190/HS.41.2.g</uri>
             </element-citation>
          </ref>
-         <ref id="R1991"><!--Rothman, D. J. (1991). <italic>Strangers at the bedside: A history of how law and bioethics transformed medical decision making</italic>. New York: BasicBooks.-->
-            <element-citation publication-type="book" publication-format="print">
-               <person-group person-group-type="author">
-                  <name>
-                     <surname>Rothman</surname>
-                     <given-names>D. J.</given-names>
-                  </name>
-               </person-group>
-               <year>1991</year>
-               <source>Strangers at the bedside: A history of how law and bioethics transformed medical decision making</source>
-               <publisher-loc>New York</publisher-loc>
-               <publisher-name>BasicBooks</publisher-name>
-            </element-citation>
+         <ref id="___"><!--McKinstry, B., Walker, J., Porter, M., Fulton, C., Tait, A., Hanley, J., & Mercer, S.-->
+            <mixed-citation publication-format="print">McKinstry, B., Walker, J., Porter, M., Fulton, C., Tait, A., Hanley, J., &amp; Mercer, S.</mixed-citation>
          </ref>
-         <ref id="SBTDSSO2012"><!--Shanafelt, T. D., Boone, S., Tan, L., Dyrbye, L. N., Sotile, W., Satele, D., … Oreskovich, M. R. (2012). Burnout and satisfaction with work-life balance among US physicians relative to the general US population. <italic>Archives of Internal Medicine, 172</italic>(18), 1377-1385. <uri>http://dx.doi.org/10.1001/archinternmed.2012.3199</uri>-->
+         <ref id="___"><!--(2007). The impact of general practitioner morale on patient satisfaction with care: a cross-sectional study. <italic>BMC Family Practice, 8</italic>(1), 57. <uri>http://dx.doi.org/10.1186/1471-2296-8-57</uri>-->
+            <mixed-citation publication-type="journal" publication-format="web">(2007). The impact of general practitioner morale on patient satisfaction with care: a cross-sectional study. <italic>BMC Family Practice, 8</italic>(1), 57. <uri>http://dx.doi.org/10.1186/1471-2296-8-57</uri>
+            </mixed-citation>
+         </ref>
+         <ref id="M1980"><!--Melville, A. (1980). Job satisfaction in general practice implications for prescribing. <italic>Social Science & Medicine. Part A: Medical Psychology & Medical Sociology, 14</italic>(6), 495-499. <uri>http://dx.doi.org/10.1016/S0271-7123%2880%2980055-1</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Shanafelt</surname>
-                     <given-names>T. D.</given-names>
+                     <surname>Melville</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <year>1980</year>
+               <article-title>Job satisfaction in general practice implications for prescribing.</article-title>
+               <source>Social Science &amp; Medicine. Part A: Medical Psychology &amp; Medical Sociology</source>
+               <volume>14</volume>
+               <issue>6</issue>
+               <fpage>495</fpage>
+               <lpage>499</lpage>
+               <uri>http://dx.doi.org/10.1016/S0271-7123%2880%2980055-1</uri>
+            </element-citation>
+         </ref>
+         <ref id="M2000"><!--Mills, C.W. (2000). <italic>The Sociological Imagination</italic>. 40th Anniversary Edition. Oxford: Oxford University Press.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Mills</surname>
+                     <given-names>C.W.</given-names>
+                  </name>
+               </person-group>
+               <year>2000</year>
+               <source>The Sociological Imagination</source>
+               <publisher-loc>Oxford</publisher-loc>
+               <publisher-name>Oxford University Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="MO2008"><!--Morgan, P.I., & Ogbonna, E. (2008). Subcultural dynamics in transformation: A multi-perspective study of healthcare professionals. <italic>Human Relations, 61</italic>(1), 39–65. <uri>http://dx.doi.org/10.1177/0018726707085945</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Morgan</surname>
+                     <given-names>P.I.</given-names>
                   </name>
                   <name>
-                     <surname>Boone</surname>
-                     <given-names>S.</given-names>
+                     <surname>Ogbonna</surname>
+                     <given-names>E.</given-names>
                   </name>
+               </person-group>
+               <year>2008</year>
+               <article-title>Subcultural dynamics in transformation: A multi-perspective study of healthcare professionals.</article-title>
+               <source>Human Relations</source>
+               <volume>61</volume>
+               <issue>1</issue>
+               <fpage>39</fpage>
+               <lpage>65</lpage>
+               <uri>http://dx.doi.org/10.1177/0018726707085945</uri>
+            </element-citation>
+         </ref>
+         <ref id="NSF2012"><!--Numerato, D., Salvatore, D., & Fattore, G. (2012). The impact of management on medical professionalism: a review.<italic> Sociology of Health & Illness, 34</italic>(4), 626-644. <uri>http://dx.doi.org/10.1111/j.1467-9566.2011.01393.x</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
                   <name>
-                     <surname>Tan</surname>
-                     <given-names>L.</given-names>
-                  </name>
-                  <name>
-                     <surname>Dyrbye</surname>
-                     <given-names>L. N.</given-names>
-                  </name>
-                  <name>
-                     <surname>Sotile</surname>
-                     <given-names>W.</given-names>
-                  </name>
-                  <name>
-                     <surname>Satele</surname>
+                     <surname>Numerato</surname>
                      <given-names>D.</given-names>
                   </name>
-                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>Oreskovich</surname>
-                     <given-names>M. R.</given-names>
+                     <surname>Salvatore</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Fattore</surname>
+                     <given-names>G.</given-names>
                   </name>
                </person-group>
                <year>2012</year>
-               <article-title>Burnout and satisfaction with work-life balance among US physicians relative to the general US population.</article-title>
-               <source>Archives of Internal Medicine</source>
-               <volume>172</volume>
-               <issue>18</issue>
-               <fpage>1377</fpage>
-               <lpage>1385</lpage>
-               <uri>http://dx.doi.org/10.1001/archinternmed.2012.3199</uri>
+               <article-title>The impact of management on medical professionalism: a review.</article-title>
+               <source> Sociology of Health &amp; Illness</source>
+               <volume>34</volume>
+               <issue>4</issue>
+               <fpage>626</fpage>
+               <lpage>644</lpage>
+               <uri>http://dx.doi.org/10.1111/j.1467-9566.2011.01393.x</uri>
             </element-citation>
          </ref>
-         <ref id="WGHHHKW2013"><!--Wyller, V. B., Gisvold, S. E., Hagen, E., Heggedal, R., Heimdal, A., Karlsen, K., … Wyller, T. B. (2013). Reclaim the profession! <italic>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin, 133</italic>(6), 655.-->
+         <ref id="NGFA2005"><!--Nylenna, M., Gulbrandsen, P., Førde, R., & Aasland, O. G. (2005). Unhappy doctors? A longitudinal study of life and job satisfaction among Norwegian doctors 1994–2002. <italic>BMC Health Services Research, 5</italic>(1), 44.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Wyller</surname>
-                     <given-names>V. B.</given-names>
+                     <surname>Nylenna</surname>
+                     <given-names>M.</given-names>
                   </name>
                   <name>
-                     <surname>Gisvold</surname>
-                     <given-names>S. E.</given-names>
+                     <surname>Gulbrandsen</surname>
+                     <given-names>P.</given-names>
                   </name>
                   <name>
-                     <surname>Hagen</surname>
-                     <given-names>E.</given-names>
-                  </name>
-                  <name>
-                     <surname>Heggedal</surname>
+                     <surname>Førde</surname>
                      <given-names>R.</given-names>
                   </name>
                   <name>
-                     <surname>Heimdal</surname>
-                     <given-names>A.</given-names>
+                     <surname>Aasland</surname>
+                     <given-names>O. G.</given-names>
+                  </name>
+               </person-group>
+               <year>2005</year>
+               <article-title>Unhappy doctors? A longitudinal study of life and job satisfaction among Norwegian doctors 1994–2002.</article-title>
+               <source>BMC Health Services Research</source>
+               <volume>5</volume>
+               <issue>1</issue>
+               <!--Please verify that the elocadion-id is indeed an elocation-id and not an uncomplete page range.-->
+               <elocation-id>44</elocation-id>
+            </element-citation>
+         </ref>
+         <ref id="___2014"><!--Physicians Foundation (2014). 2014 Survey of America’s Physicians, <uri>http://www.physiciansfoundation.org/uploads/default/2014_Physicians_Foundation_Biennial_Physician_Survey_Report.pdf</uri> Accessed 6 February 2015.-->
+            <mixed-citation publication-format="web">Physicians Foundation (2014). 2014 Survey of America’s Physicians, <uri>http://www.physiciansfoundation.org/uploads/default/2014_Physicians_Foundation_Biennial_Physician_Survey_Report.pdf</uri> Accessed 6 February 2015.</mixed-citation>
+         </ref>
+         <ref id="PYDGHGH2002"><!--Pisoni, R. L., Young, E. W., Dykstra, D. M., Greenwood, R. N., Hecking, E., Gillespie, B., … Held, P. J. (2002). Vascular access use in Europe and the United States: results from the DOPPS. <italic>Kidney International, 61</italic>(1), 305-316. <uri>http://dx.doi.org/10.1046/j.1523-1755.2002.00117.x</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Pisoni</surname>
+                     <given-names>R. L.</given-names>
                   </name>
                   <name>
-                     <surname>Karlsen</surname>
-                     <given-names>K.</given-names>
+                     <surname>Young</surname>
+                     <given-names>E. W.</given-names>
+                  </name>
+                  <name>
+                     <surname>Dykstra</surname>
+                     <given-names>D. M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Greenwood</surname>
+                     <given-names>R. N.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hecking</surname>
+                     <given-names>E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Gillespie</surname>
+                     <given-names>B.</given-names>
                   </name>
                   <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
-                     <surname>Wyller</surname>
-                     <given-names>T. B.</given-names>
+                     <surname>Held</surname>
+                     <given-names>P. J.</given-names>
+                  </name>
+               </person-group>
+               <year>2002</year>
+               <article-title>Vascular access use in Europe and the United States: results from the DOPPS.</article-title>
+               <source>Kidney International</source>
+               <volume>61</volume>
+               <issue>1</issue>
+               <fpage>305</fpage>
+               <lpage>316</lpage>
+               <uri>http://dx.doi.org/10.1046/j.1523-1755.2002.00117.x</uri>
+            </element-citation>
+         </ref>
+         <ref id="R2004"><!--Roland, M. (2004). Linking physicians’ pay to the quality of care—a major experiment in the United Kingdom. <italic>New England Journal of Medicine, 351</italic>, 1448-54. <uri>http://dx.doi.org/10.1056/NEJMhpr041294</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Roland</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <year>2004</year>
+               <article-title>Linking physicians’ pay to the quality of care—a major experiment in the United Kingdom.</article-title>
+               <source>New England Journal of Medicine</source>
+               <volume>351</volume>
+               <fpage>1448</fpage>
+               <lpage>54</lpage>
+               <uri>http://dx.doi.org/10.1056/NEJMhpr041294</uri>
+            </element-citation>
+         </ref>
+         <ref id="SMKMW2009"><!--Scheurer, D., McKean, S., Miller, J., & Wetterneck, T. (2009). US physician satisfaction: a systematic review. <italic>Journal of Hospital Medicine, 4</italic>(9), 560-568. <uri>http://dx.doi.org/10.1002/jhm.496</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Scheurer</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>McKean</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Miller</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Wetterneck</surname>
+                     <given-names>T.</given-names>
+                  </name>
+               </person-group>
+               <year>2009</year>
+               <article-title>US physician satisfaction: a systematic review.</article-title>
+               <source>Journal of Hospital Medicine</source>
+               <volume>4</volume>
+               <issue>9</issue>
+               <fpage>560</fpage>
+               <lpage>568</lpage>
+               <uri>http://dx.doi.org/10.1002/jhm.496</uri>
+            </element-citation>
+         </ref>
+         <ref id="SGP1997"><!--Schlesinger, M. J., Gray, B. H., & Perreira, K. M. (1997). Medical professionalism under managed care: the pros and cons of utilization review. <italic>Health Affairs, 16</italic>(1), 106-124. <uri>http://dx.doi.org/10.1377/hlthaff.16.1.106</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Schlesinger</surname>
+                     <given-names>M. J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Gray</surname>
+                     <given-names>B. H.</given-names>
+                  </name>
+                  <name>
+                     <surname>Perreira</surname>
+                     <given-names>K. M.</given-names>
+                  </name>
+               </person-group>
+               <year>1997</year>
+               <article-title>Medical professionalism under managed care: the pros and cons of utilization review.</article-title>
+               <source>Health Affairs</source>
+               <volume>16</volume>
+               <issue>1</issue>
+               <fpage>106</fpage>
+               <lpage>124</lpage>
+               <uri>http://dx.doi.org/10.1377/hlthaff.16.1.106</uri>
+            </element-citation>
+         </ref>
+         <ref id="S2001"><!--Scott, W. R. (2001). <italic>Institutions and Organizations</italic>. Thousand Oaks: Sage.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Scott</surname>
+                     <given-names>W. R.</given-names>
+                  </name>
+               </person-group>
+               <year>2001</year>
+               <source>Institutions and Organizations</source>
+               <publisher-loc>Thousand Oaks</publisher-loc>
+               <publisher-name>Sage</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="S2008"><!--Scott, W. R. (2008). Professions as Institutional Agents, <italic>Organization Studies, 29</italic>, 219-238. <uri>http://dx.doi.org/10.1177/0170840607088151</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Scott</surname>
+                     <given-names>W. R.</given-names>
+                  </name>
+               </person-group>
+               <year>2008</year>
+               <article-title>Professions as Institutional Agents,</article-title>
+               <source>Organization Studies</source>
+               <volume>29</volume>
+               <fpage>219</fpage>
+               <lpage>238</lpage>
+               <uri>http://dx.doi.org/10.1177/0170840607088151</uri>
+            </element-citation>
+         </ref>
+         <ref id="SHRV2001"><!--Stoddard, J. J., Hargraves, J. L., Reed, M., & Vratil, A. (2001). Managed care, professional autonomy, and income. <italic>Journal of General Internal Medicine, 16</italic>(10), 675-684. <uri>http://dx.doi.org/10.1111/j.1525-1497.2001.01206.x</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Stoddard</surname>
+                     <given-names>J. J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hargraves</surname>
+                     <given-names>J. L.</given-names>
+                  </name>
+                  <name>
+                     <surname>Reed</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Vratil</surname>
+                     <given-names>A.</given-names>
+                  </name>
+               </person-group>
+               <year>2001</year>
+               <article-title>Managed care, professional autonomy, and income.</article-title>
+               <source>Journal of General Internal Medicine</source>
+               <volume>16</volume>
+               <issue>10</issue>
+               <fpage>675</fpage>
+               <lpage>684</lpage>
+               <uri>http://dx.doi.org/10.1111/j.1525-1497.2001.01206.x</uri>
+            </element-citation>
+         </ref>
+         <ref id="T2008"><!--Timmermans, S. (2008). Oh look, there is a doctor after all: About the resilience of professional medicine: A Commentary on McKinlay and Marceau's “When there is no doctor.” <italic>Social Science & Medicine, 67</italic>(10), 1492-1496. <uri>http://dx.doi.org/10.1016/j.socscimed.2008.07.010</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Timmermans</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>2008</year>
+               <article-title>Oh look, there is a doctor after all: About the resilience of professional medicine: A Commentary on McKinlay and Marceau's “When there is no doctor.”</article-title>
+               <source>Social Science &amp; Medicine</source>
+               <volume>67</volume>
+               <issue>10</issue>
+               <fpage>1492</fpage>
+               <lpage>1496</lpage>
+               <uri>http://dx.doi.org/10.1016/j.socscimed.2008.07.010</uri>
+            </element-citation>
+         </ref>
+         <ref id="TPSVF2013"><!--Tyssen, R., Palmer, K. S., Solberg, I. B., Voltmer, E., & Frank, E. (2013). Physicians’ perceptions of quality of care, professional autonomy, and job satisfaction in Canada, Norway, and the United States<italic>. BMC Health Services Research, 13</italic>(1), 516. <uri>http://dx.doi.org/10.1186/1472-6963-13-516</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Tyssen</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Palmer</surname>
+                     <given-names>K. S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Solberg</surname>
+                     <given-names>I. B.</given-names>
+                  </name>
+                  <name>
+                     <surname>Voltmer</surname>
+                     <given-names>E.</given-names>
+                  </name>
+                  <name>
+                     <surname>Frank</surname>
+                     <given-names>E.</given-names>
                   </name>
                </person-group>
                <year>2013</year>
-               <article-title>Reclaim the profession!</article-title>
-               <source>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin</source>
-               <volume>133</volume>
-               <issue>6</issue>
-               <!--Please verify that the elocadion-id is indeed an elocation-id and not an uncomplete page range.-->
-               <elocation-id>655</elocation-id>
+               <article-title>Physicians’ perceptions of quality of care, professional autonomy, and job satisfaction in Canada, Norway, and the United States</article-title>
+               <source>. BMC Health Services Research</source>
+               <volume>13</volume>
+               <issue>1</issue>
+               <elocation-id>516</elocation-id>
+               <uri>http://dx.doi.org/10.1186/1472-6963-13-516</uri>
+            </element-citation>
+         </ref>
+         <ref id="UOBMHFMEMOJ2009"><!--Utsugi-Ozaki, M., Bito, S., Matsumura, S., Hayashino, Y., Fukuhara, S., & MEMO-J Study Group. (2009). Physician job satisfaction and quality of care among hospital employed physicians in Japan. <italic>Journal of General Internal Medicine, 24</italic>(3), 387-392. <uri>http://dx.doi.org/10.1007/s11606-008-0886-4</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Utsugi-Ozaki</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bito</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Matsumura</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hayashino</surname>
+                     <given-names>Y.</given-names>
+                  </name>
+                  <name>
+                     <surname>Fukuhara</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>MEMO-J</surname>
+                     <given-names>Group.</given-names>
+                  </name>
+               </person-group>
+               <year>2009</year>
+               <article-title>Physician job satisfaction and quality of care among hospital employed physicians in Japan.</article-title>
+               <source>Journal of General Internal Medicine</source>
+               <volume>24</volume>
+               <issue>3</issue>
+               <fpage>387</fpage>
+               <lpage>392</lpage>
+               <uri>http://dx.doi.org/10.1007/s11606-008-0886-4</uri>
+            </element-citation>
+         </ref>
+         <ref id="WBGS2006"><!--Whalley, D., Bojke, C., Gravelle, H., & Sibbald, B. (2006). GP job satisfaction in view of contract reform: a national survey. <italic>British Journal of General Practice, 56</italic>(523), 87-92.-->
+            <element-citation publication-type="journal" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Whalley</surname>
+                     <given-names>D.</given-names>
+                  </name>
+                  <name>
+                     <surname>Bojke</surname>
+                     <given-names>C.</given-names>
+                  </name>
+                  <name>
+                     <surname>Gravelle</surname>
+                     <given-names>H.</given-names>
+                  </name>
+                  <name>
+                     <surname>Sibbald</surname>
+                     <given-names>B.</given-names>
+                  </name>
+               </person-group>
+               <year>2006</year>
+               <article-title>GP job satisfaction in view of contract reform: a national survey.</article-title>
+               <source>British Journal of General Practice</source>
+               <volume>56</volume>
+               <issue>523</issue>
+               <fpage>87</fpage>
+               <lpage>92</lpage>
             </element-citation>
          </ref>
       </ref-list>
