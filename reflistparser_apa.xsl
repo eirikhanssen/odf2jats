@@ -138,7 +138,7 @@
 
   <xsl:function name="o2j:getChapterTitle" as="xs:string">
     <xsl:param name="originalRef" as="node()"/>
-    <xsl:variable name="chapterTitle" select="replace($originalRef, '.*?\(\d{4}\c?\)\.?\s*(.+?)\.?\sIn\s\p{Lu}\..*', '$1')"/>
+    <xsl:variable name="chapterTitle" select="replace($originalRef, '.*?\(\d{4}\c?\)\.?\s*(.+?)\.?\sIn:?\s\p{Lu}\..*', '$1')"/>
     <xsl:value-of select="$chapterTitle"/>
   </xsl:function>
 
@@ -277,7 +277,7 @@
   <xsl:function name="o2j:getEditorString" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
     <xsl:value-of
-      select="replace($originalString , '^.*?In([^()]*?)[,.\s]*?\((RE|E)ds?\.\).*$' , '$1' )"/>
+      select="replace($originalString , '^.*?\sIn:?\s([^()]*?)[,.\s]*?\((RE|E)ds?\.\).*$' , '$1' )"/>
   </xsl:function>
 
   <xsl:function name="o2j:prepareTokensInEditorString" as="xs:string">
