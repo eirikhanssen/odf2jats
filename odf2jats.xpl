@@ -37,6 +37,17 @@
             <p:empty/>
         </p:input>
     </p:xslt>
+    
+    <p:xslt name="disp-quotes" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="disp-quotes.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+    
 
     <p:xslt name="figures" version="2.0">
         <p:input port="source"/>

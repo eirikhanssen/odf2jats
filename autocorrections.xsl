@@ -60,7 +60,7 @@
         
         <xsl:variable name="ellipsis" as="xs:string">
             <xsl:variable name="ellipsis_result_sequence" as="xs:string*">
-                <xsl:analyze-string select="$remove_comma_after_et_al" regex="([^ ]*?)?\s*\.\s*\.\s*\.\s*&amp;\s*?(.{{3,9}})?">
+                <xsl:analyze-string select="$remove_comma_after_et_al" regex="([^ ]*?)?\s*\.\s*\.\s*\.\s*&amp;?\s*?(.{{3,9}})?">
                     <xsl:matching-substring>
                         <xsl:message>
                             <xsl:text>Fix ellipsis: replaced «</xsl:text>

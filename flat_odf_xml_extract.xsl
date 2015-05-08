@@ -385,7 +385,12 @@
     <!-- Stylemap - map styles to elements -->
     <sm:styles>
         <sm:style>
+            <sm:name>DispQuote</sm:name>
+            <sm:transformTo>dispQuote</sm:transformTo>
+        </sm:style>
+        <sm:style>
             <sm:name>Standard</sm:name>
+            <sm:name>No_20_Spacing</sm:name>
             <sm:name>Text_20_body</sm:name>
             <sm:name>List_20_Contents</sm:name>
             <sm:name>Footnote</sm:name>

@@ -15,7 +15,7 @@
          </publisher>
       </journal-meta>
       <article-meta>
-         <article-id pub-id-type="doi">___</article-id>
+         <article-id pub-id-type="doi">10.7577/pp.1355</article-id>
          <article-categories>
             <subj-group subj-group-type="article-type">
                <subject>Article</subject>
@@ -37,16 +37,25 @@
                   <given-names>Berit</given-names>
                </name>
                <xref ref-type="aff" rid="B_Bringedal"/>
+               <!--Fixme! Properly tag <adress>...</adress>:-->
+               <!--institution|addr-line|city|country|phone|postal-code|state|email|ext-link|uri-->
+               <address>
+                  <addr-line>Institute for Studies of the Medical Profession</addr-line>
+                  <addr-line>PO Box 1152 Sentrum</addr-line>
+                  <addr-line>0107 Oslo</addr-line>
+                  <addr-line>Norway</addr-line>
+                  <email>mailto:Berit.bringedal@legeforeningen.no</email>
+               </address>
             </contrib>
          </contrib-group>
-         <aff id="B_Bringedal"/>
+         <aff id="B_Bringedal">Institute for Studies of the Medical Profession, Oslo </aff>
          <pub-date pub-type="pub">
             <day>___</day>
             <month>___</month>
-            <year>___</year>
+            <year>2015</year>
          </pub-date>
-         <volume>___</volume>
-         <issue>___</issue>
+         <volume>5</volume>
+         <issue>1</issue>
          <fpage>___</fpage>
          <lpage>___</lpage>
          <history>
@@ -67,7 +76,7 @@
                <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
             </license>
          </permissions>
-         <self-uri xlink:href="___">___</self-uri>
+         <self-uri xlink:href="http://dx.doi.org/10.7577/pp.1355">http://dx.doi.org/10.7577/pp.1355</self-uri>
          <kwd-group kwd-group-type="author-generated"/>
       </article-meta>
    </front>
@@ -93,10 +102,10 @@
       <p>Donald Light argues in his commentary that promoting collaboration between the different stakeholders in health care, such as managers and doctors, is a promising way to improve doctors’ satisfaction as well as the quality of health care. He presents empirical examples of such collaboration, from British Columbia, Utah, and Idaho, and argues that successful collaboration alleviates dissatisfaction and alienation among doctors.</p>
       <p>Finally, Per Arne Tufte discusses the concept of causality in this research field. A majority of the studies regarding relationships between doctors’ satisfaction, the quality of their work, and how this is affected by system factors tend to ignore the distinction between correlation and causality. Tufte suggests that a stronger focus on the causal mechanisms would improve our understanding.</p>
       <p>Together, the collection of papers in this issue contributes to pushing this research a step forward. For the time being, it is clear that we should not draw strong conclusions. More rigorous studies are required in order to make conclusions about the relationships between features of health care systems and doctors’ professional satisfaction, as well as the relationships between context, doctor satisfaction, and the quality of their performance. It is my wish, however, that compiling perspectives from medical research on how doctors look upon and experience their own practice and perspectives from “strangers at the bedside” (<xref ref-type="bibr" rid="R1991">Rothman, 1991</xref>) can be mutually beneficial.</p>
-      <p style="No_20_Spacing">
+      <p>
          <italic>Berit Bringedal</italic>
       </p>
-      <p style="No_20_Spacing">
+      <p>
          <italic>Guest Editor</italic>
       </p>
    </body>
@@ -129,7 +138,7 @@
                <publisher-name>The University of Chicago Press.</publisher-name>
             </element-citation>
          </ref>
-         <ref id="FCVAPCT2013"><!--Friedberg, M. W., Chen, P. G., Van Busum, K. R., Aunon, F., Pham, C., Caloyeras, J., ... Tutty, M. (2013). <italic>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</italic>. Boston, Massachusetts: The RAND Corporation. Available at: <uri>http://www.rand.org/pubs/research_reports/RR439.html.</uri>-->
+         <ref id="FCVAPCT2013"><!--Friedberg, M. W., Chen, P. G., Van Busum, K. R., Aunon, F., Pham, C., Caloyeras, J., … Tutty, M. (2013). <italic>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</italic>. Boston, Massachusetts: The RAND Corporation. Available at: <uri>http://www.rand.org/pubs/research_reports/RR439.html.</uri>-->
             <element-citation publication-type="book" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -156,10 +165,7 @@
                      <surname>Caloyeras</surname>
                      <given-names>J.</given-names>
                   </name>
-                  <name>
-                     <surname>...</surname>
-                     <given-names>...</given-names>
-                  </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
                      <surname>Tutty</surname>
                      <given-names>M.</given-names>
@@ -249,7 +255,7 @@
                <publisher-name>BasicBooks</publisher-name>
             </element-citation>
          </ref>
-         <ref id="SBTDSSO2012"><!--Shanafelt, T. D., Boone, S., Tan, L., Dyrbye, L. N., Sotile, W., Satele, D., ... Oreskovich, M. R. (2012). Burnout and satisfaction with work-life balance among US physicians relative to the general US population. <italic>Archives of Internal Medicine, 172</italic>(18), 1377-1385. <uri>http://dx.doi.org/10.1001/archinternmed.2012.3199</uri>-->
+         <ref id="SBTDSSO2012"><!--Shanafelt, T. D., Boone, S., Tan, L., Dyrbye, L. N., Sotile, W., Satele, D., … Oreskovich, M. R. (2012). Burnout and satisfaction with work-life balance among US physicians relative to the general US population. <italic>Archives of Internal Medicine, 172</italic>(18), 1377-1385. <uri>http://dx.doi.org/10.1001/archinternmed.2012.3199</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -276,10 +282,7 @@
                      <surname>Satele</surname>
                      <given-names>D.</given-names>
                   </name>
-                  <name>
-                     <surname>...</surname>
-                     <given-names>...</given-names>
-                  </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
                      <surname>Oreskovich</surname>
                      <given-names>M. R.</given-names>
@@ -295,7 +298,7 @@
                <uri>http://dx.doi.org/10.1001/archinternmed.2012.3199</uri>
             </element-citation>
          </ref>
-         <ref id="WGHHHKW2013"><!--Wyller, V. B., Gisvold, S. E., Hagen, E., Heggedal, R., Heimdal, A., Karlsen, K., ... Wyller, T. B. (2013). Reclaim the profession! <italic>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin133</italic>(6), 655.-->
+         <ref id="WGHHHKW2013"><!--Wyller, V. B., Gisvold, S. E., Hagen, E., Heggedal, R., Heimdal, A., Karlsen, K., … Wyller, T. B. (2013). Reclaim the profession! <italic>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin, 133</italic>(6), 655.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -322,10 +325,7 @@
                      <surname>Karlsen</surname>
                      <given-names>K.</given-names>
                   </name>
-                  <name>
-                     <surname>...</surname>
-                     <given-names>...</given-names>
-                  </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
                   <name>
                      <surname>Wyller</surname>
                      <given-names>T. B.</given-names>
@@ -333,7 +333,8 @@
                </person-group>
                <year>2013</year>
                <article-title>Reclaim the profession!</article-title>
-               <source>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin133</source>
+               <source>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin</source>
+               <volume>133</volume>
                <issue>6</issue>
                <!--Please verify that the elocadion-id is indeed an elocation-id and not an uncomplete page range.-->
                <elocation-id>655</elocation-id>
