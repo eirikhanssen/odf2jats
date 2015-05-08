@@ -1,24 +1,94 @@
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
-WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:20:55:$documentStyles: source/odf-mcdonald-revised/styles.xml
-$documentStyles has 6 text:p elements
+INFO : odf2jats.xpl:20:55:$documentStyles: source/odf-nylenna-revised/styles.xml
+$documentStyles has 0 text:p elements
 
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:20:55:1b: P21
-1c: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:1b: PP_20_Heading_20_1
+1c: article-title
 
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «tariff... has certa» with «tariff … has certa»
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «in.”...what I've» with «in.” … what I've»
-May 08, 2015 5:06:01 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «it... The probl» with «it … The probl»
-May 08, 2015 5:06:02 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:189:48:Please verify that elocation-id: «333» is indeed an elocation-id and not an uncomplete page range.
-May 08, 2015 5:06:02 PM com.xmlcalabash.util.DefaultXProcMessageListener info
-INFO: odf2jats.xpl:189:48:Please verify that elocation-id: «44» is indeed an elocation-id and not an uncomplete page range.
+INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «R., . . . Birkmeyer» with «R., … Birkmeyer»
+INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «S., . . . Wright, J» with «S., … Wright, J»
+INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «C., . . . Nguyen, K» with «C., … Nguyen, K»
+INFO : odf2jats.xpl:187:48:Please verify that elocation-id: «e001570» is indeed an elocation-id and not an uncomplete page range.
