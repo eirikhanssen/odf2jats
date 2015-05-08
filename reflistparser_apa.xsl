@@ -161,7 +161,7 @@
 
   <xsl:function name="o2j:getIssue" as="xs:string">
     <xsl:param name="originalRef" as="element(ref)"/>
-    <xsl:value-of select="replace($originalRef/italic[1]/following-sibling::text()[1] , '^\s*\((\d+\s*\c*?)\).*?$' , '$1')"/>
+    <xsl:value-of select="replace($originalRef/italic[1]/following-sibling::text()[1] , '^\s*\(([\d\c\s/]*?)\).*?$' , '$1')"/>
   </xsl:function>
 
   <xsl:function name="o2j:getArticleIssue" as="xs:integer">
@@ -358,7 +358,7 @@
 
     <xsl:variable name="hasVolume" select="matches($current_ref/italic[1] , '^.*?[,.]\s*\d+.*?\s*$')" as="xs:boolean"/>
 
-    <xsl:variable name="hasIssue" select="matches($current_ref/italic[1]/following-sibling::text()[1], '^\s*?\(\d+\s*\c*?\).*?$')" as="xs:boolean"/>
+    <xsl:variable name="hasIssue" select="matches($current_ref/italic[1]/following-sibling::text()[1], '^\s*?\([\d\c\s/]*?\).*?$')" as="xs:boolean"/>
 
     <xsl:variable name="isBookChapter" as="xs:boolean">
       <xsl:value-of select="matches($current_ref, '\(\d{4}[a-z]?\).*?((Re|E)ds?\.)')"/>

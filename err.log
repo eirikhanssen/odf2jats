@@ -1,24 +1,24 @@
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
 WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:20:55:$documentStyles: source/odf-mcdonald-revised/styles.xml
 $documentStyles has 6 text:p elements
 
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:20:55:1b: P21
 1c: 
 
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «tariff... has certa» with «tariff … has certa»
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «in.”...what I've» with «in.” … what I've»
-May 08, 2015 3:19:10 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:31:50:Fix ellipsis: replaced «it... The probl» with «it … The probl»
-May 08, 2015 3:19:11 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:189:48:Please verify that elocation-id: «333» is indeed an elocation-id and not an uncomplete page range.
-May 08, 2015 3:19:11 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+May 08, 2015 3:26:24 PM com.xmlcalabash.util.DefaultXProcMessageListener info
 INFO: odf2jats.xpl:189:48:Please verify that elocation-id: «44» is indeed an elocation-id and not an uncomplete page range.
