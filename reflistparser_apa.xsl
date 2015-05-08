@@ -218,7 +218,7 @@
 
   <xsl:function name="o2j:stripTranslationFromTitle" as="xs:string">
     <xsl:param name="originalString" as="xs:string"/>
-    <xsl:value-of select="replace($originalString, '\s*\[[^\]]+\]$', '')"/>
+    <xsl:value-of select="normalize-space(replace($originalString, '^(.*?)\s*\[.*?$', '$1'))"/>
   </xsl:function>
 
   <xsl:function name="o2j:extractTranslationFromTitle" as="xs:string">
@@ -666,12 +666,10 @@
               </xsl:when>
 
               <xsl:when test="$isJournalArticle eq true()">
-
                 <article-title>
                   <xsl:choose>
                     <xsl:when test="$hasTranslatedArticleTitle eq true()">
                       <xsl:attribute name="xml:lang">__</xsl:attribute>
-                      <!-- remove translation in angle brackets -->
                       <xsl:value-of select="o2j:stripTranslationFromTitle(o2j:getArticleTitle($current_ref))"/>
                     </xsl:when>
                     <xsl:otherwise>
@@ -679,6 +677,7 @@
                     </xsl:otherwise>
                   </xsl:choose>
                 </article-title>
+
                 <xsl:if test="$hasTranslatedArticleTitle eq true()">
                   <trans-title>
                     <xsl:attribute name="xml:lang">__</xsl:attribute>

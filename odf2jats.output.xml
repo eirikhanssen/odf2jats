@@ -183,7 +183,7 @@
                <uri>http://dx.doi.org/10.1108/11766090910940629</uri>
             </element-citation>
          </ref>
-         <ref id="CB2009"><!--Carlsen, F., & Bringedal, B. (2009). Befolkningens tilfredshet med helsetjenesten og legers tilfredshet med arbeidssituasjonen. [Population satisfaction with health care and physicians' job satisfaction]. <italic>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin,129</italic>(5), 405-407. <uri>http://dx.doi.org/10.4045/tidsskr.09.33577</uri>-->
+         <ref id="CB2009"><!--Carlsen, F., & Bringedal, B. (2009). Befolkningens tilfredshet med helsetjenesten og legers tilfredshet med arbeidssituasjonen. [Population satisfaction with health care and physicians' job satisfaction]. <italic>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin,129</italic>(5), 405-407. <uri>http://dx.doi.org/10.4045/tidsskr.09.33577</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -196,7 +196,7 @@
                   </name>
                </person-group>
                <year>2009</year>
-               <article-title xml:lang="__"> Befolkningens tilfredshet med helsetjenesten og legers tilfredshet med arbeidssituasjonen. [Population satisfaction with health care and physicians' job satisfaction].</article-title>
+               <article-title xml:lang="__">Befolkningens tilfredshet med helsetjenesten og legers tilfredshet med arbeidssituasjonen.</article-title>
                <trans-title xml:lang="__">Population satisfaction with health care and physicians' job satisfaction</trans-title>
                <source>Tidsskrift for den Norske Legeforening: Tidsskrift for Praktisk Medicin</source>
                <volume>129</volume>
