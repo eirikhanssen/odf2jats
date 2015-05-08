@@ -10,9 +10,9 @@
 
     <!-- take input document from parameter -->
     <p:input port="source"/>
-    
+
     <p:input port="documentStylesPath" kind="parameter"/>
-        
+
     <p:output port="result"/>
 
     <p:serialization port="result" indent="true"/>
@@ -37,7 +37,7 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
+
     <p:xslt name="disp-quotes" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
@@ -47,7 +47,6 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
 
     <p:xslt name="figures" version="2.0">
         <p:input port="source"/>
@@ -58,7 +57,7 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
+
     <p:xslt name="generate-figure-id" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
@@ -68,7 +67,6 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
 
     <p:xslt name="article-history" version="2.0">
         <p:input port="source"/>
@@ -179,7 +177,7 @@
             <p:empty/>
         </p:input>
     </p:xslt>
-    
+
     <!-- if td has a child p with @style="TableHeaderStyle", then rename to th element -->
     <p:rename name="td_to_th_if_TableHeader" match="td[p[@style='TableHeader']]" new-name="th"/>
     <!-- remove @style from p[@style="TableHeader"] -->
