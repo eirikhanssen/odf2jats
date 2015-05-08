@@ -1,94 +1,94 @@
-INFO : odf2jats.xpl:20:55:$documentStyles: source/odf-nylenna-revised/styles.xml
+INFO : odf2jats.xpl:20:55:$documentStyles: source/odf-crosson-casalino-revised/styles.xml
 $documentStyles has 0 text:p elements
 
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:1b: PP_20_Heading_20_1
 1c: article-title
 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='footnote_20_text'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:20:55:removed empty element: text:p
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
+INFO : odf2jats.xpl:20:55:Style name match not found
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+Textcontent: 
 INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
 INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
 INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
+INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='footnote_20_text'] 
 Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «R., . . . Birkmeyer» with «R., … Birkmeyer»
-INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «S., . . . Wright, J» with «S., … Wright, J»
-INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «C., . . . Nguyen, K» with «C., … Nguyen, K»
-INFO : odf2jats.xpl:187:48:Please verify that elocation-id: «e001570» is indeed an elocation-id and not an uncomplete page range.
+INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
+INFO : odf2jats.xpl:20:55:removed empty element: text:p
+INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «J., ... &amp; Tutty, M» with «J., …  Tutty, M»
+INFO : odf2jats.xpl:187:48:Please verify that elocation-id: «593» is indeed an elocation-id and not an uncomplete page range.
