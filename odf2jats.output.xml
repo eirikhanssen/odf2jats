@@ -132,7 +132,7 @@
          <!-- sec lvl 3 begin -->
          <sec>
             <title>Beyond binaries—collapsing the medicine versus management divide</title>
-            <p>My final example is drawn from a recent study which I undertook with colleagues (<xref ref-type="bibr" rid="MD    2012">McDonald et al., 2012</xref>) examining responses of hospital doctors to financial incentives which reward hospitals (as opposed to individuals) for providing care which is in accordance with a “best practice” pathway. As outlined above, guideline driven care has often been depicted as constraining clinical freedom. Furthermore, mechanisms such as financial incentives might be construed as part of the toolkit of management in a context where traditional notions of medical professionalism differ sharply in terms of ethics and orientation from the imperatives of management (<xref ref-type="bibr" rid="SGP1997">Schlesinger, Gray, &amp; Perreira, 1997</xref>; <xref ref-type="bibr" rid="MD2009">McDonald 2009</xref>). Many studies describe how managers and medical doctors inhabit different subcultures each with their own beliefs and practices (<xref ref-type="bibr" rid="MO2008">Morgan &amp; Ogbonna, 2008</xref>; <xref ref-type="bibr" rid="MDWH2006">McDonald, Waring, &amp; Harrison, 2006</xref>) languages and communication habits (<xref ref-type="bibr" rid="H2011">Holtman, 2011</xref>). <xref ref-type="bibr" rid="NSF2012">Numerato et al. (2012)</xref> describe how a whole raft of techniques and initiatives (e.g. New Public Management, governmentality) have been seen as part of a process whereby the tentacles of managerialism extend to control medical professionals. They conclude that:</p>
+            <p>My final example is drawn from a recent study which I undertook with colleagues (<xref ref-type="bibr" rid="MDZTKHRS2012">McDonald et al., 2012</xref>) examining responses of hospital doctors to financial incentives which reward hospitals (as opposed to individuals) for providing care which is in accordance with a “best practice” pathway. As outlined above, guideline driven care has often been depicted as constraining clinical freedom. Furthermore, mechanisms such as financial incentives might be construed as part of the toolkit of management in a context where traditional notions of medical professionalism differ sharply in terms of ethics and orientation from the imperatives of management (<xref ref-type="bibr" rid="SGP1997">Schlesinger, Gray, &amp; Perreira, 1997</xref>; <xref ref-type="bibr" rid="MD2009">McDonald 2009</xref>). Many studies describe how managers and medical doctors inhabit different subcultures each with their own beliefs and practices (<xref ref-type="bibr" rid="MO2008">Morgan &amp; Ogbonna, 2008</xref>; <xref ref-type="bibr" rid="MDWH2006">McDonald, Waring, &amp; Harrison, 2006</xref>) languages and communication habits (<xref ref-type="bibr" rid="H2011">Holtman, 2011</xref>). <xref ref-type="bibr" rid="NSF2012">Numerato et al. (2012)</xref> describe how a whole raft of techniques and initiatives (e.g. New Public Management, governmentality) have been seen as part of a process whereby the tentacles of managerialism extend to control medical professionals. They conclude that:</p>
             <disp-quote>
                <p>Management and professionalism are frequently framed as contradictory in doctors’ views’ and it is worth noting that concepts such as co-optation, adaptation, negotiation or resistance remain located within the cultural incorporation⁄opposition, in other words hegemony ⁄ resistance framework and tend to situate the result of the dynamics between professional practice and managerial logic on a continuum between resistance to and compliance with managerialism. We suggest that this conceptualisation tends to overemphasise the importance of a conflictual model (<xref ref-type="bibr" rid="    2012">2012</xref>, <xref ref-type="bibr" rid="    p. 637">p. 637</xref>).</p>
             </disp-quote>
@@ -299,7 +299,7 @@
                <uri>http://dx.doi.org/10.1177/0170840612445116</uri>
             </element-citation>
          </ref>
-         <ref id="DM1988"><!--DiMaggio, P.J. (1988). Interest and agency in institutional theory. In L. J. Zucker (Ed.), <italic>Institutional Patterns and Organizations: Culture and Environment</italic>. Cambridge: Cambridge University-->
+         <ref id="DM1988"><!--DiMaggio, P.J. (1988). Interest and agency in institutional theory. In L. J. Zucker (Ed.), <italic>Institutional Patterns and Organizations: Culture and Environment</italic>. Cambridge: Cambridge University Press.-->
             <element-citation publication-type="book-chapter" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -317,14 +317,14 @@
                </person-group>
                <source>Institutional Patterns and Organizations: Culture and Environment</source>
                <publisher-loc>Cambridge</publisher-loc>
-               <publisher-name>Cambridge University</publisher-name>
+               <publisher-name>Cambridge University Press</publisher-name>
             </element-citation>
          </ref>
-         <ref id="PE2002"><!--Press.Evetts, J. (2002). New directions in state and international professional occupations: discretionary decision-making and acquired regulation. <italic>Work, Employment & Society, 16</italic>(2), 341-353. <uri>http://dx.doi.org/10.1177/095001702400426875</uri>-->
+         <ref id="E2002"><!--Evetts, J. (2002). New directions in state and international professional occupations: discretionary decision-making and acquired regulation. <italic>Work, Employment & Society, 16</italic>(2), 341-353. <uri>http://dx.doi.org/10.1177/095001702400426875</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
-                     <surname>Press.Evetts</surname>
+                     <surname>Evetts</surname>
                      <given-names>J.</given-names>
                   </name>
                </person-group>
@@ -609,11 +609,44 @@
                <uri>http://dx.doi.org/10.1016/j.socscimed.2013.06.010</uri>
             </element-citation>
          </ref>
-         <ref id="___2012"><!--McDonald, R., Zaidi, S., Todd, S., Konteh, F., Hussain, K., Roe, J., … Sutton, M. (2012). A qualitative and quantitative evaluation of the introduction of Best-->
-            <mixed-citation publication-format="print">McDonald, R., Zaidi, S., Todd, S., Konteh, F., Hussain, K., Roe, J., … Sutton, M. (2012). A qualitative and quantitative evaluation of the introduction of Best</mixed-citation>
-         </ref>
-         <ref id="___"><!--Pratice Tariffs. <italic>An evaluation report commissioned by the Department of Health. </italic>University of Nottingham.-->
-            <mixed-citation publication-type="journal" publication-format="print">Pratice Tariffs. <italic>An evaluation report commissioned by the Department of Health. </italic>University of Nottingham.</mixed-citation>
+         <ref id="MDZTKHRS2012"><!--McDonald, R., Zaidi, S., Todd, S., Konteh, F., Hussain, K., Roe, J., … Sutton, M. (2012). A qualitative and quantitative evaluation of the introduction of Best Pratice Tariffs. <italic>An evaluation report commissioned by the Department of Health. </italic>Nottingham: University of Nottingham.-->
+            <element-citation publication-type="book" publication-format="print">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McDonald</surname>
+                     <given-names>R.</given-names>
+                  </name>
+                  <name>
+                     <surname>Zaidi</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Todd</surname>
+                     <given-names>S.</given-names>
+                  </name>
+                  <name>
+                     <surname>Konteh</surname>
+                     <given-names>F.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hussain</surname>
+                     <given-names>K.</given-names>
+                  </name>
+                  <name>
+                     <surname>Roe</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <!-- Article has more authors than can be listed in APA style, some are missing here. -->
+                  <name>
+                     <surname>Sutton</surname>
+                     <given-names>M.</given-names>
+                  </name>
+               </person-group>
+               <year>2012</year>
+               <source>An evaluation report commissioned by the Department of Health.</source>
+               <publisher-loc>Nottingham</publisher-loc>
+               <publisher-name>University of Nottingham</publisher-name>
+            </element-citation>
          </ref>
          <ref id="MDWH2006"><!--McDonald, R., Waring, J., & Harrison, S. (2006). Rules, safety and the narrativisation of identity: a hospital operating theatre case study. <italic>Sociology of health & illness, 28</italic>(2), 178-202.-->
             <element-citation publication-type="journal" publication-format="print">
@@ -662,12 +695,46 @@
                <uri>http://dx.doi.org/10.2190/HS.41.2.g</uri>
             </element-citation>
          </ref>
-         <ref id="___"><!--McKinstry, B., Walker, J., Porter, M., Fulton, C., Tait, A., Hanley, J., & Mercer, S.-->
-            <mixed-citation publication-format="print">McKinstry, B., Walker, J., Porter, M., Fulton, C., Tait, A., Hanley, J., &amp; Mercer, S.</mixed-citation>
-         </ref>
-         <ref id="___"><!--(2007). The impact of general practitioner morale on patient satisfaction with care: a cross-sectional study. <italic>BMC Family Practice, 8</italic>(1), 57. <uri>http://dx.doi.org/10.1186/1471-2296-8-57</uri>-->
-            <mixed-citation publication-type="journal" publication-format="web">(2007). The impact of general practitioner morale on patient satisfaction with care: a cross-sectional study. <italic>BMC Family Practice, 8</italic>(1), 57. <uri>http://dx.doi.org/10.1186/1471-2296-8-57</uri>
-            </mixed-citation>
+         <ref id="MKWPFTHM2007"><!--McKinstry, B., Walker, J., Porter, M., Fulton, C., Tait, A., Hanley, J., & Mercer, S. (2007). The impact of general practitioner morale on patient satisfaction with care: a cross-sectional study. <italic>BMC Family Practice, 8</italic>(1), 57. <uri>http://dx.doi.org/10.1186/1471-2296-8-57</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McKinstry</surname>
+                     <given-names>B.</given-names>
+                  </name>
+                  <name>
+                     <surname>Walker</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Porter</surname>
+                     <given-names>M.</given-names>
+                  </name>
+                  <name>
+                     <surname>Fulton</surname>
+                     <given-names>C.</given-names>
+                  </name>
+                  <name>
+                     <surname>Tait</surname>
+                     <given-names>A.</given-names>
+                  </name>
+                  <name>
+                     <surname>Hanley</surname>
+                     <given-names>J.</given-names>
+                  </name>
+                  <name>
+                     <surname>Mercer</surname>
+                     <given-names>S.</given-names>
+                  </name>
+               </person-group>
+               <year>2007</year>
+               <article-title>The impact of general practitioner morale on patient satisfaction with care: a cross-sectional study.</article-title>
+               <source>BMC Family Practice</source>
+               <volume>8</volume>
+               <issue>1</issue>
+               <elocation-id>57</elocation-id>
+               <uri>http://dx.doi.org/10.1186/1471-2296-8-57</uri>
+            </element-citation>
          </ref>
          <ref id="M1980"><!--Melville, A. (1980). Job satisfaction in general practice implications for prescribing. <italic>Social Science & Medicine. Part A: Medical Psychology & Medical Sociology, 14</italic>(6), 495-499. <uri>http://dx.doi.org/10.1016/S0271-7123%2880%2980055-1</uri>-->
             <element-citation publication-type="journal" publication-format="web">
