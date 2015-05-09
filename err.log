@@ -1,94 +1,87 @@
 INFO : odf2jats.xpl:20:55:$documentStyles: source/odf-crosson-casalino-revised/styles.xml
 $documentStyles has 0 text:p elements
 
-INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:1b: PP_20_Heading_20_1
 1c: article-title
 
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='footnote_20_text'] 
 Textcontent: 
-INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
 INFO : odf2jats.xpl:20:55:removed empty element: text:p
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Perceived barriers to high-qua …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Electronic health records
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Lack of collegiality
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Lack of faith in practice lead …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Worries about practice sustain …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Work volume too little or too  …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Income preservation challengin …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Regulatory burden: many small  …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Pre-visit planning
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Pre-visit laboratory tests
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Expanded use of office staff
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Establish teams with other car …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Expanded rooming function by M …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Order entry
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Panel management-clinical
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: responsibility
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Scribing
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: RN filtering of in-box
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Systematic prescriptions
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: EHR improvements
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Improve usability of GUI
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Team-shared simultaneous acces …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
+Textcontent: Allow staff input of data elem …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: 
-INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
-INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
-INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
+Textcontent: Lean process improvement techn …
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='footnote_20_text'] 
 Textcontent: 
-INFO : odf2jats.xpl:20:55:(o2j WARNING): Empty Sequence $mapped-style-def
 INFO : odf2jats.xpl:20:55:removed empty element: text:p
-INFO : odf2jats.xpl:31:50:Fix ellipsis: replaced «J., ... &amp; Tutty, M» with «J., …  Tutty, M»
 INFO : odf2jats.xpl:187:48:Please verify that elocation-id: «593» is indeed an elocation-id and not an uncomplete page range.

@@ -202,9 +202,7 @@
             <title>Improvements in practice efficiency</title>
             <p>One of the observations during the RAND-AMA research visits to physician practices was the rareness of evidence-based efforts to reduce the impact of workflow and documentation requirements weighing on physicians by recapturing physician-patient interaction time through systematic work-flow process improvement. Such approaches are not unknown, having been well documented by organizations such as the Virginia Mason Clinic in Seattle, Washington<sup> </sup>(<xref ref-type="bibr" rid="B2007">Bush, 2007</xref>), and the ThedaCare Health System in Minnesota<sup> </sup>(<xref ref-type="bibr" rid="TMS2013">Toussaint, Milstein, &amp; Shortell, 2013</xref>). In addition, Drs. Christine and Thomas Sinsky and others have described such successful efforts in smaller physician practices (<xref ref-type="bibr" rid="SWGSSMB2013">Sinsky et al., 2013</xref>).</p>
             <fig_label>Figure 2</fig_label>
-            <fig_caption>
-               <italic>Physician practice support tools</italic>
-            </fig_caption>
+            <fig_caption>Physician practice support tools</fig_caption>
             <list>
                <list-item>
                   <p style="ListContents">Pre-visit planning</p>
@@ -309,18 +307,18 @@
    <back>
       <fn-group>
          <fn id="ftn1">
-            <p style="footnote_20_text"> Available at <uri>http://www.rand.org/pubs/research_reports/RR439.html</uri>
+            <p style="footnote_20_text">Available at <uri>http://www.rand.org/pubs/research_reports/RR439.html</uri>
             </p>
          </fn>
          <fn id="ftn2">
-            <p> This module and others in <italic>beta</italic>-testing mode can be accessed at <uri>https://www.steps-forward.com</uri>
+            <p>This module and others in <italic>beta</italic>-testing mode can be accessed at <uri>https://www.steps-forward.com/</uri>
             </p>
          </fn>
          <fn id="ftn3">
-            <p> This report can be accessed at <uri>https://download.ama-assn.org/resources/doc/ps2/x-pub/ehr-priorities.pdf</uri>.</p>
+            <p>This report can be accessed at <uri>https://download.ama-assn.org/resources/doc/ps2/x-pub/ehr-priorities.pdf</uri>.</p>
          </fn>
          <fn id="ftn4">
-            <p> The proceedings of the conference can be accessed at <uri>http://www.aha.org/research/rc/stat-studies/Studies.shtml</uri>, more particularly the entry entitled <uri>http://www.ahaphysicianforum.org/resources/leadership-development/ama-aha/new-models-proceedings.pdf</uri>
+            <p>The proceedings of the conference can be accessed at <uri>http://www.aha.org/research/rc/stat-studies/Studies.shtml</uri>, more particularly the entry entitled <uri>http://www.ahaphysicianforum.org/resources/leadership-development/ama-aha/new-models-proceedings.pdf</uri>
             </p>
          </fn>
          <fn id="ftn5">
@@ -504,8 +502,8 @@
                <uri>http://dx.doi.org/10.1016/j.amjmed.2014.03.033</uri>
             </element-citation>
          </ref>
-         <ref id="FCVAPCT2013"><!--Friedberg, M. W., Chen, P. G., Van Busum, K. R., Aunon, F., Pham, C., Caloyeras, J., …  Tutty, M. (2013). <italic>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</italic>. Rand Corporation.-->
-            <element-citation publication-type="journal" publication-format="print">
+         <ref id="FCVAPCT2013"><!--Friedberg, M. W., Chen, P. G., Van Busum, K. R., Aunon, F., Pham, C., Caloyeras, J., … Tutty, M. (2013). <italic>Factors Affecting Physician Professional Satisfaction and Their Implications for Patient Care, Health Systems, and Health Policy</italic>. Santa Monica, CA: RAND Corporation. Retrieved from <uri>http://www.rand.org/pubs/research_reports/RR439</uri>-->
+            <element-citation publication-type="book" publication-format="web">
                <person-group person-group-type="author">
                   <name>
                      <surname>Friedberg</surname>
@@ -538,8 +536,10 @@
                   </name>
                </person-group>
                <year>2013</year>
-               <article-title> </article-title>
-               <source>Factors affecting physician professional satisfaction and their implications for patient care, health systems, and health policy</source>
+               <source>Factors Affecting Physician Professional Satisfaction and Their Implications for Patient Care, Health Systems, and Health Policy</source>
+               <publisher-loc>Santa Monica, CA</publisher-loc>
+               <publisher-name>RAND Corporation</publisher-name>
+               <uri>http://www.rand.org/pubs/research_reports/RR439</uri>
             </element-citation>
          </ref>
          <ref id="HBDBDNK1988"><!--Hsiao, W. C., Braun, P., Dunn, D., Becker, E. R., DeNicola, M., & Ketcham, T. R. (1988). Results and policy implications of the resource-based relative-value study. <italic>The New England journal of medicine, 319</italic>(13), 881-888. <uri>http://dx.doi.org/10.1056/NEJM198809293191330</uri>-->
