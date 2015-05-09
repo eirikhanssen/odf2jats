@@ -352,12 +352,23 @@
                <uri>http://dx.doi.org/10.1177/1403494810364559</uri>
             </element-citation>
          </ref>
-         <ref id="___2011"><!--Berwick, D. M. (2011). Making good on ACOs' promise—the final rule for the-->
-            <mixed-citation publication-format="print">Berwick, D. M. (2011). Making good on ACOs' promise—the final rule for the</mixed-citation>
-         </ref>
-         <ref id="___"><!--Medicare shared savings program. <italic>New England Journal of Medicine, 365</italic>(19), 1753-1756. <uri>http://dx.doi.org/10.1056/NEJMp1111671</uri>-->
-            <mixed-citation publication-type="journal" publication-format="web">Medicare shared savings program. <italic>New England Journal of Medicine, 365</italic>(19), 1753-1756. <uri>http://dx.doi.org/10.1056/NEJMp1111671</uri>
-            </mixed-citation>
+         <ref id="B2011"><!--Berwick, D. M. (2011). Making good on ACOs' promise—the final rule for the Medicare shared savings program. <italic>New England Journal of Medicine, 365</italic>(19), 1753-1756. <uri>http://dx.doi.org/10.1056/NEJMp1111671</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Berwick</surname>
+                     <given-names>D. M.</given-names>
+                  </name>
+               </person-group>
+               <year>2011</year>
+               <article-title>Making good on ACOs' promise—the final rule for the Medicare shared savings program.</article-title>
+               <source>New England Journal of Medicine</source>
+               <volume>365</volume>
+               <issue>19</issue>
+               <fpage>1753</fpage>
+               <lpage>1756</lpage>
+               <uri>http://dx.doi.org/10.1056/NEJMp1111671</uri>
+            </element-citation>
          </ref>
          <ref id="BCOM2009"><!--Boukus, E., Cassil, A., & O'Malley, A. S. (2009). A snapshot of US physicians: key findings from the 2008 Health Tracking Physician Survey. <italic>Data bulletin (Center for Studying Health System Change)</italic>, (35), 1-11.-->
             <element-citation publication-type="journal" publication-format="print">
