@@ -689,7 +689,7 @@
                <uri>http://dx.doi.org/10.1001/archinte.162.14.1577</uri>
             </element-citation>
          </ref>
-         <ref id="LTK2009"><!--Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. <italic>BMC Health Services Research, 9</italic>(1), 166. 	<uri>http://dx.doi.org/10.1186/1472-6963-9-166</uri>-->
+         <ref id="LTK2009"><!--Leigh, J. P., Tancredi, D. J., & Kravitz, R. L. (2009). Physician career satisfaction within specialties. <italic>BMC Health Services Research, 9</italic>, 166. 	<uri>http://dx.doi.org/10.1186/1472-6963-9-166</uri>-->
             <element-citation publication-type="journal" publication-format="web">
                <person-group person-group-type="author">
                   <name>
@@ -709,7 +709,6 @@
                <article-title>Physician career satisfaction within specialties.</article-title>
                <source>BMC Health Services Research</source>
                <volume>9</volume>
-               <issue>1</issue>
                <elocation-id>166</elocation-id>
                <uri>http://dx.doi.org/10.1186/1472-6963-9-166</uri>
             </element-citation>
