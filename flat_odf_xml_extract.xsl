@@ -13,26 +13,28 @@
     xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
     xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
     exclude-result-prefixes="xs sm style office text table fo draw svg">
-
+    <xsl:output method="xml" indent="yes"/>
     <xsl:param name="documentStylesPath"/>
 
-    <xsl:variable name="document-styles" select="doc($documentStylesPath)/office:document-styles" as="element(office:document-styles)"/>
+    <!--<xsl:variable name="document-styles" select="doc($documentStylesPath)/office:document-styles" as="element(office:document-styles)"/>-->
 
-    <xsl:output method="xml" indent="yes"/>
+    <xsl:variable name="style:style_defs" as="element(style:style)+">
+        <xsl:sequence select="//style:style, doc($documentStylesPath)//style:style"/>
+    </xsl:variable>
+    
+    <xsl:variable name="text:list-style_defs" as="element(text:list-style)+">
+        <xsl:sequence select="//text:list-style, doc($documentStylesPath)//text:list-style"/>
+    </xsl:variable>
 
-    <xsl:variable name="styles"
+    <xsl:variable name="style-map"
         select="doc('')/xsl:stylesheet/sm:styles/sm:style" as="element(sm:style)+"/>
-
-    <xsl:variable name="automatic-styles"
-        select="/office:document-content/office:automatic-styles/style:style"
-        as="element(style:style)+"/>
 
     <xsl:template match="/">
         <article article-type="research-article">
-            <xsl:message>
+            <!--<xsl:message>
                 <xsl:text>$documentStyles: </xsl:text><xsl:value-of select="$documentStylesPath"/><xsl:text>&#xa;</xsl:text>
                 <xsl:text>$documentStyles has </xsl:text><xsl:value-of select="count($document-styles//text:p)"/><xsl:text> text:p elements&#xa;</xsl:text>
-            </xsl:message>
+            </xsl:message>-->
             <xsl:apply-templates/>
         </article>
     </xsl:template>
@@ -60,8 +62,8 @@
 
         <xsl:variable name="elementName" as="xs:string?">
             <xsl:choose>
-                <xsl:when test="$styles[sm:name=$current_stylename]">
-                    <xsl:value-of select="$styles[sm:name=$current_stylename]/sm:transformTo"/>
+                <xsl:when test="$style-map[sm:name=$current_stylename]">
+                    <xsl:value-of select="$style-map[sm:name=$current_stylename]/sm:transformTo"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:message>Style name match not found</xsl:message>
@@ -217,11 +219,11 @@
             <xsl:choose>
                 <xsl:when test="$outline_level = 1">
                     <xsl:choose>
-                        <xsl:when test="$styles[sm:name=current()/@text:style-name]">
-                            <xsl:value-of select="$styles[sm:name=current()/@text:style-name]/sm:transformTo"/>
+                        <xsl:when test="$style-map[sm:name=current()/@text:style-name]">
+                            <xsl:value-of select="$style-map[sm:name=current()/@text:style-name]/sm:transformTo"/>
                         </xsl:when>
-                        <xsl:when test="$styles[sm:name=$current_stylename]">
-                            <xsl:value-of select="$styles[sm:name=$current_stylename]/sm:transformTo"/>
+                        <xsl:when test="$style-map[sm:name=$current_stylename]">
+                            <xsl:value-of select="$style-map[sm:name=$current_stylename]/sm:transformTo"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="concat('h', $outline_level)"/>
@@ -230,9 +232,9 @@
                     </xsl:choose>
                     
                     <xsl:message>
-                        <!--<xsl:text>1a: </xsl:text><xsl:value-of select="$styles/sm:name"/><xsl:text>&#xa;</xsl:text>-->
+                        <!--<xsl:text>1a: </xsl:text><xsl:value-of select="$style-map/sm:name"/><xsl:text>&#xa;</xsl:text>-->
                         <xsl:text>1b: </xsl:text><xsl:value-of select="current()/@text:style-name"/><xsl:text>&#xa;</xsl:text>
-                        <xsl:text>1c: </xsl:text><xsl:value-of select="$styles[sm:name=current()/@text:style-name]/sm:transformTo"/><xsl:text>&#xa;</xsl:text>
+                        <xsl:text>1c: </xsl:text><xsl:value-of select="$style-map[sm:name=current()/@text:style-name]/sm:transformTo"/><xsl:text>&#xa;</xsl:text>
                     </xsl:message>
                 </xsl:when>
                 <xsl:otherwise>
@@ -289,7 +291,7 @@
 
     <!-- Preserve italic and bold text -->
     <xsl:template match="text:span">
-        <xsl:variable name="mapped-style-def" select="$automatic-styles[@style:name = current()/@text:style-name]/style:text-properties" as="element(style:text-properties)?"/>
+        <xsl:variable name="mapped-style-def" select="$style:style_defs[@style:name = current()/@text:style-name]/style:text-properties" as="element(style:text-properties)?"/>
         <xsl:variable name="isBold" select="$mapped-style-def/@fo:font-weight='bold'" as="xs:boolean"/>
         <xsl:variable name="isItalic" select="$mapped-style-def/@fo:font-style='italic'" as="xs:boolean"/>
         <xsl:variable name="isSubScript" select="matches($mapped-style-def/@style:text-position, '^sub')" as="xs:boolean"/>
