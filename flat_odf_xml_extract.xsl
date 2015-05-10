@@ -112,7 +112,14 @@
 
     <xsl:template match="text:list">
         <!-- First, figure out the level of the list -->
-        <xsl:variable name="list-level" select="count(./ancestor-or-self::text:list)"/>
+        <xsl:variable name="listLevel" select="count(./ancestor-or-self::text:list[not(@text:style-name)]) + 1"/>
+        <xsl:variable name="text:style-name" select="ancestor-or-self::text:list[@text:style-name]/@text:style-name"/>
+        <xsl:message>
+            <xsl:text>&#xa;«</xsl:text><xsl:value-of select="text:list-item[1]/text:p[1]"/><xsl:text>»&#xa;</xsl:text>
+            <xsl:text>$listLevel: «</xsl:text><xsl:value-of select="$listLevel"/><xsl:text>»&#xa;</xsl:text>
+            <xsl:text>$text:style-name: «</xsl:text><xsl:value-of select="$text:style-name"/><xsl:text>»&#xa;</xsl:text>
+            
+        </xsl:message>
         <!--
             Figure out the type of list, and set the optional @list-type=
             "order|bullet|alpha-lower|alpha-upper|roman-lower|roman-upper|simple"
@@ -125,20 +132,15 @@
             and that's the point where we will be able to find the correct list style information.
         -->
 
-        <xsl:variable name="style-name" select="
-            if (current()/ancestor-or-self::text:list[$list-level]/@text:style-name)
-            then (current()/ancestor-or-self::text:list[$list-level]/@text:style-name)
-            else ('')" as="xs:string"/>
-        <xsl:variable name="list-type" as="xs:string">
+        <xsl:variable name="list-type" as="xs:string?">
             <xsl:choose>
-                <xsl:when test="$style-name != '' and /office:document-content/office:automatic-styles/text:list-style[@style:name = $style-name]">
-                    <xsl:variable name="current_list_style" select="/office:document-content/office:automatic-styles/text:list-style[@style:name = $style-name]" as="element(text:list-style)"/>
+                <xsl:when test="$text:list-style_defs[@style:name eq $text:style-name]">
                     <xsl:choose>
-                        <xsl:when test="$current_list_style/element()[$list-level][local-name(.) = 'list-level-style-bullet']">
+                        <xsl:when test="text:list-level-style-bullet[xs:integer(text:level) eq $listLevel]">
                             <xsl:text>bullet</xsl:text>
                         </xsl:when>
-                        <xsl:when test="$current_list_style/element()[$list-level][local-name(.) = 'list-level-style-number']">
-                            <xsl:variable name="num-format" select="$current_list_style/element()[$list-level]/@style:num-format"/>
+                        <xsl:when test="text:list-level-style-number[xs:integer(text:level) eq $listLevel]">
+                            <xsl:variable name="num-format" select="@style:num-format" as="xs:string"/>
                             <xsl:choose>
                                 <xsl:when test="$num-format = 'a'">alpha-lower</xsl:when>
                                 <xsl:when test="$num-format = 'A'">alpha-upper</xsl:when>
@@ -149,17 +151,15 @@
                         </xsl:when>
                     </xsl:choose>
                 </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="'undefined'"/>
-                </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+
         <xsl:element name="list">
-            <xsl:if test="$list-type != 'undefined'">
+            <!--<xsl:if test="not(empty($list-type))">-->
                 <xsl:attribute name="list-type">
                     <xsl:value-of select="$list-type"/>
                 </xsl:attribute>
-            </xsl:if>
+            <!--</xsl:if>-->
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>

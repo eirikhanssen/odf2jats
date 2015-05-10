@@ -5,6 +5,16 @@ INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='footnote_20_text'] 
 Textcontent: 
 INFO : odf2jats.xpl:20:55:removed empty element: text:p
+INFO : odf2jats.xpl:20:55:
+«Perceived barriers to high-quality care»
+$listLevel: «1»
+$text:style-name: «WWNum12»
+
+INFO : odf2jats.xpl:20:55:
+«Pre-visit planning»
+$listLevel: «1»
+$text:style-name: «WWNum14»
+
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
 Textcontent: Pre-visit planning
@@ -14,6 +24,11 @@ Textcontent: Pre-visit laboratory tests
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
 Textcontent: Expanded use of office staff
+INFO : odf2jats.xpl:20:55:
+«Establish teams with other care givers»
+$listLevel: «2»
+$text:style-name: «WWNum14»
+
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
 Textcontent: Establish teams with other car …
@@ -41,6 +56,11 @@ Textcontent: Systematic prescriptions
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
 Textcontent: EHR improvements
+INFO : odf2jats.xpl:20:55:
+«Improve usability of GUI»
+$listLevel: «2»
+$text:style-name: «WWNum14»
+
 INFO : odf2jats.xpl:20:55:Style name match not found
 INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
 Textcontent: Improve usability of GUI
