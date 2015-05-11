@@ -230,6 +230,7 @@
         </p:input>
     </p:xslt>
 
+    <p:add-attribute match="/article" attribute-name="xml:lang" attribute-value="en"/>
     <!-- Delete unneeded style attributes from some p elements -->
     <!--<p:delete match="p/@style"/>-->
 
