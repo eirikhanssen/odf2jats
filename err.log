@@ -1,80 +1,100 @@
-INFO : odf2jats.xpl:20:55:1b: PP_20_Heading_20_1
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener warning
+WARNING: err:SXXP0005:The source document is in namespace urn:oasis:names:tc:opendocument:xmlns:office:1.0, but none of the template rules match elements in this namespace
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:1b: H1-ArticleTitle
 1c: article-title
 
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='footnote_20_text'] 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
 Textcontent: 
-INFO : odf2jats.xpl:20:55:removed empty element: text:p
-INFO : odf2jats.xpl:20:55:
-«Perceived barriers to high-quality care»
-$listLevel: «1»
-$text:style-name: «WWNum12»
-
-INFO : odf2jats.xpl:20:55:
-«Pre-visit planning»
-$listLevel: «1»
-$text:style-name: «WWNum14»
-
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Pre-visit planning
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Pre-visit laboratory tests
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Expanded use of office staff
-INFO : odf2jats.xpl:20:55:
-«Establish teams with other care givers»
-$listLevel: «2»
-$text:style-name: «WWNum14»
-
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Establish teams with other car …
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Expanded rooming function by M …
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Order entry
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Panel management-clinical
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: responsibility
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Scribing
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: RN filtering of in-box
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Systematic prescriptions
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: EHR improvements
-INFO : odf2jats.xpl:20:55:
-«Improve usability of GUI»
-$listLevel: «2»
-$text:style-name: «WWNum14»
-
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Improve usability of GUI
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Team-shared simultaneous acces …
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Allow staff input of data elem …
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='ListContents'] 
-Textcontent: Lean process improvement techn …
-INFO : odf2jats.xpl:20:55:Style name match not found
-INFO : odf2jats.xpl:20:55:Not mapped - text:p[@style='footnote_20_text'] 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
 Textcontent: 
-INFO : odf2jats.xpl:20:55:removed empty element: text:p
-INFO : odf2jats.xpl:187:48:Please verify that elocation-id: «593» is indeed an elocation-id and not an uncomplete page range.
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:
+«Overtreatment»
+$listLevel: «1»
+$text:style-name: «L2»
+
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:
+«Undertreatment»
+$listLevel: «1»
+$text:style-name: «L2»
+
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Style name match not found
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:Not mapped - text:p[@style='TableHeader'] 
+Textcontent: 
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:
+«Buyers: sovereign, maximize clear preferences using gd info, shop frequently»
+$listLevel: «1»
+$text:style-name: «L3»
+
+May 11, 2015 1:28:03 PM com.xmlcalabash.util.DefaultXProcMessageListener info
+INFO: odf2jats.xpl:20:55:
+«Buyers: embedded in relations, mixed preferences, partial info, shop infrequently»
+$listLevel: «1»
+$text:style-name: «L3»
+
