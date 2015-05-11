@@ -670,8 +670,8 @@
                <lpage>1681</lpage>
             </element-citation>
          </ref>
-         <ref id="L2010"><!--Light, D. (Ed.). (2010). <italic>The Risks of Prescription Drugs</italic>. New York: Columbia University Press.Light, D. W. (2001). Comparative institutional responses to economic policy: managed competition and governmentality <italic>Social Science & Medicine, 52</italic>, 1151-1166. <uri>http://dx.doi.org/10.1016/S0277-9536%2800%2900236-7</uri>-->
-            <element-citation publication-type="journal" publication-format="web">
+         <ref id="L2010"><!--Light, D. (Ed.). (2010). <italic>The Risks of Prescription Drugs</italic>. New York: Columbia University Press.-->
+            <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
                      <surname>Light</surname>
@@ -679,8 +679,25 @@
                   </name>
                </person-group>
                <year>2010</year>
-               <article-title> </article-title>
                <source>The Risks of Prescription Drugs</source>
+               <publisher-loc>New York</publisher-loc>
+               <publisher-name>Columbia University Press</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="L2001"><!--Light, D. W. (2001). Comparative institutional responses to economic policy: managed competition and governmentality <italic>Social Science & Medicine, 52</italic>, 1151-1166. <uri>http://dx.doi.org/10.1016/S0277-9536%2800%2900236-7</uri>-->
+            <element-citation publication-type="journal" publication-format="web">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Light</surname>
+                     <given-names>D. W.</given-names>
+                  </name>
+               </person-group>
+               <year>2001</year>
+               <article-title>Comparative institutional responses to economic policy: managed competition and governmentality</article-title>
+               <source>Social Science &amp; Medicine</source>
+               <volume>52</volume>
+               <fpage>1151</fpage>
+               <lpage>1166</lpage>
                <uri>http://dx.doi.org/10.1016/S0277-9536%2800%2900236-7</uri>
             </element-citation>
          </ref>
