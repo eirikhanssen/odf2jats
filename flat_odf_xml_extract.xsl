@@ -16,8 +16,6 @@
     <xsl:output method="xml" indent="yes"/>
     <xsl:param name="documentStylesPath"/>
 
-    <!--<xsl:variable name="document-styles" select="doc($documentStylesPath)/office:document-styles" as="element(office:document-styles)"/>-->
-
     <xsl:variable name="style:style_defs" as="element(style:style)+">
         <xsl:sequence select="//style:style, doc($documentStylesPath)//style:style"/>
     </xsl:variable>
@@ -31,17 +29,13 @@
 
     <xsl:template match="/">
         <article article-type="research-article">
-            <!--<xsl:message>
-                <xsl:text>$documentStyles: </xsl:text><xsl:value-of select="$documentStylesPath"/><xsl:text>&#xa;</xsl:text>
-                <xsl:text>$documentStyles has </xsl:text><xsl:value-of select="count($document-styles//text:p)"/><xsl:text> text:p elements&#xa;</xsl:text>
-            </xsl:message>-->
             <xsl:apply-templates/>
         </article>
     </xsl:template>
 
     <xsl:template match="text:p">
-        <!-- Use the style mapping lookup to define the styles -->
-        
+        <!-- Use the $style-map lookup to define what elements should be generated -->
+
         <xsl:variable
             name="current_style_index_name"
             select="if(current()/@text:style-name) then (current()/@text:style-name) else('')"
@@ -118,8 +112,13 @@
             Figure out the type of list, and set the optional @list-type=
             "order|bullet|alpha-lower|alpha-upper|roman-lower|roman-upper|simple"
  
-            The root text:list will have a @text:style-name referring to a list definition 
-            with definitions for up to 10 sublevels of lists.
+            The root (topmost) text:list will have a @text:style-name referring to a list definition 
+            with definitions for up to 10 sublevels of lists. decendant text:list will not have @text:style-name
+
+            Determining list level:
+            If a <text:list> element has a @text:style-name then it is a lvl 1 list.
+            If it doesn't, then count all ancestor-or-self::text:list that don't have this attribute and add 1.
+            (the ancestor that has @text:style-name).
         -->
 
         <xsl:variable name="list-type" as="xs:string?">
@@ -143,7 +142,7 @@
                                 <xsl:otherwise>order<xsl:message>Unknown text:list-level-style-number/@style:num-format was encountered. Defaulting to 'order'</xsl:message></xsl:otherwise>
                             </xsl:choose>
                         </xsl:when>
-                        <xsl:otherwise><xsl:message>didn't find a list type for top level list!!</xsl:message></xsl:otherwise>
+                        <xsl:otherwise><xsl:message>Didn't find a list type for top level list!! This is probably an error. Contact the developer.</xsl:message></xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
                 <xsl:when test="empty(@text:style-name)">
@@ -166,7 +165,7 @@
                             </xsl:choose>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:message>didn't find a list type for top level list!! This is probably an error. Contact the developer.</xsl:message>
+                            <xsl:message>Didn't find a list type for top level list!! This is probably an error. Contact the developer.</xsl:message>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
