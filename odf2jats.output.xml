@@ -684,7 +684,7 @@
                <uri>http://dx.doi.org/10.1016/S0277-9536%2800%2900236-7</uri>
             </element-citation>
          </ref>
-         <ref id="L2004"><!--Light, D. W. (2004). Ironies of success: a new history of the American health care "system". <italic>Journal of Health and Social Behavior, 45 (extra issue)</italic>, 1-24.-->
+         <ref id="L2004"><!--Light, D. W. (2004). Ironies of success: a new history of the American health care "system". <italic>Journal of Health and Social Behavior, 45</italic>(extra issue), 1-24.-->
             <element-citation publication-type="journal" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -695,7 +695,8 @@
                <year>2004</year>
                <article-title>Ironies of success: a new history of the American health care "system".</article-title>
                <source>Journal of Health and Social Behavior</source>
-               <volume>45 (extra issue)</volume>
+               <volume>45</volume>
+               <issue>extra issue</issue>
                <fpage>1</fpage>
                <lpage>24</lpage>
             </element-citation>
