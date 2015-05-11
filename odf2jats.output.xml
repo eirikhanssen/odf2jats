@@ -85,28 +85,6 @@
    <body>
       <p>As someone who has been writing for a long time about the historical development of the medical profession in its societal contexts, I want to share some observations based on this special issue of Professions and Professionalism. Are doctors aware of how many researchers are studying their distress?</p>
       <p>Is John McKinlay right, that the causes of alienation, stress, and burnout lie in the proletarianization of the profession by corporate and public managed care hierarchies devising clinical guidelines after 1980? (<xref ref-type="bibr" rid="MKA1985">McKinlay &amp; Arches, 1985</xref>; <xref ref-type="bibr" rid="MKM2011">McKinlay &amp; Marceau, 2011</xref>). This April, a US e-newspaper published an article on “How being a doctor became the most miserable profession. Nine of 10 doctors discourage others from joining the profession, and 300 physicians commit suicide every year” (<xref ref-type="bibr" rid="D2014">Drake, 2014</xref>). In August, a prominent article by an MD explained “why doctors are sick of their profession” (<xref ref-type="bibr" rid="J2014">Jauhar, 2014</xref>). Only six percent described their morale as positive. One wrote, “I wouldn’t do it again… I get too little respect from patients, physician colleagues and administrators, despite good clinical judgment, hard work, and compassion for my patients” (<xref ref-type="bibr" rid="J2014">Jauhar, 2014</xref>, <xref ref-type="bibr" rid="Jpara. 7">para. 7</xref>).</p>
-      <list list-type="order">
-         <list-item>
-            <p>Bogus numeric list</p>
-         </list-item>
-         <list-item>
-            <p>Bogus numeric list</p>
-         </list-item>
-         <list-item>
-            <p>Bogus numeric list</p>
-            <list list-type="roman-lower">
-               <list-item>
-                  <p>bogus numeric lvl 2 list</p>
-               </list-item>
-               <list-item>
-                  <p>bogus numeric lvl 2 list</p>
-               </list-item>
-               <list-item>
-                  <p>bogus numeric lvl 2 list</p>
-               </list-item>
-            </list>
-         </list-item>
-      </list>
       <!-- sec lvl 2 begin -->
       <sec>
          <title>Unclear concepts and relationships</title>
@@ -747,7 +725,7 @@
                <lpage>600</lpage>
             </element-citation>
          </ref>
-         <ref id="MC2011"><!--Mazowita, G., & Cavers, W. (2011). Reviving full-service family practice in British Columbia. <italic>Issues in International Health Policy</italic>. New York: The Commonwealth Fund.-->
+         <ref id="MC2011"><!--Mazowita, G., & Cavers, W. (2011). <italic>Reviving full-service family practice in British Columbia.</italic> (Issues in International Health Policy). New York: The Commonwealth Fund.-->
             <element-citation publication-type="book" publication-format="print">
                <person-group person-group-type="author">
                   <name>
@@ -760,7 +738,7 @@
                   </name>
                </person-group>
                <year>2011</year>
-               <source>Issues in International Health Policy</source>
+               <source>Reviving full-service family practice in British Columbia.</source>
                <publisher-loc>New York</publisher-loc>
                <publisher-name>The Commonwealth Fund</publisher-name>
             </element-citation>
