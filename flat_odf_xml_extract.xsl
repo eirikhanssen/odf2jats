@@ -111,57 +111,77 @@
     </xsl:template>
 
     <xsl:template match="text:list">
-        <!-- First, figure out the level of the list -->
-        <xsl:variable name="listLevel" select="count(./ancestor-or-self::text:list[not(@text:style-name)]) + 1"/>
-        <xsl:variable name="text:style-name" select="ancestor-or-self::text:list[@text:style-name]/@text:style-name"/>
-        <xsl:message>
-            <xsl:text>&#xa;«</xsl:text><xsl:value-of select="text:list-item[1]/text:p[1]"/><xsl:text>»&#xa;</xsl:text>
-            <xsl:text>$listLevel: «</xsl:text><xsl:value-of select="$listLevel"/><xsl:text>»&#xa;</xsl:text>
-            <xsl:text>$text:style-name: «</xsl:text><xsl:value-of select="$text:style-name"/><xsl:text>»&#xa;</xsl:text>
-            
-        </xsl:message>
+        <xsl:variable name="this" select="."/>
+        <xsl:variable name="text:style-name" select="ancestor-or-self::text:list[@text:style-name][1]/@text:style-name" as="xs:string?"/>
+
         <!--
             Figure out the type of list, and set the optional @list-type=
             "order|bullet|alpha-lower|alpha-upper|roman-lower|roman-upper|simple"
  
-            The style name compared here must be the style name of the topmost list, 
-            because that's where the styles for all nested lists are contained! 
-            
-            So we must use the list-level here and count starting from the text:list in focus
-            up all ancestor text list to the top text:list, that means $list-level times up,
-            and that's the point where we will be able to find the correct list style information.
+            The root text:list will have a @text:style-name referring to a list definition 
+            with definitions for up to 10 sublevels of lists.
         -->
 
         <xsl:variable name="list-type" as="xs:string?">
             <xsl:choose>
-                <xsl:when test="$text:list-style_defs[@style:name eq $text:style-name]">
+                <xsl:when test="not(empty(@text:style-name))">
+                    <xsl:variable name="list-level" select="1"/>
                     <xsl:choose>
-                        <xsl:when test="text:list-level-style-bullet[xs:integer(text:level) eq $listLevel]">
+                        <xsl:when test="
+                            $text:list-style_defs[@style:name eq $text:style-name]/text:list-level-style-bullet[xs:integer(@text:level) eq $list-level]">
                             <xsl:text>bullet</xsl:text>
                         </xsl:when>
-                        <xsl:when test="text:list-level-style-number[xs:integer(text:level) eq $listLevel]">
-                            <xsl:variable name="num-format" select="@style:num-format" as="xs:string"/>
+                        <xsl:when test="
+                            $text:list-style_defs[@style:name eq $text:style-name]/text:list-level-style-number[xs:integer(@text:level) eq $list-level]">
+                            <xsl:variable name="num-format" select="$text:list-style_defs[@style:name eq $text:style-name]/text:list-level-style-number[xs:integer(@text:level) eq $list-level]/@style:num-format" as="xs:string"/>
                             <xsl:choose>
                                 <xsl:when test="$num-format = 'a'">alpha-lower</xsl:when>
                                 <xsl:when test="$num-format = 'A'">alpha-upper</xsl:when>
                                 <xsl:when test="$num-format = 'i'">roman-lower</xsl:when>
                                 <xsl:when test="$num-format = 'I'">roman-upper</xsl:when>
-                                <xsl:otherwise>order</xsl:otherwise>
+                                <xsl:when test="$num-format = '1'">order</xsl:when>
+                                <xsl:otherwise>order<xsl:message>Unknown text:list-level-style-number/@style:num-format was encountered. Defaulting to 'order'</xsl:message></xsl:otherwise>
                             </xsl:choose>
                         </xsl:when>
+                        <xsl:otherwise><xsl:message>didn't find a list type for top level list!!</xsl:message></xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="empty(@text:style-name)">
+                    <xsl:variable name="list-level" select="count(ancestor-or-self::text:list[empty(@text:style-name)])+1"/>
+                    <xsl:choose>
+                        <xsl:when test="
+                            $text:list-style_defs[@style:name eq $text:style-name]/text:list-level-style-bullet[xs:integer(@text:level) eq $list-level]">
+                            <xsl:text>bullet</xsl:text>
+                        </xsl:when>
+                        <xsl:when test="
+                            $text:list-style_defs[@style:name eq $text:style-name]/text:list-level-style-number[xs:integer(@text:level) eq $list-level]">
+                            <xsl:variable name="num-format" select="$text:list-style_defs[@style:name eq $text:style-name]/text:list-level-style-number[xs:integer(@text:level) eq $list-level]/@style:num-format" as="xs:string"/>
+                            <xsl:choose>
+                                <xsl:when test="$num-format = 'a'">alpha-lower</xsl:when>
+                                <xsl:when test="$num-format = 'A'">alpha-upper</xsl:when>
+                                <xsl:when test="$num-format = 'i'">roman-lower</xsl:when>
+                                <xsl:when test="$num-format = 'I'">roman-upper</xsl:when>
+                                <xsl:when test="$num-format = '1'">order</xsl:when>
+                                <xsl:otherwise>order<xsl:message>Unknown text:list-level-style-number/@style:num-format was encountered. Defaulting to 'order'</xsl:message></xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:message>didn't find a list type for top level list!! This is probably an error. Contact the developer.</xsl:message>
+                        </xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
 
         <xsl:element name="list">
-            <!--<xsl:if test="not(empty($list-type))">-->
+            <xsl:if test="not(empty($list-type))">
                 <xsl:attribute name="list-type">
                     <xsl:value-of select="$list-type"/>
                 </xsl:attribute>
-            <!--</xsl:if>-->
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
+
     </xsl:template>
 
     <!-- insert a | character when encountering text:tab in a p that has the paragraph style ArticleIdentifiers -->
