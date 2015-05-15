@@ -166,7 +166,7 @@
 
     <xsl:template match="refsBySameAuthors/xref" mode="genIdWhenCapsLetterNotPresent">
         <xref ref-type="bibr">
-            <xsl:variable name="caps" select="replace(preceding-sibling::xref[@rid]/@rid , '\P{Lu}' ,'')"/>
+            <xsl:variable name="caps" select="replace(preceding-sibling::xref[1][@rid]/@rid , '\P{Lu}' ,'')"/>
             <xsl:variable name="year" select="replace( . , '.*(\d{4}\c*)', '$1')"/>
             <xsl:choose>
                 <xsl:when test="not(@rid) and $caps =''">
