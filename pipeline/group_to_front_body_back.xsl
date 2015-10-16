@@ -7,9 +7,13 @@
     exclude-result-prefixes="xs"
     version="2.0">
 
-    <xsl:param name="journal-meta-common" select="doc('journal-meta-PP.xml')/journal-meta" as="element(journal-meta)"/>
+<!-- TODO: later if we support multiple journals, 
+the journal abbreviation should be given as a parameter, PP in this case, and this stylesheet should then 
+fetch the file from the PP subfolder of ../xml-include -->
 
-    <xsl:param name="article-meta-common" select="doc('article-meta-common-PP.xml')/article-meta" as="element(article-meta)"/>
+    <xsl:param name="journal-meta-common" select="doc('../xml-include/journal-meta-PP.xml')/journal-meta" as="element(journal-meta)"/>
+
+    <xsl:param name="article-meta-common" select="doc('../xml-include/article-meta-common-PP.xml')/article-meta" as="element(article-meta)"/>
 
     <xsl:template match="article">
         <xsl:variable name="article-identifiers">

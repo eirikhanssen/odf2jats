@@ -1,2 +1,22 @@
 #!/bin/bash
-calabash -i source=$1/content.xml -p documentStylesPath=$1/styles.xml odf2jats.xpl 2> err.log | tee odf2jats.output.xml | pygmentize -l xml | less -R
+#calabash -i source=$1/content.xml -p documentStylesPath=$1/styles.xml odf2jats.xpl 2> err.log | tee odf2jats.output.xml | pygmentize -l xml | less -R
+unset CDPATH
+# get folder where this script is stored (needed in order to find the xproc pipeline and xsl-stylesheets)
+# http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+odf2jats_source_dir="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+# get the name of the document to be converted (strip off path separators and filename extension)
+docname="$(echo $1 | sed 's:.*/::;s/\.[^.]*$//')"
+
+mkdir $docname
+cd $docname
+unzip -u ../$1 content.xml styles.xml
+calabash -i source=content.xml -p documentStylesPath=$PWD/styles.xml $odf2jats_source_dir/pipeline/odf2jats.xpl 2> err.log | tee $docname.xml | pygmentize -l xml | less -R
+
