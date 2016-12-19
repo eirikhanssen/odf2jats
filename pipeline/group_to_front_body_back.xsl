@@ -174,13 +174,15 @@ fetch the file from the PP subfolder of ../xml-include -->
     </xsl:template>
 
     <xsl:template match="authors">
+	<!-- sometimes an extra comma before the 'and' between the two last authors creates a problem (empty sequence). Remove this comma here in the $authors_fix variable. -->
+    	<xsl:variable name="authors_fix" select="replace(.,'\s*,\s* (and | &amp;)\s*',' and ')"/>
         <!-- these two variables are used when attaching the contact address to the author to be contacted -->
         <xsl:variable name="contact-info" select="/article/contact-info" as="element(contact-info)*"/>
         <xsl:variable name="contact-address">
                 <xsl:for-each select="$contact-info">
                     <xsl:if test="matches( . , '^\s*[cC]ontact:')">
-                        <xsl:variable name="contactPersonString" select="replace( . , '^\s*[cC]ontact:\s*([^,]+),.*?$' , '$1')"/>
-                        <xsl:variable name="addressString" select="replace( . , '^\s*[cC]ontact:\s*[^,]+,\s*(.*?)$' , '$1')"/>
+                    	<xsl:variable name="contactPersonString" select="replace( . , '^\s*[cC]ontact:\s*([^,]+),.*?$' , '$1')"/>
+                    	<xsl:variable name="addressString" select="replace( . , '^\s*[cC]ontact:\s*[^,]+,\s*(.*?)$' , '$1')"/>
                         <contact_person><xsl:value-of select="$contactPersonString"/></contact_person>
                         <address_string><xsl:value-of select="$addressString"/></address_string>
                     </xsl:if>
@@ -189,14 +191,14 @@ fetch the file from the PP subfolder of ../xml-include -->
         
         <xsl:variable name="author-group" as="element(contrib-group)">
             <contrib-group>
-                <xsl:for-each select="tokenize( . , ',|\sand\s|&amp;')">
+                <xsl:for-each select="tokenize( $authors_fix , ',|\sand\s|&amp;')">
                     <xsl:variable name="current_name">
-                        <xsl:analyze-string select="normalize-space(.)" regex="\c+$">
+                    	<xsl:analyze-string select="normalize-space(.)" regex="\c+$">
                             <xsl:matching-substring>
-                                <surname><xsl:value-of select="normalize-space(.)"/></surname>
+                            	<surname><xsl:value-of select="normalize-space(.)"/></surname>
                             </xsl:matching-substring>
                             <xsl:non-matching-substring>
-                                <given-names><xsl:value-of select="normalize-space(.)"/></given-names>
+                            	<given-names><xsl:value-of select="normalize-space(.)"/></given-names>
                             </xsl:non-matching-substring>
                         </xsl:analyze-string>
                     </xsl:variable>
