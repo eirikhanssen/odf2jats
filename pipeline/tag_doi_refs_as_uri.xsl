@@ -13,7 +13,7 @@
             <xsl:variable name="doi_tagged_as_uri">
                 <xsl:analyze-string select="." regex="(doi\s*:\s*)([^\s]+)">
                     <xsl:matching-substring>
-                        <uri>http://dx.doi.org/<xsl:value-of select="regex-group(2)"/></uri>
+                        <uri>https://doi.org/<xsl:value-of select="regex-group(2)"/></uri>
                     </xsl:matching-substring>
                     <xsl:non-matching-substring>
                         <xsl:copy/>

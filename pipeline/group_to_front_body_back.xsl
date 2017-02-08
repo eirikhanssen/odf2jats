@@ -27,9 +27,9 @@ fetch the file from the PP subfolder of ../xml-include -->
                         <issue><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?(\d+)\D*?\(\d{4}\)$', '$1' )"/></issue>
                         <year><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?\d+\D*?\((\d{4})\)$', '$1' )"/></year>
                     </xsl:when>
-                    <xsl:when test="matches(. , '^\s*http://(dx\.)?doi\.org/.*?$')">
+                    <xsl:when test="matches(. , '^\s*https?:[/][/](dx\.)?doi\.org/.*?$')">
                         <self-uri><xsl:value-of select="."/></self-uri>
-                        <doi><xsl:value-of select="replace(. , 'http://dx\.doi\.org/(.*?)$' , '$1')"/></doi>
+                        <doi><xsl:value-of select="replace(. , 'https://doi\.org/(.*?)$' , '$1')"/></doi>
                     </xsl:when>
                 </xsl:choose>
             </xsl:for-each>
@@ -45,7 +45,7 @@ fetch the file from the PP subfolder of ../xml-include -->
                         <xsl:attribute name="pub-id-type">doi</xsl:attribute>
                         <xsl:choose>
                             <xsl:when test="$article-identifiers/doi">
-                                <xsl:value-of select="$article-identifiers/doi"/>
+                            	<xsl:value-of select="replace($article-identifiers/doi, '^\s*https?:[/][/](dx\.)?doi\.org/(.*?)$','$2')"/>
                             </xsl:when>
                             <xsl:otherwise><xsl:text>___</xsl:text></xsl:otherwise>
                         </xsl:choose>
@@ -122,7 +122,7 @@ fetch the file from the PP subfolder of ../xml-include -->
                         <xsl:variable name="hyperlink">
                             <xsl:choose>
                                 <xsl:when test="$article-identifiers/self-uri">
-                                    <xsl:value-of select="$article-identifiers/self-uri"/>
+                                	<xsl:value-of select="replace($article-identifiers/self-uri, '^\s*https?:[/][/](dx\.)?doi\.org/(.*?)$','https://doi.org/$2')"/>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:text>___</xsl:text>
