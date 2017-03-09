@@ -26,6 +26,26 @@
             <p:pipe step="odf2jats" port="documentStylesPath"/>
         </p:input>
     </p:xslt>
+    
+    <p:xslt name="table_headers" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="table_headers.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
+    
+    <p:xslt name="unknown_styles" version="2.0">
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:document href="unknown_styles.xsl"/>
+        </p:input>
+        <p:input port="parameters">
+            <p:empty/>
+        </p:input>
+    </p:xslt>
 
     <!-- correct and report common typing mistakes -->
     <p:xslt name="autocorrections" version="2.0">

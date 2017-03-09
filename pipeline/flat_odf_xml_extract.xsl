@@ -52,7 +52,7 @@
                 else (
                     if(current()/@text:style-name) then (current()/@text:style-name) else('')
                 )
-            " as="xs:string"/>
+            " as="xs:string?"/>
 
         <xsl:variable name="elementName" as="xs:string?">
             <xsl:choose>
@@ -60,7 +60,8 @@
                     <xsl:value-of select="$style-map[sm:name=$current_stylename]/sm:transformTo"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:message>Style name match not found</xsl:message>
+                    <xsl:value-of select="'unknown_style'"/>
+                    <xsl:message>Style name match in self or ancestors not found for "<xsl:value-of select="$current_stylename"/>"</xsl:message>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable> 
@@ -414,6 +415,8 @@
             <sm:name>No_20_Spacing</sm:name>
             <sm:name>Text_20_body</sm:name>
             <sm:name>List_20_Contents</sm:name>
+            <sm:name>ListContents</sm:name>
+            <sm:name>footnote_20_text</sm:name>
             <sm:name>Footnote</sm:name>
             <sm:name>Endnote</sm:name>
             <sm:transformTo>p</sm:transformTo>
@@ -499,6 +502,10 @@
         <sm:style>
             <sm:name>TableLabel</sm:name>
             <sm:transformTo>table_label</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableHeader</sm:name>
+            <sm:transformTo>table_header</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>TableCaption</sm:name>
