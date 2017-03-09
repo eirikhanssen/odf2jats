@@ -11,17 +11,6 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- 
-        If abstract and keywords are marked up as such, it is easier, but if not, 
-        this first template rule will take care of that
-        
-        If the two first p-elements have child element <bold> that has just the text 
-        "Abstract" or "Keywords" then delete that child <bold> element, 
-        rename this element to abstract or keywords,
-        
-        and remove colon and space from the beginning of the text() node following
-    -->
-
     <!-- if a td has a table_header child, then it should be a th-element -->
     
     <xsl:template match="td[table_header]">
