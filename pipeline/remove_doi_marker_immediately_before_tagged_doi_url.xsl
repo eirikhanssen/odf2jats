@@ -11,7 +11,7 @@
 
     <!-- If an uri element with a doi-url to http://dx.doi.org is preceded by the text 'doi: '
     then the text 'doi: ' is removed -->
-    <xsl:template match="text()[matches(following-sibling::uri[1], '//dx\.doi\.org')][matches(. , 'doi:\s*$')]">
+    <xsl:template match="text()[matches(following-sibling::uri[1], '//(dx\.)?doi\.org')][matches(. , 'doi:\s*$')]">
         <xsl:analyze-string select="." regex="doi:\s*$">
             <xsl:matching-substring/>
             <xsl:non-matching-substring>
