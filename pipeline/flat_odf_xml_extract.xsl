@@ -419,6 +419,7 @@
             <sm:name>footnote_20_text</sm:name>
             <sm:name>Footnote</sm:name>
             <sm:name>Endnote</sm:name>
+            <sm:name>Body_20_Text_20_Indent</sm:name>
             <sm:transformTo>p</sm:transformTo>
         </sm:style>
         <sm:style>
