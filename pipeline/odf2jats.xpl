@@ -13,9 +13,9 @@
 
     <p:input port="documentStylesPath" kind="parameter"/>
 
+    <p:serialization omit-xml-declaration="false" indent="true" method="xml" port="result"/>
+    
     <p:output port="result"/>
-
-    <p:serialization port="result" indent="true"/>
 
     <p:xslt name="flat_odf_xml_extract" version="2.0">
         <p:input port="source"/>
@@ -251,9 +251,5 @@
     </p:xslt>
 
     <p:add-attribute match="/article" attribute-name="xml:lang" attribute-value="en"/>
-    <!-- Delete unneeded style attributes from some p elements -->
-    <!--<p:delete match="p/@style"/>-->
-
-    <p:identity/>
 
 </p:declare-step>
