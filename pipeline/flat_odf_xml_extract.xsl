@@ -388,10 +388,10 @@
         <xsl:variable name="label" select="replace($label_and_figcaption_trimmed, '^([fF][iI][^.]+[.]).+?$','$1')"/>
         <xsl:variable name="caption" select="o2j:trimstr(replace($label_and_figcaption_trimmed, '^[fF][iI][^.]+[.](.+?)$','$1'))"/>
         <fig>
-            <alt-text><xsl:value-of select="if($title != '') then $title else '__ALT-TEXT__'"/></alt-text>
-            <long-desc><xsl:value-of select="if($desc != '') then $desc else '__LONG-DESC__'"/></long-desc>
             <label><xsl:value-of select="if($label != '') then $label else '__LABEL__'"/></label>
             <caption><p><xsl:value-of select="if($caption != '') then $caption else '__CAPTION__'"/></p></caption>
+            <alt-text><xsl:value-of select="if($title != '') then $title else '__ALT-TEXT__'"/></alt-text>
+            <long-desc><xsl:value-of select="if($desc != '') then $desc else '__LONG-DESC__'"/></long-desc>
             <xsl:apply-templates select="draw:frame"/>
         </fig>
     </xsl:template>
