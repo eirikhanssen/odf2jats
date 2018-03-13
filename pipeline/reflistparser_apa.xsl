@@ -4,7 +4,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:o2j="https://github.com/eirikhanssen/odf2jats"
   exclude-result-prefixes="xs xlink o2j">
-
+  <xsl:import href="odf2jats-functions.xsl"/>
   <xsl:output method="xml" indent="yes"/>
 
   <!-- 'debug=on|true|1' can be specified as a paramenter during runtime, and then debug output will be shown -->

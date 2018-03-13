@@ -15,6 +15,8 @@ fetch the file from the PP subfolder of ../xml-include -->
 
     <xsl:param name="article-meta-common" select="doc('../xml-include/article-meta-common-PP.xml')/article-meta" as="element(article-meta)"/>
 
+    <xsl:variable name="article-identifiers-string" select="string-join(//article-identifiers,'')"/>
+
     <xsl:template match="article">
         <xsl:variable name="article-identifiers">
             <xsl:for-each select="tokenize( replace(article-identifiers, '\t' , '|') , '\s*\|\s*' ) ">
@@ -22,10 +24,11 @@ fetch the file from the PP subfolder of ../xml-include -->
                     <xsl:when test="matches(. , '^ISSN:\s*.*?$')">
                         <issn><xsl:value-of select="replace(. , '^ISSN:\s*(.*?)$', '$1' )"/></issn>
                     </xsl:when>
-                    <xsl:when test="matches(. , '^Volume.*?\d+\D*?\d+\D*?\(\d{4}\)$')">
-                        <volume><xsl:value-of select="replace(. , '^Volume.*?(\d+)\D*?\d+\D*?\(\d{4}\)$', '$1' )"/></volume>
-                        <issue><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?(\d+)\D*?\(\d{4}\)$', '$1' )"/></issue>
-                        <year><xsl:value-of select="replace(. , '^Volume.*?\d+\D*?\d+\D*?\((\d{4})\)$', '$1' )"/></year>
+                    <xsl:when test="matches(. , '^Volume.*?$')">
+                        <volume><xsl:value-of select="replace(. , '^Vol.+?(\d+).+$', '$1' )"/></volume>
+                        <issue><xsl:value-of select="replace(. , '^.+?[nN]o.+?(\d+).+$', '$1' )"/></issue>
+                        <elocation-id><xsl:value-of select="replace(. , '^.+?\s+(e.+)$', '$1' )"/></elocation-id>
+                        <year><xsl:value-of select="replace(. , '^.+?[(]\s*(\d+).+?$', '$1' )"/></year>
                     </xsl:when>
                     <xsl:when test="matches(. , '^\s*https?:[/][/](dx\.)?doi\.org/.*?$')">
                         <self-uri><xsl:value-of select="."/></self-uri>
@@ -41,6 +44,7 @@ fetch the file from the PP subfolder of ../xml-include -->
             <front>
                 <xsl:apply-templates select="$journal-meta-common"/>
                 <article-meta>
+<!--                    <xsl:comment>$article-identifiers-string: <xsl:value-of select="$article-identifiers-string"/></xsl:comment>-->
                     <xsl:element name="article-id">
                         <xsl:attribute name="pub-id-type">doi</xsl:attribute>
                         <xsl:choose>
@@ -55,20 +59,31 @@ fetch the file from the PP subfolder of ../xml-include -->
                         <xsl:apply-templates select="article-title"/>
                     </title-group>
                     <xsl:apply-templates select="authors"/>
-                    <pub-date pub-type="pub">
-                        <day>___</day>
-                        <month>___</month>
-                        <year>
-                            <xsl:choose>
-                                <xsl:when test="$article-identifiers/year">
-                                    <xsl:value-of select="$article-identifiers/year"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:text>___</xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </year>
+                    <pub-date publication-format="electronic" date-type="pub">
+                        
+                        <xsl:choose>
+                            <xsl:when test="date[@date-type='pub']">
+                                <xsl:apply-templates select="date[@date-type='pub']/*"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <date date-type="published">
+                                    <day>___</day>
+                                    <month>___</month>
+                                    <year>
+                                        <xsl:choose>
+                                            <xsl:when test="$article-identifiers/year">
+                                                <xsl:value-of select="$article-identifiers/year"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:text>___</xsl:text>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </year>
+                                </date>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </pub-date>
+                    
                     <volume>
                         <xsl:choose>
                             <xsl:when test="$article-identifiers/volume">
@@ -89,8 +104,7 @@ fetch the file from the PP subfolder of ../xml-include -->
                             </xsl:otherwise>
                         </xsl:choose>
                     </issue>
-                    <fpage>___</fpage>
-                    <lpage>___</lpage>
+                    <elocation-id><xsl:value-of select="$article-identifiers/elocation-id"/></elocation-id>
                     <history>
                         <xsl:choose>
                             <xsl:when test="date[@date-type='received']">

@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs m" version="2.0"
-    xmlns:m="https://github.com/eirikhanssen/odf2jats/months">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs o2j" version="2.0"
+    xmlns:o2j="https://github.com/eirikhanssen/odf2jats">
 
-    <xsl:function name="m:monthToInt" as="xs:integer">
-        <xsl:param name="monthstring" as="xs:string"/>
-        <xsl:choose>
-            <xsl:when test="matches($monthstring , '[Jj]an')">1</xsl:when>
-            <xsl:when test="matches($monthstring , '[Ff]eb')">2</xsl:when>
-            <xsl:when test="matches($monthstring , '[Mm]ar')">3</xsl:when>
-            <xsl:when test="matches($monthstring , '[Aa]pr')">4</xsl:when>
-            <xsl:when test="matches($monthstring , '[Mm]a[iy]')">5</xsl:when>
-            <xsl:when test="matches($monthstring , '[Jj]un')">6</xsl:when>
-            <xsl:when test="matches($monthstring , '[Jj]ul')">7</xsl:when>
-            <xsl:when test="matches($monthstring , '[Aa]ug')">8</xsl:when>
-            <xsl:when test="matches($monthstring , '[Ss]ep')">9</xsl:when>
-            <xsl:when test="matches($monthstring , '[Oo][ck]t')">10</xsl:when>
-            <xsl:when test="matches($monthstring , '[Nn]ov')">11</xsl:when>
-            <xsl:when test="matches($monthstring , '[Dd]e[cs]')">12</xsl:when>
-            <xsl:otherwise>0</xsl:otherwise>
-        </xsl:choose>
-    </xsl:function>
+    <xsl:import href="odf2jats-functions.xsl"/>
 
     <xsl:template match="history">
         <xsl:variable name="date-format" as="xs:string?">
@@ -35,6 +18,7 @@
             <xsl:choose>
                 <xsl:when test="matches(. , 'Received')">received</xsl:when>
                 <xsl:when test="matches(. , 'Accepted')">accepted</xsl:when>
+                <xsl:when test="matches(. , 'Published')">pub</xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
         </xsl:variable>
@@ -46,7 +30,7 @@
                         <xsl:variable name="monthstring_lowercase"
                             select="lower-case(substring(replace(. , '^.*?\d\d?\s*(\c+)\s*\d{4}\s*$' , '$1'), 1 , 3))"
                             as="xs:string"/>
-                        <xsl:value-of select="m:monthToInt($monthstring_lowercase)"/>
+                        <xsl:value-of select="o2j:monthToInt($monthstring_lowercase)"/>
                     </xsl:when>
                     <xsl:when test="$date-format = 'dd_mm_yyyy'">
                         <xsl:value-of select="xs:integer(replace(. , '^.*?\d\d?\s*(\d\d?)\s*\d{4}\s*$' , '$1'))"

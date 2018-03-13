@@ -12,26 +12,12 @@
     xmlns:sm="https://github.com/eirikhanssen/odf2jats/stylemap"
     xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
     xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
-    xmlns:txt="https://eirikhanssen.com/ns/txt"
-    exclude-result-prefixes="xs sm style office text table fo draw svg txt">
+    xmlns:o2j="https://github.com/eirikhanssen/odf2jats"
+    exclude-result-prefixes="xs sm style office text table fo draw svg o2j">
+    <xsl:import href="odf2jats-functions.xsl"/>
     <xsl:output method="xml" indent="yes"/>
     <xsl:param name="documentStylesPath"/>
-
-    <xsl:function name="txt:trimseq" as="xs:string?">
-        <!-- take a sequence of nodes, join the string value, trim whitespace and return the resulting string -->
-        <xsl:param name="input_seq"/>
-        <xsl:variable name="input_string" select='string-join($input_seq, "")'/>
-        <xsl:value-of select="txt:trimstr($input_string)"/>
-    </xsl:function>
-    
-    <xsl:function name="txt:trimstr" as="xs:string?">
-        <!-- take a text input string, trim whitespace and return the resulting string -->
-        <xsl:param name="input_string" as="xs:string"/>
-        <xsl:variable name="trimmed_edges" select="replace($input_string, '^\s*(.+?)\s*$','$1')"/>
-        <xsl:variable name="trimmed_contents" select="replace($trimmed_edges, '[ ]+',' ')"/>
-        <xsl:value-of select="$trimmed_contents"/>
-    </xsl:function>
-
+ 
     <!-- identity transform needed or not? -->
     
     <!--<xsl:template match="node()|@*" mode="#all">
@@ -397,10 +383,10 @@
         <xsl:variable name="this" select="."/>
         <xsl:variable name="title" select="xs:string($this//svg:title)"/>
         <xsl:variable name="desc" select="xs:string($this//svg:desc)"/>
-        <xsl:variable name="label_and_figcaption" select='txt:trimseq($this/text()|$this/text:sequence)'/>
+        <xsl:variable name="label_and_figcaption" select='o2j:trimseq($this/text()|$this/text:sequence)'/>
         <xsl:variable name="label_and_figcaption_trimmed" select="replace($label_and_figcaption, '^\s*(.+?)\s*$','$1')"/>
         <xsl:variable name="label" select="replace($label_and_figcaption_trimmed, '^([fF][iI][^.]+[.]).+?$','$1')"/>
-        <xsl:variable name="caption" select="txt:trimstr(replace($label_and_figcaption_trimmed, '^[fF][iI][^.]+[.](.+?)$','$1'))"/>
+        <xsl:variable name="caption" select="o2j:trimstr(replace($label_and_figcaption_trimmed, '^[fF][iI][^.]+[.](.+?)$','$1'))"/>
         <fig>
             <alt-text><xsl:value-of select="if($title != '') then $title else '__ALT-TEXT__'"/></alt-text>
             <long-desc><xsl:value-of select="if($desc != '') then $desc else '__LONG-DESC__'"/></long-desc>
