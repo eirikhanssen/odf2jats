@@ -251,7 +251,6 @@
     </p:xslt>
     
     <!-- Fix the necessary attributes on the root element -->
-    <p:add-attribute match="/article" attribute-name="xsi:SchemaLocation" attribute-value="JATS-journalpublishing1-mathml3.xsd"/>
     <p:add-attribute match="/article" attribute-name="dtd-version" attribute-value="1.1"/>
     <p:add-attribute match="/article" attribute-name="xml:lang" attribute-value="en"/>
 
