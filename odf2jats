@@ -20,11 +20,3 @@ cd $docname
 unzip -u ../$1 content.xml styles.xml
 
 calabash -i source=content.xml -p documentStylesPath=$PWD/styles.xml $odf2jats_source_dir/pipeline/odf2jats.xpl 2> err.log | tee $docname.xml | pygmentize -l xml | less -R
-
-# prepend xml declaration to beginning of xml file which is needed for correct mime type identification
-ed -s $docname.xml << 'EOF'
-0a
-<?xml version="1.0" encoding="UTF-8"?>
-.
-w
-EOF
