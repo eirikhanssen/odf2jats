@@ -38,8 +38,7 @@ fetch the file from the PP subfolder of ../xml-include -->
             </xsl:for-each>
         </xsl:variable>
         <!-- xml:lang should not be hard-coded, but read from inside the input document -->
-        <article article-type="research-article" dtd-version="1.1">
-            <xsl:attribute name="xsi:noNamespaceSchemaLocation" select="'JATS-journalpublishing1-mathml3.xsd'"/>
+        <article article-type="research-article">
             <front>
                 <xsl:apply-templates select="$journal-meta-common"/>
                 <article-meta>
