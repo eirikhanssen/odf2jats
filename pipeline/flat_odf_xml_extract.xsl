@@ -12,9 +12,33 @@
     xmlns:sm="https://github.com/eirikhanssen/odf2jats/stylemap"
     xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
     xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
-    exclude-result-prefixes="xs sm style office text table fo draw svg">
+    xmlns:txt="https://eirikhanssen.com/ns/txt"
+    exclude-result-prefixes="xs sm style office text table fo draw svg txt">
     <xsl:output method="xml" indent="yes"/>
     <xsl:param name="documentStylesPath"/>
+
+    <xsl:function name="txt:trimseq" as="xs:string?">
+        <!-- take a sequence of nodes, join the string value, trim whitespace and return the resulting string -->
+        <xsl:param name="input_seq"/>
+        <xsl:variable name="input_string" select='string-join($input_seq, "")'/>
+        <xsl:value-of select="txt:trimstr($input_string)"/>
+    </xsl:function>
+    
+    <xsl:function name="txt:trimstr" as="xs:string?">
+        <!-- take a text input string, trim whitespace and return the resulting string -->
+        <xsl:param name="input_string" as="xs:string"/>
+        <xsl:variable name="trimmed_edges" select="replace($input_string, '^\s*(.+?)\s*$','$1')"/>
+        <xsl:variable name="trimmed_contents" select="replace($trimmed_edges, '[ ]+',' ')"/>
+        <xsl:value-of select="$trimmed_contents"/>
+    </xsl:function>
+
+    <!-- identity transform needed or not? -->
+    
+    <!--<xsl:template match="node()|@*" mode="#all">
+        <xsl:copy>
+            <xsl:apply-templates select="node()|@*" mode="#current"/>
+        </xsl:copy>
+    </xsl:template>-->
 
     <xsl:variable name="style:style_defs" as="element(style:style)+">
         <xsl:sequence select="//style:style, doc($documentStylesPath)//style:style"/>
@@ -368,37 +392,32 @@
     </xsl:template>
 
     <!-- Graphics -->
-    <xsl:template match="draw:frame[draw:image]">
-        <xsl:text>&#xa;</xsl:text>
-        <label>
-            <xsl:choose>
-                <xsl:when test="@draw:name">
-                    <xsl:value-of select="@draw:name"/>
-                </xsl:when>
-                <xsl:when test="matches(./text()  , '^\c\s*\d+:\s*.+$')">
-                    <xsl:value-of select="replace(./text() , '^(\c\s*\d+):\s*.+$' , '$1')"/>
-                </xsl:when>
-                <xsl:otherwise><xsl:text>____</xsl:text></xsl:otherwise>
-            </xsl:choose>
-        </label>
-        <caption>
-            <p>
-                <xsl:choose>
-                    <xsl:when test="svg:title">
-                        <xsl:value-of select="svg:title"/>
-                    </xsl:when>
-                    <xsl:when test="matches(./text()  , '^\c\s*\d+:\s*.+$')">
-                        <xsl:value-of select="replace(./text() , '^\c\s*\d+:\s*(.+)$' , '$1')"/>
-                    </xsl:when>
-                    <xsl:otherwise><xsl:text>____</xsl:text></xsl:otherwise>
-                </xsl:choose>
-                </p>
-        </caption>
-            <xsl:for-each select="draw:image">
-                <graphic>
-                    <xsl:sequence select="@xlink:href"/>
-                </graphic>
-            </xsl:for-each>
+    
+    <xsl:template match='text:p[@text:style-name="FigLabelCaptionGraphic"]'>
+        <xsl:variable name="this" select="."/>
+        <xsl:variable name="title" select="xs:string($this//svg:title)"/>
+        <xsl:variable name="desc" select="xs:string($this//svg:desc)"/>
+        <xsl:variable name="label_and_figcaption" select='txt:trimseq($this/text()|$this/text:sequence)'/>
+        <xsl:variable name="label_and_figcaption_trimmed" select="replace($label_and_figcaption, '^\s*(.+?)\s*$','$1')"/>
+        <xsl:variable name="label" select="replace($label_and_figcaption_trimmed, '^([fF][iI][^.]+[.]).+?$','$1')"/>
+        <xsl:variable name="caption" select="txt:trimstr(replace($label_and_figcaption_trimmed, '^[fF][iI][^.]+[.](.+?)$','$1'))"/>
+        <fig>
+            <alt-text><xsl:value-of select="if($title != '') then $title else '__ALT-TEXT__'"/></alt-text>
+            <long-desc><xsl:value-of select="if($desc != '') then $desc else '__LONG-DESC__'"/></long-desc>
+            <label><xsl:value-of select="if($label != '') then $label else '__LABEL__'"/></label>
+            <caption><p><xsl:value-of select="if($caption != '') then $caption else '__CAPTION__'"/></p></caption>
+            <xsl:apply-templates select="draw:frame"/>
+        </fig>
+    </xsl:template>
+    
+    <xsl:template match="draw:frame">
+        <xsl:apply-templates select="draw:image[1]"/>
+    </xsl:template>
+    
+    <!-- fallback mechanism to png image in case of svg? -->
+    <xsl:template match="draw:image">
+        <xsl:variable name="this" select="."/>
+        <graphic xlink:href="{$this/@xlink:href}"/>
     </xsl:template>
 
     <!-- preserve tabs -->
