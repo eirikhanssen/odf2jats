@@ -7,63 +7,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:mml="http://www.w3.org/1998/Math/MathML"
     exclude-result-prefixes="xs o2j">
-
+    
+    <xsl:include href="odf2jats-functions.xsl"/>
+    
     <xsl:output method="xml" indent="yes"/>
-
-    <xsl:function name="o2j:isAssumedToBeUntaggedReference" as="xs:boolean">
-        <xsl:param name="str" as="xs:string"/>
-        <xsl:variable name="hasFourDigitsGroup" select="matches($str , '\d{4}')" as="xs:boolean"/>
-        <xsl:variable name="hasLetters" select="matches($str , '\c+')" as="xs:boolean"/>
-        <xsl:variable name="hasDigitRange" select="matches($str , '\d+\s*(-|–|—|\s)+\s*\d+')"/>
-        <xsl:variable name="onlyOneFourDigitsGroup" select="matches($str , '^\D*?\d{4}\D*?$')" as="xs:boolean"></xsl:variable>
-        <xsl:variable name="currentYear" select="year-from-date(current-date())" as="xs:integer"/>
-        <xsl:variable name="numberInParens" as="xs:integer">
-            <xsl:choose>
-                <xsl:when test="$onlyOneFourDigitsGroup eq true()">
-                    <xsl:variable name="digitsOnly" as="xs:string">
-                        <xsl:analyze-string select="$str" regex="\D">
-                            <xsl:matching-substring/>
-                            <xsl:non-matching-substring>
-                                <xsl:copy/>
-                            </xsl:non-matching-substring>
-                        </xsl:analyze-string>
-                    </xsl:variable>
-                    <xsl:value-of select="xs:integer($digitsOnly)"/>
-                </xsl:when>
-                <xsl:otherwise><xsl:value-of select="xs:integer(0)"/></xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
-        <xsl:choose>
-            <xsl:when test="$hasFourDigitsGroup eq false()">
-                <!-- All in-text references have 4 digits in a row to refer to a year -->
-                <xsl:value-of select="false()"/>
-            </xsl:when>
-            <xsl:when test="$hasDigitRange eq true()">
-                <!-- a digit-range in parens should not be considered a reference -->
-                <xsl:value-of select="false()"/>
-            </xsl:when>
-            <xsl:when test="matches($str, '^[nN]\s*=\s*\d+$')">
-                <xsl:message>
-                    <xsl:text>The parens: «(</xsl:text>
-                    <xsl:value-of select="$str"/>
-                    <xsl:text>)» was not recognized as a citation (probably numeric data). Please check manually.</xsl:text>
-                </xsl:message>
-                <xsl:value-of select="false()"/>
-            </xsl:when>
-            <xsl:when test="$onlyOneFourDigitsGroup eq true() and ($numberInParens &lt; ($currentYear - 100) or $numberInParens &gt; $currentYear + 1)">
-                <xsl:message>
-                    <xsl:text>The parens: «(</xsl:text>
-                    <xsl:value-of select="$str"/>
-                    <xsl:text>)» was not recognized as a citation (number out of bounds for year). Please check manually.</xsl:text>
-                </xsl:message>
-                <xsl:value-of select="false()"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <!-- if all the other tests failed, then it is probably an untagged reference in the parens -->
-                <xsl:value-of select="true()"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:function>
 
     <!-- 
         Store all refs with element-citation in a variable for comparing et al. type citations against 
