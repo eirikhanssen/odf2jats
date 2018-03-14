@@ -15,7 +15,9 @@
 
     <p:serialization omit-xml-declaration="false" indent="true" method="xml" port="result"/>
     
-    <p:output port="result"/>
+    <p:output port="result" sequence="true">
+        <p:pipe step="final_xml" port="result"/>
+    </p:output>
 
     <p:xslt name="flat_odf_xml_extract" version="2.0">
         <p:input port="source"/>
@@ -228,7 +230,9 @@
     <p:string-replace 
         match="/article/back/ref-list/ref/element-citation/person-group[@person-group-type='author']/name/surname/text()[matches(. , '^\s*…\s*.*?$')]" 
         replace="replace(. , '^\s*…\s*(.*?)$','$1')"/>
-
+    
+    <p:identity name="before_reftext_parsing"/>
+    
     <!-- Attempt to auto-tag citations in the running text -->
     <p:xslt name="reftextparser_et_al_outside_parens" version="2.0">
         <p:input port="source"/>
@@ -253,5 +257,16 @@
     <!-- Fix the necessary attributes on the root element -->
     <p:add-attribute match="/article" attribute-name="dtd-version" attribute-value="1.1"/>
     <p:add-attribute match="/article" attribute-name="xml:lang" attribute-value="en"/>
+    
+    <p:identity name="final_xml"/>
+    
+    <!-- store intermediary xml-tree -->
+    
+    <p:store name="inspect">
+        <p:input port="source">
+            <p:pipe port="result" step="before_reftext_parsing"></p:pipe>
+        </p:input>
+        <p:with-option name="href" select="'../inspect-xml/inspect.xml'"></p:with-option>
+    </p:store>
 
 </p:declare-step>
