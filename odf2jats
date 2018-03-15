@@ -18,7 +18,9 @@ docname="$(echo $1 | sed 's:.*/::;s/\.[^.]*$//')"
 # create a folder for the conversion
 # move into it
 # unzip the relevant files from the .odt archive given as a commandline parameter to odf2jats executable shellscript (this file you are reading now)
-mkdir $docname && cd $docname && unzip -u ../$1 content.xml styles.xml
+mkdir $docname 
+cd $docname 
+unzip -u ../$1 content.xml styles.xml
 
 # call the odf2jats.xpl pipeline with calabash
 # - specify content.xml (in the current folder) as input document
