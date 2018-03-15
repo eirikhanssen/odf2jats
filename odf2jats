@@ -1,5 +1,5 @@
 #!/bin/bash
-#calabash -i source=$1/content.xml -p documentStylesPath=$1/styles.xml odf2jats.xpl 2> err.log | tee odf2jats.output.xml | pygmentize -l xml | less -R
+# usage: odf2jats filename.odt
 unset CDPATH
 # get folder where this script is stored (needed in order to find the xproc pipeline and xsl-stylesheets)
 # http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
@@ -15,8 +15,14 @@ odf2jats_source_dir="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 # get the name of the document to be converted (strip off path separators and filename extension)
 docname="$(echo $1 | sed 's:.*/::;s/\.[^.]*$//')"
 
-mkdir $docname
-cd $docname
-unzip -u ../$1 content.xml styles.xml
+# create a folder for the conversion
+# move into it
+# unzip the relevant files from the .odt archive given as a commandline parameter to odf2jats executable shellscript (this file you are reading now)
+mkdir $docname && cd $docname && unzip -u ../$1 content.xml styles.xml
 
-calabash -i source=content.xml -p stylepath=$PWD//styles.xml $odf2jats_source_dir/pipeline/odf2jats.xpl source=content.xml documentPath=$PWD documentBaseName=$docname 2>err.log | pygmentize -l xml | less -R
+# call the odf2jats.xpl pipeline with calabash
+# - specify content.xml (in the current folder) as input document
+# - specify the parameter called stylepath with the value of the path to styles.xml file
+# - specify the option documentPath set to the working directory (used internally in odf2jats.xpl when storing output files)
+# - specify the option documentBaseName set to the basename of the filename given to this script (used internally in odf2jats.xpl when storing output files)
+calabash -i source=content.xml -p stylepath=$PWD//styles.xml $odf2jats_source_dir/pipeline/odf2jats.xpl documentPath=$PWD documentBaseName=$docname 2>err.log | pygmentize -l xml | less -R
