@@ -19,8 +19,4 @@ mkdir $docname
 cd $docname
 unzip -u ../$1 content.xml styles.xml
 
-# old version of the commandline, tee is responsible for redirecting input to a file as well as to pipe to pygmentize
-# calabash -i source=content.xml -p documentStylesPath=$PWD/styles.xml $odf2jats_source_dir/pipeline/odf2jats.xpl 2> err.log | tee $docname.xml | pygmentize -l xml | less -R
-
-# new version of the commandline, here, with options. Now odf2jats.xpl will store the xml-files directly.
 calabash -i source=content.xml -p stylepath=$PWD//styles.xml $odf2jats_source_dir/pipeline/odf2jats.xpl source=content.xml documentPath=$PWD documentBaseName=$docname 2>err.log | pygmentize -l xml | less -R
