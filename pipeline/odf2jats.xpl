@@ -270,10 +270,33 @@
     <!-- Fix the necessary attributes on the root element -->
     <p:add-attribute match="/article" attribute-name="dtd-version" attribute-value="1.1"/>
     <p:add-attribute match="/article" attribute-name="xml:lang" attribute-value="en"/>
+
+    <!-- Different ways of specifying document type, see: https://jats4r.org/general-recommendations -->
+    <!-- using the method of adding a xml-mode processing instruction here -->
     
+    <p:xslt name="add_xml_model_processing_instruction">
+        <p:input port="parameters"><p:empty/></p:input>
+        <p:input port="source"/>
+        <p:input port="stylesheet">
+            <p:inline>
+                <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                    exclude-result-prefixes="xs"
+                    version="2.0">
+                    <xsl:template match="/">
+                        <xsl:processing-instruction name="xml-model">schematypens="http://www.w3.org/2001/XMLSchema" href="https://jats.nlm.nih.gov/publishing/1.1/xsd/JATS-journalpublishing1-mathml3.xsd" title="JATS 1.1 schema with MATHML3 support"</xsl:processing-instruction><xsl:text>&#xa;</xsl:text>
+                        <xsl:comment>Document conversion from .odt to initial jats xml with odf2jats (https://github.com/eirikhanssen/odf2jats)</xsl:comment><xsl:text>&#xa;</xsl:text>
+                        <xsl:apply-templates select="node()|@*"/>
+                    </xsl:template>
+                    <xsl:template match="node()|@*"><xsl:copy><xsl:apply-templates select="node()|@*"></xsl:apply-templates></xsl:copy></xsl:template>
+                </xsl:stylesheet>
+            </p:inline>
+        </p:input>
+    </p:xslt>
+ 
     <p:identity name="completed"/>
     
-    <!-- store intermediary xml-tree -->
+    <!-- Store intermediary xml-tree -->
     
     <p:store name="store-inspect">
         <p:input port="source">
@@ -281,8 +304,9 @@
         </p:input>
         <p:with-option name="href" select="concat($documentPath,'/inspect-',$documentBaseName,'.xml')"/>
     </p:store>
-    
-    <p:store name="store-completed">
+
+    <!-- Store completed xml to file -->
+    <p:store name="store-completed" method="xml" omit-xml-declaration="false" indent="true">
         <p:input port="source">
             <p:pipe port="result" step="completed"/>
         </p:input>
