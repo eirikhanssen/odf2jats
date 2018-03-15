@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
-    version="2.0"
-    xmlns:o2j="https://github.com/eirikhanssen/odf2jats">
+    xmlns:o2j="https://github.com/eirikhanssen/odf2jats"
+    exclude-result-prefixes="xs o2j"
+    version="2.0">
     
     <xsl:function name="o2j:monthToInt" as="xs:integer">
         <xsl:param name="monthstring" as="xs:string"/>

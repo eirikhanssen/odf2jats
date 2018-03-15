@@ -16,7 +16,8 @@
     exclude-result-prefixes="xs sm style office text table fo draw svg o2j">
     <xsl:import href="odf2jats-functions.xsl"/>
     <xsl:output method="xml" indent="yes"/>
-    <xsl:param name="documentStylesPath"/>
+    <xsl:param name="stylepath"/>
+    <xsl:variable name="documentStylesPath" select="$stylepath"/>
  
     <!-- identity transform needed or not? -->
     

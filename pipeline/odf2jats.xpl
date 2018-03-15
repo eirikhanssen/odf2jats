@@ -11,21 +11,37 @@
     <!-- take input document from parameter -->
     <p:input port="source"/>
 
-    <p:input port="documentStylesPath" kind="parameter"/>
+    <p:input port="parameters" kind="parameter"/>
 
     <p:serialization omit-xml-declaration="false" indent="true" method="xml" port="result"/>
     
+    <p:option name="documentBaseName" required="true"/>
+    
+    <p:option name="documentPath" required="true"/>
+    
     <p:output port="result" sequence="true">
-        <p:pipe step="final_xml" port="result"/>
+        <p:pipe step="completed" port="result"/>
+        <p:pipe step="store-completed" port="result"/>
     </p:output>
-
+    
+    <p:variable name="documentFullName" select="concat($documentBaseName,'.xml')">
+        <p:pipe port="parameters" step="odf2jats"/>
+    </p:variable>
+    
+    <p:variable name="outputFilePath" select="concat($documentPath,'/',$documentFullName)">
+        <p:pipe port="parameters" step="odf2jats"/>
+    </p:variable>
+    
+    <!--<p:variable name="documentFullName" select="concat($documentBaseName,'.xml')"/>
+    <p:variable name="outputFilePath" select="concat($documentPath,'/',$documentFullName)"/>-->
+        
     <p:xslt name="flat_odf_xml_extract" version="2.0">
         <p:input port="source"/>
         <p:input port="stylesheet">
             <p:document href="flat_odf_xml_extract.xsl"/>
         </p:input>
         <p:input port="parameters">
-            <p:pipe step="odf2jats" port="documentStylesPath"/>
+            <p:pipe step="odf2jats" port="parameters"/>
         </p:input>
     </p:xslt>
     
@@ -258,15 +274,22 @@
     <p:add-attribute match="/article" attribute-name="dtd-version" attribute-value="1.1"/>
     <p:add-attribute match="/article" attribute-name="xml:lang" attribute-value="en"/>
     
-    <p:identity name="final_xml"/>
+    <p:identity name="completed"/>
     
     <!-- store intermediary xml-tree -->
     
-    <p:store name="inspect">
+    <p:store name="store-inspect">
         <p:input port="source">
-            <p:pipe port="result" step="before_reftext_parsing"></p:pipe>
+            <p:pipe port="result" step="before_reftext_parsing"/>
         </p:input>
-        <p:with-option name="href" select="'../inspect-xml/inspect.xml'"></p:with-option>
+        <p:with-option name="href" select="concat($documentPath,'/inspect-',$documentBaseName,'.xml')"/>
+    </p:store>
+    
+    <p:store name="store-completed">
+        <p:input port="source">
+            <p:pipe port="result" step="completed"/>
+        </p:input>
+        <p:with-option name="href" select="$outputFilePath"/>
     </p:store>
 
 </p:declare-step>
