@@ -31,9 +31,6 @@
     <p:variable name="outputFilePath" select="concat($documentPath,'/',$documentFullName)">
         <p:pipe port="parameters" step="odf2jats"/>
     </p:variable>
-    
-    <!--<p:variable name="documentFullName" select="concat($documentBaseName,'.xml')"/>
-    <p:variable name="outputFilePath" select="concat($documentPath,'/',$documentFullName)"/>-->
         
     <p:xslt name="flat_odf_xml_extract" version="2.0">
         <p:input port="source"/>
