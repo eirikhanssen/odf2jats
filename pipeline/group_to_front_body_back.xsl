@@ -146,7 +146,9 @@ fetch the file from the PP subfolder of ../xml-include -->
                         </xsl:attribute>
                         <xsl:value-of select="$hyperlink"/>
                     </xsl:element>
-                    <xsl:apply-templates select="abstract"/>
+                    <abstract>
+                        <xsl:apply-templates select="abstract/*"/>    
+                    </abstract>
                     <kwd-group kwd-group-type="author-generated">
                         <!-- Remove the text "Keywords: " from the beginning of the keywords. -->
                         <xsl:for-each select="tokenize(replace(keywords, '^\s*Keywords:\s*' ,''), ',')">
