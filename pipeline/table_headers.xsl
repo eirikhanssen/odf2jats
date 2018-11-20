@@ -17,6 +17,14 @@
         <th><xsl:apply-templates/></th>
     </xsl:template>
     
+    <xsl:template match="td[table_header_row]">
+        <th scope="row"><xsl:apply-templates/></th>
+    </xsl:template>
+    
+    <xsl:template match="td[table_header_col]">
+        <th scope="col"><xsl:apply-templates/></th>
+    </xsl:template>
+    
     <xsl:template match="table_header">
         <p><xsl:apply-templates/></p>
     </xsl:template>
