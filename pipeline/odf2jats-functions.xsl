@@ -178,21 +178,6 @@
         <xsl:value-of select="replace($originalString, '^([^,]*),.*$' , '$1')"/>
     </xsl:function>
     
-    <xsl:function name="o2j:getGivenNamesFromTokenizedAuthor" as="xs:string">
-        <xsl:param name="originalString" as="xs:string"/>
-        <xsl:value-of select="normalize-space(replace($originalString, '^.*,(.*)$' , '$1'))"/>
-    </xsl:function>
-    
-    <xsl:function name="o2j:getSurnameFromTokenizedEditor" as="xs:string">
-        <xsl:param name="originalString" as="xs:string"/>
-        <xsl:value-of select="replace($originalString, '.*?\s*([^.]+)$' , '$1')"/>
-    </xsl:function>
-    
-    <xsl:function name="o2j:getGivenNamesFromTokenizedEditor" as="xs:string">
-        <xsl:param name="originalString" as="xs:string"/>
-        <xsl:value-of select="normalize-space(replace($originalString, '^((\c\.\s?)+).*?$' , '$1'))"/>
-    </xsl:function>
-    
     <xsl:function name="o2j:getFirstChar" as="xs:string">
         <xsl:param name="originalString" as="xs:string"/>
         <xsl:value-of select="replace($originalString, '^(\c).*$' , '$1')"/>
@@ -218,10 +203,34 @@
     <xsl:function name="o2j:generate_id_for_mixed_citation" as="xs:string">
         <xsl:param name="mixed_citation" as="node()"></xsl:param>
         <xsl:variable name="mixed_citation_string_value"><xsl:value-of select="$mixed_citation"/></xsl:variable>
-        <xsl:variable name="authors_and_year" select="replace($mixed_citation_string_value, '^[^)]+[)].+$' ,'$1' )"/>
+        <xsl:variable name="mixed_citation_string_no_eds_paranthesis" select="replace($mixed_citation_string_value, '[(][^0-9]+[)]','')"/>
+        <xsl:variable name="authors_and_year" select="replace($mixed_citation_string_no_eds_paranthesis, '^([^)]+[)]).+$' ,'$1' )"/>
+        <xsl:variable name="year" select="replace($authors_and_year,'^[^(]+[(]([^)]+)[)].*$','$1')"/>
+        <xsl:variable name="authors" select="replace($authors_and_year,'^([^(]+)\s[(].+$','$1')"/>
+        <xsl:variable name="author_names_without_given_names">
+            <xsl:analyze-string select="$authors" regex="&amp;">
+                <xsl:matching-substring>;</xsl:matching-substring>
+                <xsl:non-matching-substring>
+                    <xsl:analyze-string select="." regex="[^ ]+[.]">
+                        <xsl:matching-substring/>
+                        <xsl:non-matching-substring>
+                            <xsl:analyze-string select="." regex="\s+">
+                                <xsl:matching-substring/>
+                                <xsl:non-matching-substring>
+                                    <xsl:value-of select="."/>
+                                </xsl:non-matching-substring>
+                            </xsl:analyze-string>
+                        </xsl:non-matching-substring>
+                    </xsl:analyze-string>
+                </xsl:non-matching-substring>
+            </xsl:analyze-string>
+        </xsl:variable>
+        <xsl:variable name="author_names_with_excess_separators" select="replace($author_names_without_given_names,'[,;]+$','')"/>
+        <xsl:variable name="author_names" select="replace($author_names_with_excess_separators,'[,;]+',';')"/>
         <!--<xsl:value-of select="$authors_and_year"/>-->
-        <xsl:value-of select="'##ID##'"/>
+        <!-- <xsl:value-of select="concat('____',$year)"/>-->
+        <xsl:variable name="author_caps" select="o2j:getCaps($author_names)"/>
+        <xsl:value-of select="concat($author_caps, $year)"/>
     </xsl:function>
-    
     
 </xsl:stylesheet>

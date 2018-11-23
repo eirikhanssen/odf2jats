@@ -27,7 +27,7 @@
   <xsl:template name="ref">
     <ref>
       <xsl:attribute name="id" select="o2j:generate_id_for_mixed_citation(.)"/>
-      <mixed-citation><xsl:sequence select="."></xsl:sequence></mixed-citation>
+      <mixed-citation><xsl:apply-templates/></mixed-citation>
     </ref>
   </xsl:template>
 
