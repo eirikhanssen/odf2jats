@@ -414,6 +414,7 @@
     <sm:styles>
         <sm:style>
             <sm:name>DispQuote</sm:name>
+            <sm:name>BlockQuote</sm:name>
             <sm:transformTo>dispQuote</sm:transformTo>
         </sm:style>
         <sm:style>
@@ -430,6 +431,8 @@
         </sm:style>
         <sm:style>
             <sm:name>RefListRef</sm:name>
+            <sm:name>RefListEntry</sm:name>
+            <sm:name>Reference</sm:name>
             <sm:transformTo>ref</sm:transformTo>
         </sm:style>
         <sm:style>
@@ -512,7 +515,16 @@
         </sm:style>
         <sm:style>
             <sm:name>TableHeader</sm:name>
+            <sm:name>TableTH</sm:name>
             <sm:transformTo>table_header</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableTHcol</sm:name>
+            <sm:transformTo>table_header_scope_col</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableTHrow</sm:name>
+            <sm:transformTo>table_header_scope_row</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>TableCaption</sm:name>
