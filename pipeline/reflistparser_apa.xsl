@@ -19,12 +19,16 @@
   <xsl:template match="ref-list">
     <ref-list>
       <xsl:for-each select="ref">
-        <!-- calling the ref-parser template which is defined in odf2jats-functions.xsl -->
-        <xsl:call-template name="ref-parser">
-          <xsl:with-param name="debugmode" select="$debugMode"/>
-        </xsl:call-template>
+        <xsl:call-template name="ref"/> 
       </xsl:for-each>
     </ref-list>
+  </xsl:template>
+  
+  <xsl:template name="ref">
+    <ref>
+      <xsl:attribute name="id" select="o2j:generate_id_for_mixed_citation(.)"/>
+      <mixed-citation><xsl:sequence select="."></xsl:sequence></mixed-citation>
+    </ref>
   </xsl:template>
 
   <xsl:template match="ext-link">
