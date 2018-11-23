@@ -418,6 +418,10 @@
             <sm:transformTo>dispQuote</sm:transformTo>
         </sm:style>
         <sm:style>
+            <sm:name>BlockQuote</sm:name>
+            <sm:transformTo>dispQuote</sm:transformTo>
+        </sm:style>
+        <sm:style>
             <sm:name>Standard</sm:name>
             <sm:name>No_20_Spacing</sm:name>
             <sm:name>Text_20_body</sm:name>
@@ -432,6 +436,10 @@
         <sm:style>
             <sm:name>RefListRef</sm:name>
             <sm:name>RefListEntry</sm:name>
+            <sm:name>Reference</sm:name>
+            <sm:transformTo>ref</sm:transformTo>
+        </sm:style>
+        <sm:style>
             <sm:name>Reference</sm:name>
             <sm:transformTo>ref</sm:transformTo>
         </sm:style>
@@ -512,6 +520,14 @@
         <sm:style>
             <sm:name>TableLabel</sm:name>
             <sm:transformTo>table_label</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>THrow</sm:name>
+            <sm:transformTo>table_header_row</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>THcol</sm:name>
+            <sm:transformTo>table_header_col</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>TableHeader</sm:name>
