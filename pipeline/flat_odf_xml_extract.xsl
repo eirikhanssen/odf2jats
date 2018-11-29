@@ -222,6 +222,8 @@
             <xsl:apply-templates select="text:note-body"/>
         </xsl:element>
     </xsl:template>
+    
+    <xsl:template match="text:line-break"><br/></xsl:template>
 
     <xsl:template match="text:h">
         <!-- store the outline_level in a variable, default to 1 -->
@@ -375,7 +377,7 @@
         <uri><xsl:value-of select="@xlink:href"/></uri>
     </xsl:template>
 
-    <xsl:template match="draw:frame">
+    <xsl:template match="draw:frame|draw:text-box">
         <xsl:apply-templates/>
     </xsl:template>
 
@@ -408,6 +410,8 @@
 
     <!-- preserve tabs -->
     <xsl:template match="text:tab"><xsl:text>&#x09;</xsl:text></xsl:template>
+    
+    <xsl:template match="text:p[not(@text:style-name)]"><p><xsl:apply-templates/></p></xsl:template>
 
     <!-- Stylemap - map styles to elements -->
     <sm:styles>
@@ -534,8 +538,38 @@
             <sm:transformTo>table_header_scope_col</sm:transformTo>
         </sm:style>
         <sm:style>
+            <sm:name>TableTHcol_colspan2</sm:name>
+            <sm:name>TableTHcol_5f_colspan2</sm:name>
+            <sm:transformTo>table_header_scope_col_colspan2</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableTHcol_colspan3</sm:name>
+            <sm:name>TableTHcol_5f_colspan3</sm:name>
+            <sm:transformTo>table_header_scope_col_colspan3</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableTHcol_colspan4</sm:name>
+            <sm:name>TableTHcol_5f_colspan4</sm:name>
+            <sm:transformTo>table_header_scope_col_colspan4</sm:transformTo>
+        </sm:style>
+        <sm:style>
             <sm:name>TableTHrow</sm:name>
             <sm:transformTo>table_header_scope_row</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableTHrow_rowspan2</sm:name>
+            <sm:name>TableTHrow_5f_rowspan2</sm:name>
+            <sm:transformTo>table_header_scope_row_rowspan2</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableTHrow_rowspan3</sm:name>
+            <sm:name>TableTHrow_5f_rowspan3</sm:name>
+            <sm:transformTo>table_header_scope_row_rowspan3</sm:transformTo>
+        </sm:style>
+        <sm:style>
+            <sm:name>TableTHrow_rowspan4</sm:name>
+            <sm:name>TableTHrow_5f_rowspan4</sm:name>
+            <sm:transformTo>table_header_scope_row_rowspan4</sm:transformTo>
         </sm:style>
         <sm:style>
             <sm:name>TableCaption</sm:name>
