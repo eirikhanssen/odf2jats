@@ -14,23 +14,26 @@
     <!-- if the first table row has only th and no td, it belongs in thead, otherwise it belongs in tbody -->
     
     <xsl:template match="table">
-        <xsl:choose>
-            <xsl:when test="not(tr[1]/td)">
-                <xsl:if test="tr[1]/th">
-                    <thead>
-                        <xsl:apply-templates select="tr[position() = 1]"/>
-                    </thead>
+        <table>
+            <xsl:copy-of select="@*"></xsl:copy-of>
+            <xsl:choose>
+                <xsl:when test="not(tr[1]/td)">
+                    <xsl:if test="tr[1]/th">
+                        <thead>
+                            <xsl:apply-templates select="tr[position() = 1]"/>
+                        </thead>
+                        <tbody>
+                            <xsl:apply-templates select="tr[position() &gt; 1]"></xsl:apply-templates>
+                        </tbody>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
                     <tbody>
-                        <xsl:apply-templates select="tr[position() &gt; 1]"></xsl:apply-templates>
+                        <xsl:apply-templates select="tr"/>
                     </tbody>
-                </xsl:if>
-            </xsl:when>
-            <xsl:otherwise>
-                <tbody>
-                    <xsl:apply-templates select="tr"/>
-                </tbody>
-            </xsl:otherwise>
-        </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </table>
     </xsl:template>
     
 </xsl:stylesheet>
