@@ -17,15 +17,15 @@
         <th><xsl:apply-templates/></th>
     </xsl:template>
     
-    <xsl:template match="td[table_header_row]">
+    <xsl:template match="td[table_header_row|table_header_scope_row]">
         <th scope="row"><xsl:apply-templates/></th>
     </xsl:template>
     
-    <xsl:template match="td[table_header_col]">
+    <xsl:template match="td[table_header_col|table_header_scope_col]">
         <th scope="col"><xsl:apply-templates/></th>
     </xsl:template>
     
-    <xsl:template match="table_header">
+    <xsl:template match="table_header|table_header_scope_col|table_header_scope_row">
         <p><xsl:apply-templates/></p>
     </xsl:template>
 </xsl:stylesheet>

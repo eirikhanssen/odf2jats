@@ -384,10 +384,10 @@
         <xsl:variable name="this" select="."/>
         <xsl:variable name="title" select="xs:string($this//svg:title)"/>
         <xsl:variable name="desc" select="xs:string($this//svg:desc)"/>
-        <xsl:variable name="label_and_figcaption" select='o2j:trimseq($this/text()|$this/text:sequence)'/>
+        <xsl:variable name="label_and_figcaption" select='$this/text()'/>
         <xsl:variable name="label_and_figcaption_trimmed" select="replace($label_and_figcaption, '^\s*(.+?)\s*$','$1')"/>
         <xsl:variable name="label" select="replace($label_and_figcaption_trimmed, '^([fF][iI][^.]+[.]).+?$','$1')"/>
-        <xsl:variable name="caption" select="o2j:trimstr(replace($label_and_figcaption_trimmed, '^[fF][iI][^.]+[.](.+?)$','$1'))"/>
+        <xsl:variable name="caption" select="replace($label_and_figcaption_trimmed, '^[fF][iI][^.]+[.](.+?)$','$1')"/>
         <fig>
             <label><xsl:value-of select="if($label != '') then $label else '__LABEL__'"/></label>
             <caption><p><xsl:value-of select="if($caption != '') then $caption else '__CAPTION__'"/></p></caption>
@@ -396,11 +396,9 @@
             <xsl:apply-templates select="draw:frame"/>
         </fig>
     </xsl:template>
-    
-    <xsl:template match="draw:frame">
-        <xsl:apply-templates select="draw:image[1]"/>
-    </xsl:template>
-    
+
+    <xsl:template match="svg:title|svg:desc"></xsl:template>
+
     <!-- fallback mechanism to png image in case of svg? -->
     <xsl:template match="draw:image">
         <xsl:variable name="this" select="."/>
@@ -436,10 +434,6 @@
         <sm:style>
             <sm:name>RefListRef</sm:name>
             <sm:name>RefListEntry</sm:name>
-            <sm:name>Reference</sm:name>
-            <sm:transformTo>ref</sm:transformTo>
-        </sm:style>
-        <sm:style>
             <sm:name>Reference</sm:name>
             <sm:transformTo>ref</sm:transformTo>
         </sm:style>
