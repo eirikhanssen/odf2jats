@@ -280,18 +280,19 @@
 
     <xsl:template match="table:table">
         <!-- Determine what number table this is in the document order, and use this number when generating table id -->
+        <xsl:variable name="table_label" select="preceding-sibling::text:p[@text:style-name='TableLabel'][1]"/>
+        <xsl:variable name="table_caption" select="preceding-sibling::text:p[@text:style-name='TableCaption'][1]"/>
         <xsl:variable name="table_total_count" select="count(//table:table)" as="xs:integer"/>
         <xsl:variable name="table_after_count" select="count(following::table:table|descendant::table:table)" as="xs:integer"/>
         <xsl:variable name="table_num" select="$table_total_count - $table_after_count" as="xs:integer"/>
         <xsl:variable name="table-id" select="concat('tbl' , string($table_num))" as="xs:string"/>
         <table-wrap id="{$table-id}">
-            <label>____</label><xsl:comment> optional label and caption </xsl:comment>
-            <caption><p>____</p></caption>
+            <xsl:comment>Optional label and caption, but we require it from our authors </xsl:comment>
+            <label><xsl:value-of select="if($table_label = '') then '____' else $table_label"/></label>
+            <caption><p><xsl:value-of select="if($table_caption = '') then '____' else $table_caption"/></p></caption>
             <table>
-                <xsl:apply-templates select="table:table-header-rows"/>
-                <tbody>
-                    <xsl:apply-templates select="table:table-row[not(parent::table:table-header-rows)]"/>
-                </tbody>
+                <!--<xsl:apply-templates select="table:table-header-rows"/>-->
+                <xsl:apply-templates select="table:table-row"/>
             </table>
         </table-wrap>
     </xsl:template>
